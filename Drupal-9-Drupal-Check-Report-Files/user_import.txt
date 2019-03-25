@@ -1,0 +1,120 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_import e5ab85e0f4aa4d656d61c1937559e55b258d35b8
+source : http://cgit.drupalcode.org/user_import 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   supported/content_profile.inc                      
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function node_load().           
+  151    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   supported/field.inc                                
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().  
+  49     Call to deprecated function user_load().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   supported/profile.inc                          
+ ------ ----------------------------------------------- 
+  49     Call to deprecated function db_update().       
+  62     Call to deprecated function db_query_range().  
+  79     Call to deprecated function db_query().        
+  87     Call to deprecated function db_insert().       
+  97     Call to deprecated function db_update().       
+  118    Call to deprecated function db_insert().       
+  125    Call to deprecated function db_update().       
+  149    Call to deprecated function db_query().        
+ ------ ----------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   supported/user.inc                                  
+ ------ ---------------------------------------------------- 
+  282    Call to deprecated function valid_email_address().  
+  332    Call to deprecated function db_query_range().       
+  352    Call to deprecated function db_insert().            
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   supported/user_import.inc                   
+ ------ -------------------------------------------- 
+  69     Call to deprecated function format_date().  
+  336    Call to deprecated function db_query().     
+ ------ -------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   user_import.admin.inc                                            
+ ------ ----------------------------------------------------------------- 
+  20     Call to deprecated function db_query().                          
+  23     Call to deprecated function db_select().                         
+  305    Call to deprecated function drupal_set_message().                
+  307    Call to deprecated function drupal_set_message().                
+  604    Call to deprecated function drupal_set_message().                
+  622    Call to deprecated function db_query_range().                    
+  629    Call to deprecated function drupal_set_message().                
+  642    Call to deprecated function drupal_set_message().                
+  650    Call to deprecated function drupal_set_message().                
+  798    Call to deprecated function db_delete().                         
+  845    Call to deprecated function db_query().                          
+  863    Call to deprecated function file_stream_wrapper_valid_scheme().  
+  864    Call to deprecated function drupal_set_message().                
+  980    Call to deprecated function drupal_set_message().                
+  1021   Call to deprecated function drupal_set_message().                
+  1034   Call to deprecated function db_query().                          
+  1049   Call to deprecated function db_query().                          
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   user_import.drush.inc                    
+ ------ ----------------------------------------- 
+  60     Call to deprecated function db_query().  
+  73     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   user_import.import.inc                         
+ ------ ----------------------------------------------- 
+  232    Call to deprecated function db_query_range().  
+  235    Call to deprecated function db_query_range().  
+  262    Call to deprecated function db_update().       
+  314    Call to deprecated function db_insert().       
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   user_import.module                                     
+ ------ ------------------------------------------------------- 
+  178    Call to deprecated function db_query().                
+  229    Call to deprecated function db_query().                
+  290    Call to deprecated function db_query().                
+  304    Call to deprecated function db_select().               
+  356    Call to deprecated function db_query().                
+  361    Call to deprecated function format_date().             
+  393    Call to deprecated function drupal_render().           
+  394    Call to deprecated function drupal_render().           
+  395    Call to deprecated function drupal_render().           
+  396    Call to deprecated function drupal_render().           
+  403    Call to deprecated function drupal_render().           
+  407    Call to deprecated function drupal_render().           
+  411    Call to deprecated function drupal_render().           
+  414    Call to deprecated function drupal_render_children().  
+  588    Call to deprecated function db_update().               
+  608    Call to deprecated function db_insert().               
+  643    Call to deprecated function db_query_range().          
+  660    Call to deprecated function db_query().                
+  682    Call to deprecated function db_query_range().          
+  692    Call to deprecated function db_delete().               
+  696    Call to deprecated function db_delete().               
+  706    Call to deprecated function db_query().                
+  797    Call to deprecated function db_query().                
+  805    Call to deprecated function drupal_set_message().      
+  808    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 66 errors                                                         
+
+ </code>

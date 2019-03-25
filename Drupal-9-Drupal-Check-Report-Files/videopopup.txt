@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/videopopup 90326e7c4be4f708b4b80ea9cd1c7f9e7aae2704
+source : http://cgit.drupalcode.org/videopopup 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/ImagePopup.php                                            
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\image_popup\Controller\ImagePopup was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/EditorImagePopupDialog.php                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\image_popup\FormditorImagePopupDialog was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/ImagePopup.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\image_popup\Plugin\CKEditorPlugin\ImagePopup was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ImagePopupFieldFormatter.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\image_popup\Plugin\Field\FieldFormatter\ImagePopupFieldFormatter  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

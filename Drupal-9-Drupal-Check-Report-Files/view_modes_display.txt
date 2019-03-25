@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/view_modes_display ce7c2b1c2ce92e159abc6e8ee5a6e7a4d820da8d
+source : http://cgit.drupalcode.org/view_modes_display 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/DefaultController.php                        
+ ------ ------------------------------------------------------------ 
+  53     Call to deprecated method entityManager() of class Drupal.  
+  82     Call to deprecated function entity_view().                  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

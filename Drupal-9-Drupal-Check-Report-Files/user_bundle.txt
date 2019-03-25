@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_bundle 7eb9a2fceac98f6e6d03593957ca8df328a2bb0b
+source : http://cgit.drupalcode.org/user_bundle 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/TypedUserController.php              
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  32     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  55     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/UserType.php                             
+ ------ ---------------------------------------------------- 
+  108    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/UserTypeForm.php                          
+ ------ ---------------------------------------------- 
+  112    Call to deprecated method link() of class     
+         Drupal\CorentityntityInterface.           
+  116    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   user_bundle.module                                          
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method url() of class Drupal.            
+  26     Call to deprecated method url() of class Drupal.            
+  27     Call to deprecated method url() of class Drupal.            
+  28     Call to deprecated method url() of class Drupal.            
+  73     Call to deprecated method l() of class Drupal.              
+  149    Call to deprecated method url() of class Drupal.            
+  260    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

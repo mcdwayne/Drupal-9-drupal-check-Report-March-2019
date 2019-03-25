@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_agent_class a87928761f0fc462d56ad9ce621a54fa91b24b1c
+source : http://cgit.drupalcode.org/user_agent_class 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeviceEntityDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeviceEntityForm.php                      
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserAgentEntityDeleteForm.php             
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserAgentEntityForm.php                   
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,106 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/varnish_purge 59574e241d4c5556ac0a16b048e8f75c2a74149e
+source : http://cgit.drupalcode.org/varnish_purge 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/varnish_image_purge/src/Form/VarnishImagePurgeConfiguration.php  
+ ------ ------------------------------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/varnish_purge_tags/src/Plugin/Purge/TagsHeader/CacheTags.php     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\TagsHeader\TagsHeaderBase not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/varnish_purge_tags/src/Tests/CacheTagsTest.php              
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\purge\Tests\KernelTestBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Entity/VarnishPurgerSettings.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\Purger\PurgerSettingsBase not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Form/VarnishBundledPurgerForm.php                                 
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalarnish_purger\Form\VarnishPurgerFormBase not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Form/VarnishPurgerForm.php                                        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalarnish_purger\Form\VarnishPurgerFormBase not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/VarnishPurgerFormBase.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge_ui\Form\PurgerConfigFormBase not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Purge/DiagnosticCheck/ConfigurationCheck.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Purge/Purger/VarnishBundledPurger.php                       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalarnish_purger\Plugin\Purge\Purger\VarnishPurgerBase not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Purge/Purger/VarnishPurger.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalarnish_purger\Plugin\Purge\Purger\VarnishPurgerBase not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Purge/Purger/VarnishPurgerBase.php                          
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\Purger\PurgerBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/VarnishBundledPurgerFormTest.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalarnish_purger\Tests\VarnishPurgerFormTestBase not found  
+         and could not be autoloaded.                                           
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/VarnishPurgerFormTest.php                                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalarnish_purger\Tests\VarnishPurgerFormTestBase not found  
+         and could not be autoloaded.                                           
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/VarnishPurgerFormTestBase.php                             
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\purge_ui\Tests\PurgerConfigFormTestBase not found and  
+         could not be autoloaded.                                            
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

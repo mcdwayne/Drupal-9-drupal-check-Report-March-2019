@@ -1,0 +1,10 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/url_replace_filter 7de98fa770a254357411c913db3c151ee9091782
+source : http://cgit.drupalcode.org/url_replace_filter 
+ 
+ <code> 
+Warning: require_once(core/includes/common.inc): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/url_replace_filter/tests/src/Unit/UrlReplaceFilterTest.php on line 10
+
+Fatal error: require_once(): Failed opening required 'core/includes/common.inc' (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/url_replace_filter/tests/src/Unit/UrlReplaceFilterTest.php on line 10 
+
+ </code>

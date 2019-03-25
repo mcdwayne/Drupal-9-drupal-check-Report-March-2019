@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/varbase_total_control 83ad6e66f3b10e416526fc16fcd245d3a64ac06d
+source : http://cgit.drupalcode.org/varbase_total_control 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Block/VarbaseContentOverview.php         
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated function node_type_get_types().  
+  44     Call to deprecated function db_query().             
+  53     Call to deprecated function db_query().             
+  60     Call to deprecated function db_query().             
+  73     Call to deprecated method l() of class Drupal.      
+  113    Call to deprecated function drupal_render().        
+  124    Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/VarbaseCreateContent.php              
+ ------ ------------------------------------------------------- 
+  27     Call to deprecated function node_type_get_types().     
+  30     Call to deprecated function drupal_get_destination().  
+  43     Call to deprecated method strtolower() of class        
+         Drupal\Component\Utility\Unicode.                      
+  49     Call to deprecated method l() of class Drupal.         
+  53     Call to deprecated method l() of class Drupal.         
+  63     Call to deprecated function drupal_render().           
+  74     Call to deprecated function node_type_get_types().     
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/VarbaseDashboardUser.php              
+ ------ ------------------------------------------------------- 
+  25     Call to deprecated function drupal_get_destination().  
+  30     Call to deprecated method getUsername() of class       
+         Drupal\userntity\User.                               
+  30     Call to deprecated method l() of class Drupal.         
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Block/VarbaseQuickLinks.php          
+ ------ ------------------------------------------------ 
+  25     Call to deprecated method l() of class Drupal.  
+  26     Call to deprecated method l() of class Drupal.  
+  27     Call to deprecated method l() of class Drupal.  
+  37     Call to deprecated function drupal_render().    
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

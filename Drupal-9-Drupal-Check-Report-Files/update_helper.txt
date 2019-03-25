@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/update_helper 4dbb4a024268aa96fd6a877faf2dcd5dac0cc5a8
+source : http://cgit.drupalcode.org/update_helper 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Command/GenerateConfigurationUpdateCommand.php                
+ ------ ------------------------------------------------------------------ 
+  138    Call to deprecated method confirmGeneration() of class            
+         Drupal\update_helper\Command\GenerateConfigurationUpdateCommand.  
+ ------ ------------------------------------------------------------------ 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,94 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_request f379cd69a79a6f750dd1cab3f9e47ecb099cd1e1
+source : http://cgit.drupalcode.org/user_request 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/Form/ResponseFormTest.php    
+ ------ ---------------------------------------------- 
+  162    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  175    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  184    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  189    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/TransitionFormAlterTest.php  
+ ------ ---------------------------------------------- 
+  180    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  189    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  198    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  210    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/RequestMockTrait.php (in context of class Drupal\Tests\user_request\Kernel\TransitionFormAlterTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  13     Call to deprecated method getMock() of class                                                                          
+         Drupal\KernelTests\KernelTestBase.                                                                                    
+  35     Call to deprecated method getMock() of class                                                                          
+         Drupal\KernelTests\KernelTestBase.                                                                                    
+  64     Call to deprecated method getMock() of class                                                                          
+         Drupal\KernelTests\KernelTestBase.                                                                                    
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/RequestMockTrait.php (in context of class Drupal\Tests\user_request\Unit\UnitTestCase)  
+ ------ --------------------------------------------------------------------------------------------------------- 
+  13     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                  
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                  
+  64     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                  
+ ------ --------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Access/AccessControlHandlerTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  24     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  36     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Access/AccessTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Access/FormAccessCheckTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EventSubscriber/SendMessageSubscriberTest.php             
+ ------ ------------------------------------------------------------------------- 
+  233    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Unit/Guard/RequestGuardTest.php                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\user_request\Guard\RequestGuardTest was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/UnitTestCase.php                                          
+ ------ ------------------------------------------------------------------------- 
+  19     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  43     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

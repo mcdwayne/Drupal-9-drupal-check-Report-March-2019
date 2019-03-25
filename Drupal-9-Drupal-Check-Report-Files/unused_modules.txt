@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/unused_modules 1c6a8ad07de923eacd1d5b7714026b02841a2c88
+source : http://cgit.drupalcode.org/unused_modules 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/UnusedModulesHelperService.php                 
+ ------ --------------------------------------------------- 
+  219    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   unused_modules.site_audit.inc                                       
+ ------ -------------------------------------------------------------------- 
+         Class SiteAuditCheckExtensionsUnused was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/username_validation 783d600ca113bdef96ec03a277c637878ea93220
+source : http://cgit.drupalcode.org/username_validation 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   username_validation.module                   
+ ------ --------------------------------------------- 
+  130    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

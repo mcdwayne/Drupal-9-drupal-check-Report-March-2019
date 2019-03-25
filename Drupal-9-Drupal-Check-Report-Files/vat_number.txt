@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/vat_number 9b2446f58ca41557b3932b9c6b2dd088e01e212b
+source : http://cgit.drupalcode.org/vat_number 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/VatNumberController.php           
+ ------ ------------------------------------------------- 
+  78     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  78     Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  79     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  79     Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

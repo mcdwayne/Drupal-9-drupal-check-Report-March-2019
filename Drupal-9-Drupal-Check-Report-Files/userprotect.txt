@@ -1,0 +1,160 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/userprotect 6f327069bcf1feddb0132d560d1a1a43abb2be17
+source : http://cgit.drupalcode.org/userprotect 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/ProtectionRuleListBuilder.php   
+ ------ ----------------------------------------------- 
+  30     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+  36     Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  36     Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/ProtectionRule.php                               
+ ------ ------------------------------------------------------------ 
+  130    Call to deprecated method entityManager() of class Drupal.  
+  141    Call to deprecated function entity_load().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProtectionRuleAddForm.php                 
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProtectionRuleDeleteForm.php              
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProtectionRuleEditForm.php                
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/ProtectionRuleFormBase.php         
+ ------ -------------------------------------------- 
+  65     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/Entity/ProtectionRuleUnitTest.php                           
+ ------ ---------------------------------------------------------------------- 
+  17     Class Drupal\userprotect\Testsntity\ProtectionRuleUnitTest extends  
+         deprecated class Drupal\simpletest\KernelTestBase.                    
+  42     Call to method setUp() of deprecated class                            
+         Drupal\simpletest\KernelTestBase.                                     
+  44     Call to deprecated function entity_create().                          
+  160    Call to deprecated function entity_create().                          
+  167    Call to deprecated function entity_create().                          
+  175    Call to deprecated function entity_create().                          
+  215    Call to deprecated function entity_create().                          
+  222    Call to deprecated function entity_create().                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Tests/ProtectedEntityDeleteTest.php     
+ ------ -------------------------------------------- 
+  32     Call to deprecated function entity_load().  
+  39     Call to deprecated function entity_load().  
+  58     Call to deprecated function entity_load().  
+  62     Call to deprecated function entity_load().  
+  66     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/ProtectionRuleBypassWebTest.php                   
+ ------ ------------------------------------------------------------ 
+  31     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Tests/ProtectionRuleCrudWebTest.php              
+ ------ ----------------------------------------------------- 
+  54     Call to deprecated function entity_load().           
+  80     Call to deprecated function entity_load().           
+  101    Call to deprecated function entity_load_multiple().  
+  107    Call to deprecated function entity_load().           
+  123    Call to deprecated method getUsername() of class     
+         Drupal\userntity\User.                             
+  129    Call to deprecated function entity_load().           
+  155    Call to deprecated function entity_load().           
+  169    Call to deprecated method getUsername() of class     
+         Drupal\userntity\User.                             
+  176    Call to deprecated function entity_load_multiple().  
+  182    Call to deprecated function entity_load().           
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/UserProtectWebTestBase.php             
+ ------ ------------------------------------------------- 
+  121    Call to deprecated function entity_create().     
+  122    Call to deprecated method format() of class      
+         Drupal\Component\Utility\SafeMarkup.             
+  122    Call to method format() of deprecated class      
+         Drupal\Component\Utility\SafeMarkup.             
+  178    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  178    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  187    Call to deprecated method format() of class      
+         Drupal\Component\Utility\SafeMarkup.             
+  187    Call to method format() of deprecated class      
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/UserProtectionPermissionsWebTest.php  
+ ------ ------------------------------------------------ 
+  38     Call to deprecated function entity_load().      
+  62     Call to deprecated function entity_load().      
+  84     Call to deprecated function entity_load().      
+  108    Call to deprecated function entity_load().      
+  135    Call to deprecated function entity_load().      
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   src/Tests/UserProtectionWebTest.php         
+ ------ -------------------------------------------- 
+  50     Call to deprecated function entity_load().  
+  69     Call to deprecated function entity_load().  
+  90     Call to deprecated function entity_load().  
+  109    Call to deprecated function entity_load().  
+  128    Call to deprecated function entity_load().  
+  140    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/UserProtection/UserProtectionBaseUnitTest.php      
+ ------ ------------------------------------------------------------------------- 
+  46     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/UserProtectUnitTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  20     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   userprotect.module                                     
+ ------ ------------------------------------------------------- 
+  25     Call to deprecated function entity_load().             
+  170    Call to deprecated function entity_delete_multiple().  
+  187    Call to deprecated function entity_delete_multiple().  
+  232    Call to deprecated function drupal_set_message().      
+  260    Call to deprecated function entity_load_multiple().    
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 58 errors                                                         
+
+ </code>

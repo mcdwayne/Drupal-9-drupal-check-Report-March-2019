@@ -1,0 +1,125 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ultimate_cron bb374c7c0228ada83372f544684ff31706e91d27
+source : http://cgit.drupalcode.org/ultimate_cron 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/CronSignal.php                        
+ ------ ------------------------------------------ 
+  19     Call to deprecated function db_select().  
+  42     Call to deprecated function db_update().  
+  49     Call to deprecated function db_delete().  
+  71     Call to deprecated function db_merge().   
+  90     Call to deprecated function db_delete().  
+  104    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Logger/LogEntry.php                           
+ ------ -------------------------------------------------- 
+  192    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Tests/CronJobInstallTest.php          
+ ------ ------------------------------------------ 
+  83     Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/CronJobKernelTest.php                      
+ ------ ------------------------------------------------------------ 
+  42     Call to deprecated function entity_create().                
+  45     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  46     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  52     Call to deprecated method entityManager() of class Drupal.  
+  53     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Kernel/CronJobTest.php                     
+ ------ ----------------------------------------------------- 
+  38     Call to deprecated function entity_create().         
+  42     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  45     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  51     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  61     Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  67     Call to deprecated function db_update().             
+  79     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  80     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  86     Call to deprecated function db_update().             
+  95     Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  96     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/LauncherPluginTest.php           
+ ------ -------------------------------------------------- 
+  30     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  34     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   tests/src/Kernel/LoggerPluginTest.php     
+ ------ ------------------------------------------ 
+  85     Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/SchedulerPluginTest.php          
+ ------ -------------------------------------------------- 
+  31     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  35     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  39     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/UltimateCronQueueTest.php        
+ ------ -------------------------------------------------- 
+  49     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  52     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  68     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  70     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  84     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  89     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  91     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  98     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  127    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  131    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  141    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  149    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 42 errors                                                         
+
+ </code>

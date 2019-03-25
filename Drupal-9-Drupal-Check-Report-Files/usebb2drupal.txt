@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/usebb2drupal bea02e39762a4a032b4809c8900f62f19f720d56
+source : http://cgit.drupalcode.org/usebb2drupal 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MigrateForm.php                           
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MigrateBatch.php                               
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/migrate/process/BBCodeToHTML.php      
+ ------ ------------------------------------------------- 
+  56     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  56     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/migrate/process/StringToUnicode.php  
+ ------ ------------------------------------------------ 
+  69     Call to deprecated method strlen() of class     
+         Drupal\Component\Utility\Unicode.               
+  69     Call to deprecated method strlen() of class     
+         Drupal\Component\Utility\Unicode.               
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   src/Plugin/migrate/source/User.php          
+ ------ -------------------------------------------- 
+  78     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/UseBBInfo.php                             
+ ------ ---------------------------------------------- 
+  43     Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/UseBBUrlTranslator.php                                
+ ------ ---------------------------------------------------------- 
+  235    Call to deprecated method lookupDestinationId() of class  
+         Drupal\migrate\Plugin\MigrateIdMapInterface.              
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

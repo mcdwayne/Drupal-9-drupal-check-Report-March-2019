@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/view_mode_selector 93d105f77d073ac9eb5253024058991aa3b10cf8
+source : http://cgit.drupalcode.org/view_mode_selector 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/ViewModeSelectorItem.php         
+ ------ ------------------------------------------------------------ 
+  83     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/ViewModeSelectorIcons.php      
+ ------ ------------------------------------------------------------ 
+  43     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/ViewModeSelectorWidgetBase.php  
+ ------ ------------------------------------------------------------- 
+  32     Call to deprecated method entityManager() of class Drupal.   
+  44     Call to deprecated method entityManager() of class Drupal.   
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   view_mode_selector.module                                   
+ ------ ------------------------------------------------------------ 
+  25     Call to deprecated method entityManager() of class Drupal.  
+  41     Call to deprecated method entityManager() of class Drupal.  
+  54     Call to deprecated method entityManager() of class Drupal.  
+  82     Call to deprecated function drupal_set_message().           
+  85     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

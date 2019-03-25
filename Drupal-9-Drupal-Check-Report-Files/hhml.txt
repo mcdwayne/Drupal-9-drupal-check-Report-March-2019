@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hhml 4a3364fee0f3658fbc51daac95fca59bf294d96e
+source : http://cgit.drupalcode.org/hhml 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HtmlHeadMetaAndLinkEntityDeleteForm.php   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HtmlHeadMetaAndLinkEntityForm.php         
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

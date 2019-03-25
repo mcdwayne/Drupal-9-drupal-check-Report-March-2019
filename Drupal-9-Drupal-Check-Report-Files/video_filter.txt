@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/video_filter a12c46181fc32bfb0d465339f97f3a767fcb69f5
+source : http://cgit.drupalcode.org/video_filter 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/Basics.php                      
+ ------ ----------------------------------------------------- 
+  32     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  35     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ultimenu 9dd139481f2c27cdc51a50f8cb0ab40ceba27781
+source : http://cgit.drupalcode.org/ultimenu 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/UltimenuManager.php                          
+ ------ ------------------------------------------------- 
+  299    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  355    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  677    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/UltimenuSettingsForm.php                       
+ ------ --------------------------------------------------- 
+  234    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   ultimenu.theme.inc                               
+ ------ ------------------------------------------------- 
+  119    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  131    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  136    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

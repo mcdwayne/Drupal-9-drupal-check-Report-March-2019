@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/username_check 33e2aa5a85eab342cc9e81d9af59ff8e2070f37a
+source : http://cgit.drupalcode.org/username_check 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/DefaultController.php                
+ ------ ---------------------------------------------------- 
+  36     Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  36     Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  40     Call to deprecated method l() of class Drupal.      
+  41     Call to deprecated method l() of class Drupal.      
+  59     Call to deprecated function db_query().             
+  80     Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  80     Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  112    Call to deprecated function db_query().             
+  118    Call to deprecated function valid_email_address().  
+  132    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  132    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  137    Call to deprecated method l() of class Drupal.      
+  138    Call to deprecated method l() of class Drupal.      
+  157    Call to deprecated function db_query().             
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   username_check.unique.inc                       
+ ------ ------------------------------------------------ 
+  33     Call to deprecated method l() of class Drupal.  
+  33     Call to deprecated method l() of class Drupal.  
+  48     Call to deprecated function db_query().         
+  102    Call to deprecated function db_query().         
+  137    Call to deprecated method l() of class Drupal.  
+  137    Call to deprecated method l() of class Drupal.  
+  152    Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

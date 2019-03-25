@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/update_external_links 8.x-1.0
+source : http://cgit.drupalcode.org/update_external_links 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   batch.inc                                          
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function node_load().           
+  86     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigurationForm.php                     
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

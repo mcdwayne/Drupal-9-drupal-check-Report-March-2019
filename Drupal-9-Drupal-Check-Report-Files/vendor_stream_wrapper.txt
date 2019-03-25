@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/vendor_stream_wrapper 06e6c68bd7899f3f4ab09b451c220c9c1163e99b
+source : https://cgit.drupalcode.org/vendor_stream_wrapper 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/VendorFileDownloadController.php  
+ ------ ------------------------------------------------- 
+  48     Syntax error, unexpected ':' on line 48          
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/StreamWrapper/VendorStreamWrapper.php                              
+ ------ ----------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in     
+         class Drupalendor_stream_wrapper\StreamWrapper\VendorStreamWrapper.  
+  37     Call to deprecated method url() of class                               
+         Drupalendor_stream_wrapper\StreamWrapper\VendorStreamWrapper.        
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/VendorStreamServiceTest.php                             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Testsendor_stream_wrapper\Kernel\VendorStreamWrapperServiceTes  
+         t was not found while trying to analyse it - autoloading is probably     
+         not configured properly.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_prune 2ed2c1e295dc635283d666e1c42e9629dbc9853b
+source : http://cgit.drupalcode.org/user_prune 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/UserPruneSettingsForm.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\User_prune\Form\UserPruneSettingsForm was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   user_prune.module                                  
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

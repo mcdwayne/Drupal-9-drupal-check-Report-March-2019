@@ -1,0 +1,236 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_guide_tests ec39d8c5af43144424955ed77807de4e74648389
+source : http://cgit.drupalcode.org/user_guide_tests 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/DBTableRenameFilter.php                 
+ ------ ----------------------------------------------------------------------- 
+         Class BackupMigrate\Core\Plugin\PluginBase not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ScreenshotTestBase.php                    
+ ------ ------------------------------------------------------------------------- 
+  103    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/UserGuideDemoTestBase.php               
+ ------ ----------------------------------------------------------------------- 
+  256    Call to deprecated function drupal_realpath().                         
+  625    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  627    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  656    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  662    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  722    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  723    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  724    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  725    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  726    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  732    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  778    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  794    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  796    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  797    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  798    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  855    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  898    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  948    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  949    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  950    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  951    Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  961    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  968    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  979    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  999    Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1003   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1029   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1037   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1038   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1138   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1285   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1349   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1370   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1371   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1445   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1468   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1469   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1470   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1513   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  1578   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1617   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1618   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1646   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  1649   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1665   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1666   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1667   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1668   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1698   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  1700   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1724   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1726   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1739   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1792   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1817   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1819   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1838   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1858   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1867   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1868   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1876   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1877   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1880   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1912   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1921   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1928   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1973   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  1987   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2021   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2038   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2059   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2072   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2073   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2077   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2085   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2087   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2126   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2164   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2167   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2168   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2177   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2210   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2212   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2224   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2226   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2231   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2328   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2439   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  2443   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  2466   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  2573   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2588   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2600   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  2670   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2721   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2754   Call to deprecated method assertLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                          
+  2756   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  2775   Call to deprecated method assertRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                          
+  3048   Class BackupMigrate\Core\Plugin\PluginBase not found and could not be  
+         autoloaded.                                                            
+  3071   Call to deprecated function drupal_realpath().                         
+  3123   Call to deprecated method getUsername() of class                       
+         Drupal\Core\Session\AccountInterface.                                  
+  3152   Call to deprecated function drupal_realpath().                         
+  3271   Call to deprecated method assertNotEqual() of class                    
+         Drupal\Tests\BrowserTestBase.                                          
+  3281   Call to deprecated method assertNotEqual() of class                    
+         Drupal\Tests\BrowserTestBase.                                          
+  3282   Call to deprecated method assertNotEqual() of class                    
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 108 errors                                                        
+
+ </code>

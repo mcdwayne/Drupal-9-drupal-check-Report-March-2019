@@ -1,0 +1,76 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_alert a7448c6e8054213632ac77f0c619aadf7676f1cf
+source : http://cgit.drupalcode.org/user_alert 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/UserAlertController.php              
+ ------ ---------------------------------------------------- 
+  78     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  85     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  86     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  113    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/UserAlertDeleteForm.php            
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/UserAlertForm.php                  
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserAlertTypeDeleteForm.php               
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserAlertTypeForm.php                     
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+  103    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/UserAlertListBuilder.php                                         
+ ------ --------------------------------------------------------------------- 
+  26     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\user_alert\UserAlertListBuilder.                        
+  76     Call to deprecated method l() of class                               
+         Drupal\user_alert\UserAlertListBuilder.                              
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/UserAlertTypeListBuilder.php               
+ ------ ----------------------------------------------- 
+  30     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   user_alert.module                               
+ ------ ------------------------------------------------ 
+  33     Call to deprecated method l() of class Drupal.  
+  80     Call to deprecated function db_query().         
+  83     Call to deprecated function node_load().        
+  98     Call to deprecated function node_load().        
+  103    Call to deprecated function db_insert().        
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/vbsso f2b7924fe11a401066e08fed6ec49c7dc2bcef99
+source : http://cgit.drupalcode.org/vbsso 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   functions.php                                      
+ ------ --------------------------------------------------- 
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VbssoForm.php                             
+ ------ --------------------------------------------------- 
+  234    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   vbsso7.module                             
+ ------ ------------------------------------------ 
+  98     Call to deprecated function user_load().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInit7379bc10e98798e16aa0ad8bdf6b85ff was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/composer/autoload_static.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Composer\Autoload\ComposerStaticInit7379bc10e98798e16aa0ad8bdf6b85ff    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

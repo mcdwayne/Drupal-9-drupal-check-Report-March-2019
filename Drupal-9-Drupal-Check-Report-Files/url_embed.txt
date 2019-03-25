@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/url_embed 66b7178a3b17e1d3e5fed4cda284414954f0c0c4
+source : http://cgit.drupalcode.org/url_embed 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/LinkEmbedFormatterTest.php         
+ ------ -------------------------------------------------------- 
+  36     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  38     Call to deprecated function entity_create().            
+  45     Call to deprecated function entity_create().            
+  53     Call to deprecated function entity_get_form_display().  
+  62     Call to deprecated function entity_get_display().       
+  96     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

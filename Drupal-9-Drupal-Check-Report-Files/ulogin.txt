@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ulogin 4e102b972f7ad0ff6f9d24ef0df16391e439640d
+source : http://cgit.drupalcode.org/ulogin 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/UloginController.php                
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+  104    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  495    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserIdentityDelete.php                    
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

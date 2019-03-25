@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/userqueue 1af72401d2adae6e9c67412f6ba290274c26781d
+source : http://cgit.drupalcode.org/userqueue 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/UserQueueList.php                
+ ------ ------------------------------------------------ 
+  98     Call to deprecated method l() of class Drupal.  
+  99     Call to deprecated method l() of class Drupal.  
+  105    Call to deprecated method l() of class Drupal.  
+  106    Call to deprecated method l() of class Drupal.  
+  107    Call to deprecated method l() of class Drupal.  
+  108    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/UserQueueShowList.php            
+ ------ ------------------------------------------------ 
+  130    Call to deprecated method l() of class Drupal.  
+  131    Call to deprecated method l() of class Drupal.  
+  132    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/UserQueueBottomConfirmForm.php   
+ ------ ------------------------------------------ 
+  94     Call to deprecated function db_select().  
+  104    Call to deprecated function db_select().  
+  112    Call to deprecated function db_update().  
+  118    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserQueueDeletConfirmForm.php             
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserQueueForm.php                         
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function db_update().           
+  107    Call to deprecated function drupal_set_message().  
+  113    Call to deprecated function db_insert().           
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserQueueRemoveConfirmForm.php            
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function db_select().           
+  106    Call to deprecated function db_update().           
+  112    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/UserQueueTopConfirmForm.php      
+ ------ ------------------------------------------ 
+  94     Call to deprecated function db_select().  
+  102    Call to deprecated function db_update().  
+  108    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/UserQueueViewForm.php            
+ ------ ------------------------------------------ 
+  66     Call to deprecated function db_select().  
+  73     Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   userqueue.module                          
+ ------ ------------------------------------------ 
+  25     Call to deprecated function db_select().  
+  38     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

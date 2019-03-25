@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/username_policy b6d2ec9c595b141a0becbfcfad3a3374cdd939ca
+source : http://cgit.drupalcode.org/username_policy 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/UserNamePatternConfigForm.php                      
+ ------ ------------------------------------------------------------ 
+  107    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/UserNamePatternConstraintValidator.php  
+ ------ ------------------------------------------------------------------------- 
+  52     Call to deprecated method strlen() of class                              
+         Drupal\Component\Utility\Unicode.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

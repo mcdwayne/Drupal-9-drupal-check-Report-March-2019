@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/upgrade_tool 89bc11c420f457d5c633797c490e357a74942eff
+source : http://cgit.drupalcode.org/upgrade_tool 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UpgradeLogForm.php                        
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/UpgradeLogListBuilder.php                                        
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\upgrade_tool\UpgradeLogListBuilder.                     
+  34     Call to deprecated method l() of class                               
+         Drupal\upgrade_tool\UpgradeLogListBuilder.                           
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

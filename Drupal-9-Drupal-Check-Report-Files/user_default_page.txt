@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_default_page 8.x-2.0-rc1
+source : http://cgit.drupalcode.org/user_default_page 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/UserDefaultPageConfigEntityDeleteForm.php  
+ ------ ---------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserDefaultPageConfigEntityForm.php       
+ ------ --------------------------------------------------- 
+  237    Call to deprecated function drupal_set_message().  
+  248    Call to deprecated function drupal_set_message().  
+  257    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   user_default_page.module                           
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

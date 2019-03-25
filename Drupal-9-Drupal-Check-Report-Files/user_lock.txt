@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_lock 3ed4de3f0822e0811d595dc08c867f6e14f2781a
+source : http://cgit.drupalcode.org/user_lock 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/UserLockSubscriber.php         
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserLockConfigEntityDeleteForm.php        
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserLockConfigEntityForm.php              
+ ------ --------------------------------------------------- 
+  135    Call to deprecated method l() of class Drupal.     
+  137    Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  174    Call to deprecated function drupal_set_message().  
+  180    Call to deprecated function drupal_set_message().  
+  184    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

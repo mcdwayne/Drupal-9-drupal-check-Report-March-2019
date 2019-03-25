@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_attendance 266c47ea867e77202614a44b6e612c15ff5c33b6
+source : http://cgit.drupalcode.org/user_attendance 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserAttendanceForm.php                    
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserAttendanceTypeDeleteForm.php          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserAttendanceTypeForm.php                
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/UserAttendanceListBuilder.php                                    
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\user_attendance\UserAttendanceListBuilder.              
+  38     Call to deprecated method l() of class                               
+         Drupal\user_attendance\UserAttendanceListBuilder.                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

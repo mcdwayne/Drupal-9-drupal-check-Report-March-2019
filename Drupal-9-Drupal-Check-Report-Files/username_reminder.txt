@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/username_reminder 36581935baf9370c85bc484fee09c8289d5720d1
+source : http://cgit.drupalcode.org/username_reminder 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UsernameReminderForm.php                  
+ ------ --------------------------------------------------- 
+  144    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   username_reminder.module                        
+ ------ ------------------------------------------------ 
+  55     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

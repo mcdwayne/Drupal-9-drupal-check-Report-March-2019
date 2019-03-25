@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/personas c6a6549a3c8a7ed3fce0f9e91217e0ed766c85b3
+source : http://cgit.drupalcode.org/personas 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PersonaDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PersonaForm.php                           
+ ------ --------------------------------------------------- 
+  60     Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  63     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

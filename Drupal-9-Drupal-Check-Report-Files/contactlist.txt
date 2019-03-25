@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contactlist aa59ecd815580f5728e069781136ba14b3ac23a2
+source : https://cgit.drupalcode.org/contactlist 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ContactListController.php                      
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/AdminSettingsForm.php                                     
+ ------ ------------------------------------------------------------------- 
+  140    Call to deprecated function drupal_set_message().                  
+  141    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactGroupForm.php                      
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactListEntryForm.php                  
+ ------ --------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/ImportFormBase.php                                 
+ ------ ------------------------------------------------------------ 
+  98     Call to deprecated method entityManager() of class Drupal.  
+  181    Call to deprecated function drupal_set_message().           
+  259    Call to deprecated function drupal_set_message().           
+  269    Call to deprecated function drupal_set_message().           
+  274    Call to deprecated function drupal_set_message().           
+  278    Call to deprecated function drupal_set_message().           
+  282    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/QuickImportForm.php                                       
+ ------ ------------------------------------------------------------------- 
+  29     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  34     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

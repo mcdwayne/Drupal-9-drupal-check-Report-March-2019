@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/viewerjs a09062a355529cbe26003db05c668b2b51c57722
+source : http://cgit.drupalcode.org/viewerjs 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   viewerjs.module                                    
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function libraries_get_path().  
+  43     Call to deprecated function drupal_get_profile().  
+  92     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  92     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  95     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  95     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

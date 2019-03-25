@@ -1,0 +1,107 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_aggregator 99c0b2d48db42d70af3390fa4d3ce0bc3c505f34
+source : http://cgit.drupalcode.org/views_aggregator 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/Plugin/ViewsAggregatorResultsTest.php  
+ ------ ------------------------------------------------------------ 
+  69     Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  78     Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  88     Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  89     Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  100    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  101    Call to deprecated method assertNoFieldByXPath() of class   
+         Drupal\Tests\BrowserTestBase.                               
+  111    Call to deprecated method assertNoFieldByXPath() of class   
+         Drupal\Tests\BrowserTestBase.                               
+  112    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  125    Call to deprecated method assertNoUniqueText() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  128    Call to deprecated method assertNoFieldByXPath() of class   
+         Drupal\Tests\BrowserTestBase.                               
+  147    Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  149    Call to deprecated method assertUniqueText() of class       
+         Drupal\Tests\BrowserTestBase.                               
+  151    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  161    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  164    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  174    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  182    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  191    Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  200    Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  208    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  216    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  224    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+  232    Call to deprecated method assertFieldByXPath() of class     
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/src/Functional/Plugin/ViewsAggregatorStyleTableTest.php  
+ ------ --------------------------------------------------------------- 
+  62     Call to deprecated method assertEqual() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  66     Call to deprecated method assertEqual() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  127    Call to deprecated function db_insert().                       
+  160    Call to deprecated method assertEqual() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  163    Call to deprecated method assertEqual() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  212    Call to deprecated method assertNoRaw() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  216    Call to deprecated method assertEscaped() of class             
+         Drupal\Tests\BrowserTestBase.                                  
+  234    Call to deprecated method assertNoRaw() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  238    Call to deprecated method assertEscaped() of class             
+         Drupal\Tests\BrowserTestBase.                                  
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/src/Kernel/Plugin/ViewsAggregatorStyleTableUnitTest.php  
+ ------ --------------------------------------------------------------- 
+  93     Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  94     Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  103    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  104    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  114    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  115    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  125    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  126    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  136    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+  137    Call to deprecated method assertIdentical() of class           
+         Drupal\KernelTests\KernelTestBase.                             
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 42 errors                                                         
+
+ </code>

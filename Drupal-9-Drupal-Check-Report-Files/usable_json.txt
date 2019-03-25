@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/usable_json b63235c9f23cb7c03521ebcdee3bea70dd9922d8
+source : http://cgit.drupalcode.org/usable_json 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Authentication/Provider/ApiKey.php       
+ ------ --------------------------------------------- 
+  100    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  100    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Normalizer/ImageItemNormalizerTrait.php (in context of class Drupal\usable_json\Normalizer\ImageItemNormalizer)  
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  37     Call to deprecated method url() of class Drupalilentity\File.                                                    
+  144    Call to deprecated method substr() of class                                                                          
+         Drupal\Component\Utility\Unicode.                                                                                    
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Normalizer/ImageItemNormalizerTrait.php (in context of class Drupal\usable_json\Normalizer\LinkItemNormalizer)  
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  37     Call to deprecated method url() of class Drupalilentity\File.                                                   
+  144    Call to deprecated method substr() of class                                                                         
+         Drupal\Component\Utility\Unicode.                                                                                   
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

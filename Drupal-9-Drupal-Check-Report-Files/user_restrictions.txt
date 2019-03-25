@@ -1,0 +1,81 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_restrictions 4b3cab782ea9ca56ce21d088e8212d52c7e7ef33
+source : http://cgit.drupalcode.org/user_restrictions 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserRestrictionsAddForm.php               
+ ------ --------------------------------------------------- 
+  17     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/UserRestrictionType/ClientIp.php  
+ ------ --------------------------------------------- 
+  50     Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/UserRestrictionType/Email.php     
+ ------ --------------------------------------------- 
+  33     Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/UserRestrictionType/Name.php      
+ ------ --------------------------------------------- 
+  33     Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/UserRestrictionsBasicTest.php  
+ ------ ---------------------------------------------------- 
+  39     Call to deprecated method assertEqual() of class    
+         Drupal\Tests\BrowserTestBase.                       
+  40     Call to deprecated method assertEqual() of class    
+         Drupal\Tests\BrowserTestBase.                       
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/UserRestrictionsExpireTest.php  
+ ------ ----------------------------------------------------- 
+  22     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/UserRestrictionsLoginTest.php  
+ ------ ---------------------------------------------------- 
+  25     Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  25     Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  26     Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+  39     Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+  53     Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  53     Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  54     Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+  67     Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+  81     Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+  95     Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  95     Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  96     Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_badges 8.x-1.0-beta2
+source : http://cgit.drupalcode.org/user_badges 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/BadgeListBuilder.php                                             
+ ------ --------------------------------------------------------------------- 
+  22     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\user_badges\BadgeListBuilder.                           
+  56     Call to deprecated function drupal_render().                         
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/BadgeController.php                  
+ ------ ---------------------------------------------------- 
+  36     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  37     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  39     Call to deprecated method l() of class Drupal.      
+  61     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/BadgeDeleteForm.php                
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/BadgeForm.php                      
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BadgeTypeDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BadgeTypeForm.php                         
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/AssignBadge.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/RemoveBadge.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

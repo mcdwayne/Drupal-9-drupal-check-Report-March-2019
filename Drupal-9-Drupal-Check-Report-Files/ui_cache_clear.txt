@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ui_cache_clear 021aefc672bb41bb273fac5ab07c73806723a37a
+source : http://cgit.drupalcode.org/ui_cache_clear 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/ui_cache_clear/Form/UICacheClearSettingsForm.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\ui_cache_clear\Form\UICacheClearSettingsForm was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   ui_cache_clear.module                                  
+ ------ ------------------------------------------------------- 
+  91     Call to deprecated function drupal_get_destination().  
+  179    Call to deprecated function drupal_set_message().      
+  182    Call to deprecated function entity_load().             
+  195    Call to deprecated function drupal_set_message().      
+  222    Call to deprecated function drupal_set_message().      
+  268    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

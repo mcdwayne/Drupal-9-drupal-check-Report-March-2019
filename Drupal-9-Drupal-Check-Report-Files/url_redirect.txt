@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/url_redirect 4dfceec41eee3356e600a247bc242a59b5bafa56
+source : http://cgit.drupalcode.org/url_redirect 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/UrlRedirectListBuilder.php      
+ ------ ----------------------------------------------- 
+  47     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/RedirectSubscriber.php         
+ ------ --------------------------------------------------- 
+  202    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UrlRedirectDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UrlRedirectForm.php                       
+ ------ --------------------------------------------------- 
+  205    Call to deprecated function drupal_set_message().  
+  210    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/UrlRedirectNegateTest.php    
+ ------ -------------------------------------------------- 
+  125    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

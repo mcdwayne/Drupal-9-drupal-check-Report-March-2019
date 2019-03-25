@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_revision 42edc37f3f0169e07587acc89cd3000c35d6c1b0
+source : http://cgit.drupalcode.org/user_revision 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/UserController.php                   
+ ------ ---------------------------------------------------- 
+  62     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  89     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+  92     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  102    Call to deprecated function drupal_render().        
+  177    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  182    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  196    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  197    Call to deprecated function format_date().          
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserRevisionDeleteForm.php                
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function format_date().         
+  102    Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserRevisionRevertForm.php                
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function format_date().         
+  113    Call to deprecated function format_date().         
+  117    Call to deprecated function drupal_set_message().  
+  117    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   user_revision.module                                        
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated method setQueryable() of class           
+         Drupal\Core\Field\BaseFieldDefinition.                      
+  46     Call to deprecated method setQueryable() of class           
+         Drupal\Core\Field\BaseFieldDefinition.                      
+  250    Call to deprecated method entityManager() of class Drupal.  
+  251    Call to deprecated function db_query().                     
+  264    Call to deprecated method entityManager() of class Drupal.  
+  265    Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

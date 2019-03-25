@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_expire 999389424b780c07ca278a3c831d7424786daf50
+source : https://git.drupal.org/project/user_expire.git 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/UserExpire.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   user_expire.module                                 
+ ------ --------------------------------------------------- 
+  223    Call to deprecated function drupal_set_message().  
+  279    Call to deprecated function drupal_set_message().  
+  283    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_chooser a1bbfbe6c1ec289b166d926393685d1ab3190c94
+source : http://cgit.drupalcode.org/user_chooser 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/user_chooser/Form/AdminForm.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\user_chooser\Form\AdminForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   uchoo.inc                                          
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated function user_load_multiple().  
+  131    Call to deprecated function drupal_set_message().  
+  140    Call to deprecated function db_select().           
+  147    Call to deprecated function db_or().               
+  149    Call to deprecated function db_like().             
+  191    Call to deprecated function db_or().               
+  195    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   user_chooser.module                                
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function db_or().               
+  171    Call to deprecated function user_load().           
+  180    Call to deprecated function user_load().           
+  191    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/urban_airship_web_push_notifications 54bea4174d43a6b9f6cdf9cf57c83a96ab93efb7
+source : http://cgit.drupalcode.org/urban_airship_web_push_notifications 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Helper/Notification.php                       
+ ------ -------------------------------------------------- 
+  72     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  74     Call to deprecated function db_insert().          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Helper/Reports.php                      
+ ------ -------------------------------------------- 
+  17     Call to deprecated function db_select().    
+  23     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/UrbanAirshipWebNotify.php                    
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

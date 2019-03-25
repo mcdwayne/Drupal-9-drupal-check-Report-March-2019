@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/video_embed_field 2bedf2b322b0885cfc4bd59254744d37f79ceed7
+source : http://cgit.drupalcode.org/video_embed_field 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/video_embed_media/tests/src/Functional/BundleTest.php  
+ ------ --------------------------------------------------------------- 
+  52     Call to deprecated function entity_get_form_display().         
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/video_embed_wysiwyg/tests/src/FunctionalJavascript/EmbedDialogTest.php  
+ ------ -------------------------------------------------------------------------------- 
+  13     Class                                                                           
+         Drupal\Testsideo_embed_wysiwyg\FunctionalJavascriptmbedDialogTest           
+         extends deprecated class                                                        
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                            
+  15     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in         
+         class                                                                           
+         Drupal\Testsideo_embed_wysiwyg\FunctionalJavascriptmbedDialogTest.          
+  43     Call to method setUp() of deprecated class                                      
+         Drupal\Tests\BrowserTestBase.                                                   
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/cckfield/EmvideoField.php                         
+ ------ --------------------------------------------------------------------- 
+  19     Class Drupalideo_embed_field\Plugin\migrate

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/update_runner 14773ccc97949b0142534593f5a8427729a4cd22
+source : http://cgit.drupalcode.org/update_runner 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UpdateRunnerJobForm.php                   
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UpdateRunnerProcessorDeleteForm.php       
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UpdateRunnerProcessorForm.php             
+ ------ --------------------------------------------------- 
+  168    Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/user_active_indicator 8e3f1449c1e9aa6c7a8ed2bd72edc34aba035d3a
+source : http://cgit.drupalcode.org/user_active_indicator 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/form/UserActiveIndicatorConfigurationForm.php                       
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\user_active_indicator\Form\UserActiveIndicatorConfigurationForm  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   user_active_indicator.module             
+ ------ ----------------------------------------- 
+  93     Calls to function kpr should not exist.  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>
