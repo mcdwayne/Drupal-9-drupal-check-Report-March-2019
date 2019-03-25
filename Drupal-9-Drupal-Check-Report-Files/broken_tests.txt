@@ -1,0 +1,77 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/broken_tests 5f7cc0b2689f4ef2504c2dcecd186fc893335fe6
+source : http://cgit.drupalcode.org/broken_tests 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/AbstractChildTest.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\AbstractChildTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/AbstractTestBase.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\AbstractTestBase was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/AbstractWithMethodChildTest.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\AbstractWithMethodChildTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/AbstractWithMethodTestBase.php        
+ ------ -------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\AbstractWithMethodTestBase was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/GetInfolessTest.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\GetInfolessTest was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/NonAbstractChildTest.php               
+ ------ --------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\NonAbstractChildTest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/NonAbstractTestBase.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\NonAbstractTestBase was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/broken_tests/Tests/NonAbstractWithMethodChildTest.php        
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalroken_tests\Tests\NonAbstractWithMethodChildTest was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/broken_tests/Tests/NonAbstractWithMethodTestBase.php        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalroken_tests\Tests\NonAbstractWithMethodTestBase was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bulk_invite 9de362af8409fb0c32bb2ca3978933569487e4a5
+source : http://cgit.drupalcode.org/bulk_invite 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/UsersInvitedController.php          
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+  169    Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BulkInviteForm.php                        
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

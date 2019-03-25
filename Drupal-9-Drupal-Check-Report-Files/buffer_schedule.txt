@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/buffer_schedule 8.x-0.0-alpha1
+source : http://cgit.drupalcode.org/buffer_schedule 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   buffer_schedule.module                               
+ ------ ----------------------------------------------------- 
+  53     Call to deprecated function entity_load().           
+  66     Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Entity/Schedule.php                     
+ ------ -------------------------------------------- 
+  262    Call to deprecated function entity_load().  
+  274    Call to deprecated function entity_load().  
+  296    Call to deprecated function entity_load().  
+  308    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduleForm.php                          
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

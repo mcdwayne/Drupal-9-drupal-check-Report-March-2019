@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_bulk_upload 3b4d49a925420538df0202faaf7360f9955c4af3
+source : http://cgit.drupalcode.org/media_entity_bulk_upload 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BulkForm.php                              
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Utility/FieldUtility.php                                
+ ------ ------------------------------------------------------------ 
+  14     Call to deprecated method entityManager() of class Drupal.  
+  31     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

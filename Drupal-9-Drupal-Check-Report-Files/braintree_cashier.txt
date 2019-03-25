@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/braintree_cashier 0cf317bfb460318529df4203c0d069ad032cc351
+source : http://cgit.drupalcode.org/braintree_cashier 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/SingleInvoiceController.php        
+ ------ -------------------------------------------------- 
+  221    Call to deprecated method getUsername() of class  
+         Drupal\user\Entity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

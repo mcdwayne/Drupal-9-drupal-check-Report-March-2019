@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/byu_faculty_directory 6eee0093f41727000f71da7d205fe1cc7a77b7cc
+source : http://cgit.drupalcode.org/byu_faculty_directory 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   byu_faculty_directory.module                                       
+ ------ ------------------------------------------------------------------- 
+  30     Call to deprecated method url() of class Drupalile\Entity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/BYUFacultyDirectoryForm.php                               
+ ------ ------------------------------------------------------------------- 
+  307    Call to deprecated function drupal_set_message().                  
+  318    Call to deprecated function drupal_set_message().                  
+  338    Call to deprecated function drupal_set_message().                  
+  339    Call to deprecated function drupal_set_message().                  
+  339    Call to deprecated method url() of class Drupalile\Entity\File.  
+  368    Call to deprecated function drupal_set_message().                  
+  372    Call to deprecated function drupal_set_message().                  
+  376    Call to deprecated function drupal_set_message().                  
+  380    Call to deprecated function drupal_set_message().                  
+  385    Call to deprecated function drupal_set_message().                  
+  392    Call to deprecated function drupal_set_message().                  
+  394    Call to deprecated function drupal_set_message().                  
+  400    Call to deprecated function drupal_set_message().                  
+  402    Call to deprecated function drupal_set_message().                  
+  413    Call to deprecated function drupal_set_message().                  
+  423    Call to deprecated function drupal_set_message().                  
+  425    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInit029de7c5dfd2975b6e3800b149fe036c was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

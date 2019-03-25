@@ -1,0 +1,81 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bynder 7d6496e25f9a8d7a0aad41c2129385f7ff773e30
+source : http://cgit.drupalcode.org/bynder 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Exception/BynderException.php                  
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/BynderSearch.php   
+ ------ --------------------------------------------------- 
+  518    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/BynderUpload.php   
+ ------ --------------------------------------------------- 
+  350    Call to deprecated function drupal_set_message().  
+  367    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/media/Source/Bynder.php                 
+ ------ --------------------------------------------------- 
+  249    Call to deprecated function drupal_set_message().  
+  254    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/BynderSearchWidgetTest.php              
+ ------ ----------------------------------------------------------------------- 
+  17     Class Drupal\Testsynder\FunctionalJavascript\BynderSearchWidgetTest  
+         extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                   
+  41     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/BynderUploadWidgetTest.php              
+ ------ ----------------------------------------------------------------------- 
+  24     Class Drupal\Testsynder\FunctionalJavascript\BynderUploadWidgetTest  
+         extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                   
+  49     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/BynderUsageTest.php                      
+ ------ ------------------------------------------------------------------------ 
+  14     Class Drupal\Testsynder\FunctionalJavascript\BynderUsageTest extends  
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.   
+  46     Call to method setUp() of deprecated class                              
+         Drupal\Tests\BrowserTestBase.                                           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ConfigurationFormTest.php              
+ ------ ---------------------------------------------------------------------- 
+  12     Class Drupal\Testsynder\FunctionalJavascript\ConfigurationFormTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+  23     Call to method setUp() of deprecated class                            
+         Drupal\Tests\BrowserTestBase.                                         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/BynderApiUnitTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  36     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

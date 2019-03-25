@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/browser_push_notification b90561782d419e5fc2fd352901b708c3eeebd42c
+source : https://cgit.drupalcode.org/browser_push_notification 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PushNotificationForm.php                  
+ ------ --------------------------------------------------- 
+  118    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Model/SubscriptionsDatastorage.php             
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function db_select().           
+  41     Call to deprecated function db_insert().           
+  46     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

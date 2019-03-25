@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/be_ixf_drupal 8.x-1.0-beta12
+source : https://cgit.drupalcode.org/brightedge 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/HelloController.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\hello_world\Controller\HelloController was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Factory/BrightEdgeFactory.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupale_ixf_drupal\Factory\BrightEdgeIXFPHPClient was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Service/BrightEdgeService.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalrightedge\Service\BrightedgeService was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

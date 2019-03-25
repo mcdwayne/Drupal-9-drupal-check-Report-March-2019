@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bundle_override 8.x-2.3
+source : http://cgit.drupalcode.org/bundle_override 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   modules/bundle_override_user/src/Plugin/bundle_override/EntityTypes/user/UserB.php  
+ ------ ------------------------------------------------------------------------------------ 
+         Class Drupal\user_bundle\Entity\TypedUser not found and could not be                
+         autoloaded.                                                                         
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------- 
+  Line   modules/bundle_override_user/src/Plugin/bundle_override/EntityTypes/user/UserBStorage.php  
+ ------ ------------------------------------------------------------------------------------------- 
+         Class Drupal\user_bundle\TypedUserStorage not found and could not be                       
+         autoloaded.                                                                                
+ ------ ------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

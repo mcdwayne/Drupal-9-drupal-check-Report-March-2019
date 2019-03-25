@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/brew_tools 8.x-1.0
+source : http://cgit.drupalcode.org/brew_tools 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   include/brew_tools_calculations_class.inc                               
+ ------ ------------------------------------------------------------------------ 
+         Class Calculate was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Block/BoilTimeBlock.php            
+ ------ ---------------------------------------------- 
+  32     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Block/CalcAbvBlock.php             
+ ------ ---------------------------------------------- 
+  32     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Block/PlatoGravBlock.php           
+ ------ ---------------------------------------------- 
+  32     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Block/StrikeTempBlock.php          
+ ------ ---------------------------------------------- 
+  32     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/breadcrumb_extra_field e82c19225b25456b9e79b616c6010a7ae147efd7
+source : http://cgit.drupalcode.org/breadcrumb_extra_field 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   breadcrumb_extra_field.module                               
+ ------ ------------------------------------------------------------ 
+  28     Call to deprecated method entityManager() of class Drupal.  
+  32     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/BreadcrumbExtraFieldSettingsForm.php               
+ ------ ------------------------------------------------------------ 
+  26     Call to deprecated method entityManager() of class Drupal.  
+  44     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/BreadcrumbExtraFieldTest.php  
+ ------ --------------------------------------------------- 
+  109    Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bueditor 0313a351dc937f3ef98496b8e26d4a010b872e60
+source : http://cgit.drupalcode.org/bueditor 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BUEditorButtonDeleteForm.php              
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BUEditorButtonForm.php                    
+ ------ --------------------------------------------------- 
+  198    Call to deprecated function drupal_set_message().  
+  201    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BUEditorEditorDeleteForm.php              
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BUEditorEditorForm.php                    
+ ------ --------------------------------------------------- 
+  170    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/BUEditorPlugin/XPreview.php             
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

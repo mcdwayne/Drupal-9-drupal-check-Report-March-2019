@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bulk_delete_301 c1bb0c28a31015904b07dfebdf101cfa371d4d80
+source : http://cgit.drupalcode.org/bulk_delete_301 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   bulk_delete_301.module                             
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  42     Call to deprecated function drupal_set_message().  
+  47     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function db_select().           
+  95     Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Form/bulk_delete_301_form.php        
+ ------ ----------------------------------------- 
+  88     Syntax error, unexpected '}' on line 88  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>
