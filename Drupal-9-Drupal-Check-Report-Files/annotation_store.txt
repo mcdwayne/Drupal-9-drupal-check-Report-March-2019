@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/annotation_store e9499ca20abce5dc8de16fddd6f123c19a45be61
+source : http://cgit.drupalcode.org/annotation_store 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/AnnotationStoreController.php  
+ ------ ---------------------------------------------- 
+  102    Call to deprecated function entity_create().  
+  150    Call to deprecated function entity_load().    
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Entity/Controller/AnnotationStoreListBuilder.php  
+ ------ ------------------------------------------------------ 
+  98     Call to deprecated method link() of class             
+         Drupal\Core\Entity\EntityInterface.                   
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,166 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/akismet 1d072cde4159f02a7d5f4fbee38921585edaa74f
+source : http://cgit.drupalcode.org/akismet 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   akismet.module                                              
+ ------ ------------------------------------------------------------ 
+  92     Call to deprecated method substr() of class                 
+         Drupal\Component\Utility\Unicode.                           
+  387    Call to deprecated function db_query().                     
+  570    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Client/DrupalClient.php                        
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_get_profile().  
+  227    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FormController.php                           
+ ------ ------------------------------------------------------------ 
+  232    Call to deprecated method getUsername() of class            
+         Drupal\user\Entity\User.                                    
+  415    Call to deprecated method entityManager() of class Drupal.  
+  501    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  501    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  512    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  512    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  524    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  524    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/EntityReportAccessManager.php                           
+ ------ ------------------------------------------------------------ 
+  35     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/ActionsTest.php                                   
+ ------ ------------------------------------------------------------ 
+  58     Call to deprecated method entityManager() of class Drupal.  
+  87     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/AkismetTestBase.php                               
+ ------ ------------------------------------------------------------ 
+  434    Call to deprecated method entityManager() of class Drupal.  
+  675    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/AnalysisOptionsTest.php                           
+ ------ ------------------------------------------------------------ 
+  232    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/BlacklistTest.php                      
+ ------ ------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  88     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  186    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  206    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/CommentFormTest.php                               
+ ------ ------------------------------------------------------------ 
+  246    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/FormConfigurationTest.php                         
+ ------ ------------------------------------------------------------ 
+  322    Call to deprecated method entityManager() of class Drupal.  
+  350    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/ModerateUserTest.php                              
+ ------ ------------------------------------------------------------ 
+  101    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/ReportingTest.php                                 
+ ------ ------------------------------------------------------------ 
+  37     Call to deprecated method entityManager() of class Drupal.  
+  78     Call to deprecated method entityManager() of class Drupal.  
+  203    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/UserFormsTest.php                                 
+ ------ ------------------------------------------------------------ 
+  51     Call to deprecated method entityManager() of class Drupal.  
+  109    Call to deprecated method entityManager() of class Drupal.  
+  161    Call to deprecated method entityManager() of class Drupal.  
+  223    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  225    Call to deprecated function entity_create().                
+  231    Call to deprecated function entity_create().                
+  239    Call to deprecated function entity_get_form_display().      
+  243    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/Utility/AkismetUtilities.php               
+ ------ ----------------------------------------------- 
+  64     Call to deprecated function db_query_range().  
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/modules/akismet_test/akismet_test.module              
+ ------ ------------------------------------------------------------ 
+  87     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/modules/akismet_test/src/Form/PostDeleteForm.php  
+ ------ -------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/modules/akismet_test/src/Form/PostForm.php   
+ ------ --------------------------------------------------- 
+  40     Call to deprecated method l() of class Drupal.     
+  145    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/modules/akismet_test_server/src/ServerController.php  
+ ------ ------------------------------------------------------------ 
+  111    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInitfc0313a8046fdb97b2688271291fa80e was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 45 errors                                                         
+
+ </code>

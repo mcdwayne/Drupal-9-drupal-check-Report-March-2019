@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ajax_comments 6de6f5c4d0ae043590537227cb8b94c59ee1b6d6
+source : http://cgit.drupalcode.org/ajax_comments 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/AjaxCommentsController.php           
+ ------ ---------------------------------------------------- 
+  367    Call to deprecated function drupal_get_messages().  
+  600    Call to deprecated function drupal_get_messages().  
+  840    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/AjaxCommentsSettingsFormTest.php                             
+ ------ ----------------------------------------------------------------------- 
+  13     Class Drupaljax_comments\Tests\AjaxCommentsSettingsFormTest extends  
+         deprecated class Drupal

@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/atinternet bee5a67f672db97cb7a19fb2a440493e6bd208f3
+source : http://cgit.drupalcode.org/atinternet 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   atinternet.module                                
+ ------ ------------------------------------------------- 
+  32     Call to deprecated function entity_load().       
+  86     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  87     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  179    Call to deprecated function entity_load().       
+  179    Call to deprecated function entity_load().       
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/AtinternetConfigForm.php           
+ ------ -------------------------------------------- 
+  133    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Level2DeleteForm.php                      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Level2Form.php                            
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

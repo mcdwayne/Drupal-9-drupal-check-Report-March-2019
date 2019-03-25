@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advance_clock 65e8b08ec347a751f8607d42b5e39fb98cf97785
+source : http://cgit.drupalcode.org/advance_clock 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   advance_clock.module                               
+ ------ --------------------------------------------------- 
+  146    Call to deprecated function db_update().           
+  152    Call to deprecated function db_insert().           
+  161    Call to deprecated function db_select().           
+  180    Call to deprecated function format_date().         
+  180    Call to deprecated function format_date().         
+  180    Call to deprecated function format_date().         
+  229    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   plugins/content_types/advance_clock.inc       
+ ------ ---------------------------------------------- 
+  40     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

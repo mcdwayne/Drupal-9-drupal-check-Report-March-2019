@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/applenews 1471557af72a6a1222ac0d5434c8dd588941a512
+source : http://cgit.drupalcode.org/applenews 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/ApplenewsChannelController.php                            
+ ------ ------------------------------------------------------------------------- 
+  62     Call to deprecated method urlInfo() of class Drupal\Core\Entity\Entity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApplenewsTemplateForm.php                 
+ ------ --------------------------------------------------- 
+  394    Call to deprecated function drupal_set_message().  
+  466    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/TextStyleForm.php                    
+ ------ ---------------------------------------------- 
+  277    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Config\Entity\ConfigEntityBase.   
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

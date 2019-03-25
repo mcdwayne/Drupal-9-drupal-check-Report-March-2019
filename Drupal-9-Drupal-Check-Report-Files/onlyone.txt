@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/onlyone 28f091d62776fb7039016ca3def404dece4a69e2
+source : http://cgit.drupalcode.org/onlyone 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Kernel/OnlyOneConstraintValidatorTest.php  
+ ------ ----------------------------------------------------- 
+  84     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  107    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

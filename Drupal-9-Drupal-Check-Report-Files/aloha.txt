@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/aloha bcfe4392c5f43c2f292e22fa546462b43709b7d8
+source : http://cgit.drupalcode.org/aloha 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   aloha.pages.inc                          
+ ------ ----------------------------------------- 
+  54     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/aloha/Tests/FormatBlackboxTest.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalloha\Tests\FormatBlackboxTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

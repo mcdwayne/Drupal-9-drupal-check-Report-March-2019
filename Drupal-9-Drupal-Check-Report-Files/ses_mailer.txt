@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ses_mailer 0ed62a986cb5e477028c5f1da3adc9752cd46b2d
+source : http://cgit.drupalcode.org/ses_mailer 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Mail/SesMailer.php                    
+ ------ ------------------------------------------------- 
+  128    Syntax error, unexpected T_VARIABLE on line 128  
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Mail/SesMailerTest.php                         
+ ------ --------------------------------------------------------------------- 
+         ParseError (syntax error, unexpected '$result' (T_VARIABLE)) thrown  
+         while autoloading class Drupal\ses_mailer\Plugin\Mail\SesMailer.     
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ads_system 1c1473faef7cce653fc99495e2e10dd862fb60da
+source : http://cgit.drupalcode.org/ads_system 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   Tests/Controller/AdsRenderControllerTest.php                         
+ ------ --------------------------------------------------------------------- 
+         Class Drupalds_system\Tests\AdsRenderControllerTest was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/AdListBuilder.php                                                    
+ ------ ------------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in      
+         class Drupalds_system\AdListBuilder.                                   
+  38     Call to deprecated method l() of class Drupalds_system\AdListBuilder.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/AdAddController.php      
+ ------ ---------------------------------------- 
+  60     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdForm.php                                
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdTypeDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdTypeForm.php                            
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

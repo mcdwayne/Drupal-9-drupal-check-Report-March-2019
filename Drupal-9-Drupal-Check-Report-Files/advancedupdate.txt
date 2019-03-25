@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advancedupdate c810c3b73fc08a154fb08b11200c754293c115c3
+source : http://cgit.drupalcode.org/advancedupdate 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Command/GenerateCommand.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Console\Command\ContainerAwareCommand not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/AdvancedUpdateEntity.php                
+ ------ --------------------------------------------------- 
+  145    Call to deprecated function drupal_set_message().  
+  180    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvancedUpdateEntityDeleteForm.php        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvancedUpdateEntityForm.php              
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  105    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/UpdateGenerator.php                                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Console\Generator\Generator not found and could not be  
+         autoloaded.                                                          
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

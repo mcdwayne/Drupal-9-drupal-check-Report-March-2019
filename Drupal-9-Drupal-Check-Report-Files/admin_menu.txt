@@ -1,0 +1,97 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/admin_menu bc703c57dcd8ce2862b0a08acc60d5c7e63cb946
+source : https://cgit.drupalcode.org/admin_menu 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   admin_devel/admin_devel.module                     
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   admin_menu.inc                                         
+ ------ ------------------------------------------------------- 
+  73     Call to deprecated function db_select().               
+  85     Call to deprecated function db_select().               
+  97     Call to deprecated function db_or().                   
+  99     Call to deprecated function db_and().                  
+  424    Call to deprecated function drupal_get_destination().  
+  530    Call to deprecated function user_format_name().        
+  648    Call to deprecated function element_info_property().   
+  787    Call to deprecated function drupal_set_message().      
+  871    Call to deprecated function drupal_clear_css_cache().  
+  872    Call to deprecated function drupal_clear_js_cache().   
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   admin_menu.map.inc                                   
+ ------ ----------------------------------------------------- 
+  19     Call to deprecated function node_type_get_types().   
+  26     Call to deprecated function node_type_get_types().   
+  43     Call to deprecated function entity_load_multiple().  
+  61     Call to deprecated function db_query_range().        
+  110    Call to deprecated function entity_get_bundles().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   admin_menu.module                                      
+ ------ ------------------------------------------------------- 
+  181    Call to deprecated function drupal_get_destination().  
+  431    Call to deprecated function db_select().               
+  536    Call to deprecated function drupal_render().           
+  570    Call to deprecated function db_query().                
+  629    Call to deprecated function drupal_get_destination().  
+  653    Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/admin_menu/AdminMenuBundle.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupaldmin_menu\AdminMenuBundle was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/admin_menu/Tests/AdminMenuCustomizedTest.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupaldmin_menu\Tests\AdminMenuCustomizedTest was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/admin_menu/Tests/AdminMenuDynamicLinksTest.php              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupaldmin_menu\Tests\AdminMenuDynamicLinksTest was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/admin_menu/Tests/AdminMenuLinkTypesTest.php               
+ ------ --------------------------------------------------------------------- 
+         Class Drupaldmin_menu\Tests\AdminMenuLinkTypesTest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/admin_menu/Tests/AdminMenuPermissionsTest.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupaldmin_menu\Tests\AdminMenuPermissionsTest was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/admin_menu/Tests/AdminMenuTestBase.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupaldmin_menu\Tests\AdminMenuTestBase was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

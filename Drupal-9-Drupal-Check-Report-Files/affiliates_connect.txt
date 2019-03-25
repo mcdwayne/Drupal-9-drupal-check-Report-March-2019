@@ -1,0 +1,120 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/affiliates_connect 02efa38f02018cc73d8dbea625f5fb911fa31a5f
+source : http://cgit.drupalcode.org/affiliates_connect 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/affiliates_connect_amazon/src/Controller/AmazonBatchImportController.php  
+ ------ ---------------------------------------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().                                 
+  72     Call to deprecated function drupal_set_message().                                 
+  95     Call to deprecated function drupal_set_message().                                 
+  138    Call to deprecated function drupal_set_message().                                 
+  142    Call to deprecated function drupal_set_message().                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/affiliates_connect_amazon/src/Form/AmazonItemSearchForm.php  
+ ------ --------------------------------------------------------------------- 
+  203    Call to deprecated function drupal_set_message().                    
+  212    Call to deprecated function drupal_set_message().                    
+  302    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/AffiliatesNetworkBase.php                      
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Tamper/End.php                                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal	amper\TamperBase not found and could not be autoloaded.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Tamper/Implode.php                                         
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal	amper\Plugin\Tamper\Implode not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Tamper/Regex.php                                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal	amper\TamperBase not found and could not be autoloaded.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Tamper/Stock.php                                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal	amper\TamperBase not found and could not be autoloaded.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Tamper/Url.php                                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal	amper\TamperBase not found and could not be autoloaded.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/AmazonPluginTest.php               
+ ------ -------------------------------------------------------- 
+  63     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  72     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  75     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  80     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  85     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  93     Call to deprecated method assertIdentical() of class    
+         Drupal\Tests\BrowserTestBase.                           
+  110    Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  115    Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  120    Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  125    Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  131    Call to deprecated method assertIdentical() of class    
+         Drupal\Tests\BrowserTestBase.                           
+  135    Call to deprecated function format_string().            
+  135    Call to deprecated method assertIdentical() of class    
+         Drupal\Tests\BrowserTestBase.                           
+  144    Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/ProductEntityFormTest.php       
+ ------ ----------------------------------------------------- 
+  63     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/RoutesTest.php                  
+ ------ ----------------------------------------------------- 
+  68     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  73     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  83     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  88     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  98     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  103    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 35 errors                                                         
+
+ </code>

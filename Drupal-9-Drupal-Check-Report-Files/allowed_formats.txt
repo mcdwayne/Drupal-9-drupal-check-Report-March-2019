@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/allowed_formats 3386ffd153a2a96682f22def18b0cf25625880d5
+source : http://cgit.drupalcode.org/allowed_formats 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/AllowedFormatsTest.php                 
+ ------ ------------------------------------------------- 
+  63     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  71     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

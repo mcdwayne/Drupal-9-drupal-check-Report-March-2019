@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/assembly 266ee107bc1a1899a90f5681e5e459134a0c4667
+source : http://cgit.drupalcode.org/assembly 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   assembly.module                                             
+ ------ ------------------------------------------------------------ 
+  123    Call to deprecated function drupal_set_message().           
+  194    Call to deprecated method entityManager() of class Drupal.  
+  211    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/AssemblyController.php               
+ ------ ---------------------------------------------------- 
+  30     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  31     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  46     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  47     Call to deprecated function format_date().          
+  65     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  93     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssemblyForm.php                          
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssemblyRevisionDeleteForm.php            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssemblyRevisionRevertForm.php            
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssemblyTypeDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssemblyTypeForm.php                      
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

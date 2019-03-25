@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cleantalk 8.x-2.8
+source : http://cgit.drupalcode.org/cleantalk 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/BootSubscriber.php             
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CleantalkCheckUsersForm.php               
+ ------ --------------------------------------------------- 
+  124    Call to deprecated function drupal_set_message().  
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

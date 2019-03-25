@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ajax_links_api fc959946d0280f780e898e92e15c3f585245bab8
+source : http://cgit.drupalcode.org/ajax_links_api 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   ajax_links_api.module                           
+ ------ ------------------------------------------------ 
+  40     Call to deprecated method l() of class Drupal.  
+  58     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/AjaxLinksApi.php         
+ ------ ---------------------------------------- 
+  64     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/AjaxLinksApiService.php              
+ ------ ------------------------------------------------ 
+  35     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

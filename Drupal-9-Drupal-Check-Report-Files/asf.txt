@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/asf 601ef5d53f12d2114d2305dcdaf503276ee1fdaa
+source : http://cgit.drupalcode.org/asf 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/AsfAction.php                         
+ ------ ------------------------------------------ 
+  43     Call to deprecated function db_update().  
+  64     Call to deprecated function db_insert().  
+  85     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/AsfSchema.php                         
+ ------ ------------------------------------------ 
+  21     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/AsfItem.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Asf\Plugin\Field\FieldType\AsfItem was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

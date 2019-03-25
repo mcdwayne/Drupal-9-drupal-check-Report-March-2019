@@ -1,0 +1,86 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/akamai e37461b41c9fc790496c3ceeedc87a871d048124
+source : http://cgit.drupalcode.org/akamai 
+ 
+ <code> 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/StatusLogController.php  
+ ------ ---------------------------------------- 
+  102    Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  128    Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  163    Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/CacheControlForm.php                                      
+ ------ ------------------------------------------------------------------- 
+  85     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                                            
+ ------ ------------------------------------------------------------------- 
+  116    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/EdgeCacheTagHeaderTest.php       
+ ------ -------------------------------------------------- 
+  44     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  45     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  50     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  51     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  52     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  57     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  58     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  59     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  67     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  68     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  69     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EventSubscriber/CacheableResponseSubscriberTest.php  
+ ------ ---------------------------------------------------------------------- 
+  44     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  45     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  50     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  51     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  52     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  57     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  58     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  59     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  67     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  68     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  69     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 27 errors                                                         
+
+ </code>

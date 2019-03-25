@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ajax_search_block 301e5f7bebb666fa9b01e7884d0fd3e95b5e100a
+source : http://cgit.drupalcode.org/ajax_search_block 
+ 
+ <code> 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/APIController.php        
+ ------ ---------------------------------------- 
+  89     Call to deprecated function db_like().  
+  96     Call to deprecated function db_like().  
+ ------ ---------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Form/ModuleConfigurationForm.php                     
+ ------ --------------------------------------------------------- 
+  60     Call to deprecated function taxonomy_vocabulary_load().  
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Block/SearchBlock.php                         
+ ------ --------------------------------------------------------- 
+  60     Call to deprecated function taxonomy_vocabulary_load().  
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

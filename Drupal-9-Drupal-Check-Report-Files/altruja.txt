@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/altruja 329cf2d07462242f6f55444c400e60663048e334
+source : http://cgit.drupalcode.org/altruja 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/AltrujaBlockListBuilder.php     
+ ------ ----------------------------------------------- 
+  27     Call to deprecated method getLabel() of class  
+         Drupal\Core\Entity\EntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AltrujaBlockDeleteForm.php                
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AltrujaBlockForm.php                      
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

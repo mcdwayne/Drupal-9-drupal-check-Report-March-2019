@@ -1,0 +1,499 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/api 4c568180024e6ffe8d0478b1b73ef337841c11da
+source : http://cgit.drupalcode.org/api 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   api.admin.inc                                      
+ ------ --------------------------------------------------- 
+  481    Call to deprecated function db_query().            
+  558    Call to deprecated function drupal_set_message().  
+  668    Call to deprecated function drupal_set_message().  
+  812    Call to deprecated function db_select().           
+  881    Call to deprecated function drupal_set_message().  
+  896    Call to deprecated function drupal_set_message().  
+  924    Call to deprecated function drupal_set_message().  
+  1004   Call to deprecated function drupal_set_message().  
+  1013   Call to deprecated function db_update().           
+  1020   Call to deprecated function db_query().            
+  1030   Call to deprecated function drupal_set_message().  
+  1033   Call to deprecated function drupal_set_message().  
+  1050   Call to deprecated function drupal_set_message().  
+  1062   Call to deprecated function drupal_set_message().  
+  1087   Call to deprecated function drupal_set_message().  
+  1098   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   api.db.inc                                         
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function db_select().           
+  44     Call to deprecated function db_update().           
+  65     Call to deprecated function db_select().           
+  73     Call to deprecated function db_delete().           
+  76     Call to deprecated function db_delete().           
+  119    Call to deprecated function db_delete().           
+  122    Call to deprecated function db_delete().           
+  125    Call to deprecated function db_delete().           
+  145    Call to deprecated function db_delete().           
+  152    Call to deprecated function db_update().           
+  175    Call to deprecated function db_select().           
+  185    Call to deprecated function db_delete().           
+  203    Call to deprecated function db_select().           
+  255    Call to deprecated function drupal_set_message().  
+  374    Call to deprecated function db_delete().           
+  375    Call to deprecated function db_or().               
+  380    Call to deprecated function db_delete().           
+  383    Call to deprecated function db_delete().           
+  386    Call to deprecated function db_delete().           
+  389    Call to deprecated function db_delete().           
+  390    Call to deprecated function db_or().               
+  400    Call to deprecated function db_delete().           
+  404    Call to deprecated function db_select().           
+  410    Call to deprecated function db_update().           
+  417    Call to deprecated function db_select().           
+  423    Call to deprecated function db_update().           
+  432    Call to deprecated function db_delete().           
+  436    Call to deprecated function db_select().           
+  442    Call to deprecated function db_update().           
+  534    Call to deprecated function db_update().           
+  546    Call to deprecated function db_select().           
+  558    Call to deprecated function db_query().            
+  564    Call to deprecated function db_select().           
+  572    Call to deprecated function db_update().           
+  605    Call to deprecated function db_select().           
+  627    Call to deprecated function db_update().           
+  644    Call to deprecated function db_update().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   api.formatting.inc                        
+ ------ ------------------------------------------ 
+  836    Call to deprecated function db_select().  
+  842    Call to deprecated function db_select().  
+  1124   Call to deprecated function db_select().  
+  1141   Call to deprecated function db_or().      
+  1209   Call to deprecated function db_select().  
+  1369   Call to deprecated function db_select().  
+  1489   Call to deprecated function db_select().  
+  1512   Call to deprecated function db_select().  
+  1547   Call to deprecated function db_select().  
+  1566   Call to deprecated function db_or().      
+  1568   Call to deprecated function db_and().     
+  1591   Call to deprecated function db_select().  
+  1598   Call to deprecated function db_select().  
+  1751   Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   api.module                                             
+ ------ ------------------------------------------------------- 
+  1479   Call to deprecated function db_select().               
+  1822   Call to deprecated function db_select().               
+  1881   Call to deprecated function db_or().                   
+  2065   Call to deprecated function db_query_range().          
+  2406   Call to deprecated function db_select().               
+  2474   Call to deprecated function db_select().               
+  2497   Call to deprecated function db_select().               
+  2629   Call to deprecated function db_select().               
+  2686   Call to deprecated function drupal_get_destination().  
+  2869   Call to deprecated function drupal_set_message().      
+  2887   Call to deprecated function db_select().               
+  2889   Call to deprecated function db_like().                 
+  2909   Call to deprecated function db_select().               
+  2912   Call to deprecated function db_like().                 
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   api.pages.inc                                          
+ ------ ------------------------------------------------------- 
+  37     Call to deprecated function db_select().               
+  52     Call to deprecated function db_select().               
+  116    Call to deprecated function db_select().               
+  118    Call to deprecated function db_like().                 
+  134    Call to deprecated function db_select().               
+  177    Call to deprecated function db_select().               
+  241    Call to deprecated function db_select().               
+  306    Call to deprecated function db_select().               
+  429    Call to deprecated function drupal_render().           
+  489    Call to deprecated function db_select().               
+  783    Call to deprecated function db_select().               
+  825    Call to deprecated function db_select().               
+  1178   Call to deprecated function drupal_render().           
+  1233   Call to deprecated function db_select().               
+  1311   Call to deprecated function drupal_render().           
+  1435   Call to deprecated function db_select().               
+  1538   Call to deprecated function db_select().               
+  1582   Call to deprecated function db_select().               
+  1603   Call to deprecated function db_select().               
+  1647   Call to deprecated function db_select().               
+  1692   Call to deprecated function db_select().               
+  1732   Call to deprecated function db_select().               
+  1769   Call to deprecated function node_load().               
+  1776   Call to deprecated function drupal_get_destination().  
+  1798   Call to deprecated function drupal_render().           
+  1938   Call to deprecated function db_select().               
+  1952   Call to deprecated function db_select().               
+  1959   Call to deprecated function db_select().               
+  1975   Call to deprecated function db_select().               
+  1984   Call to deprecated function db_select().               
+  1996   Call to deprecated function db_select().               
+  2010   Call to deprecated function db_select().               
+  2028   Call to deprecated function db_select().               
+  2047   Call to deprecated function db_select().               
+  2081   Call to deprecated function db_select().               
+  2086   Call to deprecated function db_or().                   
+  2112   Call to deprecated function db_or().                   
+  2117   Call to deprecated function db_and().                  
+  2121   Call to deprecated function db_and().                  
+  2125   Call to deprecated function db_and().                  
+  2128   Call to deprecated function db_and().                  
+  2133   Call to deprecated function db_and().                  
+  2137   Call to deprecated function db_and().                  
+  2141   Call to deprecated function db_and().                  
+  2146   Call to deprecated function db_and().                  
+  2152   Call to deprecated function db_select().               
+  2164   Call to deprecated function db_select().               
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   api.parser.inc                                       
+ ------ ----------------------------------------------------- 
+  53     Call to deprecated function drupal_basename().       
+  321    Call to deprecated method setIndentation() of class  
+         Symfony\Component\Yaml\Dumper.                       
+  854    Call to deprecated function db_select().             
+  959    Call to deprecated function db_select().             
+  1107   Call to deprecated function db_select().             
+  1151   Call to deprecated function db_insert().             
+  1177   Call to deprecated function db_delete().             
+  1189   Call to deprecated function db_delete().             
+  1261   Call to deprecated function db_delete().             
+  1284   Call to deprecated function db_delete().             
+  1352   Call to deprecated function db_delete().             
+  1360   Call to deprecated function db_delete().             
+  1455   Call to deprecated function drupal_validate_utf8().  
+  1960   Call to deprecated function drupal_validate_utf8().  
+  2034   Call to deprecated function db_select().             
+  2047   Call to deprecated function db_insert().             
+  2065   Call to deprecated function db_insert().             
+  2107   Call to deprecated function db_insert().             
+  2118   Call to deprecated function db_insert().             
+  2246   Call to deprecated function db_select().             
+  2269   Call to deprecated function db_select().             
+  2287   Call to deprecated function db_update().             
+  2322   Call to deprecated function db_or().                 
+  2325   Call to deprecated function db_select().             
+  2365   Call to deprecated function db_select().             
+  2382   Call to deprecated function db_and().                
+  2385   Call to deprecated function db_and().                
+  2388   Call to deprecated function db_or().                 
+  2404   Call to deprecated function db_insert().             
+  2435   Call to deprecated function db_select().             
+  2453   Call to deprecated function db_select().             
+  2469   Call to deprecated function db_select().             
+  2508   Call to deprecated function db_insert().             
+  2516   Call to deprecated function db_update().             
+  2528   Call to deprecated function db_delete().             
+  2535   Call to deprecated function db_delete().             
+  2538   Call to deprecated function db_insert().             
+  2572   Call to deprecated function db_delete().             
+  2581   Call to deprecated function db_select().             
+  2594   Call to deprecated function db_and().                
+  2597   Call to deprecated function db_or().                 
+  2612   Call to deprecated function db_insert().             
+  2678   Call to deprecated function db_select().             
+  2708   Call to deprecated function db_select().             
+  2839   Call to deprecated function db_select().             
+  2906   Call to deprecated function db_delete().             
+  2913   Call to deprecated function db_select().             
+  2923   Call to deprecated function db_insert().             
+  2931   Call to deprecated function db_select().             
+  2947   Call to deprecated function db_insert().             
+  2953   Call to deprecated function db_select().             
+  2967   Call to deprecated function db_insert().             
+  2973   Call to deprecated function db_select().             
+  2989   Call to deprecated function db_insert().             
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   api.update_branch.inc                           
+ ------ ------------------------------------------------ 
+  287    Call to deprecated function db_select().        
+  336    Call to deprecated function drupal_basename().  
+  359    Call to deprecated function db_select().        
+  489    Call to deprecated function db_delete().        
+  498    Call to deprecated function db_insert().        
+  535    Call to deprecated function db_delete().        
+  544    Call to deprecated function db_insert().        
+  578    Call to deprecated function db_select().        
+  595    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   api.utilities.inc                         
+ ------ ------------------------------------------ 
+  55     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   api_search.module                         
+ ------ ------------------------------------------ 
+  324    Call to deprecated function db_select().  
+  428    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   outside_utilities.inc                     
+ ------ ------------------------------------------ 
+  45     Call to deprecated function db_select().  
+  53     Call to deprecated function db_select().  
+  62     Call to deprecated function db_select().  
+  71     Call to deprecated function db_select().  
+  79     Call to deprecated function db_select().  
+  88     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   pretty_printer.inc                                                 
+ ------ ------------------------------------------------------------------- 
+         Class ApiPrettyPrinter was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   templates/api-branch-default-page.tpl.php     
+ ------ ---------------------------------------------- 
+  24     Call to deprecated function drupal_render().  
+  65     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   templates/api.theme.inc                       
+ ------ ---------------------------------------------- 
+  68     Call to deprecated function db_select().      
+  82     Call to deprecated function db_select().      
+  110    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/api_test_case.php                                       
+ ------ -------------------------------------------------------------- 
+         Class ApiTestCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/sample/classes.php                                                
+ ------ ------------------------------------------------------------------------ 
+         Class Sample was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/sample/subdirectory/classes-subdir.php                     
+ ------ ----------------------------------------------------------------- 
+         Class SampleInSubDir was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/sample/to_exclude/excluded.php                                    
+ ------ ------------------------------------------------------------------------ 
+         Class Sample was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   tests/sample2/inheritance.php                                   
+ ------ ---------------------------------------------------------------- 
+         Class BaseInterface was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/sample2/maybe_exclude/extras.php                                  
+ ------ ------------------------------------------------------------------------ 
+         Class Sample was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/sample_namespace/ClassA.php                                  
+ ------ ------------------------------------------------------------------- 
+         Class api	est1\ClassA was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/sample_namespace/ClassB.php                                  
+ ------ ------------------------------------------------------------------- 
+         Class api	est2\ClassB was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/sample_namespace/ClassE.php                                  
+ ------ ------------------------------------------------------------------- 
+         Class api	est2\ClassE was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/sample_namespace/InterfaceC.php                                  
+ ------ ----------------------------------------------------------------------- 
+         Class api	est2\InterfaceC was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/sample_namespace/InterfaceD.php                                  
+ ------ ----------------------------------------------------------------------- 
+         Class api	est1\InterfaceD was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/sample_namespace/InterfaceD2.php                                 
+ ------ ----------------------------------------------------------------------- 
+         Class api	est2\InterfaceD was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/sample_namespace/InterfaceH.php                                  
+ ------ ----------------------------------------------------------------------- 
+         Class api	est1\InterfaceH was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/sample_namespace/no_namespace.php                                 
+ ------ ------------------------------------------------------------------------ 
+         Class ClassQ was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/special_files/ClassExtendsLoop.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class FirstClass was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/special_files/ClassWithUnicode.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class CacheArray was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/special_files/badheader.php                                      
+ ------ ----------------------------------------------------------------------- 
+         Class ClassWithDefgroupDocBlock was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/special_files/class_loop.php                                 
+ ------ ------------------------------------------------------------------- 
+         Class A was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/api.views.inc                                                     
+ ------ ------------------------------------------------------------------------ 
+         Class api_views_join_extras was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_argument_partial_match.inc              
+ ------ ------------------------------------------------------------------------- 
+         Class api_views_handler_argument_partial_match was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_field_api_branch_ops.inc                
+ ------ ------------------------------------------------------------------------- 
+         Class api_views_handler_field_api_branch_ops was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_field_api_docs.inc                   
+ ------ ---------------------------------------------------------------------- 
+         Class api_views_handler_field_api_docs was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_field_api_linkable.inc                
+ ------ ----------------------------------------------------------------------- 
+         Class api_views_handler_field_api_linkable was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/handlers/api_views_handler_field_api_namespace.inc                
+ ------ ------------------------------------------------------------------------ 
+         Class api_views_handler_field_api_namespace was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_field_api_project.inc                   
+ ------ ------------------------------------------------------------------------- 
+         Class api_views_handler_field_api_project was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_field_api_project_ops.inc               
+ ------ ------------------------------------------------------------------------- 
+         Class api_views_handler_field_api_project_ops was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_field_api_service_tags.inc              
+ ------ ------------------------------------------------------------------------- 
+         Class api_views_handler_field_api_service_tags was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/handlers/api_views_handler_filter_project_name.inc                
+ ------ ------------------------------------------------------------------------ 
+         Class api_views_handler_filter_project_name was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_filter_service_tag.inc                
+ ------ ----------------------------------------------------------------------- 
+         Class api_views_handler_filter_service_tag was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/handlers/api_views_handler_sort_title_length.inc                   
+ ------ ------------------------------------------------------------------------- 
+         Class api_views_handler_sort_title_length was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   views/plugins/api_views_plugin_style_dl_list.inc                    
+ ------ -------------------------------------------------------------------- 
+         Class api_views_plugin_style_dl_list was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 237 errors                                                        
+
+ </code>

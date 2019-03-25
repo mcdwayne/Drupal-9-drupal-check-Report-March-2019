@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/appointment_calendar 8.x-1.x
+source : http://cgit.drupalcode.org/appointment_calendar 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AppointmentCalendarDeleteForm.php         
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function db_like().             
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AppointmentCalendarEditForm.php           
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AppointmentCalendarForm.php               
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+  196    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

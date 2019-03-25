@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ajax_assets_plus 7cc21aebc58f2566b77ddaa71ef3ba5f566fbba6
+source : http://cgit.drupalcode.org/ajax_assets_plus 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   ajax_assets_plus.module                           
+ ------ -------------------------------------------------- 
+  43     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/AssetsPlusJavascriptTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  10     Class Drupal\Testsjax_assets_plus\Functional\AssetsPlusJavascriptTest  
+         extends deprecated class                                                 
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

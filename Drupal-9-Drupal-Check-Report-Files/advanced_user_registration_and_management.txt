@@ -1,0 +1,126 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advanced_user_registration_and_management 8.x-2.2
+source : http://cgit.drupalcode.org/advanced_user_registration_and_management 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   hostedpage/src/Form/HostedPageSettingsForm.php     
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   sociallogin/customhttpclient.php                                   
+ ------ ------------------------------------------------------------------- 
+         Class CustomHttpClient was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   sociallogin/guzzleclient.php                                     
+ ------ ----------------------------------------------------------------- 
+         Class LRGuzzleClient was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   sociallogin/src/Controller/SocialLoginController.php                   
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupal\sociallogin\Controller\SocialLoginController.                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   sociallogin/src/Form/AdvancedSettingsForm.php               
+ ------ ------------------------------------------------------------ 
+  217    Call to deprecated method entityManager() of class Drupal.  
+  382    Call to deprecated function drupal_set_message().           
+  425    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   sociallogin/src/Form/SocialLoginSettingsForm.php   
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+  186    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   sociallogin/src/SocialLoginUserManager.php                  
+ ------ ------------------------------------------------------------ 
+  141    Call to deprecated function drupal_set_message().           
+  206    Call to deprecated function db_query().                     
+  265    Call to deprecated function drupal_set_message().           
+  268    Call to deprecated function drupal_set_message().           
+  274    Call to deprecated function drupal_set_message().           
+  371    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  371    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  421    Call to deprecated method getUsername() of class            
+         Drupal\user\Entity\User.                                    
+  453    Call to deprecated function drupal_set_message().           
+  488    Call to deprecated function drupal_set_message().           
+  493    Call to deprecated function drupal_set_message().           
+  498    Call to deprecated function drupal_set_message().           
+  584    Call to deprecated function drupal_set_message().           
+  587    Call to deprecated function drupal_set_message().           
+  788    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   socialprofiledata/src/Form/SocialProfileDataSettingsForm.php  
+ ------ -------------------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().             
+  191    Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   socialshare/src/Form/SocialShareSettingsForm.php   
+ ------ --------------------------------------------------- 
+  468    Call to deprecated function drupal_set_message().  
+  520    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   sso/src/Form/SSOSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   userregistration/src/Controller/UserRegistrationController.php  
+ ------ ---------------------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().               
+  93     Call to deprecated function drupal_set_message().               
+  98     Call to deprecated function drupal_set_message().               
+  106    Call to deprecated function drupal_set_message().               
+  110    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   userregistration/userregistration.module               
+ ------ ------------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().      
+  150    Call to deprecated function drupal_set_message().      
+  154    Call to deprecated function drupal_set_message().      
+  187    Call to deprecated function drupal_render_children().  
+  201    Call to deprecated function drupal_set_message().      
+  415    Call to deprecated function drupal_set_message().      
+  431    Call to deprecated function drupal_set_message().      
+  433    Call to deprecated function drupal_set_message().      
+  540    Call to deprecated function drupal_set_message().      
+  543    Call to deprecated function drupal_set_message().      
+  564    Call to deprecated function drupal_set_message().      
+  567    Call to deprecated function drupal_set_message().      
+  625    Call to deprecated function drupal_set_message().      
+  707    Call to deprecated function drupal_set_message().      
+  712    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 49 errors                                                         
+
+ </code>

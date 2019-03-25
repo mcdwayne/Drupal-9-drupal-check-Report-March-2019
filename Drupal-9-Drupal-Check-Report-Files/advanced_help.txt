@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advanced_help 38f85db2415582bb8128e85a869035fe65b50dc5
+source : https://cgit.drupalcode.org/advanced_help 
+ 
+ <code> 
+
+ ------ ------------------------------------------- 
+  Line   src/Controller/AdvancedHelpController.php  
+ ------ ------------------------------------------- 
+  73     Call to deprecated method l() of class     
+         Drupal\Core\Controller\ControllerBase.     
+  177    Call to deprecated method l() of class     
+         Drupal\Core\Controller\ControllerBase.     
+  372    Call to deprecated method l() of class     
+         Drupal\Core\Controller\ControllerBase.     
+  375    Call to deprecated method l() of class     
+         Drupal\Core\Controller\ControllerBase.     
+  378    Call to deprecated method l() of class     
+         Drupal\Core\Controller\ControllerBase.     
+ ------ ------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/administration_language_negotiation 8.x-1.6
+source : https://cgit.drupalcode.org/TODO 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/AdministrationLanguageNegotiationCondition/Paths.php  
+ ------ ----------------------------------------------------------------- 
+  157    Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

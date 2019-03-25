@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/alinks f94a9231f4ec0adb0ce594c6b3baa9eda04a1572
+source : http://cgit.drupalcode.org/alinks 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/KeywordForm.php                           
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().  
+  30     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/KeywordListBuilder.php                                           
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupallinks\KeywordListBuilder.                              
+  32     Call to deprecated method l() of class                               
+         Drupallinks\KeywordListBuilder.                                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

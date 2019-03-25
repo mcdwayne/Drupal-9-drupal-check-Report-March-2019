@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/admin_notes 69bd0f8f264e2059275376365a54bd250569d934
+source : http://cgit.drupalcode.org/admin_notes 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/AdminNotesController.php             
+ ------ ---------------------------------------------------- 
+  73     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdminNotesForm.php                        
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function db_delete().           
+  110    Call to deprecated function db_update().           
+  122    Call to deprecated function db_insert().           
+  152    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Plugin/Block/AdminNotes.php          
+ ------ ----------------------------------------- 
+  38     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

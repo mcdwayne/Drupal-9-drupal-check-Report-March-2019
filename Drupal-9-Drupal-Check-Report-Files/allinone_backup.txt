@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/allinone_backup 69c283b47a4777210ac0a10d70cbc36110412c02
+source : http://cgit.drupalcode.org/allinone_backup 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   allinone_backup.filesbackup.inc                    
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   allinone_backup.import.inc                         
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function db_query().            
+  85     Call to deprecated function db_insert().           
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   allinone_backup.module                          
+ ------ ------------------------------------------------ 
+  65     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/BackuplogsController.php            
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DatabasebackupForm.php                    
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function db_query().            
+  138    Call to deprecated function drupal_set_message().  
+  144    Call to deprecated function drupal_realpath().     
+  145    Call to deprecated function drupal_set_message().  
+  187    Call to deprecated function drupal_set_message().  
+  198    Call to deprecated function drupal_set_message().  
+  305    Call to deprecated function drupal_set_message().  
+  316    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

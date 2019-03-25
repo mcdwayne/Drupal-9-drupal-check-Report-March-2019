@@ -1,0 +1,132 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/photos 2b73520c4ae258218510316c4c0c2c7ba4313290
+source : http://cgit.drupalcode.org/photos 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   inc/photos.form.inc                                
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   photos.module                                                      
+ ------ ------------------------------------------------------------------- 
+  118    Call to deprecated method entityManager() of class Drupal.         
+  136    Call to deprecated method entityManager() of class Drupal.         
+  223    Call to deprecated function entity_load_multiple_by_properties().  
+  302    Call to deprecated method entityManager() of class Drupal.         
+  316    Call to deprecated function drupal_set_message().                  
+  371    Call to deprecated method entityManager() of class Drupal.         
+  375    Call to deprecated method entityManager() of class Drupal.         
+  376    Call to deprecated method entityManager() of class Drupal.         
+  558    Call to deprecated function drupal_set_message().                  
+  871    Call to deprecated function drupal_render().                       
+  889    Call to deprecated function drupal_render().                       
+  941    Call to deprecated function file_uri_scheme().                     
+  1060   Call to deprecated function drupal_render().                       
+  1065   Call to deprecated function drupal_render().                       
+  1069   Call to deprecated function drupal_render().                       
+  1073   Call to deprecated function drupal_render().                       
+  1084   Call to deprecated function drupal_render().                       
+  1085   Call to deprecated function drupal_render().                       
+  1089   Call to deprecated function drupal_render().                       
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   photos_access/photos_access.module                          
+ ------ ------------------------------------------------------------ 
+  218    Call to deprecated function drupal_set_message().           
+  232    Call to deprecated method entityManager() of class Drupal.  
+  892    Call to deprecated function drupal_set_message().           
+  907    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhotosAdminSettingsForm.php               
+ ------ --------------------------------------------------- 
+  615    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhotosDirectoryUploadForm.php             
+ ------ --------------------------------------------------- 
+  202    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhotosImageDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  131    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhotosImageEditForm.php                   
+ ------ --------------------------------------------------- 
+  335    Call to deprecated function drupal_set_message().  
+  344    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhotosUploadForm.php                      
+ ------ --------------------------------------------------- 
+  237    Call to deprecated function drupal_set_message().  
+  254    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  292    Call to deprecated function drupal_set_message().  
+  305    Call to deprecated function drupal_set_message().  
+  315    Call to deprecated function drupal_set_message().  
+  325    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  342    Call to deprecated function drupal_set_message().  
+  369    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/PhotosAlbum.php                                         
+ ------ ------------------------------------------------------------ 
+  279    Call to deprecated function drupal_set_message().           
+  315    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/PhotosImage.php                                         
+ ------ ------------------------------------------------------------ 
+  95     Call to deprecated function file_uri_scheme().              
+  194    Call to deprecated method entityManager() of class Drupal.  
+  386    Call to deprecated method entityManager() of class Drupal.  
+  388    Call to deprecated method entityManager() of class Drupal.  
+  504    Call to deprecated function drupal_render().                
+  513    Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/PhotosUpload.php                               
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  281    Call to deprecated function drupal_set_message().  
+  342    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/Filter/PhotosFilter.php           
+ ------ --------------------------------------------- 
+  28     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/migrate/destination/PhotosCount.php  
+ ------ ------------------------------------------------ 
+  38     Call to deprecated function db_merge().         
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 54 errors                                                         
+
+ </code>

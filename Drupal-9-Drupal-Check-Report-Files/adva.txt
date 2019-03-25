@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/adva a4a419787f233a6904e62018c6353b1d80fcaa61
+source : http://cgit.drupalcode.org/adva 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   adva.module                                                 
+ ------ ------------------------------------------------------------ 
+  45     Call to deprecated method entityManager() of class Drupal.  
+  92     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/AccessStorage.php                              
+ ------ --------------------------------------------------- 
+  319    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  240    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/adva/ReferenceAccessProvider.php        
+ ------ --------------------------------------------------- 
+  237    Call to deprecated method isSubclassOf() of class  
+         Drupal\Core\Entity\EntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/processor/AdvancedAccess.php                   
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\search_api\Processor\ProcessorPluginBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ajax_file_download_counter 8.x-1.0
+source : http://cgit.drupalcode.org/ajax_file_download_counter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   ajax_file_download_counter.module               
+ ------ ------------------------------------------------ 
+  80     Call to deprecated method l() of class Drupal.  
+  88     Call to deprecated function db_query().         
+  89     Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Controller/AjaxDownloadCounter.php   
+ ------ ----------------------------------------- 
+  18     Call to deprecated function db_query().  
+  20     Call to deprecated function db_query().  
+  24     Call to deprecated function db_query().  
+  27     Call to deprecated function db_query().  
+  30     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

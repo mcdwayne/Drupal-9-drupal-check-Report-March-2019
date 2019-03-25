@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advpoll 0edf0ea5323204df8511005811277d322840a64c
+source : http://cgit.drupalcode.org/advpoll 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   advpoll.module                                              
+ ------ ------------------------------------------------------------ 
+  9      Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApprovalPollViewForm.php                  
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated method url() of class           
+         Drupal\Core\Entity\EntityInterface.                
+  146    Call to deprecated function drupal_set_message().  
+  181    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

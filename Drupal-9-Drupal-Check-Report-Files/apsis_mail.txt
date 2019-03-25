@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/apsis_mail 604c125c8d34db10adb58643e35fb946a9ebdd3a
+source : http://cgit.drupalcode.org/apsis_mail 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApsisMailSettings.php                     
+ ------ --------------------------------------------------- 
+  213    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscribeForm.php                         
+ ------ --------------------------------------------------- 
+  193    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/ApsisMailSubscribeBlock.php       
+ ------ --------------------------------------------------- 
+  70     Call to deprecated method l() of class Drupal.     
+  73     Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

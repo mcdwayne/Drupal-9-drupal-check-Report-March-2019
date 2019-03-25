@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/comment_delete 8.x-1.1
+source : http://cgit.drupalcode.org/comment_delete 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   comment_delete.module                              
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function entity_load().         
+  143    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function db_select().           
+  179    Call to deprecated function db_or().               
+  185    Call to deprecated function entity_load().         
+  199    Call to deprecated function db_select().           
+  233    Call to deprecated function db_select().           
+  240    Call to deprecated function entity_load().         
+  274    Call to deprecated function db_select().           
+  290    Call to deprecated function db_update().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

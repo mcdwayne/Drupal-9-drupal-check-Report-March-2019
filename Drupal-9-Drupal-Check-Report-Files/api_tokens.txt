@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/api_tokens 8.x-2.0
+source : http://cgit.drupalcode.org/api_tokens 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   api_tokens_example/src/Plugin/ApiToken/BlockApiToken.php    
+ ------ ------------------------------------------------------------ 
+  54     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   api_tokens_example/src/Plugin/ApiToken/UserLinkApiToken.php           
+ ------ ---------------------------------------------------------------------- 
+  62     Call to deprecated method link() of class Drupal\Core\Entity\Entity.  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

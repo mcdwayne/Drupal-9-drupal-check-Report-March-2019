@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/apply_for_role 0465c26dad386b53f777fe218cc356fae82e4abe
+source : http://cgit.drupalcode.org/apply_for_role 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApplyForRoleApplicationForm.php           
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/application_manager.php               
+ ------ ------------------------------------------ 
+  119    Call to deprecated function user_load().  
+  157    Call to deprecated function user_load().  
+  192    Call to deprecated function user_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

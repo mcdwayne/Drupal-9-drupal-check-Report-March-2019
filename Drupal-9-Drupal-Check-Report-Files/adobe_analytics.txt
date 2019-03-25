@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/adobe_analytics 9fbd9421d37901f6f781af25f087a8c864227d4b
+source : http://cgit.drupalcode.org/adobe_analytics 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/AdobeAnalyticsEntityOverridesTest.php               
+ ------ ------------------------------------------------------------------------- 
+  15     Class                                                                    
+         Drupal\Testsdobe_analytics\Functional\AdobeAnalyticsEntityOverridesTe  
+         st extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  38     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  77     Call to deprecated function entity_get_form_display().                   
+  84     Call to deprecated function entity_get_display().                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

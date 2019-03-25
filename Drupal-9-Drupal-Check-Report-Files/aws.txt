@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/aws 45fc541df10f32f20f2742f5990ae309693ce765
+source : http://cgit.drupalcode.org/aws 
+ 
+ <code> 
+Warning: Declaration of Drupalws\Controller\ServiceListController::listing() should be compatible with Drupal\Core\Entity\Controller\EntityListController::listing($entity_type) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/aws/src/Controller/ServiceListController.php on line 14
+
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/ec2/src/Plugin/AWS/Service/EC2.php                             
+ ------ ----------------------------------------------------------------------- 
+  20     Class Drupal\ec2\Plugin\AWS\Service\BaseClientInterface not found and  
+         could not be autoloaded.                                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/route53/tests/src/Unit/Route53Test.php                         
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Testsws\Unit\Route53Test was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/s3/src/Plugin/AWS/Service/S3.php                      
+ ------ -------------------------------------------------------------- 
+  19     Class Drupalws\ServiceInterface not found and could not be  
+         autoloaded.                                                   
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ProfileListController.php            
+ ------ ---------------------------------------------------- 
+  25     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProfileDeleteConfirmForm.php              
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/ProfileForm.php                      
+ ------ ---------------------------------------------- 
+  112    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/AWS/Service/Service.php                                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalws\Plugin\Service\Service was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Functional/ProfileListTest.php        
+ ------ ------------------------------------------------ 
+  34     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Unit/Entity/ProfileTest.php                                  
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Testsws\Unit\ProfileTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

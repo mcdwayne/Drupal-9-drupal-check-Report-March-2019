@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/alertbox d860e78054ae94bb79ff76127c3dd96c697e4e2d
+source : http://cgit.drupalcode.org/alertbox 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   alertbox.module                                                
+ ------ --------------------------------------------------------------- 
+  104    Fetching deprecated class constant BLOCK_REGION_NONE of class  
+         Drupallock\BlockInterface.                                   
+  145    Fetching deprecated class constant BLOCK_REGION_NONE of class  
+         Drupallock\BlockInterface.                                   
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Form/AlertboxSettingsForm.php                              
+ ------ --------------------------------------------------------------- 
+  126    Fetching deprecated class constant BLOCK_REGION_NONE of class  
+         Drupallock\BlockInterface.                                   
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

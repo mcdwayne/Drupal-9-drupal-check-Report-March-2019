@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/argue_proscons 9fb232d074e159c4bdb3a82ecb2982b1043ece88
+source : http://cgit.drupalcode.org/argue_proscons 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/ArgumentController.php       
+ ------ -------------------------------------------- 
+  46     Call to deprecated function format_date().  
+  92     Call to deprecated method l() of class      
+         Drupal\Core\Controller\ControllerBase.      
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ArgumentForm.php                          
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ArgumentRevisionDeleteForm.php            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ArgumentRevisionRevertForm.php            
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,75 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advagg e645fe38fb6a2d0761e98758a7b42e41d155b58f
+source : https://cgit.drupalcode.org/advagg 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   advagg_css_minify/src/Asset/CssMinifier.php  
+ ------ --------------------------------------------- 
+  79     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   advagg_css_minify/yui/CSSMin.inc                                        
+ ------ ------------------------------------------------------------------------ 
+         Class CSSmin was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   advagg_js_minify/jshrink.inc                                       
+ ------ ------------------------------------------------------------------- 
+         Class JShrink\Minifier was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   advagg_js_minify/jsminplus.inc                                          
+ ------ ------------------------------------------------------------------------ 
+         Class JSMinPlus was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   advagg_js_minify/jspacker.inc                                      
+ ------ ------------------------------------------------------------------- 
+         Class JavaScriptPacker was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   advagg_js_minify/jsqueeze.inc                                        
+ ------ --------------------------------------------------------------------- 
+         Class Patchwork\JSqueeze was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   advagg_validator/src/Form/CssW3Form.php            
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  144    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/InfoForm.php                              
+ ------ --------------------------------------------------- 
+  217    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OperationsForm.php                        
+ ------ --------------------------------------------------- 
+  254    Call to deprecated function drupal_set_message().  
+  268    Call to deprecated function drupal_set_message().  
+  274    Call to deprecated function drupal_set_message().  
+  290    Call to deprecated function drupal_set_message().  
+  337    Call to deprecated function drupal_set_message().  
+  343    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

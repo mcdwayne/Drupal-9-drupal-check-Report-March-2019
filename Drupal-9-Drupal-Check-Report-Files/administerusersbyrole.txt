@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/administerusersbyrole 2933a1448840f68ca02a85cdf18ae8cd1406e49f
+source : http://cgit.drupalcode.org/administerusersbyrole 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   administerusersbyrole.module                      
+ ------ -------------------------------------------------- 
+  254    Call to deprecated method url() of class Drupal.  
+  273    Call to deprecated method url() of class Drupal.  
+  275    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Constraint/OverrideUserMailRequiredValidator.php        
+ ------ ------------------------------------------------------------ 
+  26     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/AdministerusersbyroleTest.php  
+ ------ ---------------------------------------------------- 
+  228    Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+  231    Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+  243    Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+  246    Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+  251    Call to deprecated method getRawContent() of class  
+         Drupal\Tests\BrowserTestBase.                       
+  252    Call to deprecated method getRawContent() of class  
+         Drupal\Tests\BrowserTestBase.                       
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

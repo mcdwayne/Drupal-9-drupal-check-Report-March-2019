@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ad_entity ca0d63b40d70a1386848a8f9a0e7808392209cf1
+source : http://cgit.drupalcode.org/ad_entity 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdDisplayDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdDisplayForm.php                         
+ ------ --------------------------------------------------- 
+  268    Call to deprecated function drupal_set_message().  
+  274    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdEntityDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdEntityForm.php                          
+ ------ --------------------------------------------------- 
+  262    Call to deprecated function drupal_set_message().  
+  268    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/AdDisplayBlock.php                
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/TargetingContextTest.php                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Testsd_entity\Unit\TargetingContextTest was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

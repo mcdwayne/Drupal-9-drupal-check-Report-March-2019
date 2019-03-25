@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/alipay_api 11c6a859ee3203e35594b7f2a3b450ffa622b773
+source : http://cgit.drupalcode.org/alipay_api 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   alipay_api.module                                  
+ ------ --------------------------------------------------- 
+  52     Call to deprecated method url() of class Drupal.   
+  61     Call to deprecated function libraries_detect().    
+  63     Call to deprecated function libraries_load().      
+  68     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated method url() of class Drupal.   
+  86     Call to deprecated method url() of class Drupal.   
+  120    Call to deprecated function drupal_set_message().  
+  204    Call to deprecated function db_insert().           
+  256    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/AlipaySettingsForm.php                   
+ ------ -------------------------------------------------- 
+  64     Call to deprecated method url() of class Drupal.  
+  71     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

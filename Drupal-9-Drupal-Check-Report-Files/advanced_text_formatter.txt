@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advanced_text_formatter d216c1685ff8297c5c3fa8f77768c09b8ad27f62
+source : http://cgit.drupalcode.org/advanced_text_formatter 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   advanced_text_formatter.module               
+ ------ --------------------------------------------- 
+  92     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  139    Call to deprecated function element_info().  
+  219    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  220    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

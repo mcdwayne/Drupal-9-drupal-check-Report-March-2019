@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/analytics 5de4306c2cfad44f1f836171df432b27791a8efa
+source : http://cgit.drupalcode.org/analytics 
+ 
+ <code> 
+Warning: Declaration of Drupalnalytics_google\Plugin\AnalyticsService\GoogleAnalytics::buildConfigurationForm(&$form, &$form_state) should be compatible with Drupalnalytics\AnalyticsService\AnalyticsServiceBase::buildConfigurationForm(array $form, Drupal\Core\Form\FormStateInterface &$form_state) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/analytics/analytics_google/src/Plugin/AnalyticsService/GoogleAnalytics.php on line 20
+
+Warning: Declaration of Drupalnalytics_amp\Plugin\AnalyticsService\AmpTrackingPixel::buildConfigurationForm(&$form, &$form_state) should be compatible with Drupalnalytics\AnalyticsService\AnalyticsServiceBase::buildConfigurationForm(array $form, Drupal\Core\Form\FormStateInterface &$form_state) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/analytics/analytics_amp/src/Plugin/AnalyticsService/AmpTrackingPixel.php on line 21
+
+Warning: Declaration of Drupalnalytics_piwik\Plugin\AnalyticsService\Piwik::buildConfigurationForm(&$form, &$form_state) should be compatible with Drupalnalytics\AnalyticsService\AnalyticsServiceBase::buildConfigurationForm(array $form, Drupal\Core\Form\FormStateInterface &$form_state) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/analytics/analytics_piwik/src/Plugin/AnalyticsService/Piwik.php on line 20
+
+
+ ------ ----------------------------------------------- 
+  Line   src/AnalyticsInstanceListBuilder.php           
+ ------ ----------------------------------------------- 
+  26     Call to deprecated method getLabel() of class  
+         Drupal\Core\Entity\EntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnalyticsInstanceDeleteForm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnalyticsInstanceForm.php                 
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+  104    Call to deprecated function drupal_set_message().  
+  155    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+  159    Call to deprecated method link() of class          
+         Drupal\Core\Entity\EntityInterface.                
+  163    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

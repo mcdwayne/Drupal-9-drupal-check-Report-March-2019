@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/api_key_manager 8.x-1.0
+source : http://cgit.drupalcode.org/api_key_manager 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthApiKeyDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthApiKeyForm.php                        
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

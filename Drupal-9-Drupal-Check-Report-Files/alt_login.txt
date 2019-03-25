@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/alt_login d4d72f803e59492d69789fadbf230931b1203df1
+source : http://cgit.drupalcode.org/alt_login 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   alt_login.module                                            
+ ------ ------------------------------------------------------------ 
+  55     Call to deprecated method getUsername() of class            
+         Drupal\user\Entity\User.                                    
+  62     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Authentication/Provider/BasicAuth.php                   
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

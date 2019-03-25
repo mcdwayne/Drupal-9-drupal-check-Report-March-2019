@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advanced_cors a8965c8a5404ab183e7a93f2ebced4e5d218f932
+source : http://cgit.drupalcode.org/advanced_cors 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RouteConfigEntityDeleteForm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RouteConfigEntityForm.php                 
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ descrip. : Add source tags of LD placed on key pages in the website.
+source   : [git] https://git.drupal.org/project/ldadmin 6be7b39c71f737a8c257852e38616385c7ae948f
+source : https://git.drupal.org/project/ldadmin.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JsonLDMappingDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JsonLDMappingForm.php                     
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ansible 485993e9b82b45b9a4b0cd11bd50b61da8c42712
+source : http://cgit.drupalcode.org/ansible 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/webform_ansible/src/Plugin/WebformHandler/WebformAnsibleHandler.php  
+ ------ ----------------------------------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().                            
+  113    Call to deprecated function drupal_set_message().                            
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnsibleEntityForm.php                     
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().  
+  31     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

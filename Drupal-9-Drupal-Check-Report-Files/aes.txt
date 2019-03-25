@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/aes 2d770ecfb913736a4c513168b855f80161a2150e
+source : http://cgit.drupalcode.org/aes 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/AES.php                                        
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function libraries_get_path().  
+  19     Call to deprecated function libraries_get_path().  
+  40     Call to deprecated function libraries_get_path().  
+  55     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  120    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  137    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  166    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  195    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  253    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AesAdminForm.php                          
+ ------ --------------------------------------------------- 
+  27     Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  66     Call to deprecated function drupal_set_message().  
+  141    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  149    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  163    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  165    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+  178    Call to deprecated method getActive() of class     
+         Drupal\Core\Config\FileStorageFactory.             
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/AES/Mcrypt.php                       
+ ------ ------------------------------------------------ 
+  42     Call to deprecated method getActive() of class  
+         Drupal\Core\Config\FileStorageFactory.          
+  54     Call to deprecated method getActive() of class  
+         Drupal\Core\Config\FileStorageFactory.          
+  79     Call to deprecated method getActive() of class  
+         Drupal\Core\Config\FileStorageFactory.          
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

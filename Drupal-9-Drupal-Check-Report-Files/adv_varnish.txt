@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/adv_varnish 7d51dc0651074de27a0fb5df6436e6ee3abc43b3
+source : http://cgit.drupalcode.org/adv_varnish 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/BlockESIController.php                       
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvVarnishDeflateForm.php                 
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+  117    Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AdvVarnishEntityCacheSettingsForm.php              
+ ------ ------------------------------------------------------------ 
+  90     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvVarnishPurgeForm.php                   
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvVarnishSettingsForm.php                
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

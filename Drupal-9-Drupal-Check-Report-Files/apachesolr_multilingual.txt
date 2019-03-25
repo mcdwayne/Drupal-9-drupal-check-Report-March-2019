@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/apachesolr_multilingual 7d9bb15505c21767a60d23022126879dfd255a2e
+source : http://cgit.drupalcode.org/apachesolr_multilingual 
+ 
+ <code> 
+Warning: Declaration of Drupalpachesolr_multilingual\Plugin\search_apiackend\SearchApiSolrMultilingualBackend::preQuery(Solarium\QueryType\Select\Query\Query $solarium_query, Drupal\search_api\Query\QueryInterface $query) should be compatible with Drupal\search_api_solr\Plugin\search_apiackend\SearchApiSolrBackend::preQuery(Solarium\Core\Query\QueryInterface $solarium_query, Drupal\search_api\Query\QueryInterface $query) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/apachesolr_multilingual/src/Plugin/search_api/backend/SearchApiSolrMultilingualBackend.php on line 40
+
+
+ ------ ---------------------------------------------------------------------- 
+  Line   Tests/Controller/DefaultControllerTest.php                            
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalpachesolr_multilingual\Tests\DefaultControllerTest was  
+         not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/SolrFieldTypeListBuilder.php    
+ ------ ----------------------------------------------- 
+  30     Call to deprecated method getLabel() of class  
+         Drupal\Core\Entity\EntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SolrFieldTypeDeleteForm.php               
+ ------ --------------------------------------------------- 
+  29     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SolrFieldTypeForm.php                     
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

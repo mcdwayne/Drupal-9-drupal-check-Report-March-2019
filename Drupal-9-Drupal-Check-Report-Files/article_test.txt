@@ -1,0 +1,15 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/article_test 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/article_test 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/rest/resource/IsEmailRegisteredResource.php  
+ ------ -------------------------------------------------------- 
+  150    Call to deprecated function node_load().                
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

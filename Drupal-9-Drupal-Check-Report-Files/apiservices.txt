@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/apiservices 05058d1c355f9f94041b1d281c70354233a48e5d
+source : http://cgit.drupalcode.org/apiservices 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/ApiProviderBase.php                                     
+ ------ ------------------------------------------------------------ 
+  51     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ApiClientTest.php                                         
+ ------ ------------------------------------------------------------------------- 
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  80     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  106    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ApiProviderBaseTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  38     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  76     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  99     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  120    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

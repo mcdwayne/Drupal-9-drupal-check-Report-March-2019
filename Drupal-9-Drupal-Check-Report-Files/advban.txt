@@ -1,0 +1,88 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advban 592441ff32b28ba2170ce33d8dc93c42609cf363
+source : http://cgit.drupalcode.org/advban 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   advban.module                                     
+ ------ -------------------------------------------------- 
+  28     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/AdvbanIpManager.php                            
+ ------ --------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/AdvbanMiddleware.php                     
+ ------ --------------------------------------------- 
+  59     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  59     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvbanAdmin.php                           
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+  281    Call to deprecated function drupal_set_message().  
+  288    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvbanDelete.php                          
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvbanDeleteAll.php                       
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/AdvbanSearchForm.php                       
+ ------ ---------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().   
+  130    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/IpAddressBlockingTest.php    
+ ------ -------------------------------------------------- 
+  37     Call to deprecated function db_query().           
+  47     Call to deprecated function db_query().           
+  54     Call to deprecated method assertText() of class   
+         Drupal\Tests\BrowserTestBase.                     
+  60     Call to deprecated method assertText() of class   
+         Drupal\Tests\BrowserTestBase.                     
+  66     Call to deprecated method assertText() of class   
+         Drupal\Tests\BrowserTestBase.                     
+  72     Call to deprecated method assertText() of class   
+         Drupal\Tests\BrowserTestBase.                     
+  79     Call to deprecated method assertText() of class   
+         Drupal\Tests\BrowserTestBase.                     
+  96     Call to deprecated function db_select().          
+  100    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  104    Call to deprecated function db_select().          
+  108    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/AdvbanMiddlewareTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  45     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

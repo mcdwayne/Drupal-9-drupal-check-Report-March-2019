@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/advanced_pwa a38d926541ca1ec1b7c4b8a713e129edee9b7cf3
+source : http://cgit.drupalcode.org/advanced_pwa 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdvancedpwaBroadcastForm.php              
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AdvancedpwaForm.php                                
+ ------ ------------------------------------------------------------ 
+  143    Call to deprecated function _file_save_upload_from_form().  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Model/SubscriptionsDatastorage.php             
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function db_select().           
+  41     Call to deprecated function db_insert().           
+  46     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function db_select().           
+  80     Call to deprecated function db_delete().           
+  85     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

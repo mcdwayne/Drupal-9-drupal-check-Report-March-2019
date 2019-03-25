@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/anonymous_publishing 56eb9d30cb781f9e7073d76c4d18168eeedaf37e
+source : http://cgit.drupalcode.org/anonyonous_publishing 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/anonymous_publishing_cl/anonymous_publishing_cl.module  
+ ------ ---------------------------------------------------------------- 
+  476    Call to deprecated function drupal_get_messages().              
+  502    Call to deprecated function drupal_set_message().               
+  544    Call to deprecated function drupal_set_message().               
+  552    Call to deprecated function drupal_set_message().               
+  588    Call to deprecated function drupal_set_message().               
+  596    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/anonymous_publishing_cl/src/Controller/AnonymousPublishingController.php  
+ ------ ---------------------------------------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().                                 
+  41     Call to deprecated function drupal_set_message().                                 
+  46     Call to deprecated function drupal_set_message().                                 
+  100    Call to deprecated function drupal_set_message().                                 
+  111    Call to deprecated function drupal_set_message().                                 
+  116    Call to deprecated function drupal_set_message().                                 
+  123    Call to deprecated function drupal_set_message().                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/anonymous_publishing_cl/src/Form/AnonymousPublishingClAdminBlocked.php  
+ ------ -------------------------------------------------------------------------------- 
+  158    Call to deprecated function drupal_set_message().                               
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/anonymous_publishing_cl/src/Form/AnonymousPublishingClAdminModeration.php  
+ ------ ----------------------------------------------------------------------------------- 
+  116    Call to deprecated method getStatus() of class                                     
+         Drupal

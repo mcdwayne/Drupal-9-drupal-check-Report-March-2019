@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/body_style_image 8.x-2.0-beta3
+source : http://cgit.drupalcode.org/body_style_image 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/BodyStyleImageSettingsForm.php             
+ ------ ---------------------------------------------------- 
+  33     Call to deprecated function node_type_get_types().  
+  54     Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  54     Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  60     Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  60     Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  71     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

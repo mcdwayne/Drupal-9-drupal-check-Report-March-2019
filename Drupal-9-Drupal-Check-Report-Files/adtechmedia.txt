@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/adtechmedia 16de6b28134ca5388e4fce7f3242540bce260abb
+source : http://cgit.drupalcode.org/adtechmedia 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/AtmHttpClient.php                              
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+  204    Call to deprecated function drupal_set_message().  
+  256    Call to deprecated function drupal_set_message().  
+  368    Call to deprecated function drupal_set_message().  
+  392    Call to deprecated function drupal_set_message().  
+  425    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/AtmGeneralConfigForm.php                   
+ ------ ---------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().   
+  144    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/AtmTemplatesForm.php                       
+ ------ ---------------------------------------------------- 
+  1780   Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

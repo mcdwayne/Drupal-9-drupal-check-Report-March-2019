@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ajax_login_popup 8.x-1.0
+source : http://cgit.drupalcode.org/ajax_login_popup 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/CustomUserLoginForm.php                                     
+ ------ --------------------------------------------------------------------- 
+  288    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  292    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  302    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>
