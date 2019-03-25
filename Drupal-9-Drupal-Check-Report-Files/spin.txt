@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/spin dfeaf837df9af8d97ea58d5370f95dcf3d17ff81
+source : http://cgit.drupalcode.org/spin 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   spin.install.inc                         
+ ------ ----------------------------------------- 
+  25     Call to deprecated function db_merge().  
+  30     Call to deprecated function db_merge().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   spin.module                                      
+ ------ ------------------------------------------------- 
+  18     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  18     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SpinDeleteForm.php                        
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/SpinFormatter.php  
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function check_url().           
+  90     Call to deprecated function check_url().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/SpinItem.php                     
+ ------ ------------------------------------------------------------ 
+  160    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/SpinStorage.php                       
+ ------ ------------------------------------------ 
+  20     Call to deprecated function db_insert().  
+  33     Call to deprecated function db_delete().  
+  46     Call to deprecated function db_query().   
+  59     Call to deprecated function db_query().   
+  72     Call to deprecated function db_query().   
+  85     Call to deprecated function db_query().   
+  98     Call to deprecated function db_query().   
+  111    Call to deprecated function db_query().   
+  124    Call to deprecated function db_query().   
+  137    Call to deprecated function db_query().   
+  152    Call to deprecated function db_query().   
+  167    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

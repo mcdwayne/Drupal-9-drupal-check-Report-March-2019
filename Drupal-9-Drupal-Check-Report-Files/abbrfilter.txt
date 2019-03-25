@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/abbrfilter 523dce2bff2c2c867f0fc5d67aa09c47b322525b
+source : http://cgit.drupalcode.org/abbrfilter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddAbbrfilterForm.php                     
+ ------ --------------------------------------------------- 
+  124    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+  140    Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteAbbrfilterForm.php                  
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditAbbrfilterForm.php                    
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated method url() of class Drupal.   
+  118    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/tests/src/Unit/AbbrFilterTest.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Testsbbrfilter\Unit\AbbrfilterTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

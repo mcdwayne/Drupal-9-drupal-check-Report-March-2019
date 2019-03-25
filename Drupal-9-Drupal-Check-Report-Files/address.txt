@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/address 9a8756aebc33c6fea3629791738bd8b9f97e7033
+source : http://cgit.drupalcode.org/address 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Kernel/Formatter/FormatterTestBase.php   
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/Plugin/migrate/field/AddressFieldTest.php  
+ ------ ------------------------------------------------------------ 
+  49     Fetching class constant class of deprecated class           
+         Drupalddress\Plugin\migrate

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/acquia_flush_varnish 938ad20852f17896e1bc8ff05e38006f1489f54d
+source : http://cgit.drupalcode.org/acquia_flush_varnish 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AcquiaFlushVarnishController.php    
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/AcquiaFlushVarnishForm.php                 
+ ------ ---------------------------------------------------- 
+  73     Call to deprecated function valid_email_address().  
+  83     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

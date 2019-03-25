@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/accountkit 2e3e2f58ce9ed423a855e7bf20a1b2c4bdd4b86f
+source : http://cgit.drupalcode.org/accountkit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/AccountKitManager.php                          
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Authentication/Provider/AccountKitAuthenticationProvider.php  
+ ------ ------------------------------------------------------------------ 
+  71     Call to deprecated function drupal_set_message().                 
+  83     Call to deprecated function drupal_set_message().                 
+  84     Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EmailLoginForm.php                        
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

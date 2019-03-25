@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/admin_denied f681114d7888556d13042504a4d36acc546b64ce
+source : http://cgit.drupalcode.org/admin_denied 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   admin_denied.module                       
+ ------ ------------------------------------------ 
+  17     Call to deprecated function db_like().    
+  17     Call to deprecated function db_select().  
+  20     Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/activity 168775d462e61a0bd0e3bac6cdce87b015a45247
+source : http://cgit.drupalcode.org/activity 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteActionForm.php                      
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteActivityForm.php                    
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/query/ActivityPlugin.php          
+ ------ --------------------------------------------------- 
+  274    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

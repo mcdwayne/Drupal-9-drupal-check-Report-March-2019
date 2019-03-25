@@ -1,0 +1,203 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/acsf 8.x-2.52
+source : http://cgit.drupalcode.org/acsf 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   acsf_init/lib/cloud_hooks/common/pre-web-activate/000-acquia-deployment.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class SimpleRestCreds was not found while trying to analyse it -             
+         autoloading is probably not configured properly.                             
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   acsf_init/lib/sites/g/SimpleRest.php                                   
+ ------ ----------------------------------------------------------------------- 
+         Class Acquia\SimpleRest\SimpleRestCreds was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   acsf_init/src/Commands/AcsfInitCommands.php                          
+ ------ --------------------------------------------------------------------- 
+         Class Drush\Commands\AcsfInitCommands was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   acsf_sso/src/EventSubscriber/SamlauthUserSyncSubscriber.php  
+ ------ ------------------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().            
+  102    Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Commands/AcsfExtraCommands.php                                    
+ ------ ---------------------------------------------------------------------- 
+         Class Drush\Commands\AcsfExtraCommands was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Event/AcsfDuplicationScrubEntityHandler.php             
+ ------ ------------------------------------------------------------ 
+  63     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Event/AcsfDuplicationScrubTemporaryFilesHandler.php     
+ ------ ------------------------------------------------------------ 
+  16     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/AcsfConfigTest.php                                         
+ ------ ----------------------------------------------------------------- 
+         Class AcsfConfigTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/AcsfConfigUnitTest.inc                                         
+ ------ --------------------------------------------------------------------- 
+         Class AcsfConfigUnitTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/AcsfConfigUnitTestIncompatible.inc                            
+ ------ -------------------------------------------------------------------- 
+         Class AcsfConfigUnitTestIncompatible was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/AcsfConfigUnitTestMissingPassword.inc                            
+ ------ ----------------------------------------------------------------------- 
+         Class AcsfConfigUnitTestMissingPassword was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/AcsfConfigUnitTestMissingUrl.inc                            
+ ------ ------------------------------------------------------------------ 
+         Class AcsfConfigUnitTestMissingUrl was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/AcsfConfigUnitTestMissingUsername.inc                            
+ ------ ----------------------------------------------------------------------- 
+         Class AcsfConfigUnitTestMissingUsername was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/AcsfEventsTest.php                                               
+ ------ ----------------------------------------------------------------------- 
+         Class UnitTest was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/AcsfMessageResponseUnitTest.inc                                    
+ ------ ------------------------------------------------------------------------- 
+         Class AcsfMessageResponseUnitTest was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/AcsfMessageTest.php                                         
+ ------ ------------------------------------------------------------------ 
+         Class AcsfMessageTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/AcsfMessageUnitTestFailure.inc                                    
+ ------ ------------------------------------------------------------------------ 
+         Class AcsfMessageUnitTestFailure was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/AcsfMessageUnitTestFailureException.inc                            
+ ------ ------------------------------------------------------------------------- 
+         Class AcsfMessageUnitTestFailureException was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/AcsfMessageUnitTestMissingEndpoint.inc                            
+ ------ ------------------------------------------------------------------------ 
+         Class AcsfMessageUnitTestMissingEndpoint was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/AcsfMessageUnitTestMissingResponse.inc                            
+ ------ ------------------------------------------------------------------------ 
+         Class AcsfMessageUnitTestMissingResponse was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/AcsfMessageUnitTestSuccess.inc                                    
+ ------ ------------------------------------------------------------------------ 
+         Class AcsfMessageUnitTestSuccess was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/AcsfSiteTest.php                                         
+ ------ --------------------------------------------------------------- 
+         Class AcsfSiteTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/AcsfVariableStorageMock.php                                       
+ ------ ------------------------------------------------------------------------ 
+         Class AcsfVariableStorageMock was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/UnitTestDummyHandler1.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class UnitTestDummyHandler1 was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/UnitTestDummyHandler2.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class UnitTestDummyHandler2 was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/UnitTestDummyHandler3.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class UnitTestDummyHandler3 was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/UnitTestDummyHandlerIncompatible.php                            
+ ------ ---------------------------------------------------------------------- 
+         Class UnitTestDummyHandlerIncompatible was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/UnitTestDummyHandlerInterrupt.php                            
+ ------ ------------------------------------------------------------------- 
+         Class UnitTestDummyHandlerInterrupt was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 29 errors                                                         
+
+ </code>

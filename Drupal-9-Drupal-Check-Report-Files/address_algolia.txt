@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/address_algolia 33afe1a19805b565436d04336e7424d338f3cbaf
+source : http://cgit.drupalcode.org/address_algolia 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/AddressAlgoliaJavascriptTestBase.php      
+ ------ ------------------------------------------------------------------------- 
+  12     Class                                                                    
+         Drupal\Testsddress_algolia\FunctionalJavascript\AddressAlgoliaJavascr  
+         iptTestBase extends deprecated class                                     
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  30     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

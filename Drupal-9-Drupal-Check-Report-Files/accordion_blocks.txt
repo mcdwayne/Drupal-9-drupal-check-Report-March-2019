@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/accordion_blocks 3d303abce274adbdccf65ae376f0f08862f27ec9
+source : http://cgit.drupalcode.org/accordion_blocks 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/AccordionBlockFormatter.php  
+ ------ ------------------------------------------------------------- 
+  43     Call to deprecated method entityManager() of class Drupal.   
+  45     Call to deprecated method url() of class                     
+         Drupal\Core\Entity\EntityInterface.                          
+ ------ ------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/AccordionBlocksTest.php             
+ ------ ---------------------------------------------- 
+  101    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/features/bootstrap/FeatureContext.php                      
+ ------ ----------------------------------------------------------------- 
+         Class FeatureContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,168 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fontyourface 4e7ac385ec74ca1506df727039607a369c02e9cc
+source : http://cgit.drupalcode.org/fontyourface 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   fontyourface.module                                         
+ ------ ------------------------------------------------------------ 
+  169    Call to deprecated method l() of class Drupal.              
+  213    Call to deprecated method l() of class Drupal.              
+  362    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/adobe_edge_fonts/adobe_edge_fonts.module   
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().  
+  75     Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/fontscom_api/fontscom_api.module           
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+  256    Call to deprecated function drupal_set_message().  
+  260    Call to deprecated function drupal_set_message().  
+  304    Call to deprecated function drupal_set_message().  
+  368    Call to deprecated function drupal_set_message().  
+  399    Call to deprecated function drupal_set_message().  
+  427    Call to deprecated function drupal_set_message().  
+  449    Call to deprecated function drupal_set_message().  
+  483    Call to deprecated function drupal_set_message().  
+  508    Call to deprecated function drupal_set_message().  
+  527    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/fontsquirrel_api/fontsquirrel_api.module   
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().  
+  47     Call to deprecated function drupal_realpath().     
+  52     Call to deprecated function drupal_realpath().     
+  205    Call to deprecated function drupal_set_message().  
+  223    Call to deprecated function drupal_set_message().  
+  246    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/google_fonts_api/google_fonts_api.module   
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/local_fonts/local_fonts.module                      
+ ------ ------------------------------------------------------------ 
+  84     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/local_fonts/src/Form/LocalFontConfigEntityDeleteForm.php  
+ ------ ------------------------------------------------------------------ 
+  41     Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/local_fonts/src/Form/LocalFontConfigEntityForm.php  
+ ------ ------------------------------------------------------------ 
+  138    Call to deprecated function drupal_set_message().           
+  144    Call to deprecated function drupal_set_message().           
+  148    Call to deprecated method urlInfo() of class                
+         Drupal\Core\Entity\EntityInterface.                         
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/typekit_api/typekit_api.module             
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+  133    Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+  156    Call to deprecated function drupal_set_message().  
+  180    Call to deprecated function drupal_set_message().  
+  206    Call to deprecated function drupal_set_message().  
+  249    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FontYourFaceController.php          
+ ------ --------------------------------------------------- 
+  26     Call to deprecated method l() of class Drupal.     
+  32     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated method l() of class Drupal.     
+  67     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Font.php                                         
+ ------ ------------------------------------------------------------ 
+  182    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/FontDisplay.php                                  
+ ------ ------------------------------------------------------------ 
+  175    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/FontListBuilder.php                                              
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalontyourface\FontListBuilder.                           
+  33     Call to deprecated method l() of class                               
+         Drupalontyourface\FontListBuilder.                                 
+  35     Call to deprecated method urlInfo() of class                         
+         Drupal\Core\Entity\EntityInterface.                                  
+  56     Call to deprecated method urlInfo() of class                         
+         Drupal\Core\Entity\EntityInterface.                                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FontDisplayDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FontDisplayForm.php                       
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+  180    Call to deprecated function drupal_set_message().  
+  186    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FontForm.php                              
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FontSettingsForm.php                      
+ ------ --------------------------------------------------- 
+  159    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/websafe_fonts_test/websafe_fonts_test.module  
+ ------ ---------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 62 errors                                                         
+
+ </code>

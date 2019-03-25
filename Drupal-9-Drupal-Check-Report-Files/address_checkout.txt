@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/address_checkout 48c2800808578c50efb9ca1e518627c0cafd2819
+source : http://cgit.drupalcode.org/address_checkout 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

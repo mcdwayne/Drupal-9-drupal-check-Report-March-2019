@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/achievements 07d1c9c07ba12eef920e53f7ba37b1795b1d9bef
+source : http://cgit.drupalcode.org/achievements 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   achievements.module                         
+ ------ -------------------------------------------- 
+  135    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/AchievementsController.php         
+ ------ -------------------------------------------------- 
+  58     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AchievementEntityDeleteForm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AchievementEntityForm.php                          
+ ------ ------------------------------------------------------------ 
+  127    Call to deprecated function file_uri_scheme().              
+  142    Call to deprecated function file_uri_scheme().              
+  160    Call to deprecated function _file_save_upload_from_form().  
+  208    Call to deprecated function file_uri_scheme().              
+  254    Call to deprecated function drupal_set_message().           
+  260    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/views/field/LatestAchievement.php  
+ ------ ---------------------------------------------- 
+  24     Call to deprecated function db_select().      
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/Form/AdminFormTest.php             
+ ------ --------------------------------------------- 
+  50     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  50     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

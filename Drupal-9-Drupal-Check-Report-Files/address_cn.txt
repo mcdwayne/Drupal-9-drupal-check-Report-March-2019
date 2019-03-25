@@ -1,0 +1,145 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/address_cn 40687fc5c2a84a1c80c639b78bdcdb4634a78688
+source : http://cgit.drupalcode.org/address_cn 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   scripts/generate.php                                                    
+ ------ ------------------------------------------------------------------------ 
+         Class SubdivisionRepository was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressCity.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalddress_cn\Plugin\GraphQL\Fields\AddressSubdivisionFieldBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressContact.php                          
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressCountryCode.php                      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressDistrict.php                            
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalddress_cn\Plugin\GraphQL\Fields\AddressSubdivisionFieldBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressPhone.php                            
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressPostCode.php                         
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressProvince.php                            
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalddress_cn\Plugin\GraphQL\Fields\AddressSubdivisionFieldBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressStreetAddress.php                    
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressSubdivisionFieldBase.php             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/AddressSubdivisionsQuery.php                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/SubdivisionCode.php                         
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/SubdivisionHasChildren.php                  
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/SubdivisionName.php                         
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/GraphQL/InputTypes/AddressInput.php                          
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\graphql\Plugin\GraphQL\InputTypes\InputTypePluginBase not  
+         found and could not be autoloaded.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/GraphQL/Types/Address.php                                    
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\graphql\Plugin\GraphQL\Types\TypePluginBase not found and  
+         could not be autoloaded.                                                
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/GraphQL/Types/AddressSubdivision.php                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\graphql\Plugin\GraphQL\Types\TypePluginBase not found and  
+         could not be autoloaded.                                                
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/modules/src/Plugin/GraphQL/Fields/NodeTestAddress.php           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Kernel/AddressTest.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests\graphql\Kernel\GraphQLFileTestBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

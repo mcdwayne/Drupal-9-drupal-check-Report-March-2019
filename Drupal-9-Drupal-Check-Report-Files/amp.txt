@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/amp f67a42c149d68981460fbd92d369374708120453
+source : http://cgit.drupalcode.org/amp 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/AmpVideoFormatter.php  
+ ------ ------------------------------------------------------- 
+  112    Calls to function dpm should not exist.                
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/AmpTestBase.php                                     
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Testsmp\Functional\AmpTestBase.                           
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

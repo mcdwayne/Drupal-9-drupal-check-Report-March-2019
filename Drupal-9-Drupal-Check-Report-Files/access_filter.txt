@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/access_filter 933397dc89778f7e4e2a6aa8b455c82130f62920
+source : http://cgit.drupalcode.org/access_filter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/AccessFilterListBuilder.php                    
+ ------ --------------------------------------------------- 
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditForm.php                              
+ ------ --------------------------------------------------- 
+  229    Call to deprecated function drupal_set_message().  
+  232    Call to deprecated function drupal_set_message().  
+  235    Call to deprecated function drupal_set_message().  
+  284    Call to deprecated function drupal_set_message().  
+  287    Call to deprecated function drupal_set_message().  
+  290    Call to deprecated function drupal_set_message().  
+  308    Call to deprecated function drupal_set_message().  
+  313    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

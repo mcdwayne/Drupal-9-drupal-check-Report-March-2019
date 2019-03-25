@@ -1,0 +1,88 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/abookings 93ac96641af69efa649721cce6edf06886ae5fea
+source : http://cgit.drupalcode.org/abookings 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   abookings.module                          
+ ------ ------------------------------------------ 
+  109    Call to deprecated function node_load().  
+  230    Call to deprecated function node_load().  
+  334    Call to deprecated function node_load().  
+  339    Call to deprecated function node_load().  
+  410    Call to deprecated function node_load().  
+  413    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   includes/emails.inc                                
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   includes/queries.inc                      
+ ------ ------------------------------------------ 
+  39     Call to deprecated function node_load().  
+  97     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   libraries/fullcalendar/demos/php/utils.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Event was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   modules/booking/booking.module            
+ ------ ------------------------------------------ 
+  163    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   modules/booking/includes/form_manipulators.inc  
+ ------ ------------------------------------------------ 
+  64     Call to deprecated function node_load().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/booking/src/Plugin/rest/resource/BookingRestResource.php  
+ ------ ------------------------------------------------------------------ 
+  71     Call to deprecated function node_load().                          
+  80     Call to deprecated function node_load().                          
+  88     Call to deprecated function node_load().                          
+  96     Call to deprecated function node_load().                          
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/bookings_backend/src/Controller/BookingController.php            
+ ------ ------------------------------------------------------------------------- 
+  129    Call to deprecated function node_load().                                 
+  135    Call to deprecated method urlInfo() of class Drupal\Core\Entity\Entity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/BookingStatsPageController.php  
+ ------ ----------------------------------------------- 
+  184    Call to deprecated function node_load().       
+  248    Call to deprecated function node_load().       
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/BookingSettingsForm.php          
+ ------ ------------------------------------------ 
+  122    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/ManualEmailsForm.php             
+ ------ ------------------------------------------ 
+  32     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

@@ -1,0 +1,215 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/accessibility 100f1317cb45959092d3c7ad22e793d78bb3e07b
+source : http://cgit.drupalcode.org/accessibility 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   accessibility.admin.inc                            
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().  
+  26     Call to deprecated function entity_create().       
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   accessibility.module                                        
+ ------ ------------------------------------------------------------ 
+  58     Call to deprecated function libraries_get_path().           
+  208    Call to deprecated function entity_load().                  
+  214    Call to deprecated method entityManager() of class Drupal.  
+  227    Call to deprecated function db_delete().                    
+  247    Call to deprecated function entity_view().                  
+  254    Call to deprecated function entity_view().                  
+  256    Call to deprecated function drupal_render().                
+  297    Call to deprecated function libraries_get_path().           
+  354    Call to deprecated function libraries_get_path().           
+  366    Call to deprecated function db_select().                    
+  373    Call to deprecated function entity_load().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   accessibility.pages.inc                                     
+ ------ ------------------------------------------------------------ 
+  9      Call to deprecated function entity_create().                
+  13     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/AccessibilityTestAccessController.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalccessibility\AccessibilityTestAccessController was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/AccessibilityTestInterface.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupalccessibility\AccessibilityTestInterface was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/AccessibilityTestRenderController.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalccessibility\AccessibilityTestRenderController was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/AccessibilityTestStorageController.php        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalccessibility\AccessibilityTestStorageController was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/AccessibilityTestStorageControllerInterface.php  
+ ------ -------------------------------------------------------------------------- 
+         Class Drupalccessibility\AccessibilityTestStorageControllerInterface    
+         was not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                      
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Controller/AccessibilityController.php        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalccessibility\Controller\AccessibilityController was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Entity/AccessibilityTest.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalccessibility\Entity\AccessibilityTest was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Form/AccessibilityTestDeleteForm.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupalccessibility\Form\AccessibilityTestDeleteForm was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Form/AccessibilityTestFormController.php        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalccessibility\Form\AccessibilityTestFormController was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Form/AccessibilityTestsImportForm.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalccessibility\Form\AccessibilityTestsImportForm was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Plugin/views/field/AccessibilityTestEditField.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class                                                                       
+         Drupalccessibility\Pluginiewsield\AccessibilityTestsEditField was     
+         not found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                        
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   lib/Drupal/accessibility/Plugin/views/field/AccessibilityTestStatusField.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class                                                                         
+         Drupalccessibility\Pluginiewsield\AccessibilityTestsStatusField         
+         was not found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                          
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Plugin/views/field/AccessibilityTestsDeleteField.php  
+ ------ ------------------------------------------------------------------------------- 
+         Class                                                                          
+         Drupalccessibility\Pluginiewsield\AccessibilityTestsDeleteField          
+         was not found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                           
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   lib/Drupal/accessibility/Plugin/views/field/AccessibilityTestsLinkField.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class                                                                        
+         Drupalccessibility\Pluginiewsield\AccessibilityTestsLinkField was      
+         not found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                         
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------- 
+  Line   modules/accessibility_content/lib/Drupal/accessibility_content/Form/AccessibilityContentAdminForm.php  
+ ------ ------------------------------------------------------------------------------------------------------- 
+         Class Drupalccessibility_content\Form\AccessibilityContentAdminForm                                  
+         was not found while trying to analyse it - autoloading is probably not                                 
+         configured properly.                                                                                   
+ ------ ------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------- 
+  Line   modules/accessibility_reporting/lib/Drupal/accessibility_reporting/AccessibilityReportingController.php  
+ ------ --------------------------------------------------------------------------------------------------------- 
+         Class Drupalccessibility_reporting\AccessibilityReportingController                                    
+         was not found while trying to analyse it - autoloading is probably not                                   
+         configured properly.                                                                                     
+ ------ --------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/accessibility_reporting/lib/Drupal/accessibility_reporting/Plugin/views/field/AccessibilityReportingReportedField.php  
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+         Class                                                                                                                          
+         Drupalccessibility_reporting\Pluginiewsield\AccessibilityReportin                                                        
+         gReportedField was not found while trying to analyse it - autoloading                                                          
+         is probably not configured properly.                                                                                           
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/accessibility_testswarm/accessibility_testswarm.inc  
+ ------ ------------------------------------------------------------- 
+  24     Call to deprecated function db_select().                     
+ ------ ------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/accessibility_testswarm/accessibility_testswarm.module  
+ ------ ---------------------------------------------------------------- 
+  14     Call to deprecated function libraries_get_path().               
+  49     Call to deprecated function libraries_get_path().               
+  158    Call to deprecated function db_select().                        
+  170    Call to deprecated function db_insert().                        
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/accessibility_testswarm/accessibility_testswarm.pages.inc  
+ ------ ------------------------------------------------------------------- 
+  19     Call to deprecated function db_select().                           
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/accessibility_testswarm/lib/Drupal/accessibility_testswarm/Form/AdminForm.php  
+ ------ --------------------------------------------------------------------------------------- 
+         Class Drupalccessibility_testswarm\Form\AdminForm was not found while                
+         trying to analyse it - autoloading is probably not configured properly.                
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------- 
+  Line   modules/accessibility_wysiwyg/lib/Drupal/accessibility_wysiwyg/Plugin/CKEditorPlugin/Accessibility.php  
+ ------ -------------------------------------------------------------------------------------------------------- 
+         Class Drupalccessibility_wysiwyg\Plugin\CKEditorPlugin\Accessibility                                  
+         was not found while trying to analyse it - autoloading is probably not                                  
+         configured properly.                                                                                    
+ ------ -------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 40 errors                                                         
+
+ </code>

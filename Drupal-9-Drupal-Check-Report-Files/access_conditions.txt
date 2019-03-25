@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/access_conditions e677b9cf5a43a41986eab1e86d80cbd06166da6f
+source : https://cgit.drupalcode.org/access_conditions 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AccessModelAddForm.php                    
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AccessModelEditForm.php                   
+ ------ --------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionAddForm.php                      
+ ------ --------------------------------------------------- 
+  134    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionEditForm.php                     
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

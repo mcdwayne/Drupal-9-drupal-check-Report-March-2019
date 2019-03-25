@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/abtestui 2dbb472f840e45bab5338b7c7e4c76ac074ba1c2
+source : http://cgit.drupalcode.org/abtestui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   abtestui.module                                    
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ABTestDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ABTestForm.php                            
+ ------ --------------------------------------------------- 
+  624    Call to deprecated function drupal_set_message().  
+  627    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

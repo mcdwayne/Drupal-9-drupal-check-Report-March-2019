@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/access_by_ref 544bc72a17f67f7e2aeb368e2ac32b9b6fbef366
+source : http://cgit.drupalcode.org/access_by_ref 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   access_by_ref.module                      
+ ------ ------------------------------------------ 
+  16     Call to deprecated function node_load().  
+  16     Calls to function dsm should not exist.   
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/access_by_ref_settings_form.php  
+ ------ ------------------------------------------ 
+  163    Calls to function dsm should not exist.   
+  297    Call to deprecated function db_query().   
+  316    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

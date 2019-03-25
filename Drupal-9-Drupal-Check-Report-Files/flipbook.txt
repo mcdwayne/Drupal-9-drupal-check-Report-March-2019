@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flipbook 9164dab59e9fe072edcd00626cdd04c734428366
+source : http://cgit.drupalcode.org/flipbook 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Entity/Controller/FlipbookListBuilder.php  
+ ------ ----------------------------------------------- 
+  58     Call to deprecated method link() of class      
+         Drupal\Core\Entity\EntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChoosePdfStyleForm.php                    
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlipbookForm.php                          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

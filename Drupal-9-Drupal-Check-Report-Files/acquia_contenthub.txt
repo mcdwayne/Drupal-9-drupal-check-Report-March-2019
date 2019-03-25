@@ -1,0 +1,106 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/acquia_contenthub 8e264c8d40c119783118ab3aae288edaad05080b
+source : http://cgit.drupalcode.org/acquia_contenthub 
+ 
+ <code> 
+Warning: Declaration of Drupalcquia_contenthub_server_test\Client\ContentHubClientMock::putFilter($query, $name = '') should be compatible with Acquia\ContentHubClient\ContentHubClient::putFilter($query, $name = '', $uuid = NULL) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/acquia_contenthub/tests/modules/acquia_contenthub_server_test/src/Client/ContentHubClientMock.php on line 227
+
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   modules/acquia_contenthub_curation/src/Controller/DiscoveryInterfaceController.php  
+ ------ ------------------------------------------------------------------------------------ 
+  224    Call to deprecated function drupal_set_message().                                   
+  228    Call to deprecated function drupal_set_message().                                   
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/acquia_contenthub_publisher/src/ContentHubExportQueue.php  
+ ------ ------------------------------------------------------------------- 
+  119    Call to deprecated method checkPlain() of class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  119    Call to method checkPlain() of deprecated class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  120    Call to deprecated method checkPlain() of class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  120    Call to method checkPlain() of deprecated class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  132    Call to deprecated method checkPlain() of class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  132    Call to method checkPlain() of deprecated class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  133    Call to deprecated method checkPlain() of class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  133    Call to method checkPlain() of deprecated class                    
+         Drupal\Component\Utility\SafeMarkup.                               
+  158    Call to deprecated function drupal_set_message().                  
+  162    Call to deprecated function drupal_set_message().                  
+  176    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/acquia_contenthub_publisher/src/Form/ContentHubExportQueueForm.php  
+ ------ ---------------------------------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().                           
+  108    Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/acquia_contenthub_publisher/src/Form/SubscriptionSettingsForm.php  
+ ------ --------------------------------------------------------------------------- 
+  186    Call to deprecated function drupal_set_message().                          
+  190    Call to deprecated function drupal_set_message().                          
+  202    Call to deprecated function drupal_set_message().                          
+  211    Call to deprecated function drupal_set_message().                          
+  214    Call to deprecated function drupal_set_message().                          
+  228    Call to deprecated function drupal_set_message().                          
+  244    Call to deprecated function drupal_set_message().                          
+  248    Call to deprecated function drupal_set_message().                          
+  255    Call to deprecated function drupal_set_message().                          
+  258    Call to deprecated function drupal_set_message().                          
+ ------ --------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/acquia_contenthub_subscriber/src/ContentHubImportQueue.php  
+ ------ -------------------------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().                   
+  119    Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/acquia_contenthub_subscriber/src/Form/ContentHubImportQueueForm.php  
+ ------ ----------------------------------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().                            
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Client/ClientFactory.php                             
+ ------ --------------------------------------------------------- 
+  197    Instantiation of deprecated class                        
+         Symfony\Bridge\PsrHttpMessage\Factory\DiactorosFactory.  
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/EventSubscriber/EntityImport/ContentLanguageSettings.php  
+ ------ -------------------------------------------------------------- 
+  91     Call to deprecated method useCaches() of class                
+         Drupal\Core\Entity\EntityFieldManagerInterface.               
+  93     Call to deprecated method useCaches() of class                
+         Drupal\Core\Entity\EntityFieldManagerInterface.               
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/EventSubscriber/HandleWebhook/RegisterWebhook.php    
+ ------ --------------------------------------------------------- 
+  59     Instantiation of deprecated class                        
+         Symfony\Bridge\PsrHttpMessage\Factory\DiactorosFactory.  
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/FileSchemeHandler/PublicFileSchemeHandler.php  
+ ------ ---------------------------------------------------------- 
+  39     Call to deprecated function drupal_dirname().             
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 33 errors                                                         
+
+ </code>

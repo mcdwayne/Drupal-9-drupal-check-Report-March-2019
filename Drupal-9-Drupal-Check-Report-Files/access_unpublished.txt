@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/access_unpublished df5bbd8d5a8e9270593a5436b5c4a990b4911d40
+source : http://cgit.drupalcode.org/access_unpublished 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/AccessTokenController.php            
+ ------ ---------------------------------------------------- 
+  74     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   tests/src/Functional/AccessTest.php       
+ ------ ------------------------------------------ 
+  43     Call to deprecated method url() of class  
+         Drupal\Core\Entity\EntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Functional/ContentModerationAccessTest.php                 
+ ------ --------------------------------------------------------------------- 
+  54     Call to deprecated method url() of class                             
+         Drupal\Core\Entity\EntityInterface.                                  
+  74     Call to deprecated method url() of class Drupal\Core\Entity\Entity.  
+  76     Call to deprecated method url() of class Drupal\Core\Entity\Entity.  
+  78     Call to deprecated method url() of class Drupal\Core\Entity\Entity.  
+  87     Call to deprecated method url() of class Drupal\Core\Entity\Entity.  
+  89     Call to deprecated method url() of class Drupal\Core\Entity\Entity.  
+  91     Call to deprecated method url() of class Drupal\Core\Entity\Entity.  
+  98     Call to deprecated method url() of class Drupal\Core\Entity\Entity.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/AccessUnpublishedTest.php                 
+ ------ ------------------------------------------------------------------------- 
+  17     Class                                                                    
+         Drupal\Testsccess_unpublished\FunctionalJavascript\AccessUnpublishedT  
+         est extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  52     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  67     Call to deprecated method url() of class                                 
+         Drupal\Core\Entity\EntityInterface.                                      
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

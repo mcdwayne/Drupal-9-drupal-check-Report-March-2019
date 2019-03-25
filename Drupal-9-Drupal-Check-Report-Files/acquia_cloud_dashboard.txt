@@ -1,0 +1,84 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/acquia_cloud_dashboard 8d0322771d511b980ef1b90d84399cc2e081c584
+source : http://cgit.drupalcode.org/acquia_cloud_dashboard 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   acquia_cloud_dashboard.module                      
+ ------ --------------------------------------------------- 
+  287    Call to deprecated function drupal_set_message().  
+  290    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/CloudAPICommand.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\CloudAPICommand was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/CloudAPIHelper.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\CloudAPIHelper was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/Controller/CloudDashboardController.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\Controller\CloudDashboardController    
+         was not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                       
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/Form/ConfigureForm.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\Form\ConfigureForm was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/Form/DomainDeleteForm.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\Form\DomainDeleteForm was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/Form/DomainForm.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\Form\DomainForm was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/acquia_cloud_dashboard/Form/DomainPurgeForm.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalcquia_cloud_dashboard\Form\DomainPurgeForm was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/Form/SSHKeyDeleteForm.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\Form\SSHKeyDeleteForm was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/acquia_cloud_dashboard/Form/SSHKeyForm.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalcquia_cloud_dashboard\Form\SSHKeyForm was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

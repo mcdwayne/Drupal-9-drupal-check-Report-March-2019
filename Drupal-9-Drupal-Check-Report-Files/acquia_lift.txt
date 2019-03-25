@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/acquia_lift 645283258519e070c09306f80cf38df36adfaa45
+source : http://cgit.drupalcode.org/acquia_lift 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/acquia_lift_inspector/tests/src/FunctionalJavascript/InspectorJsTest.php  
+ ------ ---------------------------------------------------------------------------------- 
+  19     Class                                                                             
+         Drupal\Testscquia_lift_inspector\FunctionalJavascript\InspectorJsTest           
+         extends deprecated class                                                          
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                              
+  22     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in           
+         class                                                                             
+         Drupal\Testscquia_lift_inspector\FunctionalJavascript\InspectorJsTest           
+         .                                                                                 
+  23     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class            
+         Drupal\Testscquia_lift_inspector\FunctionalJavascript\InspectorJsTest           
+         .                                                                                 
+  37     Call to method setUp() of deprecated class                                        
+         Drupal\Tests\BrowserTestBase.                                                     
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdminSettingsForm.php                     
+ ------ --------------------------------------------------- 
+  696    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/SettingsTest.php                    
+ ------ ---------------------------------------------- 
+  123    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/Context/PageContextTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  107    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  115    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  118    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  121    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  122    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  123    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  126    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  132    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  135    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  138    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  485    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  503    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  504    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  505    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/Context/PathContextTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  65     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  76     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  196    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/Helper/PathMatcherTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  36     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

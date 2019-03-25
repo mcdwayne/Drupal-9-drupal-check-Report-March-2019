@@ -1,0 +1,63 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/abjs 101edaaac750a3ee176e679f421c80572e112e84
+source : http://cgit.drupalcode.org/abjs 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/AbjsConditionDeleteConfirmForm.php  
+ ------ --------------------------------------------- 
+  81     Call to deprecated function db_delete().     
+  84     Call to deprecated function db_delete().     
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/AbjsConditionForm.php            
+ ------ ------------------------------------------ 
+  70     Call to deprecated function db_query().   
+  146    Call to deprecated function db_update().  
+  160    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/AbjsExperienceDeleteConfirmForm.php  
+ ------ ---------------------------------------------- 
+  81     Call to deprecated function db_delete().      
+  84     Call to deprecated function db_delete().      
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/AbjsExperienceForm.php           
+ ------ ------------------------------------------ 
+  70     Call to deprecated function db_query().   
+  146    Call to deprecated function db_update().  
+  160    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/AbjsTestDeleteConfirmForm.php    
+ ------ ------------------------------------------ 
+  81     Call to deprecated function db_delete().  
+  84     Call to deprecated function db_delete().  
+  87     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/AbjsTestForm.php                 
+ ------ ------------------------------------------ 
+  61     Call to deprecated function db_query().   
+  84     Call to deprecated function db_query().   
+  107    Call to deprecated function db_query().   
+  168    Call to deprecated function db_query().   
+  190    Call to deprecated function db_query().   
+  392    Call to deprecated function db_update().  
+  403    Call to deprecated function db_delete().  
+  406    Call to deprecated function db_delete().  
+  412    Call to deprecated function db_insert().  
+  431    Call to deprecated function db_merge().   
+  438    Call to deprecated function db_merge().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 24 errors                                                         
+
+ </code>

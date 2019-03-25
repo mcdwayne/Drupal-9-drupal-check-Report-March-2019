@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ics_field e47cc06ee303915253c7fdd4b2481a712db5a300
+source : http://cgit.drupalcode.org/ics_field 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/IcsFileManager.php                             
+ ------ --------------------------------------------------- 
+  276    Call to deprecated function drupal_set_message().  
+  288    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/CalendarDownloadNodeFormTest.php   
+ ------ -------------------------------------------------------- 
+  75     Call to deprecated function entity_create().            
+  82     Call to deprecated function entity_create().            
+  90     Call to deprecated function entity_get_form_display().  
+  97     Call to deprecated function entity_create().            
+  110    Call to deprecated function entity_create().            
+  118    Call to deprecated function entity_get_form_display().  
+  124    Call to deprecated function entity_get_display().       
+  132    Call to deprecated function entity_create().            
+  138    Call to deprecated function entity_create().            
+  146    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ICalFactoryTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  122    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/IcalTimezoneGeneratorTest.php                             
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/address_formatter 8.x-2.0-alpha1
+source : http://cgit.drupalcode.org/address_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Controller/AddressFormatterOptionsController.php  
+ ------ ------------------------------------------------------ 
+  28     Call to deprecated method url() of class              
+         Drupal\Core\Config\Entity\ConfigEntityBase.           
+  45     Call to deprecated method url() of class              
+         Drupal\Core\Config\Entity\ConfigEntityBase.           
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

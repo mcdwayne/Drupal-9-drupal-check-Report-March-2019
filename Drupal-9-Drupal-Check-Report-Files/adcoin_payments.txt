@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/adcoin_payments 2bb386c90b9624bd2bf390d9a1492dcfd720d424
+source : http://cgit.drupalcode.org/adcoin_payments 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   adcoin_payments.module                             
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/ListController.php               
+ ------ ------------------------------------------------ 
+  57     Call to deprecated function format_date().      
+  64     Call to deprecated method l() of class Drupal.  
+  65     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/ViewPaymentController.php    
+ ------ -------------------------------------------- 
+  29     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigurationForm.php                     
+ ------ --------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().  
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/PaymentForm.php                          
+ ------ -------------------------------------------------- 
+  136    Call to deprecated method url() of class Drupal.  
+  137    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------- 
+  Line   src/Model/PageList.php                  
+ ------ ---------------------------------------- 
+  25     Call to deprecated function db_or().    
+  31     Call to deprecated function db_like().  
+ ------ ---------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

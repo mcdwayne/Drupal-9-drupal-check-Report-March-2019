@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/account_settings_tab 9dbb59aa32f7f12c3b4cd9555686761a6a848d63
+source : http://cgit.drupalcode.org/account_settings_tab 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/AccountSettingsTabForm.php                                  
+ ------ --------------------------------------------------------------------- 
+  93     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  173    Call to deprecated function drupal_set_message().                    
+  183    Call to deprecated function drupal_set_message().                    
+  191    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

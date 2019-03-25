@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/academic_applications 46c34b376759887466573ad60b1ecc5947de0f96
+source : http://cgit.drupalcode.org/academic_applications 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowForm.php                          
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().  
+  111    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/WebFormSubmissionListBuilderOverride.php  
+ ------ ---------------------------------------------- 
+  127    Call to deprecated method link() of class     
+         Drupal\Core\Entity\EntityInterface.           
+  127    Call to deprecated method link() of class     
+         Drupal\Core\Entity\EntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>
