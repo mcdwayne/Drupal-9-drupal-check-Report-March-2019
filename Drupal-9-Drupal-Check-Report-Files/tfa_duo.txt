@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tfa_duo b1b6927bb018abcfe694a08cbe8a795550bc48c6
+source : http://cgit.drupalcode.org/tfa_duo 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/TfaSetup/TfaDuoSetup.php                
+ ------ --------------------------------------------------- 
+  85     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  191    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/TfaValidation/TfaDuoValidation.php      
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated function drupal_set_message().  
+  182    Call to deprecated method url() of class Drupal.   
+  189    Call to deprecated method url() of class Drupal.   
+  213    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/TfaDuoTest.php               
+ ------ -------------------------------------------------- 
+  76     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

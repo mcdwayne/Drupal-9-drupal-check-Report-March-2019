@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/typogrify d6d57c217b3ab82f085de81827cd1279fbca84f7
+source : http://cgit.drupalcode.org/typogrify 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/TypogrifyClassTestCase.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	ypogrify\TypogrifyClassTestCase was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/TypogrifySmartyPantsTestCase.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	ypogrify\TypogrifySmartyPantsTestCase was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

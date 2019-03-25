@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/typed_data 1ff86ccb61e0f84caa3effed762b226e755f2253
+source : http://cgit.drupalcode.org/typed_data 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/TypedDataFilter/EntityUrlFilter.php  
+ ------ ------------------------------------------------ 
+  29     Call to deprecated method url() of class        
+         Drupal\CorentityntityInterface.             
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Widget/FormWidgetInterface.php                              
+ ------ ---------------------------------------------------------------- 
+  15     Interface Drupal	yped_data\Widget\FormWidgetInterface extends  
+         deprecated interface                                            
+         Drupal\Component\Plugin\ConfigurablePluginInterface.            
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/modules/typed_data_widget_test/src/FormWidgetExampleForm.php  
+ ------ -------------------------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tupas 14abd979d714bacb6181a95d4b71053c12131482
+source : http://cgit.drupalcode.org/tupas 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/tupas_registration/tests/src/Unit/UniqueUsernameTest.php         
+ ------ ------------------------------------------------------------------------- 
+  43     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  45     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/tupas_session/tests/src/Unit/TupasSessionManagerTest.php         
+ ------ ------------------------------------------------------------------------- 
+  78     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/tupas_session/tests/src/Unit/TupasSessionStorageTest.php         
+ ------ ------------------------------------------------------------------------- 
+  123    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/TupasBankForm.php                    
+ ------ ---------------------------------------------- 
+  123    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

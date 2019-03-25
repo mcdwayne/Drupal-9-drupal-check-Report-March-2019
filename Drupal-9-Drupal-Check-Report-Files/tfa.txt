@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tfa ceebf0410ccc382412918145208d42619713eb51
+source : http://cgit.drupalcode.org/tfa 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   services_tfa/src/Plugin/ServiceDefinition/GenericValidation.php         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\services\ServiceDefinitionBase not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Commands/TfaCommands.php             
+ ------ ----------------------------------------- 
+  26     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BasicDisable.php                          
+ ------ --------------------------------------------------- 
+  158    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated function drupal_set_message().  
+  183    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BasicSetup.php                            
+ ------ --------------------------------------------------- 
+  196    Call to deprecated function drupal_set_message().  
+  235    Call to deprecated function drupal_set_message().  
+  247    Call to deprecated function drupal_set_message().  
+  326    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  425    Call to deprecated function drupal_set_message().  
+  570    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TfaLoginForm.php                          
+ ------ --------------------------------------------------- 
+  193    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Block/TfaUserLoginBlock.php          
+ ------ ------------------------------------------------ 
+  92     Call to deprecated method l() of class Drupal.  
+  99     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/EncryptionMethod/McryptAES128Encryption.php  
+ ------ -------------------------------------------------------- 
+  32     Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  56     Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

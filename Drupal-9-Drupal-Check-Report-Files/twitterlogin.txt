@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/twitterlogin 6d4c10b3a30f193a62e5845b8cc7c1f932912e90
+source : http://cgit.drupalcode.org/twitterlogin 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/TwitterUserLoginController.php      
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TwitterAuthSettingsForm.php               
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TwitterIconSettingsForm.php               
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/TwitterLoginBlock.php             
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Network/OAuthException.php                                   
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Network/OAuthRequest.php                                     
+ ------ ------------------------------------------------------------------------ 
+  232    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Network/OAuthServer.php                                      
+ ------ ------------------------------------------------------------------------ 
+  94     Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  109    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  114    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  129    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  134    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  149    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  177    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  186    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  192    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  201    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+  212    Class Drupal	witterlogin\Plugin\Networkxception not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Network/TwitterOAuth.php                         
+ ------ ------------------------------------------------------------ 
+  294    Call to deprecated method entityManager() of class Drupal.  
+  327    Call to deprecated function file_unmanaged_copy().          
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

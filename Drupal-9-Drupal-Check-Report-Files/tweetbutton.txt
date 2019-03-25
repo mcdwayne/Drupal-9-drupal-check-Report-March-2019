@@ -1,0 +1,84 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tweetbutton 34819a057d534e6c9f55f52be93d53e314cc68c3
+source : http://cgit.drupalcode.org/tweetbutton 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Form/TweetbuttonSettingsForm.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal	weetbutton\Form\TweetbuttonSettingsForm was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Plugin/Block/TweetbuttonFollowBlock.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal	weetbutton\Plugin\Block\TweetbuttonFollowBlock was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Plugin/Block/TweetbuttonTweetBlock.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal	weetbutton\Plugin\Block\TweetbuttonTweetBlock was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Plugin/Field/FieldFormatter/TweetbuttonHorizontalFormatter.php  
+ ------ --------------------------------------------------------------------------------------- 
+         Class                                                                                  
+         Drupal	weetbutton\Plugin\Field\FieldFormatter\TweetbuttonHorizontalFor                
+         matter was not found while trying to analyse it - autoloading is                       
+         probably not configured properly.                                                      
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Plugin/Field/FieldFormatter/TweetbuttonNoneFormatter.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class                                                                            
+         Drupal	weetbutton\Plugin\Field\FieldFormatter\TweetbuttonNoneFormatter          
+         was not found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                             
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Plugin/Field/FieldFormatter/TweetbuttonVerticalFormatter.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class                                                                                
+         Drupal	weetbutton\Plugin\Field\FieldFormatter\TweetbuttonVerticalForma              
+         tter was not found while trying to analyse it - autoloading is probably              
+         not configured properly.                                                             
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Plugin/Field/FieldType/TweetbuttonItem.php        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	weetbutton\Plugin\Field\FieldType\TweetbuttonItem was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/tweetbutton/Plugin/Field/FieldWidget/TweetbuttonWidget.php    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	weetbutton\Plugin\Field\FieldWidget\TweetbuttonWidget was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tweetbutton.module                            
+ ------ ---------------------------------------------- 
+  207    Call to deprecated function drupal_render().  
+  244    Call to deprecated function drupal_render().  
+  289    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

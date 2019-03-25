@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tus 5eb9464bea2d2ecf6c635915602baca06c5df8b6
+source : http://cgit.drupalcode.org/tus 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/TusServer.php                                      
+ ------ ------------------------------------------------------- 
+  53     Call to deprecated function file_prepare_directory().  
+  71     Call to deprecated function file_prepare_directory().  
+  77     Call to deprecated function drupal_realpath().         
+  114    Call to deprecated function drupal_realpath().         
+  147    Call to deprecated function drupal_realpath().         
+  184    Call to deprecated method url() of class               
+         Drupal\CorentityntityInterface.                    
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

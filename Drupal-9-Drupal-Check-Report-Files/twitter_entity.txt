@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/twitter_entity 8.x-2.0
+source : http://cgit.drupalcode.org/twitter_entity 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TwitterEntityForm.php                     
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/TwitterEntityListBuilder.php                                     
+ ------ --------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal	witter_entity\TwitterEntityListBuilder.                
+  52     Call to deprecated function drupal_render().                         
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

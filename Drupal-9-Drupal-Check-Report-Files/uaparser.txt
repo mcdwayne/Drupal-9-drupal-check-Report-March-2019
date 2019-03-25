@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uaparser 30ae18bb33d1dcb17781ab2896cd502ddeedd732
+source : http://cgit.drupalcode.org/uaparser 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Parser.php                                     
+ ------ --------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   tests/src/Functional/UaparserTest.php                           
+ ------ ---------------------------------------------------------------- 
+  49     Call to deprecated function file_unmanaged_delete_recursive().  
+  75     Call to deprecated function file_prepare_directory().           
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

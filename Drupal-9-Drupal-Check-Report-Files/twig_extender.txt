@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/twig_extender 35ce236e09a3007673a91cc78b7db0d2439d78b6
+source : http://cgit.drupalcode.org/twig_extender 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/TwigPlugin/BlockView.php                         
+ ------ ------------------------------------------------------------ 
+  29     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   twig_extender_tests/src/Controller/TestController.php       
+ ------ ------------------------------------------------------------ 
+  20     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

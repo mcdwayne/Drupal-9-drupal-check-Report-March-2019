@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/twinesocial 8.x-1.1
+source : http://cgit.drupalcode.org/twinesocial 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigurationForm.php                     
+ ------ --------------------------------------------------- 
+  41     Call to deprecated method url() of class Drupal.   
+  45     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/TwinesocialSettingsForm.php              
+ ------ -------------------------------------------------- 
+  61     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

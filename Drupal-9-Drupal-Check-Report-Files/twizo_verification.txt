@@ -1,0 +1,10 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/twizo_verification 8.x-1.0
+source : http://cgit.drupalcode.org/twizo_verification 
+ 
+ <code> 
+Warning: require_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/vendor/twizo/lib-api-php/autoload.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/twizo_verification/src/Api/TwizoApi.php on line 14
+
+Fatal error: require_once(): Failed opening required '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/vendor/twizo/lib-api-php/autoload.php' (include_path='/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/vendor/pear/archive_tar:/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/vendor/pear/console_getopt:/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/vendor/pear/pear-core-minimal/src:/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/vendor/pear/pear_exception:.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/twizo_verification/src/Api/TwizoApi.php on line 14 
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nws_weather 40dd3a7cc10e3fcf3d95d8b3d84700bc4f505b37
+source : http://cgit.drupalcode.org/nws_weather 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   nws_weather.module                               
+ ------ ------------------------------------------------- 
+  553    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  553    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  676    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/MultiDayForecast.php            
+ ------ ------------------------------------------------- 
+  49     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  49     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

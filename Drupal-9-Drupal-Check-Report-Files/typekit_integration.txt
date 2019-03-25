@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/typekit_integration 1d5e075bc6939b5c9dfabc502b4c4d26fd80df99
+source : http://cgit.drupalcode.org/typekit_integration 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/TypekitIntegrationConfigureForm.php  
+ ------ ---------------------------------------------- 
+  70     Call to deprecated method strlen() of class   
+         Drupal\Component\Utility\Unicode.             
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

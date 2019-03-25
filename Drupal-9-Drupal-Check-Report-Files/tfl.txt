@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tfl 59ce3d105426b68613e6b42381bb3b0b0a5a9de5
+source : http://cgit.drupalcode.org/tfl 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/Login2Factor.php                    
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Login2FactorAdminConfigForm.php           
+ ------ --------------------------------------------------- 
+  149    Call to deprecated function drupal_set_message().  
+  152    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OtpLoginForm.php                          
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TwoFactorOtpBalanceForm.php               
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+  52     Call to deprecated function drupal_set_message().  
+  55     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

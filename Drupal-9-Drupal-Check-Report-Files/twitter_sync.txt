@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/twitter_sync 8423fd973fc6746942b0b25fed309373aee575e3
+source : https://cgit.drupalcode.org/mobile_detect 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/CreateTwitterContentTest.php           
+ ------ ------------------------------------------------------------ 
+  25     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/TwitterTestBase.php                    
+ ------ ------------------------------------------------------------ 
+  47     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>
