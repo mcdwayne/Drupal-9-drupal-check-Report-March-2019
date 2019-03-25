@@ -57,6 +57,11 @@ echo -e "drupal-check results on commit hash: \n" $hashout '\n \n' "<code>" $dco
 # reset ISF to whatever it was before for safety reasons
 IFS=${old_IFS2}
 
+## Extra cleanup step, prevents dependency hang caused by unavailable or require once things
+## Does clean it up but does slow this down.
+composer require ${col2}
+
+
 ## Done with the loop
 done < $INPUT
 
