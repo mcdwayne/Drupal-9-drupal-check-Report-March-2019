@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/beautytips a49a2d74e50b2052bfe7a224d595b60d37a5ad57
+source : http://cgit.drupalcode.org/beautytips 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   beautytips_manager/beautytips_manager.module  
+ ------ ---------------------------------------------- 
+  96     Call to deprecated function db_delete().      
+  154    Call to deprecated function db_query().       
+  173    Call to deprecated function db_query().       
+  234    Call to deprecated function db_delete().      
+  286    Call to deprecated function db_query().       
+  298    Call to deprecated function db_query().       
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

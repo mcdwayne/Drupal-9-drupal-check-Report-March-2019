@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bestreply 9fcaefcde40b2bd373fc8081a3b76d92ccca3470
+source : http://cgit.drupalcode.org/bestreply 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   bestreply.module                                
+ ------ ------------------------------------------------ 
+  60     Call to deprecated method urlInfo() of class    
+         Drupal\Core\Entity\EntityInterface.             
+  152    Call to deprecated function db_query().         
+  164    Call to deprecated method l() of class Drupal.  
+  175    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/BestReplyController.php    
+ ------ ------------------------------------------ 
+  28     Call to deprecated function db_query().   
+  39     Call to deprecated function db_query().   
+  69     Call to deprecated function db_query().   
+  77     Call to deprecated function db_query().   
+  101    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

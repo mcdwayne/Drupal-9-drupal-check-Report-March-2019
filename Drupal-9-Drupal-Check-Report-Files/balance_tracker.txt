@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/balance_tracker 0f1fcf20aab48f77f86b0e238b4393f6ee1f50c2
+source : http://cgit.drupalcode.org/balance_tracker 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   bt_invite_commissions/bt_invite_commissions.module  
+ ------ ---------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().   
+  99     Call to deprecated function user_load().            
+  107    Call to deprecated function db_query().             
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BalanceTrackerAdjustmentForm.php          
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BalanceTrackerAdminForm.php               
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function format_date().         
+  80     Call to deprecated function format_date().         
+  81     Call to deprecated function format_date().         
+  151    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

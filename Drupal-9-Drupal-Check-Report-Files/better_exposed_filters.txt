@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/better_exposed_filters b3c550ee3830428317365af1b70a9b49a20a9cab
+source : http://cgit.drupalcode.org/better_exposed_filters 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   better_exposed_filters.theme                  
+ ------ ---------------------------------------------- 
+  52     Call to deprecated function drupal_render().  
+  177    Call to deprecated function drupal_render().  
+  481    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/BetterExposedFiltersTest.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupaletter_exposed_filters\Tests\BetterExposedFiltersTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

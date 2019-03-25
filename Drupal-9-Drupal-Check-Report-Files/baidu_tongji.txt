@@ -1,0 +1,100 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/baidu_tongji ea89872469c61e80c052802e510bc8c461347d3e
+source : http://cgit.drupalcode.org/baidu_tongji 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   baidu_analytics.module                                      
+ ------ ------------------------------------------------------------ 
+  120    Call to deprecated function drupal_get_messages().          
+  150    Call to deprecated method entityManager() of class Drupal.  
+  405    Call to deprecated method substr() of class                 
+         Drupal\Component\Utility\Unicode.                           
+  558    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  563    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   baidu_analytics.tokens.inc                       
+ ------ ------------------------------------------------- 
+  61     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  61     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  66     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  66     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/BaiduAnalyticsBasicTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalaidu_analytics\BaiduAnalyticsTestCase not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/BaiduAnalyticsCustomVariablesTest.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalaidu_analytics\BaiduAnalyticsTestCase not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/BaiduAnalyticsLinksTrackingTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalaidu_analytics\BaiduAnalyticsTestCase not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/BaiduAnalyticsPermissionsTest.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalaidu_analytics\BaiduAnalyticsTestCase not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/BaiduAnalyticsRolesTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalaidu_analytics\BaiduAnalyticsTestCase not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/BaiduAnalyticsStatusMessagesTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalaidu_analytics\BaiduAnalyticsTestCase not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/BaiduAnalyticsTestCase.php                                          
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalaidu_analytics\DrupalWebTestCase not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/BaiduAnalyticsAdminSettingsForm.php  
+ ------ ---------------------------------------------- 
+  541    Call to deprecated method strlen() of class   
+         Drupal\Component\Utility\Unicode.             
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   tests/modules/baidu_analytics_test/baidu_analytics_test.module  
+ ------ ---------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().               
+  16     Call to deprecated function drupal_set_message().               
+  17     Call to deprecated function drupal_set_message().               
+  18     Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

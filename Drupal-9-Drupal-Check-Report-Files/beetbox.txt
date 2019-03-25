@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/beetbox febae39bfb239cde8029c7bb2d23dfbe900126f7
+source : http://cgit.drupalcode.org/beetbox 
+ 
+ <code>  ------ ----------------------------------------------------------------------- 
+  Line   RoboFile.php                                                           
+ ------ ----------------------------------------------------------------------- 
+         Class RoboFile was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   composer/src/Plugin.php                                           
+ ------ ------------------------------------------------------------------ 
+         Class Beet\Box\Plugin was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/PluginTest.php                                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Beet\Box\Tests\StackTest was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

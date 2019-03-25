@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bcubed 8.x-1.0-beta3
+source : http://cgit.drupalcode.org/bcubed 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   bcubed.module                                      
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function drupal_set_message().  
+  49     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/bcubed_google_analytics/src/Plugin/bcubed/Condition/RespectGAConfig.php  
+ ------ --------------------------------------------------------------------------------- 
+  39     Call to deprecated method strtolower() of class                                  
+         Drupal\Component\Utility\Unicode.                                                
+  43     Call to deprecated method strtolower() of class                                  
+         Drupal\Component\Utility\Unicode.                                                
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ConditionSetListBuilder.php                    
+ ------ --------------------------------------------------- 
+  47     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  47     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/BcubedAdminSettingsForm.php                    
+ ------ -------------------------------------------------------- 
+  160    Call to deprecated function entity_get_form_display().  
+  167    Call to deprecated function entity_get_display().       
+  189    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionSetDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionSetForm.php                      
+ ------ --------------------------------------------------- 
+  532    Call to deprecated function drupal_set_message().  
+  538    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/bcubed/Condition/RestrictPages.php    
+ ------ ------------------------------------------------- 
+  30     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  33     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

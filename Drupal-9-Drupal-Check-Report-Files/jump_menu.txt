@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jump_menu 08adfcfa748503edb7e42abf0244d3ff9715e263
+source : http://cgit.drupalcode.org/jump_menu 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   jump_menu.module                                   
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_render().       
+  163    Call to deprecated function menu_local_tasks().    
+  164    Call to deprecated function menu_local_tasks().    
+  205    Call to deprecated function drupal_render().       
+  216    Call to deprecated function drupal_set_message().  
+  221    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/jump_menu/Plugin/Block/JumpMenuBlock.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\jump_menu\Plugin\Block\JumpMenuBlock was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/jump_menu/Plugin/Block/JumpMenuLocalTasksBlock.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\jump_menu\Plugin\Block\JumpMenuLocalTasksBlock was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/jump_menu/Plugin/Derivative/JumpMenuBlock.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\jump_menu\Plugin\Derivative\JumpMenuBlock was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

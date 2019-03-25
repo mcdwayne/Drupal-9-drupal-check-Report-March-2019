@@ -1,0 +1,161 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/basic_cart 644f726413b6e95140772ca061de6b0965a0c114
+source : http://cgit.drupalcode.org/basic_cart 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   basic_cart.module                                
+ ------ ------------------------------------------------- 
+  131    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  131    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  136    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  136    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/CartStorage.php                                
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function db_insert().           
+  34     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function db_update().           
+  65     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function db_delete().           
+  112    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/CartController.php                   
+ ------ ---------------------------------------------------- 
+  85     Call to deprecated function drupal_get_messages().  
+  107    Call to deprecated function node_type_load().       
+  108    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  133    Call to deprecated function node_type_load().       
+  134    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/CartSettingsForm.php                       
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/CountBlock.php                  
+ ------ ------------------------------------------------- 
+  32     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  32     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  35     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  35     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  36     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  36     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  37     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  37     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  40     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  40     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  43     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  43     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  46     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  46     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  49     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  49     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/AddToCartFormatter.php  
+ ------ -------------------------------------------------------- 
+  43     Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  43     Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  44     Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  44     Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  45     Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  45     Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  46     Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  46     Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/AddToCartWithQuantityFormatter.php  
+ ------ -------------------------------------------------------------------- 
+  47     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  47     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  48     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  48     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  49     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  49     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  50     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  50     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  51     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  51     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  52     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  52     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  53     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  53     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  54     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  54     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Settings.php                                   
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Utility.php                                             
+ ------ ------------------------------------------------------------ 
+  227    Call to deprecated method entityManager() of class Drupal.  
+  277    Call to deprecated function entity_get_form_display().      
+  284    Call to deprecated function entity_get_display().           
+  305    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 61 errors                                                         
+
+ </code>

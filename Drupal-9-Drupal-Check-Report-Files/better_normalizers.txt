@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/better_normalizers 57dc5eb4a757db7ef35eff5bdb7f6c28ade30268
+source : http://cgit.drupalcode.org/better_normalizers 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Normalizer/FileEntityNormalizer.php        
+ ------ ----------------------------------------------- 
+  43     Call to deprecated function drupal_dirname().  
+  49     Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  49     Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

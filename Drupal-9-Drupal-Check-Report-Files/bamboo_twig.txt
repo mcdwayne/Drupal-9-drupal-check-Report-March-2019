@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bamboo_twig 26cf8adddab137caa4039ac44f9b03143bad916a
+source : http://cgit.drupalcode.org/bamboo_twig 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/src/Functional/BambooTwigRenderTest.php                 
+ ------ -------------------------------------------------------------- 
+  306    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/BambooTwigTestBase.php        
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function entity_get_display().  
+  305    Call to deprecated method assert() of class        
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

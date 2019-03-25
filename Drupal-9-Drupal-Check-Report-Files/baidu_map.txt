@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/baidu_map 38f04c237d061949d2b022550b1b5a23f45ca770
+source : http://cgit.drupalcode.org/baidu_map 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   baidu_map_geofield/includes/baidu_map_geofield_plugin_style_map.inc      
+ ------ ------------------------------------------------------------------------- 
+         Class baidu_map_geofield_plugin_style_map was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   baidu_map_geofield/src/LeafletTileLayer/LeafletTileLayerPluginBase.php  
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupalaidu_map_geofield\leafletTileLayers\LeafletTileLayerPluginBase  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   baidu_map_geofield/src/LeafletTileLayer/LeafletTileLayerPluginInterface.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class                                                                        
+         Drupalaidu_map_geofield\leafletTileLayers\LeafletTileLayerPluginInter      
+         face was not found while trying to analyse it - autoloading is probably      
+         not configured properly.                                                     
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   baidu_map_geofield/src/Plugin/Annotation/LeafletTileLayerPlugin.php    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalaidu_map_geofield\Annotation\LeafletTileLayerPlugin was  
+         not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

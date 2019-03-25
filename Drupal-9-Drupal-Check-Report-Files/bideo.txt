@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bideo 2232660ceb93372902e9dc315cf6889e0686c4dc
+source : http://cgit.drupalcode.org/bideo 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   bideo.module                                                
+ ------ ------------------------------------------------------------ 
+  35     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/BideoPluginManager.php                                               
+ ------ ------------------------------------------------------------------------- 
+  31     extension cache tag might be unclear and does not contain the cache key  
+         in it.                                                                   
+  31     extension:bideo cache tag might be unclear and does not contain the      
+         cache key in it.                                                         
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

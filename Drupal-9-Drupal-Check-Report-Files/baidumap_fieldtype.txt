@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/baidumap_fieldtype ffc681326963542628af915db9d07d0c77d4d476
+source : http://cgit.drupalcode.org/baidumap_fieldtype 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/BaidumapFieldtypeDefaultWidget.php  
+ ------ ----------------------------------------------------------------- 
+  40     Call to deprecated method format() of class                      
+         Drupal\Component\Utility\SafeMarkup.                             
+  40     Call to method format() of deprecated class                      
+         Drupal\Component\Utility\SafeMarkup.                             
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

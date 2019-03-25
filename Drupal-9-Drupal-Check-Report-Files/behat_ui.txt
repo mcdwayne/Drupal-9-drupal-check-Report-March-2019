@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/behat_ui 1a8253f8c42c95b8d465f4ec92a52b1cfff68d2e
+source : http://cgit.drupalcode.org/behat_ui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   behat_ui.module                                    
+ ------ --------------------------------------------------- 
+  187    Call to deprecated function drupal_set_message().  
+  197    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DefaultController.php               
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BehatUiRunTests.php                       
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  144    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

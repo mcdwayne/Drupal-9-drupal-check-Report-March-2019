@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/baidu_share_d8 8.x-1.1
+source : http://cgit.drupalcode.org/baidu_share_d8 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/BaiduShareSettingForm.php           
+ ------ --------------------------------------------- 
+  44     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  44     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  53     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  53     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  61     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  61     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  69     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  69     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  77     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  77     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

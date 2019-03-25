@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bakery 1f909ed87b5fe59049acd80aed6d3d9b4fd14dd6
+source : http://cgit.drupalcode.org/bakery 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   bakery.module                                               
+ ------ ------------------------------------------------------------ 
+  31     Call to deprecated method getUsername() of class            
+         Drupal\Core\Session\AccountInterface.                       
+  114    Call to deprecated method l() of class Drupal.              
+  133    Call to deprecated function drupal_set_message().           
+  279    Call to deprecated method entityManager() of class Drupal.  
+  317    Call to deprecated function check_url().                    
+  317    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/BakeryService.php                                       
+ ------ ------------------------------------------------------------ 
+  46     Call to deprecated method getUsername() of class            
+         Drupal\Core\Session\AccountInterface.                       
+  255    Call to deprecated method getUsername() of class            
+         Drupal\Core\Session\AccountInterface.                       
+  273    Call to deprecated method entityManager() of class Drupal.  
+  288    Call to deprecated function drupal_set_message().           
+  291    Call to deprecated method entityManager() of class Drupal.  
+  308    Call to deprecated method entityManager() of class Drupal.  
+  321    Call to deprecated function db_select().                    
+  329    Call to deprecated function db_select().                    
+  336    Call to deprecated function db_select().                    
+  350    Call to deprecated method entityManager() of class Drupal.  
+  359    Call to deprecated function drupal_set_message().           
+  359    Call to deprecated method url() of class Drupal.            
+  361    Call to deprecated function drupal_set_message().           
+  376    Call to deprecated function db_update().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/BakeryController.php                         
+ ------ ------------------------------------------------------------ 
+  115    Call to deprecated method getUsername() of class            
+         Drupal\user\Entity\User.                                    
+  120    Call to deprecated method getUsername() of class            
+         Drupal\user\Entity\User.                                    
+  203    Call to deprecated function drupal_get_messages().          
+  235    Call to deprecated function db_query().                     
+  313    Call to deprecated function drupal_set_message().           
+  319    Call to deprecated function drupal_set_message().           
+  347    Call to deprecated function drupal_set_message().           
+  350    Call to deprecated function drupal_set_message().           
+  353    Call to deprecated function drupal_set_message().           
+  356    Call to deprecated function drupal_set_message().           
+  359    Call to deprecated function drupal_set_message().           
+  380    Call to deprecated function drupal_set_message().           
+  385    Call to deprecated function drupal_set_message().           
+  409    Call to deprecated method entityManager() of class Drupal.  
+  484    Call to deprecated function db_query_range().               
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Forms/BakeryPullForm.php                       
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Forms/BakeryUncrumbleForm.php                  
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function db_select().           
+  70     Call to deprecated function db_select().           
+  107    Call to deprecated function db_select().           
+  110    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function db_update().           
+  188    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 43 errors                                                         
+
+ </code>

@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/be_sure a2725beb413fca3a5e1e9efd9227e8875073f25c
+source : http://cgit.drupalcode.org/be_sure 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   Tests/Controller/BeSureControllerTest.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class Drupale_sure\Tests\BeSureControllerTest was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/bs_git/Tests/Controller/BeSureGitControllerTest.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupals_git\Tests\BeSureGitControllerTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   modules/bs_git/bs_git.module                    
+ ------ ------------------------------------------------ 
+  44     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/bs_git/src/Controller/BeSureGitController.php  
+ ------ ------------------------------------------------------- 
+  43     Call to deprecated method strlen() of class            
+         Drupal\Component\Utility\Unicode.                      
+  44     Call to deprecated method substr() of class            
+         Drupal\Component\Utility\Unicode.                      
+  48     Call to deprecated method l() of class Drupal.         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   modules/bs_seo/bs_seo.best_practices.inc     
+ ------ --------------------------------------------- 
+  21     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   theme/theme.inc                                 
+ ------ ------------------------------------------------ 
+  47     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

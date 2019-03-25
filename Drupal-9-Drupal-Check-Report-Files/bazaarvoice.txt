@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bazaarvoice b3d954eea027447c5e0c613d642d1c61a03cc4aa
+source : https://cgit.drupalcode.org/bazaarvoice 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/bazaarvoice_products/bazaarvoice_products.module  
+ ------ ---------------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/bazaarvoice_reviews/src/Form/AddReviewForm.php  
+ ------ -------------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().       
+  93     Call to deprecated function drupal_set_message().       
+  100    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>
