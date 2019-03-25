@@ -1,0 +1,72 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/track_da_files d44a7ce737bf3bd96e7aa85eb71d28573078be30
+source : http://cgit.drupalcode.org/track_da_files 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   includes/track_da_files.admin.inc             
+ ------ ---------------------------------------------- 
+  524    Call to deprecated function db_select().      
+  540    Call to deprecated function format_date().    
+  544    Call to deprecated function node_load().      
+  561    Call to deprecated function user_load().      
+  671    Call to deprecated function db_select().      
+  688    Call to deprecated function format_date().    
+  692    Call to deprecated function file_load().      
+  728    Call to deprecated function file_load().      
+  743    Call to deprecated function drupal_render().  
+  756    Call to deprecated function user_load().      
+  771    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   includes/track_da_files_formatter.inc         
+ ------ ---------------------------------------------- 
+  73     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/TrackDaFilesController.php         
+ ------ -------------------------------------------------- 
+  73     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  212    Call to deprecated method l() of class Drupal.    
+  218    Call to deprecated function format_date().        
+  230    Call to deprecated method l() of class Drupal.    
+  370    Call to deprecated function format_date().        
+  375    Call to deprecated method l() of class Drupal.    
+  379    Call to deprecated method l() of class Drupal.    
+  392    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  405    Call to deprecated method l() of class Drupal.    
+  493    Call to deprecated function format_date().        
+  549    Call to deprecated function file_uri_scheme().    
+  568    Call to deprecated function db_query().           
+  628    Call to deprecated function db_query().           
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TrackDaFilesFormatter.php  
+ ------ ----------------------------------------------------------- 
+  53     Call to deprecated method l() of class Drupal.             
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   track_da_files.module                           
+ ------ ------------------------------------------------ 
+  138    Call to deprecated function file_uri_scheme().  
+  156    Call to deprecated function file_load().        
+  174    Call to deprecated function db_query().         
+  181    Call to deprecated function db_query().         
+  191    Call to deprecated function db_query().         
+  212    Call to deprecated function db_insert().        
+  224    Call to deprecated function db_query().         
+  228    Call to deprecated function db_query().         
+  233    Call to deprecated function db_insert().        
+  315    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 36 errors                                                         
+
+ </code>

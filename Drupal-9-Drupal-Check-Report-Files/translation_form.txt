@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/translation_form 01f647bc612055e033f287dd61bdc902460a97a0
+source : http://cgit.drupalcode.org/translation_form 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/ChangeSourceTest.php                   
+ ------ ------------------------------------------------------------ 
+  61     Call to deprecated method entityManager() of class Drupal.  
+  80     Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+  85     Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+  90     Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+  98     Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+  100    Call to deprecated function format_string().                
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

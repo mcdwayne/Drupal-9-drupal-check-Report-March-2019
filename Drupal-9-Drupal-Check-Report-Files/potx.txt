@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/potx 530234a542582a996a6cce9a28342c7a1b55a934
+source : http://cgit.drupalcode.org/potx 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   potx.inc                                           
+ ------ --------------------------------------------------- 
+  581    Call to deprecated function db_query().            
+  595    Call to deprecated function db_query().            
+  619    Call to deprecated function db_query().            
+  724    Call to deprecated function db_query().            
+  944    Call to deprecated function drupal_set_message().  
+  2281   Calls to function fnmatch should not exist.        
+  2281   Calls to function fnmatch should not exist.        
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/PotxTest.php                        
+ ------ ---------------------------------------------- 
+  701    Call to deprecated function format_string().  
+  711    Call to deprecated function format_string().  
+  721    Call to deprecated function format_string().  
+  731    Call to deprecated function format_string().  
+  741    Call to deprecated function format_string().  
+  751    Call to deprecated function format_string().  
+  761    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

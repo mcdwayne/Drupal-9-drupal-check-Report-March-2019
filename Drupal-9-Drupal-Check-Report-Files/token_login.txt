@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/token_login 167336c20e9c0913298f526131373c43007a8311
+source : http://cgit.drupalcode.org/token_login 
+ 
+ <code> 
+Warning: Declaration of Drupal	oken_login\Controller\TokenLoginUserController::resetPass($uid, $timestamp, $hash) should be compatible with Drupal\user\Controller\UserController::resetPass(Symfony\Component\HttpFoundation\Request $request, $uid, $timestamp, $hash) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/token_login/src/Controller/TokenLoginUserController.php on line 12
+
+
+ ------ ---------------------------------------------------------------------- 
+  Line   Tests/TokenLoginTest.php                                              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\user\Tests\TokenLoginTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/TokenLoginUserController.php        
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  47     Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  52     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TokenLoginForm.php                        
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserPasswordResetForm.php                 
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

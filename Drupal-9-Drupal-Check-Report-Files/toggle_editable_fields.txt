@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/toggle_editable_fields a87aa6bf19b49f847af199666644afd2609d340f
+source : http://cgit.drupalcode.org/toggle_editable_fields 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/ToggleEditableFieldsUiTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupalield_ui\Tests\FieldUiTestTrait in      
+         class                                                                    
+         Drupal\Tests	oggle_editable_fields\Functional\ToggleEditableFieldsUiTe  
+         st.                                                                      
+  83     Call to deprecated method strtolower() of class                          
+         Drupal\Component\Utility\Unicode.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

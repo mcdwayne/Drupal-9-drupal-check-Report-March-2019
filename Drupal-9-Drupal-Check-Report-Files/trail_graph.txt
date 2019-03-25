@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/trail_graph c6ec7f906e80bf158c4500244c745b068fb161a4
+source : https://cgit.drupalcode.org/trail_graph 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TrailGraphNodeorderForm.php               
+ ------ --------------------------------------------------- 
+  218    Call to deprecated function drupal_set_message().  
+  251    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/area/TrailGraphSidebar.php        
+ ------ --------------------------------------------------- 
+  139    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

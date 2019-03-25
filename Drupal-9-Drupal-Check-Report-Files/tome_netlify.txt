@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tome_netlify b4fca908ae4fb2643c0b3accd2d115ed6eb6f893
+source : http://cgit.drupalcode.org/tome_netlify 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/EventSubscriber/RedirectSubscriber.php             
+ ------ ------------------------------------------------------- 
+  44     Call to deprecated function file_prepare_directory().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/DeployFormTest.php                
+ ------ ------------------------------------------------------- 
+  53     Call to deprecated function file_prepare_directory().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

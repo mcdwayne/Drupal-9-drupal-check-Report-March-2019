@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/transcoding 8d7d02840aa8c52b7236f978d791679bd2a7c782
+source : http://cgit.drupalcode.org/transcoding 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TranscodingJobForm.php                    
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TranscodingServiceDeleteForm.php          
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TranscodingServiceForm.php                
+ ------ --------------------------------------------------- 
+  159    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function drupal_set_message().  
+  169    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/TranscoderPluginInterface.php                               
+ ------ ----------------------------------------------------------------------- 
+  10     Interface Drupal	ranscoding\Plugin\TranscoderPluginInterface extends  
+         deprecated interface                                                   
+         Drupal\Component\Plugin\ConfigurablePluginInterface.                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/TranscodingJobListBuilder.php                                    
+ ------ --------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal	ranscoding\TranscodingJobListBuilder.                  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/token_default b225fcf1d393de1550923a1cef8db2b235a106cb
+source : http://cgit.drupalcode.org/token_default 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TokenDefaultTokenDeleteForm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TokenDefaultTokenForm.php                 
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

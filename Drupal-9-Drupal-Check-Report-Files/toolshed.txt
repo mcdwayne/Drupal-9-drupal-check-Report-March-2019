@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/toolshed 66ebb8eb5bd1fdb1d04fa49567d2ea495c08d348
+source : http://cgit.drupalcode.org/toolshed 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/toolshed_media/src/Plugin/Field/FieldFormatter/FileInfoFormatter.php  
+ ------ ------------------------------------------------------------------------------ 
+  126    Call to deprecated method urlInfo() of class                                  
+         Drupal\CorentityntityInterface.                                           
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/toolshed_search/src/Plugin/SolrConnector/SettingsSolrConnector.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupal\search_api_solr\Plugin\SolrConnector\StandardSolrConnector     
+         not found and could not be autoloaded.                                      
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/JsEventsConfigForm.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Toolshed\Form\JsEventsConfigForm was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Utility/FileHelper.php                                         
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\media_entityntity\Media not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,103 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/transaction 23be273b0987f3d37af1806820715b759c339a9d
+source : http://cgit.drupalcode.org/transaction 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TransactionExecuteForm.php                
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TransactionForm.php                       
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TransactionOperationForm.php              
+ ------ --------------------------------------------------- 
+  139    Call to deprecated function drupal_set_message().  
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TransactionTypeDeleteForm.php             
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TransactionTypeFormBase.php                        
+ ------ ------------------------------------------------------------ 
+  93     Call to deprecated method setTargetEntityTypeId() of class  
+         Drupal	ransaction\TransactionTypeInterface.                
+  215    Call to deprecated function drupal_set_message().           
+  219    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/LastTransactionFetch.php                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/TransactionCreate.php                        
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/TransactionExecute.php                       
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/TransactionPermissions.php                                      
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal	ransaction\TransactionPermissions.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/TransactorPluginInterface.php                               
+ ------ ---------------------------------------------------------------- 
+  13     Interface Drupal	ransaction\TransactorPluginInterface extends  
+         deprecated interface                                            
+         Drupal\Component\Plugin\ConfigurablePluginInterface.            
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   transaction_ief/src/Form/TransactionInlineForm.php                   
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\inline_entity_form\FormntityInlineForm not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   transaction_ief/src/Plugin/Field/FieldWidget/TransactionInlineEntityFormNewTransaction.php  
+ ------ -------------------------------------------------------------------------------------------- 
+         Class                                                                                       
+         Drupal\inline_entity_form\Plugin\Field\FieldWidget\InlineEntityFormSimp                     
+         le not found and could not be autoloaded.                                                   
+ ------ -------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   transaction_ief/transaction_ief.module                               
+ ------ --------------------------------------------------------------------- 
+  7      Class Drupal\inline_entity_form\FormntityInlineForm not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

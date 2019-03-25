@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/trending_images dd6a0a099e81464689e0edb6ea66680cc9a771ab
+source : https://git.drupal.org/project/trending_images.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SocialNetworkController.php         
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+  54     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TrendingImagesConfigurationForm.php       
+ ------ --------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/TrendingImages.php        
+ ------ ----------------------------------------------------- 
+  221    Call to deprecated function file_upload_max_size().  
+  299    Call to deprecated function file_upload_max_size().  
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/TrendingSocialChannel/TrendingInstagramFeed.php               
+ ------ ------------------------------------------------------------------------- 
+  22     Class                                                                    
+         Drupal	rending_images\Plugin\TrendingSocialChannel\TrendingInstagramFe  
+         ed implements deprecated interface                                       
+         Drupal\Component\Plugin\ConfigurablePluginInterface.                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/TrendingImagesService.php                          
+ ------ ------------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().      
+  171    Call to deprecated function file_prepare_directory().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/townsec_key 8.x-1.0
+source : http://cgit.drupalcode.org/townsec_key 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AkmServerListBuilder.php            
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AkmServerDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AkmServerForm.php                         
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/EncryptionMethod/AkmEncryptionMethod.php                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalncrypt\PluginncryptionMethodncryptionMethodBase not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

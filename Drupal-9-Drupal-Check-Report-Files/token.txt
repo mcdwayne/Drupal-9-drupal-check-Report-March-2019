@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/token 759a3c6d6630b594aaffe0198ea237c63aadea49
+source : http://cgit.drupalcode.org/token 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/TokenFieldUiTest.php                                         
+ ------ ----------------------------------------------------------------------- 
+  91     Call to deprecated function entity_get_form_display().                 
+  130    Call to deprecated function file_unmanaged_copy().                     
+  131    Call to deprecated function file_unmanaged_copy().                     
+  263    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  268    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  273    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  277    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Tests/TokenUserTest.php                            
+ ------ ------------------------------------------------------- 
+  54     Call to deprecated function file_prepare_directory().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CommentTest.php                                         
+ ------ ------------------------------------------------------------------------- 
+  65     Call to deprecated method url() of class Drupal\CorentityntityBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Kernel/FieldTest.php                                         
+ ------ ----------------------------------------------------------------------- 
+  308    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  340    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  347    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  390    Call to deprecated function entity_get_display().                      
+  503    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  510    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  516    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  523    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Kernel/UnitTest.php                                          
+ ------ ----------------------------------------------------------------------- 
+  115    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+  116    Call to deprecated method getTokenInfo() of class Drupal	oken\Token.  
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

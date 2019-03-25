@@ -1,0 +1,119 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tome ef146f879d16121072cb9a829aa271961937783a
+source : http://cgit.drupalcode.org/tome 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/tome_base/tests/src/Kernel/TestBase.php                       
+ ------ ---------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests	ome_base\Kernel\TestBase.                               
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/tome_static/modules/tome_static_super_cache/tests/src/Kernel/SmartTagTest.php  
+ ------ --------------------------------------------------------------------------------------- 
+         Class Drupal\Tests	ome_static\Kernel\SmartTagTest was not found while                 
+         trying to analyse it - autoloading is probably not configured properly.                
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/tome_static/modules/tome_static_super_cache/tests/src/Kernel/SuperStaticCacheTest.php  
+ ------ ----------------------------------------------------------------------------------------------- 
+         Class Drupal\Tests	ome_static\Kernel\SuperStaticCacheTest was not                             
+         found while trying to analyse it - autoloading is probably not                                 
+         configured properly.                                                                           
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/tome_static/src/Controller/StaticDownloadController.php  
+ ------ ----------------------------------------------------------------- 
+  82     Call to deprecated function file_unmanaged_delete().             
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/tome_static/src/StaticGenerator.php                     
+ ------ ---------------------------------------------------------------- 
+  104    Call to deprecated function file_unmanaged_delete().            
+  141    Call to deprecated function file_prepare_directory().           
+  215    Call to deprecated function file_unmanaged_delete_recursive().  
+  219    Call to deprecated function file_prepare_directory().           
+  505    Call to deprecated function file_prepare_directory().           
+  506    Call to deprecated function file_unmanaged_copy().              
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/tome_static/tests/src/Functional/TomeStaticPreviewTest.php  
+ ------ -------------------------------------------------------------------- 
+  34     Call to deprecated function file_prepare_directory().               
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/tome_sync/src/Commands/CleanFilesCommand.php  
+ ------ ------------------------------------------------------ 
+  77     Call to deprecated function file_unmanaged_delete().  
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+  Line   modules/tome_sync/src/ContentIndexerTrait.php (in context of class Drupal	ome_sync\Commands\CleanFilesCommand)  
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+  102    Call to deprecated function file_prepare_directory().                                                            
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/tome_sync/src/ContentIndexerTrait.php (in context of class Drupal	ome_syncxporter)  
+ ------ ----------------------------------------------------------------------------------------------- 
+  102    Call to deprecated function file_prepare_directory().                                          
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/tome_sync/src/ContentIndexerTrait.php (in context of class Drupal	ome_sync\Importer)  
+ ------ ----------------------------------------------------------------------------------------------- 
+  102    Call to deprecated function file_prepare_directory().                                          
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/tome_sync/src/EventSubscriber/BookEventSubscriber.php  
+ ------ --------------------------------------------------------------- 
+  73     Call to deprecated function file_prepare_directory().          
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/tome_sync/src/Exporter.php                              
+ ------ ---------------------------------------------------------------- 
+  103    Call to deprecated function file_unmanaged_delete_recursive().  
+  140    Call to deprecated function file_prepare_directory().           
+  141    Call to deprecated function file_unmanaged_copy().              
+  171    Call to deprecated function file_unmanaged_delete().            
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------- 
+  Line   modules/tome_sync/src/FileTrait.php (in context of class Drupal	ome_sync\Commands\CleanFilesCommand)  
+ ------ ------------------------------------------------------------------------------------------------------- 
+  28     Call to deprecated function file_prepare_directory().                                                  
+ ------ ------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/tome_sync/src/FileTrait.php (in context of class Drupal	ome_syncxporter)  
+ ------ ------------------------------------------------------------------------------------- 
+  28     Call to deprecated function file_prepare_directory().                                
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/tome_sync/src/FileTrait.php (in context of class Drupal	ome_sync\Importer)  
+ ------ ------------------------------------------------------------------------------------- 
+  28     Call to deprecated function file_prepare_directory().                                
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/tome_sync/src/Importer.php                     
+ ------ ------------------------------------------------------- 
+  132    Call to deprecated function file_prepare_directory().  
+  133    Call to deprecated function file_unmanaged_copy().     
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

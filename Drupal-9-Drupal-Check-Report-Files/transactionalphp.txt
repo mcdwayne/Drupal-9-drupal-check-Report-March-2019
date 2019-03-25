@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/transactionalphp d8c299d5164dc3e8130216747cc1b8b49f7d1cda
+source : http://cgit.drupalcode.org/transactionalphp 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/TestAware.php                                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests	ransactionalphp\TestAware was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/TransactionalPhpAwareTest.php                            
+ ------ ------------------------------------------------------------------------ 
+  16     Class Drupal\Tests	ransactionalphp\Mockers not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/TransactionalPhpFactoryTest.php                          
+ ------ ------------------------------------------------------------------------ 
+  14     Class Drupal\Tests	ransactionalphp\Mockers not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/TransactionalPhpTest.php                                 
+ ------ ------------------------------------------------------------------------ 
+  20     Class Drupal\Tests	ransactionalphp\Mockers not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tracdelight 362873a63f471bc0e186fc9109450b7f40ed91f2
+source : http://cgit.drupalcode.org/tracdelight 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/ProductDeleteForm.php              
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/ProductForm.php                    
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/ProductListBuilder.php                                           
+ ------ --------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal	racdelight\ProductListBuilder.                         
+  37     Call to deprecated method l() of class                               
+         Drupal	racdelight\ProductListBuilder.                               
+  38     Call to deprecated method getLabel() of class                        
+         Drupal\CorentityntityListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/TracdelightTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tracdelight.module                                          
+ ------ ------------------------------------------------------------ 
+  78     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

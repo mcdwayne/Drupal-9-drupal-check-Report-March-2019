@@ -1,0 +1,72 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/translate_set e60c9d3eb4f002a425554314a2da045480c89f3c
+source : http://cgit.drupalcode.org/translate_set 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   translate_set.admin.inc                                
+ ------ ------------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().      
+  94     Call to deprecated function db_select().               
+  126    Call to deprecated function db_delete().               
+  132    Call to deprecated function db_insert().               
+  138    Call to deprecated function drupal_set_message().      
+  157    Call to deprecated function db_select().               
+  167    Call to deprecated function db_delete().               
+  173    Call to deprecated function db_insert().               
+  181    Call to deprecated function drupal_set_message().      
+  200    Call to deprecated function drupal_render().           
+  225    Call to deprecated function db_select().               
+  242    Call to deprecated function db_like().                 
+  246    Call to deprecated function db_and().                  
+  247    Call to deprecated function db_like().                 
+  254    Call to deprecated function db_or().                   
+  255    Call to deprecated function db_like().                 
+  258    Call to deprecated function db_like().                 
+  295    Call to deprecated function db_select().               
+  309    Call to deprecated function drupal_get_destination().  
+  310    Call to deprecated function drupal_get_destination().  
+  347    Call to deprecated function db_select().               
+  400    Call to deprecated function db_select().               
+  412    Call to deprecated function db_like().                 
+  440    Call to deprecated function db_select().               
+  486    Call to deprecated function format_string().           
+  578    Call to deprecated function db_select().               
+  589    Call to deprecated function db_update().               
+  599    Call to deprecated function db_insert().               
+  611    Call to deprecated function db_delete().               
+  625    Call to deprecated function drupal_set_message().      
+  658    Call to deprecated function db_select().               
+  773    Call to deprecated function db_select().               
+  782    Call to deprecated function db_delete().               
+  788    Call to deprecated function db_insert().               
+  794    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   translate_set.module                          
+ ------ ---------------------------------------------- 
+  128    Call to deprecated function db_delete().      
+  158    Call to deprecated function db_delete().      
+  190    Call to deprecated function db_select().      
+  196    Call to deprecated function db_or().          
+  211    Call to deprecated function db_insert().      
+  247    Call to deprecated function drupal_render().  
+  250    Call to deprecated function drupal_render().  
+  253    Call to deprecated function drupal_render().  
+  262    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   translate_set.pages.inc                            
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function db_select().           
+  60     Call to deprecated function db_delete().           
+  66     Call to deprecated function db_insert().           
+  72     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 48 errors                                                         
+
+ </code>

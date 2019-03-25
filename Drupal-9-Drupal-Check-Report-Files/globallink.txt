@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/globallink 121b49f628263301694704eaca1dc72c83e3bc5d
+source : https://www.drupal.org/project/globallink 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   src/GlExchangeAdapter.php                                
+ ------ --------------------------------------------------------- 
+  108    Class SoapClient not found and could not be autoloaded.  
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/GlobalLinkTranslatorUi.php                     
+ ------ --------------------------------------------------- 
+  365    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/tmgmt/Translator/GlobalLinkTranslator.php  
+ ------ ------------------------------------------------------ 
+  684    Call to deprecated method url() of class              
+         Drupal\CorentityntityInterface.                   
+  716    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

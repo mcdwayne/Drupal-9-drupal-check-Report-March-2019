@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/translators 6d9f539b4c123dade9d4c168da6edc4f4d9a7f3e
+source : http://cgit.drupalcode.org/translators 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/translators_content/src/Controller/TranslatorsContentController.php  
+ ------ ----------------------------------------------------------------------------- 
+  199    Call to deprecated method entityManager() of class                           
+         Drupal\Core\Controller\ControllerBase.                                       
+  222    Call to deprecated method entityManager() of class                           
+         Drupal\Core\Controller\ControllerBase.                                       
+  307    Call to deprecated method urlInfo() of class                                 
+         Drupal\CorentityntityInterface.                                          
+  310    Call to deprecated method l() of class                                       
+         Drupal\Core\Controller\ControllerBase.                                       
+  327    Call to deprecated method urlInfo() of class                                 
+         Drupal\CorentityntityInterface.                                          
+  371    Call to deprecated method urlInfo() of class                                 
+         Drupal\CorentityntityInterface.                                          
+ ------ ----------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

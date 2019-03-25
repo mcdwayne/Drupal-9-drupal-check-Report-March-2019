@@ -1,0 +1,181 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt 743c4af62feba37364aa138958acc286182b077b
+source : http://cgit.drupalcode.org/tmgmt 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/demo/test/src/Functional/TMGMTDemoTest.php                      
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal	mgmt_demo\Tests\TMGMTDemoTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   sources/content/src/Form/ContentTranslateForm.php  
+ ------ --------------------------------------------------- 
+  80     Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   sources/content/src/Plugin/tmgmt/Source/ContentEntitySource.php  
+ ------ ----------------------------------------------------------------- 
+  101    Call to deprecated function entity_get_form_display().           
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   sources/content/tests/src/Functional/ContentEntitySourceTranslatableTmgmtEntityTest.php  
+ ------ ----------------------------------------------------------------------------------------- 
+         Class                                                                                    
+         Drupal\Tests	mgmt_content\Functional\ContentEntitySourceTranslatableEn                  
+         tityTest was not found while trying to analyse it - autoloading is                       
+         probably not configured properly.                                                        
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   sources/content/tests/src/Functional/ContentTmgmtEntitySourceUiTest.php  
+ ------ ------------------------------------------------------------------------- 
+  1063   Call to deprecated function entity_get_form_display().                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   sources/content/tests/src/Kernel/ContentEntitySourceUnitTest.php  
+ ------ ------------------------------------------------------------------ 
+  94     Call to deprecated function file_unmanaged_copy().                
+  328    Call to deprecated function entity_create().                      
+  418    Call to deprecated function entity_create().                      
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   sources/locale/tests/src/Functional/LocaleSourceUiTest.php  
+ ------ ------------------------------------------------------------ 
+  29     Call to deprecated function file_unmanaged_copy().          
+  63     Call to deprecated function db_query().                     
+  70     Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   sources/locale/tests/src/Kernel/LocaleSourceTest.php  
+ ------ ------------------------------------------------------ 
+  33     Call to deprecated function file_unmanaged_copy().    
+  46     Call to deprecated function db_query().               
+  106    Call to deprecated function db_query().               
+  233    Call to deprecated function db_query().               
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   sources/tmgmt_config/src/Form/ConfigTranslateForm.php  
+ ------ ------------------------------------------------------- 
+  138    Call to deprecated method l() of class Drupal.         
+  166    Call to deprecated function drupal_render().           
+  168    Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/CartForm.php                                  
+ ------ ------------------------------------------------------- 
+  33     Call to deprecated method l() of class Drupal.         
+  196    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/JobForm.php                            
+ ------ ------------------------------------------------ 
+  404    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/JobItemForm.php                        
+ ------ ------------------------------------------------ 
+  52     Call to deprecated method l() of class Drupal.  
+  103    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/TranslatorForm.php                   
+ ------ ---------------------------------------------- 
+  247    Call to deprecated function format_string().  
+  250    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Tests/EntityTestBase.php                                      
+ ------ ------------------------------------------------------------------ 
+  23     Class Drupal	mgmt\TestsntityTestBase extends deprecated class  
+         Drupal	mgmt\Tests\TMGMTTestBase.                                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/TMGMTUiReviewTest.php          
+ ------ ---------------------------------------------------- 
+  49     Call to deprecated function file_unmanaged_copy().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/TMGMTUiJavascriptTest.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests	mgmt\Functional\TMGMTUiJavascriptTest was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/TmgmtContinuousJavascriptTest.php       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Tests	mgmt\Functional\TmgmtContinuousJavascriptTest was  
+         not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/TranslatorJavascriptTest.php           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests	mgmt\Functional\TranslatorJavascriptTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tmgmt.module                                                     
+ ------ ----------------------------------------------------------------- 
+  803    Call to deprecated function tmgmt_redirect_queue_set().          
+  808    Call to deprecated function tmgmt_redirect_queue_dequeue().      
+  808    Call to deprecated function tmgmt_redirect_queue_destination().  
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   tmgmt.rules.inc                                              
+ ------ ------------------------------------------------------------- 
+  177    Call to deprecated function tmgmt_job_checkout_multiple().   
+  180    Call to deprecated function tmgmt_redirect_queue_set().      
+  181    Call to deprecated function tmgmt_redirect_queue_dequeue().  
+ ------ ------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   translators/tmgmt_file/src/Plugin/tmgmt/Translator/FileTranslator.php  
+ ------ ----------------------------------------------------------------------- 
+  40     Call to deprecated function file_prepare_directory().                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   translators/tmgmt_file/tmgmt_file.module  
+ ------ ------------------------------------------ 
+  78     Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   translators/tmgmt_local/tests/src/Functional/LocalTranslatorTest.php  
+ ------ ---------------------------------------------------------------------- 
+  994    Call to deprecated method install() of class                          
+         Drupal\Corextension\ThemeHandler.                                   
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   translators/tmgmt_local/tmgmt_local.module  
+ ------ -------------------------------------------- 
+  416    Call to deprecated function db_query().     
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 40 errors                                                         
+
+ </code>

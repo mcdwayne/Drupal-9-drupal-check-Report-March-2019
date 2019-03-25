@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/toggle 2674a071f9100b115df924700aa51358befa1b0c
+source : http://cgit.drupalcode.org/toggle 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/toggle/Plugin/Field/FieldFormatter/ToggleFormatter.php        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	oggle\Plugin\Field\FieldFormatter\ToggleFormatter was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/toggle/Plugin/field/FieldWidget/ToggleWidget.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	oggle\Plugin\Field\FieldWidget\ToggleWidget was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   toggle.module                                     
+ ------ -------------------------------------------------- 
+  220    Call to deprecated method url() of class Drupal.  
+  220    Call to deprecated method url() of class Drupal.  
+  224    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   toggle.theme.inc                                       
+ ------ ------------------------------------------------------- 
+  59     Call to deprecated function drupal_render_children().  
+  117    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

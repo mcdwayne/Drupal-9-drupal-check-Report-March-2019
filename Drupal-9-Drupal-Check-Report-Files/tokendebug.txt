@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tokendebug eb6918b1bb1bbd7be756c22e4b907cf9fc306970
+source : http://cgit.drupalcode.org/tokendebug 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TokenDebugForm.php                        
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  91     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+  104    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

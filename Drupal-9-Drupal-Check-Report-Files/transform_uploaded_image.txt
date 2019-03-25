@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/transform_uploaded_image e0d7a405137fb034c8c5bb144db2d499a356e96f
+source : http://cgit.drupalcode.org/transform_uploaded_image 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   transform_uploaded_image.module              
+ ------ --------------------------------------------- 
+  56     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  56     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

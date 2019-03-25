@@ -1,0 +1,77 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/total_control efb36e8f78673ba6b35c4177f04fe819cb11f7fa
+source : http://cgit.drupalcode.org/total_control 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/AdministerContentTypes.php            
+ ------ ------------------------------------------------------- 
+  33     Call to deprecated function node_type_get_types().     
+  46     Call to deprecated function drupal_get_destination().  
+  61     Call to deprecated method l() of class Drupal.         
+  65     Call to deprecated method l() of class Drupal.         
+  69     Call to deprecated method l() of class Drupal.         
+  90     Call to deprecated method l() of class Drupal.         
+  100    Call to deprecated function drupal_render().           
+  115    Call to deprecated function node_type_get_types().     
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/AdministerMenus.php                   
+ ------ ------------------------------------------------------- 
+  48     Call to deprecated function drupal_get_destination().  
+  60     Call to deprecated method l() of class Drupal.         
+  64     Call to deprecated method l() of class Drupal.         
+  77     Call to deprecated method l() of class Drupal.         
+  96     Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/AdministerPanelPages.php              
+ ------ ------------------------------------------------------- 
+  42     Call to deprecated function drupal_get_destination().  
+  51     Call to deprecated method l() of class Drupal.         
+  56     Call to deprecated method l() of class Drupal.         
+  66     Call to deprecated method l() of class Drupal.         
+  75     Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/AdministerTaxonomy.php                
+ ------ ------------------------------------------------------- 
+  46     Call to deprecated function drupal_get_destination().  
+  54     Call to deprecated function db_query().                
+  62     Call to deprecated method l() of class Drupal.         
+  66     Call to deprecated method l() of class Drupal.         
+  70     Call to deprecated method l() of class Drupal.         
+  90     Call to deprecated method l() of class Drupal.         
+  99     Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Block/ContentOverview.php                
+ ------ ---------------------------------------------------- 
+  26     Call to deprecated function node_type_get_types().  
+  34     Call to deprecated function db_query().             
+  43     Call to deprecated function db_query().             
+  50     Call to deprecated function db_query().             
+  68     Call to deprecated method l() of class Drupal.      
+  80     Call to deprecated function drupal_render().        
+  91     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/CreateContent.php                     
+ ------ ------------------------------------------------------- 
+  25     Call to deprecated function node_type_get_types().     
+  28     Call to deprecated function drupal_get_destination().  
+  37     Call to deprecated method l() of class Drupal.         
+  48     Call to deprecated method l() of class Drupal.         
+  60     Call to deprecated function drupal_render().           
+  71     Call to deprecated function node_type_get_types().     
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 38 errors                                                         
+
+ </code>
