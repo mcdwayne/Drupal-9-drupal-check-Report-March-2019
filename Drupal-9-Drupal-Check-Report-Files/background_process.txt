@@ -1,0 +1,103 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/background_process c90a7247f464b61409f579881283ddc5d40bc731
+source : http://cgit.drupalcode.org/background_process 
+ 
+ <code> 
+
+ ------ ------------------------------------------- 
+  Line   background_batch/background_batch.module   
+ ------ ------------------------------------------- 
+  117    Call to deprecated function db_query().    
+  200    Call to deprecated function db_next_id().  
+  222    Call to deprecated function db_insert().   
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   background_batch/background_batch.pages.inc  
+ ------ --------------------------------------------- 
+  81     Syntax error, unexpected '(' on line 81      
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   background_batch/src/BackgroundBatchContext.php                       
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalackground_batch\ArrayObject not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   background_batch/src/Controller/DefaultController.php  
+ ------ ------------------------------------------------------- 
+  18     Call to deprecated function db_select().               
+  36     Call to deprecated method l() of class                 
+         Drupal\Core\Controller\ControllerBase.                 
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   background_process.class.php                  
+ ------ ---------------------------------------------- 
+  90     Call to deprecated function db_set_active().  
+  92     Call to deprecated function db_set_active().  
+  165    Call to deprecated function db_set_active().  
+  167    Call to deprecated function db_set_active().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   background_process.module                                   
+ ------ ------------------------------------------------------------ 
+  71     Call to deprecated function db_query_range().               
+  80     Call to deprecated function drupal_set_message().           
+  86     Call to deprecated function drupal_set_message().           
+  103    Call to deprecated function db_query_range().               
+  111    Call to deprecated function drupal_set_message().           
+  117    Call to deprecated function drupal_set_message().           
+  132    Call to deprecated function db_query_range().               
+  140    Call to deprecated function drupal_set_message().           
+  143    Call to deprecated function drupal_set_message().           
+  244    Call to deprecated method entityManager() of class Drupal.  
+  427    Call to deprecated function db_update().                    
+  573    Call to deprecated function db_update().                    
+  597    Call to deprecated function db_insert().                    
+  618    Call to deprecated function db_update().                    
+  632    Call to deprecated function db_select().                    
+  666    Call to deprecated function db_select().                    
+  699    Call to deprecated function db_delete().                    
+  705    Call to deprecated function db_delete().                    
+  741    Call to deprecated function db_update().                    
+  1255   Call to deprecated function drupal_set_message().           
+  1266   Call to deprecated function drupal_set_message().           
+  1271   Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   background_process_ass/background_process_ass.module  
+ ------ ------------------------------------------------------ 
+  187    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   progress/progress.module                  
+ ------ ------------------------------------------ 
+  20     Call to deprecated function db_insert().  
+  36     Call to deprecated function db_update().  
+  46     Call to deprecated function db_query().   
+  73     Call to deprecated function db_update().  
+  100    Call to deprecated function db_query().   
+  114    Call to deprecated function db_update().  
+  128    Call to deprecated function db_delete().  
+  137    Call to deprecated function db_select().  
+  174    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/DefaultController.php                        
+ ------ ------------------------------------------------------------ 
+  49     Call to deprecated method entityManager() of class Drupal.  
+  92     Call to deprecated function drupal_set_message().           
+  95     Call to deprecated function drupal_set_message().           
+  122    Call to deprecated method l() of class Drupal.              
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 47 errors                                                         
+
+ </code>

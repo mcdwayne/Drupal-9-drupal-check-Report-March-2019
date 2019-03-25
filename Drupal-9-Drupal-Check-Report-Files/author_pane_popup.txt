@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/author_pane_popup a98886281bdb7de2988ac12255e3a439fa716284
+source : http://cgit.drupalcode.org/author_pane_popup 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   author_pane_popup.module                           
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function libraries_detect().    
+  26     Call to deprecated method l() of class Drupal.     
+  36     Call to deprecated function drupal_set_message().  
+  50     Call to deprecated function file_load().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Form/AuthorPanePopupAdminSettingsQtipDeleteForm.php  
+ ------ --------------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthorPanePopupAdminSettingsQtipForm.php  
+ ------ --------------------------------------------------- 
+  34     Call to deprecated method l() of class Drupal.     
+  421    Call to deprecated function drupal_set_message().  
+  482    Call to deprecated function db_query_range().      
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/AuthorPanePopupSettingsForm.php            
+ ------ ---------------------------------------------------- 
+  26     Call to deprecated function node_type_get_types().  
+  92     Call to deprecated function file_load().            
+  103    Call to deprecated function drupal_render().        
+  119    Call to deprecated method l() of class Drupal.      
+  179    Call to deprecated method l() of class Drupal.      
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

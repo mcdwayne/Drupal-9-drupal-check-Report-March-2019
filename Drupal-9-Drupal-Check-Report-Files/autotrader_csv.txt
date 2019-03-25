@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/autotrader_csv 3850ea545aaeeea2f4c8922d67ae725d6524d017
+source : http://cgit.drupalcode.org/autotrader_csv 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Plugin/AutotraderCsvNodeExportBase.php  
+ ------ -------------------------------------------- 
+  151    Call to deprecated method url() of class    
+         Drupal\Core\Entity\EntityInterface.         
+  189    Call to deprecated method url() of class    
+         Drupal\Core\Entity\EntityInterface.         
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

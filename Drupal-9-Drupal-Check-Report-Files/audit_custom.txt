@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/audit_custom 9be285e8873529995b0e0adaf0c583fa8d9459f0
+source : http://cgit.drupalcode.org/audit_custom 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/AuditListBuilder.php                      
+ ------ ---------------------------------------------- 
+  70     Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditForm.php                             
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditOverviewForm.php                     
+ ------ --------------------------------------------------- 
+  66     Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  66     Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+  221    Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  221    Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+  230    Call to deprecated function drupal_set_message().  
+  252    Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  252    Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+  272    Call to deprecated function drupal_set_message().  
+  294    Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  294    Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+  309    Call to deprecated function drupal_set_message().  
+  341    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

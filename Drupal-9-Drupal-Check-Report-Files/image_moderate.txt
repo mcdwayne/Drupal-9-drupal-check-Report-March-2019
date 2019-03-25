@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_moderate 7a98cf8dfceb6111faf6aafaf689e75f8832c3af
+source : http://cgit.drupalcode.org/image_moderate 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   image_moderate.module                              
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().  
+  243    Call to deprecated function drupal_set_message().  
+  270    Call to deprecated function drupal_set_message().  
+  274    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageModerateForm.php                     
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageModerateSettingsForm.php             
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,94 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/autoban c8e1b6a2e4516406471107558d08287c236b3429
+source : http://cgit.drupalcode.org/autoban 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   autoban.module                                       
+ ------ ----------------------------------------------------- 
+  16     Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/autoban_dblog/src/Controller/AutobanDbLogController.php  
+ ------ ----------------------------------------------------------------- 
+  102    Call to deprecated method l() of class                           
+         Drupal\Core\Controller\ControllerBase.                           
+  126    Call to deprecated method l() of class                           
+         Drupal\Core\Controller\ControllerBase.                           
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/AutobanBatch.php                               
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AutobanController.php               
+ ------ --------------------------------------------------- 
+  190    Call to deprecated function drupal_set_message().  
+  193    Call to deprecated function drupal_set_message().  
+  220    Call to deprecated function drupal_set_message().  
+  229    Call to deprecated function drupal_set_message().  
+  236    Call to deprecated function drupal_set_message().  
+  284    Call to deprecated function drupal_set_message().  
+  289    Call to deprecated function drupal_set_message().  
+  369    Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Controller/AutobanListBuilder.php                  
+ ------ ------------------------------------------------------- 
+  104    Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutobanAnalyzeForm.php                    
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated function entity_create().       
+  166    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/AutobanBanForm.php                          
+ ------ ----------------------------------------------------- 
+  29     Call to deprecated function entity_load_multiple().  
+  31     Call to deprecated function drupal_set_message().    
+  32     Call to deprecated method url() of class Drupal.     
+  69     Call to deprecated function entity_load_multiple().  
+  94     Call to deprecated function drupal_set_message().    
+  105    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutobanDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutobanFormBase.php                       
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function entity_load().         
+  96     Call to deprecated function db_query().            
+  175    Call to deprecated function drupal_set_message().  
+  185    Call to deprecated function drupal_set_message().  
+  297    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+  302    Call to deprecated function drupal_set_message().  
+  307    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutobanSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 31 errors                                                         
+
+ </code>

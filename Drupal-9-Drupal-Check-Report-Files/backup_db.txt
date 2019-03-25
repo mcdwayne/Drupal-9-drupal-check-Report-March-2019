@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/backup_db b40bec6ed72e4252b64c8a34346f92f9f08a97dd
+source : http://cgit.drupalcode.org/backup_db 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   backup_db.module                          
+ ------ ------------------------------------------ 
+  41     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Adapter/BackupDatabaseLocalAdapter.php    
+ ------ ---------------------------------------------- 
+  41     Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/BackupDatabaseController.php     
+ ------ ------------------------------------------------ 
+  22     Call to deprecated function db_select().        
+  40     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BackupDatabaseForm.php                    
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BackupDatabaseSettingsForm.php            
+ ------ --------------------------------------------------- 
+  214    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

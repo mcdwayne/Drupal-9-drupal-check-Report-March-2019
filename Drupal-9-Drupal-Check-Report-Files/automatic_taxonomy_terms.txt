@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/automatic_taxonomy_terms f4a560a20bc20a86f39a55c4b8d08f1565a90c99
+source : http://cgit.drupalcode.org/automatic_taxonomy_terms 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Event/EventSubscriber.php                              
+ ------ ----------------------------------------------------------- 
+  55     Fetching class constant ENTITY_INSERT of deprecated class  
+         Drupal\hook_event_dispatcher\HookEventDispatcherEvents.    
+  56     Fetching class constant ENTITY_UPDATE of deprecated class  
+         Drupal\hook_event_dispatcher\HookEventDispatcherEvents.    
+  57     Fetching class constant ENTITY_DELETE of deprecated class  
+         Drupal\hook_event_dispatcher\HookEventDispatcherEvents.    
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

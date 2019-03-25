@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/authorization_code 335f45a0e3de47ff009456f4a5567e8f2bb71d3c
+source : http://cgit.drupalcode.org/authorization_code 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoginProcessDeleteForm.php                
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoginProcessForm.php                      
+ ------ --------------------------------------------------- 
+  397    Call to deprecated function drupal_set_message().  
+  403    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Unit/LoginProcessTest.php                                   
+ ------ ---------------------------------------------------------------------- 
+  25     Class phpmock\phpunit\PHPMock not found and could not be autoloaded.  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

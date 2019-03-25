@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/auto_close_comments edc2eb05cb0cd52e16ceebf483f2b080e8a6ef08
+source : http://cgit.drupalcode.org/auto_close_comments 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   auto_close_comments.module                                  
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method url() of class Drupal.            
+  44     Call to deprecated function drupal_set_message().           
+  71     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/BulkCloseComments.php                                   
+ ------ ------------------------------------------------------------ 
+  21     Call to deprecated method entityManager() of class Drupal.  
+  46     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutoCloseCommentsSettingsForm.php         
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

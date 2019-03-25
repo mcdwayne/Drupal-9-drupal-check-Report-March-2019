@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/backports 5badcfbcd3e1d8ac15c0148fb12105cea02e4e02
+source : http://cgit.drupalcode.org/backports 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ImageUrlFormatter.php  
+ ------ ------------------------------------------------------- 
+  44     Call to deprecated method urlInfo() of class           
+         Drupal\Core\Entity\EntityInterface.                    
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

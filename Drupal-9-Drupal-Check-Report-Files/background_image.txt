@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/background_image 1f41efde8bcd7fc709c5c847adffc3700e318168
+source : http://cgit.drupalcode.org/background_image 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Controller/BackgroundImageCssController.php                  
+ ------ ----------------------------------------------------------------- 
+  122    Call to deprecated function drupal_dirname().                    
+  198    Call to deprecated method substr() of class                      
+         Drupal\Component\Utility\Unicode.                                
+  301    Call to deprecated function file_stream_wrapper_valid_scheme().  
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/BackgroundImage.php                  
+ ------ ------------------------------------------------ 
+  631    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BackgroundImageForm.php                   
+ ------ --------------------------------------------------- 
+  799    Call to deprecated function drupal_set_message().  
+  802    Call to deprecated function drupal_set_message().  
+  859    Call to deprecated function drupal_set_message().  
+  864    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

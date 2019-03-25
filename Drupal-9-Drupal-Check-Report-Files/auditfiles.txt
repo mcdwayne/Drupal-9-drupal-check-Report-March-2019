@@ -1,0 +1,133 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/auditfiles 8.x-2.2
+source : http://cgit.drupalcode.org/auditfiles 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/AuditFilesBatchProcess.php                     
+ ------ --------------------------------------------------- 
+  21     Call to deprecated function drupal_set_message().  
+  75     Call to deprecated function drupal_realpath().     
+  92     Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated function drupal_set_message().  
+  188    Call to deprecated function drupal_set_message().  
+  206    Call to deprecated function drupal_set_message().  
+  242    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditFilesManagedNotUsed.php              
+ ------ --------------------------------------------------- 
+  196    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditFilesMergeFileReferences.php         
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function format_date().         
+  121    Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function format_date().         
+  206    Call to deprecated function drupal_set_message().  
+  342    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditFilesNotInDatabase.php               
+ ------ --------------------------------------------------- 
+  215    Call to deprecated function drupal_set_message().  
+  237    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditFilesNotOnServer.php                 
+ ------ --------------------------------------------------- 
+  207    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditFilesReferencedNotUsed.php           
+ ------ --------------------------------------------------- 
+  208    Call to deprecated function drupal_set_message().  
+  230    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditFilesUsedNotManaged.php              
+ ------ --------------------------------------------------- 
+  194    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditFilesUsedNotReferenced.php           
+ ------ --------------------------------------------------- 
+  197    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ServiceAuditFilesManagedNotUsed.php            
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_realpath().     
+  155    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ServiceAuditFilesMergeFileReferences.php       
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function format_date().         
+  186    Call to deprecated function drupal_set_message().  
+  205    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ServiceAuditFilesNotInDatabase.php             
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_realpath().     
+  66     Call to deprecated function drupal_realpath().     
+  134    Call to deprecated function format_date().         
+  159    Call to deprecated function drupal_realpath().     
+  358    Call to deprecated function drupal_realpath().     
+  388    Call to deprecated function drupal_set_message().  
+  391    Call to deprecated function drupal_set_message().  
+  395    Call to deprecated function drupal_set_message().  
+  440    Call to deprecated function drupal_realpath().     
+  442    Call to deprecated function drupal_set_message().  
+  445    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ServiceAuditFilesNotOnServer.php               
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_realpath().     
+  80     Call to deprecated function drupal_realpath().     
+  168    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ServiceAuditFilesReferencedNotUsed.php         
+ ------ --------------------------------------------------- 
+  225    Call to deprecated function drupal_set_message().  
+  284    Call to deprecated function drupal_set_message().  
+  297    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ServiceAuditFilesUsedNotManaged.php            
+ ------ --------------------------------------------------- 
+  118    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ServiceAuditFilesUsedNotReferenced.php         
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 49 errors                                                         
+
+ </code>

@@ -1,0 +1,63 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/backup_permissions ef2694fc67af79c119f6bbb992717054790d9eea
+source : http://cgit.drupalcode.org/backup_permissions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------ 
+  Line   src/BackupPermissionsStorageTrait.php (in context of class Drupalackup_permissions\Controller\BackupPermissionsController)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------ 
+  132    Call to deprecated function drupal_set_message().                                                                             
+ ------ ------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+  Line   src/BackupPermissionsStorageTrait.php (in context of class Drupalackup_permissions\Form\BackupPermissionsCreateForm)  
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+  132    Call to deprecated function drupal_set_message().                                                                       
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   src/BackupPermissionsStorageTrait.php (in context of class Drupalackup_permissions\Form\BackupPermissionsDeleteConfirmationForm)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  132    Call to deprecated function drupal_set_message().                                                                                   
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/BackupPermissionsStorageTrait.php (in context of class Drupalackup_permissions\Form\BackupPermissionsDeleteMultipleForm)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().                                                                               
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+  Line   src/BackupPermissionsStorageTrait.php (in context of class Drupalackup_permissions\Form\BackupPermissionsImportForm)  
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+  132    Call to deprecated function drupal_set_message().                                                                       
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  Line   src/BackupPermissionsStorageTrait.php (in context of class Drupalackup_permissions\Form\BackupPermissionsListForm)  
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().                                                                     
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BackupPermissionsCreateForm.php           
+ ------ --------------------------------------------------- 
+  134    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Form/BackupPermissionsDeleteConfirmationForm.php  
+ ------ ------------------------------------------------------ 
+  86     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BackupPermissionsDeleteMultipleForm.php   
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

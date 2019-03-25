@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/purge_users 1049d22dca0146efe32f0dc58af39205c03135cb
+source : http://cgit.drupalcode.org/purge_users 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   purge_users.module                                 
+ ------ --------------------------------------------------- 
+  174    Call to deprecated function drupal_set_message().  
+  182    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  328    Call to deprecated function drupal_set_message().  
+  365    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

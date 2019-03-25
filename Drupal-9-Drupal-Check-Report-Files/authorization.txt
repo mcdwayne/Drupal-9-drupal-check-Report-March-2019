@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/authorization c0cbf9f26f61388b85cb06bd643106875d12a2ec
+source : http://cgit.drupalcode.org/authorization 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   authorization.module                               
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   authorization_drupal_roles/tests/src/Kernel/DrupalRolesIntegrationTests.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class                                                                        
+         Drupal\Testsuthorization_drupal_user\Kernel\DrupalRolesIntegrationTes      
+         ts was not found while trying to analyse it - autoloading is probably        
+         not configured properly.                                                     
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/AuthorizationProfileListBuilder.php        
+ ------ ----------------------------------------------- 
+  28     Call to deprecated method getLabel() of class  
+         Drupal\Core\Entity\EntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthorizationProfileDeleteForm.php        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthorizationProfileForm.php              
+ ------ --------------------------------------------------- 
+  186    Call to deprecated function drupal_set_message().  
+  217    Call to deprecated function drupal_set_message().  
+  267    Call to deprecated function drupal_set_message().  
+  282    Call to deprecated function drupal_set_message().  
+  310    Call to deprecated function drupal_set_message().  
+  325    Call to deprecated function drupal_set_message().  
+  664    Call to deprecated function drupal_set_message().  
+  670    Call to deprecated function drupal_set_message().  
+  674    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/audit_log 947952323462ecfda0b6a42a2e8fc0ce8bead984
+source : http://cgit.drupalcode.org/audit_log 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Behat/features/bootstrap/AuditLogFeatureContext.php            
+ ------ ------------------------------------------------------------------------- 
+         Class AuditLogFeatureContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   tests/src/Functional/NodeTest.php        
+ ------ ----------------------------------------- 
+  42     Call to deprecated function db_query().  
+  53     Call to deprecated function db_query().  
+  58     Call to deprecated function db_query().  
+  65     Call to deprecated function db_query().  
+  69     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   tests/src/Kernel/AuditLogDatabaseTest.php  
+ ------ ------------------------------------------- 
+  34     Call to deprecated function db_query().    
+  40     Call to deprecated function db_query().    
+  44     Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/AuditLogEventTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  23     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  25     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

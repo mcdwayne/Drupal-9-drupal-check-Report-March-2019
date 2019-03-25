@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/auto_user_role 88f6f489b53a381eb61de019a5da09045f382dd8
+source : http://cgit.drupalcode.org/auto_user_role 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutoRoleEntityDeleteForm.php              
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutoRoleEntityForm.php                    
+ ------ --------------------------------------------------- 
+  163    Call to deprecated function drupal_set_message().  
+  169    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/AutoUserTest.php                   
+ ------ -------------------------------------------------------- 
+  59     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  68     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  81     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  82     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  83     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  84     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  85     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/auto_username 89144bffe0fc12b6f5935c32c187d412844c32bf
+source : http://cgit.drupalcode.org/auto_username 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutoUsernameSettingsForm.php              
+ ------ --------------------------------------------------- 
+  272    Call to deprecated function drupal_set_message().  
+  587    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  602    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

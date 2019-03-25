@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/badge 4b1397470af75cb2bfb377cad01e38b678a8b736
+source : http://cgit.drupalcode.org/badge 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/BadgeAwardedListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupaladge\BadgeAwardedListBuilder.                          
+  34     Call to deprecated method l() of class                               
+         Drupaladge\BadgeAwardedListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/BadgeListBuilder.php                                               
+ ------ ----------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in    
+         class Drupaladge\BadgeListBuilder.                                   
+  34     Call to deprecated method l() of class Drupaladge\BadgeListBuilder.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BadgeAwardedForm.php                      
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BadgeForm.php                             
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

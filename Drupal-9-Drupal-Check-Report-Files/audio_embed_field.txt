@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/audio_embed_field 3dd77eb47561a6729e77af6dc6dd15e91ce0109a
+source : http://cgit.drupalcode.org/audio_embed_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/audio_embed_media/audio_embed_media.module                  
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/audio_embed_media/src/Plugin/MediaEntity/Type/AudioEmbedField.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be         
+         autoloaded.                                                                
+ ------ --------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

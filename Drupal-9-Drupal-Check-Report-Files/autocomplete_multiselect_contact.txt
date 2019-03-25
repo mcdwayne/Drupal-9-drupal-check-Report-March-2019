@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/autocomplete_multiselect_contact 738b4629f8e048ed6c0f8fee12f46e2c8a7ff2f1
+source : http://cgit.drupalcode.org/autocomplete_multiselect_contact 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   autocomplete_multiselect_contact.module             
+ ------ ---------------------------------------------------- 
+  124    Call to deprecated function valid_email_address().  
+  140    Call to deprecated function db_query().             
+  144    Call to deprecated function db_update().            
+  151    Call to deprecated function db_insert().            
+  164    Call to deprecated function db_query().             
+  176    Call to deprecated function db_delete().            
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

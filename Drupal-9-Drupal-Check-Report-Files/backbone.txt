@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/backbone 6657db540ee5b4a8e881a180c073f740023f2fec
+source : http://cgit.drupalcode.org/backbone 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   modules/backbone_library/backbone_library.module   
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function libraries_get_path().  
+  97     Call to deprecated function libraries_get_path().  
+  105    Call to deprecated function libraries_get_path().  
+  121    Call to deprecated function libraries_get_path().  
+  122    Call to deprecated function libraries_get_path().  
+  123    Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/backbone_restws_examples/translation-example.twig.tpl.php  
+ ------ ------------------------------------------------------------------- 
+  2      Syntax error, unexpected '<' on line 2                             
+  5      Syntax error, unexpected '}' on line 5                             
+  11     Syntax error, unexpected '}' on line 11                            
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

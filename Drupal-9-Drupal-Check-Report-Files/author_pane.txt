@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/author_pane 777b76c95a4fc66405101ce9ea68d43e7aafe0c4
+source : http://cgit.drupalcode.org/author_pane 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthorPaneDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/AuthorPaneFormBase.php                                    
+ ------ ------------------------------------------------------------------- 
+  178    Call to deprecated method urlInfo() of class                       
+         Drupal\Core\Entity\EntityInterface.                                
+  181    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  185    Call to deprecated function drupal_set_message().                  
+  190    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/AuthorPane/Username.php                
+ ------ -------------------------------------------------- 
+  25     Call to deprecated method getUsername() of class  
+         Drupal\user\Entity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

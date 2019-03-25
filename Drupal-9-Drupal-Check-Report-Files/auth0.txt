@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/auth0 8e738f8a79e5981584241a8068bf4375e4906eec
+source : http://cgit.drupalcode.org/auth0 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   auth0.module                              
+ ------ ------------------------------------------ 
+  30     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Auth0Helper.php                                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Auth0\Auth0Helper was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Controller/AuthController.php                                      
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupaluth0\Controller\AuthController.                                
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/autopost_facebook 8.x-1.0-alpha3
+source : http://cgit.drupalcode.org/autopost_facebook 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   autopost_facebook.module                           
+ ------ --------------------------------------------------- 
+  146    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AutoPostFacebookController.php      
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PostsAccountsConfigForm.php               
+ ------ --------------------------------------------------- 
+  137    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

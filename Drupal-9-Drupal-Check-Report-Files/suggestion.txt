@@ -1,0 +1,63 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/suggestion 0980cfe9294489fc9a007f35ce9e38d6ea2722ae
+source : http://cgit.drupalcode.org/suggestion 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/SuggestionController.php          
+ ------ ------------------------------------------------- 
+  30     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  39     Call to deprecated function db_like().           
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SuggestionEditForm.php                    
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SuggestionSearchForm.php                  
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function db_like().             
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/SuggestionHelper.php                         
+ ------ ------------------------------------------------- 
+  202    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  353    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/SuggestionStorage.php                      
+ ------ ----------------------------------------------- 
+  23     Call to deprecated function db_delete().       
+  41     Call to deprecated function db_query_range().  
+  43     Call to deprecated function db_query().        
+  83     Call to deprecated function db_query_range().  
+  105    Call to deprecated function db_query().        
+  115    Call to deprecated function db_query().        
+  131    Call to deprecated function db_query().        
+  133    Call to deprecated function db_query().        
+  146    Call to deprecated function db_query().        
+  161    Call to deprecated function db_query().        
+  181    Call to deprecated function db_select().       
+  190    Call to deprecated function db_like().         
+  220    Call to deprecated function db_query().        
+  253    Call to deprecated function db_query_range().  
+  268    Call to deprecated function db_merge().        
+  292    Call to deprecated function db_query_range().  
+  294    Call to deprecated function db_query().        
+  304    Call to deprecated function db_truncate().     
+  314    Call to deprecated function db_update().       
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

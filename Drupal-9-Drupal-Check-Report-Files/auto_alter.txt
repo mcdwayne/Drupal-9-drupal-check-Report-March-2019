@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/auto_alter 009cb67e77b483fb0743983425ca75b6600f638d
+source : http://cgit.drupalcode.org/auto_alter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   auto_alter.module                                  
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+  111    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/auto_alter_translate/auto_alter_translate.module  
+ ------ ---------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/auto_alter_translate/src/Form/AutoAlterTranslateSettingsForm.php  
+ ------ -------------------------------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AutoAlterSettingsForm.php                 
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

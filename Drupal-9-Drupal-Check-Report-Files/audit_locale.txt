@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/audit_locale 2addfc8ba6e51776a613295d7a6567a46aaedcbc
+source : http://cgit.drupalcode.org/audit_locale 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/AuditLocaleListBuilder.php                
+ ------ ---------------------------------------------- 
+  69     Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/AuditLocaleService.php                                  
+ ------ ------------------------------------------------------------ 
+  67     Call to deprecated method entityManager() of class Drupal.  
+  92     Call to deprecated function user_load().                    
+  117    Call to deprecated method entityManager() of class Drupal.  
+  175    Call to deprecated function taxonomy_term_load().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/AuditLocaleController.php                    
+ ------ ------------------------------------------------------------ 
+  126    Call to deprecated function user_load().                    
+  203    Call to deprecated method entityManager() of class Drupal.  
+  228    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuditLocaleForm.php                       
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function user_load().           
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>
