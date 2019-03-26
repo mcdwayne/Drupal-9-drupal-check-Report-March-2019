@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/open_connect f0da0e6169ba56301c7b4e542826715e34bc2ada
+source : http://cgit.drupalcode.org/open_connect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/RedirectController.php              
+ ------ --------------------------------------------------- 
+  209    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\open_connectntity\Form\DeleteForm was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

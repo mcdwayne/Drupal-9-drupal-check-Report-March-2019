@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/orders ddd6f5e5d7c4eb111a0d7efc834a194a64a18329
+source : http://cgit.drupalcode.org/orders 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/OrdersController.php                 
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OrdersForm.php                            
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OrdersRevisionDeleteForm.php              
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OrdersRevisionRevertForm.php              
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OrdersTypeDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OrdersTypeForm.php                        
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

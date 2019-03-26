@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/waterwheel 546a17a5835bf21fb2fdefc26a02e3e0728b0048
+source : http://cgit.drupalcode.org/waterwheel 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Tests/WaterwheelTestBase.php                                     
+ ------ --------------------------------------------------------------------- 
+  15     Class Drupal\waterwheel\Tests\WaterwheelTestBase extends deprecated  
+         class Drupalest\Tests\RESTTestBase.                                
+  59     Call to method setUp() of deprecated class                           
+         Drupalest\Tests\RESTTestBase.                                      
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

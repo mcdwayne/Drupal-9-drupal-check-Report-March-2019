@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/youtubechannel 8.x-3.1
+source : http://cgit.drupalcode.org/youtubechannel 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Block/youtubechannelblock.php                              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\youtubechannel\Plugin\Block\Youtubechannelblock was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   youtubechannel.module                           
+ ------ ------------------------------------------------ 
+  96     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

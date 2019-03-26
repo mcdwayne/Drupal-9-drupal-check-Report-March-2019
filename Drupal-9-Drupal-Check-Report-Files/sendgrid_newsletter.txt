@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sendgrid_newsletter 61d42c78939f9efaed999b64c2bcdb8fd7bc2ec6
+source : http://cgit.drupalcode.org/sendgrid_newsletter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendgridNewsletterConfig.php              
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendgridNewsletterLists.php               
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

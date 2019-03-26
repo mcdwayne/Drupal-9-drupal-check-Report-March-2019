@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/weeklytimefield 9dbc670bac92b75671f3037636ed9738e22a2be6
+source : http://cgit.drupalcode.org/weeklytimefield 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/WeeklyTimeFormatter.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\weeklytime\Plugin\Field\FieldFormatter\WeeklyTimeFormatter  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/WeeklyTimeField.php                          
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\weeklytime\Plugin\Field\FieldType\WeeklyTimeField was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/WeeklyTimeWidget.php                      
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\weeklytime\Plugin\Field\FieldWidget\WeeklyTimeWidget was  
+         not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/views/filter/WeeklyDaysFilter.php                          
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\weeklytime\Pluginiewsilter\WeeklyDaysFilter was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/views/filter/WeeklyTimeFilter.php                          
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\weeklytime\Pluginiewsilter\WeeklyTimeFilter was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

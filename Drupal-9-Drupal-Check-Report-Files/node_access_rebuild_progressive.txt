@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_access_rebuild_progressive 4c656fa7793fc3739817a328a8058264c13f0935
+source : http://cgit.drupalcode.org/node_access_rebuild_progressive 
+ 
+ <code> 
+
+ ------ ------------------------------------------- 
+  Line   node_access_rebuild_progressive.drush.inc  
+ ------ ------------------------------------------- 
+  21     Syntax error, unexpected '}' on line 21    
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   node_access_rebuild_progressive.module                      
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated function db_query().                     
+  43     Call to deprecated function db_query().                     
+  44     Call to deprecated function db_query().                     
+  53     Call to deprecated method entityManager() of class Drupal.  
+  79     Call to deprecated function db_query().                     
+  83     Call to deprecated method entityManager() of class Drupal.  
+  84     Call to deprecated method entityManager() of class Drupal.  
+  138    Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/select_icons 7d38a695891ba78c3a9929e5e5209c0a175e9649
+source : http://cgit.drupalcode.org/select_icons 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/SelectIconsElementIntegrationTest.php     
+ ------ ------------------------------------------------------------------------- 
+  12     Class                                                                    
+         Drupal\Tests\select_icons\FunctionalJavascript\SelectIconsElementIntegr  
+         ationTest extends deprecated class                                       
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  28     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

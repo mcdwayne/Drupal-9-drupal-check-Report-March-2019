@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/view_custom_table a1e6692e9e78f01000435cc2956d494df5ca08ef
+source : http://cgit.drupalcode.org/view_custom_table 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddViewsCustomTable.php                   
+ ------ --------------------------------------------------- 
+  156    Call to deprecated function format_string().       
+  261    Call to deprecated function drupal_set_message().  
+  266    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditTableRelations.php                    
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function format_string().       
+  174    Call to deprecated function drupal_set_message().  
+  179    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditViewsCustomTable.php                  
+ ------ --------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RemoveViewsCustomTable.php                
+ ------ --------------------------------------------------- 
+  118    Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Plugin/views/field/MysqlDate.php        
+ ------ -------------------------------------------- 
+  201    Call to deprecated function format_date().  
+  203    Call to deprecated function format_date().  
+  206    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

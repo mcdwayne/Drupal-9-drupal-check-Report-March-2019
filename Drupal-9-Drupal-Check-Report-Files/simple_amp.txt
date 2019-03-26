@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_amp 35b3af25bf4d166cdbf7bab9079811c38e260e51
+source : http://cgit.drupalcode.org/simple_amp 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/AmpBase.php                           
+ ------ ------------------------------------------ 
+  108    Call to deprecated function db_insert().  
+  117    Call to deprecated function db_delete().  
+  124    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/AmpController.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\simple_amp\Controller\AMPController was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

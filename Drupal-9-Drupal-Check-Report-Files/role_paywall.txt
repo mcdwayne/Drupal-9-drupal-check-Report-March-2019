@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/role_paywall 508a994ae779ca436a78987c5fccdaf87bf4c95b
+source : http://cgit.drupalcode.org/role_paywall 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/RolePaywallSettingsForm.php                        
+ ------ ------------------------------------------------------------ 
+  141    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/RolePaywallManager.php                                  
+ ------ ------------------------------------------------------------ 
+  75     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/RolePaywallTestBase.php       
+ ------ --------------------------------------------------- 
+  152    Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

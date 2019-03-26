@@ -1,0 +1,62 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sel c61c285a2a182be821b1ce369611a16f10bb85c3
+source : https://cgit.drupalcode.org/sel 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   sel.module                                   
+ ------ --------------------------------------------- 
+  164    Call to deprecated method strpos() of class  
+         Drupal\Component\Utility\Unicode.            
+  165    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  168    Call to deprecated method strpos() of class  
+         Drupal\Component\Utility\Unicode.            
+  170    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   sel.theme.inc                                
+ ------ --------------------------------------------- 
+  36     Call to deprecated method strpos() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SelLinkFilterTest.php                               
+ ------ ------------------------------------------------------------------------- 
+  103    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  178    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SelLinkFormatterTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  72     Call to deprecated method strtolower() of class                          
+         Drupal\Component\Utility\Unicode.                                        
+  90     Call to deprecated function entity_get_form_display().                   
+  96     Call to deprecated function entity_get_display().                        
+  172    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/SelLinkFormatterJavascriptTest.php        
+ ------ ------------------------------------------------------------------------- 
+  18     Class                                                                    
+         Drupal\Tests\sel\FunctionalJavascript\SelLinkFormatterJavascriptTest     
+         extends deprecated class                                                 
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  51     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  69     Call to deprecated method strtolower() of class                          
+         Drupal\Component\Utility\Unicode.                                        
+  87     Call to deprecated function entity_get_form_display().                   
+  93     Call to deprecated function entity_get_display().                        
+  116    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

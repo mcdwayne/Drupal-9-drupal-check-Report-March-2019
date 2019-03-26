@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/xmlrpc 270ea0efa71a4738ec25781b216817aa5176b099
+source : http://cgit.drupalcode.org/xmlrpc 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/XmlRpcTestBase.php                 
+ ------ --------------------------------------------- 
+  27     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  27     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   xmlrpc.inc                                       
+ ------ ------------------------------------------------- 
+  129    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  129    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   xmlrpc_example/src/Controller/XmlRpcExampleController.php  
+ ------ ----------------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   xmlrpc_example/src/Form/XmlRpcExampleClientForm.php  
+ ------ ----------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().    
+  142    Call to deprecated function drupal_set_message().    
+  180    Call to deprecated function drupal_set_message().    
+  189    Call to deprecated function drupal_set_message().    
+  224    Call to deprecated function drupal_set_message().    
+  231    Call to deprecated function drupal_set_message().    
+  287    Call to deprecated function drupal_set_message().    
+  294    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

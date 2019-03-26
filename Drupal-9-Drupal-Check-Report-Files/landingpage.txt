@@ -1,0 +1,112 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/landingpage 4995ac660501b806a1807e1463294094e397093f
+source : http://cgit.drupalcode.org/landingpage 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   landingpage.module                                          
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated method entityManager() of class Drupal.  
+  62     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/landingpage_clone/src/Form/LandingPageCloneForm.php  
+ ------ ------------------------------------------------------------- 
+  51     Call to deprecated method entityManager() of class Drupal.   
+  70     Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/landingpage_export/landingpage_export.module        
+ ------ ------------------------------------------------------------ 
+  25     Call to deprecated method entityManager() of class Drupal.  
+  45     Call to deprecated function file_load().                    
+  55     Call to deprecated function file_load().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/landingpage_export/src/Form/LandingPageExportForm.php  
+ ------ --------------------------------------------------------------- 
+  46     Call to deprecated function drupal_realpath().                 
+  48     Call to deprecated function drupal_realpath().                 
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/landingpage_geysir/src/Controller/LandingpageGeysirController.php  
+ ------ --------------------------------------------------------------------------- 
+  21     Call to deprecated function node_load().                                   
+  47     Call to deprecated function node_load().                                   
+  74     Call to deprecated function node_load().                                   
+  80     Call to deprecated method entityManager() of class Drupal.                 
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/landingpage_geysir/src/Form/LandingpageGeysirAddParagraphForm.php  
+ ------ --------------------------------------------------------------------------- 
+  37     Call to deprecated method entityManager() of class Drupal.                 
+  44     Call to deprecated function entity_get_bundles().                          
+  181    Call to deprecated function node_load().                                   
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/landingpage_geysir/src/Form/LandingpageGeysirCustomizeParagraphForm.php  
+ ------ --------------------------------------------------------------------------------- 
+  153    Call to deprecated function node_load().                                         
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/landingpage_static/landingpage_static.module        
+ ------ ------------------------------------------------------------ 
+  25     Call to deprecated method entityManager() of class Drupal.  
+  45     Call to deprecated function file_load().                    
+  55     Call to deprecated function file_load().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/landingpage_static/src/Form/LandingPageStaticForm.php  
+ ------ --------------------------------------------------------------- 
+  48     Call to deprecated function drupal_realpath().                 
+  50     Call to deprecated function drupal_realpath().                 
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/Controller.php                    
+ ------ ------------------------------------------------- 
+  35     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  35     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LandingPageSkinDeleteForm.php             
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LandingPageSkinForm.php                   
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ParagraphContactFieldFormatter.php  
+ ------ -------------------------------------------------------------------- 
+  58     Call to deprecated method entityManager() of class Drupal.          
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/ParagraphDisplayFieldWidget.php  
+ ------ -------------------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class Drupal.    
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 30 errors                                                         
+
+ </code>

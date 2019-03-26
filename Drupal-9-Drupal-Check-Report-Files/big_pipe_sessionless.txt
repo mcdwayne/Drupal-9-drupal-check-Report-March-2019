@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/big_pipe_sessionless 7031e80d4924c9857230d2577a3d51739697bbc4
+source : http://cgit.drupalcode.org/big_pipe_sessionless 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/BigPipeSessionlessTest.php                          
+ ------ ------------------------------------------------------------------------- 
+  56     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  65     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  69     Call to deprecated method assertNoCacheTag() of class                    
+         Drupal\Tests\BrowserTestBase.                                            
+  70     Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  71     Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  83     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  84     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  85     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  86     Call to deprecated method assertNoRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  87     Call to deprecated method assertNoRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  89     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  91     Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  93     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  95     Call to deprecated method assertIdentical() of class                     
+         Drupal\Tests\BrowserTestBase.                                            
+  96     Call to deprecated method assertIdentical() of class                     
+         Drupal\Tests\BrowserTestBase.                                            
+  99     Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  100    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  101    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  111    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  115    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  116    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  117    Call to deprecated method assertNoRaw() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/progress 48d824f3022adb4d22366187ffc14604ad73d615
+source : http://cgit.drupalcode.org/progress 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   progress.module                           
+ ------ ------------------------------------------ 
+  21     Call to deprecated function db_insert().  
+  37     Call to deprecated function db_update().  
+  47     Call to deprecated function db_query().   
+  75     Call to deprecated function db_update().  
+  102    Call to deprecated function db_query().   
+  116    Call to deprecated function db_update().  
+  131    Call to deprecated function db_delete().  
+  140    Call to deprecated function db_select().  
+  174    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

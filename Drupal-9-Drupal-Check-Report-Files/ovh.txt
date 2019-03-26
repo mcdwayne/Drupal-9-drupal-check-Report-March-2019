@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ovh 82955de2a6e94f07bee54f304bb3b31776552e75
+source : http://cgit.drupalcode.org/ovh 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Controller/OvhKeyViewBuilder.php        
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OvhGets.php                               
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated function drupal_set_message().  
+  76     Calls to function dpm should not exist.            
+  79     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

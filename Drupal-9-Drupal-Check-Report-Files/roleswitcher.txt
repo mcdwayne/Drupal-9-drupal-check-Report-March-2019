@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/roleswitcher d5e9ba83c1418be5c3befb89cf8f926eac77e5ff
+source : http://cgit.drupalcode.org/roleswitcher 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   roleswitcher.module                                
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Controller/RoleswitcherController.php  
+ ------ ------------------------------------------- 
+  27     Call to deprecated function user_load().   
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Block/RoleswitcherBlock.php                 
+ ------ ------------------------------------------------------- 
+  30     Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

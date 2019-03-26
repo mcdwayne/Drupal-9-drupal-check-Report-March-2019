@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_photo_grid 333c441b6ff45fbd0be25dd999b1d3c6bc3d6a05
+source : http://cgit.drupalcode.org/views_photo_grid 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/style/PhotoGrid.php                        
+ ------ ------------------------------------------------------------ 
+  76     Call to deprecated method entityManager() of class Drupal.  
+  115    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

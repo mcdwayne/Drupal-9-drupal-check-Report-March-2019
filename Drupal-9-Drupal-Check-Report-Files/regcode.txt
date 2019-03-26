@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/regcode 8.x-1.0
+source : http://cgit.drupalcode.org/regcode 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   regcode.module                                              
+ ------ ------------------------------------------------------------ 
+  81     Call to deprecated method strlen() of class                 
+         Drupal\Component\Utility\Unicode.                           
+  152    Call to deprecated function db_select().                    
+  246    Call to deprecated function db_update().                    
+  257    Call to deprecated method entityManager() of class Drupal.  
+  295    Call to deprecated function db_delete().                    
+  301    Call to deprecated function db_insert().                    
+  330    Call to deprecated function db_query().                     
+  331    Call to deprecated function db_query().                     
+  336    Call to deprecated function db_delete().                    
+  342    Call to deprecated function db_delete().                    
+  393    Call to deprecated function db_delete().                    
+  402    Call to deprecated function db_update().                    
+  412    Call to deprecated function db_update().                    
+  422    Call to deprecated method entityManager() of class Drupal.  
+  514    Call to deprecated function format_date().                  
+  518    Call to deprecated function format_date().                  
+  522    Call to deprecated function format_date().                  
+  526    Call to deprecated function format_date().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RegcodeAdminCreate.php                    
+ ------ --------------------------------------------------- 
+  163    Call to deprecated function drupal_set_message().  
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RegcodeAdminManage.php                    
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

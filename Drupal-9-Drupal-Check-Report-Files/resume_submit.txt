@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/resume_submit b316da0013a6eeabe7f50a1b4ad07cb462c64b54
+source : http://cgit.drupalcode.org/resume_submit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResumeForm.php                            
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/WorkForm.php                                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalesume\Form\workForm was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

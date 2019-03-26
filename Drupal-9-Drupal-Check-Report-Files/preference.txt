@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/preference 8e33c76e074755bdf66391f46f3c3a1a4dfdf67d
+source : http://cgit.drupalcode.org/preference 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   preference.module                                       
+ ------ -------------------------------------------------------- 
+  48     Call to deprecated function entity_get_form_display().  
+  55     Call to deprecated function db_delete().                
+  56     Call to deprecated function db_delete().                
+  86     Call to deprecated function db_insert().                
+  97     Call to deprecated function db_insert().                
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

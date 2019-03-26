@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pathinfo 0e5fd56c4971a9045b933edd5fff58b38a539872
+source : http://cgit.drupalcode.org/pathinfo 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/pathinfo/ConfigForm.php                                      
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\pathinfo\ConfigForm was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/pathinfo/EventSubscriber/PathinfoRequestSubscriber.php        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\pathinfoventSubscriber\PathinfoRequestSubscriber was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   pathinfo.module                          
+ ------ ----------------------------------------- 
+  139    Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_pass_reset f49e6194b8722ac720a35e8f8c9f4d40375f40bc
+source : http://cgit.drupalcode.org/simple_pass_reset 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/AccessChecks/ResetPassAccessCheck.php          
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  38     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  39     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  40     Call to deprecated method url() of class Drupal.   
+  50     Call to deprecated function drupal_set_message().  
+  50     Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/User.php                                     
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

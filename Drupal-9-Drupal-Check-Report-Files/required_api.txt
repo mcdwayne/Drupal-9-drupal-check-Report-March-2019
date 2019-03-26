@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/required_api 1ed5fb1119e97b4df6626349c797e9041727ec4f
+source : http://cgit.drupalcode.org/required_api 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   tests/modules/required_api_test/tests/src/Plugin/Required/RequiredManagerTest.php  
+ ------ ----------------------------------------------------------------------------------- 
+         Class                                                                              
+         Drupalequired_api_test\Tests\Plugin\Required\RequiredManagerTest was             
+         not found while trying to analyse it - autoloading is probably not                 
+         configured properly.                                                               
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/modules/required_api_test/tests/src/RequiredApiTest.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupalequired_api_test\Tests\RequiredApiTest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/modules/required_api_test/tests/src/RequiredApiTestBase.php       
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalequired_api_test\Tests\RequiredApiTestBase was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paybox 06c79d323c16f1ec8161383c1795391d844cbc52
+source : http://cgit.drupalcode.org/paybox 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/PayboxController.php                
+ ------ --------------------------------------------------- 
+  170    Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+  178    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/PayboxErrors.php                         
+ ------ --------------------------------------------- 
+  26     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  27     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

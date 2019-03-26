@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/reference_value_pair f9f3bc1acbf4d46cc35336084c86b20b083bba0d
+source : http://cgit.drupalcode.org/reference_value_pair 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   reference_value_pair.views.inc                              
+ ------ ------------------------------------------------------------ 
+  26     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ReferenceValueFormatterBase.php  
+ ------ ----------------------------------------------------------------- 
+  118    Call to deprecated method entityManager() of class Drupal.       
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/ReferenceValuePair.php           
+ ------ ------------------------------------------------------------ 
+  69     Call to deprecated method entityManager() of class Drupal.  
+  73     Call to deprecated method entityManager() of class Drupal.  
+  111    Call to deprecated method entityManager() of class Drupal.  
+  209    Call to deprecated method entityManager() of class Drupal.  
+  362    Call to deprecated method entityManager() of class Drupal.  
+  369    Call to deprecated method entityManager() of class Drupal.  
+  399    Call to deprecated method entityManager() of class Drupal.  
+  409    Call to deprecated method entityManager() of class Drupal.  
+  501    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/ReferenceValueAutocompleteWidget.php  
+ ------ ------------------------------------------------------------------- 
+  189    Call to deprecated function entity_get_bundles().                  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

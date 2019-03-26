@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_autocomplete c39bb1aebaf4fe15050ab0ac0ac5f8409307d57f
+source : http://git.drupal.org/project/search_api_autocomplete.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IndexOverviewForm.php                     
+ ------ --------------------------------------------------- 
+  279    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SearchEditForm.php                        
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+  356    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------- 
+  Line   tests/search_api_autocomplete_test_hooks/search_api_autocomplete_test_hooks.search_api_autocomplete.inc  
+ ------ --------------------------------------------------------------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().                                                        
+ ------ --------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/IntegrationTestBase.php                   
+ ------ ------------------------------------------------------------------------- 
+  13     Class                                                                    
+         Drupal\Tests\search_api_autocomplete\FunctionalJavascript\IntegrationTe  
+         stBase extends deprecated class                                          
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/AccessTest.php                                            
+ ------ ------------------------------------------------------------------------- 
+  45     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  92     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  98     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/AutocompleteFormUtilityTest.php                          
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\search_api_autocomplete\Unit\AutocompleteHelperTest  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

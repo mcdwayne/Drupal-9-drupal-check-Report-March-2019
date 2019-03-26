@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/select_or_other 1e1e6708240117206ab239eab51ec2ede7dc5cdb
+source : http://cgit.drupalcode.org/select_or_other 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   Tests/src/Unit/ElementsTest.php                                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests\select_or_other\UnitlementsTest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   Tests/src/Unit/ReferenceWidgetTest.php                               
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests\select_or_other\Unit\ReferenceWidgetTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/EntityReference/ReferenceWidget.php  
+ ------ ------------------------------------------------------------------ 
+  192    Call to deprecated method entityManager() of class Drupal.        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SelectOrOtherWidgetBaseTest.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	ests\select_or_other\Unit\SelectOrOtherWidgetBaseTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

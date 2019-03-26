@@ -1,0 +1,62 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/xero 0c21f3b60842fe2dac60ef254806f523e261550a
+source : http://cgit.drupalcode.org/xero 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/XeroAutocompleteController.php    
+ ------ ------------------------------------------------- 
+  79     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  79     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Plugin/DataType/Schedule.php                                  
+ ------ ------------------------------------------------------------------ 
+         Class src\Plugin\DataType\Schedule was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/DataType/TaxComponent.php                                  
+ ------ ---------------------------------------------------------------------- 
+         Class src\Plugin\DataType\TaxComponent was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Form/SettingsFormTest.php                                
+ ------ ------------------------------------------------------------------------ 
+  18     Usage of deprecated trait Drupal\simpletest\AssertHelperTrait in class  
+         Drupal\Testsro\Unit\Form\SettingsFormTest.                           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/DataType/XeroTypeBaseTest.php  
+ ------ ----------------------------------------------------- 
+  47     Call to deprecated method getGUIDName() of class     
+         Drupalro\Plugin\DataType\XeroTypeBase.            
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Validation/Constraint/XeroGuidConstraintValidatorTest.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class                                                                            
+         Drupal\Testsro\Unit\Plugin\Validation\Constraint\XeroGuidConstraintT          
+         est was not found while trying to analyse it - autoloading is probably           
+         not configured properly.                                                         
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Unit/TypedData/XeroDefinitionTest.php                       
+ ------ ---------------------------------------------------------------------- 
+         Class src\TypedData\XeroDefinitionTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

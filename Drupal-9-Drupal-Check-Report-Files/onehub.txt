@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/onehub 05963e631613ed0b836dfd5bcee6e11295dfc227
+source : http://cgit.drupalcode.org/onehub 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Batch/OneHubBatch.php                          
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/OneHubApi.php                                                  
+ ------ ------------------------------------------------------------------- 
+  226    Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/OneHubUpdater.php                              
+ ------ --------------------------------------------------- 
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

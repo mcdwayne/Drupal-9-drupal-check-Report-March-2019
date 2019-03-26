@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/postal_code c57a179c00358f86240aa5ed58e1f19e1a9e62ec
+source : http://cgit.drupalcode.org/postal_code 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   postal_code.module                               
+ ------ ------------------------------------------------- 
+  37     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/PostalCodeSettingsForm.php              
+ ------ ------------------------------------------------- 
+  88     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/PostalCodeItem.php    
+ ------ ------------------------------------------------- 
+  82     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

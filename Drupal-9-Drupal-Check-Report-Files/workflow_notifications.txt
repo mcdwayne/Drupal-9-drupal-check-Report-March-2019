@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workflow_notifications 4bb82263d5ade97d69b28d14736465598cfb0e43
+source : http://cgit.drupalcode.org/workflow_notifications 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/workflow_sms_notify/workflow_sms_notify.module  
+ ------ -------------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().       
+  97     Call to deprecated function drupal_set_message().       
+  145    Call to deprecated function entity_load().              
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowNotificationForm.php              
+ ------ --------------------------------------------------- 
+  187    Call to deprecated function drupal_set_message().  
+  192    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   workflow_notifications.module                      
+ ------ --------------------------------------------------- 
+  158    Call to deprecated function entity_load().         
+  254    Call to deprecated function drupal_set_message().  
+  258    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

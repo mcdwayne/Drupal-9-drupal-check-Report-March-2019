@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_slideshow 28fdf11154be4b13e3140e7cb810b1c708f6c18e
+source : https://cgit.drupalcode.org/views_slideshow 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/Plugin/StyleSlideshowTest.php                               
+ ------ ---------------------------------------------------------------------- 
+  14     Class Drupaliews_slideshow\Tests\Plugin\StyleSlideshowTest extends  
+         deprecated class Drupaliews\Tests\Plugin\PluginTestBase.            
+  40     Call to method setUp() of deprecated class                            
+         Drupaliews\Tests\ViewTestBase.                                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   views_slideshow.theme.inc                          
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

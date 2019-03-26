@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/acknowledgements 1cc5bfce7a64cb01f73f081bb88b938c1b7309d7
+source : http://cgit.drupalcode.org/acknowledgements 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   sign_for_acknowledgement.module                    
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AdminSettingsForm.php                              
+ ------ ------------------------------------------------------------ 
+  147    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AlternateForm.php                         
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CheckboxForm.php                          
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/AcknowledgementsEmails.php             
+ ------ --------------------------------------------------- 
+  161    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Service/AcknowledgementsNodeFields.php          
+ ------ ---------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().   
+  159    Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

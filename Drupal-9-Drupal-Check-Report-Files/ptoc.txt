@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ptoc 8.x-1.0
+source : http://cgit.drupalcode.org/ptoc 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/PtocConfigForm.php                                 
+ ------ ------------------------------------------------------------ 
+  48     Call to deprecated method entityManager() of class Drupal.  
+  51     Call to deprecated method url() of class Drupal.            
+  112    Call to deprecated method entityManager() of class Drupal.  
+  144    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

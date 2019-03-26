@@ -1,0 +1,94 @@
+drupal-check results on commit hash: 
+ descrip. : Provides a normalized way to collect internationalization strings to export, merge & create .po files from versatile sources such as Twig, PHP or YML files.
+source   : [git] https://git.drupal.org/project/potion 5ecb280f1fe5012ca7d54c207ae0cb2a95c6b100
+source : http://cgit.drupalcode.org/potion 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Extractor/AnnotationExtractor.php                
+ ------ ----------------------------------------------------- 
+  50     Call to deprecated method registerLoader() of class  
+         Doctrine\Common\Annotations\AnnotationRegistry.      
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Utility.php                                                  
+ ------ ----------------------------------------------------------------- 
+  123    Call to deprecated function file_stream_wrapper_valid_scheme().  
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/Extractor/AnnotationExtractorTest.php                  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\potion	ests\Kernelxtractor\AnnotationExtractorTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Extractor/PhpExtractorTest.php                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\potion	ests\Kernelxtractor\PhpExtractorTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Extractor/TwigExtractorTest.php                      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\potion	ests\Kernelxtractor\TwigExtractorTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Extractor/YamlExtractorTest.php                      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\potion	ests\Kernelxtractor\YamlExtractorTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Kernel/TranslationsImportTest.php          
+ ------ ----------------------------------------------------- 
+  70     Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  82     Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  88     Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  106    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  112    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  132    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  144    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  150    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  168    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  174    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  194    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  206    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  212    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  230    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  264    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  270    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+  294    Call to deprecated method assertNotEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                   
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shuffle fa9ab658da72ca126b7fa01826817fa43cd19c1f
+source : http://cgit.drupalcode.org/shuffle 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   shuffle.module                                   
+ ------ ------------------------------------------------- 
+  108    Call to deprecated function libraries_detect().  
+  109    Call to deprecated function libraries_detect().  
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ShuffleFieldFormatter.php  
+ ------ ----------------------------------------------------------- 
+  223    Call to deprecated function libraries_detect().            
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

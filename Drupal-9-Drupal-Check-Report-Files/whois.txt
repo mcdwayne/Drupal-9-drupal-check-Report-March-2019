@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/whois 4624d64bc680bbaec3da2eb10552f32b6d226c6d
+source : http://cgit.drupalcode.org/whois 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   whois.module                                       
+ ------ --------------------------------------------------- 
+  170    Call to deprecated function format_date().         
+  269    Call to deprecated function drupal_set_message().  
+  335    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   whois.pages.inc                           
+ ------ ------------------------------------------ 
+  94     Call to deprecated function check_url().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

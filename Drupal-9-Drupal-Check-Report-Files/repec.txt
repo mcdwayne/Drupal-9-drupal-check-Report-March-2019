@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/repec db08a8e4660c6f3e992f8c84d852d065452b6915
+source : http://cgit.drupalcode.org/repec 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/NodeTypeSettingsForm.php                           
+ ------ ------------------------------------------------------------ 
+  137    Call to deprecated method entityManager() of class Drupal.  
+  190    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Repec.php                                     
+ ------ -------------------------------------------------- 
+  463    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

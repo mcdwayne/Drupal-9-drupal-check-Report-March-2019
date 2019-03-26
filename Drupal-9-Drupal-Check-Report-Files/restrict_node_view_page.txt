@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/restrict_node_view_page 8.x-2.0-alpha2
+source : http://cgit.drupalcode.org/restrict_node_view_page 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/NodePermissions.php                                             
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupalestrict_node_view_page\NodePermissions.               
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

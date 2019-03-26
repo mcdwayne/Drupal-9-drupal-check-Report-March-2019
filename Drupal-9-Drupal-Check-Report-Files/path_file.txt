@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/path_file bd94e2ffe18973c4196c8603bc7111ef6180dab8
+source : http://cgit.drupalcode.org/path_file 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   path_file.module                                  
+ ------ -------------------------------------------------- 
+  24     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PathFileEntityForm.php                    
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/PathFileEntityListBuilder.php                                    
+ ------ --------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\path_file\PathFileEntityListBuilder.                    
+  83     Call to deprecated method l() of class                               
+         Drupal\path_file\PathFileEntityListBuilder.                          
+  93     Call to deprecated method url() of class                             
+         Drupal\CorentityntityInterface.                                  
+  94     Call to deprecated method l() of class                               
+         Drupal\path_file\PathFileEntityListBuilder.                          
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

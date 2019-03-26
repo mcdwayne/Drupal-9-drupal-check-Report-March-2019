@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_paypal_payment 157cb6eeceb4d60214c91580bf2e4a28a4158b6b
+source : http://cgit.drupalcode.org/node_paypal_payment 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   node_paypal_payment.module                
+ ------ ------------------------------------------ 
+  70     Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/NPPPayment.php           
+ ------ ---------------------------------------- 
+  44     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  102    Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/NPPRedirect.php                     
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  38     Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  45     Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  80     Call to deprecated function db_update().           
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/NPPConfigForm.php                          
+ ------ ---------------------------------------------------- 
+  41     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/NPPPaymentForm.php                                          
+ ------ --------------------------------------------------------------------- 
+  27     Call to deprecated function drupal_get_messages().                   
+  29     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  30     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  31     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  33     Call to deprecated function db_select().                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/NPPObject.php                         
+ ------ ------------------------------------------ 
+  14     Call to deprecated function db_select().  
+  27     Call to deprecated function db_select().  
+  36     Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

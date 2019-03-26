@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webtrees 8.x-1.0-beta5
+source : http://cgit.drupalcode.org/webtrees 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebtreesTestForm.php                      
+ ------ --------------------------------------------------- 
+  174    Call to deprecated function drupal_set_message().  
+  200    Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function drupal_set_message().  
+  208    Call to deprecated function drupal_set_message().  
+  210    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+  217    Call to deprecated function drupal_set_message().  
+  225    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Helper/WebtreesUser.php                   
+ ------ ---------------------------------------------- 
+  515    Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   webtrees.module                                    
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

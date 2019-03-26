@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/product_builder 736d0820de5d0451117088860252d75c9dea7c2e
+source : http://cgit.drupalcode.org/product_builder 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   product_builder.module                             
+ ------ --------------------------------------------------- 
+  322    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProductBuilderForm.php                    
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProductBuilderTypeDeleteForm.php          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProductBuilderTypeForm.php                
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/ProductBuilderOrderItemSetUnitPrice.php      
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

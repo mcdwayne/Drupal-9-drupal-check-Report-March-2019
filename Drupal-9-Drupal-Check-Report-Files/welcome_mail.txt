@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/welcome_mail e7c1a4eaa85000965a45251fe0dc7b8274284f71
+source : http://cgit.drupalcode.org/welcome_mail 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MailQueuedTest.php                    
+ ------ --------------------------------------------------------------------- 
+  12     Class Drupal\Tests\welcome_mail\FunctionalJavascript\MailQueuedTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

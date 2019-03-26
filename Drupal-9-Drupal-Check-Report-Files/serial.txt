@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/serial 91261343e14d6cd435d518251e70a2fbc12ce1bb
+source : http://cgit.drupalcode.org/serial 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   serial.module                                               
+ ------ ------------------------------------------------------------ 
+  54     Call to deprecated function drupal_set_message().           
+  85     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/SerialSQLStorage.php                                    
+ ------ ------------------------------------------------------------ 
+  161    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/SerialFieldTest.php                           
+ ------ -------------------------------------------------------- 
+  64     Call to deprecated function entity_get_form_display().  
+  72     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

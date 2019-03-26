@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_invitation 5442a8ac6859b1298676418d0ad1c849db2c75d6
+source : http://cgit.drupalcode.org/webform_invitation 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformInvitationForm.php                 
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  104    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformInvitationGenerateForm.php         
+ ------ --------------------------------------------------- 
+  203    Call to deprecated function drupal_set_message().  
+  208    Call to deprecated function drupal_set_message().  
+  211    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

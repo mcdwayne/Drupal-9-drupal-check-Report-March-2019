@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/r4032login a10444360f0d738e7517616fa30d60b5b1da0871
+source : http://cgit.drupalcode.org/r4032login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/R4032LoginSubscriber.php       
+ ------ --------------------------------------------------- 
+  169    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/R4032LoginSubscriberTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  83     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  95     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  96     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  97     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  98     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  100    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  102    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  105    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  253    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

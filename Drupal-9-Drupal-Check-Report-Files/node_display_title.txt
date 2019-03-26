@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_display_title abe48a680219e94a803def50dbbecb6c02d9e745
+source : http://cgit.drupalcode.org/node_display_title 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   node_display_title.admin.inc                        
+ ------ ---------------------------------------------------- 
+  21     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NodeDisplayTitleAdminForm.php             
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/redmine_connector 2b91c16944cbfb3cb3766b1975994462a0fdd7fc
+source : http://cgit.drupalcode.org/redmine_connector 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SynchronizeForm.php                       
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SynchronizationService.php                     
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

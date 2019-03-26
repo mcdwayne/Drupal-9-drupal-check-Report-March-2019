@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_argument_token 7f9de3c12fb4c02442ac3f96ca53368f093416f6
+source : http://cgit.drupalcode.org/views_argument_token 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/views/argument_default/TokenArgument.php  
+ ------ ----------------------------------------------------- 
+  107    Call to deprecated function user_load().             
+  153    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

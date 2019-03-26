@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_mailchimp e596f73a02cc0523616ed1208ac249a3b3a315b9
+source : http://cgit.drupalcode.org/webform_mailchimp 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/WebformHandler/WebformMailChimpHandler.php  
+ ------ ------------------------------------------------------- 
+  281    Call to deprecated method log() of class               
+         Drupal\webform\Plugin\WebformHandlerBase.              
+  284    Call to deprecated method log() of class               
+         Drupal\webform\Plugin\WebformHandlerBase.              
+  289    Call to deprecated method log() of class               
+         Drupal\webform\WebformSubmissionStorageInterface.      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openid_connect e002d7e4e89c2a2c5c46e1b5e94abeb0138fa28a
+source : http://cgit.drupalcode.org/openid_connect 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/OpenIDConnectRedirectController.php  
+ ------ ---------------------------------------------------- 
+  162    Call to deprecated function drupal_set_message().   
+  172    Call to deprecated function drupal_set_message().   
+  200    Call to deprecated function drupal_set_message().   
+  208    Call to deprecated function drupal_set_message().   
+  211    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpenIDConnectAccountsForm.php             
+ ------ --------------------------------------------------- 
+  196    Call to deprecated function drupal_set_message().  
+  201    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/OpenIDConnect.php                           
+ ------ ------------------------------------------------ 
+  685    Call to deprecated function drupal_basename().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/packages a400d6c58c50d5e128018f84021b6fb2622e0ced
+source : http://cgit.drupalcode.org/packages 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/packages_example_login_greeting/src/Plugin/Package/LoginGreeting.php  
+ ------ ------------------------------------------------------------------------------ 
+  74     Call to deprecated function drupal_set_message().                             
+  78     Call to deprecated function drupal_set_message().                             
+  78     Call to deprecated function format_date().                                    
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PackageSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PackagesForm.php                          
+ ------ --------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

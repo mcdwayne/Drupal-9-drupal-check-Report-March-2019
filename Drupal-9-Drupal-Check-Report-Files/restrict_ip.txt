@@ -1,0 +1,15 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/restrict_ip 8.x-2.0-beta2
+source : http://cgit.drupalcode.org/restrict_ip 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/RestrictIpEventSubscriber.php  
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

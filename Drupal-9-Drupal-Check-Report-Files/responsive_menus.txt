@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/responsive_menus d58325af394be9e59da176981f60f37466ef3b48
+source : http://cgit.drupalcode.org/responsive_menus 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   plugins/context/responsive_menus_context_reaction_general.inc            
+ ------ ------------------------------------------------------------------------- 
+         Class responsive_menus_context_reaction_general was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   responsive_menus.module                            
+ ------ --------------------------------------------------- 
+  140    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+  182    Call to deprecated function drupal_set_message().  
+  196    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResponsiveMenusAdminForm.php              
+ ------ --------------------------------------------------- 
+  179    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/ResponsiveMenusPluginInterface.php                                   
+ ------ ------------------------------------------------------------------------- 
+  18     Interface Drupalesponsive_menus\ResponsiveMenusPluginInterface         
+         extends deprecated interface Drupal\Core\Field\PluginSettingsInterface.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/seasonal_product_recommendations e4add45b41c2056751f585897f59c4adc7dacb79
+source : http://cgit.drupalcode.org/seasonal_product_recommendations 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   seasonal_product_recommendations.module                 
+ ------ -------------------------------------------------------- 
+  50     Call to deprecated function format_date().              
+  117    Call to deprecated function entity_get_form_display().  
+  119    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/DisplayHemisphere.php            
+ ------ ------------------------------------------------ 
+  49     Call to deprecated method l() of class Drupal.  
+  50     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SeasonSettingsEditForm.php                
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SeasonSettingsForm.php                    
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

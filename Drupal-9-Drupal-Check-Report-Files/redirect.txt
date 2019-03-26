@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/redirect e61ef3d0e8e4181f84ce85d7a670ac7fa7fb8068
+source : http://cgit.drupalcode.org/redirect 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Symfony\Component\ValidatorxecutionContextInterface not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Symfony\Compone...')
+#1 /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/redirect/src/Plugin/Validation/Constraint/SourceLinkTypeConstraint.php(23): spl_autoload_call('Symfony\Compone...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/home/thatonegu...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/thatonegu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\redirect...')
+#5 [internal function]: spl_autoload_call('Drupal\redirect...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broke in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupaledirect\Plugin\Validation\Constraint\SourceLinkTypeConstraint::initialize(Symfony\Component\ValidatorxecutionContextInterface $context) must be compatible with Symfony\Component\Validator\ConstraintValidatorInterface::initialize(Symfony\Component\Validator\ContextxecutionContextInterface $context) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/redirect/src/Plugin/Validation/Constraint/SourceLinkTypeConstraint.php on line 23 
+
+ </code>

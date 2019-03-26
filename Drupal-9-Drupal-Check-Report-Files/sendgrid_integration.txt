@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sendgrid_integration e3bec49afb0492333abaff1062eadd893f925475
+source : http://cgit.drupalcode.org/sendgrid_integration 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   inc/sendgrid.mail.inc                                                
+ ------ --------------------------------------------------------------------- 
+         Class SendGridMailSystem was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   sendgrid_integration.module                     
+ ------ ------------------------------------------------ 
+  39     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/SendgridSettingsForm.php                                    
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\sendgrid_integration\Form\SendGridSettingsForm was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/SendgridTestForm.php                                          
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\sendgrid_integration\Form\SendGridTestForm was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Mail/SendgridMail.php                                    
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\sendgrid_integration\Plugin\Mail\SendGridMail was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

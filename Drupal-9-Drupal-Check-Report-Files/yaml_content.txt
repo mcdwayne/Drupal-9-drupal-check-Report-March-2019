@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/yaml_content ec943fb5432c20d3f10165e4131ea1813e399377
+source : http://cgit.drupalcode.org/yaml_content 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/YamlContent/DebugImportProcessor.php  
+ ------ ------------------------------------------------- 
+  21     Calls to function dpm should not exist.          
+  28     Calls to function dpm should not exist.          
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

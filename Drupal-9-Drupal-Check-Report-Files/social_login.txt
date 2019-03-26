@@ -1,0 +1,77 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social-login 8.x-2.83
+source : http://cgit.drupalcode.org/social_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   social_login.module                                
+ ------ --------------------------------------------------- 
+  488    Call to deprecated function drupal_set_message().  
+  500    Call to deprecated function drupal_set_message().  
+  516    Call to deprecated function db_query().            
+  519    Call to deprecated function db_delete().           
+  520    Call to deprecated function db_delete().           
+  832    Call to deprecated method url() of class Drupal.   
+  837    Call to deprecated method url() of class Drupal.   
+  842    Call to deprecated method url() of class Drupal.   
+  847    Call to deprecated method url() of class Drupal.   
+  864    Call to deprecated method url() of class Drupal.   
+  875    Call to deprecated method url() of class Drupal.   
+  887    Call to deprecated method url() of class Drupal.   
+  904    Call to deprecated method url() of class Drupal.   
+  915    Call to deprecated method url() of class Drupal.   
+  927    Call to deprecated method url() of class Drupal.   
+  944    Call to deprecated function db_delete().           
+  955    Call to deprecated function db_transaction().      
+  961    Call to deprecated function db_merge().            
+  964    Call to deprecated function db_delete().           
+  968    Call to deprecated function db_select().           
+  973    Call to deprecated function db_delete().           
+  976    Call to deprecated function db_insert().           
+  1011   Call to deprecated function db_query().            
+  1019   Call to deprecated function db_query().            
+  1096   Call to deprecated function db_query().            
+  1112   Call to deprecated method l() of class Drupal.     
+  1112   Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SocialLoginController.php           
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+  157    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated function drupal_set_message().  
+  189    Call to deprecated function drupal_set_message().  
+  216    Call to deprecated function drupal_set_message().  
+  245    Call to deprecated function drupal_set_message().  
+  263    Call to deprecated function drupal_set_message().  
+  284    Call to deprecated function drupal_set_message().  
+  471    Call to deprecated function drupal_set_message().  
+  482    Call to deprecated function drupal_set_message().  
+  494    Call to deprecated function drupal_set_message().  
+  506    Call to deprecated function drupal_set_message().  
+  523    Call to deprecated function drupal_set_message().  
+  555    Call to deprecated function drupal_set_message().  
+  576    Call to deprecated function drupal_set_message().  
+  597    Call to deprecated function drupal_set_message().  
+  609    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SocialLoginAdminSettings.php              
+ ------ --------------------------------------------------- 
+  456    Call to deprecated function db_select().           
+  459    Call to deprecated function db_update().           
+  463    Call to deprecated function db_insert().           
+  466    Call to deprecated function drupal_set_message().  
+  516    Call to deprecated function drupal_set_message().  
+  523    Call to deprecated function drupal_set_message().  
+  607    Call to deprecated function drupal_set_message().  
+  610    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 53 errors                                                         
+
+ </code>

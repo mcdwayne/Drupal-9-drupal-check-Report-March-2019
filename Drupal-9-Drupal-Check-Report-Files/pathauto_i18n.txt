@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pathauto_i18n 38cb3095ae6a40390b4e3272ed88ad3e0d9fdc26
+source : http://cgit.drupalcode.org/pathauto_i18n 
+ 
+ <code> 
+Warning: Declaration of Drupal\pathauto_i18n\Tests\Pathautoi18nUserTest::createUser() should be compatible with Drupal\simpletest\WebTestBase::createUser(array $permissions = Array, $name = NULL, $admin = false) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/pathauto_i18n/src/Tests/Pathautoi18nUserTest.php on line 16
+
+Warning: Declaration of Drupal\pathauto_i18n\Tests\Pathautoi18nNodeTest::createNode($language, $pathauto_i18n_status, $pathauto, $alias = false) should be compatible with Drupal\simpletest\WebTestBase::createNode(array $settings = Array) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/pathauto_i18n/src/Tests/Pathautoi18nNodeTest.php on line 151
+
+
+ ------ ------------------------------------------ 
+  Line   pathauto_i18n.module                      
+ ------ ------------------------------------------ 
+  132    Call to deprecated function db_merge().   
+  149    Call to deprecated function db_select().  
+  163    Call to deprecated function db_select().  
+  178    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/Tests/Pathautoi18nTaxonomyTest.php         
+ ------ ----------------------------------------------- 
+  104    Call to deprecated function db_query_range().  
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

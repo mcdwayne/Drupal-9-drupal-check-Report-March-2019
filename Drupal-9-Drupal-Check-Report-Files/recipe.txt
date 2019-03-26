@@ -1,0 +1,108 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/recipe 3fd803d78214b746bd852d119f0e110ed4bb279a
+source : http://cgit.drupalcode.org/recipe 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/ingredient/src/Feeds/Target/Ingredient.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupaleeds\Feeds\TargetntityReference not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   modules/ingredient/tests/src/Functional/IngredientTestTrait.php (in context of class Drupal\Tests\ingredient\Functional\IngredientFieldSettingsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  13     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in                                                                               
+         class Drupal\Tests\ingredient\Functional\IngredientFieldSettingsTest.                                                                                 
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/ingredient/tests/src/Functional/IngredientTestTrait.php (in context of class Drupal\Tests\ingredient\Functional\IngredientFieldTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+  13     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in                                                                       
+         class Drupal\Tests\ingredient\Functional\IngredientFieldTest.                                                                                 
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/ingredient/tests/src/Functional/IngredientTestTrait.php (in context of class Drupal\Tests\ingredient\Functional\IngredientTranslationTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  13     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in                                                                             
+         class Drupal\Tests\ingredient\Functional\IngredientTranslationTest.                                                                                 
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/ingredient/tests/src/Kernel/IngredientAccessTest.php            
+ ------ ------------------------------------------------------------------------ 
+  20     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\ingredient\Kernel\IngredientAccessTest.                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/recipe_html.module                         
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function node_load().           
+  61     Call to deprecated function drupal_render().       
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/recipe_mastercook4.module                  
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function db_query().            
+  55     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function node_load().           
+  253    Call to deprecated function drupal_set_message().  
+  256    Call to deprecated function drupal_set_message().  
+  427    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/recipe_plaintext.module                    
+ ------ --------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated function drupal_set_message().  
+  156    Call to deprecated function db_query().            
+  168    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated function node_load().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/recipe_recipeML.module                           
+ ------ --------------------------------------------------------- 
+  43     Call to deprecated function db_query().                  
+  54     Call to deprecated function drupal_set_message().        
+  58     Call to deprecated function node_load().                 
+  236    Call to deprecated function drupal_set_message().        
+  239    Call to deprecated function drupal_set_message().        
+  244    Call to deprecated function drupal_xml_parser_create().  
+  455    Call to deprecated function db_query().                  
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   recipe.admin.inc                                   
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function drupal_set_message().  
+  186    Call to deprecated function drupal_set_message().  
+  279    Call to deprecated function drupal_set_message().  
+  294    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   recipe.pages.inc                                   
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/display/Recipe.php                                  
+ ------ --------------------------------------------------------------------- 
+  152    Call to deprecated method applyDisplayCachablityMetadata() of class  
+         Drupaliews\Pluginiews\display\DisplayPluginBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 33 errors                                                         
+
+ </code>

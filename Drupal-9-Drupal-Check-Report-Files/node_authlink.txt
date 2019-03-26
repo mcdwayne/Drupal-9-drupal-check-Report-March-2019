@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_authlink e75de53dffa2cd2f15ac98a8f7e64db632a650be
+source : http://cgit.drupalcode.org/node_authlink 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   node_authlink.module                                
+ ------ ---------------------------------------------------- 
+  137    Call to deprecated function db_select().            
+  149    Call to deprecated function drupal_set_message().   
+  162    Call to deprecated function db_select().            
+  173    Call to deprecated function drupal_set_message().   
+  194    Call to deprecated function db_query().             
+  361    Call to deprecated function db_insert().            
+  384    Call to deprecated function db_delete().            
+  393    Call to deprecated function node_type_get_types().  
+  403    Call to deprecated function db_select().            
+  412    Call to deprecated function db_delete().            
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/NodeAuthlinkNodeForm.php                           
+ ------ ------------------------------------------------------------ 
+  77     Call to deprecated method entityManager() of class Drupal.  
+  204    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

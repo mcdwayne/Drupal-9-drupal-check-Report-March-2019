@@ -1,0 +1,72 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/phone_number 842712c2e1f1a887dd3aa9444f5339de1f397a03
+source : http://cgit.drupalcode.org/phone_number 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/sms_phone_number/src/Element/SmsPhoneNumber.php  
+ ------ --------------------------------------------------------- 
+  273    Call to deprecated function drupal_get_messages().       
+  278    Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/sms_phone_number/src/Feeds/Target/SmsPhoneNumber.php            
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\phone_number\Feeds\Target\PhoneNumber not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/sms_phone_number/src/Plugin/TfaValidation/SmsPhoneNumberTfa.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	fa\Plugin\TfaBasePlugin not found and could not be         
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/sms_phone_number/src/Plugin/Validation/Constraint/SmsPhoneNumberValidator.php  
+ ------ --------------------------------------------------------------------------------------- 
+  55     Call to deprecated method strtolower() of class                                        
+         Drupal\Component\Utility\Unicode.                                                      
+  65     Call to deprecated method strtolower() of class                                        
+         Drupal\Component\Utility\Unicode.                                                      
+  71     Call to deprecated method strtolower() of class                                        
+         Drupal\Component\Utility\Unicode.                                                      
+  78     Call to deprecated method strtolower() of class                                        
+         Drupal\Component\Utility\Unicode.                                                      
+  85     Call to deprecated method strtolower() of class                                        
+         Drupal\Component\Utility\Unicode.                                                      
+  94     Call to deprecated method strtolower() of class                                        
+         Drupal\Component\Utility\Unicode.                                                      
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Feeds/Target/PhoneNumber.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupaleeds\Plugin\Type\Target\FieldTargetBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/PhoneNumberValidator.php  
+ ------ ----------------------------------------------------------- 
+  50     Call to deprecated method strtolower() of class            
+         Drupal\Component\Utility\Unicode.                          
+  57     Call to deprecated method strtolower() of class            
+         Drupal\Component\Utility\Unicode.                          
+  65     Call to deprecated method strtolower() of class            
+         Drupal\Component\Utility\Unicode.                          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/WebformElement/PhoneNumber.php                               
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webform\Plugin\WebformElementBase not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

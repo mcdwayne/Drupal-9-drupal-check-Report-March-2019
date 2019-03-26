@@ -1,0 +1,115 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/printable d5c6b9da4d1ae3aa865818efe8e5f7a7430dd121
+source : http://cgit.drupalcode.org/printable 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   printable.module                              
+ ------ ---------------------------------------------- 
+  223    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/PrintableController.php              
+ ------ ---------------------------------------------------- 
+  69     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormatConfigurationFormPdf.php            
+ ------ --------------------------------------------------- 
+  65     Call to method classExists() of deprecated class   
+         Doctrine\Common\ClassLoader.                       
+  66     Call to method classExists() of deprecated class   
+         Doctrine\Common\ClassLoader.                       
+  67     Call to method classExists() of deprecated class   
+         Doctrine\Common\ClassLoader.                       
+  68     Call to method classExists() of deprecated class   
+         Doctrine\Common\ClassLoader.                       
+  80     Call to deprecated function drupal_set_message().  
+  229    Call to method classExists() of deprecated class   
+         Doctrine\Common\ClassLoader.                       
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/PrintableBlockTest.php                                    
+ ------ -------------------------------------------------------------------- 
+  13     Class Drupal\printable\Tests\PrintableBlockTest extends deprecated  
+         class Drupal
+ode\Tests\NodeTestBase.                               
+  33     Call to method setUp() of deprecated class                          
+         Drupal
+ode\Tests\NodeTestBase.                                     
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/PrintableLinkTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\printable\Tests\PrintableLinkTest extends deprecated class  
+         Drupal
+ode\Tests\NodeTestBase.                                          
+  25     Call to method setUp() of deprecated class                               
+         Drupal
+ode\Tests\NodeTestBase.                                          
+  48     Call to deprecated method entityManager() of class Drupal.               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/PrintablePageTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\printable\Tests\PrintablePageTest extends deprecated class  
+         Drupal
+ode\Tests\NodeTestBase.                                          
+  30     Call to method setUp() of deprecated class                               
+         Drupal
+ode\Tests\NodeTestBase.                                          
+  45     Call to deprecated method entityManager() of class Drupal.               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/PrintablePdfTest.php                                          
+ ------ ------------------------------------------------------------------------ 
+  18     Class Drupal\printable\Tests\PrintablePdfTest extends deprecated class  
+         Drupal
+ode\Tests\NodeTestBase.                                         
+  38     Call to method setUp() of deprecated class                              
+         Drupal
+ode\Tests\NodeTestBase.                                         
+  53     Call to deprecated method entityManager() of class Drupal.              
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/PrintableUninstallTest.php                                    
+ ------ ------------------------------------------------------------------------ 
+  12     Class Drupal\printable\Tests\PrintableUninstallTest extends deprecated  
+         class Drupal
+ode\Tests\NodeTestBase.                                   
+  25     Call to method setUp() of deprecated class                              
+         Drupal
+ode\Tests\NodeTestBase.                                         
+  38     Call to deprecated method entityManager() of class Drupal.              
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Block/PrintableLinkBlockTest.php                   
+ ------ ------------------------------------------------------------------------- 
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PrintableEntityManagerTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  39     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PrintableLinkBuilderTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

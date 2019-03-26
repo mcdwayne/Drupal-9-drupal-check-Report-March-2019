@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/responsive_preview 35bd5b0db24658590f05b39d5f36c58350b1ac17
+source : http://cgit.drupalcode.org/responsive_preview 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/DeviceListBuilder.php                          
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeviceDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeviceForm.php                            
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/ResponsivePreviewHandler.php                    
+ ------ ---------------------------------------------------- 
+  108    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

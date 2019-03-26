@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shs de594dacc3c0caeb665910dd3f88fecd5cdc378a
+source : http://cgit.drupalcode.org/shs 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/shs_chosen/src/Plugin/views/filter/ShsChosenTaxonomyIndexTidDepth.php  
+ ------ ------------------------------------------------------------------------------- 
+  85     Call to deprecated function db_select().                                       
+  87     Call to deprecated function db_or().                                           
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Cache/ShsTermCacheDependency.php                        
+ ------ ------------------------------------------------------------ 
+  33     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EntityReferenceShsFormatter.php  
+ ------ ----------------------------------------------------------------- 
+  60     Call to deprecated method urlInfo() of class                     
+         Drupal\CorentityntityInterface.                              
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/views/filter/ShsTaxonomyIndexTidDepth.php  
+ ------ ------------------------------------------------------ 
+  85     Call to deprecated function db_select().              
+  87     Call to deprecated function db_or().                  
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/page_menu_reorder 3f5f4523f28a8ca23b0acee211d321b7ae18d38b
+source : http://cgit.drupalcode.org/page_menu_reorder 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/ReorderMenuController.php  
+ ------ ------------------------------------------ 
+  35     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ReorderMenuForm.php                       
+ ------ --------------------------------------------------- 
+  192    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

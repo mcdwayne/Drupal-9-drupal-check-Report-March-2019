@@ -1,0 +1,112 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pagarme 8c2c527ca5c8527c928ed3f6bcdc0789588baed4
+source : http://cgit.drupalcode.org/pagarme 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/pagarme_marketplace/src/Controller/RecipientsController.php  
+ ------ --------------------------------------------------------------------- 
+  248    Call to deprecated function db_query_range().                        
+  290    Call to deprecated function db_merge().                              
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/pagarme_marketplace/src/Form/MarketplaceSettingsForm.php  
+ ------ ------------------------------------------------------------------ 
+  129    Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/pagarme_marketplace/src/Form/RecipientDeleteForm.php  
+ ------ -------------------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/pagarme_marketplace/src/Form/RecipientForm.php  
+ ------ -------------------------------------------------------- 
+  291    Call to deprecated function drupal_set_message().       
+  312    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/pagarme_marketplace/src/Form/RecipientTransferForm.php  
+ ------ ---------------------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().               
+  167    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/pagarme_marketplace/src/Form/SplitDeleteForm.php  
+ ------ ---------------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/pagarme_marketplace/src/Form/SplitForm.php  
+ ------ ---------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().   
+  526    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/PagarmePaymentDetail.php                      
+ ------ ------------------------------------------------------- 
+  93     Call to deprecated function format_date().             
+  127    Call to deprecated function format_date().             
+  150    Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PagarmePaymentRefund.php                  
+ ------ --------------------------------------------------- 
+  273    Call to deprecated function drupal_set_message().  
+  288    Call to deprecated function drupal_render().       
+  289    Call to deprecated function drupal_set_message().  
+  292    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PagarmeSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  267    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Pagarme/PagarmeDrupal.php                                          
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\pagarme\PagarMe\PagarmeDrupal was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Pagarme/PagarmePostback.php                             
+ ------ ------------------------------------------------------------ 
+  53     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/PluginForm/PagarmeBillet.php                                
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\pagarme\PagarMe\PagarmeDrupal was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/PluginForm/PagarmeCreditCard.php                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\pagarme\PagarMe\PagarmeDrupal was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/PluginForm/PagarmeModal.php                                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\pagarme\PagarMe\PagarmeDrupal was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 24 errors                                                         
+
+ </code>

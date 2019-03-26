@@ -1,0 +1,112 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_oai_pmh f87c848f4359145bf46715486239b38c1425036e
+source : http://cgit.drupalcode.org/views_oai_pmh 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   includes/error.inc                                                    
+ ------ ---------------------------------------------------------------------- 
+         Class views_oai_pmh_error was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   includes/format.inc                                                    
+ ------ ----------------------------------------------------------------------- 
+         Class views_oai_pmh_format was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/formats/erudit.inc                                              
+ ------ ------------------------------------------------------------------------- 
+         Class views_oai_pmh_format_erudit was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   includes/formats/mods.inc                                              
+ ------ ----------------------------------------------------------------------- 
+         Class views_oai_pmh_format_mods was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/formats/oai_dc.inc                                              
+ ------ ------------------------------------------------------------------------- 
+         Class views_oai_pmh_format_oai_dc was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/formats/oai_etdms.inc                                      
+ ------ -------------------------------------------------------------------- 
+         Class views_oai_pmh_format_oai_etdms was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   includes/formats/oai_ilox.inc                                      
+ ------ ------------------------------------------------------------------- 
+         Class views_oai_pmh_format_oai_ilox was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   includes/formats/oai_lom.inc                                      
+ ------ ------------------------------------------------------------------ 
+         Class views_oai_pmh_format_oai_lom was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   includes/formats/oai_lre.inc                                      
+ ------ ------------------------------------------------------------------ 
+         Class views_oai_pmh_format_oai_lre was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   includes/request.inc                                                    
+ ------ ------------------------------------------------------------------------ 
+         Class views_oai_pmh_request was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   plugins/views_oai_pmh_plugin_display.inc                          
+ ------ ------------------------------------------------------------------ 
+         Class views_oai_pmh_plugin_display was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   plugins/views_oai_pmh_plugin_style.inc                                  
+ ------ ------------------------------------------------------------------------ 
+         Class views_oai_pmh_plugin_style was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Service/PsrHttpFactory.php                           
+ ------ --------------------------------------------------------- 
+  12     Instantiation of deprecated class                        
+         Symfony\Bridge\PsrHttpMessage\Factory\DiactorosFactory.  
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   views_oai_pmh.module                      
+ ------ ------------------------------------------ 
+  55     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   views_oai_pmh.theme.inc                       
+ ------ ---------------------------------------------- 
+  18     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

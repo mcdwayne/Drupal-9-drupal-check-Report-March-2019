@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_best_bets 5f2e694bec7b3d3399b438c3ad9294aeb68d0a54
+source : http://git.drupal.org/project/search_api_best_bets.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/SearchApiBestBetsFieldWidget.php  
+ ------ --------------------------------------------------------------- 
+  218    Call to deprecated method strtolower() of class                
+         Drupal\Component\Utility\Unicode.                              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/search_api/processor/BestBetsProcessor.php  
+ ------ ------------------------------------------------------- 
+  339    Call to deprecated method strtolower() of class        
+         Drupal\Component\Utility\Unicode.                      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

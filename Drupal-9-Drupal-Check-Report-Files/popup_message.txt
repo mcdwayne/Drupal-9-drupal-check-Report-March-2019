@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/popup_message 38f9c5f50735d95af7b61cf89fcf5607e7fff4b2
+source : http://cgit.drupalcode.org/popup_message 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Helper/PopupMessageStatus.php                
+ ------ ------------------------------------------------- 
+  52     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  56     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

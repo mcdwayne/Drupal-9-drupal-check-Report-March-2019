@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_megamenu_bonus 9bd57851fd64be575ddfee418a5043b7dca4379d
+source : http://cgit.drupalcode.org/simple_megamenu_bonus 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   simple_megamenu_bonus.module                                
+ ------ ------------------------------------------------------------ 
+  12     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/TwigExtension/SimpleMegaMenuBonusTwigExtension.php                  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\simple_megamenu\TwigExtension\SimpleMegaMenuTwigExtension  
+         not found and could not be autoloaded.                                  
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

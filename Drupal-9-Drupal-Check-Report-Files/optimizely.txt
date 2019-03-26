@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/optimizely 8.x-3.1
+source : http://cgit.drupalcode.org/optimizely 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AccountSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddUpdateForm.php                         
+ ------ --------------------------------------------------- 
+  291    Call to deprecated function drupal_set_message().  
+  313    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Util/CacheRefresher.php                        
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

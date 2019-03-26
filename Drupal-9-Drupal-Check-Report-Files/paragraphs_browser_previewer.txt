@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_browser_previewer 8f7a3565dc7f9f474b60a8e4f8c24f80d3211e86
+source : http://cgit.drupalcode.org/paragraphs_browser_previewer 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/InlineParagraphsBrowserPreviewerWidget.php  
+ ------ ------------------------------------------------------------------------- 
+  29     Class                                                                    
+         Drupal\paragraphs_browser\Plugin\Field\FieldWidget\ParagraphsBrowserWid  
+         getTrait not found and could not be autoloaded.                          
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/ParagraphsBrowserPreviewerWidget.php        
+ ------ ------------------------------------------------------------------------- 
+  29     Class                                                                    
+         Drupal\paragraphs_browser\Plugin\Field\FieldWidget\ParagraphsBrowserWid  
+         getTrait not found and could not be autoloaded.                          
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

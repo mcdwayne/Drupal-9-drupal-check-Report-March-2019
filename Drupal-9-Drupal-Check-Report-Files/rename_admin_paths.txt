@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rename_admin_paths 39be36e76a4a0d8740d0ada981cef8ddf6b552dd
+source : http://cgit.drupalcode.org/rename_admin_paths 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Browser/AccessTest.php                                        
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Testsename_admin_paths\Browser\AccessTest was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Browser/AdminFormTest.php                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Testsename_admin_paths\Browser\AdminFormTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

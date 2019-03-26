@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_a_b 9786318333bb5ff0f8349ec4b73ccdde0f4957ef
+source : http://cgit.drupalcode.org/simple_a_b 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleABDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleABTestForm.php                      
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  268    Call to deprecated function drupal_set_message().  
+  272    Call to deprecated function drupal_set_message().  
+  295    Call to deprecated function drupal_set_message().  
+  299    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

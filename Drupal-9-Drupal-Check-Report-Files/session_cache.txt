@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/session_cache fddb53d4c14b2badc3f016678b85733829382e94
+source : http://cgit.drupalcode.org/session_cache 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/session_cache/Form/SessionCacheSettingsForm.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\session_cache\Form\SessionCacheSettingsForm was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   session_cache_file/session_cache_file.module       
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+  33     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scriptjunkie 5a6fc8225d01df6eaecefe5555fa8957df45d590
+source : http://cgit.drupalcode.org/scriptjunkie 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   includes/scriptjunkie.admin.delete.inc             
+ ------ --------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Controller/ScriptJunkieController.php  
+ ------ ------------------------------------------- 
+  103    Call to deprecated method url() of class   
+         Drupal\Core\Controller\ControllerBase.     
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScriptJunkieFormBase.php                  
+ ------ --------------------------------------------------- 
+  235    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

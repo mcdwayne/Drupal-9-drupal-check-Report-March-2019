@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nodeownership 5d886e4fe8a9925bd77edc6492eb3dc9a5177bf1
+source : http://cgit.drupalcode.org/nodeownership 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/NodeOwnershipClaimDeclineForm.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal
+odeownership\Form\NodeownershipClaimDeclineForm was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NodeownershipClaimApproveForm.php         
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NodeownershipClaimSettings.php            
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/views/field/NodeownershipClaimApproveField.php  
+ ------ ----------------------------------------------------------- 
+  26     Call to deprecated method l() of class Drupal.             
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/views/field/NodeownershipClaimDeclineField.php  
+ ------ ----------------------------------------------------------- 
+  26     Call to deprecated method l() of class Drupal.             
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

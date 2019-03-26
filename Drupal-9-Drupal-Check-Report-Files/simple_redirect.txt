@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_redirect da086127f5957ab21912e7d42f9dd181e580c579
+source : http://cgit.drupalcode.org/simple_redirect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleRedirectDeleteForm.php              
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleRedirectForm.php                    
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

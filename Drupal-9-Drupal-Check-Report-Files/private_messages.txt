@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/private_messages d4ecfff0b554a80ee1dcf6d2c1b33406b13bf487
+source : http://cgit.drupalcode.org/private_messages 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/DialogListBuilder.php                                            
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\private_messages\DialogListBuilder.                     
+  34     Call to deprecated method l() of class                               
+         Drupal\private_messages\DialogListBuilder.                           
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Dialog/DialogForm.php                     
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/MessageListBuilder.php                                           
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\private_messages\MessageListBuilder.                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/EntityReferenceSelection/UserSelection.php  
+ ------ ------------------------------------------------------- 
+  63     Call to deprecated function db_or().                   
+  70     Call to deprecated function db_and().                  
+  73     Call to deprecated function db_and().                  
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

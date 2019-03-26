@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/readonlymode ee45183b4f56c97922484bacdd2e1c5e3da470b4
+source : http://cgit.drupalcode.org/readonlymode 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   readonlymode.module                                
+ ------ --------------------------------------------------- 
+  165    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Block/ReadonlymodeBlock.php                              
+ ------ -------------------------------------------------------------------- 
+         Class ReadonlymodeBlock was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Functional/ReadonlymodeTest.php                            
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Testseadonlymode\Functional\ReadOnlyModeTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

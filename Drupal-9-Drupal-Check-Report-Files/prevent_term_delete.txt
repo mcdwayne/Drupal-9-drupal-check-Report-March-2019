@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/prevent_term_delete 0d45429445a2085f9551f470d6a818ec9c7bac1f
+source : http://cgit.drupalcode.org/prevent_term_delete 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   prevent_term_delete.module                                  
+ ------ ------------------------------------------------------------ 
+  29     Call to deprecated method entityManager() of class Drupal.  
+  110    Call to deprecated method l() of class Drupal.              
+  138    Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

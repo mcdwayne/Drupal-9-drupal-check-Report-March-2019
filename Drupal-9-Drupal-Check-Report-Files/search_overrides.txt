@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_overrides 8.x-1.0
+source : http://cgit.drupalcode.org/search_overrides 
+ 
+ <code> 
+Warning: The use statement with non-compound name 'Drupal' has no effect in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/search_overrides/search_overrides.module on line 10
+
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SearchOverrideForm.php                    
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SearchOverrideSettingsForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

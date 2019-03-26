@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/visualization cbe8fccaf0a076f61a849d459bcee6911a21f078
+source : http://cgit.drupalcode.org/visualization 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/views/style/Visualization.php         
+ ------ ------------------------------------------------- 
+  109    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  109    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/visualization/handler/GoogleVisualizationAPIHandler.php  
+ ------ -------------------------------------------------------------------- 
+  69     Call to deprecated method checkPlain() of class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  69     Call to method checkPlain() of deprecated class                     
+         Drupal\Component\Utility\SafeMarkup.                                
+  107    Call to deprecated function drupal_render().                        
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/visualization/handler/HighchartsHandler.php  
+ ------ -------------------------------------------------------- 
+  62     Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  62     Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  93     Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  93     Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  153    Call to deprecated function drupal_render().            
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

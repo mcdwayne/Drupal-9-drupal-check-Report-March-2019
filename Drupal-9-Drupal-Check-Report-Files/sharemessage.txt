@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sharemessage 6235aa7e9e447f9d3eb0fa23d5ce915c3d3621f3
+source : http://cgit.drupalcode.org/sharemessage 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShareMessageForm.php                      
+ ------ --------------------------------------------------- 
+  441    Call to deprecated function drupal_set_message().  
+  444    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SharrreSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Tests/ShareMessageExtraFieldTest.php              
+ ------ ------------------------------------------------------ 
+  77     Call to deprecated function entity_get_display().     
+  78     Call to deprecated function entity_get_display().     
+  248    Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomy\TermInterface.                        
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/ShareMessageTestBase.php           
+ ------ --------------------------------------------- 
+  278    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  278    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  306    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  306    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ShareMessageJavascriptTest.php            
+ ------ ------------------------------------------------------------------------- 
+  12     Class                                                                    
+         Drupal\Tests\sharemessage\FunctionalJavascript\ShareMessageJavascriptTe  
+         st extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  18     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

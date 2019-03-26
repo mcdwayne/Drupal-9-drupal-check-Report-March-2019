@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/writeup c71308f5293d6227635ff9e83f2f9fa4fd1a972a
+source : http://cgit.drupalcode.org/writeup 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/WriteupAdminSettings.php                                  
+ ------ ------------------------------------------------------------------- 
+  87     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  88     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   writeup.inc                                        
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   writeup.module                           
+ ------ ----------------------------------------- 
+  39     Call to deprecated function db_query().  
+  44     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

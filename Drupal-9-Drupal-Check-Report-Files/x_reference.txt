@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ descrip. : Provides functionality to relate entities with each other regardless of their source (even non-drupal), i.e. CRM contact and social network account.
+source   : [git] https://git.drupal.org/project/x_reference a1f20bfdb1459d0cb30424807350e638ef21af16
+source : http://cgit.drupalcode.org/x_reference 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/Controller/XReferenceController.php      
+ ------ ---------------------------------------------------- 
+  72     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  79     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  80     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  106    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/XReferenceTypeDeleteForm.php              
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/XReferenceTypeForm.php                    
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   x_reference.module                              
+ ------ ------------------------------------------------ 
+  30     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

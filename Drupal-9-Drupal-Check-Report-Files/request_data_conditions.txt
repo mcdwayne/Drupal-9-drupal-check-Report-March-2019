@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/request_data_conditions c55c29a395bbc17b99e2b463bd1529b75312f08d
+source : http://cgit.drupalcode.org/request_data_conditions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Condition/BaseCondition.php           
+ ------ ------------------------------------------------- 
+  406    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  443    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  452    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

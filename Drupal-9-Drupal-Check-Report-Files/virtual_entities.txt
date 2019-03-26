@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/virtual_entities 1ad20444a7d789b2ce3bdb548d52f7db2b10ef3a
+source : http://cgit.drupalcode.org/virtual_entities 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/VirtualEntityAddController.php  
+ ------ ----------------------------------------------- 
+  67     Call to deprecated method l() of class         
+         Drupal\Core\Controller\ControllerBase.         
+ ------ ----------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/VirtualEntity.php                        
+ ------ ---------------------------------------------------- 
+  156    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  192    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VirtualEntityForm.php                     
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VirtualEntityTypeDeleteForm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VirtualEntityTypeForm.php                 
+ ------ --------------------------------------------------- 
+  229    Call to deprecated function drupal_set_message().  
+  235    Call to deprecated function drupal_set_message().  
+  239    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/VirtualEntityListBuilder.php                                     
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalirtual_entities\VirtualEntityListBuilder.              
+  45     Call to deprecated method l() of class                               
+         Drupalirtual_entities\VirtualEntityListBuilder.                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

@@ -1,0 +1,79 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_export a3f17a13d24892a153d418b24c5010be54074729
+source : http://cgit.drupalcode.org/node_export 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/BulkNodeExport.php                                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ode_Export\Form\BulkNodeExport was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/MultipleNidsExportForm.php                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal
+ode_Export\Form\MultipleNidsExportForm was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/MultipleNodeExportForm.php                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal
+ode_Export\Form\MultipleNodeExportForm was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/NodeExportConfigForm.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ode_Export\Form\NodeExportConfigForm was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/NodeExportForm.php                                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ode_Export\Form\NodeExportForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/NodeImportFile.php                                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ode_Export\Form\NodeImportFile was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/NodeImportForm.php                                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ode_Export\Form\NodeImportForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/NodeExport.php                                 
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/NodeImport.php                                 
+ ------ --------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

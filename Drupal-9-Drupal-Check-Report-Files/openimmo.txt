@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openimmo 1df7d72a20db6a650dd98b3c0162fa2b9a115038
+source : https://cgit.drupalcode.org/openimmo 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   openimmo.module                                    
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  42     Call to deprecated function drupal_set_message().  
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpenImmoDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpenImmoForm.php                          
+ ------ --------------------------------------------------- 
+  158    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/OpenImmoQueriesList.php                                     
+ ------ --------------------------------------------------------------------- 
+  42     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  120    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpenImmoQueryAddForm.php                  
+ ------ --------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpenImmoQueryDeleteForm.php               
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpenImmoQueryEditForm.php                 
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

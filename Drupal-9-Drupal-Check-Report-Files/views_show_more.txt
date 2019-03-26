@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_show_more 70744091a44f3648e20c3fbbb22407646a92c6ea
+source : http://cgit.drupalcode.org/views_show_more 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   views_show_more.module                            
+ ------ -------------------------------------------------- 
+  28     Call to deprecated method url() of class Drupal.  
+  35     Call to deprecated method checkPlain() of class   
+         Drupal\Component\Utility\SafeMarkup.              
+  35     Call to method checkPlain() of deprecated class   
+         Drupal\Component\Utility\SafeMarkup.              
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

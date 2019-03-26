@@ -1,0 +1,77 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quadstat_core 3a21de4a1c8b8c07df779f09effce4777da6739e
+source : http://cgit.drupalcode.org/quadstat_core 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   application/application.inc                        
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function db_select().           
+  36     Call to deprecated function db_select().           
+  53     Call to deprecated function db_select().           
+  105    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+  194    Call to deprecated function file_load().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   dataset/dataset.inc                                    
+ ------ ------------------------------------------------------- 
+  13     Call to deprecated function entity_delete_multiple().  
+  14     Call to deprecated function drupal_set_message().      
+  54     Call to deprecated function drupal_set_message().      
+  66     Call to deprecated function drupal_set_message().      
+  87     Call to deprecated function file_uri_scheme().         
+  92     Call to deprecated function db_select().               
+  93     Call to deprecated function db_select().               
+  94     Call to deprecated function node_load().               
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   dataset/file.dataset.inc                           
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   dataset/paste.dataset.inc                          
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   quadstat_core.module                      
+ ------ ------------------------------------------ 
+  192    Call to deprecated function db_select().  
+  200    Call to deprecated function file_load().  
+  206    Call to deprecated function db_select().  
+  207    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/QuadstatSettingsForm.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\quadstat\Form\QuadstatSettingsForm was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/DuplicateTitle.php                                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\quadstat_core\Plugin\Validation\Constraint\DuplicateTitle  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/DuplicateTitleConstraintValidator.php  
+ ------ -------------------------------------------------- 
+  26     Call to deprecated function db_select().          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

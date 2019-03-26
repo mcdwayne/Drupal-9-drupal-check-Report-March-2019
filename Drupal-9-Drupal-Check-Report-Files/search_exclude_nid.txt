@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_exclude_nid fd997ee8e7cba2fa955c2d82986f9d85e30d5384
+source : http://cgit.drupalcode.org/search_exclude_nid 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SearchExcludeNidForm.php                  
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function node_load().           
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

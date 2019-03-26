@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/yml_export 19f7f51d1f4b8e2b918f9ea9f43c0d8449cdc7e0
+source : http://cgit.drupalcode.org/yml_export 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Controller/YmlExportController.php               
+ ------ ----------------------------------------------------- 
+  41     Call to deprecated function entity_load_multiple().  
+  46     Call to deprecated function entity_load_multiple().  
+  49     Call to deprecated function drupal_render().         
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/YmlExportSettingsForm.php                 
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated method l() of class Drupal.     
+  103    Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   yml_export.module                                           
+ ------ ------------------------------------------------------------ 
+  36     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

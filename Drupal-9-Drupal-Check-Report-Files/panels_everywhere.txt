@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/panels_everywhere 3fff129d3c411e216856302b29a09427858462a1
+source : http://git.drupal.org/project/panels_everywhere.git 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/DisplayVariant/PanelsEverywhereDisplayVariant.php  
+ ------ -------------------------------------------------------------- 
+  49     Call to deprecated function drupal_render_root().             
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EventSubscriber/PanelsEverywherePageDisplayVariantSubscriberTest.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class                                                                                
+         Drupal\panels_everywhere\Tests\UnitventSubscriber\PanelsEverywherePag              
+         eDisplayVariantSubscriberTest was not found while trying to analyse it               
+         - autoloading is probably not configured properly.                                   
+ ------ ------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

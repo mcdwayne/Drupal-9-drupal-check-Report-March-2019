@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_saved_searches badf40d0767fb88916c4faf41129275fbdd0afe2
+source : http://git.drupal.org/project/search_api_saved_searches.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SavedSearchDeleteConfirmForm.php          
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/SavedSearchTypeDeleteConfirmForm.php          
+ ------ ------------------------------------------------------- 
+  85     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SavedSearchTypeForm.php                   
+ ------ --------------------------------------------------- 
+  381    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EmailNotificationsTest.php                          
+ ------ --------------------------------------------------------------------- 
+  148    Call to deprecated method url() of class Drupal\Corentityntity.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

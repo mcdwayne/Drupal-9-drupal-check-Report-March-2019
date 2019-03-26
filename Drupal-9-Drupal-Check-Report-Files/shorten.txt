@@ -1,0 +1,135 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shorten 5991acb2179207a97d570ae27c4310fdaecea326
+source : http://cgit.drupalcode.org/shorten 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   modules/record_shorten/record_shorten.module  
+ ------ ---------------------------------------------- 
+  49     Call to deprecated function db_select().      
+  65     Call to deprecated function drupal_render().  
+  68     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/record_shorten/record_shorten_views_handler_field_hostname.inc   
+ ------ ------------------------------------------------------------------------- 
+         Class record_shorten_views_handler_field_hostname was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/record_shorten/record_shorten_views_handler_filter_string_service.inc  
+ ------ ------------------------------------------------------------------------------- 
+         Class record_shorten_views_handler_filter_string_service was not found         
+         while trying to analyse it - autoloading is probably not configured            
+         properly.                                                                      
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/record_shorten/src/Controller/DefaultController.php  
+ ------ ------------------------------------------------------------- 
+  19     Call to deprecated function db_query().                      
+ ------ ------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/record_shorten/src/Form/RecordshortenClearAll.php  
+ ------ ----------------------------------------------------------- 
+  43     Call to deprecated function db_query().                    
+  44     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/record_shorten/src/record_shorten_views_handler_field_hostname.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupalecord_shorteniews_handler_field not found and could not     
+         be autoloaded.                                                              
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/record_shorten/src/record_shorten_views_handler_filter_string_service.php  
+ ------ ----------------------------------------------------------------------------------- 
+         Class Drupalecord_shorteniews_handler_filter_many_to_one not found             
+         and could not be autoloaded.                                                       
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/shorten_cs/shorten_cs.admin.inc            
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function db_query().            
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   modules/shorten_cs/shorten_cs.module     
+ ------ ----------------------------------------- 
+  44     Call to deprecated function db_query().  
+  92     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/shorten_cs/src/Form/CustomServicesAddForm.php  
+ ------ ------------------------------------------------------- 
+  112    Call to deprecated function db_query().                
+  134    Call to deprecated function db_query().                
+  163    Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/shorten_cs/src/Form/CustomServicesDeleteForm.php  
+ ------ ---------------------------------------------------------- 
+  65     Call to deprecated function db_select().                  
+  94     Call to deprecated function drupal_set_message().         
+  104    Call to deprecated function drupal_set_message().         
+  107    Call to deprecated function db_delete().                  
+  110    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/shorten_cs/src/Form/CustomServicesEditForm.php  
+ ------ -------------------------------------------------------- 
+  36     Call to deprecated function db_select().                
+  80     Call to deprecated function drupal_set_message().       
+  96     Call to deprecated function db_query().                 
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/shortener/src/Plugin/Filter/UrlShortener.php  
+ ------ ------------------------------------------------------ 
+  109    Call to deprecated function check_url().              
+  117    Call to deprecated function check_url().              
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   shorten.module                                   
+ ------ ------------------------------------------------- 
+  93     Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  99     Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  136    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  176    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  176    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  433    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  435    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  436    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShortenShortenForm.php                    
+ ------ --------------------------------------------------- 
+  90     Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  115    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 37 errors                                                         
+
+ </code>

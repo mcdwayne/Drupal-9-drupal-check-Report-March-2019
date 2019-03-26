@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/oauth2_jwt_sso 96f1f60a6a29ea740b7197ee4be1632da1b5ecad
+source : http://cgit.drupalcode.org/oauth2_jwt_sso 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Authentication/Provider/OAuth2JwtSSOProvider.php                
+ ------ -------------------------------------------------------------------- 
+  180    Instantiation of deprecated class Lcobucci\JWT\ValidationData.      
+  181    Call to deprecated method verify() of class Lcobucci\JWT\Token.     
+  182    Call to deprecated method validate() of class Lcobucci\JWT\Token.   
+  183    Call to deprecated method getClaims() of class Lcobucci\JWT\Token.  
+  199    Call to deprecated method getClaim() of class Lcobucci\JWT\Token.   
+  200    Call to deprecated method getClaim() of class Lcobucci\JWT\Token.   
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,84 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/permanent_entities 296b2f394cae6c05eddcf7b67bfd0f6e3ec08011
+source : http://cgit.drupalcode.org/permanent_entities 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/PermanentEntityController.php        
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermanentEntityForm.php                   
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermanentEntityRevisionDeleteForm.php     
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermanentEntityRevisionRevertForm.php     
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermanentEntityTypeDeleteForm.php         
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermanentEntityTypeForm.php               
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/CrudTest.php                 
+ ------ -------------------------------------------------- 
+  46     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  47     Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  48     Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  59     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  60     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  61     Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  62     Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  72     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  75     Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

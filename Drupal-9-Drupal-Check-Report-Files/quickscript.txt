@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quickscript 6e482022c0b5e08904202ecb3be9a9eb49862876
+source : http://cgit.drupalcode.org/quickscript 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/QuickScriptExecuteController.php    
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuickScriptForm.php                       
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  186    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/QuickScriptListBuilder.php                                       
+ ------ --------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\quickscript\QuickScriptListBuilder.                     
+  54     Call to deprecated method l() of class                               
+         Drupal\quickscript\QuickScriptListBuilder.                           
+  80     Call to deprecated method urlInfo() of class                         
+         Drupal\CorentityntityInterface.                                  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

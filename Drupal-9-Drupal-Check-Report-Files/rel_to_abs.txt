@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rel_to_abs 639606a995c2382e5011876fc95923105e38a996
+source : http://cgit.drupalcode.org/rel_to_abs 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Filter/RelToAbs.php                    
+ ------ -------------------------------------------------- 
+  24     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/RelToAbsTest.php                        
+ ------ -------------------------------------------------- 
+  36     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

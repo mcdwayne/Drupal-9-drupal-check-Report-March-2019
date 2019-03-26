@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/s3fs_plus f9ed20fc44aff23309170c70affd73ca22208154
+source : http://cgit.drupalcode.org/s3fs_plus 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   s3fs_plus.module                                             
+ ------ ------------------------------------------------------------- 
+  48     Call to deprecated method factory() of class Aws\AwsClient.  
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Controller/AutocompleteController.php                    
+ ------ ------------------------------------------------------------- 
+  79     Call to deprecated method factory() of class Aws\AwsClient.  
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/S3View.php                         
+ ------ ------------------------------------------------------------------- 
+         Class Drupalntity_browser\WidgetBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/S3ImageWidget.php              
+ ------ ------------------------------------------------------------ 
+  122    Call to deprecated method entityManager() of class Drupal.  
+  361    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

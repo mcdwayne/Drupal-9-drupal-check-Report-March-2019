@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nopremium 615b1cd98ba486da9f0d303f4f5bc4f4cccc1e52
+source : http://cgit.drupalcode.org/nopremium 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   nopremium.module                                            
+ ------ ------------------------------------------------------------ 
+  37     Call to deprecated method entityManager() of class Drupal.  
+  59     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/NodeOptionPremiumPermissions.php                                
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal
+opremium\NodeOptionPremiumPermissions.                
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

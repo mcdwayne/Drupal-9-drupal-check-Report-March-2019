@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/representative_image 78c5371a75d2c262d7d9890b899ea8f6683a5b7a
+source : https://cgit.drupalcode.org/representative_image 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/RepresentativeImagePicker.php                           
+ ------ ------------------------------------------------------------ 
+  152    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/RepresentativeImageBaseTest.php                     
+ ------ ------------------------------------------------------------------------- 
+  17     Class                                                                    
+         Drupal\Testsepresentative_image\Functional\RepresentativeImageBaseTes  
+         t extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  71     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  195    Call to deprecated method assert() of class                              
+         Drupal\Tests\BrowserTestBase.                                            
+  198    Call to deprecated method assertNoPattern() of class                     
+         Drupal\Tests\BrowserTestBase.                                            
+  287    Call to deprecated function entity_get_form_display().                   
+  294    Call to deprecated function entity_get_display().                        
+  330    Call to deprecated function entity_get_form_display().                   
+  337    Call to deprecated function entity_get_display().                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

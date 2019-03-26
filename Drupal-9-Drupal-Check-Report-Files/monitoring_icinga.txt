@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/monitoring_icinga 4c898105d0fc284a00f781b77bd61e1120957512
+source : http://cgit.drupalcode.org/monitoring_icinga 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ConfigController.php                
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

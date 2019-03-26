@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ot ec348ce5843d51a2e4103fb4d4d876dc1eb38645
+source : http://cgit.drupalcode.org/ot 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/OverrideMain.php                   
+ ------ -------------------------------------------------- 
+  76     Call to deprecated function db_select().          
+  120    Call to deprecated function db_select().          
+  155    Call to deprecated function db_select().          
+  165    Call to deprecated function db_delete().          
+  210    Call to deprecated function db_select().          
+  273    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  314    Call to deprecated function db_select().          
+  324    Call to deprecated function db_delete().          
+  332    Call to deprecated function db_update().          
+  344    Call to deprecated function db_update().          
+  356    Call to deprecated function db_select().          
+  412    Call to deprecated function db_select().          
+  436    Call to deprecated function db_delete().          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Add.php                                   
+ ------ --------------------------------------------------- 
+  151    Call to deprecated function drupal_render().       
+  261    Call to deprecated function db_insert().           
+  276    Call to deprecated function drupal_set_message().  
+  278    Call to deprecated function drupal_set_message().  
+  286    Call to deprecated function drupal_set_message().  
+  288    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Delete.php                                
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  35     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Edit.php                                  
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_render().       
+  291    Call to deprecated function db_update().           
+  306    Call to deprecated function drupal_set_message().  
+  308    Call to deprecated function drupal_set_message().  
+  316    Call to deprecated function drupal_set_message().  
+  318    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Overridetitle.php                         
+ ------ --------------------------------------------------- 
+  186    Call to deprecated function drupal_set_message().  
+  194    Call to deprecated function drupal_set_message().  
+  200    Call to deprecated function drupal_set_message().  
+  205    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/NodeOverrideTitleTest.php       
+ ------ ----------------------------------------------------- 
+  44     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 32 errors                                                         
+
+ </code>

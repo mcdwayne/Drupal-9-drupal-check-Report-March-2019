@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/odoo_api 0fc715a8ac1747929421f832910b6b641cf2fd7e
+source : http://cgit.drupalcode.org/odoo_api 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/odoo_api_entity_sync_example/src/Plugin/OdooEntitySync/Company.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupal\dcom_odoo_entity_sync\Plugin\OdooEntitySync\Company was        
+         not found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                        
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/odoo_api_entity_sync_example/src/Plugin/OdooEntitySync/User.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\dcom_odoo_entity_sync\Plugin\OdooEntitySync\User was not    
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

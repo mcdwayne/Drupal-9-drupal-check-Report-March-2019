@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraph_force_remove 457e581c8f0bccd5f104c07f8871596c99ac0ca7
+source : http://cgit.drupalcode.org/paragraph_force_remove 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParagraphForceRemoveForm.php              
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function db_query().            
+  99     Call to deprecated function db_query().            
+  121    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+  166    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

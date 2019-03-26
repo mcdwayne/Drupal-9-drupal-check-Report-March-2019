@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/phpconfig 8.x-1.1
+source : http://cgit.drupalcode.org/phpconfig 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   phpconfig.module                         
+ ------ ----------------------------------------- 
+  7      Call to deprecated function db_query().  
+  24     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/PhpConfigController.php          
+ ------ ------------------------------------------------ 
+  25     Call to deprecated function db_query().         
+  34     Call to deprecated method l() of class Drupal.  
+  48     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/EventSubscriber/ApplyConfig.php      
+ ------ ----------------------------------------- 
+  28     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhpConfigForm.php                         
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function db_query().            
+  131    Call to deprecated function db_update().           
+  141    Call to deprecated function db_insert().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

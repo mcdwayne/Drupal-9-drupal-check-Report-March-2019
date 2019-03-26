@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pathologic d50e6430f3259afa9d79123825e6e4b7a5cf39a8
+source : http://cgit.drupalcode.org/pathologic 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   pathologic.module                            
+ ------ --------------------------------------------- 
+  222    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  222    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/PathologicTest.php                     
+ ------ ------------------------------------------------- 
+  279    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  279    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  283    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  283    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  297    Call to deprecated function entity_create().     
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

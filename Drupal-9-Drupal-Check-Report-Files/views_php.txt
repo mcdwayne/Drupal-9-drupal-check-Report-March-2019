@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_php 71c13c3d1a86b22ce16a22fed4de4872d2feb411
+source : http://cgit.drupalcode.org/views_php 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   views_php.module                                
+ ------ ------------------------------------------------ 
+  103    Call to deprecated method l() of class Drupal.  
+  104    Call to deprecated method format() of class     
+         Drupal\Component\Utility\SafeMarkup.            
+  104    Call to method format() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.            
+  122    Call to deprecated method l() of class Drupal.  
+  124    Call to deprecated method format() of class     
+         Drupal\Component\Utility\SafeMarkup.            
+  124    Call to method format() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.            
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

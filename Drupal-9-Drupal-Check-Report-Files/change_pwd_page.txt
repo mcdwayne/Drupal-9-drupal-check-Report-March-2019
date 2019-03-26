@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/change_pwd_page 3b6b887713914ba397c4f5945e7b5d83f1443286
+source : http://cgit.drupalcode.org/change_pwd_page 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ChangePwdPageController.php         
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  93     Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  97     Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/ChangePasswordForm.php                                      
+ ------ --------------------------------------------------------------------- 
+  111    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  143    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChangePasswordResetForm.php               
+ ------ --------------------------------------------------- 
+  69     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  74     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

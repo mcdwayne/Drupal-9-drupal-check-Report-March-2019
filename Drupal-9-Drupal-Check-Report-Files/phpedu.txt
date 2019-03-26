@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/phpedu 4286b49c87a15025ea3a4be763f7287f735834c8
+source : http://cgit.drupalcode.org/phpedu 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   pe_assignment/modules/pe_assignment_answer/pe_assignment_answer.module   
+ ------ ------------------------------------------------------------------------- 
+  39     Call to deprecated method l() of class Drupal.                           
+  68     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   pe_assignment/modules/pe_assignment_answer/src/Controller/NodeController.php  
+ ------ ------------------------------------------------------------------------------ 
+  62     Call to deprecated function drupal_set_message().                             
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   pe_event/src/Plugin/views/argument/YearMonthDate.php  
+ ------ ------------------------------------------------------ 
+  34     Call to deprecated function format_date().            
+  41     Call to deprecated function format_date().            
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   pe_migrate/src/Plugin/migrate/source/DemoUniSection.php  
+ ------ --------------------------------------------------------- 
+  84     Call to deprecated function db_select().                 
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/push_notifications 73d0d1869ec9363ac153125a2687bd5d3f1fb729
+source : http://cgit.drupalcode.org/push_notifications 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   push_notifications.drush.inc                           
+ ------ ------------------------------------------------------- 
+  35     Call to deprecated function entity_delete_multiple().  
+  40     Call to deprecated function entity_delete_multiple().  
+  46     Call to deprecated function entity_delete_multiple().  
+  47     Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   push_notifications.module                 
+ ------ ------------------------------------------ 
+  122    Call to deprecated function db_select().  
+  156    Call to deprecated function db_select().  
+  214    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PushNotificationForm.php                  
+ ------ --------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().  
+  187    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PushNotificationsConfigForm.php           
+ ------ --------------------------------------------------- 
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PushNotificationsSendMessageForm.php      
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/PushNotificationsBroadcasterApns.php        
+ ------ ------------------------------------------------ 
+  172    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

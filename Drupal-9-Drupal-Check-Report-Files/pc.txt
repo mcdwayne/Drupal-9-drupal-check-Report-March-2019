@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pc c72b83bedafcb840ea33ae5805b5694879414574
+source : http://cgit.drupalcode.org/pc 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/SettingsForm.php                                               
+ ------ ------------------------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().                  
+  79     Call to deprecated function drupal_set_message().                  
+  89     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  90     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

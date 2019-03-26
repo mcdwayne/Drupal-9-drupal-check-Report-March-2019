@@ -1,0 +1,186 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform c645d680a824e0cc85f3fdcce49d16ea404ebadf
+source : http://cgit.drupalcode.org/webform 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   includes/webform.editor.inc                                 
+ ------ ------------------------------------------------------------ 
+  171    Call to deprecated method entityManager() of class Drupal.  
+  209    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/webform_access/src/WebformAccessGroupListBuilder.php  
+ ------ -------------------------------------------------------------- 
+  149    Call to deprecated method entityManager() of class Drupal.    
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/webform_image_select/src/Entity/WebformImageSelectImages.php  
+ ------ ---------------------------------------------------------------------- 
+  116    Call to deprecated method link() of class                             
+         Drupal\Core\Configntity\ConfigEntityBase.                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/webform_node/tests/src/Kernel/WebformNodeUninstallTest.php  
+ ------ -------------------------------------------------------------------- 
+  50     Call to deprecated method assertEqual() of class                    
+         Drupal\KernelTests\KernelTestBase.                                  
+  57     Call to deprecated method assertEqual() of class                    
+         Drupal\KernelTests\KernelTestBase.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/webform_node/tests/src/Unit/WebformNodeUninstallValidatorTest.php  
+ ------ --------------------------------------------------------------------------- 
+  14     Usage of deprecated trait Drupal\simpletest\AssertHelperTrait in class     
+         Drupal\Tests\webform_node\Unit\WebformNodeUninstallValidatorTest.          
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------- 
+  Line   modules/webform_submission_export_import/tests/src/Functional/WebformSubmissionImportExportFunctionalTest.php  
+ ------ --------------------------------------------------------------------------------------------------------------- 
+         Class                                                                                                          
+         Drupal\Tests\webform_submission_import_export\Functional\WebformSubmiss                                        
+         ionImportExportFunctionalTest was not found while trying to analyse it                                         
+         - autoloading is probably not configured properly.                                                             
+ ------ --------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/webform_submission_export_import/webform_submission_export_import.module  
+ ------ ---------------------------------------------------------------------------------- 
+  172    Call to deprecated function file_uri_scheme().                                    
+  173    Call to deprecated function file_stream_wrapper_valid_scheme().                   
+  228    Call to deprecated function drupal_chmod().                                       
+  234    Call to deprecated function entity_load_multiple_by_properties().                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Commands/WebformCliService.php                                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\devel_generate\DevelGenerateBase not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/WebformSubmissionsController.php     
+ ------ ---------------------------------------------------- 
+  55     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Entity/Webform.php                     
+ ------ ------------------------------------------- 
+  1282   Call to deprecated method link() of class  
+         Drupal\webformntity\Webform.             
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Entity/WebformOptions.php                
+ ------ --------------------------------------------- 
+  130    Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/WebformSubmission.php                    
+ ------ ---------------------------------------------------- 
+  785    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/DevelGenerate/WebformSubmissionDevelGenerate.php            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\devel_generate\DevelGenerateBase not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/WebformSubmissionBulkForm.php                 
+ ------ --------------------------------------------------------------------- 
+  12     Class Drupal\webform\Pluginiewsield\WebformSubmissionBulkForm    
+         extends deprecated class Drupal\system\Pluginiewsield\BulkForm.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/WebformTestTrait.php (in context of class Drupal\Tests\webform\FunctionalJavascript\WebformAjaxJavaScriptTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  24     Call to method setUp() of deprecated class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                             
+  42     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.                                                   
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/WebformTestTrait.php (in context of class Drupal\Tests\webform\FunctionalJavascript\WebformSubmissionToggleFlagsTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  24     Call to method setUp() of deprecated class                                                                                       
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  42     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.                                                          
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/WebformSubmissionForm.php                          
+ ------ ------------------------------------------------------- 
+  1919   Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  2462   Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/WebformMailTest.php          
+ ------ -------------------------------------------------- 
+  40     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/WebformAjaxJavaScriptTest.php         
+ ------ --------------------------------------------------------------------- 
+  14     Class                                                                
+         Drupal\Tests\webform\FunctionalJavascript\WebformAjaxJavaScriptTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/WebformSubmissionToggleFlagsTest.php      
+ ------ ------------------------------------------------------------------------- 
+  17     Class                                                                    
+         Drupal\Tests\webform\FunctionalJavascript\WebformSubmissionToggleFlagsT  
+         est extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   tests/src/Kernel/Entity/WebformEntityTest.php  
+ ------ ----------------------------------------------- 
+  55     Call to deprecated method pass() of class      
+         Drupal\KernelTests\KernelTestBase.             
+  61     Call to deprecated method pass() of class      
+         Drupal\KernelTests\KernelTestBase.             
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Utility/WebformReflectionHelperTest.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\webform\Unit\Utility\WebformReflectionTestParent was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   webform.module                                                         
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\devel_generate\DevelGenerateBase not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 32 errors                                                         
+
+ </code>

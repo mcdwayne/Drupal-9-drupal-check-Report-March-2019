@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quicker_edit e5d7224d5273831442b17dcfc0f7b56e77d886e8
+source : http://cgit.drupalcode.org/quicker_edit 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/QuickerEditFunctionalTest.php             
+ ------ ------------------------------------------------------------------------- 
+  14     Class                                                                    
+         Drupal\Tests\quicker_edit\FunctionalJavascript\QuickerEditFunctionalTes  
+         t extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  51     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

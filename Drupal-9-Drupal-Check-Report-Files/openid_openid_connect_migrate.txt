@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openid_openid_connect_migrate 8.x-1.0
+source : http://cgit.drupalcode.org/openid_openid_connect_migrate 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   openid_openid_connect_migrate.drush.inc   
+ ------ ------------------------------------------ 
+  51     Call to deprecated function db_select().  
+  63     Call to deprecated function db_select().  
+  71     Call to deprecated function user_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

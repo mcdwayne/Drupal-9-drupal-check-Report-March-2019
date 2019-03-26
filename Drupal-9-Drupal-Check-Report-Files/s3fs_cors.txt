@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/s3fs_cors eff11460ce64538b3a10f88b9f163db73d5bef7b
+source : http://cgit.drupalcode.org/s3fs_cors 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   s3fs_cors.module                          
+ ------ ------------------------------------------ 
+  110    Call to deprecated function file_load().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/AjaxController.php       
+ ------ ---------------------------------------- 
+  96     Call to deprecated function db_like().  
+ ------ ---------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/S3fsCorsAdminForm.php                     
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

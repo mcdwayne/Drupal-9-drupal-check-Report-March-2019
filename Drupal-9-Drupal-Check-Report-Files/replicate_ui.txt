@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/replicate_ui 3eda9b78112584cb7c3c8fc46b95505a6413f541
+source : http://cgit.drupalcode.org/replicate_ui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ReplicateConfirmForm.php                  
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/EntityReplicateAction.php                    
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

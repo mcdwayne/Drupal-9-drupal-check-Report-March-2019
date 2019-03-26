@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_reservation e3ae5df2377020c50e6d5af324a114a1c8b67841
+source : http://cgit.drupalcode.org/simple_reservation 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   simplereservation.module                           
+ ------ --------------------------------------------------- 
+  280    Call to deprecated function db_query().            
+  367    Call to deprecated function db_query().            
+  377    Call to deprecated function db_query().            
+  384    Call to deprecated function drupal_set_message().  
+  428    Call to deprecated function db_delete().           
+  432    Call to deprecated function drupal_set_message().  
+  447    Call to deprecated function db_query().            
+  448    Call to deprecated function drupal_set_message().  
+  527    Call to deprecated function db_query().            
+  548    Call to deprecated function user_load().           
+  680    Call to deprecated function db_query().            
+  714    Call to deprecated function db_query().            
+  727    Call to deprecated function db_query().            
+  742    Call to deprecated function db_query().            
+  778    Call to deprecated function user_load_multiple().  
+  802    Call to deprecated function drupal_set_message().  
+  818    Call to deprecated function db_query().            
+  904    Call to deprecated function db_query().            
+  921    Call to deprecated function user_load().           
+  986    Call to deprecated function db_select().           
+  1105   Call to deprecated function db_query().            
+  1164   Call to deprecated function db_query().            
+  1173   Call to deprecated function db_query().            
+  1190   Call to deprecated function db_update().           
+  1199   Call to deprecated function drupal_set_message().  
+  1204   Call to deprecated function db_insert().           
+  1212   Call to deprecated function drupal_set_message().  
+  1222   Call to deprecated function db_query().            
+  1244   Call to deprecated function db_delete().           
+  1247   Call to deprecated function drupal_set_message().  
+  1273   Call to deprecated function db_query().            
+  1276   Call to deprecated function db_query().            
+  1291   Call to deprecated function user_load().           
+  1310   Call to deprecated function user_load().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   simplereservation_week.tpl.php            
+ ------ ------------------------------------------ 
+  72     Call to deprecated function user_load().  
+  73     Call to deprecated function user_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 36 errors                                                         
+
+ </code>

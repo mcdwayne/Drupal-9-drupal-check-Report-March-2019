@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/serve_plain_file 83f570307dbdd6134f96dc4d19c741c32fb1c29f
+source : http://cgit.drupalcode.org/serve_plain_file 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServedFileDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServedFileForm.php                        
+ ------ --------------------------------------------------- 
+  144    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

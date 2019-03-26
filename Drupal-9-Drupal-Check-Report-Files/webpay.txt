@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webpay 14813dc3a4fcd020ea626bd1043d2ca1158c038f
+source : http://cgit.drupalcode.org/webpay 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebpayConfigDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/WebpayConfigForm.php                               
+ ------ ------------------------------------------------------------ 
+  135    Call to deprecated function _file_save_upload_from_form().  
+  193    Call to deprecated function drupal_set_message().           
+  199    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/WebpayCommerceSystem/TestSystem.php     
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().  
+  32     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/WebpayCommerceSystemBase.php           
+ ------ -------------------------------------------------- 
+  23     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

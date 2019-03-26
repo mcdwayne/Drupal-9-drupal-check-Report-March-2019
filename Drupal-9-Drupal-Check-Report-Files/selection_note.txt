@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/selection_note d73fa7ca058129fa4f0370fe3ee867f1179a0d9c
+source : http://cgit.drupalcode.org/selection_note 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   selection_note.module                              
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  37     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

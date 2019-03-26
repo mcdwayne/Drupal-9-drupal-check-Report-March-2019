@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pet f36096c793588ca0bc1d21e26bf15e10d1befc7e
+source : http://cgit.drupalcode.org/pet 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   pet.module                                         
+ ------ --------------------------------------------------- 
+  203    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+  226    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/PetDeleteForm.php                             
+ ------ ------------------------------------------------------- 
+  16     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  18     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PetForm.php                               
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PetPreviewForm.php                        
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

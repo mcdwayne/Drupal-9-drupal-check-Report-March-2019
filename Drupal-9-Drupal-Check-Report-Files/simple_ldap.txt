@@ -1,0 +1,91 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_ldap cb8fb280a85aec286b4f6f0f05b62c794ff8a926
+source : http://cgit.drupalcode.org/simple_ldap 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/simple_ldap_sso/src/Form/SimpleLdapSSOSettingsForm.php       
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\simple_ldap_sso\Form\SimpleLdapSsoSettingsForm was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/simple_ldap_user/src/Form/SimpleLdapUserSettingsForm.php  
+ ------ ------------------------------------------------------------------ 
+  68     Call to deprecated function drupal_set_message().                 
+  146    Call to deprecated function drupal_set_message().                 
+  197    Call to deprecated method strtolower() of class                   
+         Drupal\Component\Utility\Unicode.                                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/simple_ldap_user/tests/src/Functional/SimpleLdapUserTest.php  
+ ------ ---------------------------------------------------------------------- 
+  77     Call to deprecated method assertText() of class                       
+         Drupal\Tests\BrowserTestBase.                                         
+  85     Call to deprecated method assertText() of class                       
+         Drupal\Tests\BrowserTestBase.                                         
+  93     Call to deprecated method assertText() of class                       
+         Drupal\Tests\BrowserTestBase.                                         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/simple_ldap_user/tests/src/Unit/SimpleLdapUserManagerTest.php  
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Tests\simple_ldap\Unit\SimpleLdapUserManagerTest was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/SimpleLdapServerSchema.php                   
+ ------ ------------------------------------------------- 
+  81     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  86     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  95     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  95     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  133    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  144    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  151    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  214    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  323    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  329    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  337    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  337    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/SimpleLdapTest.php           
+ ------ -------------------------------------------------- 
+  120    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  122    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  126    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  134    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  140    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  146    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

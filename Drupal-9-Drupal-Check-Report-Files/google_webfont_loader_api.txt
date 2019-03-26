@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_webfont_loader_api 04bcae2ebd94e87196b5e797d28880c59170ff5e
+source : http://cgit.drupalcode.org/google_webfont_loader_api 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   google_webfont_loader_api.module                   
+ ------ --------------------------------------------------- 
+  246    Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/GoogleWebfontLoaderApiSettingsForm.php  
+ ------ ------------------------------------------------- 
+  36     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  36     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  60     Call to deprecated method l() of class Drupal.   
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

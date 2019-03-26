@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/set_front_page 9ced16e1f40e064f63de96973003f3bf76bcc746
+source : http://cgit.drupalcode.org/set_front_page 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/SetFrontPageTests.php              
+ ------ --------------------------------------------- 
+  79     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  79     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  96     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  96     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/owlcarousel2 05cba92afe1c1527cbea3ab6af19d9e007d7d3c8
+source : http://cgit.drupalcode.org/owlcarousel2 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/OwlCarousel2Controller.php           
+ ------ ---------------------------------------------------- 
+  58     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  61     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  76     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  100    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  133    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  139    Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OwlCarousel2Form.php                      
+ ------ --------------------------------------------------- 
+  587    Call to deprecated function drupal_set_message().  
+  594    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OwlCarousel2RevisionDeleteForm.php        
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OwlCarousel2RevisionRevertForm.php        
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pubkey_encrypt be5874866bed991d9e0b016470771ddf91506a05
+source : http://cgit.drupalcode.org/pubkey_encrypt 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   pubkey_encrypt.module                              
+ ------ --------------------------------------------------- 
+  326    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Form/PubkeyEncryptInitializationSettingsForm.php  
+ ------ ------------------------------------------------------ 
+  162    Call to deprecated function drupal_set_message().     
+  176    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/KeyProvider/PubkeyEncryptKeyProvider.php  
+ ------ ----------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_browser 5b4faaed27f04377c44b14cf72143c4088dabf46
+source : http://cgit.drupalcode.org/paragraphs_browser 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   paragraphs_browser.module                       
+ ------ ------------------------------------------------ 
+  161    Call to deprecated function drupal_realpath().  
+  169    Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Controller/ParagraphsBrowserController.php          
+ ------ -------------------------------------------------------- 
+  43     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrowserGroupsForm.php                     
+ ------ --------------------------------------------------- 
+  203    Call to deprecated function drupal_set_message().  
+  206    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrowserTypeForm.php                       
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/ParagraphsBrowserManager.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\paragraphs_browser\BrowserManager was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/InlineParagraphsBrowserWidget.php  
+ ------ ---------------------------------------------------------------- 
+  52     Call to deprecated function entity_load_multiple().             
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

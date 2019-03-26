@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_logger bb6c8ae6441f5c00ae24b554fa2718682fadbe10
+source : http://cgit.drupalcode.org/search_api_logger 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/backend/SearchApiLoggerDbBackend.php               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\search_api_db\Plugin\search_apiackend\Database not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/backend/SearchApiLoggerElasticSearchBackend.php    
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupallasticsearch_connector\Plugin\search_apiackend\SearchApiElast  
+         icsearchBackend not found and could not be autoloaded.                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/backend/SearchApiLoggerSolrBackend.php           
+ ------ ----------------------------------------------------------------------- 
+         Class                                                                  
+         Drupal\search_api_solr\Plugin\search_apiackend\SearchApiSolrBackend  
+         not found and could not be autoloaded.                                 
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

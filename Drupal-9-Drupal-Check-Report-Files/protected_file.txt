@@ -1,0 +1,71 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/protected_file 993fb1c33833a4a357ad8d072b8e3ee307bb7228
+source : http://cgit.drupalcode.org/protected_file 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   protected_file.module                         
+ ------ ---------------------------------------------- 
+  139    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/ProtectedFileTest.php               
+ ------ --------------------------------------------------------- 
+  54     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  55     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  57     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  76     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  79     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  81     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  83     Call to deprecated method assertFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  98     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  102    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  126    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  127    Call to deprecated method assertNoText() of class        
+         Drupal\Tests\BrowserTestBase.                            
+  128    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  133    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  138    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  145    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  146    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  154    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  158    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  162    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  180    Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+  181    Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/ProtectedFileTestBase.php          
+ ------ -------------------------------------------------------- 
+  113    Call to deprecated function entity_get_form_display().  
+  120    Call to deprecated function entity_get_display().       
+  258    Call to deprecated method assertNotEqual() of class     
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

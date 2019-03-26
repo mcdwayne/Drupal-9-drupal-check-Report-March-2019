@@ -1,0 +1,62 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/server cbc9f4a5df21facf775ca6ab056389c77e4e43ee
+source : http://cgit.drupalcode.org/server
+drupal/resources * 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ServerController.php                 
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerForm.php                            
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerRevisionDeleteForm.php              
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerRevisionRevertForm.php              
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerTypeDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerTypeForm.php                        
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

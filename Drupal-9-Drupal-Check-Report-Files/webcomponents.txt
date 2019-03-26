@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webcomponents 5481dc1bee6c7f53ff70d233dd3fd1f1695a866b
+source : http://cgit.drupalcode.org/webcomponents 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebComponentEntityDeleteForm.php          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebComponentEntityForm.php                
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   webcomponents.module                               
+ ------ --------------------------------------------------- 
+  131    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

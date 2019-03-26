@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/zopim 2de2fceb6b03965d4b07a015de99b0b356ca1178
+source : http://cgit.drupalcode.org/zopim 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   zopim.module                                     
+ ------ ------------------------------------------------- 
+  78     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  83     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

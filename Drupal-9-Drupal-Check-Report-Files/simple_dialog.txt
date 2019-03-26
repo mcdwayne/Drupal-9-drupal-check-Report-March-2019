@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_dialog 57fbf0f344e256ac0ef20af6df785b77415979f3
+source : http://cgit.drupalcode.org/simple_dialog 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/simple_dialog/Form/SimpleDialogSettingsForm.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\simple_dialog\Form\SimpleDialogSettingsForm was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------------------- 
+  Line   simple_dialog_example/lib/Drupal/simple_dialog_example/Controller/SimpleDialogExampleController.php  
+ ------ ----------------------------------------------------------------------------------------------------- 
+         Class                                                                                                
+         Drupal\simple_dialog_example\Controller\SimpleDialogExampleController                                
+         was not found while trying to analyse it - autoloading is probably not                               
+         configured properly.                                                                                 
+ ------ ----------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

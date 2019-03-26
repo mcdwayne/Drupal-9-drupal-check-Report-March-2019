@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pcb b396e79a107e81d6b4bf3e5f373ca7c408f3d7d6
+source : https://cgit.drupalcode.org/pcb 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/pcb_memcache/src/Cache/PermanentMemcacheBackend.php       
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\memcache\MemcacheBackend not found and could not be  
+         autoloaded.                                                       
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/pcb_memcache/src/Cache/PermanentMemcacheBackendFactory.php       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\memcache\MemcacheBackendFactory not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

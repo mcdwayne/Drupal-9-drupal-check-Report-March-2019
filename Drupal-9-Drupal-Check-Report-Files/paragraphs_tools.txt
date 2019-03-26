@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_tools 6def713cfef6a98666a7363b42bd86535365efe3
+source : http://cgit.drupalcode.org/paragraphs_tools 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   paragraphs_tools_autoadd/paragraphs_tools_autoadd.module    
+ ------ ------------------------------------------------------------ 
+  33     Call to deprecated function drupal_set_message().           
+  38     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------- 
+  Line   paragraphs_tools_setmode/paragraphs_tools_setmode.module  
+ ------ ---------------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

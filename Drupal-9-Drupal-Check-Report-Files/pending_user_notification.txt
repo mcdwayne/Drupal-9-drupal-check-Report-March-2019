@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pending_user_notification dde3d37622c5ffaa7cef150ddc1d1dab4c52c883
+source : http://cgit.drupalcode.org/pending_user_notification 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApproveUserForm.php                       
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/PendingUserNotificationService.php     
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function user_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Controller/PageControllerTest.php                        
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests\pending_user_notification\Controller\PageControllerTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Form/ApproveUserFormTest.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\pending_user_notification\Form\ApproveUserFormTest   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Block/PendingUserNotificationBlockTest.php         
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\pending_user_notification\Plugin\Block\PendingUserNotifica  
+         tionBlockTest was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

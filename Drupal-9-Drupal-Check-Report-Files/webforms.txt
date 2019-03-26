@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webforms 3d499c56ed31907f09f007ac7023a06757a9fdcc
+source : http://cgit.drupalcode.org/webforms 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/MessageForm.php                                
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/MarkupFormatter.php  
+ ------ ----------------------------------------------------- 
+  116    Call to deprecated method urlInfo() of class         
+         Drupal\CorentityntityInterface.                  
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/StatesFormatter.php  
+ ------ ----------------------------------------------------- 
+  116    Call to deprecated method urlInfo() of class         
+         Drupal\CorentityntityInterface.                  
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/OptionsEmailWidget.php         
+ ------ ------------------------------------------------------------ 
+  601    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   src/Plugin/entity_embed/EntityEmbedDisplay/EntityReferenceFieldFormatter.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class                                                                         
+         Drupalntity_embedntityEmbedDisplay\FieldFormatterEntityEmbedDisplay       
+         Base not found and could not be autoloaded.                                   
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   webforms.tokens.inc                         
+ ------ -------------------------------------------- 
+  71     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,57 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wincachedrupal 03b48895196b8716a2b2f0a5d1148bfa3fdb0c9a
+source : http://cgit.drupalcode.org/wincachedrupal 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Asset/CssCollectionOptimizer.php            
+ ------ ------------------------------------------------ 
+  60     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Asset/JsCollectionOptimizer.php             
+ ------ ------------------------------------------------ 
+  60     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Cache/WincacheBackend.php                      
+ ------ --------------------------------------------------- 
+  151    Call to deprecated method validateTags() of class  
+         Drupal\Core\Cache\Cache.                           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/NetPhp.php                                  
+ ------ ------------------------------------------------ 
+  143    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------- 
+  Line   src/Tests/Cache/MiscelaneaTests.php        
+ ------ ------------------------------------------- 
+  79     Call to deprecated method pass() of class  
+         Drupal\KernelTests\KernelTestBase.         
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/WincacheDrupalServiceModifier.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\wincachedrupal\WincachedrupalServiceModifier was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/WincacheDrupalServiceProvider.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\wincachedrupal\WincachedrupalServiceProvider was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

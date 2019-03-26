@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_embed_context 767da123d3076994ddaecf2e09c29fd79e5a9241
+source : http://cgit.drupalcode.org/views_embed_context 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Block/ViewsEmbedContext.php            
+ ------ -------------------------------------------------- 
+  125    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

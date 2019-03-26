@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shell a42874f77878e51abc06c091d45dcdadff82fa68
+source : http://cgit.drupalcode.org/shell 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Controller/Ajax.php                      
+ ------ --------------------------------------------- 
+  181    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  197    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  200    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  203    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  203    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  215    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  217    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  217    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileEdit.php                              
+ ------ --------------------------------------------------- 
+  133    Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/ShellExec.php                                
+ ------ ------------------------------------------------- 
+  97     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  202    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  255    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  257    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

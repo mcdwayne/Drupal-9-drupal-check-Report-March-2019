@@ -1,0 +1,8 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/visitor_insights 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/visitor_insights 
+ 
+ <code> 
+Fatal error: Drupal\Core\DependencyInjection\ContainerNotInitializedException thrown while calling __toString on a Drupal\Core\StringTranslation\TranslatableMarkup object in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/core/lib/Drupal.php on line 130: \Drupal::$container is not initialized yet. \Drupal::setContainer() must be called with a real container. in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/core/lib/Drupal/Component/Utility/ToStringTrait.php on line 20 
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/permission_matrix 13c070fd44482ce05fdc673a0a278f4c7b85ccff
+source : http://cgit.drupalcode.org/permission_matrix 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermissionGroupDeleteForm.php             
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermissionGroupForm.php                   
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_xunsearch 2a78fe8c68a42794fe84b820fea2c6f0e3579f0b
+source : http://cgit.drupalcode.org/search_api_xunsearch 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/backend/Xunsearch.php                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\search_api\Backend\BackendPluginBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   xunsearch.module                                   
+ ------ --------------------------------------------------- 
+  205    Call to deprecated function drupal_set_message().  
+  226    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

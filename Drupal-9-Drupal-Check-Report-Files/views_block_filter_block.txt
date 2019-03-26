@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_block_filter_block 7778899df18622d0297c75f561828c3d46253395
+source : http://cgit.drupalcode.org/views_block_filter_block 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/IntegrationTest.php                
+ ------ -------------------------------------------------------- 
+  67     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  76     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  84     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  95     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  99     Call to deprecated method buildXPathQuery() of class    
+         Drupal\Tests\BrowserTestBase.                           
+  107    Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_integrations dfbdcf2201b54d9167edd424ba6eab87654bea16
+source : http://cgit.drupalcode.org/simple_integrations 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   simple_integrations.module                    
+ ------ ---------------------------------------------- 
+  44     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/ConnectionTestController.php   
+ ------ ---------------------------------------------- 
+  57     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

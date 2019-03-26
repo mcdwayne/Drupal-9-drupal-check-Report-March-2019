@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_revision dfe019b5090910499ddd012fe74e375ef792f005
+source : http://cgit.drupalcode.org/simple_revision 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SimpleRevisionController.php        
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+  146    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/SettingsForm.php                                   
+ ------ ------------------------------------------------------------ 
+  64     Call to deprecated function drupal_set_message().           
+  91     Call to deprecated function drupal_set_message().           
+  95     Call to deprecated method entityManager() of class Drupal.  
+  134    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

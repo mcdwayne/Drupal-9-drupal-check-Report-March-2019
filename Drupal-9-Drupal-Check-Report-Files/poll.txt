@@ -1,0 +1,100 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/poll 01a3a57088f707de842de4f74bdb65c7441d837a
+source : http://cgit.drupalcode.org/poll 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   poll.module                                       
+ ------ -------------------------------------------------- 
+  33     Call to deprecated method url() of class Drupal.  
+  33     Call to deprecated method url() of class Drupal.  
+  35     Call to deprecated method url() of class Drupal.  
+  35     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PollDeleteForm.php                        
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PollForm.php                              
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PollViewForm.php                          
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  297    Call to deprecated function drupal_set_message().  
+  345    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PollVoteDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/PollListBuilder.php                    
+ ------ ------------------------------------------- 
+  60     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/PollTestBase.php                    
+ ------ ---------------------------------------------- 
+  203    Call to deprecated function format_string().  
+  235    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/PollTokenReplaceTest.php            
+ ------ ---------------------------------------------- 
+  73     Call to deprecated function format_string().  
+  81     Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/PollVoteCheckHostnameTest.php           
+ ------ -------------------------------------------------- 
+  46     Call to deprecated function format_string().      
+  46     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  52     Call to deprecated function format_string().      
+  52     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  85     Call to deprecated function format_string().      
+  85     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  106    Call to deprecated function format_string().      
+  106    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  127    Call to deprecated function format_string().      
+  127    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/PollVoteJavascriptTest.php            
+ ------ --------------------------------------------------------------------- 
+  15     Class Drupal\Tests\poll\FunctionalJavascript\PollVoteJavascriptTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+  63     Call to method setUp() of deprecated class                           
+         Drupal\Tests\BrowserTestBase.                                        
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 30 errors                                                         
+
+ </code>

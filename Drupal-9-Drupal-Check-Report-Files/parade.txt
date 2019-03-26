@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/parade 4c2a3034c77f313efbf7ab318097ac6c35160efb
+source : http://cgit.drupalcode.org/parade 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/parade_conditional_field/src/Form/ParadeConditionalFieldDeleteForm.php  
+ ------ -------------------------------------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().                               
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/parade_conditional_field/src/Form/ParadeConditionalFieldForm.php  
+ ------ -------------------------------------------------------------------------- 
+  242    Call to deprecated function drupal_set_message().                         
+  249    Call to deprecated function drupal_set_message().                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   modules/parade_demo/parade_demo.module            
+ ------ -------------------------------------------------- 
+  189    Call to deprecated function format_date().        
+  212    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/porterstemmer e0809fc9bf2f08bae27f09ca1a2adf02e6479cf1
+source : http://cgit.drupalcode.org/porterstemmer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/LangCodeTest.php              
+ ------ --------------------------------------------------- 
+  141    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  154    Call to deprecated function format_string().       
+  154    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  160    Call to deprecated function format_string().       
+  160    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  161    Call to deprecated function format_string().       
+  161    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  165    Call to deprecated function format_string().       
+  165    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  166    Call to deprecated function format_string().       
+  166    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  170    Call to deprecated function format_string().       
+  170    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  171    Call to deprecated function format_string().       
+  171    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

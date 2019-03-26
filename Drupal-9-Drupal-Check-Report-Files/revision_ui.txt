@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/revision_ui c96ca6e1bc9b1dc676d20bfafa52b0010e44faa6
+source : http://cgit.drupalcode.org/revision_ui 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/RevisionUiNodeTest.php                                      
+ ------ ---------------------------------------------------------------------- 
+  24     Class Drupalevision_ui\Tests\RevisionUiNodeTest extends deprecated  
+         class Drupal
+ode\Tests\NodeTestBase.                                 
+  55     Call to method setUp() of deprecated class                            
+         Drupal
+ode\Tests\NodeTestBase.                                       
+  119    Call to deprecated method setRevisionAuthorId() of class              
+         Drupal
+ode\NodeInterface.                                            
+  122    Call to deprecated method setRevisionAuthorId() of class              
+         Drupal
+ode\NodeInterface.                                            
+  156    Call to deprecated function format_date().                            
+  171    Call to deprecated function format_date().                            
+  226    Call to deprecated function format_date().                            
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

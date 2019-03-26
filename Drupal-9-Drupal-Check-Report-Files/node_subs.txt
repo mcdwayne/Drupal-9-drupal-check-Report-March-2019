@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_subs 3f7aac35cd7d60041f994014f56d137b95b9a9c1
+source : http://cgit.drupalcode.org/node_subs 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QueueForm.php                             
+ ------ --------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().  
+  169    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/SubscribeForm.php                          
+ ------ ---------------------------------------------------- 
+  157    Call to deprecated function drupal_set_message().   
+  188    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriberDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriberForm.php                        
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscribersListForm.php                   
+ ------ --------------------------------------------------- 
+  134    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Service/AccountService.php               
+ ------ --------------------------------------------- 
+  247    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/NodeService.php                        
+ ------ --------------------------------------------------- 
+  287    Call to deprecated function drupal_set_message().  
+  291    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

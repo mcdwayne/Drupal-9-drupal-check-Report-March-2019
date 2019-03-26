@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/panopoly_test dfdc728ee84ad9cba5d2f990b9a2dcb712913fb3
+source : http://cgit.drupalcode.org/panopoly_test 
+ 
+ <code>  ------ ----------------------------------------------------------------- 
+  Line   behat/features/bootstrap/FeatureContext.php                      
+ ------ ----------------------------------------------------------------- 
+         Class FeatureContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   behat/steps/panopoly_test.behat.inc                              
+ ------ ----------------------------------------------------------------- 
+         Class TestSubContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   behat/steps/panopoly_test_panels.behat.inc                         
+ ------ ------------------------------------------------------------------- 
+         Class PanelsSubContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

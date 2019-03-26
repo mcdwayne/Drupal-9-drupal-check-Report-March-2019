@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_algolia 835dbe272a97ef96c70bb5798d2f87fe466aa2da
+source : http://git.drupal.org/project/search_api_algolia.git 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/search_api/backend/SearchApiAlgoliaBackend.php  
+ ------ ----------------------------------------------------------- 
+  235    Call to deprecated method strlen() of class                
+         Drupal\Component\Utility\Unicode.                          
+  236    Call to deprecated method substr() of class                
+         Drupal\Component\Utility\Unicode.                          
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/permission_ui f059bce7be63a52f15dfb169bb28ac46540688f6
+source : http://cgit.drupalcode.org/permission_ui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PermissionForm.php                        
+ ------ --------------------------------------------------- 
+  164    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  166    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PermissionListBuilder.php                      
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

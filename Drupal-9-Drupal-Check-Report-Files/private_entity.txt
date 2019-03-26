@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/private_entity 5f9d4024b9744b0b7f78aef22bb13417879ab8ad
+source : http://cgit.drupalcode.org/private_entity 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/PrivateEntityTestBase.php          
+ ------ -------------------------------------------------------- 
+  104    Call to deprecated function entity_get_form_display().  
+  110    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/PrivateEntityTest.php            
+ ------ -------------------------------------------------- 
+  59     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  64     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  69     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

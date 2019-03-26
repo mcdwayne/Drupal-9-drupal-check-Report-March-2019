@@ -1,0 +1,81 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/optit dc8f162ee7ecbefb994156969fd6a2572f688a54
+source : http://cgit.drupalcode.org/optit 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   optit.module                                           
+ ------ ------------------------------------------------------- 
+  62     Call to deprecated function drupal_get_destination().  
+  133    Call to deprecated function format_date().             
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/InterestEditForm.php                      
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/KeywordMessageSmsForm.php                 
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function drupal_set_message().  
+  166    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendBulkMmsForm.php                       
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendBulkSmsForm.php                       
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendMmsForm.php                           
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_mkdir().        
+  96     Call to deprecated function drupal_set_message().  
+  99     Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionCancelAllForm.php             
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionCancelInterestForm.php        
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionCancelKeywordForm.php         
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionInterestForm.php              
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_glossary 10b3dbf2f3218a7f5fbcc60de82f30621b26f24a
+source : http://cgit.drupalcode.org/search_api_glossary 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/facets/processor/GlossaryAZAllItemsProcessor.php            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalacets\Processor\ProcessorPluginBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/facets/processor/GlossaryAZPadItemsProcessor.php            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalacets\Processor\ProcessorPluginBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/facets/processor/GlossaryAZWidgetOrderProcessor.php       
+ ------ --------------------------------------------------------------------- 
+         Class Drupalacets\Processor\SortProcessorPluginBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/facets/widget/GlossaryAZWidget.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalacets\Widget\WidgetPluginBase not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

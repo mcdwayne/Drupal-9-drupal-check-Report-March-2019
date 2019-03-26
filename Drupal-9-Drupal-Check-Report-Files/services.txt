@@ -1,0 +1,91 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/services 49f721c5a8c3346cf200dd0b51aed8212e0e7c78
+source : http://cgit.drupalcode.org/services 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   services_test/Plugin/ServiceDefinition/TestServiceDefinition.php        
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\services\Plugin\ServiceDefinition\TestServiceDefinition    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/ServiceEndpointListBuilder.php  
+ ------ ----------------------------------------------- 
+  27     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+  42     Call to deprecated method urlInfo() of class   
+         Drupal\CorentityntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/Services.php                         
+ ------ ---------------------------------------------------- 
+  47     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  71     Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServiceEndpointDeleteForm.php             
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServiceEndpointForm.php                   
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServiceResourceConfigForm.php             
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServiceResourceDeleteForm.php             
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/ServiceDefinition/EntityPost.php        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/ServiceDefinition/EntityView.php                 
+ ------ ------------------------------------------------------------ 
+  72     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/ServiceDefinition/UserLogin.php         
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/ServiceDefinition/UserLogout.php        
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Routing/ServiceEndpoint.php                             
+ ------ ------------------------------------------------------------ 
+  20     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

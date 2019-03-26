@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/web_accessibility 93a30b63ed6109389459bf9d1cfe4fb2a43ded78
+source : http://cgit.drupalcode.org/web_accessibility 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdminForm.php                             
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteServiceForm.php                     
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

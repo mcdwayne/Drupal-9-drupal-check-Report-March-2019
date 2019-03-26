@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simpleaddress af7179668191571ad504a6ea5316c7b622bfa776
+source : http://cgit.drupalcode.org/simpleaddress 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   simpleaddress.module                                        
+ ------ ------------------------------------------------------------ 
+  19     Call to deprecated method url() of class Drupal.            
+  52     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/SimpleAddressDefaultFormatter.php  
+ ------ ------------------------------------------------------------------- 
+  62     Call to deprecated method strtolower() of class                    
+         Drupal\Component\Utility\Unicode.                                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/SimpleAddressFieldTest.php                    
+ ------ -------------------------------------------------------- 
+  53     Call to deprecated function entity_create().            
+  58     Call to deprecated function entity_create().            
+  65     Call to deprecated function entity_get_form_display().  
+  71     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/SimpleAddressItemTest.php                                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalield\Tests\FieldUnitTestBase not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

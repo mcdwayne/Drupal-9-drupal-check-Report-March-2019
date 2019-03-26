@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/semantic_connector c555ba625a69b537579517f9adcb4a37f2c85e17
+source : http://cgit.drupalcode.org/semantic_connector 
+ 
+ <code> 
+Warning: Declaration of Drupal\semantic_connector\ConnectionListBuilder::buildRow(Drupal\semantic_connectorntity\SemanticConnectorConnectionInterface $entity) should be compatible with Drupal\CorentityntityListBuilder::buildRow(Drupal\CorentityntityInterface $entity) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/semantic_connector/src/ConnectionListBuilder.php on line 12
+
+
+ ------ ------------------------------------------------- 
+  Line   src/SemanticConnector.php                        
+ ------ ------------------------------------------------- 
+  674    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

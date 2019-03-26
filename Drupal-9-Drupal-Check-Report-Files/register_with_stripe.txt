@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/register_with_stripe 0139895e9bf706767138bcf6df4ae7c8d86b5cd6
+source : http://cgit.drupalcode.org/register_with_stripe 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   register_user_with_stripe_payment.admin.inc                 
+ ------ ------------------------------------------------------------ 
+  60     Call to deprecated method entityManager() of class Drupal.  
+  102    Call to deprecated function db_insert().                    
+  111    Call to deprecated function drupal_set_message().           
+  112    Call to deprecated method entityManager() of class Drupal.  
+  120    Call to deprecated function drupal_set_message().           
+  122    Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   register_user_with_stripe_payment.module                    
+ ------ ------------------------------------------------------------ 
+  19     Call to deprecated method url() of class Drupal.            
+  64     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/PaymentController.php                        
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated function db_select().                    
+  57     Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  57     Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  81     Call to deprecated method entityManager() of class Drupal.  
+  122    Call to deprecated function db_insert().                    
+  131    Call to deprecated function drupal_set_message().           
+  134    Call to deprecated method entityManager() of class Drupal.  
+  145    Call to deprecated function drupal_set_message().           
+  147    Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/StripeCharge.php                                            
+ ------ --------------------------------------------------------------------- 
+  34     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   templates/stripe_start_user.tpl.php           
+ ------ ---------------------------------------------- 
+  9      Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

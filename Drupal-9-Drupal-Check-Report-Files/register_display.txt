@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/register_display 8ab31a1c0f8dcff24645dd4814078f9a42a72d77
+source : http://cgit.drupalcode.org/register_display 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Controller/UserPagesController.php                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Register_display\Controller\UserPagesController was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

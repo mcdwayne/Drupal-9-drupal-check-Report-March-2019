@@ -1,0 +1,87 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nodeletter abd918df2f09655354036ff19a2801dda6e01cd4
+source : http://cgit.drupalcode.org/nodeletter 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/nodeletter_blocks/src/Plugin/Block/NewsletterSubmitBlock.php  
+ ------ ---------------------------------------------------------------------- 
+  34     Call to deprecated function nodeletter_service().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   nodeletter.module                                  
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function nodeletter_service().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Access/NodeletterRoutingAccessCheck.php        
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function nodeletter_service().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/MailchimpTemplateSelectForm.php                                
+ ------ ------------------------------------------------------------------------ 
+  11     Usage of deprecated trait Drupal
+odeletter\MailchimpApiTrait in class  
+         Drupal
+odeletter\Form\MailchimpTemplateSelectForm.                     
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NewsletterSubmitForm.php                  
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+  99     Call to deprecated function drupal_set_message().  
+  311    Call to deprecated function drupal_set_message().  
+  319    Call to deprecated function drupal_set_message().  
+  321    Call to deprecated function drupal_set_message().  
+  348    Call to deprecated function drupal_set_message().  
+  356    Call to deprecated function drupal_set_message().  
+  358    Call to deprecated function drupal_set_message().  
+  366    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/NodeTypeForm.php                                               
+ ------ ------------------------------------------------------------------------ 
+  28     Usage of deprecated trait Drupal
+odeletter\MailchimpApiTrait in class  
+         Drupal
+odeletter\Form\NodeTypeForm.                                    
+  92     Call to deprecated function drupal_set_message().                       
+  267    Call to deprecated function drupal_set_message().                       
+  298    Call to deprecated function drupal_set_message().                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Form/NodeletterSendingDeleteForm.php                              
+ ------ ---------------------------------------------------------------------- 
+  65     Call to deprecated method link() of class Drupal\Corentityntity.  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/NodeletterSettingsForm.php                                     
+ ------ ------------------------------------------------------------------------ 
+  27     Usage of deprecated trait Drupal
+odeletter\MailchimpApiTrait in class  
+         Drupal
+odeletter\Form\NodeletterSettingsForm.                          
+  111    Call to deprecated function drupal_set_message().                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/NodeletterSender/MailchimpNodeletterSender.php               
+ ------ ------------------------------------------------------------------------ 
+  31     Usage of deprecated trait Drupal
+odeletter\MailchimpApiTrait in class  
+         Drupal
+odeletter\Plugin\NodeletterSender\MailchimpNodeletterSender.    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

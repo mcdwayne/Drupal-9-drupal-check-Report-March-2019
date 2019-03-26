@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/way2sms 904526c757ee2789025a2daa8082237a0b94916b
+source : http://cgit.drupalcode.org/way2sms 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Way2smsSettings.php                       
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/way2smsSendSms.php                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\way2sms\Plugin\RulesAction\Way2smsSendSms was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   way2sms.module                                     
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function libraries_get_path().  
+  39     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

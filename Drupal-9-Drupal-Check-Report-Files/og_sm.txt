@@ -1,0 +1,244 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/og_sm 994116c98a275e4aab4aee1c81df2a871a6e787c
+source : https://github.com/digipolisgent/drupal_module_og-sm 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   og_sm_access/og_sm_access.batch.inc         
+ ------ -------------------------------------------- 
+  50     Call to deprecated function node_load().    
+  122    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   og_sm_access/plugins/views/og_sm_access_site_plugin.inc                  
+ ------ ------------------------------------------------------------------------- 
+         Class og_sm_access_site_plugin was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   og_sm_breadcrumb/og_sm_breadcrumb.admin.inc   
+ ------ ---------------------------------------------- 
+  483    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   og_sm_breadcrumb/og_sm_breadcrumb.module             
+ ------ ----------------------------------------------------- 
+  245    Call to deprecated function og_sm_set_breadcrumb().  
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   og_sm_comment/og_sm_comment.admin.inc                
+ ------ ----------------------------------------------------- 
+  19     Call to deprecated function og_sm_set_breadcrumb().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   og_sm_comment/og_sm_comment.module                 
+ ------ --------------------------------------------------- 
+  168    Call to deprecated function node_load().           
+  313    Call to deprecated function node_load().           
+  346    Call to deprecated function node_load().           
+  380    Call to deprecated function drupal_set_message().  
+  578    Call to deprecated function db_insert().           
+  610    Call to deprecated function db_table_exists().     
+  632    Call to deprecated function db_select().           
+  655    Call to deprecated function db_delete().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   og_sm_comment/og_sm_comment.pathauto.inc  
+ ------ ------------------------------------------ 
+  48     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   og_sm_comment/src/Access.php                                        
+ ------ -------------------------------------------------------------------- 
+         Class OgSmCommentAccess was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   og_sm_comment/src/Levels.php                                        
+ ------ -------------------------------------------------------------------- 
+         Class OgSmCommentLevels was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   og_sm_comment/src/OverrideConfig.php                                   
+ ------ ----------------------------------------------------------------------- 
+         Class OgSmCommentOverrideConfig was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   og_sm_comment/src/OverrideNode.php                                      
+ ------ ------------------------------------------------------------------------ 
+         Class OgSmCommentOverrideNode was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   og_sm_comment/views/og_sm_comment_handler_field_comment_link_delete.inc  
+ ------ ------------------------------------------------------------------------- 
+         Class og_sm_comment_handler_field_comment_link_delete was not found      
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   og_sm_comment/views/og_sm_comment_handler_field_comment_link_edit.inc    
+ ------ ------------------------------------------------------------------------- 
+         Class og_sm_comment_handler_field_comment_link_edit was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   og_sm_dashboard/og_sm_dashboard.block.inc           
+ ------ ---------------------------------------------------- 
+  20     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   og_sm_feature/includes/views/OgSmFeatureViewsAccess.inc                  
+ ------ ------------------------------------------------------------------------- 
+         Class OgSmFeatureViewsAccess was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   og_sm_feature/includes/views/OgSmFeatureViewsHandlerFilterContentType.inc  
+ ------ --------------------------------------------------------------------------- 
+         Class OgSmFeatureViewsHandlerFilterContentType was not found while         
+         trying to analyse it - autoloading is probably not configured properly.    
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   og_sm_feature/og_sm_feature.admin.inc                  
+ ------ ------------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().      
+  105    Call to deprecated function drupal_get_destination().  
+  134    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   og_sm_feature/og_sm_feature.module                   
+ ------ ----------------------------------------------------- 
+  637    Call to deprecated function og_sm_set_breadcrumb().  
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   og_sm_feature/og_sm_feature.og_admin.inc               
+ ------ ------------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().      
+  110    Call to deprecated function drupal_get_destination().  
+  158    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   og_sm_feature/plugins/OgSmFeatureContextConditionStatus.inc            
+ ------ ----------------------------------------------------------------------- 
+         Class OgSmFeatureContextConditionStatus was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   og_sm_path/og_sm_path.admin.inc                    
+ ------ --------------------------------------------------- 
+  159    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   og_sm_path/tests/src/Kernel/PathTokensTest.php                      
+ ------ -------------------------------------------------------------------- 
+  15     Class Drupal	oken\Tests\TokenTestTrait not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   og_sm_taxonomy/src/Form/VocabularyResetForm.php    
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   og_sm_theme/og_sm_theme.admin.inc                    
+ ------ ----------------------------------------------------- 
+  26     Call to deprecated function og_sm_set_breadcrumb().  
+  157    Call to deprecated function drupal_set_message().    
+  163    Call to deprecated function drupal_set_message().    
+  248    Call to deprecated function drupal_set_message().    
+  358    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   og_sm_theme/og_sm_theme.module                     
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+  124    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   og_sm_user/og_sm_user.pages.inc                      
+ ------ ----------------------------------------------------- 
+  55     Call to deprecated function og_sm_set_breadcrumb().  
+  99     Call to deprecated function og_sm_set_breadcrumb().  
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   og_sm_user/templates/og_sm_user_page.tpl.php  
+ ------ ---------------------------------------------- 
+  14     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   og_sm_user/tests/og_sm_user_test/og_sm_user_test.module  
+ ------ --------------------------------------------------------- 
+  19     Call to deprecated function db_select().                 
+  38     Call to deprecated function db_merge().                  
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   og_sm_user/views/og_sm_user_views_handler_field_user_name.inc            
+ ------ ------------------------------------------------------------------------- 
+         Class og_sm_user_views_handler_field_user_name was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   og_sm_user_create/og_sm_user_create.admin.inc      
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/EntityReferenceSelection/DefaultSelection.php                
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\og_smntity\PluginntityReferenceSelection\DefaultSelection    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/OgSmKernelTestBase.php                                 
+ ------ ------------------------------------------------------------------------ 
+  16     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\og_sm\Kernel\OgSmKernelTestBase.                           
+  57     Call to deprecated method getMock() of class                            
+         Drupal\KernelTests\KernelTestBase.                                      
+  70     Call to deprecated method getMock() of class                            
+         Drupal\KernelTests\KernelTestBase.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 56 errors                                                         
+
+ </code>

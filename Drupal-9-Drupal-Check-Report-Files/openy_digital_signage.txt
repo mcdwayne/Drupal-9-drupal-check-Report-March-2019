@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openy_digital_signage f605c98e1b5328d26efdb7a009a280ec77a241e0
+source : http://cgit.drupalcode.org/openy_digital_signage 
+ 
+ <code> 
+Warning: Declaration of Drupal	ime_range\Plugin\Field\FieldWidget\TimeRangeWidgetBase::createDefaultValue(Drupal\Core\Datetime\DrupalDateTime $date, $timezone) should be compatible with Drupal\datetime\Plugin\Field\FieldWidget\DateTimeWidgetBase::createDefaultValue($date, $timezone) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/openy_digital_signage/modules/time_range/src/Plugin/Field/FieldWidget/TimeRangeWidgetBase.php on line 15
+
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   modules/openy_digital_signage_classes_schedule/modules/openy_digital_signage_groupex_schedule/src/Controller/GroupExImportController.php  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------ 
+  50     Call to deprecated function drupal_set_message().                                                                                         
+  271    Call to deprecated function drupal_set_message().                                                                                         
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_classes_schedule/modules/openy_digital_signage_groupex_schedule/src/OpenYSessionsGroupExFetcher.php  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  16     Class Drupal\ymca_groupex\GroupexRequestTrait not found and could not                                                              
+         be autoloaded.                                                                                                                     
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_classes_schedule/modules/openy_digital_signage_personify_schedule/src/Controller/PersonifyImportController.php  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().                                                                                             
+  265    Call to deprecated function drupal_set_message().                                                                                             
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_classes_schedule/src/Form/OpenYClassesSessionForm.php  
+ ------ ------------------------------------------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().                                    
+  61     Call to deprecated function drupal_set_message().                                    
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_classes_schedule/src/Form/OpenYClassesSessionOverrideForm.php  
+ ------ --------------------------------------------------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().                                            
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_room/src/Form/OpenYRoomForm.php  
+ ------ --------------------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().              
+  30     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_schedule/src/Form/OpenYScheduleForm.php  
+ ------ ----------------------------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().                      
+  41     Call to deprecated function drupal_set_message().                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_schedule/src/Form/OpenYScheduleItemForm.php  
+ ------ --------------------------------------------------------------------------- 
+  156    Call to deprecated function drupal_set_message().                          
+  162    Call to deprecated function drupal_set_message().                          
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/openy_digital_signage_screen/src/Controller/OpenYScreenSchedule.php  
+ ------ ----------------------------------------------------------------------------- 
+  20     Class Drupal

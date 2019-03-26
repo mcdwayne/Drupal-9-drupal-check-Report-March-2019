@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/vsauce_sticky_popup 8.x-1.0
+source : http://cgit.drupalcode.org/vsauce_sticky_popup 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/VsauceStickyPopupController.php              
+ ------ ------------------------------------------------------------ 
+  76     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/VsauceStickyPopupManagerController.php       
+ ------ ------------------------------------------------------------ 
+  130    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VstickyPopupConfigEntityDeleteForm.php    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VstickyPopupConfigEntityForm.php          
+ ------ --------------------------------------------------- 
+  213    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

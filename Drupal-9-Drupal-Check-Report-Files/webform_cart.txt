@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_cart fe00e51eb9c6d7a5a8c5f89ff6288a27049a6c50
+source : http://cgit.drupalcode.org/webform_cart 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCartItemForm.php                   
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCartItemTypeDeleteForm.php         
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCartItemTypeForm.php               
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCartOrderForm.php                  
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCartOrderTypeDeleteForm.php        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCartOrderTypeForm.php              
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/WebformCart.php                                                 
+ ------ -------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\webform_cart\WebformCart.                              
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

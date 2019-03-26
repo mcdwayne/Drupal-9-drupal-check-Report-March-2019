@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/saml_sp 398786aff598e1c84d226e8d855ace7dea846763
+source : http://cgit.drupalcode.org/saml_sp 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/saml_sp_drupal_login/saml_sp_drupal_login.module  
+ ------ ---------------------------------------------------------- 
+  74     Call to deprecated method url() of class Drupal.          
+  132    Call to deprecated method url() of class Drupal.          
+  227    Call to deprecated function user_load().                  
+  245    Call to deprecated method url() of class Drupal.          
+  286    Call to deprecated function db_select().                  
+  296    Call to deprecated function db_query().                   
+  300    Call to deprecated function user_load().                  
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/saml_sp_drupal_login/src/Form/SamlSpDrupalLoginConfig.php  
+ ------ ------------------------------------------------------------------- 
+  130    Call to deprecated method url() of class Drupal.                   
+  147    Call to deprecated function db_select().                           
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   saml_sp.module                                       
+ ------ ----------------------------------------------------- 
+  60     Call to deprecated method url() of class Drupal.     
+  68     Call to deprecated function entity_load().           
+  82     Call to deprecated function entity_load_multiple().  
+  102    Call to deprecated method url() of class Drupal.     
+  135    Call to deprecated method url() of class Drupal.     
+  421    Calls to function dpm should not exist.              
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/IdpListBuilder.php              
+ ------ ----------------------------------------------- 
+  27     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/SamlSPController.php               
+ ------ -------------------------------------------------- 
+  40     Call to deprecated method url() of class Drupal.  
+  123    Call to deprecated method url() of class Drupal.  
+  135    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/EventSubscriber/SamlSpSubscriber.php          
+ ------ -------------------------------------------------- 
+  33     Call to deprecated method url() of class Drupal.  
+  40     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/SamlSpConfig.php                         
+ ------ -------------------------------------------------- 
+  128    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

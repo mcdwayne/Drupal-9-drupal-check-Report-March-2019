@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eloqua_api_redux 4fa8d25d9cb9bdca6fa865a4475a48d72c64e66b
+source : http://cgit.drupalcode.org/eloqua_api_redux 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/Callback.php                        
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Settings.php                              
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

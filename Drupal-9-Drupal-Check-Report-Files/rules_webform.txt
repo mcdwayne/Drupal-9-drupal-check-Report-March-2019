@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rules_webform cded37946e41d3cb0e68475ac3b3e3e98c297c4b
+source : http://cgit.drupalcode.org/rules_webform 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   rules_webform.module                                                  
+ ------ ---------------------------------------------------------------------- 
+  322    Class Drupalules_webformvent\RulesWebformEventBase not found and  
+         could not be autoloaded.                                              
+  333    Class Drupalules_webformvent\RulesWebformEventBase not found and  
+         could not be autoloaded.                                              
+  344    Class Drupalules_webformvent\RulesWebformEventBase not found and  
+         could not be autoloaded.                                              
+  354    Class Drupalules_webformvent\RulesWebformEventBase not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Event/DeletingSubmissionEvent.php                                 
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalules_webformvent\RulesWebformEventBase not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Event/RulesWebformEventBase.php                                    
+ ------ ----------------------------------------------------------------------- 
+         Class Symfony

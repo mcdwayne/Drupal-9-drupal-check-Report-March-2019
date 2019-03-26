@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/navigation_blocks 6b8cc84ea7eacdc4ad5c5c079e764dd6496995d7
+source : http://cgit.drupalcode.org/navigation_blocks 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/PathMatcher.php                              
+ ------ ------------------------------------------------- 
+  91     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/BackButton.php                  
+ ------ ------------------------------------------------- 
+  157    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

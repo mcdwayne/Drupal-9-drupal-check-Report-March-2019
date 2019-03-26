@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pdfpreview 1973f42e0d4859b5920560cbbeb3a75120d556ec
+source : https://cgit.drupalcode.org/pdfpreview 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/PDFPreviewGenerator.php                                 
+ ------ ------------------------------------------------------------ 
+  146    Call to deprecated method addArgument() of class            
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+  147    Call to deprecated method addArgument() of class            
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+  148    Call to deprecated method addArgument() of class            
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+  149    Call to deprecated method addArgument() of class            
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+  151    Call to deprecated method setDestinationFormat() of class   
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+  154    Call to deprecated method setDestinationFormat() of class   
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+  156    Call to deprecated method setSourceFormat() of class        
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+  157    Call to deprecated method setSourceLocalPath() of class     
+         Drupal\imagemagick\Plugin\ImageToolkit\ImagemagickToolkit.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/PDFPreviewFormatter.php  
+ ------ --------------------------------------------------------- 
+  100    Call to deprecated method urlInfo() of class             
+         Drupal\CorentityntityInterface.                      
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

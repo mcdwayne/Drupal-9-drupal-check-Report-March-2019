@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webhooks 989d773ff80cbbf600c767ba227be58a1d0a9df0
+source : http://cgit.drupalcode.org/webhooks 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   Tests/Controller/WebhookTest.php                                       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webhooks\Tests\WebhookTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/WebhookController.php               
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebhookConfigDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebhookConfigForm.php                     
+ ------ --------------------------------------------------- 
+  161    Call to deprecated function drupal_set_message().  
+  167    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

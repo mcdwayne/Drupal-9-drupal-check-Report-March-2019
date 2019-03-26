@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scheduled_maintenance 80e69250cb68416b3e0ae3efaf01939323776a4a
+source : https://drupal.org/project/scheduled_maintenance 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   scheduled_maintenance.module                
+ ------ -------------------------------------------- 
+  23     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/EventSubscriber/ScheduledMaintenanceSubscriber.php  
+ ------ -------------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

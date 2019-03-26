@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rdfui e82d700c7902f6630ff5ba98dd61d84492ba9ea9
+source : http://cgit.drupalcode.org/rdfui 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   rdf_builder/src/Form/ContentBuilderForm.php             
+ ------ -------------------------------------------------------- 
+  211    Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  211    Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  328    Call to deprecated function drupal_set_message().       
+  361    Call to deprecated function drupal_set_message().       
+  403    Call to deprecated function entity_get_form_display().  
+  410    Call to deprecated function entity_get_display().       
+  421    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   rdf_builder/src/Tests/ContentTypeBuilderTest.php  
+ ------ -------------------------------------------------- 
+  56     Call to deprecated function format_string().      
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/EasyRdfConverter.php                                   
+ ------ ----------------------------------------------------------- 
+  60     Instantiation of deprecated class                          
+         Doctrine\Common\Proxyxception\InvalidArgumentException.  
+  63     Instantiation of deprecated class                          
+         Doctrine\Common\Proxyxception\InvalidArgumentException.  
+  78     Instantiation of deprecated class                          
+         Doctrine\Common\Proxyxception\InvalidArgumentException.  
+  215    Call to deprecated function drupal_set_message().          
+  237    Call to deprecated function drupal_set_message().          
+  260    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/FieldMappings.php                                  
+ ------ ------------------------------------------------------------ 
+  53     Call to deprecated method entityManager() of class Drupal.  
+  192    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/EasyRdfConverterTest.php                                      
+ ------ ------------------------------------------------------------------------ 
+  14     Class Drupaldfui\TestsasyRdfConverterTest extends deprecated class  
+         Drupal\simpletest\KernelTestBase.                                       
+  27     Call to method setUp() of deprecated class                              
+         Drupal\simpletest\KernelTestBase.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Tests/RdfUiContentMappingTest.php                                
+ ------ --------------------------------------------------------------------- 
+  14     Class Drupaldfui\Tests\RdfUiContentMappingTest extends deprecated  
+         class Drupal
+ode\Tests\NodeTestBase.                                
+  51     Call to deprecated function entity_load().                           
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

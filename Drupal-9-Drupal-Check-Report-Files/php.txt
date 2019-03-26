@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/php e5c1c4047f5f1522e5d630bca93d50c61ef6a2c0
+source : https://git.drupal.org/project/php.git 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Tests/PhpFilterTest.php                 
+ ------ -------------------------------------------- 
+  17     Call to deprecated function entity_load().  
+  38     Call to deprecated method link() of class   
+         Drupal\CorentityntityInterface.         
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/Plugin/views/PhpArgumentValidatorTest.php                   
+ ------ ---------------------------------------------------------------------- 
+  16     Class Drupal\php\Tests\Pluginiews\PhpArgumentValidatorTest extends  
+         deprecated class Drupaliews\Tests\ViewKernelTestBase.               
+  36     Call to method setUp() of deprecated class                            
+         Drupaliews\Tests\ViewKernelTestBase.                                
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

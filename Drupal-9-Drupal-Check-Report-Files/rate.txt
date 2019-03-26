@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rate 18343663437fdb1168be60235636aab568572252
+source : http://cgit.drupalcode.org/rate 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/RateBotDetector.php                            
+ ------ --------------------------------------------------- 
+  170    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/RateWidgetTest.php            
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

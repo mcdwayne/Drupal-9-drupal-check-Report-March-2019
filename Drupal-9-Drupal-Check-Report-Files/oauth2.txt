@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/oauth2 22d7e5d0c3f8472def0d683e2a3a925cb26b65be
+source : http://cgit.drupalcode.org/oauth2 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/OAuth2ControllerTest.php        
+ ------ ----------------------------------------------------- 
+  48     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  49     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

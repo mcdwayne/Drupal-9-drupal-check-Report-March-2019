@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/replication 97e602742a80ad979fe2f2234150bf15a6cb1b66
+source : http://cgit.drupalcode.org/replication 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/Normalizer/BulkDocsNormalizerTest.php      
+ ------ ------------------------------------------------------------ 
+  107    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/ReplicationFilter/EntityTypeFilterTest.php         
+ ------ ------------------------------------------------------------------------- 
+  39     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/ReplicationFilter/UuidFilterTest.php               
+ ------ ------------------------------------------------------------------------- 
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

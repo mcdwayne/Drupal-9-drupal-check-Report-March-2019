@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/vimeo_video_uploader 8.x-4.0
+source : http://cgit.drupalcode.org/vimeo_video_uploader 
+ 
+ <code> 
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/vendor/autoload.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/vimeo_video_uploader/vimeo_video_uploader.module on line 9
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/vendor/autoload.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/vimeo_video_uploader/vimeo_video_uploader.module on line 9
+
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/VimeoSettingsForm.php                          
+ ------ -------------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().       
+  146    Call to deprecated function entity_get_form_display().  
+  152    Call to deprecated function entity_get_display().       
+  174    Call to deprecated function entity_get_form_display().  
+  181    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   vimeo_video_uploader.module                        
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  91     Call to deprecated function drupal_set_message().  
+  103    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

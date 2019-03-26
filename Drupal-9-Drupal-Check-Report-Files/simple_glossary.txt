@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_glossary 773e9b291322be11b73b0a1d8863ccb81099b06a
+source : http://cgit.drupalcode.org/simple_glossary 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Controller/SimpleGlossaryFrontEndController.php                     
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\simple_glossary\Controller\SimpleGlossaryFrontendController was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleGlossaryConfigForm.php              
+ ------ --------------------------------------------------- 
+  137    Call to deprecated function drupal_set_message().  
+  145    Call to deprecated function db_update().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleGlossaryCrudForm.php                
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function db_insert().           
+  154    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function db_update().           
+  161    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function db_delete().           
+  166    Call to deprecated function drupal_set_message().  
+  179    Call to deprecated function db_select().           
+  253    Call to deprecated function db_select().           
+  286    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Form/SimpleGlossaryForm.php          
+ ------ ----------------------------------------- 
+  113    Call to deprecated function db_query().  
+  116    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleGlossaryUploadCSVForm.php           
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated function db_insert().           
+  149    Call to deprecated function db_update().           
+  163    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webfactory 60da6c77de58a470995b3880e1ee9e85b3aab2ca
+source : http://cgit.drupalcode.org/webfactory 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   webfactory_master/src/ChannelEntityListBuilder.php  
+ ------ ---------------------------------------------------- 
+  26     Call to deprecated method getLabel() of class       
+         Drupal\CorentityntityListBuilder.               
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   webfactory_master/src/Form/ChannelEntityDeleteForm.php  
+ ------ -------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   webfactory_master/src/Form/ChannelEntityEditForm.php  
+ ------ ------------------------------------------------------ 
+  144    Call to deprecated function drupal_set_message().     
+  150    Call to deprecated function drupal_set_message().     
+  155    Call to deprecated method urlInfo() of class          
+         Drupal\Core\Configntity\ConfigEntityBase.           
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   webfactory_master/src/Form/ChannelEntityForm.php   
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   webfactory_master/src/Form/SatelliteEntityDeleteForm.php  
+ ------ ---------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   webfactory_master/src/Form/SatelliteEntityForm.php  
+ ------ ---------------------------------------------------- 
+  356    Call to deprecated function drupal_set_message().   
+  362    Call to deprecated function drupal_set_message().   
+  367    Call to deprecated method urlInfo() of class        
+         Drupal\Core\Configntity\ConfigEntityBase.         
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   webfactory_master/src/SatelliteEntityListBuilder.php  
+ ------ ------------------------------------------------------ 
+  59     Call to deprecated method urlInfo() of class          
+         Drupal\CorentityntityInterface.                   
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   webfactory_slave/src/Form/TableEntitiesForm.php    
+ ------ --------------------------------------------------- 
+  314    Call to deprecated function drupal_set_message().  
+  337    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   webfactory_slave/src/Services/MasterRestClient.php  
+ ------ ---------------------------------------------------- 
+  149    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

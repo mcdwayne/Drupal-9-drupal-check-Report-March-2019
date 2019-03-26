@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/recurring_period 7ef311cbe07d8f4bb5ff816e3c84c8c09cb881e8
+source : http://cgit.drupalcode.org/recurring_period 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/DateTime/Period.php                                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalecurring_period\Datetime\Period was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/RecurringPeriod/RecurringPeriodBase.php                       
+ ------ ------------------------------------------------------------------------- 
+  136    Call to deprecated method calculateDate() of class                       
+         Drupalecurring_period\Plugin\RecurringPeriod\RecurringPeriodInterface  
+         .                                                                        
+  150    Call to deprecated method calculateDate() of class                       
+         Drupalecurring_period\Plugin\RecurringPeriod\RecurringPeriodInterface  
+         .                                                                        
+  161    Call to deprecated method calculateDate() of class                       
+         Drupalecurring_period\Plugin\RecurringPeriod\RecurringPeriodInterface  
+         .                                                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/FixedReferenceDateIntervalTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  31     Call to deprecated method calculateDate() of class                       
+         Drupalecurring_period\Plugin\RecurringPeriod\RecurringPeriodInterface  
+         .                                                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/RollingIntervalTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  107    Call to deprecated method calculateDate() of class                       
+         Drupalecurring_period\Plugin\RecurringPeriod\RecurringPeriodInterface  
+         .                                                                        
+  132    Call to deprecated method calculateDate() of class                       
+         Drupalecurring_period\Plugin\RecurringPeriod\RecurringPeriodInterface  
+         .                                                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

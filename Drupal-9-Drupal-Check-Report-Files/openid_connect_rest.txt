@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openid_connect_rest 800253acb1cb814f6b0d979cf0bff359b888e1ad
+source : http://cgit.drupalcode.org/openid_connect_rest 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Controller/ApiController.php                                
+ ------ ---------------------------------------------------------------- 
+  402    Call to deprecated function openid_connect_save_destination().  
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthorizationMapping/DeleteForm.php       
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StateToken/DeleteForm.php                 
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/OpenIDConnectRESTClient/Facebook.php                       
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\openid_connect_rest\Plugin\OpenIDConnectClient\Facebook  
+         not found and could not be autoloaded.                                
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/OpenIDConnectRESTClient/Generic.php                      
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\openid_connect\Plugin\OpenIDConnectClient\Generic not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/OpenIDConnectRESTClient/Google.php                            
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\openid_connect\Plugin\OpenIDConnectClient\Google not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/OpenIDConnectRESTClient/Linkedin.php                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\openid_connect\Plugin\OpenIDConnectClient\Linkedin not  
+         found and could not be autoloaded.                                   
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

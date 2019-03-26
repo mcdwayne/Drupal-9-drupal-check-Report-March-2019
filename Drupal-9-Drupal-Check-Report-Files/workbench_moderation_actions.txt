@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workbench_moderation_actions ed4601373edfdb5ea1306af74f0e825a0c64f5a1
+source : http://cgit.drupalcode.org/workbench_moderation_actions 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/StateChange.php                     
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Action/StateChange.php                  
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/private_message 2d033cdff13783cc97af81d24a97a7753d162a7a
+source : https://cgit.drupalcode.org/private_message 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   private_message.module                                      
+ ------ ------------------------------------------------------------ 
+  22     Call to deprecated method entityManager() of class Drupal.  
+  46     Call to deprecated method entityManager() of class Drupal.  
+  56     Call to deprecated method entityManager() of class Drupal.  
+  80     Call to deprecated method entityManager() of class Drupal.  
+  90     Call to deprecated method entityManager() of class Drupal.  
+  100    Call to deprecated method entityManager() of class Drupal.  
+  123    Call to deprecated method entityManager() of class Drupal.  
+  382    Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   private_message.tokens.inc                  
+ ------ -------------------------------------------- 
+  133    Call to deprecated function format_date().  
+  160    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   src/Entity/Access/PrivateMessageThreadAccessTimeAccessControlHandler.php  
+ ------ -------------------------------------------------------------------------- 
+         Class                                                                     
+         Drupal\private_messagentity\Access\PrivateMessageThreadAccessAccessCo   
+         ntrolHandler was not found while trying to analyse it - autoloading is    
+         probably not configured properly.                                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AdminUninstallForm.php                             
+ ------ ------------------------------------------------------------ 
+  117    Call to deprecated method entityManager() of class Drupal.  
+  129    Call to deprecated method entityManager() of class Drupal.  
+  141    Call to deprecated method entityManager() of class Drupal.  
+  153    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

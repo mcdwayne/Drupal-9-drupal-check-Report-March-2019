@@ -1,0 +1,87 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_civicrm 823e673f618a8d64a91a20955c46078760256a12
+source : http://cgit.drupalcode.org/webform_civicrm 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   includes/contact_component.inc                     
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function node_load().           
+  66     Call to deprecated function drupal_set_message().  
+  365    Call to deprecated function node_load().           
+  692    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/wf_crm_admin_component.inc                                      
+ ------ ------------------------------------------------------------------------- 
+         Class wf_crm_admin_component was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/wf_crm_admin_form.inc                                      
+ ------ -------------------------------------------------------------------- 
+         Class wf_crm_admin_form was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/wf_crm_admin_help.inc                                      
+ ------ -------------------------------------------------------------------- 
+         Class wf_crm_admin_help was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   includes/wf_crm_webform_ajax.inc                                      
+ ------ ---------------------------------------------------------------------- 
+         Class wf_crm_webform_ajax was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   includes/wf_crm_webform_base.inc                                      
+ ------ ---------------------------------------------------------------------- 
+         Class wf_crm_webform_base was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   includes/wf_crm_webform_postprocess.inc                                 
+ ------ ------------------------------------------------------------------------ 
+         Class wf_crm_webform_postprocess was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   includes/wf_crm_webform_preprocess.inc                                 
+ ------ ----------------------------------------------------------------------- 
+         Class wf_crm_webform_preprocess was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/WebformHandler/CivicrmWebformHandler.php                    
+ ------ ----------------------------------------------------------------------- 
+  36     Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupal\webform_civicrm\Plugin\WebformHandler\CivicrmWebformHandler.    
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   webform_civicrm.module                    
+ ------ ------------------------------------------ 
+  403    Call to deprecated function db_query().   
+  439    Call to deprecated function db_query().   
+  441    Call to deprecated function node_load().  
+  461    Call to deprecated function db_update().  
+  466    Call to deprecated function db_query().   
+  629    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

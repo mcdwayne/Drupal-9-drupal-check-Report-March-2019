@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_subscription 4b99600ea7fc3fc65a0f23e124edee071896d189
+source : http://cgit.drupalcode.org/node_subscription 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   node_subscription.module                           
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NodeSubscriptionStorageForm.php           
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscribeForm.php                         
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Plugin/Block/SubscribeBlock.php                             
+ ------ ---------------------------------------------------------------- 
+         Internal error: Unexpected token "", expected '*/' at offset 7  
+         Run PHPStan with --debug option and post the stack trace to:    
+         https://github.com/phpstan/phpstan/issues/new                   
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

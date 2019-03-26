@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/path_redirect_import cc3f6b3f05f07851f4fc7193d20cd4181793e5fb
+source : http://cgit.drupalcode.org/path_redirect_import 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RedirectImportForm.php                    
+ ------ --------------------------------------------------- 
+  131    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/ImporterService.php                                     
+ ------ ------------------------------------------------------------ 
+  37     Call to deprecated function drupal_set_message().           
+  42     Call to deprecated function drupal_set_message().           
+  81     Call to deprecated function drupal_set_message().           
+  123    Call to deprecated function drupal_set_message().           
+  246    Call to deprecated function drupal_set_message().           
+  384    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/Functional/RedirectImportTest.php                            
+ ------ ----------------------------------------------------------------------- 
+  15     Class Drupal\path_redirect_import\Tests\Functional\RedirectImportTest  
+         extends deprecated class Drupal\search\Tests\SearchTestBase.           
+  65     Call to method setUp() of deprecated class                             
+         Drupal\search\Tests\SearchTestBase.                                    
+  131    Call to deprecated function drupal_realpath().                         
+  139    Call to deprecated function format_string().                           
+  140    Call to deprecated function format_string().                           
+  141    Call to deprecated function format_string().                           
+  142    Call to deprecated function format_string().                           
+  144    Call to deprecated function format_string().                           
+  145    Call to deprecated function format_string().                           
+  146    Call to deprecated function format_string().                           
+  147    Call to deprecated function format_string().                           
+  148    Call to deprecated function format_string().                           
+  149    Call to deprecated function format_string().                           
+  150    Call to deprecated function format_string().                           
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

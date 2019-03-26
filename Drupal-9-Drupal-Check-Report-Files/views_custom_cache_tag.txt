@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_custom_cache_tag 066aec83d08d8fdc1b60e96cc650d5632da4afeb
+source : http://cgit.drupalcode.org/views_custom_cache_tag 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/cache/CustomTag.php               
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/CustomCacheTagsTest.php                                       
+ ------ ------------------------------------------------------------------------ 
+  25     Usage of deprecated trait                                               
+         Drupal\system\Tests\Cache\AssertPageCacheContextsAndTagsTrait in class  
+         Drupaliews_custom_cache_tag\Tests\CustomCacheTagsTest.                
+  160    Call to deprecated method format() of class                             
+         Drupal\Component\Utility\SafeMarkup.                                    
+  160    Call to method format() of deprecated class                             
+         Drupal\Component\Utility\SafeMarkup.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

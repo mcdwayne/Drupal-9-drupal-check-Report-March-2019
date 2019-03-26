@@ -1,0 +1,151 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wechat ba04368d06039166c83998571015bf9789c4bdcc
+source : http://cgit.drupalcode.org/wechat 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/wechat_menu/src/Controller/WechatMenuController.php  
+ ------ ------------------------------------------------------------- 
+  37     Call to deprecated method entityManager() of class Drupal.   
+  59     Call to deprecated method entityManager() of class Drupal.   
+ ------ ------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/wechat_menu/src/Form/WechatMenuItemDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  17     Call to deprecated method urlInfo() of class               
+         Drupal\CorentityntityInterface.                        
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/wechat_menu/src/Form/WechatMenuItemForm.php         
+ ------ ------------------------------------------------------------ 
+  89     Call to deprecated method entityManager() of class Drupal.  
+  286    Call to deprecated function drupal_set_message().           
+  293    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/wechat_menu/src/Form/WechatMenuSyncForm.php         
+ ------ ------------------------------------------------------------ 
+  51     Call to deprecated function drupal_set_message().           
+  57     Call to deprecated function drupal_set_message().           
+  60     Call to deprecated function drupal_set_message().           
+  78     Call to deprecated method entityManager() of class Drupal.  
+  94     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/wechat_menu/wechat_menu.module                      
+ ------ ------------------------------------------------------------ 
+  17     Call to deprecated method entityManager() of class Drupal.  
+  111    Call to deprecated method entityManager() of class Drupal.  
+  166    Call to deprecated function drupal_render_root().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/WechatResponseMessageForm.php                      
+ ------ ------------------------------------------------------------ 
+  58     Call to deprecated method entityManager() of class Drupal.  
+  98     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/display/WechatResponse.php                          
+ ------ --------------------------------------------------------------------- 
+  108    Call to deprecated function drupal_render_root().                    
+  122    Call to deprecated method applyDisplayCachablityMetadata() of class  
+         Drupaliews\Pluginiews\display\DisplayPluginBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/views/field/EntityAbsoluteURL.php  
+ ------ ---------------------------------------------- 
+  44     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/WechatRequestMessageListBuilder.php   
+ ------ ------------------------------------------ 
+  42     Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/WechatRequestMessageTypeForm.php               
+ ------ --------------------------------------------------- 
+  75     Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  78     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/WechatRequestMessageTypeListBuilder.php  
+ ------ --------------------------------------------- 
+  46     Call to deprecated method link() of class    
+         Drupal\CorentityntityInterface.          
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/WechatResponseMessageListBuilder.php  
+ ------ ------------------------------------------ 
+  42     Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/WechatResponseMessageTypeForm.php              
+ ------ --------------------------------------------------- 
+  75     Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  78     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/WechatResponseMessageTypeListBuilder.php  
+ ------ ---------------------------------------------- 
+  46     Call to deprecated method link() of class     
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/WechatUserListBuilder.php             
+ ------ ------------------------------------------ 
+  42     Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/sdk/wechat.class.php                                                
+ ------ ------------------------------------------------------------------------ 
+         Class Wechat was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   wechat.module                                               
+ ------ ------------------------------------------------------------ 
+  59     Call to deprecated method entityManager() of class Drupal.  
+  85     Call to deprecated function drupal_mkdir().                 
+  108    Call to deprecated function drupal_mkdir().                 
+  123    Call to deprecated function drupal_mkdir().                 
+  140    Call to deprecated function drupal_mkdir().                 
+  188    Call to deprecated method entityManager() of class Drupal.  
+  232    Call to deprecated function db_query().                     
+  249    Call to deprecated function db_delete().                    
+  253    Call to deprecated function db_insert().                    
+  313    Call to deprecated method entityManager() of class Drupal.  
+  323    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 44 errors                                                         
+
+ </code>

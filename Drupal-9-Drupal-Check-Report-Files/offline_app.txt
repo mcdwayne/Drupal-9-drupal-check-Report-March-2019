@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/offline_app 58d98d2effb5141104d10c6aead2b026fc68eac2
+source : http://git.drupal.org/project/offline_app.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AppCacheController.php              
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().  
+  120    Call to deprecated function drupal_set_message().  
+  124    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+  312    Call to deprecated function drupal_set_message().  
+  315    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/DsField/OfflineNodeTitle.php                          
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\Title not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

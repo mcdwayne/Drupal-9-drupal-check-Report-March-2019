@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/proconcom e3c9bd18093ff3c5fe07c9fbb6a33b7580d5c31c
+source : http://cgit.drupalcode.org/proconcom 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/proconcom_views_handler_argument_parent_nid.inc                 
+ ------ ------------------------------------------------------------------------- 
+         Class proconcom_views_handler_argument_parent_nid was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   proconcom.module                                            
+ ------ ------------------------------------------------------------ 
+  61     Call to deprecated function db_select().                    
+  88     Call to deprecated function db_insert().                    
+  99     Call to deprecated function db_insert().                    
+  113    Call to deprecated function db_delete().                    
+  117    Call to deprecated function db_insert().                    
+  128    Call to deprecated function db_insert().                    
+  144    Call to deprecated function db_delete().                    
+  345    Call to deprecated method entityManager() of class Drupal.  
+  432    Call to deprecated method entityManager() of class Drupal.  
+  449    Call to deprecated method entityManager() of class Drupal.  
+  451    Call to deprecated function comment_view().                 
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/proconcom_views_handler_argument_parent_nid.php                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\proconcomiews_handler_argument_numeric not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

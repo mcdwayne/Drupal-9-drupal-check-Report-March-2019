@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scheduled_message 6fb725fb27c4672876217a7ac851c876f14feddd
+source : http://cgit.drupalcode.org/scheduled_message 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/EntityTypeSubscriber.php       
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduledMessageDeleteForm.php            
+ ------ --------------------------------------------------- 
+  44     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+  70     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduledMessageFormBase.php              
+ ------ --------------------------------------------------- 
+  115    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  154    Call to deprecated function drupal_set_message().  
+  155    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

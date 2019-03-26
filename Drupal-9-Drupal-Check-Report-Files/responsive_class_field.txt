@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/responsive_class_field b881ea96a7ee72e8d17d61383244800da5651d2f
+source : http://cgit.drupalcode.org/responsive_class_fieldk 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/ResponsiveClassItem.php  
+ ------ ---------------------------------------------------- 
+  286    Call to deprecated method strlen() of class         
+         Drupal\Component\Utility\Unicode.                   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

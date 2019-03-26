@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/multiplechoice 5c166203644212a2510c546dc669d924ebe32f78
+source : http://cgit.drupalcode.org/multiplechoice 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MultipleChoiceForm.php                    
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated function entity_load().         
+  153    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/MultiplechoiceFormatter.php  
+ ------ ------------------------------------------------------------- 
+  268    Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/MultiplechoiceSettingsTrait.php (in context of class Drupal\multiplechoice\Plugin\Field\FieldFormatter\MultiplechoiceFormatter)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  12     Calls to function dpm should not exist.                                                                                                     
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/MultiplechoiceSettingsTrait.php (in context of class Drupal\multiplechoice\Plugin\Field\FieldType\MultiplechoiceItem)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  12     Calls to function dpm should not exist.                                                                                           
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/ResultLinkDelete.php                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\multiplechoice\Pluginiewsield\RevisionLink not found  
+         and could not be autoloaded.                                           
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

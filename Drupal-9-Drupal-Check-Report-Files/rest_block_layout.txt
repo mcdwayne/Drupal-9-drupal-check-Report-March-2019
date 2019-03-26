@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rest_block_layout 6a9a38266d5b033a34664c7e3b2b545922f4a558
+source : http://cgit.drupalcode.org/rest_block_layout 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/BlockLayoutTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  13     Class Drupal\Testsest_block_layout\Functional\BlockLayoutTest extends  
+         deprecated class Drupal\simpletest\BrowserTestBase.                      
+  26     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  91     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  95     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  105    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

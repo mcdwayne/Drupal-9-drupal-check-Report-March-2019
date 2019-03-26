@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/opigno_migration 0fdbc35c933648b6948cb815cab948ea89920aef
+source : http://cgit.drupalcode.org/opigno_migration 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   opigno_migration.module                            
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/EventSubscriber/GroupsMigrateSubscriber.php  
+ ------ ------------------------------------------------- 
+  66     Call to deprecated function user_load().         
+  496    Call to deprecated function entity_create().     
+  586    Call to deprecated function entity_create().     
+  609    Call to deprecated function entity_create().     
+  632    Call to deprecated function entity_create().     
+  654    Call to deprecated function entity_create().     
+  676    Call to deprecated function entity_create().     
+  699    Call to deprecated function entity_create().     
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/H5PMigrationClasses/H5PEditorAjaxMigrate.php            
+ ------ ------------------------------------------------------------ 
+         Class H5PEditorAjax not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   src/H5PMigrationClasses/H5PStorageMigrate.php            
+ ------ --------------------------------------------------------- 
+         Class H5PStorage not found and could not be autoloaded.  
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/H5PMigrationClasses/H5PValidatorMigration.php          
+ ------ ----------------------------------------------------------- 
+         Class H5PValidator not found and could not be autoloaded.  
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/migrate/source/ActivityH5P.php                   
+ ------ ------------------------------------------------------------ 
+         Class H5PEditorAjax not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/migrate/source/ModuleLesson.php    
+ ------ ---------------------------------------------- 
+  145    Call to deprecated function entity_load().    
+  147    Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

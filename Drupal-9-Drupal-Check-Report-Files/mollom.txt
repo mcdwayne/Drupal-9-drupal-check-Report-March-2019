@@ -1,0 +1,264 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mollom 8489ffc2fd1566cd0feb19840e7b48220a3db751
+source : http://cgit.drupalcode.org/mollom 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   mollom.module                                               
+ ------ ------------------------------------------------------------ 
+  147    Call to deprecated method substr() of class                 
+         Drupal\Component\Utility\Unicode.                           
+  169    Call to deprecated function drupal_set_message().           
+  300    Call to deprecated function drupal_set_message().           
+  449    Call to deprecated function db_query().                     
+  640    Call to deprecated function drupal_get_profile().           
+  691    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/API/DrupalClient.php                           
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_get_profile().  
+  242    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/API/FeedbackManager.php                        
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FormController.php                           
+ ------ ------------------------------------------------------------ 
+  233    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  443    Call to deprecated method entityManager() of class Drupal.  
+  712    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  712    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  725    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  725    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  753    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  753    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  762    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  762    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FormListBuilder.php                 
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Element/Mollom.php                           
+ ------ ------------------------------------------------- 
+  83     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/EntityReportAccessManager.php                           
+ ------ ------------------------------------------------------------ 
+  35     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/Subscriber.php                 
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlacklistEntryDelete.php                  
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  36     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlacklistEntryFormBase.php                
+ ------ --------------------------------------------------- 
+  146    Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormDelete.php                            
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormFormBase.php                          
+ ------ --------------------------------------------------- 
+  374    Call to deprecated function drupal_set_message().  
+  379    Call to deprecated function drupal_set_message().  
+  404    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/ReportForm.php                                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\mollom\Form\MollomReportForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Settings.php                              
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+  205    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/ActionsTest.php                                   
+ ------ ------------------------------------------------------------ 
+  58     Call to deprecated method entityManager() of class Drupal.  
+  87     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/AnalysisOptionsTest.php                           
+ ------ ------------------------------------------------------------ 
+  232    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/BlacklistTest.php                      
+ ------ ------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  88     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  186    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  206    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/CommentFormTest.php                               
+ ------ ------------------------------------------------------------ 
+  246    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/FormConfigurationTest.php                         
+ ------ ------------------------------------------------------------ 
+  322    Call to deprecated method entityManager() of class Drupal.  
+  350    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/ModerateUserTest.php                              
+ ------ ------------------------------------------------------------ 
+  101    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/MollomTestBase.php                                
+ ------ ------------------------------------------------------------ 
+  513    Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  513    Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  539    Call to deprecated method entityManager() of class Drupal.  
+  896    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/ReportingTest.php                                 
+ ------ ------------------------------------------------------------ 
+  37     Call to deprecated method entityManager() of class Drupal.  
+  78     Call to deprecated method entityManager() of class Drupal.  
+  203    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/UserFormsTest.php                                 
+ ------ ------------------------------------------------------------ 
+  51     Call to deprecated method entityManager() of class Drupal.  
+  109    Call to deprecated method entityManager() of class Drupal.  
+  161    Call to deprecated method entityManager() of class Drupal.  
+  223    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  225    Call to deprecated function entity_create().                
+  231    Call to deprecated function entity_create().                
+  239    Call to deprecated function entity_get_form_display().      
+  243    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/Utility/Logger.php                       
+ ------ --------------------------------------------- 
+  271    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  271    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Utility/MollomUtilities.php                    
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function db_query_range().      
+  217    Call to deprecated function drupal_set_message().  
+  247    Call to deprecated function drupal_set_message().  
+  258    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/modules/mollom_test/mollom_test.module                
+ ------ ------------------------------------------------------------ 
+  87     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/modules/mollom_test/src/Form/PostDeleteForm.php  
+ ------ ------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/modules/mollom_test/src/Form/PostForm.php    
+ ------ --------------------------------------------------- 
+  40     Call to deprecated method l() of class Drupal.     
+  145    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/modules/mollom_test_server/src/ServerController.php  
+ ------ ----------------------------------------------------------- 
+  238    Call to deprecated method strtolower() of class            
+         Drupal\Component\Utility\Unicode.                          
+ ------ ----------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInitfc0313a8046fdb97b2688271291fa80e was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/mollom/client/src/Tests/Unit/ClientTest.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 74 errors                                                         
+
+ </code>

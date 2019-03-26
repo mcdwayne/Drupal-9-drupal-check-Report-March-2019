@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/packery 80215b6be0f35d96c9597cf6681af16ac5a0e459
+source : http://cgit.drupalcode.org/packery 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   modules/views/theme/packery_views.theme.inc   
+ ------ ---------------------------------------------- 
+  37     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PackeryGroupDeleteForm.php                
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PackeryGroupForm.php                      
+ ------ --------------------------------------------------- 
+  172    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   theme/packery.theme.inc                       
+ ------ ---------------------------------------------- 
+  51     Call to deprecated function drupal_render().  
+  76     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

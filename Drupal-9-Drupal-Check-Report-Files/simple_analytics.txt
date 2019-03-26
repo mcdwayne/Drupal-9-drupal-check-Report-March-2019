@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_analytics 8.x-2.3-rc1
+source : http://git.drupal.org/project/simple_analytics.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/simple_analytics_event/src/SimpleAnalyticsTracker.php  
+ ------ --------------------------------------------------------------- 
+  22     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/SimpleAnalyticsLive.php           
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

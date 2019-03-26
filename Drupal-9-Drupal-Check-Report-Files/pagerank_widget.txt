@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pagerank_widget ae57c655a38ec4229b0a7131a92acc77e0ecad50
+source : http://cgit.drupalcode.org/pagerank_widget 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/pagerank_widget/Form/PagerankSettingsForm.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\pagerank_widget\Form\PagerankSettingsForm was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/pagerank_widget/Plugin/Block/PagerankWidgetFancyBlock.php    
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\pagerank_widget\Plugin\Block\PagerankWidgetFancyBlock was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

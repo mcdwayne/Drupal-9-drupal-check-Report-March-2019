@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/selz d03038a26408e299a3dae012fb8eb82a6e2e77e9
+source : http://cgit.drupalcode.org/selz 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/SelzFormatter.php  
+ ------ --------------------------------------------------- 
+  146    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  146    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  147    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  147    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  177    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  177    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  178    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  178    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  179    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  179    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  180    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  180    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  184    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  184    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rokka b89a8acebe1a1f0ab6ace4395e0ee684c7ba13f3
+source : http://cgit.drupalcode.org/rokka 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RokkaMetadataForm.php                     
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RokkaStackDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RokkaStackForm.php                        
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/RokkaStreamWrapper.php                         
+ ------ --------------------------------------------------- 
+  639    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

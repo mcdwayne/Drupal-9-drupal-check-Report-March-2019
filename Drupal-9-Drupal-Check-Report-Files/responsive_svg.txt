@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/responsive_svg cd58032743d1be20c1e98cfb5fc302f4ba0da184
+source : http://cgit.drupalcode.org/responsive_svg 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                            
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ResponsiveSvgTwigExtension.php                 
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

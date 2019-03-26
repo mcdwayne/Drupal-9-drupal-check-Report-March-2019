@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/phpmailer 950f2afffb61a8a706e75d785fc55a57b2acf64a
+source : http://cgit.drupalcode.org/phpmailer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   includes/phpmailer.mimemail.inc                    
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   phpmailer.module                                
+ ------ ------------------------------------------------ 
+  25     Call to deprecated method l() of class Drupal.  
+  32     Call to deprecated method l() of class Drupal.  
+  59     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  285    Call to deprecated function drupal_set_message().  
+  302    Call to deprecated function drupal_set_message().  
+  352    Call to deprecated method l() of class Drupal.     
+  353    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Mail/DrupalPHPMailer.php                
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,92 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wsdata 8.x-1.0-beta2
+source : https://github.com/spotzero/wsdata/tree/8.x-1.x 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/wsdata_block/src/Plugin/Block/WSDataBlock.php  
+ ------ ------------------------------------------------------- 
+  55     Call to deprecated function entity_load().             
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/wsdata_field/src/Form/WSFieldAddFieldForm.php  
+ ------ ------------------------------------------------------- 
+  231    Call to deprecated function drupal_set_message().      
+  241    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/wsdata_field/src/Form/WSFieldConfigForm.php  
+ ------ ----------------------------------------------------- 
+  52     Call to deprecated function entity_load().           
+  56     Call to deprecated function entity_load().           
+  101    Call to deprecated function entity_load().           
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/wsdata_field/src/Plugin/views/field/WSDataFieldsViews.php  
+ ------ ------------------------------------------------------------------- 
+  50     Call to deprecated function entity_load().                         
+  51     Call to deprecated function entity_load().                         
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/wsdata_field/wsdata_field.module             
+ ------ ----------------------------------------------------- 
+  15     Call to deprecated function entity_load().           
+  43     Call to deprecated function entity_load().           
+  66     Call to deprecated function entity_load().           
+  99     Call to deprecated function entity_load().           
+  117    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Entity/WSCall.php                       
+ ------ -------------------------------------------- 
+  75     Call to deprecated function entity_load().  
+  187    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WSCallDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/WSCallForm.php                              
+ ------ ----------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().    
+  88     Call to deprecated function entity_load_multiple().  
+  196    Call to deprecated function drupal_set_message().    
+  202    Call to deprecated function drupal_set_message().    
+  206    Call to deprecated method urlInfo() of class         
+         Drupal\CorentityntityInterface.                  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WSServerDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WSServerForm.php                          
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+  106    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/WSCallListBuilder.php                       
+ ------ ------------------------------------------------ 
+  26     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

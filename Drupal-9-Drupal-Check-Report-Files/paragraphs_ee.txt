@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_ee 4e602d72662b89c0cf0bec39ed9a69dfdf39652c
+source : http://cgit.drupalcode.org/paragraphs_ee 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParagraphsCategoryDeleteForm.php          
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParagraphsCategoryForm.php                
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

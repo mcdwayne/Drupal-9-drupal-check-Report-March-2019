@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ descrip. : Provides a user interface to manage REST resources
+source   : [git] https://git.drupal.org/project/restui 94314928a625262a254dcd99c72f90712568d50b
+source : http://cgit.drupalcode.org/restui 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Functional/RestUITest.php                                 
+ ------ -------------------------------------------------------------------- 
+  13     Class Drupal\Testsestui\Functional\RestUITest extends deprecated  
+         class Drupal\FunctionalJavascriptTests\JavascriptTestBase.          
+  24     Call to method setUp() of deprecated class                          
+         Drupal\Tests\BrowserTestBase.                                       
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

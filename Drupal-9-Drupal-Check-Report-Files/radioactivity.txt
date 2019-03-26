@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/radioactivity 2daa73261abecb07539efe055a43a3a6bb8900c3
+source : http://cgit.drupalcode.org/radioactivity 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/RadioactivityFunctionalJavascriptTestBase.php  
+ ------ ------------------------------------------------------------------------------ 
+  11     Class                                                                         
+         Drupal\Testsadioactivity\FunctionalJavascript\RadioactivityFunctional       
+         JavascriptTestBase extends deprecated class                                   
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                          
+  46     Call to method setUp() of deprecated class                                    
+         Drupal\Tests\BrowserTestBase.                                                 
+ ------ ------------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

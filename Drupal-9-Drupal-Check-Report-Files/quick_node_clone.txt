@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quick_node_clone f06e4252ebfe7cd91b4f02b89f9197bdae9bc4a6
+source : https://cgit.drupalcode.org/quick_node_clone 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuickNodeCloneNodeForm.php                
+ ------ --------------------------------------------------- 
+  42     Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  56     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/QuickNodeCloneExcludeParagraphFieldsTests.php                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\paragraphs\Tests\Classic\ParagraphsTestBase not found and  
+         could not be autoloaded.                                                
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,164 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workbench_access 2b7e85186613316ae1e0d2bdcdbfc8af670daaa6
+source : http://cgit.drupalcode.org/workbench_access 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/ViewsOutputTest.php                 
+ ------ --------------------------------------------------------- 
+  135    Call to deprecated method assertNoLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  141    Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+  148    Call to deprecated method assertNoLink() of class        
+         Drupal\Tests\BrowserTestBase.                            
+  154    Call to deprecated method assertLink() of class          
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/ViewsUserOutputTest.php             
+ ------ --------------------------------------------------------- 
+  150    Call to deprecated method assertNoLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  156    Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Functional\AccessByRoleFormTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                          
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                               
+         Drupal\Tests\workbench_access\Functional\AccessByRoleFormTest.                                                                     
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Functional\AccessByUserFormTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                          
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                               
+         Drupal\Tests\workbench_access\Functional\AccessByUserFormTest.                                                                     
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Functional\AssignUserFormTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                        
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                             
+         Drupal\Tests\workbench_access\Functional\AssignUserFormTest.                                                                     
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Functional\NodeFormMenuTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                      
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                           
+         Drupal\Tests\workbench_access\Functional\NodeFormMenuTest.                                                                     
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Functional\NodeFormTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                  
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                       
+         Drupal\Tests\workbench_access\Functional\NodeFormTest.                                                                     
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Functional\TaxonomySchemeUITest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                          
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                               
+         Drupal\Tests\workbench_access\Functional\TaxonomySchemeUITest.                                                                     
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\ConfigDependenciesTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                        
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                             
+         Drupal\Tests\workbench_access\Kernel\ConfigDependenciesTest.                                                                     
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\KernelntityTestAccessTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                      
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                           
+         Drupal\Tests\workbench_access\KernelntityTestAccessTest.                                                                     
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\FilterAccessTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                  
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                       
+         Drupal\Tests\workbench_access\Kernel\FilterAccessTest.                                                                     
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\FlushTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                           
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                
+         Drupal\Tests\workbench_access\Kernel\FlushTest.                                                                     
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\InlineEntityFormTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                      
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                           
+         Drupal\Tests\workbench_access\Kernel\InlineEntityFormTest.                                                                     
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\NodeAccessTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                     
+         Drupal\Tests\workbench_access\Kernel\NodeAccessTest.                                                                     
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\NodeMenuTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                              
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                   
+         Drupal\Tests\workbench_access\Kernel\NodeMenuTest.                                                                     
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\SectionCacheTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                  
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                       
+         Drupal\Tests\workbench_access\Kernel\SectionCacheTest.                                                                     
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WorkbenchAccessTestTrait.php (in context of class Drupal\Tests\workbench_access\Kernel\TaxonomyAccessTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                                                                    
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                                                         
+         Drupal\Tests\workbench_access\Kernel\TaxonomyAccessTest.                                                                     
+ ------ ----------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   workbench_access.post_update.php                                        
+ ------ ------------------------------------------------------------------------ 
+  79     Fetching deprecated class constant WORKBENCH_ACCESS_ROLES_STATE_PREFIX  
+         of class Drupal\workbench_access\RoleSectionStorageInterface.           
+  80     Fetching deprecated class constant WORKBENCH_ACCESS_ROLES_STATE_PREFIX  
+         of class Drupal\workbench_access\RoleSectionStorageInterface.           
+  124    Fetching deprecated class constant WORKBENCH_ACCESS_ROLES_STATE_PREFIX  
+         of class Drupal\workbench_access\RoleSectionStorageInterface.           
+  125    Fetching deprecated class constant WORKBENCH_ACCESS_ROLES_STATE_PREFIX  
+         of class Drupal\workbench_access\RoleSectionStorageInterface.           
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

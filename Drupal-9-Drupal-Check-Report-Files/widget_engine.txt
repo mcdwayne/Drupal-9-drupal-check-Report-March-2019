@@ -1,0 +1,156 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/widget_engine 0de9df780a374eeae71c1de66a81910549f5cb40
+source : https://www.drupal.org/project/widget_engine 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------------------------------- 
+  Line   modules/widget_engine_domain_access/src/Plugin/views/filter/WidgetEngineDomainAccessCurrentAllFilter.php  
+ ------ ---------------------------------------------------------------------------------------------------------- 
+         Class                                                                                                     
+         Drupal\domain_access\Pluginiewsilter\DomainAccessCurrentAllFilter                                     
+         not found and could not be autoloaded.                                                                    
+ ------ ---------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/widget_engine_domain_access/src/WidgetEngineDomainAccessManager.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Drupal\domain_access\DomainAccessManager not found and could not       
+         be autoloaded.                                                               
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   modules/widget_engine_domain_access/tests/src/Functional/WidgetEngineDomainBaseTest.php  
+ ------ ----------------------------------------------------------------------------------------- 
+  14     Class Drupal\Tests\domain\Traits\DomainTestTrait not found and could                     
+         not be autoloaded.                                                                       
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------- 
+  Line   modules/widget_engine_domain_access/tests/src/Kernel/WidgetEngineDomainAccessPermissionsTest.php  
+ ------ -------------------------------------------------------------------------------------------------- 
+  12     Class Drupal\Tests\domain\Traits\DomainTestTrait not found and could                              
+         not be autoloaded.                                                                                
+ ------ -------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/widget_engine_domain_access/widget_engine_domain_access.module  
+ ------ ------------------------------------------------------------------------ 
+  271    Call to deprecated function entity_get_form_display().                  
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   modules/widget_engine_entity_form/src/Plugin/EntityBrowser/WidgetSelector/SelectAddTabs.php  
+ ------ --------------------------------------------------------------------------------------------- 
+         Class Drupalntity_browser\WidgetSelectorBase not found and could not                       
+         be autoloaded.                                                                               
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------- 
+  Line   modules/widget_engine_entity_form/src/Plugin/Field/FieldWidget/WidgetEngineEntityReferenceBrowserWidget.php  
+ ------ ------------------------------------------------------------------------------------------------------------- 
+         Class                                                                                                        
+         Drupalntity_browser\Plugin\Field\FieldWidgetntityReferenceBrowserWi                                      
+         dget not found and could not be autoloaded.                                                                  
+ ------ ------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  Line   modules/widget_engine_entity_form/tests/src/FunctionalJavascript/WidgetEngineEntityBrowserEntityFormTest.php  
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  12     Class                                                                                                         
+         Drupal\Tests\widget_engine_entity_form\FunctionalJavascript\WidgetEngin                                       
+         eEntityBrowserEntityFormTest extends deprecated class                                                         
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                                                          
+  36     Call to method setUp() of deprecated class                                                                    
+         Drupal\Tests\BrowserTestBase.                                                                                 
+ ------ -------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/WidgetPreviewController.php          
+ ------ ---------------------------------------------------- 
+  30     Call to deprecated function drupal_get_messages().  
+  76     Call to deprecated function drupal_render().        
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetForm.php                            
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetTypeDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetTypeForm.php                        
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/WidgetListBuilder.php                                            
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\widget_engine\WidgetListBuilder.                        
+  35     Call to deprecated method l() of class                               
+         Drupal\widget_engine\WidgetListBuilder.                              
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/WidgetReferenceIEFComplexTest.php         
+ ------ ------------------------------------------------------------------------- 
+  15     Class                                                                    
+         Drupal\Tests\widget_engine\FunctionalJavascript\WidgetReferenceIEFCompl  
+         exTest extends deprecated class                                          
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  55     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/EntityAddWidgetFieldTrait.php (in context of class Drupal\Tests\widget_engine\FunctionalJavascript\WidgetReferenceIEFComplexTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  70     Call to deprecated method entityManager() of class Drupal.                                                                                          
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WidgetTypeCreationTrait.php (in context of class Drupal\Tests\widget_engine\FunctionalJavascript\WidgetReferenceIEFComplexTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+  91     Call to deprecated function entity_get_form_display().                                                                                            
+  98     Call to deprecated function entity_get_display().                                                                                                 
+  107    Call to deprecated method entityManager() of class Drupal.                                                                                        
+  109    Call to deprecated function entity_get_display().                                                                                                 
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/WidgetTypeCreationTrait.php (in context of class Drupal\Tests\widget_engine_domain_access\Functional\WidgetEngineDomainBaseTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  91     Call to deprecated function entity_get_form_display().                                                                                             
+  98     Call to deprecated function entity_get_display().                                                                                                  
+  107    Call to deprecated method entityManager() of class Drupal.                                                                                         
+  109    Call to deprecated function entity_get_display().                                                                                                  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Traits/WidgetTypeCreationTrait.php (in context of class Drupal\Tests\widget_engine_domain_access\Kernel\WidgetEngineDomainAccessPermissionsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  91     Call to deprecated function entity_get_form_display().                                                                                                      
+  98     Call to deprecated function entity_get_display().                                                                                                           
+  107    Call to deprecated method entityManager() of class Drupal.                                                                                                  
+  109    Call to deprecated function entity_get_display().                                                                                                           
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   widget_engine.module                                        
+ ------ ------------------------------------------------------------ 
+  47     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 34 errors                                                         
+
+ </code>

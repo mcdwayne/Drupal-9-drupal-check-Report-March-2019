@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_slideshow_xtra 570a99f9769d1746f8c4e29ee3a3b27868ec3c8e
+source : http://cgit.drupalcode.org/views_slideshow_xtra 
+ 
+ <code> 
+Warning: include_once(theme/views_slideshow_xtra_overlay.theme.inc): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/views_slideshow_xtra/modules/views_slideshow_overlay/views_slideshow_overlay.module on line 88
+
+Warning: include_once(): Failed opening 'theme/views_slideshow_xtra_overlay.theme.inc' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/views_slideshow_xtra/modules/views_slideshow_overlay/views_slideshow_overlay.module on line 88
+
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/views_slideshow_overlay/views_slideshow_overlay_plugin_style_overlay.inc  
+ ------ ---------------------------------------------------------------------------------- 
+         Class views_slideshow_xtra_overlay_plugin_style_overlay was not found             
+         while trying to analyse it - autoloading is probably not configured               
+         properly.                                                                         
+ ------ ---------------------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

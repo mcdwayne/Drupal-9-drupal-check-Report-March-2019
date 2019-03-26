@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_send 9d0d172dda3947b59a050da05b53c4ea89f35226
+source : http://cgit.drupalcode.org/views_send 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/ViewsSend.php                                     
+ ------ ------------------------------------------------------------------------- 
+  16     Class Drupaliews_send\Pluginiewsield\ViewsSend extends deprecated  
+         class Drupal\system\Pluginiewsield\BulkForm.                         
+  19     Call to method defineOptions() of deprecated class                       
+         Drupaliews\Pluginiewsield\BulkForm.                                
+  31     Call to method buildOptionsForm() of deprecated class                    
+         Drupaliews\Pluginiewsield\BulkForm.                                
+  52     Call to method viewsForm() of deprecated class                           
+         Drupaliews\Pluginiewsield\BulkForm.                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   views_send.cron.inc                            
+ ------ ----------------------------------------------- 
+  25     Call to deprecated function db_query().        
+  25     Call to deprecated function db_query_range().  
+  32     Call to deprecated function db_query().        
+  46     Call to deprecated function db_query().        
+  78     Call to deprecated function db_query().        
+  81     Call to deprecated function db_query().        
+ ------ ----------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   views_send.module                                   
+ ------ ---------------------------------------------------- 
+  282    Call to deprecated function valid_email_address().  
+  301    Call to deprecated function valid_email_address().  
+  344    Call to deprecated function drupal_set_message().   
+  444    Call to deprecated function drupal_set_message().   
+  494    Call to deprecated function user_load().            
+  497    Call to deprecated function node_load().            
+  542    Call to deprecated function db_insert().            
+  565    Call to deprecated function drupal_set_message().   
+  573    Call to deprecated function db_insert().            
+  577    Call to deprecated function drupal_set_message().   
+  873    Call to deprecated function db_insert().            
+  888    Call to deprecated function drupal_set_message().   
+  928    Call to deprecated function drupal_render().        
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

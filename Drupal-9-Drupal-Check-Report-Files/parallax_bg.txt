@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/parallax_bg 31a12de55f97f82bced3648410c49f7bd6c9127a
+source : http://cgit.drupalcode.org/parallax_bg 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParallaxElementDeleteForm.php             
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParallaxElementForm.php                   
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

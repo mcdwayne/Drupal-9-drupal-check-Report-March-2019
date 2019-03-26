@@ -1,0 +1,374 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/web_page_archive 5cb8f10369e30f265b61bbbeec9c58f24871a062
+source : http://cgit.drupalcode.org/web_page_archive 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/WebPageArchiveRunController.php  
+ ------ ------------------------------------------------ 
+  47     Call to deprecated function format_date().      
+  92     Call to deprecated method l() of class          
+         Drupal\Core\Controller\ControllerBase.          
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/WebPageArchiveListBuilder.php        
+ ------ ------------------------------------------------ 
+  28     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/CaptureUtilityDeleteForm.php         
+ ------ ---------------------------------------------- 
+  46     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  72     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/CaptureUtilityFormBase.php           
+ ------ ---------------------------------------------- 
+  102    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  134    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/WebPageArchiveRunRevisionDeleteForm.php  
+ ------ -------------------------------------------------- 
+  78     Call to deprecated function format_date().        
+  112    Call to deprecated function format_date().        
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/RunComparisonTest.php           
+ ------ ----------------------------------------------------- 
+  184    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  209    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  217    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  243    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/WebPageArchiveConfigTest.php        
+ ------ --------------------------------------------------------- 
+  69     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  70     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  71     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  72     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  73     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  74     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  78     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  82     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  83     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  84     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  85     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  86     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  109    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  110    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  111    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  112    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  113    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  114    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  118    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  122    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  123    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  124    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  125    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  126    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  127    Call to deprecated method assertFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  128    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/WebPageArchiveEntityTest.php          
+ ------ ----------------------------------------------------------- 
+  82     Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+  104    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  105    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  106    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  107    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  119    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  120    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  121    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  122    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  123    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  124    Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  125    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  145    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  146    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  147    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  148    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  149    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  150    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  151    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  168    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  169    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  170    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  171    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  172    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  199    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  200    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  201    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  202    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  210    Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+  211    Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+  212    Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+  272    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  273    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  274    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  275    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  276    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  317    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  328    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  366    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  456    Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/WebPageArchiveSettingsTest.php        
+ ------ ----------------------------------------------------------- 
+  62     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  63     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  64     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  65     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  66     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  67     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  68     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  69     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  70     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  71     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  72     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  73     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  74     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  75     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  76     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  77     Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  78     Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  79     Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  107    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  108    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  109    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  110    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  111    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  112    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  113    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  114    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  115    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  116    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  117    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  118    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  119    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  120    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  121    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  122    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  123    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  127    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  128    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  129    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  130    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  131    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  132    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  136    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  137    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  138    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  139    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  140    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  141    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  142    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  158    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  162    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  163    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  164    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  165    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  166    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  167    Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  168    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  169    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  170    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  171    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  172    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  173    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  174    Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  175    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  199    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  202    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  203    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  204    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  205    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  206    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  207    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  208    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  209    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  210    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  211    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  212    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  215    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  237    Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  242    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  243    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  244    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  245    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  246    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  251    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 162 errors                                                        
+
+ </code>

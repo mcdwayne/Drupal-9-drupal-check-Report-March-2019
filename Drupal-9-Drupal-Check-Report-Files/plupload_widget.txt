@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/plupload_widget 70331286afb35181348ecf574492f4da0d508aa7
+source : http://cgit.drupalcode.org/plupload_widget 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/FileWidget.php     
+ ------ ------------------------------------------------ 
+  164    Call to deprecated function entity_create().    
+  168    Call to deprecated function drupal_basename().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/ImageWidget.php    
+ ------ ------------------------------------------------ 
+  164    Call to deprecated function entity_create().    
+  168    Call to deprecated function drupal_basename().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_layout_builder c62b4bd71188f8c5344ce7401f9172d6a4b6194a
+source : http://cgit.drupalcode.org/node_layout_builder 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Helpers/NodeLayoutBuilderHelper.php                     
+ ------ ------------------------------------------------------------ 
+  305    Call to deprecated method entityManager() of class Drupal.  
+  359    Call to deprecated method entityManager() of class Drupal.  
+  704    Call to deprecated method entityManager() of class Drupal.  
+  728    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/NodeLayoutBuilderEditor.php                             
+ ------ ------------------------------------------------------------ 
+  485    Call to deprecated method entityManager() of class Drupal.  
+  1733   Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

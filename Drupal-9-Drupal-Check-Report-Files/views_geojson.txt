@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_geojson b82aba4255e5b6352753c48046dded388c2d273c
+source : http://git.drupal.org/project/views_geojson.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/views/display/GeoJsonExport.php       
+ ------ ------------------------------------------------- 
+  268    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  268    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/views_geojson_bbox_argument.inc                                    
+ ------ ------------------------------------------------------------------------- 
+         Class views_geojson_bbox_argument was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/views_plugin_argument_default_bboxquery.inc                        
+ ------ ------------------------------------------------------------------------- 
+         Class views_plugin_argument_default_bboxquery was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

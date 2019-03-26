@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/multi_node_add 1c37e9ec5c7227f68d3c8e87d9f5f25fc949838c
+source : http://cgit.drupalcode.org/multi_node_add 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   multi_node_add.module                                       
+ ------ ------------------------------------------------------------ 
+  76     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/MultiNodeAddController.php     
+ ------ ---------------------------------------------- 
+  87     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/MultiNodeAddForm.php                               
+ ------ ------------------------------------------------------------ 
+  57     Call to deprecated method entityManager() of class Drupal.  
+  99     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

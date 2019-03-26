@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/om_maximenu 03515f38a834948611ab7d7d8f4642d2c1eef507
+source : http://cgit.drupalcode.org/om_maximenu 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   inc/om_maximenu.admin.inc                              
+ ------ ------------------------------------------------------- 
+  79     Call to deprecated function db_query().                
+  599    Call to deprecated function drupal_get_destination().  
+  939    Call to deprecated function drupal_set_message().      
+  944    Call to deprecated function drupal_set_message().      
+  980    Call to deprecated function drupal_render().           
+  982    Call to deprecated function drupal_render().           
+  983    Call to deprecated function drupal_render().           
+  1000   Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   inc/om_maximenu.blocks.inc                             
+ ------ ------------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().      
+  271    Call to deprecated function drupal_render().           
+  272    Call to deprecated function drupal_render().           
+  273    Call to deprecated function drupal_render().           
+  287    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   inc/om_maximenu.import.inc                         
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function db_query().            
+  82     Call to deprecated function db_query().            
+  146    Call to deprecated function db_query().            
+  149    Call to deprecated function db_query().            
+  152    Call to deprecated function db_query().            
+  158    Call to deprecated function db_query().            
+  220    Call to deprecated function drupal_set_message().  
+  289    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   inc/om_maximenu.render.inc                             
+ ------ ------------------------------------------------------- 
+  244    Call to deprecated function drupal_get_destination().  
+  302    Call to deprecated function db_select().               
+  325    Call to deprecated function db_query().                
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   inc/om_maximenu.utils.inc                              
+ ------ ------------------------------------------------------- 
+  325    Call to deprecated function drupal_get_destination().  
+  337    Call to deprecated function drupal_get_destination().  
+  354    Call to deprecated function drupal_get_destination().  
+  367    Call to deprecated function drupal_get_destination().  
+  475    Call to deprecated function db_select().               
+  487    Call to deprecated function db_update().               
+  504    Call to deprecated function db_insert().               
+  520    Call to deprecated function db_delete().               
+  524    Call to deprecated function db_delete().               
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tpl/om-maximenu-content.tpl.php               
+ ------ ---------------------------------------------- 
+  20     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 34 errors                                                         
+
+ </code>

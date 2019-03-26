@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/private_message_flood e0a8cfe711a9b4d41a7d3f8e994553e5363e691c
+source : https://cgit.drupalcode.org/private_message_flood 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Service/PrivateMessageFloodService.php  
+ ------ -------------------------------------------- 
+  80     Call to deprecated function db_select().    
+  85     Call to deprecated function db_select().    
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workflow_sms_notification 24a5459c0431816f6f91000a95abcf0910ce5643
+source : http://cgit.drupalcode.org/workflow_sms_notification 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowSmsNotificationDeleteForm.php     
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/WorkflowSmsNotificationForm.php               
+ ------ ------------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().      
+  144    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   workflow_sms_notification.module                   
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

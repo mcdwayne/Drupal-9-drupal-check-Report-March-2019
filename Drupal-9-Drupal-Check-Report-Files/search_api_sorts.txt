@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_sorts 772eb6c8f7610e3c64a28de1860171812c7d6f86
+source : http://cgit.drupalcode.org/search_api_sorts 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   search_api_sorts.module                           
+ ------ -------------------------------------------------- 
+  20     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ManageSortFieldsForm.php                  
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+  305    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/search_api_sorts_test_hook/search_api_sorts_test_hook.module  
+ ------ -------------------------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Functional/IntegrationTest.php        
+ ------ ------------------------------------------------ 
+  55     Call to deprecated method assertUrl() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  68     Call to deprecated method assertUrl() of class  
+         Drupal\Tests\BrowserTestBase.                   
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

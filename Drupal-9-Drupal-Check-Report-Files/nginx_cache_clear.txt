@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nginx_cache_clear 01bd370a6dfa0f64923d10afffd1e6a2c1a69b0d
+source : http://cgit.drupalcode.org/nginx_cache_clear 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   nginx_cache_clear.module                           
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/NginxCacheClearController.php       
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

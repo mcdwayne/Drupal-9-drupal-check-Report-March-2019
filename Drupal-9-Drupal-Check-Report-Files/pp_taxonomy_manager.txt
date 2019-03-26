@@ -1,0 +1,121 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pp_taxonomy_manager 70ac4feb6c19c9b66d78be2c5103620601fae6ad
+source : http://cgit.drupalcode.org/pp_taxonomy_manager 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   pp_taxonomy_manager.module                         
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerConfigConnectionForm.php  
+ ------ ---------------------------------------------------- 
+  338    Call to deprecated function drupal_set_message().   
+  347    Call to deprecated function drupal_set_message().   
+  411    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerConfigDeleteForm.php     
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/PPTaxonomyManagerConfigFixedConnectionAddForm.php  
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated function drupal_set_message().           
+  53     Call to deprecated function drupal_set_message().           
+  133    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerConfigForm.php           
+ ------ --------------------------------------------------- 
+  366    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerDisconnectForm.php       
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+  52     Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerExportForm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+  270    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerImportForm.php           
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function drupal_set_message().  
+  251    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerPowerTaggingTaxonomyUpdateForm.php  
+ ------ -------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().             
+  49     Call to deprecated function drupal_set_message().             
+  65     Call to deprecated function drupal_set_message().             
+  72     Call to deprecated function drupal_set_message().             
+  207    Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerSuggestConceptsForm.php  
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  250    Call to deprecated function drupal_set_message().  
+  253    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PPTaxonomyManagerSyncForm.php             
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  54     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+  236    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/PPTaxonomyManager.php                               
+ ------ -------------------------------------------------------- 
+  169    Call to deprecated function drupal_set_message().       
+  222    Call to deprecated function entity_get_form_display().  
+  296    Call to deprecated function drupal_set_message().       
+  338    Call to deprecated function drupal_set_message().       
+  1630   Call to deprecated method getVocabularyId() of class    
+         Drupal	axonomyntity\Term.                            
+  1657   Call to deprecated method getVocabularyId() of class    
+         Drupal	axonomyntity\Term.                            
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PPTaxonomyManagerBatches.php                   
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function drupal_set_message().  
+  210    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 45 errors                                                         
+
+ </code>

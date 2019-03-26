@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/xhprof_sample cfbbe4691846d018dc86e6d0b3abbce68b4aa02b
+source : http://cgit.drupalcode.org/xhprof_sample 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/XHProfSample/Collector.php                    
+ ------ -------------------------------------------------- 
+  140    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   xhprof_sample.admin.inc                            
+ ------ --------------------------------------------------- 
+  14     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

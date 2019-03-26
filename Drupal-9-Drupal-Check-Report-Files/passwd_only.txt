@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/passwd_only a70893da5158bc9bac09cde1b9040b476ea43610
+source : http://cgit.drupalcode.org/passwd_only 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   passwd_only.module                                
+ ------ -------------------------------------------------- 
+  45     Call to deprecated method url() of class Drupal.  
+  53     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   passwd_only_logintoboggan/passwd_only_logintoboggan.module  
+ ------ ------------------------------------------------------------ 
+  63     Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/LoginForm.php                            
+ ------ -------------------------------------------------- 
+  55     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/ConfigurationTest.php                   
+ ------ -------------------------------------------------- 
+  64     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

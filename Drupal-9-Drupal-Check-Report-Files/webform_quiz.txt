@@ -1,0 +1,65 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_quiz 1d3d24aded350c264cac431f9b7b8d7c9ae1c5d4
+source : http://cgit.drupalcode.org/webform_quiz 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Controller/WebformQuizWebformSubmissionViewController.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\webform\Controller\WebformSubmissionViewController not  
+         found and could not be autoloaded.                                   
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Element/WebformQuizWebformElementOptions.php                        
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webformlement\WebformElementOptions not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Element/WebformQuizWebformMultiple.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\webformlement\WebformMultiple not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Element/WebformQuizWebformOptions.php                               
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webformlement\WebformOptions not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/EntitySettings/WebformQuizAddForm.php                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\webform\WebformEntityAddForm not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/EntitySettings/WebformQuizWebformSettingsForm.php                  
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webformntitySettings\WebformEntitySettingsBaseForm not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/WebformElement/WebformQuizCheckboxes.php                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webform_quiz\Plugin\WebformElement\WebformQuizRadios not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/WebformElement/WebformQuizRadios.php                        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webform\Plugin\WebformElement\Radios not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

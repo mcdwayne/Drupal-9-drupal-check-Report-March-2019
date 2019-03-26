@@ -1,0 +1,71 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_solr f50afecb6130c62a887f96167d8a980363484ecb
+source : http://git.drupal.org/project/search_api_solr.git 
+ 
+ <code> 
+Notice: Constant DATETIME_STORAGE_TIMEZONE already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/search_api_solr/tests/src/Unit/SearchApiBackendUnitTest.php on line 21
+
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/search_api_solr_defaults/src/Tests/IntegrationTest.php        
+ ------ ---------------------------------------------------------------------- 
+  19     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\search_api_solr_defaults\Tests\IntegrationTest.                
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Form/SolrConfigForm.php                                   
+ ------ -------------------------------------------------------------- 
+  125    Call to deprecated method cacheUntilEntityChanges() of class  
+         Drupal\Core\Access\AccessResult.                              
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/SolrFieldTypeExportForm.php          
+ ------ ---------------------------------------------- 
+  126    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Configntity\ConfigEntityBase.   
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/search_api_autocomplete/suggester/Spellcheck.php             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\search_api_autocomplete\Suggester\SuggesterPluginBase not  
+         found and could not be autoloaded.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/search_api_autocomplete/suggester/Suggester.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\search_api_autocomplete\Suggester\SuggesterPluginBase not  
+         found and could not be autoloaded.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/search_api_autocomplete/suggester/Terms.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\search_api_autocomplete\Plugin\search_api_autocomplete\suggester  
+         \Server not found and could not be autoloaded.                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FacetsTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+  19     Class Drupal\Testsacets\Functional\BlockTestTrait not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/SolrFieldNamesTest.php           
+ ------ -------------------------------------------------- 
+  100    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  102    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/word_link 4c844ae5bec822b5d70563689c0d404db79abde0
+source : http://cgit.drupalcode.org/word_link 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/word_link_exchange/word_link_exchange.module  
+ ------ ------------------------------------------------------ 
+  133    Call to deprecated function drupal_realpath().        
+  316    Call to deprecated function db_select().              
+  327    Call to deprecated function db_select().              
+  342    Call to deprecated function drupal_set_message().     
+  343    Call to deprecated function drupal_set_message().     
+  346    Call to deprecated function drupal_set_message().     
+  471    Call to deprecated function format_date().            
+  477    Call to deprecated function drupal_realpath().        
+  482    Call to deprecated function drupal_set_message().     
+  532    Call to deprecated function drupal_set_message().     
+  556    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   word_link.admin.inc                                    
+ ------ ------------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().      
+  146    Call to deprecated function drupal_get_destination().  
+  385    Call to deprecated function drupal_get_destination().  
+  406    Call to deprecated function drupal_set_message().      
+  410    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   word_link.module                          
+ ------ ------------------------------------------ 
+  301    Call to deprecated function db_select().  
+  308    Call to deprecated function db_select().  
+  314    Call to deprecated function db_select().  
+  337    Call to deprecated function db_select().  
+  373    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

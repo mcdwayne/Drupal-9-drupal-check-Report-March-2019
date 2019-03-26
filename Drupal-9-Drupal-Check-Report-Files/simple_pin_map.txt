@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_pin_map 8.x-1.1
+source : http://cgit.drupalcode.org/simple_pin_map 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   simple_pin_map.module                              
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function file_load().           
+  114    Call to deprecated function check_url().           
+  125    Call to deprecated function check_url().           
+  139    Call to deprecated function db_select().           
+  150    Call to deprecated function node_load_multiple().  
+  158    Call to deprecated function node_load().           
+  270    Call to deprecated function file_load().           
+  278    Call to deprecated function drupal_set_message().  
+  331    Call to deprecated function file_load().           
+  337    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

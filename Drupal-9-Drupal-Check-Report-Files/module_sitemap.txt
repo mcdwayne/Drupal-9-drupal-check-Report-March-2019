@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/module_sitemap 8c7077c868ed24bdd867a54332d757b7b7825955
+source : http://cgit.drupalcode.org/module_sitemap 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/AdminSettingsTest.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\module_sitemap\Tests\AdminSettingsTest was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/PermissionsTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\module_sitemap\Tests\PermissionsTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

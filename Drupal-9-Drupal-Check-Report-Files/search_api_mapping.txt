@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ descrip. : Provides an Search API field to map source values to custom target values.
+source   : [git] https://git.drupal.org/project/search_api_mapping 1d4303b060a97afb2d2cd21cb28af6c933c682f0
+source : http://cgit.drupalcode.org/search_api_mapping 
+ 
+ <code>  ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/processor/MappedField.php                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\search_api\Processor\ProcessorPluginBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/processor/Property/MappedFieldProperty.php      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\search_api\Processor\ConfigurablePropertyBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

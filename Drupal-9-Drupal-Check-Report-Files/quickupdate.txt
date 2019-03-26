@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quickupdate 4adab258b74353bd7b4098f55566eb20181050c3
+source : http://cgit.drupalcode.org/quickupdate 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/quickupdate/Controller/QuickupdateAutocompleteController.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\quickupdate\Controller\QuickupdateAutocompleteController    
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   quickupdate.module                                 
+ ------ --------------------------------------------------- 
+  256    Call to deprecated function drupal_set_message().  
+  556    Calls to function fnmatch should not exist.        
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

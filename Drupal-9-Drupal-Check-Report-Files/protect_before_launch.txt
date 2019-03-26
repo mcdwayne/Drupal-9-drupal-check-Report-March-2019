@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/protect_before_launch 0024ae3f8db9d8140a6a8830cf2a24bf76ccd813
+source : http://cgit.drupalcode.org/protect_before_launch 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Browser/AdminFormTest.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\protect_before_launch\Browser\AdminFormTest was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Browser/ProtectTest.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\protect_before_launch\Browser\ProtectTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

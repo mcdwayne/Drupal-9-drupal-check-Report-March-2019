@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quizard 16245c6ed8523dc2b6e1e56e766a633bb60d6e45
+source : http://cgit.drupalcode.org/quizard 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/QuizWizardAccess.php                
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuizResultsForm.php                       
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/QuizResultsListBuilder.php                                       
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\quizard\QuizResultsListBuilder.                         
+  32     Call to deprecated method l() of class                               
+         Drupal\quizard\QuizResultsListBuilder.                               
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

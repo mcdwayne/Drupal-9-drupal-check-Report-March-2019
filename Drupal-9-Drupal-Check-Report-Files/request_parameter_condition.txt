@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/request_parameter_condition 8.x-1.0-alpha1
+source : http://cgit.drupalcode.org/request_parameter_condition 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Condition/RequestParameter.php        
+ ------ ------------------------------------------------- 
+  135    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  156    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  157    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

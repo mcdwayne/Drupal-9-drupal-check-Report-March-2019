@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shunt 644e777b8a9fafb095c5407621adeccec3251d92
+source : http://cgit.drupalcode.org/shunt 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drush/ShuntUnishTest.php                                               
+ ------ ----------------------------------------------------------------------- 
+         Class Unish\ShuntUnishTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   drush/shunt.drush.inc                                
+ ------ ----------------------------------------------------- 
+  110    Call to deprecated function entity_load_multiple().  
+  156    Call to deprecated function entity_load_multiple().  
+  290    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/ShuntListBuilder.php            
+ ------ ----------------------------------------------- 
+  33     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+  49     Call to deprecated method urlInfo() of class   
+         Drupal\CorentityntityInterface.            
+  55     Call to deprecated method urlInfo() of class   
+         Drupal\CorentityntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Shunt.php                               
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+  147    Call to deprecated function drupal_set_message().  
+  156    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShuntDeleteForm.php                       
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShuntForm.php                             
+ ------ --------------------------------------------------- 
+  47     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  47     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  94     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

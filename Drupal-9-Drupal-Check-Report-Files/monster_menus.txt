@@ -1,0 +1,628 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/monster_menus 4ea11d391b309f3df5c1bf7cb0a79422822d5eef
+source : http://cgit.drupalcode.org/monster_menus 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   misc.inc                                                    
+ ------ ------------------------------------------------------------ 
+  352    Call to deprecated function db_query().                     
+  534    Call to deprecated function db_select().                    
+  613    Call to deprecated function db_update().                    
+  853    Call to deprecated function db_query_range().               
+  927    Call to deprecated function db_query().                     
+  959    Call to deprecated function db_query().                     
+  1254   Call to deprecated function drupal_set_message().           
+  1449   Call to deprecated method entityManager() of class Drupal.  
+  1478   Call to deprecated function db_select().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------- 
+  Line   mm_admin.inc                                              
+ ------ ---------------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().         
+  121    Call to deprecated method logger() of class Drush\Drush.  
+  173    Call to deprecated function db_update().                  
+  191    Call to deprecated function db_query().                   
+  216    Call to deprecated function db_query().                   
+  244    Call to deprecated function db_query().                   
+  249    Call to deprecated function db_query().                   
+  289    Call to deprecated function db_update().                  
+  386    Call to deprecated function db_select().                  
+  519    Call to deprecated function db_select().                  
+  581    Call to deprecated function db_delete().                  
+  628    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mm_content.inc                                     
+ ------ --------------------------------------------------- 
+  268    Call to deprecated function db_select().           
+  285    Call to deprecated method strtoupper() of class    
+         Drupal\Component\Utility\Unicode.                  
+  730    Call to deprecated function db_select().           
+  915    Call to deprecated function db_query().            
+  995    Call to deprecated function db_select().           
+  1080   Call to deprecated method strtoupper() of class    
+         Drupal\Component\Utility\Unicode.                  
+  1333   Call to deprecated function db_query_range().      
+  1336   Call to deprecated function db_query().            
+  1386   Call to deprecated function db_select().           
+  1407   Call to deprecated function db_transaction().      
+  1417   Call to deprecated function db_delete().           
+  1424   Call to deprecated function db_update().           
+  1430   Call to deprecated function db_insert().           
+  1443   Call to deprecated function db_query().            
+  1626   Call to deprecated function db_query().            
+  2132   Call to deprecated function db_select().           
+  2367   Call to deprecated function db_transaction().      
+  2560   Call to deprecated function db_select().           
+  2574   Call to deprecated function db_query().            
+  2592   Call to deprecated function db_delete().           
+  2597   Call to deprecated function db_delete().           
+  2686   Call to deprecated function db_query().            
+  3065   Call to deprecated function db_select().           
+  3067   Call to deprecated function db_and().              
+  3075   Call to deprecated function db_or().               
+  3368   Call to deprecated function db_query().            
+  3379   Call to deprecated function db_query().            
+  3760   Call to deprecated function db_select().           
+  3767   Call to deprecated function db_select().           
+  3804   Call to deprecated function db_query().            
+  3991   Call to deprecated function drupal_set_message().  
+  4002   Call to deprecated function drupal_set_message().  
+  4195   Call to deprecated function drupal_set_message().  
+  4203   Call to deprecated function drupal_set_message().  
+  4208   Call to deprecated function db_update().           
+  4209   Call to deprecated function db_condition().        
+  4287   Call to deprecated function db_select().           
+  4299   Call to deprecated function db_insert().           
+  4303   Call to deprecated function db_update().           
+  4344   Call to deprecated function db_select().           
+  4350   Call to deprecated function db_or().               
+  4363   Call to deprecated function db_select().           
+  4367   Call to deprecated function db_or().               
+  4515   Call to deprecated function db_query().            
+  4522   Call to deprecated function db_query().            
+  4567   Call to deprecated function db_query_range().      
+  4569   Call to deprecated function db_query().            
+  4605   Call to deprecated function db_query_range().      
+  4609   Call to deprecated function db_query().            
+  4611   Call to deprecated function db_query_range().      
+  4616   Call to deprecated function db_query_range().      
+  4619   Call to deprecated function db_query().            
+  4799   Call to deprecated function db_select().           
+  4808   Call to deprecated function db_or().               
+  4815   Call to deprecated function db_or().               
+  4835   Call to deprecated function db_update().           
+  4844   Call to deprecated function db_select().           
+  4849   Call to deprecated function db_update().           
+  4868   Call to deprecated function db_delete().           
+  4877   Call to deprecated function db_update().           
+  5035   Call to deprecated function db_select().           
+  5041   Call to deprecated function db_select().           
+  5046   Call to deprecated function db_select().           
+  5066   Call to deprecated function db_query().            
+  5068   Call to deprecated function db_query().            
+  5101   Call to deprecated function db_transaction().      
+  5123   Call to deprecated function db_query().            
+  5143   Call to deprecated function db_insert().           
+  5189   Call to deprecated function db_transaction().      
+  5199   Call to deprecated function db_delete().           
+  5204   Call to deprecated function db_delete().           
+  5209   Call to deprecated function db_merge().            
+  5219   Call to deprecated function db_insert().           
+  5256   Call to deprecated function db_transaction().      
+  5265   Call to deprecated function db_delete().           
+  5280   Call to deprecated function db_transaction().      
+  5286   Call to deprecated function db_query().            
+  5293   Call to deprecated function db_delete().           
+  5300   Call to deprecated function db_insert().           
+  5310   Call to deprecated function db_delete().           
+  5354   Call to deprecated function db_transaction().      
+  5356   Call to deprecated function db_delete().           
+  5372   Call to deprecated function db_delete().           
+  5403   Call to deprecated function db_select().           
+  5595   Call to deprecated function drupal_set_message().  
+  5726   Call to deprecated function db_select().           
+  5777   Call to deprecated function db_transaction().      
+  5783   Call to deprecated function db_insert().           
+  5792   Call to deprecated function db_insert().           
+  5807   Call to deprecated function db_insert().           
+  5896   Call to deprecated function db_transaction().      
+  5897   Call to deprecated function db_query().            
+  5902   Call to deprecated function db_insert().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   mm_import_export.inc                     
+ ------ ----------------------------------------- 
+  192    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mm_node.inc                                        
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function db_select().           
+  207    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mm_ui.inc                                          
+ ------ --------------------------------------------------- 
+  271    Call to deprecated function db_select().           
+  311    Call to deprecated function db_select().           
+  789    Call to deprecated function db_select().           
+  804    Call to deprecated function drupal_placeholder().  
+  1160   Call to deprecated function db_delete().           
+  1167   Call to deprecated function db_select().           
+  1174   Call to deprecated function db_insert().           
+  1856   Call to deprecated function db_transaction().      
+  1864   Call to deprecated function db_delete().           
+  1866   Call to deprecated function db_delete().           
+  1871   Call to deprecated function db_delete().           
+  2008   Call to deprecated function db_select().           
+  2032   Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   mm_ui_solver.inc                          
+ ------ ------------------------------------------ 
+  144    Call to deprecated function db_select().  
+  150    Call to deprecated function db_or().      
+  152    Call to deprecated function db_and().     
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   modules/mm_alert/mm_alert.module          
+ ------ ------------------------------------------ 
+  90     Call to deprecated function db_select().  
+  97     Call to deprecated function db_or().      
+  101    Call to deprecated function db_or().      
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   modules/mm_detailed_404/mm_detailed_404.module  
+ ------ ------------------------------------------------ 
+  107    Call to deprecated function db_select().        
+  136    Call to deprecated function db_query().         
+  208    Call to deprecated function db_query().         
+  266    Call to deprecated function db_query().         
+  355    Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/mm_fields/mm_fields_perms/src/MMFieldsPermsHandler.php          
+ ------ ------------------------------------------------------------------------ 
+  77     Call to deprecated method getLastInstalledFieldStorageDefinitions() of  
+         class Drupal\CorentityntityManagerInterface.                        
+  353    Call to deprecated function format_date().                              
+  353    Call to deprecated function format_date().                              
+  354    Call to deprecated function format_date().                              
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   modules/mm_media/mm_media.module          
+ ------ ------------------------------------------ 
+  571    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/mm_media/src/Plugin/EntityBrowser/Widget/MMTree.php        
+ ------ ------------------------------------------------------------------- 
+         Class Drupalntity_browser\WidgetBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/mm_media/src/Plugin/MMTreeBrowserDisplay/Media.php  
+ ------ ------------------------------------------------------------ 
+  178    Call to deprecated function db_select().                    
+  204    Call to deprecated function db_select().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   modules/mm_schedule/jcalendar/jcalendar.module  
+ ------ ------------------------------------------------ 
+  84     Call to deprecated function drupal_render().    
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/mm_schedule/mm_schedule.module             
+ ------ --------------------------------------------------- 
+  452    Call to deprecated function db_select().           
+  459    Call to deprecated function db_or().               
+  461    Call to deprecated function db_and().              
+  956    Call to deprecated function db_delete().           
+  959    Call to deprecated function db_delete().           
+  986    Call to deprecated function db_select().           
+  998    Call to deprecated function node_load().           
+  1073   Call to deprecated function node_load().           
+  1117   Call to deprecated function node_load().           
+  1186   Call to deprecated function db_select().           
+  1234   Call to deprecated function db_select().           
+  1260   Call to deprecated function drupal_set_message().  
+  1315   Call to deprecated function drupal_set_message().  
+  1354   Call to deprecated function drupal_set_message().  
+  1361   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/mm_schedule/src/mm_schedule_calendar_plugin_row.php         
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\monster_menus\mm_schedule_calendar_plugin_row was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/mm_schedule/src/mm_schedule_calendar_plugin_style_list.php     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\monster_menus\mm_schedule_calendar_plugin_style_list was  
+         not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/mm_schedule/src/mm_schedule_date_views_argument_handler.php     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\monster_menus\mm_schedule_date_views_argument_handler was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   modules/mm_schedule/theme/mm_schedule_theme.inc  
+ ------ ------------------------------------------------- 
+  441    Call to deprecated function db_select().         
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/mm_schedule/views/mm_schedule_calendar_plugin_row.inc        
+ ------ --------------------------------------------------------------------- 
+         Class mm_schedule_calendar_plugin_row was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/mm_schedule/views/mm_schedule_calendar_plugin_style_list.inc     
+ ------ ------------------------------------------------------------------------- 
+         Class mm_schedule_calendar_plugin_style_list was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/mm_schedule/views/mm_schedule_date_views_argument_handler.inc    
+ ------ ------------------------------------------------------------------------- 
+         Class mm_schedule_date_views_argument_handler was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   modules/mm_webform/mm_webform.module      
+ ------ ------------------------------------------ 
+  143    Call to deprecated function db_insert().  
+  154    Call to deprecated function db_insert().  
+  170    Call to deprecated function db_insert().  
+  211    Call to deprecated function db_query().   
+  219    Call to deprecated function node_load().  
+  282    Call to deprecated function db_query().   
+  331    Call to deprecated function db_select().  
+  339    Call to deprecated function db_delete().  
+  342    Call to deprecated function db_delete().  
+  349    Call to deprecated function db_delete().  
+  363    Call to deprecated function db_query().   
+  376    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/mm_workflow_access/mm_workflow_access.module        
+ ------ ------------------------------------------------------------ 
+  84     Call to deprecated function db_select().                    
+  167    Call to deprecated function db_delete().                    
+  173    Call to deprecated function db_insert().                    
+  182    Call to deprecated function db_insert().                    
+  190    Call to deprecated function db_insert().                    
+  201    Call to deprecated function db_select().                    
+  218    Call to deprecated function drupal_set_message().           
+  275    Call to deprecated function db_delete().                    
+  385    Call to deprecated function db_delete().                    
+  394    Call to deprecated function db_delete().                    
+  436    Call to deprecated function db_merge().                     
+  455    Call to deprecated function db_delete().                    
+  532    Call to deprecated method entityManager() of class Drupal.  
+  584    Call to deprecated function db_update().                    
+  627    Call to deprecated function db_select().                    
+  632    Call to deprecated function db_or().                        
+  634    Call to deprecated function db_and().                       
+  676    Call to deprecated function db_select().                    
+  705    Call to deprecated function db_select().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   modules/rss_page/rss_page.module               
+ ------ ----------------------------------------------- 
+  108    Call to deprecated function db_query().        
+  128    Call to deprecated function db_query().        
+  527    Call to deprecated function db_query_range().  
+  691    Call to deprecated function db_query().        
+  763    Call to deprecated function db_query().        
+  778    Call to deprecated function db_delete().       
+  788    Call to deprecated function db_query().        
+  792    Call to deprecated function db_query().        
+  801    Call to deprecated function db_delete().       
+  804    Call to deprecated function db_query().        
+  811    Call to deprecated function db_query().        
+  814    Call to deprecated function db_select().       
+  931    Call to deprecated function db_delete().       
+  934    Call to deprecated function db_delete().       
+  1122   Call to deprecated function db_select().       
+  1182   Call to deprecated function db_query().        
+  1208   Call to deprecated function db_query().        
+  1233   Call to deprecated function db_update().       
+  1337   Call to deprecated function db_merge().        
+  1348   Call to deprecated function db_delete().       
+  1363   Call to deprecated function db_select().       
+  1855   Call to deprecated function db_query().        
+  1900   Call to deprecated function drupal_render().   
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/rss_page/simplepie.inc                                          
+ ------ ------------------------------------------------------------------------ 
+         Class SimplePie was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/rss_page/src/Plugin/MMTreeBrowserDisplay/RSSPage.php             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalss_page\Plugin\MMTreeBrowserDisplay\RSSPage was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   monster_menus.module                      
+ ------ ------------------------------------------ 
+  172    Call to deprecated function db_select().  
+  295    Call to deprecated function db_delete().  
+  321    Call to deprecated function db_delete().  
+  433    Call to deprecated function db_delete().  
+  434    Call to deprecated function db_delete().  
+  435    Call to deprecated function db_delete().  
+  661    Call to deprecated function db_delete().  
+  667    Call to deprecated function db_delete().  
+  712    Call to deprecated function db_delete().  
+  719    Call to deprecated function db_insert().  
+  739    Call to deprecated function db_insert().  
+  766    Call to deprecated function db_merge().   
+  803    Call to deprecated function db_merge().   
+  813    Call to deprecated function db_delete().  
+  842    Call to deprecated function db_delete().  
+  845    Call to deprecated function db_delete().  
+  848    Call to deprecated function db_delete().  
+  852    Call to deprecated function db_delete().  
+  855    Call to deprecated function db_delete().  
+  976    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DefaultController.php               
+ ------ --------------------------------------------------- 
+  150    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  435    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/MMTreeViewController.php            
+ ------ --------------------------------------------------- 
+  152    Call to deprecated function drupal_set_message().  
+  271    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------- 
+  Line   src/Entity/MMTree.php                 
+ ------ -------------------------------------- 
+  212    Call to deprecated function db_or().  
+  263    Call to deprecated function db_or().  
+ ------ -------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------- 
+  Line   src/Entity/MMTreeExtendedSettingsTrait.php (in context of class Drupal\monster_menusntity\MMTree)  
+ ------ ----------------------------------------------------------------------------------------------------- 
+  258    Call to deprecated function db_or().                                                                 
+ ------ ----------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                            
+ ------ --------------------------------------------------- 
+  392    Call to deprecated function drupal_set_message().  
+  393    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CopyMoveContentForm.php                   
+ ------ --------------------------------------------------- 
+  345    Call to deprecated function drupal_set_message().  
+  349    Call to deprecated function drupal_set_message().  
+  360    Call to deprecated function drupal_set_message().  
+  364    Call to deprecated function drupal_set_message().  
+  414    Call to deprecated function drupal_set_message().  
+  418    Call to deprecated function drupal_set_message().  
+  423    Call to deprecated function drupal_set_message().  
+  427    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteContentConfirmForm.php              
+ ------ --------------------------------------------------- 
+  238    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteNodeConfirmForm.php                 
+ ------ --------------------------------------------------- 
+  183    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditContentForm.php                       
+ ------ --------------------------------------------------- 
+  332    Call to deprecated function drupal_set_message().  
+  934    Call to deprecated function drupal_set_message().  
+  1195   Call to deprecated function drupal_set_message().  
+  1198   Call to deprecated function drupal_set_message().  
+  1202   Call to deprecated function drupal_set_message().  
+  1230   Call to deprecated function drupal_set_message().  
+  1236   Call to deprecated function drupal_set_message().  
+  1239   Call to deprecated function drupal_set_message().  
+  1252   Call to deprecated function drupal_set_message().  
+  1255   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExportTreeForm.php                        
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImportTreeForm.php                        
+ ------ --------------------------------------------------- 
+  149    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ListSitesForm.php                         
+ ------ --------------------------------------------------- 
+  134    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ListUsersForm.php                         
+ ------ --------------------------------------------------- 
+  46     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  49     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ReassignContentForm.php                   
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+  131    Call to deprecated function drupal_set_message().  
+  144    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ReorderMenuForm.php                       
+ ------ --------------------------------------------------- 
+  184    Call to deprecated function drupal_set_message().  
+  187    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ReorderNodesForm.php                      
+ ------ --------------------------------------------------- 
+  209    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RestoreContentConfirmForm.php             
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RestoreNodeConfirmForm.php                
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/SearchReplaceForm.php                   
+ ------ ------------------------------------------------- 
+  59     Call to deprecated function db_query().          
+  64     Call to deprecated function db_query_range().    
+  117    Call to deprecated function db_query().          
+  334    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/GetTreeIterator/MMExportIter.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\monster_menus\MMCreatePathGroup not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/GetTreeResults.php                   
+ ------ ----------------------------------------- 
+  14     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/MMExportGroup.php                                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\monster_menus\MMCreatePathGroup not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/PathProcessor/InboundPathProcessor.php  
+ ------ -------------------------------------------- 
+  159    Call to deprecated function db_query().     
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Plugin/MMTreeBrowserDisplay/Nodes.php  
+ ------ ------------------------------------------- 
+  147    Call to deprecated function file_load().   
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Routing/RouteSubscriber.php                    
+ ------ --------------------------------------------------- 
+  159    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function db_select().           
+  220    Call to deprecated function db_query().            
+  235    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Controller/DefaultControllerTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Controller/MMTreeBrowserControllerTest.php                
+ ------ ------------------------------------------------------------------------- 
+  38     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  41     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  47     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Controller/MMTreeViewControllerTest.php                   
+ ------ ------------------------------------------------------------------------- 
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/MMTreeAccessControlHandlerTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  46     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 313 errors                                                        
+
+ </code>

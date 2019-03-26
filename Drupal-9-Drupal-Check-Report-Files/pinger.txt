@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pinger 3cffd613487575e89067cd71d8245e36878e13a0
+source : http://cgit.drupalcode.org/pinger 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/pinger/Entity/PingerResponse.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Pingerntity\PingerResponse was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/pinger/Entity/PingerSite.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Pingerntity\PingerSite was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/pinger/Form/PingerSiteForm.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\pinger\Form\PingerSiteForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/pinger/PingerResponseInterface.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\pinger\PingerResponseInterface was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/pinger/PingerResponseStorageController.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\pinger\PingerResponseStorageController was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/pinger/PingerResponseStorageControllerInterface.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\pinger\PingerResponseStorageControllerInterface was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/pinger/PingerSiteInterface.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\pinger\PingerSiteInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/pinger/PingerSiteStorageController.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\pinger\PingerSiteStorageController was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/pinger/PingerSiteStorageControllerInterface.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\pinger\PingerSiteStorageControllerInterface was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   pinger.module                                 
+ ------ ---------------------------------------------- 
+  37     Call to deprecated function db_query().       
+  40     Call to deprecated function entity_load().    
+  75     Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

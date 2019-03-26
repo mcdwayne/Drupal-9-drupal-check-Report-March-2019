@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/onlinepbx 455880f2f567f44bbbf7439c015012d3155e0af4
+source : http://cgit.drupalcode.org/onlinepbx 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/Charts.php                   
+ ------ -------------------------------------------- 
+  26     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/OnpbxCalls.php               
+ ------ -------------------------------------------- 
+  200    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/PageController.php           
+ ------ -------------------------------------------- 
+  149    Call to deprecated function format_date().  
+  161    Call to deprecated function format_date().  
+  303    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/Period.php                   
+ ------ -------------------------------------------- 
+  23     Call to deprecated function format_date().  
+  38     Call to deprecated function format_date().  
+  39     Call to deprecated function format_date().  
+  93     Call to deprecated function format_date().  
+  94     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

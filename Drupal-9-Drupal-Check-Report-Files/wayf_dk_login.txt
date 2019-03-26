@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wayf_dk_login 1edda6713f6e9bdcbf980c61f9d8223a4de92407
+source : http://cgit.drupalcode.org/wayf_dk_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EndpointController.php              
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+  91     Call to deprecated method url() of class Drupal.   
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/WayfSettingsForm.php                               
+ ------ ------------------------------------------------------------ 
+  237    Call to deprecated method entityManager() of class Drupal.  
+  243    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  243    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Block/WayfLoginBlock.php               
+ ------ -------------------------------------------------- 
+  42     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   wayf_dk_login.module                               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function db_delete().           
+  105    Call to deprecated function db_insert().           
+  113    Call to deprecated function drupal_set_message().  
+  126    Call to deprecated function db_query().            
+  157    Call to deprecated function drupal_set_message().  
+  204    Call to deprecated function db_query().            
+  376    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

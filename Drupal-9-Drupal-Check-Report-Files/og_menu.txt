@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/og_menu 438b523cd10fa6d0c2214e0831e103822bb7c53e
+source : https://cgit.drupalcode.org/og_menu 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   og_menu.behat.inc                                                  
+ ------ ------------------------------------------------------------------- 
+         Class OgMenuSubContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/OgMenuInstanceController.php         
+ ------ ---------------------------------------------------- 
+  105    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Entity/OgMenu.php                                
+ ------ ----------------------------------------------------- 
+  82     Call to deprecated function menu_cache_clear_all().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OgMenuDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OgMenuForm.php                            
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/OgMenuInstanceForm.php                                      
+ ------ --------------------------------------------------------------------- 
+  203    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  204    Call to deprecated method url() of class                             
+         Drupal\CorentityntityInterface.                                  
+  379    Call to deprecated function drupal_set_message().                    
+  385    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/OgMenuListBuilder.php                     
+ ------ ---------------------------------------------- 
+  45     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/OgMenuAccessTest.php            
+ ------ ------------------------------------------------- 
+  142    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

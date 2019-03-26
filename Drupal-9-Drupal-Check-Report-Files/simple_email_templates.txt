@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_email_templates 05c0c807f12beb3434db7d0c0b8819cd9943edda
+source : http://cgit.drupalcode.org/simple_email_templates 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   simple_email_templates.module                    
+ ------ ------------------------------------------------- 
+  56     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  56     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

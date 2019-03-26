@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rac bc57d42351e30a5f4a2d2e4bef86d0a792c293ee
+source : http://cgit.drupalcode.org/rac 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/rac_relations/src/Form/RoleAccessControlRelationsForm.php  
+ ------ ------------------------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   rac.module                                                  
+ ------ ------------------------------------------------------------ 
+  45     Call to deprecated method isSubclassOf() of class           
+         Drupal\CorentityntityTypeInterface.                     
+  55     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

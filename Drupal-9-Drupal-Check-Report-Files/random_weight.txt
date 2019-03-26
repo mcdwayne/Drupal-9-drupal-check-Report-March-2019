@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/random_weight 668df215034c9892f2df7d2e55242ab75cdfad17
+source : http://cgit.drupalcode.org/random_weight 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   includes/settings.inc                     
+ ------ ------------------------------------------ 
+  15     Call to deprecated function db_select().  
+  70     Call to deprecated function db_delete().  
+  92     Call to deprecated function db_merge().   
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   random_weight.module                               
+ ------ --------------------------------------------------- 
+  237    Call to deprecated function node_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

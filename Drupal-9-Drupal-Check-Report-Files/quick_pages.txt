@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quick_pages 9820f8d5006f107e4dda55189fba283ccd7be2cf
+source : http://cgit.drupalcode.org/quick_pages 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuickPageForm.php                         
+ ------ --------------------------------------------------- 
+  317    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/QuickPages/MainContent/Entity.php       
+ ------ --------------------------------------------------- 
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

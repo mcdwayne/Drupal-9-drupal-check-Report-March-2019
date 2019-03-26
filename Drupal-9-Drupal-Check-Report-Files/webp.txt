@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webp 141f84a789a11db62203a76b31aaf9e2c05aeb81
+source : http://cgit.drupalcode.org/webp 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Controller/ImageStyleDownloadController.php                  
+ ------ ----------------------------------------------------------------- 
+  115    Call to deprecated function file_stream_wrapper_valid_scheme().  
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/ImageAPIOptimizeProcessor/Webp.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\imageapi_optimize\ConfigurableImageAPIOptimizeProcessorBase not  
+         found and could not be autoloaded.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

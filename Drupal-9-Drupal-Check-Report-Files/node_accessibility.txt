@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_accessibility 8.x-1.0-alpha1
+source : http://cgit.drupalcode.org/node_accessibility 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/NodeAccessibilityController.php      
+ ------ ---------------------------------------------------- 
+  33     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  66     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  69     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/ValidateFormBase.php                               
+ ------ ------------------------------------------------------------ 
+  90     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/PerformValidation.php                                   
+ ------ ------------------------------------------------------------ 
+  73     Call to deprecated function drupal_render().                
+  159    Call to deprecated method entityManager() of class Drupal.  
+  181    Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

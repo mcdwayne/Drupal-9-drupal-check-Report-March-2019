@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/worldcore a2cc066d8340f2a23e822330cdede7719543a53d
+source : http://cgit.drupalcode.org/worldcore 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/Controller/WorldcoreController.php   
+ ------ ----------------------------------------- 
+  64     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PrefillForm.php                           
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Form/SciForm.php                     
+ ------ ----------------------------------------- 
+  30     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   worldcore.module                          
+ ------ ------------------------------------------ 
+  106    Call to deprecated function db_insert().  
+  139    Call to deprecated function db_query().   
+  169    Call to deprecated function db_query().   
+  193    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/plupload_gallery 8.x-1.0-alpha2
+source : http://cgit.drupalcode.org/plupload_gallery 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   plupload_gallery.module                                     
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated method entityManager() of class Drupal.  
+  61     Calls to function dpm should not exist.                     
+  62     Calls to function dpm should not exist.                     
+  82     Call to deprecated function entity_get_form_display().      
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/PlUploadGalleryController.php  
+ ------ ---------------------------------------------- 
+  246    Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Derivative/PlUploadGalleryLocalTask.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\plupload_gallery\Plugin\Derivative\PlUploadWidgetLocalTask  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/PlUploadGalleryManager.php                          
+ ------ -------------------------------------------------------- 
+  75     Call to deprecated function entity_get_form_display().  
+  88     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/PlUploadGalleryEntityReferenceWidget.php  
+ ------ ----------------------------------------------------------------------- 
+  167    Call to deprecated method url() of class Drupal.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/PlUploadGalleryImageWidget.php  
+ ------ ------------------------------------------------------------- 
+  75     Call to deprecated method url() of class Drupal.             
+ ------ ------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

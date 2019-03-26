@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sdk 60d36fc88172e23e7ba6bcdad88892d4235a8ab6
+source : http://cgit.drupalcode.org/sdk 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   sdk.module                                         
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Entity/Form/Sdk/DefaultForm.php          
+ ------ --------------------------------------------- 
+  108    Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ExternalLinkTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  31     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  32     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

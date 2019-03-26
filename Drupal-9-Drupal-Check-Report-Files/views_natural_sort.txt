@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_natural_sort e2159b05d3a217410e9fade1658c777209b2622e
+source : http://cgit.drupalcode.org/views_natural_sort 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigurationForm.php                     
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ViewsNaturalSortService.php                    
+ ------ --------------------------------------------------- 
+  226    Call to deprecated function drupal_set_message().  
+  227    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/BasicTest.php                    
+ ------ -------------------------------------------------- 
+  138    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  268    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  277    Call to deprecated function db_select().          
+  283    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   views_natural_sort.module                          
+ ------ --------------------------------------------------- 
+  215    Call to deprecated function drupal_set_message().  
+  216    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

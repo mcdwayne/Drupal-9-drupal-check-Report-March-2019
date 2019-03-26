@@ -1,0 +1,88 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_scheduled_tasks 4540ff55988c9f7f67189f12c07df50a227e6f8f
+source : http://cgit.drupalcode.org/webform_scheduled_tasks 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/HealthzCheck/HaltedTasksCheck.php                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\healthz\Plugin\HealthzCheckBase not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/WebformScheduledResultSetManager.php                               
+ ------ ----------------------------------------------------------------------- 
+  19     webform_scheduled_tasks_result_set_plugins cache tag might be unclear  
+         and does not contain the cache key in it.                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/WebformScheduledTaskManager.php                                  
+ ------ --------------------------------------------------------------------- 
+  19     webform_scheduled_tasks_task_plugins cache tag might be unclear and  
+         does not contain the cache key in it.                                
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/EmailedExportFileDownloadAccessTest.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\webform_scheduled_tasks\FunctionalmailedExportFileDownloadAcce  
+         ssTest was not found while trying to analyse it - autoloading is         
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EmailedExportTest.php                                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webform_scheduled_tasks\KernelmailedExportTest was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/HaltedTasksHealthzTest.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webform_scheduled_tasks\Kernel\HaltedTasksHealthzTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/ScheduleHaltResumeTest.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webform_scheduled_tasks\Kernel\ScheduleHaltResumeTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ScheduleIntervalTest.php                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\webform_scheduled_tasks\Kernel\ScheduleIntervalTest was  
+         not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ScheduleSuccessFailTest.php                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\webform_scheduled_tasks\Kernel\ScheduleSuccessFailTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/WebformScheduledTaskSerializationTest.php               
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\webform_scheduled_tasks\Kernel\WebformScheduledTaskSerialization  
+         Test was not found while trying to analyse it - autoloading is probably  
+         not configured properly.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_rss 046a35ea8021854dc3ad929488ba50756dfd45b6
+source : http://cgit.drupalcode.org/views_rss 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/views_rss_core/views_rss_core.inc                   
+ ------ ------------------------------------------------------------ 
+  237    Call to deprecated method entityManager() of class Drupal.  
+  298    Call to deprecated function entity_load().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/views/row/RssFields.php              
+ ------ ------------------------------------------------ 
+  102    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/views/style/RssFields.php            
+ ------ ------------------------------------------------ 
+  178    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/robotagger a0be288dd56c1ba31d16554b917d4798164c8b97
+source : http://cgit.drupalcode.org/robotagger 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/robotagger/Form/RoboTaggerAdminForm.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalobotagger\Form\RoboTaggerAdminForm was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   robotagger.module                                                  
+ ------ ------------------------------------------------------------------- 
+  73     Call to deprecated function entity_load_multiple().                
+  92     Call to deprecated function entity_load().                         
+  93     Call to deprecated function entity_create().                       
+  105    Call to deprecated function entity_load().                         
+  110    Call to deprecated function entity_create().                       
+  123    Call to deprecated function entity_load().                         
+  143    Call to deprecated function entity_load().                         
+  154    Call to deprecated function entity_create().                       
+  157    Call to deprecated function entity_get_display().                  
+  164    Call to deprecated function entity_get_display().                  
+  226    Call to deprecated function entity_create().                       
+  271    Call to deprecated function drupal_set_message().                  
+  274    Call to deprecated function entity_load_multiple().                
+  283    Call to deprecated function entity_load_multiple_by_properties().  
+  288    Call to deprecated function entity_load().                         
+  289    Call to deprecated function entity_create().                       
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

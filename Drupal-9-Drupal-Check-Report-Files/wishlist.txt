@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wishlist 5225aa50021df22f8a04b1168e5b639245f7305b
+source : http://cgit.drupalcode.org/wishlist 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Access/WishlistAccess.php                                     
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\wishlist\Access\FormBase not found and could not be  
+         autoloaded.                                                       
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Block/WishlistListsBlock.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\wishlist\Plugin\Block\WishlistListsBlock was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Form/WishlishPurchaseForm.php                               
+ ------ ---------------------------------------------------------------- 
+         Class Drupal\wishlist\Form\FormBase not found and could not be  
+         autoloaded.                                                     
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WishlistPurchasedDeleteForm.php           
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WishlistPurchasedForm.php                 
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

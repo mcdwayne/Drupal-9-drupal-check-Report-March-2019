@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/select2 297393a488198b8961ea5e94bf678f3be385066b
+source : http://cgit.drupalcode.org/select2 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/select2_facets/src/Plugin/facets/widget/Select2Widget.php       
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalacets\Widget\WidgetPluginBase not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/Select2JavascriptTestBase.php  
+ ------ -------------------------------------------------------------- 
+  80     Call to deprecated function entity_get_form_display().        
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

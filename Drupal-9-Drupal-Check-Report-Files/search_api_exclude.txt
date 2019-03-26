@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_exclude 8.x-1.0-alpha1
+source : http://cgit.drupalcode.org/search_api_exclude 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   search_api_exclude.module                          
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Processor/NodeExcludeTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  24     Class Drupal\Tests\search_api\Unit\Plugin\Processor\TestItemsTrait not   
+         found and could not be autoloaded.                                       
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  63     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

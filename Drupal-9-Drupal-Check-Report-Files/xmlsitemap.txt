@@ -1,0 +1,151 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/xmlsitemap 379953245cba320e98100424e0ccb0d726105f7f
+source : http://cgit.drupalcode.org/xmlsitemap 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/XmlSitemapDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/XmlSitemapForm.php                        
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+  88     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/XmlSitemapLinkBundleSettingsForm.php      
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/XmlSitemapRebuildForm.php                 
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Tests/XmlSitemapListBuilderTest.php              
+ ------ ----------------------------------------------------- 
+  101    Call to deprecated function entity_load_multiple().  
+  108    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/XmlSitemapNodeFunctionalTest.php              
+ ------ -------------------------------------------------------- 
+  65     Call to deprecated function entity_create().            
+  92     Call to deprecated function entity_get_form_display().  
+  99     Call to deprecated function entity_get_display().       
+  104    Call to deprecated function entity_get_display().       
+  128    Call to deprecated function entity_load_multiple().     
+  146    Call to deprecated function entity_load_multiple().     
+  276    Call to deprecated function db_delete().                
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Tests/XmlSitemapTestBase.php          
+ ------ ------------------------------------------ 
+  391    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Tests/XmlSitemapUnitTest.php         
+ ------ ----------------------------------------- 
+  81     Call to deprecated function db_query().  
+  86     Call to deprecated function db_query().  
+  97     Call to deprecated function db_query().  
+  102    Call to deprecated function db_query().  
+  103    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/XmlSitemapGenerator.php                        
+ ------ --------------------------------------------------- 
+  441    Call to deprecated function drupal_set_message().  
+  447    Call to deprecated function drupal_set_message().  
+  459    Call to deprecated function db_delete().           
+  545    Call to deprecated function drupal_set_message().  
+  548    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Kernel/XmlSitemapWriterTest.php                 
+ ------ ---------------------------------------------------------- 
+  66     Call to deprecated method writeSitemapElement() of class  
+         Drupal\xmlsitemap\XmlSitemapWriter.                       
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   xmlsitemap.drush.inc                      
+ ------ ------------------------------------------ 
+  64     Call to deprecated function db_select().  
+  68     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   xmlsitemap.module                                                
+ ------ ----------------------------------------------------------------- 
+  279    Call to deprecated function drupal_placeholder().                
+  559    Call to deprecated function drupal_realpath().                   
+  560    Call to deprecated function drupal_realpath().                   
+  593    Call to deprecated function drupal_realpath().                   
+  731    Call to deprecated function db_query().                          
+  732    Call to deprecated function db_query().                          
+  1036   Call to deprecated function db_query().                          
+  1126   Call to deprecated function drupal_set_message().                
+  1183   Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+  1309   Call to deprecated function drupal_set_message().                
+  1309   Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+  1847   Call to deprecated function db_and().                            
+  1850   Call to deprecated function db_and().                            
+  1853   Call to deprecated function db_or().                             
+  2188   Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+  2314   Call to deprecated function file_stream_wrapper_valid_scheme().  
+  2376   Call to deprecated function _system_rebuild_module_data().       
+  2424   Call to deprecated function drupal_set_message().                
+  2426   Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   xmlsitemap_custom/src/Controller/XmlSitemapCustomListController.php  
+ ------ --------------------------------------------------------------------- 
+  37     Call to deprecated function db_select().                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   xmlsitemap_custom/src/Form/XmlSitemapCustomAddForm.php  
+ ------ -------------------------------------------------------- 
+  206    Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  246    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   xmlsitemap_custom/src/Form/XmlSitemapCustomDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   xmlsitemap_custom/src/Form/XmlSitemapCustomEditForm.php  
+ ------ --------------------------------------------------------- 
+  104    Call to deprecated function drupal_set_message().        
+  178    Call to deprecated method substr() of class              
+         Drupal\Component\Utility\Unicode.                        
+  205    Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 56 errors                                                         
+
+ </code>

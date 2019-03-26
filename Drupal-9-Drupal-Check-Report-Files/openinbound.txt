@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openinbound c9e4f8b242d6bce3b718a721b44f435fbea283e7
+source : http://cgit.drupalcode.org/openinbound 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/RepostController.php                 
+ ------ ---------------------------------------------------- 
+  21     Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/WebformHandler/InboundWebformHandler.php                     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webform\Plugin\WebformHandlerBase not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

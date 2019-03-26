@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/we_love_reviews a1f5c166fe64e9730ebf8ef1cb376c0b3a5c14e4
+source : http://cgit.drupalcode.org/we_love_reviews 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WeLoveReviewsAdminSettingsForm.php        
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+  133    Call to deprecated function drupal_set_message().  
+  163    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   we_love_reviews.module                             
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

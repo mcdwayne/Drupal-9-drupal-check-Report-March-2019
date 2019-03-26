@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/piwik_actions 1d3b8ec7ab3eed02ef05de3e9d61c69a60240965
+source : http://cgit.drupalcode.org/piwik_actions 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PiwikActionsViewForm.php                  
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Visits.php                                     
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

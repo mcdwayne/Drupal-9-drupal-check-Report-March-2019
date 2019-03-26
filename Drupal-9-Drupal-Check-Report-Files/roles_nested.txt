@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/roles_nested 8.x-1.2
+source : http://cgit.drupalcode.org/roles_nested 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/RolesNestedTable.php                   
+ ------ ------------------------------------------------ 
+  46     Call to deprecated method l() of class Drupal.  
+  98     Call to deprecated function drupal_render().    
+  185    Call to deprecated function db_update().        
+  199    Call to deprecated function db_select().        
+  235    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

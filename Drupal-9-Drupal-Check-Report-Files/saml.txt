@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/saml ce51e5dfa1e5a8cbd1809906fc48bdaeb31ac9bd
+source : http://cgit.drupalcode.org/saml 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Event/SamlMetadataAlterEvent.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\samlventntityDescriptorAlterEvent was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Factory/Model/Metadata/OutboundConnectionMetadataFactory.php         
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\saml\Factory\Model\Metadata\ServiceProviderDescriptorFactory was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

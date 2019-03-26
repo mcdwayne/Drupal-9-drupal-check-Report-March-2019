@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/weathercomau f407247f649890c24c798ab5f4fabed9dea9b0fd
+source : http://cgit.drupalcode.org/weathercomau 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/WeathercomauFetcher.php                      
+ ------ ------------------------------------------------- 
+  49     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   weathercomau.theme.inc                          
+ ------ ------------------------------------------------ 
+  42     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

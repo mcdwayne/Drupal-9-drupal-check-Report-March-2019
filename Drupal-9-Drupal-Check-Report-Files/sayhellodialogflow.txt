@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sayhellodialogflow 668ec778c683c4e14fb746b2f38af5654001e085
+source : http://cgit.drupalcode.org/sayhellodialogflow 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/SayHelloDialogflow.php                   
+ ------ --------------------------------------------- 
+  104    Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Functional/SayHelloDialogflowPage.php                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\say_hello_dialogflow\Functional\HelloWorldPageTest   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

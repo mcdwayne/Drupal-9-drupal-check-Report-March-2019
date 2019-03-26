@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wsif 86aa317db582b8424932f184431d868e46efc9d1
+source : http://cgit.drupalcode.org/wsif 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   WSIFInterface.class.inc                                         
+ ------ ---------------------------------------------------------------- 
+         Class WSIFInterface was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   wsif.module                                                              
+ ------ ------------------------------------------------------------------------- 
+         Class WSIFUnavailableException was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

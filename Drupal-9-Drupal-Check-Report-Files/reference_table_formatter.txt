@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/reference_table_formatter 5fb6c56047c03db94178a01e1e985524e43b9ad1
+source : http://cgit.drupalcode.org/reference_table_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ReferenceTableFormatterUnitTestCase.php                   
+ ------ ------------------------------------------------------------------------- 
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  97     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  105    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  125    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  133    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  155    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

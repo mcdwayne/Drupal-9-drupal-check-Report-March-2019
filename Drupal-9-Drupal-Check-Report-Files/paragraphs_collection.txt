@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_collection 120046eca6b37c3ed76c6acd6feeea4d5e2877c0
+source : http://cgit.drupalcode.org/paragraphs_collection 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/paragraphs_collection_demo/src/Tests/ParagraphsCollectionDemoTest.php  
+ ------ ------------------------------------------------------------------------------- 
+  167    Call to deprecated function drupal_realpath().                                 
+  169    Call to deprecated function drupal_realpath().                                 
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/ParagraphsTypesTest.php                 
+ ------ -------------------------------------------------- 
+  48     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  56     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsCollectionStyleTest.php         
+ ------ ------------------------------------------------------------------------- 
+  14     Class                                                                    
+         Drupal\Tests\paragraphs_collection\FunctionalJavascript\ParagraphsColle  
+         ctionStyleTest extends deprecated class                                  
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

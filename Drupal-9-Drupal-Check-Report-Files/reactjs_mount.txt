@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/reactjs_mount 0cd4b113a4556b290614d68ca9e50363479b4ed5
+source : http://cgit.drupalcode.org/reactjs_mount 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   reactjs_mount.module                               
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

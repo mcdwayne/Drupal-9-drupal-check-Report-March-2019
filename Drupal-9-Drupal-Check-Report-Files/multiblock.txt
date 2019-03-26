@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/multiblock 5ab08e0b5cf010530faaf8846db30c36e3f45536
+source : http://cgit.drupalcode.org/multiblock 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   multiblock.module                         
+ ------ ------------------------------------------ 
+  393    Syntax error, unexpected '.' on line 393  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/DefaultController.php          
+ ------ ---------------------------------------------- 
+  24     Call to deprecated function drupal_render().  
+  28     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/DefaultController.php                                          
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\multiblock\ControllerBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MultiblockDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  22     Call to deprecated function drupal_set_message().  
+  38     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/MultiblockDeleteForm.php                                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\multiblock\FormBase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

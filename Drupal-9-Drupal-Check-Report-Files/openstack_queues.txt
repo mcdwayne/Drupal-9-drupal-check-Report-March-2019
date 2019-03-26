@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openstack_queues 6deda4c4a6c165658ffd730107d7550fe76f2adf
+source : http://cgit.drupalcode.org/openstack_queues 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/OpenstackQueueTestBase.php                                
+ ------ ------------------------------------------------------------------------- 
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Queue/OpenstackQueueFactoryTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  17     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

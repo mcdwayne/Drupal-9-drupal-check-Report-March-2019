@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/grassroot_interests a3235bec6a68e8084dbc8d0c67d51f9373801bcc
+source : http://cgit.drupalcode.org/grassroot_interests 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   grassroot_interests.module                        
+ ------ -------------------------------------------------- 
+  34     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GrassrootInterestDelete.php               
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GrassrootInterestForm.php                 
+ ------ --------------------------------------------------- 
+  231    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Block/SearchInterestBlock.php        
+ ------ ------------------------------------------------ 
+  141    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

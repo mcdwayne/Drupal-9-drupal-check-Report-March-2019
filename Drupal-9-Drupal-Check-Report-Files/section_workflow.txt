@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/section_workflow 77ec79457796852034d4b0ef8b2ebdb26ac773ad
+source : http://cgit.drupalcode.org/section_workflow 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   section_workflow.module                         
+ ------ ------------------------------------------------ 
+  238    Call to deprecated method l() of class Drupal.  
+  275    Call to deprecated method l() of class Drupal.  
+  280    Call to deprecated method l() of class Drupal.  
+  285    Call to deprecated method l() of class Drupal.  
+  314    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/NodeSW.php                                       
+ ------ ----------------------------------------------------- 
+  381    Call to deprecated function db_query().              
+  393    Call to deprecated function entity_load().           
+  483    Call to deprecated function entity_load().           
+  491    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/SectionsConfig.php                                  
+ ------ -------------------------------------------------------- 
+  550    Call to deprecated function taxonomy_term_load().       
+  550    Call to deprecated method getVocabularyId() of class    
+         Drupal	axonomyntity\Term.                            
+  870    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/LoadTest.php                                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\section_workflow\LoadTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

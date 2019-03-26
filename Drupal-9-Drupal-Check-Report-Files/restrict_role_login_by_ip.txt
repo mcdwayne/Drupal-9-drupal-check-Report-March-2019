@@ -1,0 +1,15 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/restrict_role_login_by_ip 8.x-1.0-alpha2
+source : http://cgit.drupalcode.org/restrict_role_login_by_ip 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/EventSubscriber/RestrictRoleLoginByIpEventSubscriber.php  
+ ------ -------------------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

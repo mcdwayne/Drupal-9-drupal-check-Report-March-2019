@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/registration_types 1bee994b745266d50e68315b7264d9dcbf498a7e
+source : http://cgit.drupalcode.org/registration_types 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RegistrationTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/RegistrationTypeForm.php                           
+ ------ ------------------------------------------------------------ 
+  111    Call to deprecated method entityManager() of class Drupal.  
+  187    Call to deprecated function drupal_set_message().           
+  193    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/purge_queues ec2c2ddbdceb7b00d435066383fdeb37cb033f63
+source : http://cgit.drupalcode.org/purge_queues 
+ 
+ <code>  ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Purge/Queue/AltDatabaseQueue.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\Queue\DatabaseQueue not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Purge/Queue/DatabaseUniqueQueue.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge_queues\Plugin\Purge\Queue\AltDatabaseQueue not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

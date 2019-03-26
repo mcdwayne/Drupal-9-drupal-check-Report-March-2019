@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ descrip. : Allows rest resource endpoint to access without _format key
+source   : [git] https://git.drupal.org/project/rest_without_format ddab5fb4c11575435418597f463919a09ca8f304
+source : http://cgit.drupalcode.org/rest_without_format 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Routing/RestWithoutFormatRouteFilter.php                           
+ ------ ----------------------------------------------------------------------- 
+  15     Class Drupalest_without_format\Routing\RestWithoutFormatRouteFilter  
+         implements deprecated interface                                        
+         Drupal\Core\Routing\RouteFilterInterface.                              
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

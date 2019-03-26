@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/permission_report fe2ccf1d53cabcd6a06824bf5291f4f30266f98b
+source : http://cgit.drupalcode.org/permission_report 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/ReportController.php                         
+ ------ ------------------------------------------------------------ 
+  132    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  138    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  164    Call to deprecated method entityManager() of class Drupal.  
+  183    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  184    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  218    Call to deprecated method entityManager() of class Drupal.  
+  237    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  238    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  271    Call to deprecated method entityManager() of class Drupal.  
+  279    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  280    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  299    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  300    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  371    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  376    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

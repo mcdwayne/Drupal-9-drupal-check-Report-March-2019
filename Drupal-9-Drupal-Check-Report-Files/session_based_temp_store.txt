@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/session_based_temp_store 7b2bb92538e3a504917dc6ca9d8780081ea9ce7d
+source : http://cgit.drupalcode.org/session_based_temp_store 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/SessionBasedTempStore.php                
+ ------ --------------------------------------------- 
+  237    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

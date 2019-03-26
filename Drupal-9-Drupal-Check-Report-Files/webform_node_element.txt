@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_node_element a86623140915440a4e671fdbd7eb8e8e417be3ed
+source : http://cgit.drupalcode.org/webform_node_element 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Element/WebformNodeElement.php                          
+ ------ ------------------------------------------------------------ 
+  54     Call to deprecated method entityManager() of class Drupal.  
+  56     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/WebformNodeElementFunctionalTest.php  
+ ------ ----------------------------------------------------------- 
+  57     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

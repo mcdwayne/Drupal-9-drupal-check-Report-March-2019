@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wordfilter 722d1e776c113896119a3cd536a4df209b8c06ab
+source : http://cgit.drupalcode.org/wordfilter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WordfilterConfigurationDeleteForm.php     
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WordfilterConfigurationForm.php           
+ ------ --------------------------------------------------- 
+  305    Call to deprecated function drupal_set_message().  
+  338    Call to deprecated function drupal_set_message().  
+  344    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/TokenWordfilterProcessUnitTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

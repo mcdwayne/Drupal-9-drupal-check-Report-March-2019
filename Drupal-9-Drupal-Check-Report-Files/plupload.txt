@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/plupload e2ce1c607c05c0e892316c28354ef1117b8add89
+source : http://cgit.drupalcode.org/plupload 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   plupload_test/src/PluploadTestForm.php             
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Element/PlUploadFile.php                       
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_basename().     
+  120    Call to deprecated function drupal_set_message().  
+  268    Call to deprecated function entity_create().       
+  272    Call to deprecated function drupal_basename().     
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/UploadController.php                      
+ ------ ---------------------------------------------- 
+  172    Call to deprecated function drupal_unlink().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/username_login b11719ec7c72bb4972d67aef75db27a39067a639
+source : http://cgit.drupalcode.org/username_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UsernameLoginForm.php                     
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

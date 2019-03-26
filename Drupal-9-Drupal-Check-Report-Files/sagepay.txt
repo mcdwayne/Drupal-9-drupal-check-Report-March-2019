@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sagepay 640146f5ea7834fe2f926d8684b59aa2b63ae7da
+source : http://cgit.drupalcode.org/sagepay 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/CreditCardTerminalFormAlter.php                                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal_credit\Form\CreditCardTerminalForm not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Ubercart/PaymentMethod/SagePay.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal_credit\CreditCardPaymentMethodBase not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

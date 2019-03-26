@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_entity_merge f52200879c33ace219a671dec89836168b04d9ef
+source : http://cgit.drupalcode.org/simple_entity_merge 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Merge.php                                 
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/SimpleEntityMerge.php                   
+ ------ -------------------------------------------- 
+  55     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/youtube_gallery a46b0f8a59f0ae46886d9c3db465e07bd7e085f4
+source : http://cgit.drupalcode.org/youtube_gallery 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/UploadVideo.php                     
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_realpath().     
+  53     Call to deprecated function drupal_set_message().  
+  143    Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/playVideo.php                                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\youtube_gallery\Controller\PlayVideo was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Controller/youtubeConfig.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\youtube_gallery\Controller\YoutubeConfig was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Controller/youtubeGallery.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\youtube_gallery\Controller\YoutubeGallery was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/UploadVideoForm.php                    
+ ------ ------------------------------------------------ 
+  57     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ descrip. : API Key Authentication Provider for Drupal 8 Rest Resources
+source   : [git] https://git.drupal.org/project/services_api_key_auth 545a56a5e3303bc3b8342e08413de2738c29f1f2
+source : http://cgit.drupalcode.org/services_api_key_auth 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApiKeyDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApiKeyForm.php                            
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

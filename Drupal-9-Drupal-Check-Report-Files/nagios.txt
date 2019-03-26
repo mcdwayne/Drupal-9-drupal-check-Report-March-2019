@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nagios 713a5e339db81d45779a6e3d3e79d5a637cf3ca0
+source : http://cgit.drupalcode.org/nagios 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   nagios.drush.inc                                 
+ ------ ------------------------------------------------- 
+  245    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   nagios.module                             
+ ------ ------------------------------------------ 
+  429    Call to deprecated function db_select().  
+  624    Call to deprecated function db_query().   
+  824    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

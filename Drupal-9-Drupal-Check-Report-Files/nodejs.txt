@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nodejs 208a38e10557c7a11f4d17bb48189d7e9bdf1bba
+source : http://cgit.drupalcode.org/nodejs 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   nodejs.module                             
+ ------ ------------------------------------------ 
+  483    Call to deprecated function user_load().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   nodejs_notify/src/Form/BroadcastForm.php           
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddUserToChannelForm.php                  
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nodequeue_migrate 3a3174a204653d9ae6b22c40f949bf415c4c9457
+source : http://cgit.drupalcode.org/nodequeue_migrate 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Unit/Migrate/d7/NodequeueTest.php                         
+ ------ -------------------------------------------------------------------- 
+  12     Class Drupal\Tests
+odequeue_migrate\Unit\Migrate\d7\NodequeueTest  
+         extends deprecated class                                            
+         Drupal\Tests\migrate\Unit\MigrateSqlSourceTestCase.                 
+  84     Call to method setUp() of deprecated class                          
+         Drupal\Tests\migrate\Unit\MigrateSqlSourceTestCase.                 
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Unit/Migrate/d7/NodesubqueueTest.php                         
+ ------ ----------------------------------------------------------------------- 
+  12     Class Drupal\Tests
+odequeue_migrate\Unit\Migrate\d7\NodesubqueueTest  
+         extends deprecated class                                               
+         Drupal\Tests\migrate\Unit\MigrateSqlSourceTestCase.                    
+  91     Call to method setUp() of deprecated class                             
+         Drupal\Tests\migrate\Unit\MigrateSqlSourceTestCase.                    
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

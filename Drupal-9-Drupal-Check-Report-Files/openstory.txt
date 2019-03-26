@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openstory dad81d979af3bc0883c3b1d25cb9b1f7cbc7a248
+source : http://cgit.drupalcode.org/openstory 
+ 
+ <code> 
+Warning: Declaration of Drupal\openstory\Pluginestesource\CreateEntityResourceValidationTrait::validate(Drupal\CorentityntityInterface $entity) should be compatible with Drupalest\PluginestesourcentityResource::validate(Drupal\CorentityntityInterface $entity, array $fields_to_validate = Array) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/openstory/src/Plugin/rest/resource/CreateEntities.php on line 33
+
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Entities/OpenStoryAccessTokenEntity.php                              
+ ------ ------------------------------------------------------------------------- 
+  42     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  42     Call to deprecated method setAudience() of class Lcobucci\JWT\Builder.   
+  42     Call to deprecated method setExpiration() of class                       
+         Lcobucci\JWT\Builder.                                                    
+  42     Call to deprecated method setId() of class Lcobucci\JWT\Builder.         
+  42     Call to deprecated method setIssuedAt() of class Lcobucci\JWT\Builder.   
+  42     Call to deprecated method setNotBefore() of class Lcobucci\JWT\Builder.  
+  42     Call to deprecated method setSubject() of class Lcobucci\JWT\Builder.    
+  60     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  71     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  76     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  80     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  85     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  93     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  97     Call to deprecated method sign() of class Lcobucci\JWT\Builder.          
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

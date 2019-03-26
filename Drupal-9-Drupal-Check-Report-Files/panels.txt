@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/panels 88d18b2829498ba7df62467d64fa3be8e09e75a2
+source : http://git.drupal.org/project/panels.git 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   panels_ipe/tests/src/FunctionalJavascript/PanelsIPETestBase.php       
+ ------ ---------------------------------------------------------------------- 
+  10     Class Drupal\Tests\panels_ipe\FunctionalJavascript\PanelsIPETestBase  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   panels_ipe/tests/src/FunctionalJavascript/PanelsIPETestTrait.php (in context of class Drupal\Tests\panels_ipe\FunctionalJavascript\PanelsIPETestBase)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  207    Call to deprecated method assertElementNotPresent() of class                                                                                           
+         Drupal\Tests\BrowserTestBase.                                                                                                                          
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PanelsDeleteBlockForm.php                 
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Unit/panels_ipe/RemoveBlockRequestHandlerTest.php           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\panels\Unit\panels_ipe\RequestHandlerTestBase not  
+         found and could not be autoloaded.                                    
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/panels_ipe/RequestHandlerTestBase.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Unit/panels_ipe/UpdateLayoutRequestHandlerTest.php          
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\panels\Unit\panels_ipe\RequestHandlerTestBase not  
+         found and could not be autoloaded.                                    
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

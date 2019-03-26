@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/prod_check 9e10a5afec5b4cf62e06181f32d62eb3fa80d1e5
+source : http://cgit.drupalcode.org/prod_check 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   prod_check.module                                           
+ ------ ------------------------------------------------------------ 
+  163    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/CheckListBuilder.php                       
+ ------ ----------------------------------------------- 
+  76     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CheckDisableForm.php                      
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CheckEnableForm.php                       
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CheckFormBase.php                         
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProcessorFormBase.php                     
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Plugin/ProdCheck/Server/DbLog.php    
+ ------ ----------------------------------------- 
+  45     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/ProcessorListBuilder.php                   
+ ------ ----------------------------------------------- 
+  76     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

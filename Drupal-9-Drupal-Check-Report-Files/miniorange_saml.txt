@@ -1,0 +1,106 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/miniorange_saml a878d156c1da883efee5ca88ed96190c6059a130
+source : http://cgit.drupalcode.org/miniorange_saml 
+ 
+ <code> 
+
+Warning: include(includes\miniorange_saml_enums.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/miniorange_saml/src/Form/Export.php on line 13
+
+Warning: include(): Failed opening 'includes\miniorange_saml_enums.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/miniorange_saml/src/Form/Export.php on line 13
+
+
+ ------ ----------------------------------------------------------- 
+  Line   includes/metadata/metadata.php                             
+ ------ ----------------------------------------------------------- 
+  16     Call to deprecated method prepareLegacyRequest() of class  
+         Drupal\Core\DrupalKernel.                                  
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/miniorange_samlController.php                
+ ------ ------------------------------------------------------------ 
+  93     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Mapping.php                               
+ ------ --------------------------------------------------- 
+  320    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiniorangeSPInformation.php               
+ ------ --------------------------------------------------- 
+  292    Call to deprecated function drupal_set_message().  
+  314    Call to deprecated function drupal_set_message().  
+  328    Call to deprecated function drupal_set_message().  
+  338    Call to deprecated function drupal_set_message().  
+  362    Call to deprecated function drupal_set_message().  
+  388    Call to deprecated function drupal_set_message().  
+  391    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/MiniorangeSamlCustomerSetup.php            
+ ------ ---------------------------------------------------- 
+  188    Call to deprecated function drupal_set_message().   
+  191    Call to deprecated function valid_email_address().  
+  192    Call to deprecated function drupal_set_message().   
+  210    Call to deprecated function drupal_set_message().   
+  216    Call to deprecated function drupal_set_message().   
+  235    Call to deprecated function drupal_set_message().   
+  251    Call to deprecated function drupal_set_message().   
+  269    Call to deprecated function drupal_set_message().   
+  280    Call to deprecated function drupal_set_message().   
+  315    Call to deprecated function drupal_set_message().   
+  319    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiniorangeSupport.php                     
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/MiniOrangeAcs.php                     
+ ------ ------------------------------------------ 
+  157    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/MiniorangeSPInformation.php                                   
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\miniorange_saml\FormBase not found and could not be  
+         autoloaded.                                                       
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Utilities.php                                   
+ ------ ---------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().   
+  101    Call to deprecated function valid_email_address().  
+  102    Call to deprecated function drupal_set_message().   
+  108    Call to deprecated function drupal_set_message().   
+  111    Call to deprecated function drupal_set_message().   
+  647    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml\XMLSecurityKey.              
+  649    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml\XMLSecurityKey.              
+  709    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml\XMLSecurityKey.              
+  719    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml\XMLSecurityKey.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/XMLSecurityKey.php                                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\miniorange_saml\XMLSecurityDSig was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 35 errors                                                         
+
+ </code>

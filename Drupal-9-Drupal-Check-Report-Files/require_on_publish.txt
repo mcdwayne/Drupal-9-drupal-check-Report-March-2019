@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/require_on_publish cabd1c2f31a185f37d044d40e9c04c02818a9e19
+source : http://cgit.drupalcode.org/require_on_publish 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ConfigPageTest.php  
+ ------ --------------------------------------------------- 
+  101    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  107    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  122    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  137    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

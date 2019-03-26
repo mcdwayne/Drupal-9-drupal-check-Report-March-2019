@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ossfs 44348aaaf013289ac39a718a311f3dac1c0c90c4
+source : http://cgit.drupalcode.org/ossfs 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/OssfsTransfer.php                          
+ ------ ----------------------------------------------- 
+  135    Call to deprecated function drupal_dirname().  
+  137    Call to deprecated function drupal_mkdir().    
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/FilterOssStyleTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Testsditor\Kernel\FilterOssStyleTest was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/OssfsCachedStorageTest.php   
+ ------ ---------------------------------------------- 
+  45     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  67     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  85     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  107    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  132    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  164    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  198    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  211    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   tests/src/Kernel/OssfsStreamTest.php           
+ ------ ----------------------------------------------- 
+  581    Call to deprecated function drupal_dirname().  
+  582    Call to deprecated function drupal_dirname().  
+  583    Call to deprecated function drupal_dirname().  
+  584    Call to deprecated function drupal_dirname().  
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

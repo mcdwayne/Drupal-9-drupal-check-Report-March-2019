@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/persiantools f230ab4601e289afc7c54bb0019ac3154e9cedd9
+source : http://cgit.drupalcode.org/persiantools 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   persiantools.module                                
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function db_query().            
+  54     Call to deprecated function db_query().            
+  57     Call to deprecated function db_query().            
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/RTLMaker.php                             
+ ------ --------------------------------------------- 
+  42     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  44     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  49     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  84     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  84     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  85     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  86     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  182    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  239    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  242    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  303    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  303    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

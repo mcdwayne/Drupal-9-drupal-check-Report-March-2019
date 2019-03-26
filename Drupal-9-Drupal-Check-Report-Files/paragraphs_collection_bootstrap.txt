@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_collection_bootstrap e3535def03644906b3a92b2073f5c2985ca42a8d
+source : http://cgit.drupalcode.org/paragraphs_collection_bootstrap 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsBootstrapJavascriptTestBase.php  
+ ------ -------------------------------------------------------------------------- 
+  18     Class                                                                     
+         Drupal\Tests\paragraphs_collection_bootstrap\FunctionalJavascript\Parag   
+         raphsBootstrapJavascriptTestBase extends deprecated class                 
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                      
+  38     Call to method setUp() of deprecated class                                
+         Drupal\Tests\BrowserTestBase.                                             
+ ------ -------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/region 0daa8e7cc35bd0d27cd2d85b4e4359b453b172ef
+source : http://cgit.drupalcode.org/region 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/region/Region.php                                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalegion\Region was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/region/RegionFormController.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalegion\RegionFormController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/region/Tests/RegionTest.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupalegion\Tests\RegionTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   region.admin.inc                                   
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function entity_create().       
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   region.module                                        
+ ------ ----------------------------------------------------- 
+  110    Call to deprecated function entity_load().           
+  120    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

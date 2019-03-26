@@ -1,0 +1,175 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/oauth2_server 3ee8adde308c047c3418247290698629cc2d5b58
+source : http://cgit.drupalcode.org/oauth2_server 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/ClientListBuilder.php                      
+ ------ ----------------------------------------------- 
+  62     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/OAuth2Controller.php                 
+ ------ ---------------------------------------------------- 
+  72     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  109    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  129    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  171    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ServerClientController.php           
+ ------ ---------------------------------------------------- 
+  24     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  50     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ServerController.php                
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ServerScopeController.php            
+ ------ ---------------------------------------------------- 
+  24     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  50     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/AuthorizationCode.php                    
+ ------ ---------------------------------------------------- 
+  88     Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  99     Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Client.php                                       
+ ------ ------------------------------------------------------------ 
+  134    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Scope.php                                        
+ ------ ------------------------------------------------------------ 
+  113    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/Server.php                               
+ ------ ---------------------------------------------------- 
+  125    Call to deprecated function format_string().        
+  131    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  145    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  164    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  170    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/Token.php                                
+ ------ ---------------------------------------------------- 
+  89     Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  100    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ClientDeleteConfirmForm.php               
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ClientForm.php                            
+ ------ --------------------------------------------------- 
+  263    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScopeDeleteConfirmForm.php                
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScopeForm.php                             
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerDeleteConfirmForm.php               
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerDisableConfirmForm.php              
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerForm.php                            
+ ------ --------------------------------------------------- 
+  232    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/OAuth2Storage.php                                              
+ ------ ------------------------------------------------------------------- 
+  516    Call to deprecated method url() of class                           
+         Drupal\CorentityntityInterface.                                
+  683    Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/ScopeListBuilder.php                       
+ ------ ----------------------------------------------- 
+  62     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/ScopeUtility.php                                        
+ ------ ------------------------------------------------------------ 
+  73     Call to deprecated method entityManager() of class Drupal.  
+  119    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/ServerListBuilder.php                      
+ ------ ----------------------------------------------- 
+  72     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Utility.php                                             
+ ------ ------------------------------------------------------------ 
+  263    Call to deprecated method entityManager() of class Drupal.  
+  289    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 36 errors                                                         
+
+ </code>

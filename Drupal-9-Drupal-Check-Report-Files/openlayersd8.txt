@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/openlayersd8 d41fc40a02d90b4f3ad0cd06ba760b8380bb0f01
+source : http://cgit.drupalcode.org/openlayersd8 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/openlayers_block/src/Plugin/Block/openlayers_block.php       
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\openlayers_block\Plugin\Block\OpenLayers_Block was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/openlayers_example/openlayers_examples.module       
+ ------ ------------------------------------------------------------ 
+  47     Call to deprecated method entityManager() of class Drupal.  
+  59     Call to deprecated method entityManager() of class Drupal.  
+  71     Call to deprecated method entityManager() of class Drupal.  
+  84     Call to deprecated method entityManager() of class Drupal.  
+  100    Call to deprecated method entityManager() of class Drupal.  
+  113    Call to deprecated method entityManager() of class Drupal.  
+  125    Call to deprecated method entityManager() of class Drupal.  
+  141    Call to deprecated method entityManager() of class Drupal.  
+  154    Call to deprecated method entityManager() of class Drupal.  
+  166    Call to deprecated method entityManager() of class Drupal.  
+  177    Call to deprecated method entityManager() of class Drupal.  
+  191    Call to deprecated method entityManager() of class Drupal.  
+  203    Call to deprecated method entityManager() of class Drupal.  
+  217    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   openlayers.module                                           
+ ------ ------------------------------------------------------------ 
+  85     Calls to function dsm should not exist.                     
+  226    Call to deprecated function entity_load().                  
+  267    Call to deprecated method entityManager() of class Drupal.  
+  268    Call to deprecated method entityManager() of class Drupal.  
+  293    Call to deprecated method entityManager() of class Drupal.  
+  388    Call to deprecated method l() of class Drupal.              
+  414    Call to deprecated method entityManager() of class Drupal.  
+  428    Call to deprecated method entityManager() of class Drupal.  
+  442    Call to deprecated method entityManager() of class Drupal.  
+  456    Call to deprecated method entityManager() of class Drupal.  
+  470    Call to deprecated method entityManager() of class Drupal.  
+  484    Call to deprecated method entityManager() of class Drupal.  
+  498    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/ExternalLayerTree.php                        
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/LayerForm.php                                      
+ ------ ------------------------------------------------------------ 
+  178    Call to deprecated method entityManager() of class Drupal.  
+  195    Call to deprecated function entity_load().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------- 
+  Line   src/Form/LayerOptionsSettingsForm.php   
+ ------ ---------------------------------------- 
+  42     Calls to function dd should not exist.  
+ ------ ---------------------------------------- 
+
+ [ERROR] Found 32 errors                                                         
+
+ </code>

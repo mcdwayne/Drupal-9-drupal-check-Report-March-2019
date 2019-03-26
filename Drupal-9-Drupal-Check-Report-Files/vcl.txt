@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/vcl a7cbb35a145c243529cee56ed3fb048489fe685f
+source : http://cgit.drupalcode.org/vcl 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/VCLSelectForm.php                      
+ ------ ------------------------------------------------ 
+  50     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   swaps/src/Form/BlockAttributesForm.php                      
+ ------ ------------------------------------------------------------ 
+  57     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   swaps/src/Form/ImageAttributesForm.php                             
+ ------ ------------------------------------------------------------------- 
+  128    Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   swaps/src/Form/ImageManagerForm.php                                
+ ------ ------------------------------------------------------------------- 
+  43     Call to deprecated method url() of class Drupalilentity\File.  
+  149    Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   swaps/src/Plugin/Swap/SwapBlock.php                         
+ ------ ------------------------------------------------------------ 
+  69     Call to deprecated method entityManager() of class Drupal.  
+  74     Call to deprecated method entityManager() of class Drupal.  
+  76     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   vcl.module                                      
+ ------ ------------------------------------------------ 
+  82     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

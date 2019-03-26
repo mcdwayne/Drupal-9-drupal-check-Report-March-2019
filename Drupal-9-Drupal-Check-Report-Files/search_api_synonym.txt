@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_synonym 34781c4ee63ee61a20e2432108f0cf86d51b776e
+source : http://cgit.drupalcode.org/search_api_synonym 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SynonymForm.php                           
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SynonymImportForm.php                     
+ ------ --------------------------------------------------- 
+  232    Call to deprecated function drupal_set_message().  
+  237    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Import/ImportException.php                                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\search_api_synonym\ImportException was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Import/Importer.php                            
+ ------ --------------------------------------------------- 
+  247    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

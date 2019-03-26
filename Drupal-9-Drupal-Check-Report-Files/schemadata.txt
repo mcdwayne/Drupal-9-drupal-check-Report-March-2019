@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/schemadata c870eff8c3f43368a7435512ddb5014b67ed5201
+source : http://cgit.drupalcode.org/schemadata 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/SchemadataController.php         
+ ------ ------------------------------------------------ 
+  21     Call to deprecated function db_query().         
+  38     Call to deprecated method l() of class Drupal.  
+  71     Call to deprecated function db_query().         
+  77     Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

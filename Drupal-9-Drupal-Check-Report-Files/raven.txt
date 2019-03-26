@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/raven 1b126d19733a4880e00c2d4321b3e3b661ec2adc
+source : http://cgit.drupalcode.org/raven 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/RavenTest.php                
+ ------ -------------------------------------------------- 
+  41     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

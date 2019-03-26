@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_mail 147f8853ffd5b53a0486c70eb3aee8332373901b
+source : http://cgit.drupalcode.org/simple_mail 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SimpleMailSettingsController.php    
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Mail.php                                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\simple_mail\Plugin\Mail\SimpleMailMailer was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

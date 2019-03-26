@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/outlook_calendar fa8decc9f29f1881e3f63ae7a4d1e8d9df0dfae5
+source : http://cgit.drupalcode.org/outlook_calendar 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   outlook_calendar.module                         
+ ------ ------------------------------------------------ 
+  132    Call to deprecated method l() of class Drupal.  
+  133    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OutlookAccountDeleteForm.php              
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OutlookAccountForm.php                    
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

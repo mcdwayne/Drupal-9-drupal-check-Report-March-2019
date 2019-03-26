@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pathauto c2bc5206a0bfdea39976e43e7f011be86f6711dd
+source : http://cgit.drupalcode.org/pathauto 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/PathautoTestHelperTrait.php (in context of class Drupal\Tests\pathauto\Kernel\PathautoEntityWithStringIdTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+  76     Call to deprecated method assertIdentical() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                       
+  122    Call to deprecated method assertEqual() of class                                                                         
+         Drupal\KernelTests\KernelTestBase.                                                                                       
+  179    Call to deprecated method assertIdentical() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                       
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/PathautoTestHelperTrait.php (in context of class Drupal\Tests\pathauto\Kernel\PathautoKernelTest)  
+ ------ ------------------------------------------------------------------------------------------------------------- 
+  76     Call to deprecated method assertIdentical() of class                                                         
+         Drupal\KernelTests\KernelTestBase.                                                                           
+  122    Call to deprecated method assertEqual() of class                                                             
+         Drupal\KernelTests\KernelTestBase.                                                                           
+  179    Call to deprecated method assertIdentical() of class                                                         
+         Drupal\KernelTests\KernelTestBase.                                                                           
+ ------ ------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/PathautoKernelTest.php               
+ ------ ------------------------------------------------------ 
+  75     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  156    Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  218    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  239    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  377    Call to deprecated function entity_get_display().     
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/PathautoTokenTest.php                
+ ------ ------------------------------------------------------ 
+  41     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  99     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

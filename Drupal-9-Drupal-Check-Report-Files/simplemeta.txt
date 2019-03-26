@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simplemeta 1fa83bf17035f1e3c5b8de0f4b52957a6e1c990a
+source : http://cgit.drupalcode.org/simplemeta 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   simplemeta.module                           
+ ------ -------------------------------------------- 
+  95     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimplemetaEntityForm.php                  
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SimplemetaEntityListBuilder.php                                  
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\simplemeta\SimplemetaEntityListBuilder.                 
+  34     Call to deprecated method l() of class                               
+         Drupal\simplemeta\SimplemetaEntityListBuilder.                       
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

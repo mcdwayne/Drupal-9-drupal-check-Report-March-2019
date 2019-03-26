@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/publishthis 51106b76ef63b30d867303ba239b087be6146ea2
+source : http://cgit.drupalcode.org/publishthis 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeletePublishthisActionForm.php           
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PublishthisActionSettingForm.php          
+ ------ --------------------------------------------------- 
+  227    Call to deprecated function drupal_set_message().  
+  230    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

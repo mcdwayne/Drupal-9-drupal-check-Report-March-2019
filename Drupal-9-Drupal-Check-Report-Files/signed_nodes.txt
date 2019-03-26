@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/signed_nodes 7b5202538eb8a5f67e7d040d54913b425885ef60
+source : http://cgit.drupalcode.org/signed_nodes 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   signed_nodes.module                       
+ ------ ------------------------------------------ 
+  22     Call to deprecated function db_query().   
+  40     Call to deprecated function db_query().   
+  60     Call to deprecated function db_query().   
+  74     Call to deprecated function db_query().   
+  91     Call to deprecated function db_delete().  
+  92     Call to deprecated function db_delete().  
+  133    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/SignedNodesController.php  
+ ------ ------------------------------------------ 
+  60     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfirmDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SignedNodesForm.php                       
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SignedNodesUserAgreementForm.php          
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function db_query().            
+  37     Call to deprecated function db_query().            
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Block/SignedNodesAgreementBlock.php  
+ ------ ------------------------------------------------ 
+  34     Call to deprecated function db_query().         
+  40     Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

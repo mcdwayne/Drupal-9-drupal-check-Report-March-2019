@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/points a8c9b074cc0796b8b4ebd3ae1353070dea849c29
+source : http://cgit.drupalcode.org/points 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   points.module                                           
+ ------ -------------------------------------------------------- 
+  57     Call to deprecated function entity_get_form_display().  
+  64     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PointForm.php                             
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PointTypeDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PointTypeForm.php                         
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/PointListBuilder.php                                             
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\points\PointListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

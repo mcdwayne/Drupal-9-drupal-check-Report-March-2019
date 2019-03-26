@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shib_auth 43d4f41b32e5cca99e6405e85b881cfb4f12d304
+source : http://cgit.drupalcode.org/shib_auth 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/ShibAuthSubscriber.php         
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Login/LoginHandler.php                         
+ ------ --------------------------------------------------- 
+  158    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

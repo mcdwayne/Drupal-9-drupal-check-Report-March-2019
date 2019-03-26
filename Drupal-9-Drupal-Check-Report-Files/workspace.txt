@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workspace a4f81e6463e032907345f2559707772e03b5c3a3
+source : http://cgit.drupalcode.org/workspace 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/WorkspaceTest.php            
+ ------ -------------------------------------------------- 
+  88     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  107    Call to deprecated method url() of class          
+         Drupal\CorentityntityInterface.               
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/WorkspaceIntegrationTest.php                         
+ ------ ---------------------------------------------------------------------- 
+  23     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\workspace\Kernel\WorkspaceIntegrationTest.               
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

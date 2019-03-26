@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/watchdog_slack c7d3b7dd58b0ff4c4962009625e22d2baba1f860
+source : http://cgit.drupalcode.org/watchdog_slack 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Logger/SlackLog.php                      
+ ------ --------------------------------------------- 
+  82     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/friends afe707f33a7ed2feddad7101f7cbbc5103da7434
+source : http://cgit.drupalcode.org/friends 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FriendsForm.php                           
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/FriendsListBuilder.php                                           
+ ------ --------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalriends\FriendsListBuilder.                             
+  33     Call to deprecated method l() of class                               
+         Drupalriends\FriendsListBuilder.                                   
+  38     Call to deprecated method l() of class                               
+         Drupalriends\FriendsListBuilder.                                   
+  43     Call to deprecated method l() of class                               
+         Drupalriends\FriendsListBuilder.                                   
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/ActivityAction/UpdateActivityAction.php                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalctivity_creator\Plugin\ActivityActionBase not found and  
+         could not be autoloaded.                                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/ActivityContext/FriendsActivityContext.php                   
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalctivity_creator\Plugin\ActivityContextBase not found and  
+         could not be autoloaded.                                                
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

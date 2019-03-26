@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/opencalais_ui 1253f6a4ac07d68835e8abadee9cb0aa65c7b99c
+source : http://cgit.drupalcode.org/opencalais_ui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   opencalais_ui.module                               
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TagsForm.php                              
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

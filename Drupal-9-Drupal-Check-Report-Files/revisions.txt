@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/revisions d60d9f4761232431afc6fe7abedf05d578caeace
+source : http://cgit.drupalcode.org/revisions 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/RevisionsController.php              
+ ------ ---------------------------------------------------- 
+  130    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  157    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  160    Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/RevisionForm.php                         
+ ------ -------------------------------------------------- 
+  60     Call to deprecated function user_load().          
+  61     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

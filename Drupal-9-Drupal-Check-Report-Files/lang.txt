@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lang 267e1ff0559987873986cc5fe46596e58ad28426
+source : http://cgit.drupalcode.org/lang 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   lang.module                                       
+ ------ -------------------------------------------------- 
+  21     Call to deprecated method url() of class Drupal.  
+  59     Call to deprecated method strlen() of class       
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

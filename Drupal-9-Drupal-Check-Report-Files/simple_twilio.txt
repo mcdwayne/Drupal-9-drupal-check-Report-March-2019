@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_twilio e5d158ffc914bff24985ab36a279c0638b4511ab
+source : http://cgit.drupalcode.org/simple_twilio 
+ 
+ <code> 
+Notice: Constant TWILIO_USER_PENDING already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/simple_twilio/src/Form/SimpleTwilioPageForm.php on line 9
+
+Notice: Constant TWILIO_USER_CONFIRMED already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/simple_twilio/src/Form/SimpleTwilioPageForm.php on line 10
+
+
+ ------ --------------------------------------------------- 
+  Line   simple_twilio.module                               
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleTwilioPageForm.php                  
+ ------ --------------------------------------------------- 
+  176    Call to deprecated function drupal_set_message().  
+  213    Call to deprecated function drupal_set_message().  
+  221    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleTwilioSettingsForm.php              
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Utility.php                                    
+ ------ --------------------------------------------------- 
+  294    Call to deprecated function drupal_set_message().  
+  317    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

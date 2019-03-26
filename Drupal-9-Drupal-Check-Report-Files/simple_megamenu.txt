@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_megamenu f2f435be294883609218892d9835852bc6dcf778
+source : http://cgit.drupalcode.org/simple_megamenu 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/SimpleMegaMenuController.php         
+ ------ ---------------------------------------------------- 
+  31     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  32     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  47     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  48     Call to deprecated function format_date().          
+  66     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/SimpleMegaMenu.php                      
+ ------ --------------------------------------------------- 
+  293    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+  299    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleMegaMenuForm.php                    
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleMegaMenuRevisionDeleteForm.php      
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleMegaMenuRevisionRevertForm.php      
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleMegaMenuTypeDeleteForm.php          
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleMegaMenuTypeForm.php                
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SimpleMegaMenuListBuilder.php                                    
+ ------ --------------------------------------------------------------------- 
+  24     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\simple_megamenu\SimpleMegaMenuListBuilder.              
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

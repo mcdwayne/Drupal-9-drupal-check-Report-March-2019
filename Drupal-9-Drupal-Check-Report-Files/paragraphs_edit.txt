@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_edit 1551330f27db8704aac59a5c8b397d7c425c5cc6
+source : http://cgit.drupalcode.org/paragraphs_edit 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/ParagraphCloneForm.php                        
+ ------ ------------------------------------------------------- 
+  53     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  131    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  139    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  204    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/packaging efc23c1be8a0e9a294376f8f29491e335bd3dea1
+source : http://cgit.drupalcode.org/packaging 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PackagingDebugForm.php                    
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PackagingSettingsForm.php                 
+ ------ --------------------------------------------------- 
+  234    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/PackagingUnitTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  37     Class Drupal\packaging\Tests\PackagingUnitTest extends deprecated class  
+         Drupal\simpletest\KernelTestBase.                                        
+  58     Call to method setUp() of deprecated class                               
+         Drupal\simpletest\KernelTestBase.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sms_websms bea925be426679089137c16a1740509ef927f3ba
+source : http://cgit.drupalcode.org/sms_websms 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/smsWebSmsSendForm.php                     
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+  88     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/smsWebSmsSettingsForm.php                 
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

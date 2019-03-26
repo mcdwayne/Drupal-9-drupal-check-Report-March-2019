@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/widget_block bc9e298bda38580f8449de7950de0fb8f149e54d
+source : http://cgit.drupalcode.org/widget_block 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/WidgetBlockListBuilder.php            
+ ------ ------------------------------------------ 
+  46     Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   widget_block.module                                
+ ------ --------------------------------------------------- 
+  131    Call to deprecated function drupal_set_message().  
+  183    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

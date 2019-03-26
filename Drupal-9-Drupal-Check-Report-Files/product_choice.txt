@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/product_choice 0f708b903850d15f50fe77ec9b0884ec076dd212
+source : http://cgit.drupalcode.org/product_choice 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProductChoiceListDeleteForm.php           
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProductChoiceListForm.php                 
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProductChoiceTermDeleteForm.php           
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProductChoiceTermForm.php                 
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/ProductChoiceListListBuilder.php          
+ ------ ---------------------------------------------- 
+  28     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

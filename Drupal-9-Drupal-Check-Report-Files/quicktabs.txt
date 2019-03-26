@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quicktabs 34cb5ca5ee0ed1b78aed1e5d578ea7cc4290bc3b
+source : http://cgit.drupalcode.org/quicktabs 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   quicktabs.module                                  
+ ------ -------------------------------------------------- 
+  19     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuickTabsInstanceEditForm.php             
+ ------ --------------------------------------------------- 
+  261    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

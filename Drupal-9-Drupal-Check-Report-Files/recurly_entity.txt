@@ -1,0 +1,142 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/recurly_entity 19456011299f4792f16e51760acdb6adf03907c8
+source : http://cgit.drupalcode.org/recurly_entity 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   entity/RecurlyAPIController.inc                                        
+ ------ ----------------------------------------------------------------------- 
+         Class RecurlyAPIController was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   entity/RecurlyAdjustment.inc                                        
+ ------ -------------------------------------------------------------------- 
+         Class RecurlyAdjustment was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   entity/RecurlyAdjustmentController.inc                                   
+ ------ ------------------------------------------------------------------------- 
+         Class RecurlyAdjustmentController was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   entity/RecurlyAdjustmentMetadataController.inc                           
+ ------ ------------------------------------------------------------------------- 
+         Class RecurlyAdjustmentMetadataController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   entity/RecurlyAdjustmentUIController.inc                           
+ ------ ------------------------------------------------------------------- 
+         Class RecurlyAdjustmentUIController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   entity/RecurlyEntity.inc                                        
+ ------ ---------------------------------------------------------------- 
+         Class RecurlyEntity was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   entity/RecurlyEntityInvoiceException.inc                           
+ ------ ------------------------------------------------------------------- 
+         Class RecurlyEntityInvoiceException was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   entity/RecurlyEntityInvoiceFailedException.inc                           
+ ------ ------------------------------------------------------------------------- 
+         Class RecurlyEntityInvoiceFailedException was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   entity/RecurlyRemoteEntity.inc                                        
+ ------ ---------------------------------------------------------------------- 
+         Class RecurlyRemoteEntity was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   entity/RecurlySubscription.inc                                        
+ ------ ---------------------------------------------------------------------- 
+         Class RecurlySubscription was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   entity/RecurlySubscriptionController.inc                           
+ ------ ------------------------------------------------------------------- 
+         Class RecurlySubscriptionController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   entity/RecurlySubscriptionMetadataController.inc                        
+ ------ ------------------------------------------------------------------------ 
+         Class RecurlySubscriptionMetadataController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   entity/RecurlySubscriptionPlan.inc                                      
+ ------ ------------------------------------------------------------------------ 
+         Class RecurlySubscriptionPlan was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   entity/RecurlySubscriptionPlanController.inc                           
+ ------ ----------------------------------------------------------------------- 
+         Class RecurlySubscriptionPlanController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   entity/RecurlySubscriptionPlanMetadataController.inc                     
+ ------ ------------------------------------------------------------------------- 
+         Class RecurlySubscriptionPlanMetadataController was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   entity/RecurlySubscriptionPlanUIController.inc                           
+ ------ ------------------------------------------------------------------------- 
+         Class RecurlySubscriptionPlanUIController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/recurly_entity.admin.inc                  
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   includes/recurly_entity.import.inc            
+ ------ ---------------------------------------------- 
+  130    Call to deprecated function format_string().  
+  138    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   recurly_entity.module                       
+ ------ -------------------------------------------- 
+  414    Call to deprecated function entity_view().  
+  428    Call to deprecated function entity_view().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

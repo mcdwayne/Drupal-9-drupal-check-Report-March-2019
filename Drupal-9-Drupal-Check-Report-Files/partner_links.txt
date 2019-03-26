@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/partner_links 51504d646afa7fa91f9606a830d8b5eebb2573db
+source : http://cgit.drupalcode.org/partner_links 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Entity/Controller/PartnerListBuilder.php  
+ ------ ---------------------------------------------- 
+  104    Call to deprecated method link() of class     
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Partner.php                                      
+ ------ ------------------------------------------------------------ 
+  145    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

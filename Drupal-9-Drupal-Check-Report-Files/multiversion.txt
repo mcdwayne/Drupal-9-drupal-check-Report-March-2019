@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/multiversion 3a3143e9c843816be7d3105078103541712452b4
+source : http://cgit.drupalcode.org/multiversion 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   multiversion.module                                                     
+ ------ ------------------------------------------------------------------------ 
+  241    Class Drupal\pathauto\PathautoFieldItemList not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/MultiversionNodeController.php       
+ ------ ---------------------------------------------------- 
+  24     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  56     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  59     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Entity/Index/ComplexLcaResolver.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Multiversionntity\Index\ComplexLcaResolver was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Entity/Paragraph.php                                             
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\paragraphsntity\Paragraph not found and could not be  
+         autoloaded.                                                          
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Entity/Storage/Sql/CropStorage.php                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal

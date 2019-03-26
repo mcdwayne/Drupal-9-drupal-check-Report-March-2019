@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraph_blocks 35330c900be5a1555af62e5dc28a59fdd50371cc
+source : http://cgit.drupalcode.org/paragraph_blocks 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Controller/ParagraphBlocksPanelsController.php                
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\panels\Controller\Panels not found and could not be  
+         autoloaded.                                                       
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/LoadTest.php                                                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\hcp_paragraphs\Tests\LoadTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rocketship f56b3ec651ef96aaaa82af3a3357eca132c7c98e
+source : http://cgit.drupalcode.org/rocketship 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/FeedListBuilder.php                                              
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalocketship\FeedListBuilder.                             
+  34     Call to deprecated method l() of class                               
+         Drupalocketship\FeedListBuilder.                                   
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FeedForm.php                              
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProcessForm.php                           
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

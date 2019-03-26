@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/who_bought_what 734044fb7cd0371518741ada64fd8afcf3202936
+source : http://cgit.drupalcode.org/who_bought_what 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/who_bought_whatController.php  
+ ------ ---------------------------------------------- 
+  187    Call to deprecated function db_query().       
+  202    Call to deprecated function format_date().    
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/object_log 515d76d019f294e468edaeeedfd087983ae90c63
+source : http://cgit.drupalcode.org/object_log 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   object_log.module                         
+ ------ ------------------------------------------ 
+  17     Call to deprecated function db_merge().   
+  33     Call to deprecated function db_query().   
+  46     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/ObjectLogController.php        
+ ------ ---------------------------------------------- 
+  102    Call to deprecated method l() of class        
+         Drupal\Core\Controller\ControllerBase.        
+  153    Calls to function kprint_r should not exist.  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ObjectLogClearLogForm.php                 
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

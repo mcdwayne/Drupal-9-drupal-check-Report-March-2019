@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webex_xml_api 126b494d65816f7dbb13c7b9684d13aacceb6dc5
+source : http://cgit.drupalcode.org/webex_xml_api 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   webex.module                                       
+ ------ --------------------------------------------------- 
+  144    Call to deprecated function drupal_set_message().  
+  209    Call to deprecated function db_insert().           
+  223    Call to deprecated function db_select().           
+  230    Call to deprecated function db_delete().           
+  273    Call to deprecated function db_delete().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

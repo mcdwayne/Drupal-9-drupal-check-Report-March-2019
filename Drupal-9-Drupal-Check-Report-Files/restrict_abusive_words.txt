@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/restrict_abusive_words 88e15ba6968efbcba93c86fa27ea566d4daf387e
+source : http://cgit.drupalcode.org/restrict_abusive_words 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   restrict_abusive_words.module                      
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function db_like().             
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/RestrictWordsController.php      
+ ------ ------------------------------------------------ 
+  56     Call to deprecated method l() of class Drupal.  
+  57     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddWordsForm.php                          
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditWordForm.php                          
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  35     Call to deprecated method url() of class Drupal.   
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_user_management 8.x-1.0
+source : http://cgit.drupalcode.org/simple_user_management 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/UserApprovalForm.php                               
+ ------ ------------------------------------------------------------ 
+  65     Call to deprecated function drupal_set_message().           
+  87     Call to deprecated function drupal_set_message().           
+  98     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

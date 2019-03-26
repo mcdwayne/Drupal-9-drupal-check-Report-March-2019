@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/readmore 5a16cd77ebe8879fe88be15bb2ae77d64571991f
+source : https://cgit.drupalcode.org/readmore 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   readmore.module                              
+ ------ --------------------------------------------- 
+  47     Call to deprecated method strpos() of class  
+         Drupal\Component\Utility\Unicode.            
+  77     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  123    Call to deprecated method strpos() of class  
+         Drupal\Component\Utility\Unicode.            
+  133    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ReadmoreFormatter.php  
+ ------ ------------------------------------------------------- 
+  174    Call to deprecated method strlen() of class            
+         Drupal\Component\Utility\Unicode.                      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

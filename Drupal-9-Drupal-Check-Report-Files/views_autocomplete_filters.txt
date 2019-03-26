@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_autocomplete_filters 024eb098527eca095122502c12f310a49c55d4d5
+source : http://cgit.drupalcode.org/views_autocomplete_filters 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Controller/ViewsAutocompleteFiltersController.php  
+ ------ ------------------------------------------------------- 
+  240    Call to deprecated method strtolower() of class        
+         Drupal\Component\Utility\Unicode.                      
+  240    Call to deprecated method strtolower() of class        
+         Drupal\Component\Utility\Unicode.                      
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/filter/ViewsAutocompleteFiltersSearchApiFulltext.php    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\search_api\Pluginiewsilter\SearchApiFulltext not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/filter/ViewsAutocompleteFiltersSearchApiText.php        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\search_api\Pluginiewsilter\SearchApiText not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

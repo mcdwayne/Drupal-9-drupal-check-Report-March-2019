@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/whitelabel 2e168d096ee6df632a741efd625ba2d820a7a6d7
+source : http://cgit.drupalcode.org/whitelabel 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Views/Argument_default/CurrentWhiteLabel.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\whitelabel\Pluginiewsrgument_default\CurrentWhiteLabel  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Views/Argument_default/CurrentWhiteLabelUid.php              
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\whitelabel\Pluginiewsrgument_default\CurrentWhiteLabelUid    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/WhiteLabelTestBase.php             
+ ------ -------------------------------------------------------- 
+  105    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/WhiteLabelFieldTest.php               
+ ------ --------------------------------------------------------------------- 
+  77     Call to deprecated method url() of class Drupal\Corentityntity.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/WhiteLabelJavascriptTestBase.php          
+ ------ ------------------------------------------------------------------------- 
+  20     Class                                                                    
+         Drupal\Tests\whitelabel\FunctionalJavascript\WhiteLabelJavascriptTestBa  
+         se extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  57     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  106    Call to deprecated function entity_get_form_display().                   
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

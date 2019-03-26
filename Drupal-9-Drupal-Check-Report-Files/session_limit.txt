@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/session_limit 683bfd137708adf520f02767dc5b9b3d276084c1
+source : http://cgit.drupalcode.org/session_limit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Services/SessionLimit.php                      
+ ------ --------------------------------------------------- 
+  249    Call to deprecated function drupal_set_message().  
+  250    Call to deprecated method url() of class Drupal.   
+  351    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/SessionLimitBaseTestCase.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\session_limit\SessionLimitBaseTestCase was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/SessionLimitLogoutTestCase.php                                 
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\session_limit\SessionLimitLogoutTestCase was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/SessionLimitPreventTestCase.php                                 
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\session_limit\SessionLimitPreventTestCase was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/SessionLimitSessionTestCase.php                                 
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\session_limit\SessionLimitSessionTestCase was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

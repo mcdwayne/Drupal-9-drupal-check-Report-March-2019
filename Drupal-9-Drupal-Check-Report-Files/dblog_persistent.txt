@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dblog_persistent ee35951c1d753f73bccbc51504ba092c4d68844a
+source : http://cgit.drupalcode.org/dblog_persistent 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Logger/DbLogPersistent.php               
+ ------ --------------------------------------------- 
+  109    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  116    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workflow_moderation 1ff0447441af2f90554044ab748153551299dda0
+source : http://cgit.drupalcode.org/workflow_moderation 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Access/LatestRevisionCheck.php          
+ ------ -------------------------------------------- 
+  78     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowModerationForm.php                
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function entity_load().         
+  94     Call to deprecated function entity_view().         
+  98     Call to deprecated function drupal_render().       
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/ModerationInformation.php               
+ ------ -------------------------------------------- 
+  182    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/RevisionTracker.php                         
+ ------ ------------------------------------------------ 
+  46     Call to deprecated function db_merge().         
+  66     Call to deprecated function db_table_exists().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/opigno_moxtra 584796d954c8b29a67fd0a7907478f2893a9f304
+source : http://cgit.drupalcode.org/opigno_moxtra 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/WorkspaceController.php        
+ ------ ---------------------------------------------- 
+  247    Call to deprecated function drupal_render().  
+  254    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/WorkspaceForm.php                  
+ ------ -------------------------------------------- 
+  111    Call to deprecated function entity_load().  
+  269    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

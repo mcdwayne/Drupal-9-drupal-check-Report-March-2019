@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/prlp 3e0cbf3f6a68eab73e66215d882836d682dbea53
+source : http://cgit.drupalcode.org/prlp 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   prlp.module                                        
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/PrlpController.php                  
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

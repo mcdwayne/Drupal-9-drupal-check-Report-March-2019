@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pdf_download 8.x-2.0-alpha2
+source : http://cgit.drupalcode.org/pdf_download 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   pdf_download.config.inc                         
+ ------ ------------------------------------------------ 
+  3      Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Action/PdfDownload.php                           
+ ------ ------------------------------------------------------------ 
+  28     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/TCPDFDrupal.php                                 
+ ------ ---------------------------------------------------- 
+         Class TCPDF not found and could not be autoloaded.  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

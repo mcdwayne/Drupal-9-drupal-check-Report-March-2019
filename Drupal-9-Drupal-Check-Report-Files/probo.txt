@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ descrip. : Integrates with a Probo.CI open source server.
+source   : [git] https://git.drupal.org/project/probo 24c1b35350a52535ab4ab2ea5b22b2d2a068ce9a
+source : http://cgit.drupalcode.org/probo 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   probo.module                                      
+ ------ -------------------------------------------------- 
+  57     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/PBBCGRefreshTokenConfiguration.php  
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ProboAssetController.php            
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ProboRepositoryController.php       
+ ------ --------------------------------------------------- 
+  311    Call to deprecated function drupal_set_message().  
+  315    Call to deprecated function drupal_set_message().  
+  324    Call to deprecated function drupal_set_message().  
+  364    Call to deprecated function drupal_set_message().  
+  374    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProboNewAsset.php                         
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PropoRepositoryForm.php                   
+ ------ --------------------------------------------------- 
+  161    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function drupal_set_message().  
+  195    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function drupal_set_message().  
+  209    Call to deprecated function drupal_set_message().  
+  218    Call to deprecated function drupal_set_message().  
+  225    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

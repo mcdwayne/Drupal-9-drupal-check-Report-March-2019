@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rng_contact 8.x-1.0-beta3
+source : http://cgit.drupalcode.org/rng_contact 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RngContactDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  24     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RngContactForm.php                        
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RngContactSettingsForm.php                
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RngContactTypeDeleteForm.php              
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RngContactTypeForm.php                    
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/EntityReferenceSelection/RngContactRngSelection.php         
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalng\PluginntityReferenceSelection\RNGSelectionBase not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/IdentityChannel/CourierEmail/RngContact.php                
+ ------ ---------------------------------------------------------------------- 
+  22     Class                                                                 
+         Drupal

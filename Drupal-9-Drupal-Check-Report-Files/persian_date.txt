@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/persian_date 973ecaff002bc8548988e700cd46180610ff82db
+source : http://cgit.drupalcode.org/persian_date 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   persian_date.module                                                      
+ ------ ------------------------------------------------------------------------- 
+  120    Class                                                                    
+         Drupal\scheduler\Plugin\Field\FieldWidget\TimestampDatetimeNoDefaultWid  
+         get not found and could not be autoloaded.                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/DateTimeWidgetBase.php        
+ ------ ----------------------------------------------------------- 
+  42     Call to deprecated function datetime_date_default_time().  
+  66     Call to deprecated function datetime_date_default_time().  
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/TimestampDatetimeNoDefaultWidget.php        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\scheduler\Plugin\Field\FieldWidget\TimestampDatetimeNoDefaultWid  
+         get not found and could not be autoloaded.                               
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

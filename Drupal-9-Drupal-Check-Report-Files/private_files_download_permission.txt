@@ -1,0 +1,72 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/private_files_download_permission ed98546fb547ad4ce85c0f44c6e659a9ab6ac67c
+source : http://cgit.drupalcode.org/private_files_download_permission 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   pfdp.module                                  
+ ------ --------------------------------------------- 
+  66     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  85     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  86     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DirectoryListBuilder.php                       
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  37     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  87     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  93     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  94     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  111    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  118    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DirectoryDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DirectoryForm.php                         
+ ------ --------------------------------------------------- 
+  104    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  105    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  106    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  111    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  113    Call to deprecated method strpos() of class        
+         Drupal\Component\Utility\Unicode.                  
+  113    Call to deprecated method strpos() of class        
+         Drupal\Component\Utility\Unicode.                  
+  133    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/publication_date 1824830318e3d3b9e1946ee6a4f219ee4c92c876
+source : http://cgit.drupalcode.org/publication_date 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   publication_date.ds_fields_info.inc         
+ ------ -------------------------------------------- 
+  47     Call to deprecated function format_date().  
+  51     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Feeds/Target/PublishedAt.php                                      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupaleeds\Feeds\Target\Timestamp not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Tests/PublicationDateTest.php           
+ ------ -------------------------------------------- 
+  53     Call to deprecated function node_load().    
+  61     Call to deprecated function node_load().    
+  75     Call to deprecated function node_load().    
+  82     Call to deprecated function node_load().    
+  88     Call to deprecated function node_load().    
+  97     Call to deprecated function node_load().    
+  104    Call to deprecated function node_load().    
+  147    Call to deprecated function format_date().  
+  148    Call to deprecated function format_date().  
+  153    Call to deprecated function format_date().  
+  154    Call to deprecated function format_date().  
+  184    Call to deprecated function node_load().    
+  192    Call to deprecated function node_load().    
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

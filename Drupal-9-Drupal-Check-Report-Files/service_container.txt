@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/service_container 9f4bc6e7e03c7141049187196cfe513a028ddb0d
+source : http://cgit.drupalcode.org/service_container 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Legacy/LegacyDrupal7Test.php                                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Tests\service_container\Legacy\LegacyDrupal7Test was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Messenger/LegacyMessengerTest.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\service_container\Messenger\LegacyMessengerTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

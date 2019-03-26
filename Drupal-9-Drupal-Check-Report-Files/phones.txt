@@ -1,0 +1,92 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/phones b3de95492a17fa81199906becf1c4cf80b32a07b
+source : http://cgit.drupalcode.org/phones 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/phones_call/src/Entity/PhonesCallListBuilder.php  
+ ------ ---------------------------------------------------------- 
+  46     Call to deprecated function format_date().                
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/phones_call/src/Form/PhonesCallForm.php    
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/phones_contact/src/Controller/ContactCreate.php     
+ ------ ------------------------------------------------------------ 
+  16     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/phones_contact/src/Controller/ContactPhones.php     
+ ------ ------------------------------------------------------------ 
+  53     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/phones_contact/src/Controller/PhonesContactController.php  
+ ------ ------------------------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  29     Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  44     Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  45     Call to deprecated function format_date().                         
+  63     Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  91     Call to deprecated method l() of class                             
+         Drupal\Core\Controller\ControllerBase.                             
+  94     Call to deprecated method link() of class                          
+         Drupal\CorentityntityInterface.                                
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/phones_contact/src/Form/PhonesContactForm.php  
+ ------ ------------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().      
+  64     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/phones_contact/src/Form/PhonesContactRevisionDeleteForm.php  
+ ------ --------------------------------------------------------------------- 
+  76     Call to deprecated function format_date().                           
+  110    Call to deprecated function drupal_set_message().                    
+  110    Call to deprecated function format_date().                           
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/phones_contact/src/Form/PhonesContactRevisionRevertForm.php  
+ ------ --------------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/phones_contact/src/Form/PhonesContactTypeDeleteForm.php  
+ ------ ----------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/phones_contact/src/Form/PhonesContactTypeForm.php  
+ ------ ----------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().          
+  58     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/phones_contact/src/Hook/OnlinepbxClientsAlter.php   
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

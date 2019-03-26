@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/s3_zip_image_upload 8.x-1.1
+source : http://cgit.drupalcode.org/s3_zip_image_upload 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MultipleImageUploadForm.php               
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+  117    Call to deprecated function drupal_mkdir().        
+  124    Call to deprecated function drupal_realpath().     
+  145    Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_realpath().     
+  194    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ImageUploadBatch.php                           
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

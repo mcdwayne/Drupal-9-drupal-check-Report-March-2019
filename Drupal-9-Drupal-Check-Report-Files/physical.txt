@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/physical 04d8de1c78c32fa14418c1e55c93b7ea566f3283
+source : http://cgit.drupalcode.org/physical 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   tests/modules/physical_test/src/Form/DimensionsTestForm.php  
+ ------ ------------------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/modules/physical_test/src/Form/MeasurementTestForm.php  
+ ------ -------------------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

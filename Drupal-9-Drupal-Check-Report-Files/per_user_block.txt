@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/per_user_block 29398587aecbc773fd2648d53a5e36f09894c0b3
+source : http://cgit.drupalcode.org/per_user_block 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   per_user_block.module                                       
+ ------ ------------------------------------------------------------ 
+  61     Call to deprecated method entityManager() of class Drupal.  
+  77     Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  77     Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/PerUserBlockOptionTest.php             
+ ------ ------------------------------------------------- 
+  56     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

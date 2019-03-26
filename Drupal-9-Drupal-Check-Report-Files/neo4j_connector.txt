@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/neo4j_connector eca6e2e83d024b763d974a9974790221646f8905
+source : http://cgit.drupalcode.org/neo4j_connector 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/Neo4JController.php                 
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().  
+  21     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Neo4JConsoleForm.php                      
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+  47     Call to deprecated function drupal_set_message().  
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/neo4j_connector.test_tool.inc                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+eo4j_connector\Tests\Neo4JDrupalTestHistory was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

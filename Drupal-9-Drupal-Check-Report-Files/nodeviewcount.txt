@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nodeviewcount df4eae5cee13ac2e0a2e043fec9631a20bc13f2f
+source : http://cgit.drupalcode.org/nodeviewcount 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   includes/pages/nodeviewcount.admin.inc              
+ ------ ---------------------------------------------------- 
+  130    Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   model/nodeviewcount.db.inc                
+ ------ ------------------------------------------ 
+  42     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/NodeViewCountTestBase.php          
+ ------ --------------------------------------------- 
+  161    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  161    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

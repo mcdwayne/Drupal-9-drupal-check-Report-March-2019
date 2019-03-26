@@ -1,0 +1,128 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_limit fa061c5d4b76dcdec6c88e5a121d5298146b8f91
+source : http://cgit.drupalcode.org/node_limit 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   old/node_limit.module                                  
+ ------ ------------------------------------------------------- 
+  102    Call to deprecated function node_type_get_types().     
+  119    Call to deprecated function node_type_get_types().     
+  193    Call to deprecated function drupal_set_message().      
+  197    Call to deprecated function node_type_get_types().     
+  262    Call to deprecated function db_select().               
+  277    Call to deprecated function user_load().               
+  279    Call to deprecated function db_select().               
+  319    Call to deprecated function drupal_render().           
+  320    Call to deprecated function drupal_render().           
+  323    Call to deprecated function drupal_render().           
+  325    Call to deprecated function drupal_render().           
+  326    Call to deprecated function drupal_render().           
+  327    Call to deprecated function drupal_render().           
+  342    Call to deprecated function drupal_render().           
+  344    Call to deprecated function drupal_render_children().  
+  361    Call to deprecated function db_select().               
+  417    Call to deprecated function db_update().               
+  424    Call to deprecated function drupal_set_message().      
+  560    Call to deprecated function drupal_set_message().      
+  598    Call to deprecated function drupal_set_message().      
+  606    Call to deprecated function db_select().               
+  627    Call to deprecated function db_select().               
+  659    Call to deprecated function db_delete().               
+  666    Call to deprecated function drupal_set_message().      
+  681    Call to deprecated function db_insert().               
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   old/node_limit_interval/node_limit_interval.module  
+ ------ ---------------------------------------------------- 
+  55     Call to deprecated function drupal_render().        
+  56     Call to deprecated function drupal_render().        
+  130    Call to deprecated function db_insert().            
+  144    Call to deprecated function db_delete().            
+  153    Call to deprecated function db_select().            
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   old/node_limit_role/node_limit_role.module  
+ ------ -------------------------------------------- 
+  14     Call to deprecated function db_select().    
+  60     Call to deprecated function db_select().    
+  116    Call to deprecated function db_insert().    
+  129    Call to deprecated function db_delete().    
+  138    Call to deprecated function db_select().    
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   old/node_limit_type/node_limit_type.module          
+ ------ ---------------------------------------------------- 
+  14     Call to deprecated function db_select().            
+  83     Call to deprecated function db_insert().            
+  96     Call to deprecated function db_delete().            
+  105    Call to deprecated function db_select().            
+  121    Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   old/node_limit_user/node_limit_user.module  
+ ------ -------------------------------------------- 
+  14     Call to deprecated function db_select().    
+  111    Call to deprecated function db_insert().    
+  124    Call to deprecated function db_delete().    
+  133    Call to deprecated function db_select().    
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   old/node_limit_userofrole/node_limit_userofrole.module  
+ ------ -------------------------------------------------------- 
+  14     Call to deprecated function db_select().                
+  107    Call to deprecated function db_insert().                
+  120    Call to deprecated function db_delete().                
+  129    Call to deprecated function db_select().                
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Controller/NodeLimitListBuilder.php                                
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal
+ode_limit\Controller\NodeLimitListBuilder was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Entity/NodeLimit.php                                                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal
+ode_limitntity\NodeLimit was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/NodeLimitDeleteForm.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ode_limit\Form\NodeLimitDeleteForm was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/NodeLimitForm.php                                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal
+ode_limit\Form\NodeLimitForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/NodeLimitInterface.php                                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal
+ode_limit\NodeLimitInterface was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 53 errors                                                         
+
+ </code>

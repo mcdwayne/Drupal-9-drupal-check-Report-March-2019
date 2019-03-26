@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/zendesk_tickets da4275938d70db72a6ca7731b49a2ef4fd593965
+source : http://cgit.drupalcode.org/zendesk_tickets 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Controller/ZendeskTicketFormTypesUIController.php  
+ ------ ------------------------------------------------------- 
+  41     Call to deprecated method entityManager() of class     
+         Drupal\Core\Controller\ControllerBase.                 
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ZendeskTicketForm.php                     
+ ------ --------------------------------------------------- 
+  223    Call to deprecated function drupal_set_message().  
+  228    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Zendesk/ZendeskAPI.php                      
+ ------ ------------------------------------------------ 
+  515    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/ZendeskTicketFormTypeListBuilder.php      
+ ------ ---------------------------------------------- 
+  140    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  148    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/ZendeskTicketFormTypeSubmitFormBuilder.php                       
+ ------ --------------------------------------------------------------------- 
+  19     Class Drupal\zendesk_tickets\ZendeskTicketFormTypeSubmitFormBuilder  
+         extends deprecated class Drupal\CorentityntityHandlerBase.       
+  320    Call to deprecated method urlInfo() of class                         
+         Drupal\CorentityntityInterface.                                  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

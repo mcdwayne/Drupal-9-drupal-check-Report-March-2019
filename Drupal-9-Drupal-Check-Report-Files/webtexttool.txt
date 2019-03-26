@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webtexttool 5f428dab867b7ebea0fdc6164b50c83f74db93ef
+source : http://cgit.drupalcode.org/webtexttool 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/WebtexttoolController.php           
+ ------ --------------------------------------------------- 
+  118    Call to deprecated function drupal_set_message().  
+  226    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+  367    Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/webtexttoolRegisterForm.php                
+ ------ ---------------------------------------------------- 
+  74     Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/webtexttoolSettingsForm.php                               
+ ------ ------------------------------------------------------------------- 
+  41     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   webtexttool.module                            
+ ------ ---------------------------------------------- 
+  164    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

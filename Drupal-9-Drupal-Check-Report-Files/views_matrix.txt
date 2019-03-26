@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_matrix 63fff59aff6349f0258d8145734985bb9e0f5bc2
+source : http://cgit.drupalcode.org/views_matrix 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   includes/views_matrix.theme.inc                    
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   includes/views_matrix_plugin_style_matrix.inc                         
+ ------ ---------------------------------------------------------------------- 
+         Class views_matrix_plugin_style_matrix was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

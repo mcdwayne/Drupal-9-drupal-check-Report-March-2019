@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wordbeebeebox 8.x-1.2
+source : http://cgit.drupalcode.org/wordbeebeebox 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Beebox/CustomXliff.php                                            
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal	mgmt_file\Plugin	mgmt_file\Format\Xliff not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/BeeboxTranslatorUi.php                                            
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal	mgmt\TranslatorPluginUiBase not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/BeeboxTranslator.php                    
+ ------ -------------------------------------------------------------------- 
+         Class Drupal	mgmt\TranslatorPluginBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tmgmt_wordbee.module                               
+ ------ --------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().  
+  17     Call to deprecated function drupal_set_message().  
+  19     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/server_notice 4aef70f4e8f437f8757bc4c22462ec13bf995b69
+source : http://cgit.drupalcode.org/server_notice 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerNoticeDeleteForm.php                
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/ServerNoticeForm.php                                        
+ ------ --------------------------------------------------------------------- 
+  41     Call to deprecated method url() of class Drupal\Corentityntity.  
+  53     Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sms_rule_based a1567ff8feb29b0b555028a93cf73fcc325a1614
+source : http://cgit.drupalcode.org/sms_rule_based 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmsRoutingRulesetDeleteForm.php           
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/RuleBasedRoutingIntegrationTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  16     Class Drupal\sms\Tests\SmsFrameworkTestTrait not found and could not be  
+         autoloaded.                                                              
+  113    Call to deprecated method getUsername() of class                         
+         Drupal\userntity\User.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_stats 04a88ec756e8ceac7ff63efe285594340891ca1b
+source : http://cgit.drupalcode.org/search_api_stats 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   contrib/search_api_stats_block/search_api_stats_block.module  
+ ------ -------------------------------------------------------------- 
+  127    Call to deprecated function db_query_range().                 
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   search_api_stats.module                          
+ ------ ------------------------------------------------- 
+  31     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

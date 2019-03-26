@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_migrate aa73cdc70f4a9d1e26e02e8535bdfbf5d11c8383
+source : http://cgit.drupalcode.org/webform_migrate 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/migrate/source/d6/D6Webform.php                  
+ ------ ------------------------------------------------------------ 
+  611    Call to deprecated function entity_create().                
+  619    Call to deprecated function entity_get_form_display().      
+  620    Call to deprecated function entity_get_form_display().      
+  626    Call to deprecated function entity_get_display().           
+  627    Call to deprecated function entity_get_display().           
+  635    Call to deprecated method entityManager() of class Drupal.  
+  637    Call to deprecated function entity_get_display().           
+  638    Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/migrate/source/d7/D7Webform.php                  
+ ------ ------------------------------------------------------------ 
+  786    Call to deprecated function entity_create().                
+  794    Call to deprecated function entity_get_form_display().      
+  795    Call to deprecated function entity_get_form_display().      
+  801    Call to deprecated function entity_get_display().           
+  802    Call to deprecated function entity_get_display().           
+  810    Call to deprecated method entityManager() of class Drupal.  
+  812    Call to deprecated function entity_get_display().           
+  813    Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

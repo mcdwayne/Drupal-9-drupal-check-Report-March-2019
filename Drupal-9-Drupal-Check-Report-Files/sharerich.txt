@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sharerich 8cf747c0ed0dbcb1a6c36355f3079e5340752104
+source : https://cgit.drupalcode.org/sharerich 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   sharerich.module                                  
+ ------ -------------------------------------------------- 
+  17     Call to deprecated method url() of class Drupal.  
+  23     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/SharerichListBuilder.php        
+ ------ ----------------------------------------------- 
+  30     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SharerichDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SharerichForm.php                         
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,382 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/plugin 35febba74fa66cf2acb328b7f21ba4a7eb2f9735
+source : http://cgit.drupalcode.org/plugin 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/PluginCollectionItemBase.php               
+ ------ ---------------------------------------------------------------------- 
+  199    Call to deprecated method setContainedPluginId() of class             
+         Drupal\plugin\Plugin\Field\FieldType\PluginCollectionItemBase.        
+  202    Call to deprecated method setContainedPluginConfiguration() of class  
+         Drupal\plugin\Plugin\Field\FieldType\PluginCollectionItemBase.        
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/PluginDefinition/ArrayPluginDefinitionDecorator.php              
+ ------ --------------------------------------------------------------------- 
+  13     Class Drupal\plugin\PluginDefinition\ArrayPluginDefinitionDecorator  
+         implements deprecated interface                                      
+         Drupal\plugin\PluginDefinition\ArrayPluginDefinitionInterface.       
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/HookUpdateNTest.php          
+ ------ -------------------------------------------------- 
+  62     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/src/Functional/Plugin/Plugin/PluginSelector/RadiosTest.php  
+ ------ ------------------------------------------------------------------ 
+  44     Call to deprecated method assertNoFieldByName() of class          
+         Drupal\Tests\BrowserTestBase.                                     
+  46     Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  56     Call to deprecated method assertNoFieldByName() of class          
+         Drupal\Tests\BrowserTestBase.                                     
+  58     Call to deprecated method assertNoText() of class                 
+         Drupal\Tests\BrowserTestBase.                                     
+  63     Call to deprecated method assertFieldByName() of class            
+         Drupal\Tests\BrowserTestBase.                                     
+  65     Call to deprecated method assertNoText() of class                 
+         Drupal\Tests\BrowserTestBase.                                     
+  71     Call to deprecated method assertFieldByName() of class            
+         Drupal\Tests\BrowserTestBase.                                     
+  78     Call to deprecated method assertFieldByName() of class            
+         Drupal\Tests\BrowserTestBase.                                     
+  92     Call to deprecated method assertEqual() of class                  
+         Drupal\Tests\BrowserTestBase.                                     
+  93     Call to deprecated method assertEqual() of class                  
+         Drupal\Tests\BrowserTestBase.                                     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/Plugin/Plugin/PluginSelector/SelectListTest.php     
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\plugin\Tests\Plugin\PluginSelector\PluginSelector\SelectListTest  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/PluginSelectorTest.php                 
+ ------ ------------------------------------------------------------ 
+  44     Call to deprecated method entityManager() of class Drupal.  
+  53     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+  65     Call to deprecated function entity_load_unchanged().        
+  66     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Plugin/Field/FieldType/PluginCollectionItemBaseTest.php  
+ ------ -------------------------------------------------------------------------- 
+         Class                                                                     
+         Drupal\plugin\Tests\Plugin\Field\FieldType\PluginCollectionItemBaseTest   
+         was not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                      
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Controller/ListPluginTypesTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  87     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  105    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  107    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Controller/ListPluginsTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  77     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  91     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  109    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  111    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  135    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  139    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  149    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  164    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  169    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  192    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   tests/src/Unit/DefaultPluginResolver/EventBasedDefaultPluginResolverTest.php  
+ ------ ------------------------------------------------------------------------------ 
+  40     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.       
+  61     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.       
+  70     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.       
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.       
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/ResolveDefaultPluginTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Field/FieldFormatter/PluginLabelTest.php           
+ ------ ------------------------------------------------------------------------- 
+  40     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  50     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  56     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  61     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  71     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  76     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  84     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Field/FieldType/PluginCollectionItemDeriverTest.php  
+ ------ --------------------------------------------------------------------------- 
+  47     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+  77     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Field/FieldWidget/PluginSelectorDeriverTest.php    
+ ------ ------------------------------------------------------------------------- 
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Plugin/PluginSelector/AdvancedPluginSelectorBaseTest.php  
+ ------ -------------------------------------------------------------------------------- 
+  62     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  81     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  112    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  131    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  170    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  173    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  244    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  249    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  251    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  312    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  361    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  384    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  410    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  433    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  460    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  473    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  520    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  558    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  563    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  609    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  627    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+  637    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.         
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorBaseTest.php   
+ ------ ------------------------------------------------------------------------- 
+  42     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  116    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  129    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  146    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorBaseTestBase.php  
+ ------ ---------------------------------------------------------------------------- 
+  71     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.     
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.     
+  77     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.     
+  82     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.     
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorManagerTest.php  
+ ------ --------------------------------------------------------------------------- 
+  59     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+  61     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+  63     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+  65     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.    
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Plugin/PluginSelector/RadiosTest.php               
+ ------ ------------------------------------------------------------------------- 
+  61     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  85     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  111    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Plugin/PluginSelector/SelectListTest.php           
+ ------ ------------------------------------------------------------------------- 
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  84     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  88     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  99     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/PluginOperationsProviderPluginManagerTraitTest.php  
+ ------ -------------------------------------------------------------------------- 
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.   
+  68     Usage of deprecated trait                                                 
+         Drupal\plugin\Plugin\PluginOperationsProviderPluginManagerTrait in        
+         class                                                                     
+         Drupal\Tests\plugin\Unit\Plugin\PluginOperationsProviderPluginManagerTr   
+         aitUnitTestOperationsProvider.                                            
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDefinition/ArrayPluginDefinitionDecoratorTest.php   
+ ------ ------------------------------------------------------------------------- 
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  266    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  268    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  280    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  282    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  322    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  386    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  433    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDefinition/MergeablePluginDefinitionTraitTest.php   
+ ------ ------------------------------------------------------------------------- 
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  92     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDefinition/PluginContextDefinitionTraitTest.php     
+ ------ ------------------------------------------------------------------------- 
+  38     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  40     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDefinition/PluginDefinitionTest.php                 
+ ------ ------------------------------------------------------------------------- 
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDefinition/PluginDefinitionValidatorTest.php        
+ ------ ------------------------------------------------------------------------- 
+  101    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDefinition/PluginDeriverDefinitionTraitTest.php     
+ ------ ------------------------------------------------------------------------- 
+  38     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDiscovery/LimitedPluginDiscoveryDecoratorTest.php   
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDiscovery/PluginDiscoveryDecoratorTest.php          
+ ------ ------------------------------------------------------------------------- 
+  32     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginDiscovery/TypedDefinitionEnsuringPluginDiscoveryDecoratorTest.php  
+ ------ ---------------------------------------------------------------------------------------- 
+  43     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  45     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  81     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  82     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginHierarchyTraitTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  41     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  54     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  62     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginManager/PluginManagerDecoratorTest.php              
+ ------ ------------------------------------------------------------------------- 
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  54     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  81     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  116    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  143    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  145    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  169    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginType/DefaultPluginTypeOperationsProviderTest.php    
+ ------ ------------------------------------------------------------------------- 
+  56     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginType/PluginTypeManagerTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  106    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  107    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  114    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  122    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  124    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  126    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginType/PluginTypeTest.php                             
+ ------ ------------------------------------------------------------------------- 
+  59     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  61     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  68     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  184    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   tests/src/Unit/TranslationMock.php           
+ ------ --------------------------------------------- 
+  28     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  28     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  35     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  35     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  35     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  35     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  42     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  42     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 158 errors                                                        
+
+ </code>

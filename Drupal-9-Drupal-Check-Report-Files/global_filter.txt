@@ -1,0 +1,79 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/global_filter a50a59ba84b3b6e7725d05685d3105da851aef5f
+source : http://cgit.drupalcode.org/global_filter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   global_filter.blocks.inc                           
+ ------ --------------------------------------------------- 
+  385    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   global_filter.module                               
+ ------ --------------------------------------------------- 
+  181    Call to deprecated function user_load().           
+  331    Call to deprecated function drupal_set_message().  
+  397    Call to deprecated function drupal_set_message().  
+  515    Call to deprecated function drupal_set_message().  
+  661    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   global_filter.storage.inc                          
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  188    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   global_filter.widgets.inc                          
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function db_query().            
+  147    Call to deprecated function drupal_set_message().  
+  389    Call to deprecated function drupal_set_message().  
+  561    Call to deprecated function drupal_set_message().  
+  573    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   plugins/slidebox.inc                      
+ ------ ------------------------------------------ 
+  27     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/global_filter_plugin_argument_default_global_filter_field.inc      
+ ------ ------------------------------------------------------------------------- 
+         Class global_filter_plugin_argument_default_global_filter_field was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/global_filter_plugin_argument_default_global_filter_proximity.inc  
+ ------ ------------------------------------------------------------------------- 
+         Class global_filter_plugin_argument_default_global_filter_proximity was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/global_filter_plugin_argument_default_global_filter_view.inc      
+ ------ ------------------------------------------------------------------------ 
+         Class global_filter_plugin_argument_default_global_filter_view was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   widgets/global_filter.datewidget.inc        
+ ------ -------------------------------------------- 
+  110    Call to deprecated function format_date().  
+  113    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/navigation_timing cbb8bfc536c276e11e173b82f45a234a33feed8a
+source : http://cgit.drupalcode.org/navigation_timing 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   navigation_timing.admin.inc                 
+ ------ -------------------------------------------- 
+  30     Call to deprecated function db_query().     
+  36     Call to deprecated function format_date().  
+  125    Call to deprecated function db_query().     
+  147    Call to deprecated function db_update().    
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   navigation_timing.module                  
+ ------ ------------------------------------------ 
+  72     Call to deprecated function db_select().  
+  216    Call to deprecated function db_insert().  
+  245    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   navigation_timing.php                     
+ ------ ------------------------------------------ 
+  98     Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

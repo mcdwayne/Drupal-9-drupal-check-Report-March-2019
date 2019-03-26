@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/select_registration_roles de7a386cf2541d36faaae44e5af3fae83a115c3d
+source : http://cgit.drupalcode.org/select_registration_roles 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   select_registration_roles.module                  
+ ------ -------------------------------------------------- 
+  30     Call to deprecated method url() of class Drupal.  
+  114    Call to deprecated function db_select().          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SelectRegistrationConfigForm.php          
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

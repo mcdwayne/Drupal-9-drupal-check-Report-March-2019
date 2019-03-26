@@ -1,0 +1,108 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/relation e93d8148549f263ed8eb90a16046d1fccb5c3764
+source : http://git.drupal.org/project/relation.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   relation.drush.inc                                 
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   relation_entity_collector/src/Controller/EntityCollectorController.php  
+ ------ ------------------------------------------------------------------------ 
+  42     Call to deprecated function drupal_set_message().                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   relation_entity_collector/src/Form/EntityCollector.php               
+ ------ --------------------------------------------------------------------- 
+  39     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  99     Call to deprecated method l() of class Drupal\Core\Form\FormBase.    
+  261    Call to deprecated method l() of class Drupal.                       
+  271    Call to deprecated function drupal_set_message().                    
+  275    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   relation_migrate/relation_migrate.destination.inc                       
+ ------ ------------------------------------------------------------------------ 
+         Class MigrateDestinationRelation was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   relation_migrate/relation_migrate.migration.inc                          
+ ------ ------------------------------------------------------------------------- 
+         Class RelationMigrateReference was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   relation_migrate/relation_migrate.source.inc                             
+ ------ ------------------------------------------------------------------------- 
+         Class MigrateSourceReference was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RelationDeleteConfirm.php                 
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RelationTypeDeleteConfirm.php             
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/RelationForm.php                          
+ ------ ---------------------------------------------- 
+  33     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/RelationTypeForm.php                           
+ ------ --------------------------------------------------- 
+  208    Call to deprecated function drupal_set_message().  
+  209    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  212    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/RelationTypeListBuilder.php                
+ ------ ----------------------------------------------- 
+  31     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/views_handler_field_relation_link.inc                            
+ ------ ----------------------------------------------------------------------- 
+         Class views_handler_field_relation_link was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/views_handler_field_relation_link_delete.inc                       
+ ------ ------------------------------------------------------------------------- 
+         Class views_handler_field_relation_link_delete was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/views_handler_field_relation_link_edit.inc                         
+ ------ ------------------------------------------------------------------------- 
+         Class views_handler_field_relation_link_edit was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

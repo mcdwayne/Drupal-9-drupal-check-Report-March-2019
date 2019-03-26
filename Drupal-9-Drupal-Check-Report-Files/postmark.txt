@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/postmark 9115984037ea89b6ab6bb68ce764b94fc24e6085
+source : http://cgit.drupalcode.org/postmark 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PostmarkSettingsForm.php                  
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PostmarkHandler.php                            
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_composite 3f76a1b7ce35211135be6de78b1b1ce01c76dacf
+source : http://cgit.drupalcode.org/webform_composite 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/WebformCompositeListBuilder.php  
+ ------ ------------------------------------------------ 
+  82     Call to deprecated method urlInfo() of class    
+         Drupal\CorentityntityInterface.             
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCompositeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCompositeForm.php                  
+ ------ --------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WebformCompositeSourceForm.php            
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().  
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

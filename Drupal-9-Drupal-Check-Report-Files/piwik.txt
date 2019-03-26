@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/piwik 800c4155fee1292313008dce79c79c6184db028c
+source : http://git.drupal.org/project/piwik.git 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   piwik.module                                        
+ ------ ---------------------------------------------------- 
+  118    Call to deprecated function drupal_get_messages().  
+  181    Call to deprecated method strlen() of class         
+         Drupal\Component\Utility\Unicode.                   
+  181    Call to deprecated method strlen() of class         
+         Drupal\Component\Utility\Unicode.                   
+  648    Call to deprecated method strtolower() of class     
+         Drupal\Component\Utility\Unicode.                   
+  652    Call to deprecated method strtolower() of class     
+         Drupal\Component\Utility\Unicode.                   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/PiwikAdminSettingsForm.php          
+ ------ --------------------------------------------- 
+  617    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/PiwikPhpFilterTest.php.php                                    
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\piwik\Tests\PiwikPhpFilterTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/PiwikUserFieldsTest.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\piwik\Tests\PiwikUserFieldsTestTest was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/modules/piwik_test/src/Controller/PiwikTestController.php  
+ ------ ----------------------------------------------------------------- 
+  20     Call to deprecated function drupal_set_message().                
+  21     Call to deprecated function drupal_set_message().                
+  22     Call to deprecated function drupal_set_message().                
+  23     Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

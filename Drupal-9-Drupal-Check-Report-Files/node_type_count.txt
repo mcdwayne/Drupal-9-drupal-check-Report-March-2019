@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_type_count 8.x-2.0-alpha3
+source : http://cgit.drupalcode.org/node_type_count 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/NodeTypeCountController.php       
+ ------ ------------------------------------------------- 
+  38     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  38     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  83     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  83     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  136    Call to deprecated function db_select().         
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/xing_connect 155666b94f70256a7c3073119d795e2ef12fd734
+source : http://cgit.drupalcode.org/xing_connect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/XingConnectAuthController.php       
+ ------ --------------------------------------------------- 
+  247    Call to deprecated function drupal_set_message().  
+  348    Call to deprecated function drupal_set_message().  
+  366    Call to deprecated function drupal_set_message().  
+  379    Call to deprecated function drupal_set_message().  
+  384    Call to deprecated function drupal_set_message().  
+  430    Call to deprecated function drupal_set_message().  
+  435    Call to deprecated function drupal_set_message().  
+  442    Call to deprecated function drupal_set_message().  
+  497    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   xing_connect.module                                
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

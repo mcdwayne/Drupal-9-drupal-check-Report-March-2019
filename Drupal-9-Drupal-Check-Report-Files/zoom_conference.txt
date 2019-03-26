@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/zoom_conference aff99f6a9bdbee13aa6b372a597899f85c83313d
+source : http://cgit.drupalcode.org/zoom_conference 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Controller/ZoomWebhooks.php                                        
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupal\zoom_conference\Controller\ZoomWebhooks.                        
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/ZoomApi.php                                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\zoom_conference\Api\ZoomAPI was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/ZoomMeetingApi.php                                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\zoom_conference\Api\ZoomAPIMeeting was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/ZoomRecordingApi.php                                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\zoom_conference\Api\ZoomAPIRecording was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   zoom_conference.module                             
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function node_load().           
+  149    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated function drupal_set_message().  
+  306    Call to deprecated function drupal_set_message().  
+  309    Call to deprecated function drupal_set_message().  
+  367    Call to deprecated function drupal_set_message().  
+  388    Call to deprecated function node_load().           
+  505    Call to deprecated function drupal_set_message().  
+  508    Call to deprecated function drupal_set_message().  
+  514    Call to deprecated function drupal_set_message().  
+  518    Call to deprecated function drupal_set_message().  
+  547    Call to deprecated function drupal_set_message().  
+  560    Call to deprecated function node_load().           
+  585    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

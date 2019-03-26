@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/phpexcel 7f425ac1c62b53ab57f5826a26eb5066995c902b
+source : http://cgit.drupalcode.org/phpexcel 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   phpexcel.inc                                 
+ ------ --------------------------------------------- 
+  431    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  434    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

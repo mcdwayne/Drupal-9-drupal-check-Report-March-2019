@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pki_ra e26fb99b43545d35bb133e8fbf8d7b94e3307d26
+source : http://cgit.drupalcode.org/pki_ra 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   pki_ra.module                                          
+ ------ ------------------------------------------------------- 
+  160    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/PKIRAController.php                 
+ ------ --------------------------------------------------- 
+  205    Call to deprecated function drupal_set_message().  
+  217    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EoiSourcesConfigurationForm.php           
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResendVerificationEmailForm.php           
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Processors/PKIRARegistrationProcessor.php      
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

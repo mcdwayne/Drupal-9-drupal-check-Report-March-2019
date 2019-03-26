@@ -1,0 +1,91 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_bulk_operations 74962a335404c430c4c0b581b68d3a81cbe75cb8
+source : http://cgit.drupalcode.org/views_bulk_operations 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   modules/views_bulk_operations_example/src/Plugin/Action/ViewsBulkOperationExampleAction.php  
+ ------ --------------------------------------------------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().                                            
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Form/ViewsBulkOperationsFormTrait.php (in context of class Drupaliews_bulk_operations\Controller\ViewsBulkOperationsController)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------- 
+  239    Call to deprecated function drupal_set_message().                                                                                      
+ ------ --------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Form/ViewsBulkOperationsFormTrait.php (in context of class Drupaliews_bulk_operations\Form\ConfigureAction)  
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  239    Call to deprecated function drupal_set_message().                                                                  
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+  Line   src/Form/ViewsBulkOperationsFormTrait.php (in context of class Drupaliews_bulk_operations\Form\ConfirmAction)  
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+  239    Call to deprecated function drupal_set_message().                                                                
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Form/ViewsBulkOperationsFormTrait.php (in context of class Drupaliews_bulk_operations\Pluginiewsield\ViewsBulkOperationsBulkForm)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------- 
+  239    Call to deprecated function drupal_set_message().                                                                                            
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Action/CancelUserAction.php             
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ViewsBulkOperationsBatch.php                   
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/ViewsBulkOperationsBulkFormTest.php  
+ ------ ---------------------------------------------------------- 
+  110    Call to deprecated function format_string().              
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ViewsBulkOperationsKernelTestBase.php                   
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Testsiews_bulk_operations\Kernel\ViewsBulkOperationsKernelTest  
+         Base.                                                                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ViewsBulkOperationsBatchTest.php                          
+ ------ ------------------------------------------------------------------------- 
+  97     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   tests/views_bulk_operations_test/src/Plugin/Action/ViewsBulkOperationsAdvancedTestAction.php  
+ ------ ---------------------------------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                                             
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   tests/views_bulk_operations_test/src/Plugin/Action/ViewsBulkOperationsPassTestAction.php  
+ ------ ------------------------------------------------------------------------------------------ 
+  24     Call to deprecated function drupal_set_message().                                         
+  52     Call to deprecated function drupal_set_message().                                         
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   tests/views_bulk_operations_test/src/Plugin/Action/ViewsBulkOperationsSimpleTestAction.php  
+ ------ -------------------------------------------------------------------------------------------- 
+  23     Call to deprecated function drupal_set_message().                                           
+ ------ -------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rewrite_field dbac87314707d5f28e18098255ef053ef4a5cf4a
+source : http://cgit.drupalcode.org/rewrite_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/rewrite_field/Transform/LowerCase.php  
+ ------ -------------------------------------------------- 
+  23     Call to deprecated method strtolower() of class   
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/rewrite_field/Transform/UpperCase.php  
+ ------ -------------------------------------------------- 
+  23     Call to deprecated method strtoupper() of class   
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

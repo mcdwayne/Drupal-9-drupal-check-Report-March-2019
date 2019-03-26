@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/role_expire 84a519eb5f3c7f0b1c1a0f6f15870c015dc194b3
+source : http://cgit.drupalcode.org/role_expire 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/RoleExpireRemoveExpireTime.php               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/RoleExpireSetExpireTime.php                  
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/RoleExpireApiTest.php        
+ ------ -------------------------------------------------- 
+  52     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  57     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  61     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  65     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  78     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  84     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

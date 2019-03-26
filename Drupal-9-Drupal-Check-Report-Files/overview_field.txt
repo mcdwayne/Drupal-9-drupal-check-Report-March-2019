@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/overview_field 5322af3b57cb60a24ee06364426c8fdb0981af25
+source : http://cgit.drupalcode.org/overview_field 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/OverviewFieldWidgetTest.php     
+ ------ ----------------------------------------------------- 
+  22     Call to deprecated method assertNotEqual() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/OverviewFieldCreationTrait.php (in context of class Drupal\Tests\overview_field\Functional\OverviewFieldTestBase)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  55     Call to deprecated function entity_get_form_display().                                                                              
+  61     Call to deprecated function entity_get_display().                                                                                   
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

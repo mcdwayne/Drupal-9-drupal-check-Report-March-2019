@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shrinktheweb 909aaf4a38a6299ceb83839113dbc3c568d67a29
+source : http://cgit.drupalcode.org/shrinktheweb 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   shrinktheweb.module                              
+ ------ ------------------------------------------------- 
+  177    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  177    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  210    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  210    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShrinkTheWebLogForm.php                   
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShrinkTheWebSettingsForm.php              
+ ------ --------------------------------------------------- 
+  458    Call to deprecated function drupal_set_message().  
+  465    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/RefreshThumbnailsBatch.inc                     
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().  
+  21     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

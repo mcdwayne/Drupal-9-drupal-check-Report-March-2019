@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/select2boxes f28ed1822f41200432c9d1410cf60e4763affec2
+source : http://cgit.drupalcode.org/select2boxes 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/select2_bef/src/Plugin/views/exposed_form/BetterExposedFilters.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class                                                                       
+         Drupaletter_exposed_filters\Pluginiewsxposed_form\BetterExposedFi     
+         lters not found and could not be autoloaded.                                
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/Select2BoxesTests.php  
+ ------ ------------------------------------------------------ 
+  594    Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomyntity\Term.                          
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/Select2BoxesTestsBase.php              
+ ------ ---------------------------------------------------------------------- 
+  18     Class                                                                 
+         Drupal\Tests\select2boxes\FunctionalJavascript\Select2BoxesTestsBase  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+  75     Call to method setUp() of deprecated class                            
+         Drupal\Tests\BrowserTestBase.                                         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

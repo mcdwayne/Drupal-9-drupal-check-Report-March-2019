@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/reactify_utilities 7b480a4611ef6c52398e5b90b6aafa99f3ac23ec
+source : http://cgit.drupalcode.org/reactify_utilities 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   reactify_client_entity/src/Form/ClientForm.php     
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   reactify_dashboard_stats/src/Plugin/rest/resource/DashboardStatsResource.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class                                                                         
+         Drupaleactify_dashboard_stats\Pluginest\Resource\DashboardStatsReso       
+         urce was not found while trying to analyse it - autoloading is probably       
+         not configured properly.                                                      
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/rest/resource/SettingsResource.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupaleactify_utilities\Pluginest\Resource\SettingsResource   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,254 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simplenews b0417dec518f403eed3d929e62fa352043fe305c
+source : http://cgit.drupalcode.org/simplenews 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   simplenews.module                                                  
+ ------ ------------------------------------------------------------------- 
+  185    Call to deprecated method entityManager() of class Drupal.         
+  204    Call to deprecated method entityManager() of class Drupal.         
+  229    Call to deprecated method entityManager() of class Drupal.         
+  244    Call to deprecated function entity_get_form_display().             
+  593    Call to deprecated function entity_load_multiple_by_properties().  
+  612    Call to deprecated function entity_load_multiple_by_properties().  
+  628    Call to deprecated function entity_load_multiple().                
+  640    Call to deprecated function entity_delete_multiple().              
+  668    Call to deprecated function node_load_multiple().                  
+  804    Call to deprecated method entityManager() of class Drupal.         
+  819    Call to deprecated function entity_load_multiple().                
+  1098   Call to deprecated method cacheUntilEntityChanges() of class       
+         Drupal\Core\Access\AccessResult.                                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   simplenews.tokens.inc                             
+ ------ -------------------------------------------------- 
+  112    Call to deprecated method url() of class Drupal.  
+  128    Call to deprecated method url() of class Drupal.  
+  135    Call to deprecated method url() of class Drupal.  
+  142    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/EventSubscriber/MigrationSubscriber.php             
+ ------ -------------------------------------------------------- 
+  66     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/NodeTabForm.php                            
+ ------ ---------------------------------------------------- 
+  200    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/PrepareUninstallForm.php                                  
+ ------ ------------------------------------------------------------------- 
+  96     Call to deprecated function entity_load_multiple_by_properties().  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/SubscriberMassSubscribeForm.php            
+ ------ ---------------------------------------------------- 
+  105    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/SubscriberMassUnsubscribeForm.php          
+ ------ ---------------------------------------------------- 
+  71     Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Mail/MailEntity.php                                     
+ ------ ------------------------------------------------------------ 
+  311    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Mail/Mailer.php                                         
+ ------ ------------------------------------------------------------ 
+  205    Call to deprecated method l() of class Drupal.              
+  240    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated function entity_load().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/NewsletterListBuilder.php                  
+ ------ ----------------------------------------------- 
+  26     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Derivative/AddSimplenewsIssueActionLinks.php  
+ ------ --------------------------------------------------------- 
+  23     Instantiation of deprecated class                        
+         Drupal\Core\StringTranslation\TranslationWrapper.        
+  30     Instantiation of deprecated class                        
+         Drupal\Core\StringTranslation\TranslationWrapper.        
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/monitoring/SensorPlugin/PendingSensorPlugin.php           
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\monitoring\SensorPlugin\SensorPluginBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/views/field/UserName.php           
+ ------ ---------------------------------------------- 
+  29     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Spool/SpoolList.php                     
+ ------ -------------------------------------------- 
+  57     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/SimplenewsAdministrationTest.php                  
+ ------ ------------------------------------------------------------ 
+  526    Call to deprecated method entityManager() of class Drupal.  
+  556    Call to deprecated method entityManager() of class Drupal.  
+  578    Call to deprecated method entityManager() of class Drupal.  
+  613    Call to deprecated method entityManager() of class Drupal.  
+  625    Call to deprecated method entityManager() of class Drupal.  
+  632    Call to deprecated method entityManager() of class Drupal.  
+  639    Call to deprecated method entityManager() of class Drupal.  
+  663    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Tests/SimplenewsI18nTest.php                                     
+ ------ --------------------------------------------------------------------- 
+  71     Call to deprecated method entityManager() of class Drupal.           
+  135    Call to deprecated method entityManager() of class Drupal.           
+  153    Call to deprecated method url() of class Drupal\Corentityntity.  
+  160    Call to deprecated method url() of class Drupal\Corentityntity.  
+  174    Call to deprecated method entityManager() of class Drupal.           
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/SimplenewsSendTest.php                            
+ ------ ------------------------------------------------------------ 
+  140    Call to deprecated method entityManager() of class Drupal.  
+  213    Call to deprecated method entityManager() of class Drupal.  
+  221    Call to deprecated method entityManager() of class Drupal.  
+  229    Call to deprecated function db_query().                     
+  236    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated function db_query().                     
+  248    Call to deprecated method entityManager() of class Drupal.  
+  252    Call to deprecated function db_query().                     
+  296    Call to deprecated method entityManager() of class Drupal.  
+  304    Call to deprecated method entityManager() of class Drupal.  
+  312    Call to deprecated function db_query().                     
+  323    Call to deprecated method entityManager() of class Drupal.  
+  327    Call to deprecated function db_query().                     
+  370    Call to deprecated method entityManager() of class Drupal.  
+  378    Call to deprecated method entityManager() of class Drupal.  
+  386    Call to deprecated method entityManager() of class Drupal.  
+  390    Call to deprecated method entityManager() of class Drupal.  
+  430    Call to deprecated method entityManager() of class Drupal.  
+  447    Call to deprecated method entityManager() of class Drupal.  
+  479    Call to deprecated method entityManager() of class Drupal.  
+  487    Call to deprecated method entityManager() of class Drupal.  
+  491    Call to deprecated function db_query().                     
+  502    Call to deprecated method entityManager() of class Drupal.  
+  506    Call to deprecated function db_query().                     
+  533    Call to deprecated method entityManager() of class Drupal.  
+  539    Call to deprecated method entityManager() of class Drupal.  
+  541    Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/SimplenewsSourceTest.php                          
+ ------ ------------------------------------------------------------ 
+  30     Call to deprecated function entity_create().                
+  381    Call to deprecated method entityManager() of class Drupal.  
+  388    Call to deprecated function db_query().                     
+  419    Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/SimplenewsSubscribeTest.php                       
+ ------ ------------------------------------------------------------ 
+  97     Call to deprecated method entityManager() of class Drupal.  
+  424    Call to deprecated method entityManager() of class Drupal.  
+  575    Call to deprecated method entityManager() of class Drupal.  
+  623    Call to deprecated method entityManager() of class Drupal.  
+  700    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/SimplenewsTestBase.php                        
+ ------ -------------------------------------------------------- 
+  156    Call to deprecated function entity_get_form_display().  
+  160    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tests/SimplenewsTestSubscriptionOutput.php     
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/SimplenewsKernelTest.php         
+ ------ -------------------------------------------------- 
+  22     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  23     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  24     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  25     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/SimplenewsMonitoringTest.php     
+ ------ -------------------------------------------------- 
+  41     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  54     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/SimplenewsSynchronizeFieldsTest.php  
+ ------ ------------------------------------------------------ 
+  62     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  63     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  74     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  75     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  119    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  120    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  129    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  130    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  157    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  173    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  207    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  229    Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 101 errors                                                        
+
+ </code>

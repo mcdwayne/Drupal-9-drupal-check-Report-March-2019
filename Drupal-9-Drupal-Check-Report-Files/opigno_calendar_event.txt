@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/opigno_calendar_event 383ecc7d88d34734a51b0efecc073e6c4f51c1e4
+source : http://cgit.drupalcode.org/opigno_calendar_event 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/CalendarEventTypeForm.php            
+ ------ ---------------------------------------------- 
+  167    Call to deprecated method link() of class     
+         Drupal\Core\Configntity\ConfigEntityBase.   
+  172    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Configntity\ConfigEntityBase.   
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

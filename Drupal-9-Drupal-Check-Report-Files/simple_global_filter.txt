@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_global_filter 9717e4b462198d8898c5afd9541d9b999700e000
+source : http://cgit.drupalcode.org/simple_global_filter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GlobalFilterDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GlobalFilterForm.php                      
+ ------ --------------------------------------------------- 
+  152    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

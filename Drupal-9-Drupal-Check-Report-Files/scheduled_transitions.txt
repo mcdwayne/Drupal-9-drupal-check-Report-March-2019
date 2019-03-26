@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scheduled_transitions ce50f29658596cfe094101996b2990907740e852
+source : http://cgit.drupalcode.org/scheduled_transitions 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/src/Functional/ScheduledTransitionSettingsFormTest.php  
+ ------ -------------------------------------------------------------- 
+  103    Call to deprecated method assertFieldByName() of class        
+         Drupal\Tests\BrowserTestBase.                                 
+  104    Call to deprecated method assertFieldByName() of class        
+         Drupal\Tests\BrowserTestBase.                                 
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/ScheduledTransitionTest.php      
+ ------ -------------------------------------------------- 
+  441    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  442    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  443    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

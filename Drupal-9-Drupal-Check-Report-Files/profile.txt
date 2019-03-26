@@ -1,0 +1,89 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/profile e4d4a9809958682c632bbcc24727b324fd095579
+source : http://cgit.drupalcode.org/profile 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/processor/ProfileUserStatus.php                
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\search_api\Processor\ProcessorPluginBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/views/field/ProfileBulkForm.php                       
+ ------ ----------------------------------------------------------------- 
+  12     Class Drupal\profile\Pluginiewsield\ProfileBulkForm extends  
+         deprecated class Drupal\system\Pluginiewsield\BulkForm.      
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/ProfileTabTest.php                
+ ------ ------------------------------------------------------- 
+  93     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  94     Call to deprecated method assertUrl() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  97     Call to deprecated method assertLink() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  98     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/ProfileTypeCRUDTest.php     
+ ------ ------------------------------------------------- 
+  54     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/ProfileTypeTest.php               
+ ------ ------------------------------------------------------- 
+  37     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  48     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  51     Call to deprecated method assertUrl() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  52     Call to deprecated method strtolower() of class        
+         Drupal\Component\Utility\Unicode.                      
+  59     Call to deprecated method assertUrl() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  60     Call to deprecated method assertRaw() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  61     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  62     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  63     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  64     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  68     Call to deprecated method assertRaw() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  73     Call to deprecated method assertUrl() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  74     Call to deprecated method assertRaw() of class         
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/ProfileViewTest.php             
+ ------ ------------------------------------------------- 
+  54     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  59     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  64     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  69     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  102    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

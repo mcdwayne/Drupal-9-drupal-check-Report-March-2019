@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_like_dislike_field c492e438881576eebb6d621d0ec19cdd439dfc24
+source : http://cgit.drupalcode.org/node_like_dislike_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/LikesDislikesController.php  
+ ------ -------------------------------------------- 
+  146    Call to deprecated function db_and().       
+  188    Call to deprecated function db_and().       
+  203    Call to deprecated function db_and().       
+  211    Call to deprecated function db_and().       
+  231    Call to deprecated function db_and().       
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/LikesDislikesWidget.php  
+ ------ ------------------------------------------------------ 
+  215    Call to deprecated function db_and().                 
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

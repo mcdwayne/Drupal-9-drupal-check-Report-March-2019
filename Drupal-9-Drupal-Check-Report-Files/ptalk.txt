@@ -1,0 +1,209 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ptalk a6124ac41d656596c6eae7330cbd5b9be0209cfd
+source : http://cgit.drupalcode.org/ptalk 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   ptalk.module                                                       
+ ------ ------------------------------------------------------------------- 
+  162    Call to deprecated function format_date().                         
+  174    Call to deprecated function format_date().                         
+  224    Call to deprecated function user_load().                           
+  247    Call to deprecated function db_update().                           
+  272    Call to deprecated function db_update().                           
+  331    Call to deprecated function db_delete().                           
+  357    Call to deprecated function db_delete().                           
+  389    Call to deprecated function db_select().                           
+  411    Call to deprecated function db_update().                           
+  447    Call to deprecated function db_select().                           
+  474    Call to deprecated function db_update().                           
+  693    Call to deprecated method urlInfo() of class                       
+         Drupal\CorentityntityInterface.                                
+  695    Call to deprecated method entityManager() of class Drupal.         
+  719    Call to deprecated method entityManager() of class Drupal.         
+  721    Call to deprecated function drupal_set_message().                  
+  721    Call to deprecated method url() of class Drupal.                   
+  765    Call to deprecated function entity_load_multiple_by_properties().  
+  782    Call to deprecated method entityManager() of class Drupal.         
+  802    Call to deprecated method entityManager() of class Drupal.         
+  814    Call to deprecated method entityManager() of class Drupal.         
+  824    Call to deprecated method entityManager() of class Drupal.         
+  836    Call to deprecated function db_select().                           
+  848    Call to deprecated function entity_delete_multiple().              
+  852    Call to deprecated function db_select().                           
+  862    Call to deprecated function entity_delete_multiple().              
+  1015   Call to deprecated function db_insert().                           
+  1021   Call to deprecated function db_delete().                           
+  1041   Call to deprecated function db_select().                           
+  1076   Call to deprecated function db_select().                           
+  1086   Call to deprecated function user_load_multiple().                  
+  1209   Call to deprecated function db_update().                           
+  1219   Call to deprecated function db_delete().                           
+  1235   Call to deprecated function db_select().                           
+  1243   Call to deprecated function entity_delete_multiple().              
+  1250   Call to deprecated function db_select().                           
+  1258   Call to deprecated function entity_delete_multiple().              
+  1261   Call to deprecated function db_delete().                           
+  1295   Call to deprecated function format_date().                         
+  1340   Call to deprecated function format_date().                         
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   ptalk.tokens.inc                            
+ ------ -------------------------------------------- 
+  147    Call to deprecated function format_date().  
+  153    Call to deprecated function format_date().  
+  193    Call to deprecated function format_date().  
+  199    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   ptalk_block_user/ptalk_block_user.module      
+ ------ ---------------------------------------------- 
+  49     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  62     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  127    Call to deprecated function db_query().       
+  135    Call to deprecated function db_select().      
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   ptalk_block_user/src/Controller/BlockUserController.php  
+ ------ --------------------------------------------------------- 
+  83     Call to deprecated method entityManager() of class       
+         Drupal\Core\Controller\ControllerBase.                   
+  154    Call to deprecated function user_load().                 
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   ptalk_block_user/src/Form/BlockAuthorForm.php      
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function db_insert().           
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   ptalk_block_user/src/Form/BlockedUsers.php         
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function db_select().           
+  101    Call to deprecated function user_load().           
+  148    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function db_insert().           
+  197    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   ptalk_block_user/src/Form/UnBlockAuthorForm.php    
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function user_load().           
+  119    Call to deprecated function user_load().           
+  123    Call to deprecated function db_delete().           
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/PtalkController.php                  
+ ------ ---------------------------------------------------- 
+  85     Call to deprecated function db_select().            
+  122    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Entity/Message.php                                 
+ ------ ------------------------------------------------------- 
+  75     Call to deprecated function user_load().               
+  258    Call to deprecated function db_select().               
+  269    Call to deprecated function entity_delete_multiple().  
+  413    Call to deprecated method getUsername() of class       
+         Drupal\Core\Session\AccountInterface.                  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Entity/Thread.php                                  
+ ------ ------------------------------------------------------- 
+  215    Call to deprecated function db_select().               
+  223    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  144    Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  148    Call to deprecated function drupal_set_message().  
+  151    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageRestoreForm.php                    
+ ------ --------------------------------------------------- 
+  142    Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  146    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ThreadConfirmDeleteMultiple.php           
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ThreadDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  101    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  138    Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  142    Call to deprecated function drupal_set_message().  
+  145    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MessageForm.php                                
+ ------ --------------------------------------------------- 
+  209    Call to deprecated function user_load().           
+  270    Call to deprecated function drupal_set_message().  
+  285    Call to deprecated function drupal_set_message().  
+  304    Call to deprecated function drupal_set_message().  
+  308    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/MessageLazyBuilders.php                   
+ ------ ---------------------------------------------- 
+  137    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  147    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/ThreadBulkForm.php                                
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\ptalk\Pluginiewsield\ThreadBulkForm extends deprecated  
+         class Drupal\system\Pluginiewsield\BulkForm.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/ThreadManager.php                     
+ ------ ------------------------------------------ 
+  167    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/ThreadViewBuilder.php                     
+ ------ ---------------------------------------------- 
+  171    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 91 errors                                                         
+
+ </code>

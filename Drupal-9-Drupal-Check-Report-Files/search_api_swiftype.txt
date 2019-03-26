@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_swiftype 4e3ad7a39bd5c747f4ca038292ef2cc8a4f95414
+source : https://cgit.drupalcode.org/search_api_swiftype 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/search_api/backend/SwiftypeBackend.php  
+ ------ --------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().  
+  178    Call to deprecated function drupal_set_message().  
+  181    Call to deprecated function drupal_set_message().  
+  221    Call to deprecated function drupal_set_message().  
+  341    Call to deprecated function drupal_set_message().  
+  386    Call to deprecated function drupal_set_message().  
+  462    Call to deprecated function drupal_set_message().  
+  890    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

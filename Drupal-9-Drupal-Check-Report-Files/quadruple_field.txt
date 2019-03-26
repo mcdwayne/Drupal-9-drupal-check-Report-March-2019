@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quadruple_field fca7df92ff30d81cecfd7760bedbc3fde0f3c8ef
+source : http://cgit.drupalcode.org/quadruple_field 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   quadruple_field.module                             
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/QuadrupleField.php  
+ ------ ----------------------------------------------- 
+  478    Call to deprecated method strlen() of class    
+         Drupal\Component\Utility\Unicode.              
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

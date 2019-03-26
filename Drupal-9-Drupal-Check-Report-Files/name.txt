@@ -1,0 +1,139 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/name fdc0033e8f11d243dd50bf02f30ac5a153fcdc06
+source : http://cgit.drupalcode.org/name 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   legacy/webform.components.inc                
+ ------ --------------------------------------------- 
+  261    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  269    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  270    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   name.module                                  
+ ------ --------------------------------------------- 
+  123    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  130    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   name.post_update.php                               
+ ------ --------------------------------------------------- 
+  17     Call to deprecated function drupal_set_message().  
+  20     Call to deprecated function drupal_set_message().  
+  24     Call to deprecated function entity_create().       
+  36     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Feeds/Target/NameTarget.php                                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupaleeds\Plugin\Type\Target\FieldTargetBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NameFormatDeleteConfirm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NameFormatForm.php                        
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NameListFormatDeleteConfirm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NameListFormatForm.php                    
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/NameAutocomplete.php                         
+ ------ ------------------------------------------------- 
+  150    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  151    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  151    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  151    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  156    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  156    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  166    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  166    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/NameFormatParser.php                         
+ ------ ------------------------------------------------- 
+  291    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  295    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  476    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  482    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  604    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  610    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/NameOptionsProvider.php                  
+ ------ --------------------------------------------- 
+  82     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  101    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/NameUnicodeExtras.php                        
+ ------ ------------------------------------------------- 
+  44     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  47     Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  50     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/diff/Field/NameFieldBuilder.php                         
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\diff\FieldDiffBuilderBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/cckfield/NameItem.php                                 
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupal
+ame\Plugin\migrate

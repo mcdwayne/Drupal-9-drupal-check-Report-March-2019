@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/onelogin_integration a293c0ec03cb176ed0b3c8c66d341a51d5ebca9e
+source : http://cgit.drupalcode.org/onelogin_integration 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   onelogin_integration.module                            
+ ------ ------------------------------------------------------- 
+  70     Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/AuthenticationService.php                      
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+  231    Call to deprecated function drupal_set_message().  
+  267    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/OneLoginIntegrationController.php   
+ ------ --------------------------------------------------- 
+  186    Call to deprecated function drupal_set_message().  
+  193    Call to deprecated function drupal_set_message().  
+  238    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/UserService.php                                
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

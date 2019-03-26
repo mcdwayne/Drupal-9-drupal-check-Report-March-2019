@@ -1,0 +1,188 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/opigno_module 764057537a8ce10223d2a4a719c284029b83d4b6
+source : http://cgit.drupalcode.org/opigno_module 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   ActivityTypes/opigno_scorm_activity/opigno_scorm_activity.module  
+ ------ ------------------------------------------------------------------ 
+  215    Call to deprecated function db_select().                          
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/opigno_module_group/src/Controller/OpignoModuleGroupController.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupal\gnode\Controller\GroupNodeController not found and could       
+         not be autoloaded.                                                          
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/opigno_module_group/src/Plugin/GroupContentEnabler/OpignoModuleGroup.php  
+ ------ ---------------------------------------------------------------------------------- 
+         Class Drupal\group\Plugin\GroupContentEnablerBase not found and could             
+         not be autoloaded.                                                                
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ExternalPackageController.php        
+ ------ ---------------------------------------------------- 
+  39     Call to deprecated function drupal_get_messages().  
+  44     Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/OpignoAnswerController.php           
+ ------ ---------------------------------------------------- 
+  33     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  34     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  52     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  53     Call to deprecated function format_date().          
+  74     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  102    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/OpignoModuleController.php          
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+  166    Call to deprecated function drupal_set_message().  
+  261    Call to deprecated function drupal_set_message().  
+  781    Call to deprecated function drupal_set_message().  
+  793    Call to deprecated function drupal_set_message().  
+  804    Call to deprecated function drupal_set_message().  
+  817    Call to deprecated function drupal_set_message().  
+  852    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/OpignoModuleManagerController.php    
+ ------ ---------------------------------------------------- 
+  169    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ModuleActivitiesForm.php                  
+ ------ --------------------------------------------------- 
+  264    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoActivityForm.php                    
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoActivityTypeDeleteForm.php          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoActivityTypeForm.php                
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoAnswerForm.php                      
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoAnswerRevisionDeleteForm.php        
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoAnswerRevisionRevertForm.php        
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoAnswerTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoAnswerTypeForm.php                  
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OpignoModuleForm.php                      
+ ------ --------------------------------------------------- 
+  192    Call to deprecated function drupal_set_message().  
+  201    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserModuleStatusForm.php                  
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/OpignoActivityListBuilder.php                                    
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\opigno_module\OpignoActivityListBuilder.                
+  34     Call to deprecated method l() of class                               
+         Drupal\opigno_module\OpignoActivityListBuilder.                      
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/OpignoAnswerListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\opigno_module\OpignoAnswerListBuilder.                  
+  34     Call to deprecated method l() of class                               
+         Drupal\opigno_module\OpignoAnswerListBuilder.                        
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/OpignoModuleListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\opigno_module\OpignoModuleListBuilder.                  
+  85     Call to deprecated method l() of class                               
+         Drupal\opigno_module\OpignoModuleListBuilder.                        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/OpignoGroupManagerContentType/ContentTypeModule.php         
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\opigno_group_manager\ContentTypeBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/UserModuleStatusListBuilder.php                                  
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\opigno_module\UserModuleStatusListBuilder.              
+  34     Call to deprecated method l() of class                               
+         Drupal\opigno_module\UserModuleStatusListBuilder.                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 48 errors                                                         
+
+ </code>

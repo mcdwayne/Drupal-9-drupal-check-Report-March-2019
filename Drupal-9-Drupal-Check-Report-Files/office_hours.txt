@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/office_hours 91b8eb89428478b6162244a81246d8325d9c12dd
+source : http://cgit.drupalcode.org/office_hours 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   office_hours.module                          
+ ------ --------------------------------------------- 
+  86     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/OfficeHoursFormatterBase.php  
+ ------ -------------------------------------------------------------- 
+  148    Call to deprecated method url() of class Drupal.              
+  201    Call to deprecated method url() of class Drupal.              
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,151 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/redhen 365c526fa0b606fb361f56d1568c176192a1b1a6
+source : http://cgit.drupalcode.org/redhen 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/redhen_connection/src/ConnectionListBuilder.php  
+ ------ --------------------------------------------------------- 
+  31     Call to deprecated method link() of class                
+         Drupal\CorentityntityInterface.                      
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/redhen_connection/src/Entity/Connection.php  
+ ------ ----------------------------------------------------- 
+  137    Call to deprecated method entityManager() of class   
+         Drupal\Corentityntity.                           
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/redhen_connection/src/Form/ConnectionForm.php  
+ ------ ------------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().      
+  46     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/redhen_connection/src/Form/ConnectionRoleDeleteForm.php  
+ ------ ----------------------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/redhen_connection/src/Form/ConnectionRoleForm.php  
+ ------ ----------------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().          
+  126    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/redhen_connection/src/Form/ConnectionTypeDeleteForm.php  
+ ------ ----------------------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/redhen_connection/src/Form/ConnectionTypeForm.php  
+ ------ ----------------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().          
+  136    Call to deprecated function drupal_set_message().          
+  151    Access to deprecated property $entityManager of class      
+         Drupal\CorentityntityForm.                             
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/redhen_contact/redhen_contact.module                
+ ------ ------------------------------------------------------------ 
+  188    Call to deprecated function drupal_set_message().           
+  392    Call to deprecated function drupal_set_message().           
+  552    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/redhen_contact/src/ContactListBuilder.php  
+ ------ --------------------------------------------------- 
+  33     Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/redhen_contact/src/Form/ContactForm.php    
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/redhen_contact/src/Form/ContactSettingsForm.php     
+ ------ ------------------------------------------------------------ 
+  87     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/redhen_contact/src/Form/ContactTypeDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/redhen_contact/src/Form/ContactTypeForm.php  
+ ------ ----------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().    
+  60     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/redhen_dedupe/redhen_dedupe.module                  
+ ------ ------------------------------------------------------------ 
+  86     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/redhen_dedupe/src/Controller/DefaultController.php  
+ ------ ------------------------------------------------------------ 
+  29     Call to deprecated function drupal_set_message().           
+  89     Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/redhen_dedupe/src/Form/RedhenDedupeMergeForm.php    
+ ------ ------------------------------------------------------------ 
+  42     Call to deprecated function format_date().                  
+  91     Call to deprecated function format_date().                  
+  258    Call to deprecated function drupal_set_message().           
+  265    Call to deprecated function drupal_set_message().           
+  374    Call to deprecated method entityManager() of class Drupal.  
+  412    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/redhen_org/src/Form/OrgForm.php            
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/redhen_org/src/Form/OrgTypeDeleteForm.php  
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/redhen_org/src/Form/OrgTypeForm.php        
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   modules/redhen_org/src/OrgListBuilder.php  
+ ------ ------------------------------------------- 
+  30     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ [ERROR] Found 36 errors                                                         
+
+ </code>

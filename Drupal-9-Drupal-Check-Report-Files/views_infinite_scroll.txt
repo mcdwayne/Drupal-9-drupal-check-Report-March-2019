@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_infinite_scroll 74c9ba8668f8ad00232979fdb2e89ff2af4c69d2
+source : http://cgit.drupalcode.org/views_infinite_scroll 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/InfiniteScrollTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  15     Class                                                                    
+         Drupal\Testsiews_infinite_scroll\FunctionalJavascript\InfiniteScrollT  
+         est extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  17     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Testsiews_infinite_scroll\FunctionalJavascript\InfiniteScrollT  
+         est.                                                                     
+  18     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class                                                                    
+         Drupal\Testsiews_infinite_scroll\FunctionalJavascript\InfiniteScrollT  
+         est.                                                                     
+  39     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

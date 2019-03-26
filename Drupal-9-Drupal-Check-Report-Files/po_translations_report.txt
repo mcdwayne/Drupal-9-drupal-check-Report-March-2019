@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/po_translations_report d816db99fcc6b3f6283b2523742b3585a7a3c547
+source : http://cgit.drupalcode.org/po_translations_report 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/PoTranslationsReportController.php  
+ ------ --------------------------------------------------- 
+  108    Call to deprecated method l() of class Drupal.     
+  128    Call to deprecated function drupal_set_message().  
+  275    Call to deprecated function drupal_set_message().  
+  283    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/PoTranslationsReportDisplayer/SortableLinkedDataTable.php  
+ ------ ---------------------------------------------------------------------- 
+  163    Call to deprecated method l() of class Drupal.                        
+  171    Call to deprecated method l() of class Drupal.                        
+  179    Call to deprecated method l() of class Drupal.                        
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/PoDetailsReporter.php                        
+ ------ ------------------------------------------------- 
+  76     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  76     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  77     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  77     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  86     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  86     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  87     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  87     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  95     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  95     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  96     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  96     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/PoTranslationsReportTest.php          
+ ------ ------------------------------------------------ 
+  146    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

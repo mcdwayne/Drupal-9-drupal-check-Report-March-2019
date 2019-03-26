@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quicker_login e2e1fb6977aea534a39b9f49ec93ff7d6d74ee61
+source : http://cgit.drupalcode.org/quicker_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   quicker_login.module                               
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/QuickerLoginController.php          
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

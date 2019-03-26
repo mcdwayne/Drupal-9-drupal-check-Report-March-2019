@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/yamlencoder 9a67affed10cd781780709bddc23d8c464fc410d
+source : http://cgit.drupalcode.org/yamlencoder 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Encoder/YamlEncoder.php                          
+ ------ ----------------------------------------------------- 
+  74     Call to deprecated method setIndentation() of class  
+         Symfony\Component\Yaml\Dumper.                       
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   tests/src/Kernel/YamlEncoderTest.php         
+ ------ --------------------------------------------- 
+  100    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  100    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

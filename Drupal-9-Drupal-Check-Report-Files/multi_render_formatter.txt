@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/multi_render_formatter 8.x-1.0
+source : http://cgit.drupalcode.org/multi_render_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/EntityMultiRender.php       
+ ------ ------------------------------------------------------------ 
+  169    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EntityReferenceMultiRender.php           
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalntity_reference_revisions\Plugin\Field\FieldFormatterntityRef  
+         erenceRevisionsEntityFormatter not found and could not be autoloaded.    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/ImageMultiRender.php        
+ ------ ------------------------------------------------------------ 
+  185    Call to deprecated method entityManager() of class Drupal.  
+  244    Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/MultiFomatterHelper.php     
+ ------ ------------------------------------------------------------ 
+  27     Call to deprecated method entityManager() of class Drupal.  
+  63     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

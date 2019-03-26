@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rethinkdb 65feb6bb5d0e2b5d49167605927422cc0602eb1f
+source : http://cgit.drupalcode.org/rethinkdb 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/rethinkdb_example/src/Form/MessageCreate.php  
+ ------ ------------------------------------------------------ 
+  114    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/rethinkdb_replica/src/Controller/RethinkDBReplicaController.php  
+ ------ ------------------------------------------------------------------------- 
+  148    Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Condition.php                                    
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated method entityManager() of class Drupal.  
+  51     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RethinkDBConfig.php                       
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/RethinkDB.php                                  
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Entity/RethinkEntityReferenceTest.php                   
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupal\Testsethinkdb\RethinkDBEntityReferenceSelectionTrait not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

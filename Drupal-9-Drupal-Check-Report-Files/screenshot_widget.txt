@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/screenshot_widget 244f35f1c2b588b2bcbea4cea4d52cc4a34cd574
+source : http://cgit.drupalcode.org/screenshot_widget 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/ScreenshotWidget.php                  
+ ------ ------------------------------------------------------------------- 
+  169    Call to deprecated function entity_load_multiple_by_properties().  
+  180    Call to deprecated function drupal_basename().                     
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

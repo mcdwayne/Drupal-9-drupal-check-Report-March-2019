@@ -1,0 +1,139 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workflow 19030d5b4dd9523153a7af6e2df44cd9a03109b2
+source : http://cgit.drupalcode.org/workflow 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/workflow_cleanup/src/Form/WorkflowCleanupSettingsForm.php  
+ ------ ------------------------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().                  
+  130    Call to deprecated function drupal_set_message().                  
+  135    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/workflow_operations/src/Form/WorkflowTransitionRevertForm.php  
+ ------ ----------------------------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().                      
+  99     Call to deprecated function drupal_set_message().                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/workflow_ui/src/Controller/WorkflowListBuilder.php  
+ ------ ------------------------------------------------------------ 
+  45     Call to deprecated method getLabel() of class               
+         Drupal\CorentityntityListBuilder.                       
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/workflow_ui/src/Controller/WorkflowStateListBuilder.php  
+ ------ ----------------------------------------------------------------- 
+  308    Call to deprecated function drupal_set_message().                
+  313    Call to deprecated function drupal_set_message().                
+  318    Call to deprecated function drupal_set_message().                
+  326    Call to deprecated function drupal_set_message().                
+  354    Call to deprecated function drupal_set_message().                
+  367    Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/workflow_ui/src/Form/WorkflowConfigTransitionFormBase.php  
+ ------ ------------------------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/workflow_ui/src/Form/WorkflowConfigTransitionLabelForm.php  
+ ------ -------------------------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/workflow_ui/src/Form/WorkflowConfigTransitionRoleForm.php  
+ ------ ------------------------------------------------------------------- 
+  183    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Element/WorkflowTransitionElement.php          
+ ------ --------------------------------------------------- 
+  430    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Workflow.php                            
+ ------ --------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().  
+  187    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function drupal_set_message().  
+  301    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/WorkflowManager.php                     
+ ------ --------------------------------------------------- 
+  270    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/WorkflowScheduledTransition.php         
+ ------ --------------------------------------------------- 
+  145    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/WorkflowTransition.php                  
+ ------ --------------------------------------------------- 
+  168    Call to deprecated function drupal_set_message().  
+  306    Call to deprecated function drupal_set_message().  
+  562    Call to deprecated function drupal_set_message().  
+  1065   Calls to function dpm should not exist.            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowTypeForm.php                      
+ ------ --------------------------------------------------- 
+  233    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Action/WorkflowNodeGivenStateAction.php  
+ ------ ---------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Action/WorkflowNodeNextStateAction.php  
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Action/WorkflowStateActionBase.php      
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/WorkflowItem.php        
+ ------ --------------------------------------------------- 
+  175    Call to deprecated function drupal_set_message().  
+  192    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/WorkflowDefaultWidget.php  
+ ------ -------------------------------------------------------- 
+  173    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   workflow.module                                    
+ ------ --------------------------------------------------- 
+  773    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 34 errors                                                         
+
+ </code>

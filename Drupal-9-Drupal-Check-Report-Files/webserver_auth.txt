@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webserver_auth c070fe8b967f9d6ef3707be543ee24015ba2294f
+source : http://cgit.drupalcode.org/webserver_auth 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/WebserverAuthHelper.php                                 
+ ------ ------------------------------------------------------------ 
+  93     Call to deprecated function drupal_set_message().           
+  116    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

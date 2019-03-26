@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wizenoze a8c143064ecc8c2c251caf1e3a9d543d65827e37
+source : http://cgit.drupalcode.org/wizenoze 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   drush/wizenoze.drush.inc                                             
+ ------ --------------------------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().                    
+  78     Call to deprecated function drupal_set_message().                    
+  175    Call to deprecated method url() of class Drupal\Corentityntity.  
+  183    Call to deprecated method url() of class Drupal\Corentityntity.  
+  191    Call to deprecated method url() of class Drupal\Corentityntity.  
+  212    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/WizenozePageController.php          
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WizenozeCollectionForm.php                
+ ------ --------------------------------------------------- 
+  156    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WizenozePageDeleteForm.php                
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WizenozePageForm.php                      
+ ------ --------------------------------------------------- 
+  221    Call to deprecated function drupal_set_message().  
+  227    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WizenozeSearchEnginesForm.php             
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   wizenoze.module                           
+ ------ ------------------------------------------ 
+  64     Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+  102    Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

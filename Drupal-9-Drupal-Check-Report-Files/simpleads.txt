@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simpleads 4281387cacecc567ce73b52251d9340fb846a814
+source : http://cgit.drupalcode.org/simpleads 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Ads.php                                        
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function db_select().           
+  146    Call to deprecated function db_select().           
+  179    Call to deprecated function db_update().           
+  182    Call to deprecated function drupal_set_message().  
+  185    Call to deprecated function db_insert().           
+  187    Call to deprecated function drupal_set_message().  
+  195    Call to deprecated function db_delete().           
+  198    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Campaigns.php                                  
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function db_select().           
+  126    Call to deprecated function db_select().           
+  157    Call to deprecated function db_update().           
+  160    Call to deprecated function drupal_set_message().  
+  163    Call to deprecated function db_insert().           
+  165    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function db_delete().           
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Controller/SimpleAds.php                                            
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\SimpleAds\Controller\SimpleAds was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Groups.php                                     
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function db_select().           
+  103    Call to deprecated function db_select().           
+  132    Call to deprecated function db_update().           
+  135    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function db_insert().           
+  140    Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function db_delete().           
+  151    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

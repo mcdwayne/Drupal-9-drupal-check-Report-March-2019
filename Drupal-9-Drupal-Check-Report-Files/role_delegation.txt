@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/role_delegation f0ea52faf87b8683de43a6149e3df704dbb3c995
+source : http://cgit.drupalcode.org/role_delegation 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RoleDelegationSettingsForm.php            
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/AccessTest.php                                         
+ ------ ------------------------------------------------------------------------ 
+  15     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Testsole_delegation\Kernel\AccessTest.                         
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/DelegatableRolesTest.php                               
+ ------ ------------------------------------------------------------------------ 
+  16     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Testsole_delegation\Kernel\DelegatableRolesTest.               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

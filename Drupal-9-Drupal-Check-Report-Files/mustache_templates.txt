@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mustache_templates d2942234538434bda67c39ed9bc18138f99920c8
+source : http://cgit.drupalcode.org/mustache_templates 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/MustachePhpCache.php                                       
+ ------ --------------------------------------------------------------- 
+         Class Mustache_Cache_AbstractCache not found and could not be  
+         autoloaded.                                                    
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/MustachePhpEngine.php                                     
+ ------ -------------------------------------------------------------- 
+         Class Mustache_Engine not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Unit/MustacheRenderTemplateTest.php                        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\mustache\Tests\Unit\MustacheRenderTemplateTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

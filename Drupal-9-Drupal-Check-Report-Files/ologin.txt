@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ologin 41a0cf792e430dd3f959239d85080a5bfa091f17
+source : http://cgit.drupalcode.org/ologin 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   ologin.module                                      
+ ------ --------------------------------------------------- 
+  11     Call to deprecated function db_delete().           
+  23     Call to deprecated function db_query().            
+  28     Call to deprecated function user_load().           
+  46     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function user_load().           
+  73     Call to deprecated method url() of class Drupal.   
+  109    Call to deprecated function db_query().            
+  118    Call to deprecated function db_insert().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Controller/oLoginWeixinCallbackController.php                      
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\oLogin\Controller\oLoginWeixinCallbackController was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Controller/oLoginWeixinController.php                            
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\oLogin\Controller\oLoginWeixinController was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

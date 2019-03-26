@@ -1,0 +1,75 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_submission_change_history 8.x-2.0-beta2
+source : http://cgit.drupalcode.org/webform_submission_change_history 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/WebformSubmissionChangeHistory/App.php         
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/WebformSubmissionChangeHistory/Change.php     
+ ------ -------------------------------------------------- 
+  73     Call to deprecated function user_load().          
+  78     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  89     Call to deprecated function format_date().        
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   test/WebformSubmissionChangeHistory/AppTest.php                       
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\webform_submission_change_history\Tests\AppTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   test/WebformSubmissionChangeHistory/ChangeTest.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\webform_submission_change_history\Tests\ChangeTest was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   test/WebformSubmissionChangeHistory/FieldHistoryTest.php                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webform_submission_change_history\Tests\FieldHistoryTest   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   test/WebformSubmissionChangeHistory/SubmissionInfoTest.php               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\webform_submission_change_history\Tests\SubmissionInfoTest  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   test/traits/CommonUtilitiesTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\webform_submission_change_history\Tests\DummyClassUsesCommonUtil  
+         ities was not found while trying to analyse it - autoloading is          
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   test/traits/SingletonTest.php                                           
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\webform_submission_change_history\Tests\DummyClassUsesSingleton  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

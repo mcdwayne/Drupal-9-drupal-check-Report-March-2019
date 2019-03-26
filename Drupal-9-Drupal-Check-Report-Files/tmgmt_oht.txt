@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_oht 3963acb71ce6b4f549adf5bcd3276a1101f80ad0
+source : http://cgit.drupalcode.org/tmgmt_oht 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/OhtTranslatorUi.php                            
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/OhtTranslator.php  
+ ------ ----------------------------------------------- 
+  491    Call to deprecated method url() of class       
+         Drupal\CorentityntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Tests/OhtTest.php                                          
+ ------ --------------------------------------------------------------- 
+  16     Class Drupal	mgmt_oht\Tests\OhtTest extends deprecated class  
+         Drupal	mgmt\Tests\TMGMTTestBase.                              
+  29     Call to method setUp() of deprecated class                     
+         Drupal	mgmt\Tests\TMGMTTestBase.                              
+  121    Call to deprecated method entityManager() of class Drupal.     
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

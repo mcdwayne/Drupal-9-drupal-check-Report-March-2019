@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rut a478b1c4bf0893b68eeff1d6dab7112eaf7afb54
+source : http://cgit.drupalcode.org/rut 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Symfony\Component\ValidatorxecutionContextInterface not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Symfony\Compone...')
+#1 /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/rut/modules/rut_field/src/Plugin/Validation/Constraint/RutFieldTypeConstraint.php(23): spl_autoload_call('Symfony\Compone...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/home/thatonegu...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/thatonegu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\rut_fiel...')
+#5 [internal function]: spl_autoload_call('Drupal\rut_fiel...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/B in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupalut_field\Plugin\Validation\Constraint\RutFieldTypeConstraint::initialize(Symfony\Component\ValidatorxecutionContextInterface $context) must be compatible with Symfony\Component\Validator\ConstraintValidatorInterface::initialize(Symfony\Component\Validator\ContextxecutionContextInterface $context) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/rut/modules/rut_field/src/Plugin/Validation/Constraint/RutFieldTypeConstraint.php on line 23 
+
+ </code>

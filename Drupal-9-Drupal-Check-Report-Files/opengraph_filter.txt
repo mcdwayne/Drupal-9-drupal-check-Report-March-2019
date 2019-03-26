@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/opengraph_filter 382a361048f3ff9b6994f920c7533d8f28d0c7cc
+source : http://cgit.drupalcode.org/opengraph_filter 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   opengraph_filter.module                      
+ ------ --------------------------------------------- 
+  59     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  59     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  268    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  269    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/Filter/OpenGraphFilter.php        
+ ------ --------------------------------------------- 
+  164    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

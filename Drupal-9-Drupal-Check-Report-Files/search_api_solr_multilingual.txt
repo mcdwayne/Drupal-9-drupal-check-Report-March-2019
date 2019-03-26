@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_solr_multilingual 39fb37ae1ecab417b8899e028ed6b61ebb769a49
+source : http://cgit.drupalcode.org/search_api_solr_multilingual 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SolrFieldTypeController.php         
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SolrFieldTypeListBuilder.php        
+ ------ --------------------------------------------------- 
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SolrFieldTypeDeleteForm.php               
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/SolrFieldTypeExportForm.php          
+ ------ ---------------------------------------------- 
+  82     Call to deprecated method urlInfo() of class  
+         Drupal\Core\Configntity\ConfigEntityBase.   
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SolrFieldTypeForm.php                     
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Kernel/SearchApiSolrMultilingualTest.php  
+ ------ ---------------------------------------------------- 
+  59     Call to deprecated method getMock() of class        
+         Drupal\KernelTests\KernelTestBase.                  
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Kernel/SolrFieldTypeTest.php                                 
+ ------ ----------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal

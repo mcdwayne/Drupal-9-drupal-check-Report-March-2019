@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/profile_enforcer 8.x-4.0
+source : http://cgit.drupalcode.org/profile_enforcer 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/EventSubscriber/ProfileEnforceRedirectSubscriber.php  
+ ------ ---------------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().         
+  71     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/SettingsForm.php                                   
+ ------ ------------------------------------------------------------ 
+  145    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

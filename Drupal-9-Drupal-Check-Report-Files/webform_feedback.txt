@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_feedback 1675e10c4498d491140204d0c4aa7fbd0c348b90
+source : http://cgit.drupalcode.org/webform_feedback 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/Form/Feedback.php                    
+ ------ ----------------------------------------- 
+  37     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/plugin/Block/FeedbackBlock.php                                      
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webform_feedback\Plugin\Block\FeedbackBlock was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/youtube a336716532f44d2b05cf02ce4b9d8a89698b9f63
+source : http://cgit.drupalcode.org/youtube 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/YouTubeTest.php                               
+ ------ -------------------------------------------------------- 
+  59     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  61     Call to deprecated function entity_create().            
+  69     Call to deprecated function entity_create().            
+  76     Call to deprecated function entity_get_form_display().  
+  83     Call to deprecated function entity_get_display().       
+  123    Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  125    Call to deprecated function entity_create().            
+  133    Call to deprecated function entity_create().            
+  140    Call to deprecated function entity_get_form_display().  
+  147    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   youtube.module                                     
+ ------ --------------------------------------------------- 
+  373    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

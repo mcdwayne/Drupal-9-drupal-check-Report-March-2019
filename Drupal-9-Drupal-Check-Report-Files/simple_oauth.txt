@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_oauth 43377ca657a4b99e574c46f0dab63b29f0ac7b9d
+source : http://cgit.drupalcode.org/simple_oauth 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Entities/AccessTokenEntity.php                                       
+ ------ ------------------------------------------------------------------------- 
+  30     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  30     Call to deprecated method setAudience() of class Lcobucci\JWT\Builder.   
+  30     Call to deprecated method setExpiration() of class                       
+         Lcobucci\JWT\Builder.                                                    
+  30     Call to deprecated method setId() of class Lcobucci\JWT\Builder.         
+  30     Call to deprecated method setIssuedAt() of class Lcobucci\JWT\Builder.   
+  30     Call to deprecated method setNotBefore() of class Lcobucci\JWT\Builder.  
+  30     Call to deprecated method setSubject() of class Lcobucci\JWT\Builder.    
+  40     Call to deprecated method set() of class Lcobucci\JWT\Builder.           
+  44     Call to deprecated method sign() of class Lcobucci\JWT\Builder.          
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_alias_history e9970bd941a6f8c296290d4fe19c6b5e7aae384f
+source : http://cgit.drupalcode.org/node_alias_history 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   node_alias_history.module                          
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function db_select().           
+  89     Call to deprecated function db_insert().           
+  99     Call to deprecated function drupal_set_message().  
+  155    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  155    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  156    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  156    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  157    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  157    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  180    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/NodeAliasHistoryForm.php               
+ ------ ------------------------------------------------ 
+  24     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

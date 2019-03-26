@@ -1,0 +1,231 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/revisioning 6dc63c630bc5c9fd2c00e8d82b8ebfcf8544e627
+source : http://cgit.drupalcode.org/revisioning 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   revisioning.admin.inc                              
+ ------ --------------------------------------------------- 
+  104    Call to deprecated function node_load_multiple().  
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   revisioning.module                                  
+ ------ ---------------------------------------------------- 
+  116    Call to deprecated function node_type_get_types().  
+  493    Call to deprecated function drupal_set_message().   
+  506    Call to deprecated function drupal_set_message().   
+  509    Call to deprecated function drupal_set_message().   
+  591    Call to deprecated function db_query().             
+  638    Call to deprecated function db_update().            
+  791    Call to deprecated function drupal_set_message().   
+  1061   Call to deprecated function node_load().            
+  1076   Call to deprecated function node_load().            
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   revisioning.pages.inc                               
+ ------ ---------------------------------------------------- 
+  157    Call to deprecated function node_load().            
+  225    Call to deprecated function drupal_set_message().   
+  317    Call to deprecated function node_type_get_types().  
+  324    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   revisioning.rules.inc                              
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function user_load().           
+  86     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated function node_load().           
+  253    Call to deprecated function node_load().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   revisioning.taxonomy.inc                  
+ ------ ------------------------------------------ 
+  28     Call to deprecated function db_delete().  
+  39     Call to deprecated function db_insert().  
+  69     Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   revisioning_api.inc                                 
+ ------ ---------------------------------------------------- 
+  70     Call to deprecated function db_query().             
+  85     Call to deprecated function db_query().             
+  99     Call to deprecated function db_select().            
+  123    Call to deprecated function db_query().             
+  146    Call to deprecated function db_query().             
+  147    Call to deprecated function db_query().             
+  325    Call to deprecated function db_query().             
+  339    Call to deprecated function node_load().            
+  362    Call to deprecated function node_load().            
+  364    Call to deprecated function format_date().          
+  386    Call to deprecated function node_load().            
+  388    Call to deprecated function db_update().            
+  395    Call to deprecated function db_update().            
+  444    Call to deprecated function node_load().            
+  446    Call to deprecated function db_delete().            
+  467    Call to deprecated function node_load().            
+  496    Call to deprecated function db_update().            
+  505    Call to deprecated function db_update().            
+  596    Call to deprecated function node_load().            
+  627    Call to deprecated function db_query().             
+  646    Call to deprecated function db_query().             
+  664    Call to deprecated function db_query().             
+  701    Call to deprecated function user_load().            
+  706    Call to deprecated function format_date().          
+  750    Call to deprecated function node_type_get_types().  
+  827    Call to deprecated function db_query_range().       
+  877    Call to deprecated function node_load().            
+  894    Call to deprecated function db_query().             
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   revisioning_scheduler/revisioning_scheduler.module  
+ ------ ---------------------------------------------------- 
+  107    Call to deprecated function format_date().          
+  113    Call to deprecated function db_query().             
+  118    Call to deprecated function format_date().          
+  147    Call to deprecated function db_query().             
+  152    Call to deprecated function drupal_set_message().   
+  154    Call to deprecated function format_date().          
+  155    Call to deprecated function user_load().            
+  185    Call to deprecated function db_query().             
+  191    Call to deprecated function format_date().          
+  329    Call to deprecated function db_query().             
+  333    Call to deprecated function node_load().            
+  379    Call to deprecated function drupal_set_message().   
+  383    Call to deprecated function drupal_set_message().   
+  388    Call to deprecated function drupal_set_message().   
+  399    Call to deprecated function db_delete().            
+  413    Call to deprecated function db_delete().            
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   revisioning_theme.inc                                  
+ ------ ------------------------------------------------------- 
+  77     Call to deprecated function format_date().             
+  170    Call to deprecated function drupal_get_messages().     
+  202    Call to deprecated function drupal_set_message().      
+  207    Call to deprecated function node_load().               
+  220    Call to deprecated function drupal_render().           
+  236    Call to deprecated function drupal_render().           
+  240    Call to deprecated function drupal_render().           
+  245    Call to deprecated function drupal_render().           
+  248    Call to deprecated function drupal_render().           
+  258    Call to deprecated function drupal_placeholder().      
+  287    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   revisioning_tokens.inc                      
+ ------ -------------------------------------------- 
+  65     Call to deprecated function node_load().    
+  88     Call to deprecated function user_load().    
+  95     Call to deprecated function format_date().  
+  102    Call to deprecated function user_load().    
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   revisioning_triggers_actions.inc                   
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function user_load().           
+  220    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   revisioning_ux/revisioning_ux.module      
+ ------ ------------------------------------------ 
+  64     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/revisioning_handler_field_node_last_editor.inc                     
+ ------ ------------------------------------------------------------------------- 
+         Class revisioning_handler_field_node_last_editor was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/revisioning_handler_field_node_number_of_revisions.inc            
+ ------ ------------------------------------------------------------------------ 
+         Class revisioning_handler_field_node_number_of_revisions was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/revisioning_handler_field_node_revision_moderation.inc            
+ ------ ------------------------------------------------------------------------ 
+         Class revisioning_handler_field_node_revision_moderation was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/revisioning_handler_field_node_state.inc                         
+ ------ ----------------------------------------------------------------------- 
+         Class revisioning_handler_field_node_state was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/revisioning_handler_field_revision_state.inc                       
+ ------ ------------------------------------------------------------------------- 
+         Class revisioning_handler_field_revision_state was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/revisioning_handler_filter_node_number_of_revisions.inc            
+ ------ ------------------------------------------------------------------------- 
+         Class revisioning_handler_filter_node_number_of_revisions was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/revisioning_handler_filter_node_revision_moderation.inc            
+ ------ ------------------------------------------------------------------------- 
+         Class revisioning_handler_filter_node_revision_moderation was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/revisioning_handler_filter_node_state.inc                         
+ ------ ------------------------------------------------------------------------ 
+         Class revisioning_handler_filter_node_state was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/revisioning_handler_filter_revision_latest.inc                     
+ ------ ------------------------------------------------------------------------- 
+         Class revisioning_handler_filter_revision_latest was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   views/revisioning_handler_filter_revision_latest_published.inc      
+ ------ -------------------------------------------------------------------- 
+         Class revisioning_handler_filter_revision_latest_published was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/revisioning_handler_filter_revision_state.inc                      
+ ------ ------------------------------------------------------------------------- 
+         Class revisioning_handler_filter_revision_state was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 96 errors                                                         
+
+ </code>

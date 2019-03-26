@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/retina_images 20aa2a1f101e92dced5e373dac5300e9269619c7
+source : http://cgit.drupalcode.org/retina_images 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   retina_images.module                          
+ ------ ---------------------------------------------- 
+  56     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/PreviewController.php          
+ ------ ---------------------------------------------- 
+  110    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

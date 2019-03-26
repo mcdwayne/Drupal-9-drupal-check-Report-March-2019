@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nivo_slider 8.x-2.0-alpha1
+source : http://cgit.drupalcode.org/nivo_slider 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   includes/nivo_slider_slider.inc                  
+ ------ ------------------------------------------------- 
+  33     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  39     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  98     Call to deprecated function file_load().         
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/nivo_slider/Tests/NivoSliderTestBase.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ivo_slider\Tests\NivoSliderTestBase was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/nivo_slider/Tests/OptionTest.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal
+ivo_slider\Tests\OptionTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/nivo_slider/Tests/SlideTest.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal
+ivo_slider\Tests\SlideTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   nivo_slider.nivo_slider.inc                        
+ ------ --------------------------------------------------- 
+  13     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/SlideConfigurationForm.php       
+ ------ ------------------------------------------ 
+  96     Call to deprecated function file_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

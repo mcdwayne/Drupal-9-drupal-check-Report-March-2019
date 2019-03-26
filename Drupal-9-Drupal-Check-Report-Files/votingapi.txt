@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/votingapi 95f7cf2db229d5649a2787daf55375d7731e2f8e
+source : http://cgit.drupalcode.org/votingapi 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Tests/VoteTest.php                                 
+ ------ ------------------------------------------------------- 
+  71     Call to deprecated function entity_delete_multiple().  
+  115    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/VoteResultFunctionManager.php         
+ ------ ------------------------------------------ 
+  53     Call to deprecated function db_select().  
+  81     Call to deprecated function db_delete().  
+  130    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   src/VoteStorage.php                                    
+ ------ ------------------------------------------------------- 
+  40     Call to deprecated function entity_delete_multiple().  
+  79     Call to deprecated function entity_delete_multiple().  
+  81     Call to deprecated function db_delete().               
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/VoteTypeForm.php                       
+ ------ ------------------------------------------- 
+  147    Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   votingapi.drush.inc                         
+ ------ -------------------------------------------- 
+  91     Call to deprecated function db_truncate().  
+  92     Call to deprecated function db_truncate().  
+  104    Call to deprecated function db_select().    
+  163    Call to deprecated function db_select().    
+  186    Call to deprecated function db_delete().    
+  187    Call to deprecated function db_delete().    
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

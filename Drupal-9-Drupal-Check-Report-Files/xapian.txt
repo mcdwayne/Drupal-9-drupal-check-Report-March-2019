@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/xapian e406199d65c9ab1352ea07f7c9f48a6756152da8
+source : http://cgit.drupalcode.org/xapian 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   search_api_xapian/service.inc                                       
+ ------ -------------------------------------------------------------------- 
+         Class SearchApiAbstractXapianService was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   xapian/src/Plugin/Search/XapianSearch.php                            
+ ------ --------------------------------------------------------------------- 
+  18     Class Drupal
+pian\Plugin\Search\AccessibleInterface not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   xapian/xapian.lib.inc                           
+ ------ ------------------------------------------------ 
+  68     Call to deprecated function drupal_realpath().  
+  177    Call to deprecated function node_load().        
+  182    Call to deprecated function drupal_render().    
+  258    Call to deprecated function db_query().         
+  260    Call to deprecated function db_update().        
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   xapian/xapian.module                                
+ ------ ---------------------------------------------------- 
+  42     Call to deprecated function db_query().             
+  44     Call to deprecated function db_query().             
+  205    Call to deprecated function node_type_get_types().  
+  244    Call to deprecated function drupal_set_message().   
+  348    Call to deprecated function node_load().            
+  356    Call to deprecated function node_load().            
+  364    Call to deprecated function node_load().            
+  372    Call to deprecated function node_load().            
+  380    Call to deprecated function node_load().            
+  390    Call to deprecated function db_query().             
+  394    Call to deprecated function db_insert().            
+  419    Call to deprecated function db_delete().            
+  445    Call to deprecated function db_query().             
+  447    Call to deprecated function db_select().            
+  465    Call to deprecated function db_query_range().       
+  475    Call to deprecated function db_query_range().       
+  483    Call to deprecated function db_delete().            
+  490    Call to deprecated function node_load().            
+  495    Call to deprecated function db_delete().            
+  513    Call to deprecated function db_delete().            
+  521    Call to deprecated function db_query().             
+  523    Call to deprecated function db_delete().            
+  542    Call to deprecated function db_query_range().       
+  552    Call to deprecated function db_truncate().          
+  553    Call to deprecated function db_select().            
+  556    Call to deprecated function db_insert().            
+  575    Call to deprecated function node_load().            
+  578    Call to deprecated function drupal_render().        
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 35 errors                                                         
+
+ </code>

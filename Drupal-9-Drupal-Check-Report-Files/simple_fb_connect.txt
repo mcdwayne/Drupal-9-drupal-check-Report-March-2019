@@ -1,0 +1,77 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_fb_connect 4f0c2c6ac9dc9cfc6c8deffc982cdb23553f2408
+source : http://cgit.drupalcode.org/simple_fb_connect 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/simple_fb_connect_rules/src/Plugin/Condition/UserHasFacebookAccessToken.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesConditionBase not found and could not be                
+         autoloaded.                                                                          
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SimpleFbConnectController.php       
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function drupal_set_message().  
+  103    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SimpleFbConnectUserManager.php                 
+ ------ --------------------------------------------------- 
+  315    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  325    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  594    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SimpleFbConnectFbFactoryTest.php                          
+ ------ ------------------------------------------------------------------------- 
+  25     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SimpleFbConnectFbManagerTest.php                          
+ ------ ------------------------------------------------------------------------- 
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  32     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SimpleFbConnectPersistentDataHandlerTest.php              
+ ------ ------------------------------------------------------------------------- 
+  23     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SimpleFbConnectPostLoginManagerTest.php                   
+ ------ ------------------------------------------------------------------------- 
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SimpleFbConnectUserManagerTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  45     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  47     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  405    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  453    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

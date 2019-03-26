@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rules e07bf02adbff9f5a6985dbb65716f37a548363c5
+source : http://cgit.drupalcode.org/rules 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/RulesComponentListBuilder.php   
+ ------ ----------------------------------------------- 
+  37     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/RulesReactionListBuilder.php    
+ ------ ----------------------------------------------- 
+  37     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/TempStorageTest.php          
+ ------ -------------------------------------------------- 
+  56     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  60     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  64     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  71     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  76     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Unit/Integration/RulesIntegrationTestBase.php  
+ ------ --------------------------------------------------------- 
+  209    Fetching class constant class of deprecated class        
+         Drupal\CorentityntityManagerInterface.               
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Unit/RulesActionBaseTest.php             
+ ------ --------------------------------------------------- 
+  49     Fetching class constant class of deprecated class  
+         Drupal\Core\StringTranslation\TranslationWrapper.  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

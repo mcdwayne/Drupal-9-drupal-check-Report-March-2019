@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/shurly f7dabfd839898b350cb88df4420b532c05ced313
+source : http://cgit.drupalcode.org/shurly 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShurlyDeactivateForm.php                  
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShurlyEditForm.php                        
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function format_date().         
+  172    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rest_views 6ce0901b0f63ab99440f2ccf9090c9ab0a833394
+source : http://cgit.drupalcode.org/rest_views 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ImageExportFormatter.php  
+ ------ ---------------------------------------------------------- 
+  128    Call to deprecated method strlen() of class               
+         Drupal\Component\Utility\Unicode.                         
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EntityFieldExportTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  71     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  71     Fetching class constant class of deprecated class                        
+         Drupal\CorentityntityManagerInterface.                               
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  76     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  77     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  97     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  107    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

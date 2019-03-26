@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rocket_chat f1b3b68dd52d88ee6803176652803c893fbd966c
+source : http://cgit.drupalcode.org/rocket_chat 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/rocket_chat_api/src/RocketChat/Drupal8Config.php  
+ ------ ---------------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/rocket_chat_api/src/RocketChat/TestConfig.class.inc              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalocket_chat_api\RocketChat\Test7Config was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/rocket_chat_api_test/src/Form/ApiTestForm.php  
+ ------ ------------------------------------------------------- 
+  189    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RocketChatSettingsForm.php                
+ ------ --------------------------------------------------- 
+  208    Call to deprecated function drupal_set_message().  
+  239    Call to deprecated function drupal_set_message().  
+  256    Call to deprecated function drupal_set_message().  
+  266    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

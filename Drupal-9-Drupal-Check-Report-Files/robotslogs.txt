@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/robotslogs c38c4707db00360f1a4ce393889418a65225abb6
+source : http://cgit.drupalcode.org/robotslogs 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   robotslogs.module                                   
+ ------ ---------------------------------------------------- 
+  51     Call to deprecated function drupal_get_messages().  
+  81     Call to deprecated function drupal_set_message().   
+  84     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/RobotslogsController.php            
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().  
+  37     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

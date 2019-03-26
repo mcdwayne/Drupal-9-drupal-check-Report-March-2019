@@ -1,0 +1,182 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/xwechat 7baa098f62a510ca6e2bbe25bf8f7a1326be30c7
+source : http://cgit.drupalcode.org/xwechat 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   lib/Pyramid/Component/Variable/Variable.php  
+ ------ --------------------------------------------- 
+  67     Call to deprecated function db_merge().      
+  84     Call to deprecated function db_delete().     
+  136    Call to deprecated function db_select().     
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Pyramid/Component/WeChat/WeChat.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Pyramid\Component\WeChat\WeChat was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Pyramid/Component/WeChat/WechatAPI.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Pyramid\Component\WeChat\WeChatAPI was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/xwechat_material/src/Controller/MaterialAddController.php    
+ ------ --------------------------------------------------------------------- 
+  24     Class Pyramid\Component\WeChat\WeChatAPI not found and could not be  
+         autoloaded.                                                          
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/xwechat_material/src/Controller/MaterialListController.php  
+ ------ -------------------------------------------------------------------- 
+  77     Call to deprecated function drupal_render().                        
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/xwechat_material/src/Form/MaterialAddImageForm.php  
+ ------ ------------------------------------------------------------ 
+  103    Call to deprecated function drupal_realpath().              
+  104    Call to deprecated function drupal_set_message().           
+  125    Call to deprecated function drupal_realpath().              
+  133    Call to deprecated function file_uri_scheme().              
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/xwechat_material/src/Form/MaterialAddNewsForm.php  
+ ------ ----------------------------------------------------------- 
+  103    Call to deprecated function drupal_realpath().             
+  125    Call to deprecated function drupal_realpath().             
+  133    Call to deprecated function file_uri_scheme().             
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/xwechat_material/src/Form/MaterialAddOtherForm.php  
+ ------ ------------------------------------------------------------ 
+  103    Call to deprecated function drupal_realpath().              
+  125    Call to deprecated function drupal_realpath().              
+  133    Call to deprecated function file_uri_scheme().              
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/xwechat_material/src/Form/MaterialImportForm.php  
+ ------ ---------------------------------------------------------- 
+  96     Call to deprecated function entity_create().              
+  98     Call to deprecated function drupal_set_message().         
+  102    Call to deprecated function drupal_set_message().         
+  106    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/xwechat_media/xwechat_media.module         
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function file_load().           
+  49     Call to deprecated function db_select().           
+  107    Call to deprecated function db_insert().           
+  120    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+  131    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/xwechat_menu/src/Form/MenuConfigForm.php   
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  141    Call to deprecated function db_update().           
+  150    Call to deprecated function drupal_set_message().  
+  152    Call to deprecated function drupal_set_message().  
+  185    Call to deprecated function drupal_render().       
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/xwechat_message/src/Controller/MessageListController.php  
+ ------ ------------------------------------------------------------------ 
+  15     Call to deprecated function db_select().                          
+  34     Call to deprecated function db_select().                          
+  57     Call to deprecated function format_date().                        
+  71     Call to deprecated function drupal_render().                      
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/xwechat_message/src/Form/MessageImportForm.php  
+ ------ -------------------------------------------------------- 
+  47     Call to deprecated function db_update().                
+  55     Call to deprecated function db_insert().                
+  95     Call to deprecated function db_insert().                
+  111    Call to deprecated function drupal_set_message().       
+  117    Call to deprecated function drupal_set_message().       
+  120    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   modules/xwechat_message/xwechat_message.module  
+ ------ ------------------------------------------------ 
+  25     Call to deprecated function db_update().        
+  33     Call to deprecated function db_insert().        
+  66     Call to deprecated function db_insert().        
+  128    Call to deprecated function db_select().        
+  146    Call to deprecated function db_select().        
+  168    Call to deprecated function format_date().      
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   modules/xwechat_user/xwechat_user.module    
+ ------ -------------------------------------------- 
+  40     Call to deprecated function db_query().     
+  42     Call to deprecated function db_insert().    
+  60     Call to deprecated function db_update().    
+  73     Call to deprecated function db_update().    
+  113    Call to deprecated function db_select().    
+  142    Call to deprecated function format_date().  
+  143    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddConfigForm.php                         
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_render().       
+  197    Call to deprecated function db_insert().           
+  213    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated function drupal_set_message().  
+  222    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteConfigForm.php                      
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditConfigForm.php                        
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function db_update().           
+  137    Call to deprecated function drupal_set_message().  
+  143    Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/ParamConverter/XwechatConfigConverter.php  
+ ------ ----------------------------------------------- 
+  22     Call to deprecated function db_select().       
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   xwechat.module                            
+ ------ ------------------------------------------ 
+  27     Call to deprecated function db_query().   
+  131    Call to deprecated function db_select().  
+  142    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 70 errors                                                         
+
+ </code>

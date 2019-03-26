@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/yac 881ad0e592909254f9d55fd7933b1222b51c88eb
+source : http://cgit.drupalcode.org/yac 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/affiliate/tests/src/Functional/LoadTest.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Testsffiliate\Functional\LoadTest was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/affiliate_programs/tests/src/Functional/LoadTest.php           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Testseferral_program\Functional\LoadTest was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/referral/src/Form/ReferralBatchForm.php    
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/referral/src/ReferralBatchHandlers.php     
+ ------ --------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated function drupal_set_message().  
+  182    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/referral/src/ReferralHandlers.php          
+ ------ --------------------------------------------------- 
+  159    Call to deprecated function drupal_set_message().  
+  167    Call to deprecated function drupal_set_message().  
+  371    Call to deprecated function drupal_set_message().  
+  378    Call to deprecated function drupal_set_message().  
+  385    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

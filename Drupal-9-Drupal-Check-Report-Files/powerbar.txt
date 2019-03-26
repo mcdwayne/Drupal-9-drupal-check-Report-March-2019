@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/powerbar 91a3928d0aae4a58bc2344277aac213abccb6faf
+source : http://cgit.drupalcode.org/powerbar 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   powerbar.module                                    
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function db_or().               
+  40     Call to deprecated function db_like().             
+  41     Call to deprecated function db_like().             
+  94     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/reset_pass_email_otp_auth 8.x-2.0
+source : http://cgit.drupalcode.org/reset_pass_email_otp_auth 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   reset_pass_email_otp_auth.module                   
+ ------ --------------------------------------------------- 
+  186    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OTPCheck.php                              
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

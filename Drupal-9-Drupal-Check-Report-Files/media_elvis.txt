@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_elvis 09d8ad824ea19972d9b0dcc0e61a461c1218616c
+source : http://cgit.drupalcode.org/media_elvis 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/MediaElvisServices.php                         
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/MediaElvis.php     
+ ------ --------------------------------------------------- 
+  497    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/MediaElvisImage.php                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

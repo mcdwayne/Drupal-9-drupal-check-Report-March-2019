@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/otl_logout 7193bc5462c1f22447e791ae86e43f3cc560085e
+source : http://cgit.drupalcode.org/otl_logout 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/WithOtlLogout.php                  
+ ------ -------------------------------------------------------- 
+  36     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  39     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  42     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/WithoutOtlLogout.php            
+ ------ ----------------------------------------------------- 
+  55     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  57     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  58     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  75     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  78     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  81     Call to deprecated method getUsername() of class     
+         Drupal\Core\Session\AccountInterface.                
+  82     Call to deprecated method getUsername() of class     
+         Drupal\Core\Session\AccountInterface.                
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

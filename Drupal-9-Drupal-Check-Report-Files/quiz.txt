@@ -1,0 +1,156 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quiz 9603d59840d365db4e807b5a97ca8a986e009344
+source : http://cgit.drupalcode.org/quiz 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_argument_quiz_nid.inc       
+ ------ ----------------------------------------------------------------------- 
+         Class quiz_views_handler_argument_quiz_nid was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_argument_user_uid_nullable.inc  
+ ------ --------------------------------------------------------------------------- 
+         Class quiz_views_handler_argument_user_uid_nullable was not found while    
+         trying to analyse it - autoloading is probably not configured properly.    
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_field_number_questions.inc    
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_field_number_questions was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_field_question_status.inc     
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_field_question_status was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_field_score_aggregate.inc     
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_field_score_aggregate was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_field_takes.inc          
+ ------ -------------------------------------------------------------------- 
+         Class quiz_views_handler_field_takes was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_field_time.inc          
+ ------ ------------------------------------------------------------------- 
+         Class quiz_views_handler_field_time was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_field_user_quiz_state.inc     
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_field_user_quiz_state was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_filter_question_status.inc    
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_filter_question_status was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   includes/views/handlers/quiz_views_handler_filter_quiz_nid.inc          
+ ------ ------------------------------------------------------------------------ 
+         Class quiz_views_handler_filter_quiz_nid was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_filter_user_nullable.inc      
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_filter_user_nullable was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_filter_user_quiz_state.inc    
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_filter_user_quiz_state was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/views/handlers/quiz_views_handler_relationship_quiz_nid.inc     
+ ------ ------------------------------------------------------------------------- 
+         Class quiz_views_handler_relationship_quiz_nid was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/quiz/Controller/QuizController.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\quiz\Controller\QuizController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/quiz/Form/QuizAdminSettings.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\quiz\Form\QuizAdminSettings was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/ajax_quiz/ajax_quiz.admin.inc               
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/quiz_stats/lib/Drupal/quiz_stats/Controller/QuizStatsController.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Drupal\quiz_stats\Controller\QuizStatsController was not found         
+         while trying to analyse it - autoloading is probably not configured          
+         properly.                                                                    
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   modules/quiz_stats/quiz_stats.admin.inc     
+ ------ -------------------------------------------- 
+  19     Call to deprecated function db_query().     
+  109    Call to deprecated function db_query().     
+  149    Call to deprecated function db_query().     
+  181    Call to deprecated function db_query().     
+  186    Call to deprecated function db_query().     
+  227    Call to deprecated function db_query().     
+  274    Call to deprecated function db_query().     
+  429    Call to deprecated function format_date().  
+  474    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   modules/quiz_stats/quiz_stats.module     
+ ------ ----------------------------------------- 
+  125    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   question_types/cloze/cloze.theme.inc                   
+ ------ ------------------------------------------------------- 
+  19     Call to deprecated function drupal_render_children().  
+  29     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   question_types/cloze/lib/Drupal/cloze/ClozeQuestion.php                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal

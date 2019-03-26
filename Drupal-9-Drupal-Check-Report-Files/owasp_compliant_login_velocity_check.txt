@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/owasp_compliant_login_velocity_check 6c64895cd0c0b65d6e49069aba50c2e860af4a34
+source : http://cgit.drupalcode.org/owasp_compliant_login_velocity_check 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   owasp_login_velocity_check.module        
+ ------ ----------------------------------------- 
+  50     Call to deprecated function db_query().  
+  61     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

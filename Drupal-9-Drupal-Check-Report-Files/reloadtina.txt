@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/reloadtina 79471d7ed04b457c26056ad300863d93ad859375
+source : http://cgit.drupalcode.org/reloadtina 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   reloadtina.module                               
+ ------ ------------------------------------------------ 
+  85     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Controller/ImageStyleDownloadController.php                  
+ ------ ----------------------------------------------------------------- 
+  64     Call to deprecated function file_stream_wrapper_valid_scheme().  
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

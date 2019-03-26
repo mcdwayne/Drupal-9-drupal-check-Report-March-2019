@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/noreferrer 2e10e4354c9e7eb0747bd0a6ec5368a95fdb9698
+source : http://cgit.drupalcode.org/noreferrer 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   noreferrer.module                               
+ ------ ------------------------------------------------ 
+  101    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/NoReferrerTest.php               
+ ------ ------------------------------------------------------ 
+  30     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  30     Call to deprecated method l() of class Drupal.        
+  31     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  31     Call to deprecated method l() of class Drupal.        
+  32     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  32     Call to deprecated method l() of class Drupal.        
+  33     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  33     Call to deprecated method l() of class Drupal.        
+  34     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  34     Call to deprecated method l() of class Drupal.        
+  35     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  35     Call to deprecated method l() of class Drupal.        
+  36     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  36     Call to deprecated method l() of class Drupal.        
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

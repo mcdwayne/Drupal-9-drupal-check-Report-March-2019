@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/route_iframes 9cdadf27c204b3aa3b511fb77acf99c41446549e
+source : http://cgit.drupalcode.org/route_iframes 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RouteIframeConfigEntityDeleteForm.php     
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RouteIframeConfigEntityForm.php           
+ ------ --------------------------------------------------- 
+  209    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/RouteIframeConfigEntityListBuilder.php         
+ ------ --------------------------------------------------- 
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

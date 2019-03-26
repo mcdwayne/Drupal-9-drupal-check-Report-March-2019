@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nextpre 8.x-2.0
+source : http://cgit.drupalcode.org/nextpre 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NextpreSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Block/NextPreviousBlock.php          
+ ------ ------------------------------------------------ 
+  86     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,89 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/miniorange_saml_idp 8.x-1.4
+source : http://cgit.drupalcode.org/miniorange_saml_idp 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/miniorange_saml_idpController.php  
+ ------ -------------------------------------------------- 
+  218    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Mapping.php                               
+ ------ --------------------------------------------------- 
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiniorangeIDPSetup.php                    
+ ------ --------------------------------------------------- 
+  217    Call to deprecated function drupal_set_message().  
+  229    Call to deprecated function drupal_set_message().  
+  232    Call to deprecated function drupal_set_message().  
+  235    Call to deprecated function drupal_set_message().  
+  245    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/MiniorangeSamlCustomerSetup.php            
+ ------ ---------------------------------------------------- 
+  174    Call to deprecated function drupal_set_message().   
+  177    Call to deprecated function valid_email_address().  
+  178    Call to deprecated function drupal_set_message().   
+  194    Call to deprecated function drupal_set_message().   
+  200    Call to deprecated function drupal_set_message().   
+  213    Call to deprecated function drupal_set_message().   
+  216    Call to deprecated function drupal_set_message().   
+  227    Call to deprecated function drupal_set_message().   
+  241    Call to deprecated function drupal_set_message().   
+  267    Call to deprecated function drupal_set_message().   
+  270    Call to deprecated function drupal_set_message().   
+  274    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiniorangeSupport.php                     
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/LogoutRequest.php                                                
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\miniorange_saml_idp\SAML2_LogoutRequest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Utilities.php                                   
+ ------ ---------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().   
+  91     Call to deprecated function valid_email_address().  
+  92     Call to deprecated function drupal_set_message().   
+  98     Call to deprecated function drupal_set_message().   
+  100    Call to deprecated function drupal_set_message().   
+  500    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml_idp\XMLSecurityKey.          
+  502    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml_idp\XMLSecurityKey.          
+  562    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml_idp\XMLSecurityKey.          
+  572    Call to deprecated method getAlgorith() of class    
+         Drupal\miniorange_saml_idp\XMLSecurityKey.          
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/XMLSecurityKey.php                                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\miniorange_saml_idp\XMLSecurityDSig was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 32 errors                                                         
+
+ </code>

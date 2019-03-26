@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/oh a51aee917ac78ff43f70eb8f5f3758e63680d9d5
+source : http://cgit.drupalcode.org/oh 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/oh_regular/src/OhRegularSubscriber.php                           
+ ------ ------------------------------------------------------------------------- 
+  45     Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  46     Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/oh_review/oh_review.module                                       
+ ------ ------------------------------------------------------------------------- 
+  55     Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  56     Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/oh_review/src/OhReviewUtility.php                                
+ ------ ------------------------------------------------------------------------- 
+  37     Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  38     Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/OhDateRange.php                                                      
+ ------ ------------------------------------------------------------------------- 
+  123    Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  124    Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  161    Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  162    Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  164    Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+  165    Call to deprecated method toPhpDateTime() of class Drupal\oh\OhUtility.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

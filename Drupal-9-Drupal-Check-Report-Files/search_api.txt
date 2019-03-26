@@ -1,0 +1,86 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api 1cf3748113590df5e3568fab496157b497aaaeb5
+source : http://git.drupal.org/project/search_api.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/search_api_db/search_api_db_defaults/tests/src/Functional/IntegrationTest.php  
+ ------ --------------------------------------------------------------------------------------- 
+  20     Usage of deprecated trait                                                              
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class                   
+         Drupal\Tests\search_api_db_defaults\Functional\IntegrationTest.                        
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/search_api_db/tests/search_api_db_test_autocomplete/src/Plugin/search_api_autocomplete/search/TestSearch.php  
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+         Class Drupal\search_api_autocomplete\Search\SearchPluginBase not found                                                
+         and could not be autoloaded.                                                                                          
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/search_api_db/tests/src/FunctionalJavascript/IntegrationTest.php  
+ ------ -------------------------------------------------------------------------- 
+  13     Class Drupal\Tests\search_api_db\FunctionalJavascript\IntegrationTest     
+         extends deprecated class                                                  
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                      
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/ProcessorIntegrationTest.php                     
+ ------ ---------------------------------------------------------------------- 
+  24     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\search_api\Functional\ProcessorIntegrationTest.          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   tests/src/Functional/ViewsTest.php           
+ ------ --------------------------------------------- 
+  320    Call to deprecated method getUrl() of class  
+         Drupal\search_api\Display\DisplayInterface.  
+ ------ --------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/AjaxTest.php                            
+ ------ ----------------------------------------------------------------------- 
+  15     Class Drupal\Tests\search_api\FunctionalJavascript\AjaxTest extends    
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.  
+  36     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ConfigEntity/DependencyRemovalTest.php               
+ ------ ---------------------------------------------------------------------- 
+  22     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\search_api\Kernel\ConfigEntity\DependencyRemovalTest.    
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Processor/AddHierarchyTest.php                       
+ ------ ---------------------------------------------------------------------- 
+  26     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\search_api\Kernel\Processor\AddHierarchyTest.            
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Views/TaxonomyTermArgumentTest.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	ests\search_api\Kernel\Views\TaxonomyTermArgumentTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Processor/EntityStatusTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  100    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

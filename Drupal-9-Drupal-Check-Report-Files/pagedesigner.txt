@@ -1,0 +1,114 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pagedesigner 4b4efea6741215af7ab89cf83a70cf7ad79bbe7a
+source : http://cgit.drupalcode.org/pagedesigner 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/pagedesigner_block/src/Plugin/pagedesigner/Handler/Block.php  
+ ------ ---------------------------------------------------------------------- 
+  65     Call to deprecated method entityManager() of class Drupal.            
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/pagedesigner_duplication/pagedesigner_duplication.module  
+ ------ ------------------------------------------------------------------ 
+  134    Call to deprecated function drupal_set_message().                 
+  136    Call to deprecated function drupal_set_message().                 
+  139    Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/pagedesigner_pagetree/src/Plugin/pagetree/State/Pagedesigner.php  
+ ------ -------------------------------------------------------------------------- 
+         Class Drupal\pagetree\Plugin\pagetree\State\Standard not found and        
+         could not be autoloaded.                                                  
+ ------ -------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/pagedesigner_pagetree/src/Plugin/pagetree/StateChange/Pagedesigner.php  
+ ------ -------------------------------------------------------------------------------- 
+         Class Drupal\pagetree\Plugin\pagetree\StateChange\Standard not found            
+         and could not be autoloaded.                                                    
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   modules/pagedesigner_yoast/src/Plugin/Field/FieldWidget/PagedesignerYoastSeoWidget.php  
+ ------ ---------------------------------------------------------------------------------------- 
+         Class Drupal\yoast_seo\Plugin\Field\FieldWidget\YoastSeoWidget not                      
+         found and could not be autoloaded.                                                      
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ElementController.php                
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElementForm.php                           
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElementRevisionDeleteForm.php             
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElementRevisionRevertForm.php             
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElementTypeDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElementTypeForm.php                       
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PagedesignerTypeEntityForm.php            
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/Renderer.php                           
+ ------ --------------------------------------------------- 
+  84     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  86     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 29 errors                                                         
+
+ </code>

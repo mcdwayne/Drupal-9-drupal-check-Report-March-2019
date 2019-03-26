@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/photoshelter 32b203a50f94e32e2b4ee3fa3eb4e00baec03e42
+source : http://cgit.drupalcode.org/photoshelter 
+ 
+ <code> 
+
+ ------ ---------------------------------------- 
+  Line   src/Form/PhotoShelterDeleteForm.php     
+ ------ ---------------------------------------- 
+  57     Call to deprecated function db_like().  
+ ------ ---------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/PhotoShelterService.php                                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\photoshelter\PhotoshelterService was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/private_notes 8306084c436e42048312c50146291ee1f5fe5aa1
+source : http://cgit.drupalcode.org/private_notes 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PrivateNotesAddForm.php                   
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function format_date().         
+  119    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  119    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PrivateNotesDeleteForm.php                
+ ------ --------------------------------------------------- 
+  33     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  33     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  36     Call to deprecated function format_date().         
+  71     Call to deprecated function db_query().            
+  72     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

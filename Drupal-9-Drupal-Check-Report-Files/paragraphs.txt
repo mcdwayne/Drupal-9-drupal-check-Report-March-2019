@@ -1,0 +1,320 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs 36e7cbc7e5706b3755be4f7399a37c8c583d1d26
+source : http://cgit.drupalcode.org/paragraphs 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/paragraphs_library/tests/src/FunctionalJavascript/ParagraphsContentModerationTest.php  
+ ------ ----------------------------------------------------------------------------------------------- 
+  17     Class                                                                                          
+         Drupal\Tests\paragraphs_library\FunctionalJavascript\ParagraphsContentM                        
+         oderationTest extends deprecated class                                                         
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                                           
+  58     Call to method setUp() of deprecated class                                                     
+         Drupal\Tests\BrowserTestBase.                                                                  
+  428    Call to deprecated function entity_get_display().                                              
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------ 
+  Line   modules/paragraphs_library/tests/src/FunctionalJavascript/ParagraphsLibraryItemEntityBrowserTest.php  
+ ------ ------------------------------------------------------------------------------------------------------ 
+         Class                                                                                                 
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip                               
+         tTestBase not found and could not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/paragraphs_type_permissions/src/ParagraphsTypePermissions.php  
+ ------ ----------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in     
+         class Drupal\paragraphs_type_permissions\ParagraphsTypePermissions.    
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/paragraphs_type_permissions/src/Tests/ParagraphsTypePermissionsTest.php  
+ ------ --------------------------------------------------------------------------------- 
+  89     Call to deprecated function entity_get_display().                                
+  97     Call to deprecated function entity_get_display().                                
+  130    Call to deprecated function entity_get_form_display().                           
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Entity/Paragraph.php                                
+ ------ -------------------------------------------------------- 
+  440    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Feeds/Target/Paragraphs.php                                  
+ ------ ----------------------------------------------------------------- 
+         Class Drupaleeds\Feeds\Target\Text not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/InlineParagraphsWidget.php  
+ ------ --------------------------------------------------------- 
+  690    Call to deprecated function entity_view().               
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tests/Classic/ParagraphsAccessTest.php         
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/Classic/ParagraphsCoreVersionUiTestTrait.php (in context of class Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalAddWidgetTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  55     Call to method drupalPostForm() of deprecated class                                                                                                            
+         Drupal\Tests\BrowserTestBase.                                                                                                                                  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/Classic/ParagraphsCoreVersionUiTestTrait.php (in context of class Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalClientsideButtonsTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  55     Call to method drupalPostForm() of deprecated class                                                                                                                    
+         Drupal\Tests\BrowserTestBase.                                                                                                                                          
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Tests/Experimental/ParagraphsExperimentalAccessTest.php  
+ ------ ------------------------------------------------------------- 
+  76     Call to deprecated function entity_get_display().            
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/Experimental/ParagraphsExperimentalWidgetButtonsTest.php  
+ ------ -------------------------------------------------------------------- 
+  261    Call to deprecated function entity_get_form_display().              
+  265    Call to deprecated function entity_get_display().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   tests/src/Functional/ParagraphsClassicContentModerationTranslationsTest.php  
+ ------ ----------------------------------------------------------------------------- 
+  307    Call to deprecated function entity_get_form_display().                       
+  318    Call to deprecated function entity_get_form_display().                       
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/ParagraphsExperimentalContentModerationTranslationsTest.php  
+ ------ ---------------------------------------------------------------------------------- 
+  316    Call to deprecated function entity_get_form_display().                            
+  329    Call to deprecated function entity_get_form_display().                            
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsExperimentalAddWidgetTest.php   
+ ------ ------------------------------------------------------------------------- 
+  15     Class                                                                    
+         Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalAddW  
+         idgetTest extends deprecated class                                       
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  42     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  140    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  141    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  142    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsExperimentalClientsideButtonsTest.php  
+ ------ -------------------------------------------------------------------------------- 
+  15     Class                                                                           
+         Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalClie         
+         ntsideButtonsTest extends deprecated class                                      
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                            
+  40     Call to method setUp() of deprecated class                                      
+         Drupal\Tests\BrowserTestBase.                                                   
+  64     Call to deprecated function entity_get_form_display().                          
+  192    Call to deprecated function entity_get_form_display().                          
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsExperimentalEditPerspectivesUiTest.php  
+ ------ --------------------------------------------------------------------------------- 
+  13     Class                                                                            
+         Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalEdit          
+         PerspectivesUiTest extends deprecated class                                      
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                             
+  38     Call to method setUp() of deprecated class                                       
+         Drupal\Tests\BrowserTestBase.                                                    
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsExperimentalWidgetElementsTest.php  
+ ------ ----------------------------------------------------------------------------- 
+  13     Class                                                                        
+         Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalWidg      
+         etElementsTest extends deprecated class                                      
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                         
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalAddWidgetTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                             
+  94     Call to deprecated function entity_get_display().                                                                                                                  
+  176    Call to deprecated function entity_get_form_display().                                                                                                             
+  180    Call to deprecated function entity_get_display().                                                                                                                  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalClientsideButtonsTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                                     
+  94     Call to deprecated function entity_get_display().                                                                                                                          
+  176    Call to deprecated function entity_get_form_display().                                                                                                                     
+  180    Call to deprecated function entity_get_display().                                                                                                                          
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalEditPerspectivesUiTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                                      
+  94     Call to deprecated function entity_get_display().                                                                                                                           
+  176    Call to deprecated function entity_get_form_display().                                                                                                                      
+  180    Call to deprecated function entity_get_display().                                                                                                                           
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsExperimentalWidgetElementsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  90     Call to deprecated function entity_get_form_display().                                                                                                                  
+  94     Call to deprecated function entity_get_display().                                                                                                                       
+  176    Call to deprecated function entity_get_form_display().                                                                                                                  
+  180    Call to deprecated function entity_get_display().                                                                                                                       
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\Functional\ParagraphsClassicContentModerationTranslationsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  90     Call to deprecated function entity_get_form_display().                                                                                                                  
+  94     Call to deprecated function entity_get_display().                                                                                                                       
+  176    Call to deprecated function entity_get_form_display().                                                                                                                  
+  180    Call to deprecated function entity_get_display().                                                                                                                       
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\Functional\ParagraphsExperimentalBehaviorsTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                   
+  94     Call to deprecated function entity_get_display().                                                                                                        
+  176    Call to deprecated function entity_get_form_display().                                                                                                   
+  180    Call to deprecated function entity_get_display().                                                                                                        
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\Functional\ParagraphsExperimentalContentModerationTranslationsTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                                       
+  94     Call to deprecated function entity_get_display().                                                                                                                            
+  176    Call to deprecated function entity_get_form_display().                                                                                                                       
+  180    Call to deprecated function entity_get_display().                                                                                                                            
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\Functional\ParagraphsExperimentalDragAndDropModeTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                         
+  94     Call to deprecated function entity_get_display().                                                                                                              
+  176    Call to deprecated function entity_get_form_display().                                                                                                         
+  180    Call to deprecated function entity_get_display().                                                                                                              
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\Functional\ParagraphsExperimentalTranslationsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  90     Call to deprecated function entity_get_form_display().                                                                                                      
+  94     Call to deprecated function entity_get_display().                                                                                                           
+  176    Call to deprecated function entity_get_form_display().                                                                                                      
+  180    Call to deprecated function entity_get_display().                                                                                                           
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\Functional\ParagraphsExperimentalUiTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                            
+  94     Call to deprecated function entity_get_display().                                                                                                 
+  176    Call to deprecated function entity_get_form_display().                                                                                            
+  180    Call to deprecated function entity_get_display().                                                                                                 
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs\Functional\ParagraphsExperimentalWidgetButtonsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                       
+  94     Call to deprecated function entity_get_display().                                                                                                            
+  176    Call to deprecated function entity_get_form_display().                                                                                                       
+  180    Call to deprecated function entity_get_display().                                                                                                            
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs_library\FunctionalJavascript\ParagraphsContentModerationTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                                 
+  94     Call to deprecated function entity_get_display().                                                                                                                      
+  176    Call to deprecated function entity_get_form_display().                                                                                                                 
+  180    Call to deprecated function entity_get_display().                                                                                                                      
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs_library\Functional\ParagraphsLibraryItemTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                 
+  94     Call to deprecated function entity_get_display().                                                                                                      
+  176    Call to deprecated function entity_get_form_display().                                                                                                 
+  180    Call to deprecated function entity_get_display().                                                                                                      
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\Tests\paragraphs_library\Functional\ParagraphsLibraryItemTranslationTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  90     Call to deprecated function entity_get_form_display().                                                                                                            
+  94     Call to deprecated function entity_get_display().                                                                                                                 
+  176    Call to deprecated function entity_get_form_display().                                                                                                            
+  180    Call to deprecated function entity_get_display().                                                                                                                 
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\paragraphs\Testsxperimental\ParagraphsExperimentalAdministrationTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                          
+  94     Call to deprecated function entity_get_display().                                                                                                               
+  176    Call to deprecated function entity_get_form_display().                                                                                                          
+  180    Call to deprecated function entity_get_display().                                                                                                               
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\paragraphs\Testsxperimental\ParagraphsExperimentalInlineEntityFormTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  90     Call to deprecated function entity_get_form_display().                                                                                                            
+  94     Call to deprecated function entity_get_display().                                                                                                                 
+  176    Call to deprecated function entity_get_form_display().                                                                                                            
+  180    Call to deprecated function entity_get_display().                                                                                                                 
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTestBaseTrait.php (in context of class Drupal\paragraphs\Testsxperimental\ParagraphsExperimentalWidgetButtonsTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().                                                                                                         
+  94     Call to deprecated function entity_get_display().                                                                                                              
+  176    Call to deprecated function entity_get_form_display().                                                                                                         
+  180    Call to deprecated function entity_get_display().                                                                                                              
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Kernel/ParagraphsIsChangedTest.php              
+ ------ ---------------------------------------------------------- 
+  67     Call to deprecated method setRevisionAuthorId() of class  
+         Drupal\paragraphsntity\Paragraph.                       
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 102 errors                                                        
+
+ </code>

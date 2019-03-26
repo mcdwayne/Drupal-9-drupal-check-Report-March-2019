@@ -1,0 +1,71 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pardot 26e595915a6852bd2fa45d5f439c5acf3f301cd1
+source : http://cgit.drupalcode.org/pardot 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   pardot.module                                               
+ ------ ------------------------------------------------------------ 
+  27     Call to deprecated method entityManager() of class Drupal.  
+  43     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PardotCampaignDeleteForm.php              
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/PardotCampaignFormBase.php                                
+ ------ ------------------------------------------------------------------- 
+  216    Call to deprecated method urlInfo() of class                       
+         Drupal\CorentityntityInterface.                                
+  219    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  223    Call to deprecated function drupal_set_message().                  
+  228    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PardotContactFormMapDeleteForm.php        
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/PardotContactFormMapFormBase.php                          
+ ------ ------------------------------------------------------------------- 
+  331    Call to deprecated method urlInfo() of class                       
+         Drupal\CorentityntityInterface.                                
+  334    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  338    Call to deprecated function drupal_set_message().                  
+  343    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PardotScoreDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/PardotScoreFormBase.php                                   
+ ------ ------------------------------------------------------------------- 
+  216    Call to deprecated method urlInfo() of class                       
+         Drupal\CorentityntityInterface.                                
+  219    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  223    Call to deprecated function drupal_set_message().                  
+  228    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/PardotSettingsForm.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Pardot\Form\PardotSettingsForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

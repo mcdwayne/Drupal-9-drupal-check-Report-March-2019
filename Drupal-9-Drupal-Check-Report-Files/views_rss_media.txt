@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_rss_media ef05bb38a914f10482e664c9378001b73c0cf208
+source : http://cgit.drupalcode.org/views_rss_media 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   views_rss_media.inc                                         
+ ------ ------------------------------------------------------------ 
+  44     Call to deprecated function entity_load().                  
+  48     Call to deprecated function drupal_realpath().              
+  69     Call to deprecated function drupal_realpath().              
+  171    Call to deprecated function entity_load().                  
+  180    Call to deprecated function drupal_realpath().              
+  220    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

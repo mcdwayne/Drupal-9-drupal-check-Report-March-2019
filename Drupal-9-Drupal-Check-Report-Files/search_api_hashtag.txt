@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_hashtag f8c3929b6024fadecee40cde0272be0ee87696bd
+source : http://git.drupal.org/project/search_api_hashtag.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/HashtagTest.php                                           
+ ------ ------------------------------------------------------------------------- 
+  59     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  116    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  238    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

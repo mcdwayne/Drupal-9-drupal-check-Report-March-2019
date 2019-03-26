@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/redis_watchdog 4c2a00bbd88e1e5a8acee0d3650c5c74517e159d
+source : http://cgit.drupalcode.org/redis_watchdog 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/RedisWatchdogOverview.php            
+ ------ ---------------------------------------------------- 
+  37     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  67     Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  67     Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  216    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  216    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/RedisWatchdogOverview.php                          
+ ------ ------------------------------------------------------------ 
+  36     Call to deprecated method redis_watchdog_client() of class  
+         Drupaledis_watchdog\RedisWatchdog.                        
+  82     Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  82     Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  148    Call to deprecated method redis_watchdog_client() of class  
+         Drupaledis_watchdog\RedisWatchdog.                        
+  151    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RedisWatchdogOverviewClearForm.php        
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TypeDetailsForm.php                                
+ ------ ------------------------------------------------------------ 
+  55     Call to deprecated method redis_watchdog_client() of class  
+         Drupaledis_watchdog\RedisWatchdog.                        
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/Logger.php                               
+ ------ --------------------------------------------- 
+  221    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  228    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/RedisWatchdogLogger.php                  
+ ------ --------------------------------------------- 
+  219    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  226    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

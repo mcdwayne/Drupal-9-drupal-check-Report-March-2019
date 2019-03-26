@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/phpmail_alter b0c934882680781e159341503aae2a5a7afbc226
+source : http://cgit.drupalcode.org/phpmail_alter 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/Service/DebugService.php             
+ ------ ----------------------------------------- 
+  95     Calls to function dsm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/PhpMail.php                            
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

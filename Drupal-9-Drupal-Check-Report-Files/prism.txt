@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/prism 91265caa2deca56fd1b6f1fe20853137c2246eb9
+source : http://cgit.drupalcode.org/prism 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TextPrismFormatter.php  
+ ------ -------------------------------------------------------- 
+  82     Call to deprecated method checkPlain() of class         
+         Drupal\Component\Utility\SafeMarkup.                    
+  82     Call to method checkPlain() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                    
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/TextPrismItem.php       
+ ------ --------------------------------------------------- 
+  48     Instantiation of deprecated class                  
+         Drupal\Core\StringTranslation\TranslationWrapper.  
+  53     Instantiation of deprecated class                  
+         Drupal\Core\StringTranslation\TranslationWrapper.  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

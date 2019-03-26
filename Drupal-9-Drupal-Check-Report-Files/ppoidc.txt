@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ppoidc d19d7fca4395bce997df16a6c1e7e79d273c60a0
+source : http://cgit.drupalcode.org/ppoidc 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   pixelpin_openid_connect.module                              
+ ------ ------------------------------------------------------------ 
+  119    Call to deprecated method entityManager() of class Drupal.  
+  140    Call to deprecated function drupal_basename().              
+  279    Call to deprecated function db_query().                     
+  427    Call to deprecated function drupal_set_message().           
+  439    Call to deprecated function drupal_set_message().           
+  511    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/RedirectController.php              
+ ------ --------------------------------------------------- 
+  151    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated function drupal_set_message().  
+  180    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AccountsForm.php                          
+ ------ --------------------------------------------------- 
+  228    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

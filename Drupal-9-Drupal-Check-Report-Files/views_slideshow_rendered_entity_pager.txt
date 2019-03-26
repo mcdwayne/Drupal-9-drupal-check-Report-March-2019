@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_slideshow_rendered_entity_pager 7eac18b859ed8ff609f1417a0b39c115ee0cd02e
+source : http://cgit.drupalcode.org/views_slideshow_rendered_entity_pager 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/ViewsSlideshowWidget/PagerRenderedEntity.php     
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   views_slideshow_rendered_entity_pager.module                
+ ------ ------------------------------------------------------------ 
+  52     Call to deprecated method entityManager() of class Drupal.  
+  59     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

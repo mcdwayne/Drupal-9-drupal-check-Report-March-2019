@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_page d9793f22f87dd593765a7b7e188fd93f4dc14d5e
+source : http://cgit.drupalcode.org/search_api_page 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SearchApiPageDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SearchApiPageForm.php                     
+ ------ --------------------------------------------------- 
+  277    Call to deprecated function drupal_set_message().  
+  283    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Functional/FacetsIntegrationTest.php                      
+ ------ -------------------------------------------------------------------- 
+  15     Class Drupal\Testsacets\Functional\TestHelperTrait not found and  
+         could not be autoloaded.                                            
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

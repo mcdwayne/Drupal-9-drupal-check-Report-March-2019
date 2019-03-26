@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/riddle_marketplace dab89a02cd9d9b8eb19ec111dc29912b6d9c770d
+source : http://cgit.drupalcode.org/riddle_marketplace 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/media_riddle_marketplace/src/Controller/RiddleImportController.php  
+ ------ ---------------------------------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/RiddleController.php                
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/RiddleFeedServiceTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  65     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  68     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  69     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

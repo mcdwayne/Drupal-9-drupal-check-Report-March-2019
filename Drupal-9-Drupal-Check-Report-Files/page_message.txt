@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/page_message 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/page_message 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   page_message.module                              
+ ------ ------------------------------------------------- 
+  41     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  41     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PagemessageAddUpdateForm.php                   
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function db_query().            
+  45     Call to deprecated function drupal_set_message().  
+  131    Call to deprecated function drupal_set_message().  
+  141    Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PagemessageStorage.php                         
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function db_insert().           
+  35     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function db_update().           
+  63     Call to deprecated function drupal_set_message().  
+  81     Call to deprecated function db_delete().           
+  99     Call to deprecated function db_query().            
+  117    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PagemessageSubscriber.php                      
+ ------ --------------------------------------------------- 
+  46     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  46     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scroll_depth_analytics 8.x-2.0
+source : http://cgit.drupalcode.org/scroll_depth_analytics 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   scroll_depth_analytics.module                    
+ ------ ------------------------------------------------- 
+  54     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  57     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

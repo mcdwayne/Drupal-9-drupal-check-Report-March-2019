@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_search_snippet 2797f6910dcf10dfeedacf3b91f5b22ea7bf2de6
+source : http://cgit.drupalcode.org/views_search_snippet 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/field/Snippet.php                          
+ ------ ------------------------------------------------------------ 
+  51     Call to deprecated method entityManager() of class Drupal.  
+  59     Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

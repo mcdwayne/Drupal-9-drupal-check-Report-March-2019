@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pathed_files 24c9f40b3ed00224eb8f3e65ce6dd2f13515a16d
+source : http://cgit.drupalcode.org/pathed_files 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/PathedFileListBuilder.php       
+ ------ ----------------------------------------------- 
+  43     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+  76     Call to deprecated method urlInfo() of class   
+         Drupal\CorentityntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PathedFileDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/PathedFileFormBase.php                                    
+ ------ ------------------------------------------------------------------- 
+  139    Call to deprecated method urlInfo() of class                       
+         Drupal\CorentityntityInterface.                                
+  141    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  144    Call to deprecated function drupal_set_message().                  
+  148    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/PathedFileUITest.php                              
+ ------ ------------------------------------------------------------ 
+  75     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mam 2b23e48c833c1d1cca1ebd6402b3b34ec28cce8b
+source : http://cgit.drupalcode.org/mam 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/DomainEntityListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\mam\DomainEntityListBuilder.                            
+  34     Call to deprecated method l() of class                               
+         Drupal\mam\DomainEntityListBuilder.                                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/DomainEntityViewBuilder.php               
+ ------ ---------------------------------------------- 
+  78     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainEntityForm.php                      
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MultisiteManagerForm.php                  
+ ------ --------------------------------------------------- 
+  394    Call to deprecated function drupal_set_message().  
+  518    Call to deprecated function drupal_set_message().  
+  521    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

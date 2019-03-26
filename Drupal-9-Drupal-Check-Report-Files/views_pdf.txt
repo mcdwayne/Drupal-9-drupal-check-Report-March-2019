@@ -1,0 +1,97 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_pdf 8027820a9a94689f635172cb45b3b13962d80eef
+source : http://git.drupal.org/project/views_pdf.git 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/views_append/views_append_handler_append_view.inc             
+ ------ ---------------------------------------------------------------------- 
+         Class views_append_handler_append_view was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/views_view_field/views_view_field_handler_include_view.inc      
+ ------ ------------------------------------------------------------------------ 
+         Class views_view_field_handler_include_view was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/views/display/Page.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class Page was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/views/row/Fields.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Fields was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/views/style/PageBreak.php                                    
+ ------ ------------------------------------------------------------------------ 
+         Class PageBreak was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/style/PageNumber.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class PageNumber was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/views/style/Table.php                                       
+ ------ ----------------------------------------------------------------------- 
+         Class Table was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/views/style/ThreeColumn.php                        
+ ------ -------------------------------------------------------------- 
+         Class ThreeColumn was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/views/style/Unformatted.php                        
+ ------ -------------------------------------------------------------- 
+         Class Unformatted was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/ViewsPdfBase.php                                    
+ ------ -------------------------------------------------------- 
+         Class fpdi\FPDI not found and could not be autoloaded.  
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Display/ViewsPdfDisplayTest.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class Drupaliews_pdf\Tests\Display\ViewsPdfDisplayTests was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   views_pdf.admin.inc                                    
+ ------ ------------------------------------------------------- 
+  18     Call to deprecated function drupal_render().           
+  31     Call to deprecated function drupal_render().           
+  35     Call to deprecated function drupal_render().           
+  39     Call to deprecated function drupal_render().           
+  43     Call to deprecated function drupal_render().           
+  51     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

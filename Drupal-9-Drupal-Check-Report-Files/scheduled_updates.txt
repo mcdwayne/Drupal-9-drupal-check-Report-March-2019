@@ -1,0 +1,178 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scheduled_updates 9d8e074bbc239da48b7a42903f530f01c6e04152
+source : http://cgit.drupalcode.org/scheduled_updates 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   scheduled_update.page.inc                       
+ ------ ------------------------------------------------ 
+  48     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   scheduled_updates.module                           
+ ------ --------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   src/ClassUtilsTrait.php (in context of class Drupal\scheduled_updates\Form\FieldClonerForm)  
+ ------ --------------------------------------------------------------------------------------------- 
+  72     Call to deprecated method getRevisionAuthor() of class                                       
+         Drupal
+ode\NodeInterface.                                                                   
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------- 
+  Line   src/ClassUtilsTrait.php (in context of class Drupal\scheduled_updates\Form\ScheduledUpdateTypeBaseForm)  
+ ------ --------------------------------------------------------------------------------------------------------- 
+  72     Call to deprecated method getRevisionAuthor() of class                                                   
+         Drupal
+ode\NodeInterface.                                                                               
+ ------ --------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------- 
+  Line   src/ClassUtilsTrait.php (in context of class Drupal\scheduled_updates\Form\ScheduledUpdateTypeForm)  
+ ------ ----------------------------------------------------------------------------------------------------- 
+  72     Call to deprecated method getRevisionAuthor() of class                                               
+         Drupal
+ode\NodeInterface.                                                                           
+ ------ ----------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   src/ClassUtilsTrait.php (in context of class Drupal\scheduled_updates\Plugin\BaseUpdateRunner)  
+ ------ ------------------------------------------------------------------------------------------------ 
+  72     Call to deprecated method getRevisionAuthor() of class                                          
+         Drupal
+ode\NodeInterface.                                                                      
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   src/ClassUtilsTrait.php (in context of class Drupal\scheduled_updates\ScheduledUpdateListBuilder)  
+ ------ --------------------------------------------------------------------------------------------------- 
+  72     Call to deprecated method getRevisionAuthor() of class                                             
+         Drupal
+ode\NodeInterface.                                                                         
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   src/ClassUtilsTrait.php (in context of class Drupal\scheduled_updates\UpdateUtils)  
+ ------ ------------------------------------------------------------------------------------ 
+  72     Call to deprecated method getRevisionAuthor() of class                              
+         Drupal
+ode\NodeInterface.                                                          
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Command/RunUpdatesCommand.php                                       
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Console\Command\ContainerAwareCommand not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/ScheduledUpdateAddController.php  
+ ------ ------------------------------------------------- 
+  79     Call to deprecated method l() of class           
+         Drupal\Core\Controller\ControllerBase.           
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/ScheduledUpdateDeleteForm.php      
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/ScheduledUpdateForm.php            
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FieldManager.php                               
+ ------ --------------------------------------------------- 
+  348    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldClonerForm.php                       
+ ------ --------------------------------------------------- 
+  212    Call to deprecated function drupal_set_message().  
+  220    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduledUpdateTypeBaseForm.php           
+ ------ --------------------------------------------------- 
+  605    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduledUpdateTypeDeleteForm.php         
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduledUpdateTypeForm.php               
+ ------ --------------------------------------------------- 
+  124    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+  135    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/FormScheduledUpdateSettingsForm.php                                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\scheduled_updatesntity\Form\ScheduledUpdateSettingsForm  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Permissions.php                                                 
+ ------ -------------------------------------------------------------------- 
+  20     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\scheduled_updates\Permissions.                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/BaseUpdateRunner.php                    
+ ------ --------------------------------------------------- 
+  365    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Routing/FieldUiRouteEnhancer.php                                    
+ ------ ------------------------------------------------------------------------ 
+  19     Class Drupal\scheduled_updates\Routing\FieldUiRouteEnhancer implements  
+         deprecated interface                                                    
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/ScheduledUpdateListBuilder.php                                   
+ ------ --------------------------------------------------------------------- 
+  26     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\scheduled_updates\ScheduledUpdateListBuilder.           
+  76     Call to deprecated method l() of class                               
+         Drupal\scheduled_updates\ScheduledUpdateListBuilder.                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/UpdateUtils.php                                 
+ ------ ---------------------------------------------------- 
+  111    Call to deprecated method isNewRevision() of class  
+         Drupal
+ode\NodeTypeInterface.                      
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 29 errors                                                         
+
+ </code>

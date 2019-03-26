@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_taxonomy_term_name_depth cc2d12fbaa9f29c04b5f0ea3be645c32785efca5
+source : http://cgit.drupalcode.org/views_taxonomy_term_name_depth 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/views/argument/IndexNameDepth.php  
+ ------ ---------------------------------------------- 
+  194    Call to deprecated function db_select().      
+  196    Call to deprecated function db_or().          
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

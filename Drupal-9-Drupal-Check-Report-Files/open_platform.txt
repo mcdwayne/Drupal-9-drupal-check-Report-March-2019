@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/open_platform 1a58072ae56e673d2226a90f2a2a550e16d294cf
+source : http://cgit.drupalcode.org/open_platform 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   forms/open_platform_preview_form.inc               
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   open_platform.module                      
+ ------ ------------------------------------------ 
+  436    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

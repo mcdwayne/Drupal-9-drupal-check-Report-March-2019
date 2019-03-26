@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quail_api 8.x-1.0-alpha1
+source : http://cgit.drupalcode.org/quail_api 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/quail_api_guidelines.inc                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Quail_api_allGuideline was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/quail_api_handler_field_markup.inc                         
+ ------ -------------------------------------------------------------------- 
+         Class quail_api_handler_field_markup was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   includes/quail_api_reporters.inc                                  
+ ------ ------------------------------------------------------------------ 
+         Class reportQuail_api was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   quail_api.module                                 
+ ------ ------------------------------------------------- 
+  159    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  236    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

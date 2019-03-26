@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nodeorder ab369b0b2989bad17cc364350439e680eae004c8
+source : http://cgit.drupalcode.org/nodeorder 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   nodeorder.module                                            
+ ------ ------------------------------------------------------------ 
+  43     Call to deprecated method getVocabularyId() of class        
+         Drupal	axonomyntity\Term.                                
+  103    Call to deprecated method entityManager() of class Drupal.  
+  113    Call to deprecated function db_select().                    
+  125    Call to deprecated function db_update().                    
+  134    Call to deprecated function drupal_set_message().           
+  142    Call to deprecated method entityManager() of class Drupal.  
+  149    Call to deprecated function db_update().                    
+  155    Call to deprecated function drupal_set_message().           
+  176    Call to deprecated function db_select().                    
+  240    Call to deprecated function db_update().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Access/NodeOrderAccess.php                        
+ ------ ------------------------------------------------------ 
+  70     Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomyntity\Term.                          
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/NodeOrderListBuilder.php                       
+ ------ --------------------------------------------------- 
+  292    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/NodeOrderManager.php                       
+ ------ ----------------------------------------------- 
+  60     Call to deprecated function db_update().       
+  68     Call to deprecated function db_select().       
+  82     Call to deprecated function db_select().       
+  96     Call to deprecated function db_update().       
+  127    Call to deprecated function db_select().       
+  180    Call to deprecated function db_select().       
+  212    Call to deprecated function db_query_range().  
+  273    Call to deprecated function db_select().       
+  320    Call to deprecated function db_select().       
+  337    Call to deprecated function db_update().       
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/NodeorderCrudTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  13     Class Drupal
+odeorder\Tests\NodeorderCrudTest extends deprecated class  
+         Drupal	axonomy\Tests\TaxonomyTestBase.                                  
+  47     Call to method setUp() of deprecated class                               
+         Drupal	axonomy\Tests\TaxonomyTestBase.                                  
+  57     Call to deprecated function entity_create().                             
+  68     Call to deprecated function entity_create().                             
+  86     Call to deprecated function entity_get_form_display().                   
+  91     Call to deprecated function entity_get_display().                        
+  299    Call to deprecated function db_select().                                 
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 29 errors                                                         
+
+ </code>

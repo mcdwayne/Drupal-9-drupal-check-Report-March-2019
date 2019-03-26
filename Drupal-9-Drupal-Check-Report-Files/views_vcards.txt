@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_vcards 9d1a1a7bf2d5ad5217702fccea9372a9a499e3ee
+source : http://cgit.drupalcode.org/views_vcards 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/display/ViewsVcardsDisplayPluginVcard.php           
+ ------ --------------------------------------------------------------------- 
+  115    Call to deprecated method applyDisplayCachablityMetadata() of class  
+         Drupaliews\Pluginiews\display\DisplayPluginBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   views_vcards.module                                
+ ------ --------------------------------------------------- 
+  169    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

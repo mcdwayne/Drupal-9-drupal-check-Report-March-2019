@@ -1,0 +1,574 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scheduler 696b13810d903b5413fc56ee0b44d82e4b9d3a8a
+source : http://cgit.drupalcode.org/scheduler 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   scheduler.module                                    
+ ------ ---------------------------------------------------- 
+  475    Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   scheduler_handler_field_scheduler_countdown.inc                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\scheduler\SchedulerHandlerFieldSchedulerCountdown was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/Condition/NodeIsScheduledForPublishing.php  
+ ------ ----------------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesConditionBase not found and could not be              
+         autoloaded.                                                                        
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/Condition/NodeIsScheduledForUnpublishing.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesConditionBase not found and could not be                
+         autoloaded.                                                                          
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/Condition/PublishingIsEnabled.php  
+ ------ -------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesConditionBase not found and could not be     
+         autoloaded.                                                               
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/Condition/UnpublishingIsEnabled.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesConditionBase not found and could not be       
+         autoloaded.                                                                 
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/RulesAction/PublishNow.php   
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/RulesAction/RemovePublishingDate.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be           
+         autoloaded.                                                                  
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/RulesAction/RemoveUnpublishingDate.php  
+ ------ ------------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be             
+         autoloaded.                                                                    
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/RulesAction/SetPublishingDate.php  
+ ------ -------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be        
+         autoloaded.                                                               
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/RulesAction/SetUnpublishingDate.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be          
+         autoloaded.                                                                 
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   scheduler_rules_integration/src/Plugin/RulesAction/UnpublishNow.php  
+ ------ --------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be   
+         autoloaded.                                                          
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerAdminSettingsTest.php  
+ ------ ----------------------------------------------------- 
+  46     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/SchedulerApiTest.php             
+ ------ ------------------------------------------------------ 
+  62     Call to deprecated method assertFieldById() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  72     Call to deprecated method assertText() of class       
+         Drupal\Tests\BrowserTestBase.                         
+  129    Call to deprecated method assertFieldById() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  139    Call to deprecated method assertText() of class       
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   tests/src/Functional/SchedulerBasicTest.php  
+ ------ --------------------------------------------- 
+  51     Call to deprecated method assert() of class  
+         Drupal\Tests\BrowserTestBase.                
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerDefaultTimeTest.php       
+ ------ -------------------------------------------------------- 
+  63     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  73     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  74     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerDeleteNodeTest.php   
+ ------ --------------------------------------------------- 
+  53     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  54     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  59     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  60     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  90     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  91     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  96     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  97     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerDevelGenerateTest.php  
+ ------ ----------------------------------------------------- 
+  98     Call to deprecated function format_date().           
+  98     Call to deprecated function format_date().           
+  99     Call to deprecated function format_date().           
+  99     Call to deprecated function format_date().           
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerFieldsDisplayTest.php       
+ ------ ---------------------------------------------------------- 
+  113    Call to deprecated method assertFieldById() of class      
+         Drupal\Tests\BrowserTestBase.                             
+  120    Call to deprecated method assertNoFieldById() of class    
+         Drupal\Tests\BrowserTestBase.                             
+  141    Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+  142    Call to deprecated method assertFieldByName() of class    
+         Drupal\Tests\BrowserTestBase.                             
+  155    Call to deprecated method assertFieldByName() of class    
+         Drupal\Tests\BrowserTestBase.                             
+  156    Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+  169    Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+  170    Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerLightweightCronTest.php  
+ ------ ------------------------------------------------------- 
+  29     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  34     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  41     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  64     Call to deprecated method assertNotEqual() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  68     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  72     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  73     Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerNodeAccessTest.php     
+ ------ ----------------------------------------------------- 
+  64     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  78     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  84     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  85     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerNonEnabledTypeTest.php      
+ ------ ---------------------------------------------------------- 
+  60     Call to deprecated method assertFieldByName() of class    
+         Drupal\Tests\BrowserTestBase.                             
+  63     Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+  67     Call to deprecated method assertFieldByName() of class    
+         Drupal\Tests\BrowserTestBase.                             
+  70     Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerPastDatesTest.php    
+ ------ --------------------------------------------------- 
+  36     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  41     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  46     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  47     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  61     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  62     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  63     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  84     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerPermissionsTest.php         
+ ------ ---------------------------------------------------------- 
+  32     Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+  33     Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+  54     Call to deprecated method assertText() of class           
+         Drupal\Tests\BrowserTestBase.                             
+  64     Call to deprecated method assertText() of class           
+         Drupal\Tests\BrowserTestBase.                             
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerRequiredTest.php   
+ ------ ------------------------------------------------- 
+  214    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  219    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerRulesActionsTest.php  
+ ------ ---------------------------------------------------- 
+  124    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  125    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  140    Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+  141    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  156    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  157    Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+  246    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  247    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  262    Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+  263    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  278    Call to deprecated method assertNoText() of class   
+         Drupal\Tests\BrowserTestBase.                       
+  279    Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerRulesConditionsTest.php  
+ ------ ------------------------------------------------------- 
+  122    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  123    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  124    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  125    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  133    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  134    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  135    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  136    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  142    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  143    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  144    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  145    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  233    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  234    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  235    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  236    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  245    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  246    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  247    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  248    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  257    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  258    Call to deprecated method assertNoText() of class      
+         Drupal\Tests\BrowserTestBase.                          
+  259    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  260    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerRulesEventsTest.php  
+ ------ --------------------------------------------------- 
+  86     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  87     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  88     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  89     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  90     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  91     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  98     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  99     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  100    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  101    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  102    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  103    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  115    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  116    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  117    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  118    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  119    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  120    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  128    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  129    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  130    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  131    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  132    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  133    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  140    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  141    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  142    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  143    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  144    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  145    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  157    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  158    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  159    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  160    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  161    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  162    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  170    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  171    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  172    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  173    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  174    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  175    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  182    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  183    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  184    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  185    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  186    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  187    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  201    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  202    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  203    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  204    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  205    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  206    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  215    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  216    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  217    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  218    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  219    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  220    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  227    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  228    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  229    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  230    Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  231    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  232    Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/src/Functional/SchedulerScheduledContentListAccessTest.php  
+ ------ ------------------------------------------------------------------ 
+  72     Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  78     Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  84     Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  85     Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  86     Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  87     Call to deprecated method assertNoText() of class                 
+         Drupal\Tests\BrowserTestBase.                                     
+  91     Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  97     Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  98     Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  99     Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  100    Call to deprecated method assertNoText() of class                 
+         Drupal\Tests\BrowserTestBase.                                     
+  105    Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  106    Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  107    Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  116    Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  122    Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  128    Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  135    Call to deprecated method assertResponse() of class               
+         Drupal\Tests\BrowserTestBase.                                     
+  136    Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  137    Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  138    Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+  139    Call to deprecated method assertText() of class                   
+         Drupal\Tests\BrowserTestBase.                                     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerStatusReportTest.php     
+ ------ ------------------------------------------------------- 
+  19     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  20     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  22     Call to deprecated method url() of class Drupal.       
+  23     Call to deprecated method assertLink() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  24     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  26     Call to deprecated method url() of class Drupal.       
+  27     Call to deprecated method assertLink() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  28     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/SchedulerValidationTest.php   
+ ------ --------------------------------------------------- 
+  44     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  45     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  60     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  61     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  76     Call to deprecated method assertText() of class    
+         Drupal\Tests\BrowserTestBase.                      
+  77     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 208 errors                                                        
+
+ </code>

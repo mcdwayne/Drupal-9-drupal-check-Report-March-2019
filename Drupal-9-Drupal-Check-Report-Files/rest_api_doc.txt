@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rest_api_doc 829c2fed8c4d7d316d7e46cd3f63c7080f4ed8b9
+source : http://cgit.drupalcode.org/rest_api_doc 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/RestApiDocController.php             
+ ------ ---------------------------------------------------- 
+  115    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  129    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  227    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  229    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  263    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  281    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  300    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  322    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/RestApiDocTest.php                                             
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupalest_api_doc\Tests\RestApiDocTest extends deprecated class  
+         Drupalest\Tests\RESTTestBase.                                          
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

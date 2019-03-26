@@ -1,0 +1,57 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/search_api_location 17da652f9c8c4f7b1ffeed3d9bb1582e9510fcac
+source : http://git.drupal.org/project/search_api_location.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/facets_map_widget/src/Plugin/facets/processor/RptMapProcessor.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupalacets\Processor\ProcessorPluginBase not found and could      
+         not be autoloaded.                                                         
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/facets_map_widget/src/Plugin/facets/query_type/SearchApiRpt.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalacets\QueryType\QueryTypePluginBase not found and could    
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/facets_map_widget/src/Plugin/facets/widget/RptMapWidget.php     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalacets\Widget\WidgetPluginBase not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/facets_map_widget/tests/src/Unit/Plugin/processor/RptMapProcessorTest.php  
+ ------ ----------------------------------------------------------------------------------- 
+         Class Drupalacets\Processor\ProcessorPluginBase not found and could              
+         not be autoloaded.                                                                 
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/facets_map_widget/tests/src/Unit/Plugin/query_type/SearchApiRptTest.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class Drupalacets\QueryType\QueryTypePluginBase not found and could            
+         not be autoloaded.                                                               
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/facets_map_widget/tests/src/Unit/Plugin/widget/RptMapWidgetTest.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Drupal\Testsacets\Unit\Plugin\widget\WidgetTestBase not found        
+         and could not be autoloaded.                                                 
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/search_api_location_views/src/Plugin/views/filter/SearchApiFilterLocation.php  
+ ------ --------------------------------------------------------------------------------------- 
+  197    Call to deprecated function drupal_set_message().                                      
+ ------ --------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

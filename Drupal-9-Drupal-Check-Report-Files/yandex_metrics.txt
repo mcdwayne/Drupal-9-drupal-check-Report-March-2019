@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/yandex_metrics 884b898942a5140ef2bc45223d89c1b8f3877000
+source : http://cgit.drupalcode.org/yandex_metrics 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   yandex_metrics.module                            
+ ------ ------------------------------------------------- 
+  50     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  54     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   yandex_metrics_reports/yandex_metrics_reports.module   
+ ------ ------------------------------------------------------- 
+  200    Call to deprecated function drupal_set_message().      
+  211    Call to deprecated function drupal_set_message().      
+  219    Call to deprecated function drupal_set_message().      
+  233    Call to deprecated function drupal_render().           
+  332    Call to deprecated function drupal_set_message().      
+  438    Call to deprecated function drupal_render().           
+  439    Call to deprecated function drupal_render().           
+  455    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

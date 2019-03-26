@@ -1,0 +1,480 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/panelizer ad4d4133cf589de2c934651ec5e56ec2d8edcfcc
+source : http://git.drupal.org/project/panelizer.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   panelizer.post_update.php                       
+ ------ ------------------------------------------------ 
+  30     Call to deprecated function db_table_exists().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   panelizer_quickedit/tests/src/FunctionalJavascript/PanelizerQuickEditTest.php  
+ ------ ------------------------------------------------------------------------------- 
+  14     Class                                                                          
+         Drupal\Tests\panelizer_quickedit\FunctionalJavascript\PanelizerQuickEdi        
+         tTest extends deprecated class                                                 
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                           
+  25     Call to method setUp() of deprecated class                                     
+         Drupal\Tests\BrowserTestBase.                                                  
+  72     Call to deprecated method assertResponse() of class                            
+         Drupal\Tests\BrowserTestBase.                                                  
+  77     Call to deprecated method assertResponse() of class                            
+         Drupal\Tests\BrowserTestBase.                                                  
+  110    Call to deprecated method assertResponse() of class                            
+         Drupal\Tests\BrowserTestBase.                                                  
+  141    Call to deprecated method assertResponse() of class                            
+         Drupal\Tests\BrowserTestBase.                                                  
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PanelizerWizardContextDeleteForm.php      
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/PanelizerWizardContextForm.php                              
+ ------ --------------------------------------------------------------------- 
+  144    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Panelizer.php                                  
+ ------ --------------------------------------------------- 
+  321    Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/Update/PanelizerLayoutIDUpdateTest.php                         
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\panelizer\Tests\Update\PanelizerLayoutIDUpdateTest extends  
+         deprecated class Drupal\system\Tests\Update\UpdatePathTestBase.          
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/PanelizerAddDefaultLinkTest.php  
+ ------ ------------------------------------------------------ 
+  58     Call to deprecated method assertLink() of class       
+         Drupal\Tests\BrowserTestBase.                         
+  64     Call to deprecated method assertNoLink() of class     
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerDefaultsTest.php            
+ ------ ---------------------------------------------------------- 
+  76     Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  77     Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+  84     Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  85     Call to deprecated method assertFieldByName() of class    
+         Drupal\Tests\BrowserTestBase.                             
+  86     Call to deprecated method assertOption() of class         
+         Drupal\Tests\BrowserTestBase.                             
+  87     Call to deprecated method assertOption() of class         
+         Drupal\Tests\BrowserTestBase.                             
+ ------ ---------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerIpeTest.php            
+ ------ ----------------------------------------------------- 
+  102    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  107    Call to deprecated method getRawContent() of class   
+         Drupal\Tests\BrowserTestBase.                        
+  122    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  124    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  149    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  154    Call to deprecated method getRawContent() of class   
+         Drupal\Tests\BrowserTestBase.                        
+  169    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  171    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  221    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  223    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  276    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  278    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  332    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  334    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  366    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  371    Call to deprecated method getRawContent() of class   
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerNodeFunctionalTest.php       
+ ------ ----------------------------------------------------------- 
+  56     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  57     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  58     Call to deprecated method assertField() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  62     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  76     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  80     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  82     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  83     Call to deprecated method assertField() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  88     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  91     Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  98     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  99     Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  103    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  110    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  111    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  113    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  115    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  119    Call to deprecated method assertNoRaw() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  125    Call to deprecated method assertNoLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  126    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  148    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  152    Call to deprecated method assertIdentical() of class       
+         Drupal\Tests\BrowserTestBase.                              
+  159    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  160    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerNodeTranslationsTest.php     
+ ------ ----------------------------------------------------------- 
+  75     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  76     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  77     Call to deprecated method assertField() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  81     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  96     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  100    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  102    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  103    Call to deprecated method assertField() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  108    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  111    Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  118    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  119    Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  123    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  130    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  131    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  133    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  135    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  139    Call to deprecated method assertNoRaw() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  145    Call to deprecated method assertNoLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  146    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  176    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  180    Call to deprecated method assertIdentical() of class       
+         Drupal\Tests\BrowserTestBase.                              
+  187    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  188    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  192    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  193    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  194    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/PanelizerTermFunctionalTest.php  
+ ------ ------------------------------------------------------ 
+  66     Call to deprecated method assertResponse() of class   
+         Drupal\Tests\BrowserTestBase.                         
+  90     Call to deprecated method assertResponse() of class   
+         Drupal\Tests\BrowserTestBase.                         
+  94     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  101    Call to deprecated method assertText() of class       
+         Drupal\Tests\BrowserTestBase.                         
+  102    Call to deprecated method assertText() of class       
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerTestTrait.php (in context of class Drupal\Tests\panelizer\Functional\PanelizerAddDefaultLinkTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  78     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  81     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  88     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  94     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  96     Call to deprecated function entity_get_form_display().                                                                           
+  118    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  124    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  126    Call to deprecated function entity_get_form_display().                                                                           
+  152    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  161    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  164    Call to deprecated method assertUrl() of class                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  166    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  169    Call to deprecated method assertUrl() of class                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  171    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  174    Call to deprecated method assertUrl() of class                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  176    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  194    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  196    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  211    Call to deprecated function entity_get_display().                                                                                
+  230    Call to deprecated function entity_get_display().                                                                                
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerTestTrait.php (in context of class Drupal\Tests\panelizer\Functional\PanelizerDefaultsTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  78     Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  81     Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  88     Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  94     Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  96     Call to deprecated function entity_get_form_display().                                                                     
+  118    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  124    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  126    Call to deprecated function entity_get_form_display().                                                                     
+  152    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  161    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  164    Call to deprecated method assertUrl() of class                                                                             
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  166    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  169    Call to deprecated method assertUrl() of class                                                                             
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  171    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  174    Call to deprecated method assertUrl() of class                                                                             
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  176    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  194    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  196    Call to deprecated method assertResponse() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                              
+  211    Call to deprecated function entity_get_display().                                                                          
+  230    Call to deprecated function entity_get_display().                                                                          
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerTestTrait.php (in context of class Drupal\Tests\panelizer\Functional\PanelizerIpeTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  78     Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  81     Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  88     Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  94     Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  96     Call to deprecated function entity_get_form_display().                                                                
+  118    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  124    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  126    Call to deprecated function entity_get_form_display().                                                                
+  152    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  161    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  164    Call to deprecated method assertUrl() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  166    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  169    Call to deprecated method assertUrl() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  171    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  174    Call to deprecated method assertUrl() of class                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  176    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  194    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  196    Call to deprecated method assertResponse() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  211    Call to deprecated function entity_get_display().                                                                     
+  230    Call to deprecated function entity_get_display().                                                                     
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerTestTrait.php (in context of class Drupal\Tests\panelizer\Functional\PanelizerNodeFunctionalTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  78     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  81     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  88     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  94     Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  96     Call to deprecated function entity_get_form_display().                                                                           
+  118    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  124    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  126    Call to deprecated function entity_get_form_display().                                                                           
+  152    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  161    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  164    Call to deprecated method assertUrl() of class                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  166    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  169    Call to deprecated method assertUrl() of class                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  171    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  174    Call to deprecated method assertUrl() of class                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  176    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  194    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  196    Call to deprecated method assertResponse() of class                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                    
+  211    Call to deprecated function entity_get_display().                                                                                
+  230    Call to deprecated function entity_get_display().                                                                                
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/PanelizerTestTrait.php (in context of class Drupal\Tests\panelizer\Functional\PanelizerNodeTranslationsTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  78     Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  81     Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  88     Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  94     Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  96     Call to deprecated function entity_get_form_display().                                                                             
+  118    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  124    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  126    Call to deprecated function entity_get_form_display().                                                                             
+  152    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  161    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  164    Call to deprecated method assertUrl() of class                                                                                     
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  166    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  169    Call to deprecated method assertUrl() of class                                                                                     
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  171    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  174    Call to deprecated method assertUrl() of class                                                                                     
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  176    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  194    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  196    Call to deprecated method assertResponse() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                      
+  211    Call to deprecated function entity_get_display().                                                                                  
+  230    Call to deprecated function entity_get_display().                                                                                  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/PanelizerUserFunctionalTest.php  
+ ------ ------------------------------------------------------ 
+  61     Call to deprecated method assertResponse() of class   
+         Drupal\Tests\BrowserTestBase.                         
+  67     Call to deprecated method assertResponse() of class   
+         Drupal\Tests\BrowserTestBase.                         
+  94     Call to deprecated method assertResponse() of class   
+         Drupal\Tests\BrowserTestBase.                         
+  100    Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  107    Call to deprecated method assertText() of class       
+         Drupal\Tests\BrowserTestBase.                         
+  108    Call to deprecated method assertText() of class       
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/PanelizerIntegrationTest.php              
+ ------ ------------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class                                                                    
+         Drupal\Tests\panelizer\FunctionalJavascript\PanelizerIntegrationTest.    
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 198 errors                                                        
+
+ </code>

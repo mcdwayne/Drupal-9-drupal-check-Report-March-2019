@@ -1,0 +1,115 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/powertagging 5e56615c1a8209440e431f5bccd7e253c4bfe7d2
+source : http://cgit.drupalcode.org/powertagging 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/powertagging_corpus/src/Form/PowerTaggingCorpusAddContentForm.php  
+ ------ --------------------------------------------------------------------------- 
+  292    Call to deprecated function drupal_set_message().                          
+  296    Call to deprecated function drupal_set_message().                          
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/powertagging_corpus/src/Form/PowerTaggingCorpusAnalyzeCorpusForm.php  
+ ------ ------------------------------------------------------------------------------ 
+  111    Call to deprecated function drupal_set_message().                             
+  115    Call to deprecated function drupal_set_message().                             
+  118    Call to deprecated function drupal_set_message().                             
+  144    Call to deprecated function drupal_set_message().                             
+  147    Call to deprecated function drupal_set_message().                             
+  151    Call to deprecated function drupal_set_message().                             
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/powertagging_corpus/src/PowerTaggingCorpusBatches.php  
+ ------ --------------------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().              
+  75     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/powertagging_similar/src/Form/PowerTaggingSimilarConfigDeleteForm.php  
+ ------ ------------------------------------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().                              
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/powertagging_similar/src/Form/PowerTaggingSimilarConfigForm.php  
+ ------ ------------------------------------------------------------------------- 
+  259    Call to deprecated function drupal_set_message().                        
+  262    Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PowerTaggingConfigCloneForm.php           
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PowerTaggingConfigConnectionForm.php      
+ ------ --------------------------------------------------- 
+  391    Call to deprecated function drupal_set_message().  
+  397    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PowerTaggingConfigDeleteForm.php          
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/PowerTaggingConfigFixedConnectionAddForm.php  
+ ------ ------------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().      
+  51     Call to deprecated function drupal_set_message().      
+  107    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/PowerTaggingConfigForm.php                     
+ ------ -------------------------------------------------------- 
+  450    Call to deprecated function drupal_set_message().       
+  456    Call to deprecated function drupal_set_message().       
+  702    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/PowerTaggingRefreshExtractionModelForm.php  
+ ------ ----------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().    
+  109    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PowerTaggingTagContentForm.php            
+ ------ --------------------------------------------------- 
+  156    Call to deprecated function drupal_set_message().  
+  306    Call to deprecated function drupal_set_message().  
+  336    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PowerTaggingUpdateVocabularyForm.php      
+ ------ --------------------------------------------------- 
+  208    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/PowerTaggingTagsItem.php  
+ ------ ----------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PowerTagging.php                               
+ ------ --------------------------------------------------- 
+  1234   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 31 errors                                                         
+
+ </code>

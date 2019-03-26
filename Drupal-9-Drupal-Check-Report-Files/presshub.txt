@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/presshub 6a29477a6c9d4a0da23c4bded5846af7264547b0
+source : http://cgit.drupalcode.org/presshub 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/Presshub.php               
+ ------ ------------------------------------------ 
+  60     Call to deprecated function db_insert().  
+  68     Call to deprecated function db_update().  
+  76     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Templates.php                             
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function db_select().           
+  90     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated function db_merge().            
+  102    Call to deprecated function db_delete().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/PresshubHelper.php                    
+ ------ ------------------------------------------ 
+  83     Call to deprecated function db_select().  
+  160    Call to deprecated function db_select().  
+  180    Call to deprecated function db_select().  
+  200    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

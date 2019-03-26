@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/parameter_message 9ac6a751edc87f9fc1481e16dad729c67f395d40
+source : https://cgit.drupalcode.org/parameter_message 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageForm.php                           
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ParameterMessageSubscriber.php                 
+ ------ --------------------------------------------------- 
+  104    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

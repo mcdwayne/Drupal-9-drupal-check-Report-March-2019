@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workbench_email 937979504dd12f584a0943bbcd45da5207d92bfc
+source : http://cgit.drupalcode.org/workbench_email 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/TemplateForm.php                     
+ ------ ---------------------------------------------- 
+  251    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/RecipientTypePluginsTest.php                         
+ ------ ---------------------------------------------------------------------- 
+  25     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\workbench_email\Kernel\RecipientTypePluginsTest.         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

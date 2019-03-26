@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pokeapi 46e5276400de4ef52264a5240ea191d60509a5d1
+source : http://cgit.drupalcode.org/pokeapi 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   pokeapi_pokemon/pokeapi_pokemon.module           
+ ------ ------------------------------------------------- 
+  10     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  10     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

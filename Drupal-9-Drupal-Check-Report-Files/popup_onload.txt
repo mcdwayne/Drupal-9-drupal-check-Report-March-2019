@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/popup_onload 2cc9f9315960e6eea1150713a36af616caed479d
+source : http://cgit.drupalcode.org/popup_onload 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   popup_onload.module                              
+ ------ ------------------------------------------------- 
+  99     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  103    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   popup_onload_statistics/popup_onload_statistics.module  
+ ------ -------------------------------------------------------- 
+  27     Call to deprecated function db_delete().                
+  111    Call to deprecated function db_select().                
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PopupOnLoadForm.php                       
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/PopupOnLoadListBuilder.php                                       
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\popup_onload\PopupOnLoadListBuilder.                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

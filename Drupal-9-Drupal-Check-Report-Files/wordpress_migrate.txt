@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wordpress_migrate b17a7f8dd7fe41cd1a681bc28f1b068b07535777
+source : http://cgit.drupalcode.org/wordpress_migrate 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   wordpress_migrate_ui/src/Form/ContentSelectForm.php  
+ ------ ----------------------------------------------------- 
+  35     Call to deprecated function node_type_get_types().   
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   wordpress_migrate_ui/src/Form/SourceSelectForm.php  
+ ------ ---------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   wordpress_migrate_ui/src/Wizard/ImportWizard.php                      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal

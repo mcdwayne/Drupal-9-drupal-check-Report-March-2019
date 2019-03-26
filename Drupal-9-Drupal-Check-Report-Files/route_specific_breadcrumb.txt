@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/route_specific_breadcrumb 4ab1364af654e1d83b183819514d881747ca5765
+source : http://cgit.drupalcode.org/route_specific_breadcrumb 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RouteSpecificBreadcrumbDeleteForm.php     
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RouteSpecificForm.php                     
+ ------ --------------------------------------------------- 
+  257    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,66 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/notify 844f0f424074ea88931350b0f7e90d90f505e556
+source : http://cgit.drupalcode.org/notify 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   notify.module                                
+ ------ --------------------------------------------- 
+  263    Call to deprecated function db_or().         
+  264    Call to deprecated function db_and().        
+  267    Call to deprecated function db_and().        
+  315    Call to deprecated function db_or().         
+  316    Call to deprecated function db_and().        
+  319    Call to deprecated function db_and().        
+  506    Call to deprecated function comment_view().  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DefaultForm.php                           
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QueueForm.php                             
+ ------ --------------------------------------------------- 
+  204    Call to deprecated function drupal_set_message().  
+  210    Call to deprecated function drupal_set_message().  
+  217    Call to deprecated function drupal_set_message().  
+  228    Call to deprecated function drupal_set_message().  
+  237    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated function drupal_set_message().  
+  280    Call to deprecated function drupal_set_message().  
+  293    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  175    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SkipForm.php                              
+ ------ --------------------------------------------------- 
+  187    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserSettings.php                          
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  263    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UsersForm.php                             
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+  152    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

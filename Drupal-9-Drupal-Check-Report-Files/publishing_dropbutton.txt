@@ -1,0 +1,70 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/publishing_dropbutton e95a7c332ec417a12e891da2ba42de5f8d3c6538
+source : http://cgit.drupalcode.org/publishing_dropbutton 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/ModerationFormTest.php          
+ ------ ----------------------------------------------------- 
+  63     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  64     Call to deprecated method assertField() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  69     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  79     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  80     Call to deprecated method assertField() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  85     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  95     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  96     Call to deprecated method assertNoField() of class   
+         Drupal\Tests\BrowserTestBase.                        
+  101    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  111    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  112    Call to deprecated method assertNoField() of class   
+         Drupal\Tests\BrowserTestBase.                        
+  117    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  118    Call to deprecated method assertField() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  119    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  129    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  149    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  157    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  165    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  166    Call to deprecated method assertNoText() of class    
+         Drupal\Tests\BrowserTestBase.                        
+  171    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  179    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  180    Call to deprecated method assertNoText() of class    
+         Drupal\Tests\BrowserTestBase.                        
+  185    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  186    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  196    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/NodeFormButtonsTest.php                
+ ------ ------------------------------------------------------------ 
+  128    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

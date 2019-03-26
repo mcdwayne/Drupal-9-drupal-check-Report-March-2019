@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_system 747362c1b2b70de3cc0a764e663a01e1457e0cb6
+source : http://cgit.drupalcode.org/views_system 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/views/field/ViewsSystemDependencies.php  
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated function db_query().             
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/views/field/ViewsSystemRequiredBy.php  
+ ------ -------------------------------------------------- 
+  33     Call to deprecated function db_query().           
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/views/field/ViewsSystemRequires.php  
+ ------ ------------------------------------------------ 
+  34     Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   views_system.module                       
+ ------ ------------------------------------------ 
+  72     Call to deprecated function db_query().   
+  103    Call to deprecated function db_insert().  
+  115    Call to deprecated function db_query().   
+  158    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

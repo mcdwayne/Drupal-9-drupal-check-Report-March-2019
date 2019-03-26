@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/saml_idp b218f0b2c508453639489b837d7d2f7e3824b49e
+source : http://cgit.drupalcode.org/saml_idp 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Auth/Source/External.php                               
+ ------ ----------------------------------------------------------- 
+  59     Call to deprecated method prepareLegacyRequest() of class  
+         Drupal\Core\DrupalKernel.                                  
+  93     Call to deprecated method getUsername() of class           
+         Drupal\Core\Session\AccountInterface.                      
+  97     Call to deprecated method getUsername() of class           
+         Drupal\Core\Session\AccountInterface.                      
+ ------ ----------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Install.php                                                     
+ ------ -------------------------------------------------------------------- 
+  11     SimpleSAMLrror\CriticalConfigurationError (The configuration      
+         (config/config.php) is invalid: Missing configuration file) thrown  
+         while autoloading class SimpleSAML_Configuration.                   
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

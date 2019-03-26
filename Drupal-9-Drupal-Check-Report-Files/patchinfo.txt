@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/patchinfo 838db250c59d79a577311beb1153e67637f7ad54
+source : http://git.drupal.org/project/patchinfo.git 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/patchinfo_source_composer/src/Plugin/PatchInfo/Source/ComposerJsonSource.php  
+ ------ -------------------------------------------------------------------------------------- 
+         Class                                                                                 
+         Drupal\patchinfo_source_composer\Plugin\patchinfo\source\ComposerJsonSo               
+         urce was not found while trying to analyse it - autoloading is probably               
+         not configured properly.                                                              
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/patchinfo_source_info/src/Plugin/PatchInfo/Source/InfoYmlSource.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class                                                                        
+         Drupal\patchinfo_source_info\Plugin\patchinfo\source\InfoYmlSource was       
+         not found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                         
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   patchinfo.module                          
+ ------ ------------------------------------------ 
+  164    Call to deprecated function db_delete().  
+  213    Call to deprecated function db_select().  
+  293    Call to deprecated function db_merge().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

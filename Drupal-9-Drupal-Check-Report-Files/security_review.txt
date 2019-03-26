@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/security_review 9b8a34a21cac85913845df4eebb9a05c69de82d8
+source : http://cgit.drupalcode.org/security_review 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   security_review.module                             
+ ------ --------------------------------------------------- 
+  214    Call to deprecated function drupal_set_message().  
+  227    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ChecklistController.php             
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Controller/HelpController.php                                     
+ ------ ---------------------------------------------------------------------- 
+  165    Call to deprecated method link() of class Drupal\Corentityntity.  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ToggleController.php                
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,202 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/og 5729c4df2087c143553bea4ffc84361db0a29f38
+source : https://cgit.drupalcode.org/og 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   og_ui/tests/src/Functional/BundleFormAlterTest.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\og_ui\Tests\BundleFormAlterTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/OgRouteGroupResolverBase.php                   
+ ------ --------------------------------------------------- 
+  122    Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/views/field/OgMembershipBulkForm.php                  
+ ------ ----------------------------------------------------------------- 
+  14     Class Drupal\og\Pluginiewsield\OgMembershipBulkForm extends  
+         deprecated class Drupal\system\Pluginiewsield\BulkForm.      
+  22     Call to method viewsForm() of deprecated class                   
+         Drupaliews\Pluginiewsield\BulkForm.                        
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/GroupTabTest.php                
+ ------ ----------------------------------------------------- 
+  97     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  100    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/OgComplexWidgetTest.php                             
+ ------ ------------------------------------------------------------------------- 
+  19     Class Drupal\Tests\og\Functional\OgComplexWidgetTest extends deprecated  
+         class Drupal\simpletest\BrowserTestBase.                                 
+  21     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\og\Functional\OgComplexWidgetTest.                    
+  22     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\og\Functional\OgComplexWidgetTest.                          
+  33     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Entity/EntityCreateAccessTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  24     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\og\KernelntityntityCreateAccessTest.              
+  25     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\og\KernelntityntityCreateAccessTest.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EntityReference/Views/OgStandardReferenceRelationshipTest.php  
+ ------ -------------------------------------------------------------------------------- 
+  86     Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  92     Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  99     Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  100    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  101    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  102    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  103    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  107    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  108    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  109    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  110    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  111    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  112    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  113    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  116    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  124    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  127    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  130    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  133    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  134    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  143    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  144    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  147    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  150    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  151    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  169    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  175    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  182    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  183    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  184    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  185    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  186    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  190    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  191    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  192    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  193    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  194    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  195    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  196    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  199    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  207    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  210    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  213    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  216    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  217    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  226    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  227    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  230    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  233    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+  234    Call to deprecated method assertEqual() of class                                
+         Drupal\KernelTests\KernelTestBase.                                              
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/Form/GroupSubscribeFormTest.php            
+ ------ ------------------------------------------------------------ 
+  141    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/Views/OgAdminMembersViewTest.php                       
+ ------ ------------------------------------------------------------------------ 
+  19     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\og\Kernel\Views\OgAdminMembersViewTest.                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Unit/GroupSubscribeFormatterTest.php     
+ ------ --------------------------------------------------- 
+  168    Fetching class constant class of deprecated class  
+         Drupal\CorentityntityManagerInterface.         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Unit/OgAccessTestBase.php                
+ ------ --------------------------------------------------- 
+  137    Fetching class constant class of deprecated class  
+         Drupal\CorentityntityManagerInterface.         
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Plugin/OgGroupResolver/OgRouteGroupResolverTestBase.php  
+ ------ ------------------------------------------------------------------------ 
+  182    Call to deprecated method isSubclassOf() of class                       
+         Drupal\CorentityntityTypeInterface.                                 
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 67 errors                                                         
+
+ </code>

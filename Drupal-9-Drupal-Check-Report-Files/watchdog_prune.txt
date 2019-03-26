@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/watchdog_prune 147e19b0091fa77c83e6fc599ed601c2aaa08268
+source : http://cgit.drupalcode.org/watchdog_prune 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WatchdogPruneSettings.php                 
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function db_query().            
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   watchdog_prune.module                     
+ ------ ------------------------------------------ 
+  38     Call to deprecated function db_delete().  
+  62     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

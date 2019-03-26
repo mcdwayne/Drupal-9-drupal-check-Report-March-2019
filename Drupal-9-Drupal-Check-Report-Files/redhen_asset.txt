@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/redhen_asset 90016fff120777f76727f142bb45cd02c4e4b0a7
+source : http://cgit.drupalcode.org/redhen_asset 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/AssetListBuilder.php                                             
+ ------ --------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupaledhen_asset\AssetListBuilder.                          
+  38     Call to deprecated method link() of class                            
+         Drupal\CorentityntityInterface.                                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/AssetAddController.php   
+ ------ ---------------------------------------- 
+  61     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssetForm.php                             
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssetTypeDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AssetTypeForm.php                         
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

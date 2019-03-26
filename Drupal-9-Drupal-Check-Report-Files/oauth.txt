@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/oauth 8.x-2.1
+source : http://cgit.drupalcode.org/oauth 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OAuthAddConsumerForm.php                  
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OAuthDeleteConsumerForm.php               
+ ------ --------------------------------------------------- 
+  149    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/OAuthTest.php                       
+ ------ ---------------------------------------------- 
+  100    Call to deprecated function entity_create().  
+  118    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

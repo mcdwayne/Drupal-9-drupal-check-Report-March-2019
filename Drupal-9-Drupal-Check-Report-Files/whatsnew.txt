@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/whatsnew acbd019e17f0a79c3a349ddc8e511160008a78a0
+source : http://cgit.drupalcode.org/whatsnew 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   whatsnew_dashboard/src/Controller/WhatsnewDashboardController.php  
+ ------ ------------------------------------------------------------------- 
+  185    Syntax error, unexpected '[', expecting '(' on line 185            
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   whatsnew_dashboard/src/Form/ReportForm.php                             
+ ------ ----------------------------------------------------------------------- 
+         ParseError (syntax error, unexpected '[', expecting '(') thrown while  
+         autoloading class                                                      
+         Drupal\whatsnew_dashboard\Controller\WhatsnewDashboardController.      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   whatsnew_dashboard/src/Form/SiteDeleteForm.php     
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   whatsnew_dashboard/src/Form/SiteForm.php           
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,72 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/new_relic_rpm 78987dbed07d92a19730af681c9416184ceafea3
+source : http://cgit.drupalcode.org/new_relic_rpm 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   new_relic_rpm.reports.inc                          
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DefaultController.php               
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function drupal_set_message().  
+  38     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/NewRelicRpmDeploy.php                     
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/RouteEnhancer/TransactionNameEnhancer.php                     
+ ------ ------------------------------------------------------------------ 
+  13     Class Drupal
+ew_relic_rpm\RouteEnhancer\TransactionNameEnhancer  
+         implements deprecated interface                                   
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.              
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/Unit/EventListener/RoutingTransactionNameSubscriberTest.php        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests
+ew_relic_rpm\UnitventListener\RoutingTransactionNameSub  
+         scriberTest was not found while trying to analyse it - autoloading is    
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/Unit/Logger/NewRelicLoggerTest.php                            
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\Tests
+ew_relic_rpm\Logger\NewRelicLoggerTest was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/Unit/RouteEnhancer/TransactionNameEnhancerTest.php                
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests
+ew_relic_rpm\RouteEnhancer\TransactionNameEnhancerTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

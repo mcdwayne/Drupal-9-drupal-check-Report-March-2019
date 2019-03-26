@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/scheduled_executable 1886368c7f5e6025e83f0865b142ff5d49d0e768
+source : http://cgit.drupalcode.org/scheduled_executable 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/ExecutionQueueTest.php       
+ ------ ---------------------------------------------- 
+  87     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  116    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/ResolverTest.php             
+ ------ ---------------------------------------------- 
+  117    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

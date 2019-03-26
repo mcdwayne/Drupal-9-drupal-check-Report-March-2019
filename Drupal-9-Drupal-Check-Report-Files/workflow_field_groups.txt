@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workflow_field_groups 0fff82bb6f1a1d67dbf1a9fd1878167190817b68
+source : http://cgit.drupalcode.org/workflow_field_groups 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowFieldGroupsForm.php               
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+  179    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowFieldGroupsSettings.php           
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   workflow_field_groups.module                                
+ ------ ------------------------------------------------------------ 
+  38     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

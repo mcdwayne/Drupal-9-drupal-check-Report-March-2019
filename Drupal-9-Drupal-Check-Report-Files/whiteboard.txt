@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/whiteboard 3672b56429890b94b4b5ccaed2db70e9302c5315
+source : http://cgit.drupalcode.org/whiteboard 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WhiteboardCrudForm.php                    
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/WhiteboardItem.php  
+ ------ ----------------------------------------------- 
+  100    Call to deprecated function db_find_tables().  
+  103    Call to deprecated function db_query().        
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Whiteboard.php                             
+ ------ ----------------------------------------------- 
+  35     Call to deprecated function db_query().        
+  97     Call to deprecated function db_transaction().  
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

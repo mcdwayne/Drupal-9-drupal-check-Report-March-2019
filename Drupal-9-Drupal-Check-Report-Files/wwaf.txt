@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/wwaf 8.x-1.0-beta5
+source : http://cgit.drupalcode.org/wwaf 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   modules/wwaf_import/src/Form/ImportForm.php        
+ ------ --------------------------------------------------- 
+  188    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function drupal_set_message().  
+  194    Call to deprecated function drupal_set_message().  
+  198    Call to deprecated function drupal_set_message().  
+  205    Call to deprecated function drupal_set_message().  
+  209    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/WWAFController.php                           
+ ------ ------------------------------------------------------------ 
+  288    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WWAFEntityForm.php                        
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/WWAFEntityListBuilder.php              
+ ------ ------------------------------------------- 
+  51     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/searchindex_wipe af6004bdf9005db2f849631ba983ea2b7abd651c
+source : http://cgit.drupalcode.org/searchindex_wipe 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   searchindex_wipe.module                            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function db_truncate().         
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/SearchindexWipeConfirm.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\searchindex_wipe\Form\SearchIndexWipeConfirm was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

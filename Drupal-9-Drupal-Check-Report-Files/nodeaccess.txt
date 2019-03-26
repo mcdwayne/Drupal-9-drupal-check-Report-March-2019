@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/nodeaccess 20711ca6810f94f9c1cab92c1e98b5625b28bbcf
+source : http://cgit.drupalcode.org/nodeaccess 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GrantsForm.php                            
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function db_query().            
+  69     Call to deprecated function db_query().            
+  99     Call to deprecated function db_query().            
+  333    Call to deprecated function db_insert().           
+  345    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

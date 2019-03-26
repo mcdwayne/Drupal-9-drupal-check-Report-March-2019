@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quora 10897412524e23f847b4c13199cd04f47f7d0ff1
+source : http://cgit.drupalcode.org/quora 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   quora.module                                       
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/QuoraDataProcess.php                           
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

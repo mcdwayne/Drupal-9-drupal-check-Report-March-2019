@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/newsletter_digest ca834db0e18ac2023f72e4f0b873682d1426725d
+source : http://cgit.drupalcode.org/newsletter_digest 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/AddSubscriberForm.php                      
+ ------ ---------------------------------------------------- 
+  80     Call to deprecated function valid_email_address().  
+  104    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendmailForm.php                          
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

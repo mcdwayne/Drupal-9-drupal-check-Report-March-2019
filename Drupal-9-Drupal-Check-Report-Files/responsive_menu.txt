@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/responsive_menu 2dd520f2d34cc2b56ee678ce533be7538df064cc
+source : https://cgit.drupalcode.org/responsive_menu 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   responsive_menu.module                                      
+ ------ ------------------------------------------------------------ 
+  359    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/SettingsForm.php                                   
+ ------ ------------------------------------------------------------ 
+  96     Call to deprecated method l() of class Drupal.              
+  189    Call to deprecated method l() of class Drupal.              
+  224    Call to deprecated method l() of class Drupal.              
+  232    Call to deprecated method l() of class Drupal.              
+  248    Call to deprecated method l() of class Drupal.              
+  343    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/am_email_login 45b71918a33a49cff2b98976c3a506855fd36174
+source : http://cgit.drupalcode.org/am_email_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   am_registration.module                             
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EmailLoginController.php            
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  53     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SendLinkController.php              
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RegistrationForm.php                      
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  141    Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/private_content da2993dd71f600dad5caf63e8de3ad45a72824de
+source : http://cgit.drupalcode.org/private_content 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   private_handler_filter_private.inc                                  
+ ------ -------------------------------------------------------------------- 
+         Class private_handler_filter_private was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Tests/PrivateTest.php                 
+ ------ ------------------------------------------ 
+  75     Call to deprecated function db_query().   
+  77     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

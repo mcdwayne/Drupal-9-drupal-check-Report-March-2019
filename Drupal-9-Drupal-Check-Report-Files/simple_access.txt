@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simple_access 7c1bb11c217cb5cd9403b5f1d3b705688d8dabb7
+source : http://cgit.drupalcode.org/simple_access 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   simple_access.module                                              
+ ------ ------------------------------------------------------------------ 
+  479    Call to deprecated function simple_access_group_select().         
+  637    Call to deprecated function simple_access_group_select().         
+  719    Call to deprecated function simple_access_group_select().         
+  791    Call to deprecated function simple_access_get_profiles_select().  
+  829    Call to deprecated function simple_access_get_profiles_select().  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/views/access/SimpleAccessViewsAccess.php                    
+ ------ ---------------------------------------------------------------- 
+  34     Call to deprecated function simple_access_groups_from_roles().  
+  64     Call to deprecated function simple_access_get_groups().         
+  83     Call to deprecated function simple_access_get_groups().         
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

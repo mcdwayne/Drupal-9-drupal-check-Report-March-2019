@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/regex_redirect 3d8ee2f50dd87a143621c2530db48a6037f8497e
+source : http://cgit.drupalcode.org/regex_redirect 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/RegexRedirectForm.php            
+ ------ ------------------------------------------ 
+  266    Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/RegexRedirectSourceWidget.php           
+ ------ --------------------------------------------------------------------- 
+  148    Call to deprecated method url() of class Drupal\Corentityntity.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

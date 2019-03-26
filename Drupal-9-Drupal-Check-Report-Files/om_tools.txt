@@ -1,0 +1,62 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/om_tools 686b94be72eba46e94ce784b6783fb5890f54d02
+source : http://cgit.drupalcode.org/om_tools 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   inc/om_tools.admin.inc                             
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated function drupal_set_message().  
+  227    Call to deprecated function drupal_set_message().  
+  235    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated function drupal_set_message().  
+  244    Call to deprecated function drupal_set_message().  
+  249    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   inc/om_tools.utils.inc                             
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tools/block/block.inc                              
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function db_query().            
+  76     Call to deprecated function db_query().            
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tools/menu/menu.inc                                
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function db_query().            
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tools/node/node.inc                                 
+ ------ ---------------------------------------------------- 
+  125    Call to deprecated function node_load().            
+  154    Call to deprecated function db_select().            
+  275    Call to deprecated function node_type_get_types().  
+  295    Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tools/user/user.inc                           
+ ------ ---------------------------------------------- 
+  390    Call to deprecated function drupal_render().  
+  393    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

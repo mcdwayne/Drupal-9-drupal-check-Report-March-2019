@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sendinblue 0d7ec7f8465cf877a3369e6d5549f05b698b8bea
+source : http://cgit.drupalcode.org/sendinblue 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   sendinblue.module                                  
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SignupForm.php                            
+ ------ --------------------------------------------------- 
+  387    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscribeForm.php                         
+ ------ --------------------------------------------------- 
+  232    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/projects_stats 9461689daa871a0103421564394f203d2a63b3e1
+source : http://cgit.drupalcode.org/projects_stats 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/ProjectsStatsBlock.php            
+ ------ --------------------------------------------------- 
+  411    Call to deprecated function drupal_set_message().  
+  443    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ProjectsStatsSlackService.php                  
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

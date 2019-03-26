@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/node_clone 41a4050c1dca8851bba5136ee6e4a3b105fb4777
+source : http://cgit.drupalcode.org/node_clone 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   node_clone.module                                           
+ ------ ------------------------------------------------------------ 
+  45     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  112    Call to deprecated method entityManager() of class Drupal.  
+  195    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   node_clone.pages.inc                                        
+ ------ ------------------------------------------------------------ 
+  216    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/views_handler_field_node_link_clone.php                          
+ ------ --------------------------------------------------------------------- 
+         Class Drupal
+ode_cloneiews_handler_field_node_link not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

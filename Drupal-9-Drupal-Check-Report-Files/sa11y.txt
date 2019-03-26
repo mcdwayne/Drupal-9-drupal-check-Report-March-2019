@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sa11y b4b0b41acea96415ae42d3c148e49cab6898b16a
+source : http://cgit.drupalcode.org/sa11y 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Sa11yCreateForm.php                       
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Sa11yNodeForm.php                         
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Sa11yReportCancelForm.php                 
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

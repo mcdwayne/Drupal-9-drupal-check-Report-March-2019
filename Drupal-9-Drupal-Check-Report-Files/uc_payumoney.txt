@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_payumoney 8.x-3.0
+source : http://cgit.drupalcode.org/uc_payumoney 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   Rc43.inc                                                                
+ ------ ------------------------------------------------------------------------ 
+         Class Crypt_RC4 was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/PayuMoneyController.php                      
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

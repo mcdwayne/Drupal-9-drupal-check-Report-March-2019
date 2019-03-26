@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pbf 23fca253bfb95ffd71a0d1c7189b3523717355ef
+source : http://cgit.drupalcode.org/pbf 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/Pbf.php                          
+ ------ ------------------------------------------------------------ 
+  110    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/PbfTestBase.php                                             
+ ------ ---------------------------------------------------------------------- 
+  23     Usage of deprecated trait Drupal	axonomy\Tests\TaxonomyTestTrait in  
+         class Drupal\pbf\Tests\PbfTestBase.                                   
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

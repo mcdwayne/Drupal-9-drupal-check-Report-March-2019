@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/perfmon a82c6e4ab8d1b09f8bf07f5daa886d9712c630b6
+source : http://cgit.drupalcode.org/perfmon 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   perfmon.module                                     
+ ------ --------------------------------------------------- 
+  229    Call to deprecated function db_insert().           
+  247    Call to deprecated function db_truncate().         
+  254    Call to deprecated function db_select().           
+  272    Call to deprecated function db_truncate().         
+  290    Call to deprecated function db_truncate().         
+  297    Call to deprecated function db_update().           
+  329    Call to deprecated function db_query().            
+  339    Call to deprecated function db_query().            
+  574    Call to deprecated function db_query().            
+  610    Call to deprecated function db_select().           
+  636    Call to deprecated function db_delete().           
+  689    Call to deprecated function drupal_set_message().  
+  695    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

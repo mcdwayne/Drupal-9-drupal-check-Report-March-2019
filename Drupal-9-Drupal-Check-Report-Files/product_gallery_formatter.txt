@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/product_gallery_formatter 3ec3c918c4cf30d10cb193f268944d42d264bdee
+source : http://cgit.drupalcode.org/product_gallery_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   product_gallery_formatter.module          
+ ------ ------------------------------------------ 
+  80     Call to deprecated function db_select().  
+  98     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ProductGallery.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\product_gallery\Plugin\Field\FieldFormatter\ProductGallery  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

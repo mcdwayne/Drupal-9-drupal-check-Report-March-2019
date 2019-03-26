@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/views_entity_embed bf6fdb118dde77278ee656acea6a3cfb759e6e0f
+source : http://cgit.drupalcode.org/views_entity_embed 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/ViewsEmbedDialog.php                
+ ------ --------------------------------------------- 
+  450    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

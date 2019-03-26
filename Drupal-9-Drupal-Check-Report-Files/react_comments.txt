@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/react_comments c60dc6b6cab8f9d595294b9f89a739d21920262c
+source : http://cgit.drupalcode.org/react_comments 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   react_comments.module                     
+ ------ ------------------------------------------ 
+  35     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Model/Comment.php                           
+ ------ ------------------------------------------------ 
+  100    Call to deprecated method getStatus() of class  
+         Drupal

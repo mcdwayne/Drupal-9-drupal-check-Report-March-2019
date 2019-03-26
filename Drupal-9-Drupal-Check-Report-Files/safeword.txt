@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/safeword 1403bcca56c8c3a274734eb5294dfe4fceca5b23
+source : http://cgit.drupalcode.org/safeword 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   plugins/arguments/entity_by_safeword.inc    
+ ------ -------------------------------------------- 
+  58     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   safeword.migrate.inc                                                     
+ ------ ------------------------------------------------------------------------- 
+         Class MigrateSafewordFieldHandler was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   safeword_context/safeword_context_condition.inc                         
+ ------ ------------------------------------------------------------------------ 
+         Class safeword_context_condition was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

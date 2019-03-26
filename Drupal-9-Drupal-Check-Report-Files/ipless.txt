@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ipless 264bab506d7dbd29bade6cdaed6e27e8e9504da4
+source : http://cgit.drupalcode.org/ipless 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Asset/AssetResolver.php                                
+ ------ ----------------------------------------------------------- 
+  104    Call to deprecated method getStyleSheetsRemove() of class  
+         Drupal\Core\Theme\ActiveTheme.                             
+ ------ ----------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Ipless.php                                     
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/panopoly_media df7b692dcf878d2b1962a61a2160dc19446cb526
+source : http://cgit.drupalcode.org/panopoly_media 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileDeleteMultiple.php                    
+ ------ --------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/MediaVideoAdd.php       
+ ------ -------------------------------------------------------- 
+  37     Call to deprecated function entity_get_form_display().  
+  49     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/FileBulkForm.php                              
+ ------ --------------------------------------------------------------------- 
+  12     Class Drupal\panopoly_media\Pluginiewsield\FileBulkForm extends  
+         deprecated class Drupal\system\Pluginiewsield\BulkForm.          
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/webform_score b105444725c494f6304fe3f6ff8d67f155121d98
+source : http://cgit.drupalcode.org/webform_score 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/WebformScore/Contains.php             
+ ------ ------------------------------------------------- 
+  36     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  37     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  40     Call to deprecated method strpos() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

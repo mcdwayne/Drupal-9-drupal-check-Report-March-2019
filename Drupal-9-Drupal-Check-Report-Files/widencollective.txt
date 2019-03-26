@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/widencollective 8.x-1.0
+source : http://cgit.drupalcode.org/widencollective 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/WidencollectiveAuthController.php   
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdminForm.php                             
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/WidencollectiveAuthService.php                 
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

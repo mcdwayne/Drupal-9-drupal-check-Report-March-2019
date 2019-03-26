@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pdf_using_mpdf8 ecde9424b5405625002069e2d1e534120f5ad24c
+source : http://cgit.drupalcode.org/pdf_using_mpdf8 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Conversion/ConvertToPdf.php                     
+ ------ ---------------------------------------------------- 
+  82     Call to deprecated function drupal_get_messages().  
+  83     Call to deprecated function drupal_set_message().   
+  211    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

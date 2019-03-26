@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/workflow_task 7e9d37e1811363b130b6bd1466dd10a6c2d1ff3e
+source : http://cgit.drupalcode.org/workflow_task 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/WorkflowTaskController.php           
+ ------ ---------------------------------------------------- 
+  53     Call to deprecated function format_date().          
+  74     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  108    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowTaskForm.php                      
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowTaskRevisionDeleteForm.php        
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowTaskRevisionRevertForm.php        
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowTaskTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WorkflowTaskTypeForm.php                  
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

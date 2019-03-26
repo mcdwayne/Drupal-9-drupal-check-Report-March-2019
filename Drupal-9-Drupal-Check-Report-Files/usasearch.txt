@@ -1,0 +1,57 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/USASearch 68bfc5289a7698565499be3c080901aa4e1f5250
+source : http://cgit.drupalcode.org/usasearch 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Command/DeleteCommand.php                                    
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\Console\Command\Command not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/ConfigForm.php                                     
+ ------ ------------------------------------------------------------ 
+  177    Call to deprecated method url() of class Drupal.            
+  221    Call to deprecated function drupal_set_message().           
+  264    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ReindexConfirm.php                        
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/IndependenceDayApi.php                         
+ ------ --------------------------------------------------- 
+  203    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/AddToIndex.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/UpdateIndex.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/UsaSearchDocument.php                                   
+ ------ ------------------------------------------------------------ 
+  89     Call to deprecated method entityManager() of class Drupal.  
+  91     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

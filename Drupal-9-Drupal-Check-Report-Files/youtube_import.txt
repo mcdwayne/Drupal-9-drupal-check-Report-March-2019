@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/youtube_import 23dca01a87bc0e7a795d80b348abd3a1250dd84e
+source : http://cgit.drupalcode.org/youtube_import 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/YoutubeImportForm.php                              
+ ------ ------------------------------------------------------------ 
+  95     Call to deprecated method l() of class Drupal.              
+  98     Call to deprecated function format_date().                  
+  133    Call to deprecated method entityManager() of class Drupal.  
+  271    Call to deprecated function drupal_set_message().           
+  274    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   youtube_import.module                                       
+ ------ ------------------------------------------------------------ 
+  29     Call to deprecated function db_query().                     
+  86     Call to deprecated function db_merge().                     
+  153    Call to deprecated function drupal_set_message().           
+  167    Call to deprecated function drupal_set_message().           
+  204    Call to deprecated method entityManager() of class Drupal.  
+  302    Call to deprecated function drupal_set_message().           
+  313    Call to deprecated function drupal_set_message().           
+  352    Call to deprecated method entityManager() of class Drupal.  
+  376    Call to deprecated function db_select().                    
+  384    Call to deprecated function node_load().                    
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

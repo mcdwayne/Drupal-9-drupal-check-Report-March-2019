@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contact_link a60f09be71b3065fe716bde5303daa844ca2512e
+source : http://cgit.drupalcode.org/contact_link 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/DsField/ContactTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  19     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  20     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

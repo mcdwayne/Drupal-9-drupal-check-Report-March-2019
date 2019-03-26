@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/paragraphs_type_help 44450fb838276a4bd4da61f43958fa4cde7f6ce3
+source : http://cgit.drupalcode.org/paragraphs_type_help 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   paragraphs_type_help.module                 
+ ------ -------------------------------------------- 
+  205    Call to deprecated function entity_view().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/ParagraphsTypeHelp.php                           
+ ------ ------------------------------------------------------------ 
+  355    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   src/ParagraphsTypeHelpListBuilder.php       
+ ------ -------------------------------------------- 
+  51     Call to deprecated function entity_view().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Menu/LocalAction/ParagraphsTypeHelpAddLocalAction.php         
+ ------ ------------------------------------------------------------------------- 
+  13     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in       
+         class                                                                    
+         Drupal\paragraphs_type_help\Plugin\Menu\LocalAction\ParagraphsTypeHelpA  
+         ddLocalAction.                                                           
+  23     Call to deprecated method url() of class                                 
+         Drupal\paragraphs_type_help\Plugin\Menu\LocalAction\ParagraphsTypeHelpA  
+         ddLocalAction.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

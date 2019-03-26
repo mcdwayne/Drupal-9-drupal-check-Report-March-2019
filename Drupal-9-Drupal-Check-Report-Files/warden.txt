@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/warden 2ac7b4e0086d1de473b64ff289b63aeae3e9abe8
+source : https://drupal.org/project/warden 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DefaultController.php               
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/WardenManagerTest.php                             
+ ------ ------------------------------------------------------------------------- 
+  43     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  61     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  62     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  108    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

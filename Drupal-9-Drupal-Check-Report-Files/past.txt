@@ -1,0 +1,378 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/past 3b3b0fc7b355aed58a073eabfa7f521003247035
+source : http://cgit.drupalcode.org/past 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   modules/past_db/src/Entity/PastEvent.php        
+ ------ ------------------------------------------------ 
+  600    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   modules/past_db/src/EventTypeListBuilder.php   
+ ------ ----------------------------------------------- 
+  27     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   modules/past_db/src/PastEventArgument.php  
+ ------ ------------------------------------------- 
+  46     Call to deprecated function db_select().   
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   modules/past_db/src/PastEventViewBuilder.php    
+ ------ ------------------------------------------------ 
+  33     Call to deprecated method l() of class Drupal.  
+  38     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/past_db/src/Tests/PastDBTest.php           
+ ------ --------------------------------------------------- 
+  177    Call to deprecated function entity_create().       
+  221    Call to deprecated function entity_create().       
+  225    Call to deprecated function entity_load().         
+  461    Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/past_db/tests/src/Kernel/PastDBCrudTest.php    
+ ------ ------------------------------------------------------- 
+  62     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  63     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  75     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  76     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  77     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  79     Call to deprecated method assertIdentical() of class   
+         Drupal\KernelTests\KernelTestBase.                     
+  81     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  83     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  96     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  97     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  98     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  99     Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  100    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  101    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  102    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  103    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  115    Call to deprecated function entity_delete_multiple().  
+  118    Call to deprecated function entity_load_unchanged().   
+  119    Call to deprecated function entity_load_unchanged().   
+  122    Call to deprecated function db_query().                
+  123    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  124    Call to deprecated function db_query().                
+  125    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  128    Call to deprecated function db_query().                
+  129    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  130    Call to deprecated function db_query().                
+  131    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  134    Call to deprecated function entity_delete_multiple().  
+  137    Call to deprecated function db_query().                
+  138    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  141    Call to deprecated function db_query().                
+  142    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  162    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  198    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  257    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  263    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+  270    Call to deprecated method assertEqual() of class       
+         Drupal\KernelTests\KernelTestBase.                     
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   modules/past_form/past_form.module           
+ ------ --------------------------------------------- 
+  103    Calls to function fnmatch should not exist.  
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/past_simpletest/src/Entity/PastEventSimpletest.php            
+ ------ ---------------------------------------------------------------------- 
+         Class PastEventSimpletest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/past_simpletest/src/Entity/PastEventSimpletestArgument.php       
+ ------ ------------------------------------------------------------------------- 
+         Class PastEventSimpletestArgument was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/past_testhidden/errors/past.E_DEPRECATED.inc             
+ ------ ----------------------------------------------------------------- 
+         Class TestDeprecated was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/past_testhidden/errors/past.E_STRICT.inc                        
+ ------ ------------------------------------------------------------------------ 
+         Class Strict was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/past_testhidden/errors/past.E_STRICT_parse.inc        
+ ------ -------------------------------------------------------------- 
+         Class ParentClass was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormCustomSubmitHandler.php  
+ ------ -------------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().             
+  52     Call to deprecated function drupal_set_message().             
+  66     Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormCustomValidationOnly.php  
+ ------ --------------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().              
+  73     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormDefaultSubmitHandler.php  
+ ------ --------------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().              
+  53     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormEmptySubmitArray.php  
+ ------ ----------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().          
+  45     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormMixedSubmitHandlers.php  
+ ------ -------------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().             
+  54     Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormMultiValidation.php  
+ ------ ---------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().         
+  96     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormMultistep.php  
+ ------ ---------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().   
+  118    Call to deprecated function drupal_set_message().   
+  153    Call to deprecated function drupal_set_message().   
+  190    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormNested.php    
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormNormalButton.php  
+ ------ ------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().      
+  60     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormSimpleAjax.php  
+ ------ ----------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().    
+  63     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormThreeButtons.php  
+ ------ ------------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().      
+  60     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/past_testhidden/src/Form/FormThreeButtonsWithSubmitHandlers.php  
+ ------ ------------------------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().                        
+  64     Call to deprecated function drupal_set_message().                        
+  76     Call to deprecated function drupal_set_message().                        
+  88     Call to deprecated function drupal_set_message().                        
+  100    Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Logger/PastLogger.php                     
+ ------ ---------------------------------------------- 
+  62     Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/PastKernelTest.php                         
+ ------ ------------------------------------------------------------ 
+  52     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  53     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  54     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  60     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  61     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  62     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  71     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  72     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  73     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  74     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  75     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  76     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  77     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  81     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  86     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  87     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  88     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  89     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  90     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  91     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  92     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  102    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  103    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  104    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  109    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  111    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  117    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  120    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  138    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  143    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  155    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  161    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  167    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  175    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  176    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  185    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  186    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  195    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  196    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  206    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  207    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  217    Call to deprecated method entityManager() of class Drupal.  
+  236    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  237    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  247    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  248    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  270    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  271    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  272    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  273    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  275    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  281    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  287    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  288    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  289    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  292    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  295    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  304    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  314    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  322    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  329    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  339    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  362    Call to deprecated function entity_create().                
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 145 errors                                                        
+
+ </code>
