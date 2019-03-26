@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_upload 43c512579e5338c41cb1bf955f9ab5ecffe8529a
+source : http://cgit.drupalcode.org/media_upload 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/MediaUploadConfigurationForm.php                   
+ ------ ------------------------------------------------------------ 
+  439    Call to deprecated function drupal_set_message().           
+  488    Call to deprecated function drupal_set_message().           
+  510    Call to deprecated method entityManager() of class Drupal.  
+  539    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UploadMediaForm.php                       
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function drupal_set_message().  
+  208    Call to deprecated function drupal_set_message().  
+  214    Call to deprecated function drupal_set_message().  
+  221    Call to deprecated function drupal_set_message().  
+  226    Call to deprecated function drupal_set_message().  
+  229    Call to deprecated function drupal_set_message().  
+  234    Call to deprecated function drupal_set_message().  
+  240    Call to deprecated function drupal_set_message().  
+  245    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

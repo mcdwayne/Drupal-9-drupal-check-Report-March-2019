@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mail_verify 236e623c2678dea3cbcd740daf0487901a2e6ea6
+source : http://cgit.drupalcode.org/mail_verify 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/MailVerify.php                           
+ ------ --------------------------------------------- 
+  304    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  304    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/MailVerifyServiceProvider.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\mail_verify\MailverifyServiceProvider was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

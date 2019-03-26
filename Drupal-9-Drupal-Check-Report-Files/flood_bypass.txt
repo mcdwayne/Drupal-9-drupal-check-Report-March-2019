@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flood_bypass e19d580a09a845d88851876679159a44a1922985
+source : http://cgit.drupalcode.org/flood_bypass 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/FloodByPassService.php                         
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function db_table_exists().     
+  80     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/UserLoginFloodByPassTest.php          
+ ------ ----------------------------------------------------------- 
+  78     Call to deprecated method getUsername() of class           
+         Drupal\userntity\User.                                   
+  82     Call to deprecated method assertNoFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  85     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  85     Call to deprecated method url() of class Drupal.           
+  89     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  89     Call to deprecated method url() of class Drupal.           
+  93     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

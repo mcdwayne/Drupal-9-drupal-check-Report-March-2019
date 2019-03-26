@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mask 28aef605817879d10b5dddcb86249d2361dfd80a
+source : http://cgit.drupalcode.org/mask 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FieldWidgetPluginTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  83     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/MaskUnitTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  70     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

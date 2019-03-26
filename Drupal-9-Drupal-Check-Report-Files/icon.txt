@@ -1,0 +1,66 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/icon 2bcdf76fed404c5686e11f9cb720cfbe19dc8a3d
+source : http://cgit.drupalcode.org/icon 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   icon.module                                        
+ ------ --------------------------------------------------- 
+  445    Call to deprecated function drupal_set_message().  
+  453    Call to deprecated function drupal_set_message().  
+  474    Call to deprecated function drupal_set_message().  
+  478    Call to deprecated function drupal_set_message().  
+  494    Call to deprecated function drupal_set_message().  
+  498    Call to deprecated function drupal_set_message().  
+  640    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   includes/admin.inc                                     
+ ------ ------------------------------------------------------- 
+  63     Call to deprecated method strtolower() of class        
+         Drupal\Component\Utility\Unicode.                      
+  66     Call to deprecated function drupal_set_message().      
+  119    Call to deprecated function drupal_set_message().      
+  125    Call to deprecated function drupal_set_message().      
+  250    Call to deprecated function drupal_render_children().  
+  308    Call to deprecated function drupal_get_destination().  
+  323    Call to deprecated function drupal_set_message().      
+  353    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/import.inc                                
+ ------ --------------------------------------------------- 
+  153    Call to deprecated function drupal_set_message().  
+  156    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/icon_field/src/IconFieldWebTestBase.php                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\icon_fieldxamplesTestBase not found and could not be  
+         autoloaded.                                                          
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/icon_field/src/Tests/IconMenuTest.php                            
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\icon_field\Tests\IconFieldMenuTest was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IconBundleOverviewForm.php                
+ ------ --------------------------------------------------- 
+  76     Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  79     Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

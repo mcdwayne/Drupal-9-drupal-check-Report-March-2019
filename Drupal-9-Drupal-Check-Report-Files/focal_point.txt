@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/focal_point 1b13ef68499713d147d2a3cfc5591c75c1565bad
+source : http://cgit.drupalcode.org/focal_point 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/FocalPointPreviewController.php      
+ ------ ---------------------------------------------------- 
+  59     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  128    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

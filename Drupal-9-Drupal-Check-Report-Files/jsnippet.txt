@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jsnippet dd19145bfeeddea21b55359786751c43d2ce0882
+source : http://cgit.drupalcode.org/jsnippet 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JSnippetDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JSnippetFormBase.php                      
+ ------ --------------------------------------------------- 
+  152    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  159    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

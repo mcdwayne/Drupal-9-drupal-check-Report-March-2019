@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ip 584422e8b4625bd1aad77ad255db9aafe8d093db
+source : http://cgit.drupalcode.org/ip 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   ip.module                                      
+ ------ ----------------------------------------------- 
+  49     Call to deprecated function db_query().        
+  68     Call to deprecated function db_query().        
+  83     Call to deprecated function db_query().        
+  108    Call to deprecated function db_query_range().  
+  127    Call to deprecated function node_load().       
+  148    Call to deprecated function db_query_range().  
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Plugin/views/filter/Ip2LongFilter.php  
+ ------ ------------------------------------------- 
+  28     Call to deprecated function db_or().       
+ ------ ------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/handlers/ip_views_handler_field_user_count.inc                   
+ ------ ----------------------------------------------------------------------- 
+         Class ip_views_handler_field_user_count was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

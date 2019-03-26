@@ -1,0 +1,109 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message 2c11c64df5247807f9559ccb27fcd0d46520e15b
+source : http://cgit.drupalcode.org/message 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   message.module                                
+ ------ ---------------------------------------------- 
+  195    Call to deprecated function drupal_render().  
+  197    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/message_example/message_example.tokens.inc  
+ ------ ---------------------------------------------------- 
+  92     Call to deprecated method url() of class            
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/MessageTemplateListBuilder.php             
+ ------ ----------------------------------------------- 
+  33     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MessageViewBuilder.php                         
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Views/wizard/Message.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\message\Pluginiews\wizard\Message was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/migrate/process/MessageTemplateProcessText.php   
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/MessageCreateTest.php        
+ ------ -------------------------------------------------- 
+  46     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/MessageCron.php              
+ ------ -------------------------------------------------- 
+  70     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  129    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  179    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  180    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Functional/MessageEntityDelete.php  
+ ------ ---------------------------------------------- 
+  58     Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/MessageTemplateCrudTest.php  
+ ------ -------------------------------------------------- 
+  36     Call to deprecated function format_string().      
+  36     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  47     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/MessageTemplateListTest.php     
+ ------ ----------------------------------------------------- 
+  27     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MessageTemplateUiTest.php                           
+ ------ ------------------------------------------------------------------------- 
+  61     Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  145    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  173    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/MessageTextHandlerTest.php  
+ ------ ------------------------------------------------- 
+  47     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

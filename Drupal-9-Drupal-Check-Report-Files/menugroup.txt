@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menugroup 48c17e5228305583b756d3c2c6bd84e1632224f9
+source : http://cgit.drupalcode.org/menugroup 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   menugroup.module                            
+ ------ -------------------------------------------- 
+  29     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/MenugroupController.php      
+ ------ -------------------------------------------- 
+  102    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/menugroupform.php                                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\menugroup\Form\Menugroupform was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/GroupContentEnabler/menugroup.php                         
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\menugroup\Plugin\GroupContentEnabler\Menugroup was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/GroupContentEnabler/menugroupDeriver.php                     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\menugroup\Plugin\GroupContentEnabler\MenugroupDeriver was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

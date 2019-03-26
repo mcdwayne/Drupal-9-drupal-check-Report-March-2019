@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/maxlength 3235f5ca1a7532b29612b027f02f949bde2bbe5f
+source : http://cgit.drupalcode.org/maxlength 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MaxlengthCustomWidgetTest.php           
+ ------ ----------------------------------------------------------------------- 
+  13     Class                                                                  
+         Drupal\Tests\maxlength\FunctionalJavascript\MaxlengthCustomWidgetTest  
+         extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                   
+  30     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MaxlengthJavascriptTest.php           
+ ------ --------------------------------------------------------------------- 
+  16     Class                                                                
+         Drupal\Tests\maxlength\FunctionalJavascript\MaxlengthJavascriptTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/like_dislike 30de79fd18e1429144a69e4e768ad74e8d473aa8
+source : http://cgit.drupalcode.org/like_dislike 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   Tests/Controller/LikeDislikeControllerTest.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\like_dislike\Tests\LikeDislikeControllerTest was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   like_dislike.module                                
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

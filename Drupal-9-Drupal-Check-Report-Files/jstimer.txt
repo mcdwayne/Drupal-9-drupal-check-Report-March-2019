@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jstimer 6498416058c60dbc26efdf37c25b338158d95e6e
+source : http://cgit.drupalcode.org/jstimer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   jstimer.module                                     
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Form/JstimerAdminSettings.php                     
+ ------ ------------------------------------------------------ 
+  70     Call to deprecated function drupal_clear_js_cache().  
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/JsTimerDefaultFormatter.php  
+ ------ ------------------------------------------------------------- 
+  47     Call to deprecated function datetime_date_default_time().    
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   widgets/jst_clock.module                              
+ ------ ------------------------------------------------------ 
+  335    Call to deprecated function drupal_clear_js_cache().  
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   widgets/jst_timer.module                              
+ ------ ------------------------------------------------------ 
+  501    Call to deprecated function drupal_set_message().     
+  526    Call to deprecated function drupal_clear_js_cache().  
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,96 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/local_translation cfa1d334b107176d234b66528aac490050f35ce1
+source : http://cgit.drupalcode.org/local_translation 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   modules/local_translation_content/src/Controller/LocalTranslationContentController.php  
+ ------ ---------------------------------------------------------------------------------------- 
+  199    Call to deprecated method entityManager() of class                                      
+         Drupal\Core\Controller\ControllerBase.                                                  
+  222    Call to deprecated method entityManager() of class                                      
+         Drupal\Core\Controller\ControllerBase.                                                  
+  307    Call to deprecated method urlInfo() of class                                            
+         Drupal\CorentityntityInterface.                                                     
+  310    Call to deprecated method l() of class                                                  
+         Drupal\Core\Controller\ControllerBase.                                                  
+  327    Call to deprecated method urlInfo() of class                                            
+         Drupal\CorentityntityInterface.                                                     
+  371    Call to deprecated method urlInfo() of class                                            
+         Drupal\CorentityntityInterface.                                                     
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/local_translation_content/src/LocalTranslationContentTestsTrait.php (in context of class Drupal\Tests\local_translation_content\Functional\LocalTranslationContentAccessRulesTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  163    Call to deprecated method assertEqual() of class                                                                                                                                            
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                               
+  215    Call to deprecated method assertEqual() of class                                                                                                                                            
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                               
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/local_translation_content/src/LocalTranslationContentTestsTrait.php (in context of class Drupal\Tests\local_translation_content\Functional\LocalTranslationContentGeneralPermissionsTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  163    Call to deprecated method assertEqual() of class                                                                                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                      
+  215    Call to deprecated method assertEqual() of class                                                                                                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                      
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   modules/local_translation_content/src/LocalTranslationContentTestsTrait.php (in context of class Drupal\Tests\local_translation_content\Functional\LocalTranslationContentLanguageOptionsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+  163    Call to deprecated method assertEqual() of class                                                                                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                   
+  215    Call to deprecated method assertEqual() of class                                                                                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                   
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/local_translation_content/src/LocalTranslationContentTestsTrait.php (in context of class Drupal\Tests\local_translation_content\Functional\LocalTranslationContentPermissionsTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  163    Call to deprecated method assertEqual() of class                                                                                                                                            
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                               
+  215    Call to deprecated method assertEqual() of class                                                                                                                                            
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                               
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/local_translation_content/src/LocalTranslationContentTestsTrait.php (in context of class Drupal\Tests\local_translation_content\Functional\LocalTranslationLanguageFilterTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  163    Call to deprecated method assertEqual() of class                                                                                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                           
+  215    Call to deprecated method assertEqual() of class                                                                                                                                        
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                           
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/local_translation_content/src/LocalTranslationContentTestsTrait.php (in context of class Drupal\Tests\local_translation_content\Functional\LocalTranslationOriginalTranslationPositionTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  163    Call to deprecated method assertEqual() of class                                                                                                                                                     
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                        
+  215    Call to deprecated method assertEqual() of class                                                                                                                                                     
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                        
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/local_translation_content/src/LocalTranslationContentTestsTrait.php (in context of class Drupal\Tests\local_translation_content\Functional\LocalTranslationSourceLanguageAccessTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  163    Call to deprecated method assertEqual() of class                                                                                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                 
+  215    Call to deprecated method assertEqual() of class                                                                                                                                              
+         Drupal\Tests\BrowserTestBase.                                                                                                                                                                 
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Services/LocalTranslationUserSkills.php         
+ ------ ---------------------------------------------------- 
+  181    Call to deprecated function drupal_get_messages().  
+  183    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

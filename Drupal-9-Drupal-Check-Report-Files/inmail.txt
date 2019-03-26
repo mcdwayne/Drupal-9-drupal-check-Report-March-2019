@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/inmail 485768c0e4d404d5f228740443c23bc7b6e5e87c
+source : http://cgit.drupalcode.org/inmail 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   inmail.module                                               
+ ------ ------------------------------------------------------------ 
+  190    Call to deprecated function drupal_render().                
+  214    Call to deprecated method url() of class Drupal.            
+  377    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   inmail_collect/src/Plugin/collect/Model/InmailMessage.php              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal

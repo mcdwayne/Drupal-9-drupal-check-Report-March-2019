@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/floodcontrol_settings_api 5ace5e8f5cf941d10803a0c3fa57a7aeb9481692
+source : http://cgit.drupalcode.org/floodcontrol_settings_api 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mymodule/src/Form/MyCustomForm.php                 
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   mymodule/tests/src/Functional/FloodControlFormTest.php  
+ ------ -------------------------------------------------------- 
+  43     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  46     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  49     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

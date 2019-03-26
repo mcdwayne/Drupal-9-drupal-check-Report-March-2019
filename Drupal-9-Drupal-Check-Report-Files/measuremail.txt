@@ -1,0 +1,66 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/measuremail 50f5a0d1f85924462055ffccd8dacc9c9b26d565
+source : http://cgit.drupalcode.org/measuremail 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MeasuremailAddForm.php                    
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MeasuremailDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MeasuremailEditForm.php                   
+ ------ --------------------------------------------------- 
+  273    Call to deprecated function drupal_set_message().  
+  283    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MeasuremailElementDeleteForm.php          
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MeasuremailElementFormBase.php            
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MeasuremailSettingsForm.php               
+ ------ --------------------------------------------------- 
+  167    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MeasuremailSubscribeForm.php              
+ ------ --------------------------------------------------- 
+  279    Call to deprecated function drupal_set_message().  
+  296    Call to deprecated function drupal_set_message().  
+  298    Call to deprecated function drupal_set_message().  
+  301    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/MeasuremailElements/Radios.php    
+ ------ --------------------------------------------- 
+  130    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

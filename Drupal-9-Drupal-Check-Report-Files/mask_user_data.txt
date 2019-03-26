@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mask_user_data 944570077bc2a8dd9c0985df6eaa6a92a21cdab1
+source : https://cgit.drupalcode.org/mask_user_data 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mask_user_data.module                              
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Mask.php                                  
+ ------ --------------------------------------------------- 
+  165    Call to deprecated function drupal_set_message().  
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/MaskUserDataTest.php         
+ ------ -------------------------------------------------- 
+  34     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  34     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/inspectlet 2e8a42ef6f95edab1d9d37b23dfd0228c43c0362
+source : http://cgit.drupalcode.org/inspectlet 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   inspectlet.module                                
+ ------ ------------------------------------------------- 
+  44     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

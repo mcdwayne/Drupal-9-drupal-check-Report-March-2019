@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mobile_number 7c8aa2cbc8dc4523ac96d9282d2d908f0591303a
+source : http://cgit.drupalcode.org/mobile_number 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Element/MobileNumber.php                        
+ ------ ---------------------------------------------------- 
+  401    Call to deprecated function drupal_get_messages().  
+  406    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Feeds/Target/MobileNumber.php                                    
+ ------ --------------------------------------------------------------------- 
+         Class Drupaleeds\Plugin\Type\Target\FieldTargetBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Plugin/TfaValidation/MobileNumberTfa.php                      
+ ------ ------------------------------------------------------------------ 
+         Class MobileNumberTfa was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Validation/Constraint/MobileNumberValidator.php  
+ ------ ------------------------------------------------------------ 
+  54     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  64     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  70     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  77     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  84     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  93     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/WebformElement/MobileNumber.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\webform\Plugin\WebformElementBase not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/MobileNumberFieldTest.php                         
+ ------ ------------------------------------------------------------ 
+  397    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_attributes b3168e1e390d5d80c9c984ae8436f8b722e936c2
+source : http://cgit.drupalcode.org/menu_attributes 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   menu_attributes.module                                      
+ ------ ------------------------------------------------------------ 
+  28     Call to deprecated method strlen() of class                 
+         Drupal\Component\Utility\Unicode.                           
+  365    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/MenuAttributesSettingsForm.php          
+ ------ ------------------------------------------------- 
+  63     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Tests/MenuAttributesTestBase.php                               
+ ------ ------------------------------------------------------------------- 
+  10     Class Drupal\menu_attributes\Tests\MenuAttributesTestBase extends  
+         deprecated class Drupal\menu_ui\Tests\MenuWebTestBase.             
+  35     Call to method setUp() of deprecated class                         
+         Drupal\simpletest\WebTestBase.                                     
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

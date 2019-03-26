@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message_private d81d8a1d997406859fcc823a27afe6d967a6200c
+source : http://cgit.drupalcode.org/message_private 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   message_private.module                      
+ ------ -------------------------------------------- 
+  331    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/MessagePrivateController.php                 
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method entityManager() of class Drupal.  
+  33     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Plugin/Block/MessageHistory.php      
+ ------ ----------------------------------------- 
+  97     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/MessagePrivatePermissions.php          
+ ------ ------------------------------------------------------------ 
+  57     Call to deprecated method entityManager() of class Drupal.  
+  77     Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  85     Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  98     Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  104    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  111    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  117    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  124    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  132    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  138    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  149    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  193    Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

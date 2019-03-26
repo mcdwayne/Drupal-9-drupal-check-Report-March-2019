@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/govready 37fc4b5c1b5b1a79a647f70b4c5f221b480366e5
+source : http://cgit.drupalcode.org/govready 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GovreadyAgent.php                   
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function user_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Controller/GovreadyDashboard.php     
+ ------ ----------------------------------------- 
+  71     Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

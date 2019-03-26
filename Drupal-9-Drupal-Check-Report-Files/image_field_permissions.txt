@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_field_permissions 0c57a75c8abedc458c4c133ab74fb0c3ea6f04a2
+source : http://cgit.drupalcode.org/image_field_permissions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   image_field_permissions.module                              
+ ------ ------------------------------------------------------------ 
+  16     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/ImageFieldPermissionsPermissionsManager.php                        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalield_permissions\Plugin\FieldPermissionType\Manager not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/ImageFieldPermissionsPermissionsService.php                       
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalield_permissions\FieldPermissionsService not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/FieldPermissionType/AdvancedCustomAccess.php                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalield_permissions\Plugin\FieldPermissionType\CustomAccess  
+         not found and could not be autoloaded.                                  
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

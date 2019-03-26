@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flexslider cfe2d30ce9477fea0ec21cfdeda92b17deeddb56
+source : http://cgit.drupalcode.org/flexslider 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   flexslider.module                                  
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/FlexsliderOptionsetController.php  
+ ------ -------------------------------------------------- 
+  25     Call to deprecated method url() of class          
+         Drupal\Core\Configntity\ConfigEntityBase.       
+  39     Call to deprecated method url() of class          
+         Drupal\Core\Configntity\ConfigEntityBase.       
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlexsliderDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlexsliderForm.php                        
+ ------ --------------------------------------------------- 
+  421    Call to deprecated function drupal_set_message().  
+  427    Call to deprecated function drupal_set_message().  
+  485    Call to deprecated function libraries_detect().    
+  487    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/Update/FlexsliderSettingsUpdateTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupallexslider\Tests\Update\FlexsliderSettingsUpdateTest        
+         extends deprecated class Drupal\system\Tests\Update\UpdatePathTestBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

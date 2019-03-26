@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/locationmap f267e18f26d7923b9001b79838cbb48ff6c45275
+source : http://cgit.drupalcode.org/locationmap 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/locationmap/Plugin/block/block/LocationMapBlock.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\locationmap\Pluginlocklock\LocationMapBlock was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   locationmap.admin.inc                              
+ ------ --------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated function drupal_set_message().  
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   locationmap.module                            
+ ------ ---------------------------------------------- 
+  111    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

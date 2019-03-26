@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lndr 8.x-2.0-alpha1
+source : http://cgit.drupalcode.org/lndr 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   lndr.module                                       
+ ------ -------------------------------------------------- 
+  31     Call to deprecated method url() of class Drupal.  
+  36     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   simple_html_dom.inc                                                    
+ ------ ----------------------------------------------------------------------- 
+         Class simple_html_dom_node was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/LndrController.php                  
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/EventSubscriber/LndrResponseEventSubscriber.php                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\LndrventSubscriber\LndrResponseEventSubscriber was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

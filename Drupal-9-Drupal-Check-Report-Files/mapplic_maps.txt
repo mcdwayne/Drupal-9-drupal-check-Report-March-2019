@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mapplic_maps 3494073ff95f744e38b23632971444b283cc664b
+source : http://cgit.drupalcode.org/mapplic_maps 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/DefaultController.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\mapplic\Controller\DefaultController was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/MapplicAdminSettings.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\mapplic\Form\MapplicAdminSettings was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Block/MapplicMap.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\mapplic\Plugin\Block\MapplicMap was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

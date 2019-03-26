@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/intlinks ea2de7e91019d6b586d1eb0525425283a36bddc2
+source : http://cgit.drupalcode.org/intlinks 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   intlinks_hide_bad_links.inc              
+ ------ ----------------------------------------- 
+  29     Call to deprecated function db_query().  
+  73     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   intlinks_title_filter.inc                
+ ------ ----------------------------------------- 
+  29     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

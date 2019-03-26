@@ -1,0 +1,145 @@
+drupal-check results on commit hash: 
+ name     : drupal/filefield_sources
+source   : [git] https://git.drupal.org/project/filefield_sources b19c6a839804f47587828d4a50e29e0720fa4c08
+names    : drupal/filefield_sources
+source : http://cgit.drupalcode.org/filefield_sources 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   filefield_sources.module                                         
+ ------ ----------------------------------------------------------------- 
+  456    Call to deprecated function entity_create().                     
+  504    Call to deprecated function drupal_set_message().                
+  514    Call to deprecated function file_uri_scheme().                   
+  515    Call to deprecated function file_stream_wrapper_valid_scheme().  
+  516    Call to deprecated function drupal_set_message().                
+  539    Call to deprecated function drupal_set_message().                
+  558    Call to deprecated function drupal_set_message().                
+  567    Call to deprecated function drupal_set_message().                
+  573    Call to deprecated function drupal_chmod().                      
+  577    Call to deprecated function file_load_multiple().                
+  620    Call to deprecated function drupal_dirname().                    
+  762    Call to deprecated function format_string().                     
+ ------ ----------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Access/FieldAccessCheck.php             
+ ------ -------------------------------------------- 
+  34     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Controller/ImceController.php                       
+ ------ -------------------------------------------------------- 
+  26     Call to deprecated function entity_load().              
+  36     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/ImceScanner.php                                         
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated function db_select().                    
+  77     Call to deprecated function entity_load().                  
+  78     Call to deprecated method entityManager() of class Drupal.  
+  86     Call to deprecated function db_select().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FilefieldSource/Attach.php              
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function entity_load().         
+  44     Call to deprecated function drupal_chmod().        
+  47     Call to deprecated function drupal_realpath().     
+  49     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function entity_load().         
+  200    Call to deprecated function drupal_render().       
+  203    Call to deprecated function drupal_render().       
+  246    Call to deprecated function drupal_set_message().  
+  306    Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/FilefieldSource/Clipboard.php               
+ ------ ------------------------------------------------------- 
+  35     Call to deprecated function drupal_realpath().         
+  36     Call to deprecated function drupal_set_message().      
+  45     Call to deprecated function drupal_chmod().            
+  47     Call to deprecated function drupal_realpath().         
+  48     Call to deprecated function drupal_set_message().      
+  149    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/FilefieldSource/Imce.php                    
+ ------ ------------------------------------------------------- 
+  33     Call to deprecated function entity_load().             
+  48     Call to deprecated function db_select().               
+  54     Call to deprecated function file_load_multiple().      
+  75     Call to deprecated function entity_load().             
+  86     Call to deprecated method url() of class Drupal.       
+  145    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/FilefieldSource/Reference.php                    
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated function file_load().                    
+  126    Call to deprecated function drupal_render().                
+  127    Call to deprecated function drupal_render().                
+  135    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  138    Call to deprecated function entity_get_form_display().      
+  145    Call to deprecated function entity_load().                  
+  147    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FilefieldSource/Remote.php              
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function entity_load().         
+  42     Call to deprecated function drupal_realpath().     
+  43     Call to deprecated function drupal_set_message().  
+  53     Call to deprecated function drupal_chmod().        
+  54     Call to deprecated function drupal_realpath().     
+  55     Call to deprecated function drupal_set_message().  
+  264    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  339    Call to deprecated function drupal_render().       
+  340    Call to deprecated function drupal_render().       
+  393    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/AttachSourceTest.php                  
+ ------ ------------------------------------------------ 
+  108    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/EmptyValuesTest.php                 
+ ------ ---------------------------------------------- 
+  86     Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/FileFieldSourcesTestBase.php                                 
+ ------ ----------------------------------------------------------------------- 
+  18     Class Drupalilefield_sources\Tests\FileFieldSourcesTestBase extends  
+         deprecated class Drupalile\Tests\FileFieldTestBase.                  
+  172    Call to deprecated function entity_create().                           
+  191    Call to deprecated function drupal_chmod().                            
+  197    Call to deprecated function drupal_chmod().                            
+  379    Call to deprecated function drupal_realpath().                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/ReferenceSourceTest.php                
+ ------ ------------------------------------------------- 
+  96     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 65 errors                                                         
+
+ </code>

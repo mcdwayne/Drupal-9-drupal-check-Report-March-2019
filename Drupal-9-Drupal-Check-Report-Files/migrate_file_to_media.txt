@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_file_to_media 523af4d10889c40d595cdcaa36e821b24de3257a
+source : http://cgit.drupalcode.org/migrate_file_to_media 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Commands/MediaMigrateCommands.php                       
+ ------ ------------------------------------------------------------ 
+  100    Call to deprecated method entityManager() of class Drupal.  
+  112    Call to deprecated method entityManager() of class Drupal.  
+  200    Call to deprecated function entity_create().                
+  247    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Generators/MediaMigrateGenerator.php                     
+ ------ ------------------------------------------------------------- 
+  46     Call to deprecated method defaultPluginQuestions() of class  
+         DrupalCodeGenerator\Utils.                                   
+ ------ ------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

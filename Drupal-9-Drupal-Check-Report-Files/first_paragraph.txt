@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/first_paragraph 8582d1ca3786eca94155a16540af245d6877caed
+source : http://cgit.drupalcode.org/first_paragraph 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Unit/FirstParagraphTest.php                               
+ ------ -------------------------------------------------------------------- 
+  15     Class Drupal\Testsirst_paragraph\Unit\FirstParagraphTest extends  
+         deprecated class Drupal\system\TestsntityntityUnitTestBase.     
+  43     Call to method setUp() of deprecated class                          
+         Drupal\system\TestsntityntityUnitTestBase.                      
+  45     Call to deprecated function entity_create().                        
+  56     Call to deprecated function entity_create().                        
+  62     Call to deprecated function entity_create().                        
+  82     Call to deprecated function entity_create().                        
+  101    Call to deprecated function format_string().                        
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

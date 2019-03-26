@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_browser ff5532ec8a7a8aff89415624de1b17d7697557ad
+source : http://cgit.drupalcode.org/media_entity_browser 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------------------------------- 
+  Line   media_entity_browser_media_library/tests/src/FunctionalJavascript/MediaEntityBrowserMediaLibraryTest.php  
+ ------ ---------------------------------------------------------------------------------------------------------- 
+         Class                                                                                                     
+         Drupal\Tests\media_entity_browser\FunctionalJavascript\MediaEntityBrows                                   
+         erMediaLibraryTest was not found while trying to analyse it -                                             
+         autoloading is probably not configured properly.                                                          
+ ------ ---------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MediaEntityBrowserTest.php                
+ ------ ------------------------------------------------------------------------- 
+  14     Class                                                                    
+         Drupal\Tests\media_entity_browser\FunctionalJavascript\MediaEntityBrows  
+         erTest extends deprecated class                                          
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  16     Usage of deprecated trait                                                
+         Drupal\Tests\media\Functional\MediaFunctionalTestCreateMediaTypeTrait    
+         in class                                                                 
+         Drupal\Tests\media_entity_browser\FunctionalJavascript\MediaEntityBrows  
+         erTest.                                                                  
+  36     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

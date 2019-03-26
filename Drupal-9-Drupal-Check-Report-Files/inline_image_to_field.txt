@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/inline_image_to_field 6b6add781d203e72c549aee4d6e6efd411d23068
+source : http://cgit.drupalcode.org/inline_image_to_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   inline_image_to_field.module                
+ ------ -------------------------------------------- 
+  134    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/inlineimagetofieldForm.php                         
+ ------ ------------------------------------------------------------ 
+  43     Call to deprecated function entity_get_bundles().           
+  47     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

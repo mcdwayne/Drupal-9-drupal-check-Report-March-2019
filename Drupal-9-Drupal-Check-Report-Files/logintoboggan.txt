@@ -1,0 +1,96 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/logintoboggan 64155a596a97b5d4fd90cb10b2acc9bc9adf8890
+source : http://cgit.drupalcode.org/logintoboggan 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   logintoboggan.module                                        
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated function db_query().                     
+  89     Call to deprecated function drupal_render().                
+  157    Call to deprecated function drupal_get_destination().       
+  361    Call to deprecated function user_load().                    
+  366    Call to deprecated function drupal_set_message().           
+  415    Call to deprecated function drupal_set_message().           
+  501    Call to deprecated function drupal_set_message().           
+  523    Call to deprecated function db_query().                     
+  538    Call to deprecated function db_query().                     
+  574    Call to deprecated function db_query().                     
+  581    Call to deprecated function db_query().                     
+  722    Call to deprecated function drupal_get_destination().       
+  753    Call to deprecated function entity_create().                
+  753    Call to deprecated method entityManager() of class Drupal.  
+  754    Call to deprecated function drupal_render().                
+  755    Call to deprecated function drupal_render().                
+  776    Call to deprecated function drupal_set_message().           
+  782    Call to deprecated function entity_create().                
+  782    Call to deprecated method entityManager() of class Drupal.  
+  832    Call to deprecated function db_delete().                    
+  840    Call to deprecated function user_load().                    
+  873    Call to deprecated function drupal_set_message().           
+  896    Call to deprecated function drupal_set_message().           
+  899    Call to deprecated function drupal_set_message().           
+  1067   Call to deprecated method l() of class Drupal.              
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   logintoboggan.validation.inc                       
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  42     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Access/LogintobogganReValidateAccess.php  
+ ------ ---------------------------------------------- 
+  31     Call to deprecated function user_load().      
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/LogintobogganController.php         
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function user_load().           
+  45     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  59     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated method url() of class Drupal.   
+  78     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  82     Call to deprecated method url() of class Drupal.   
+  87     Call to deprecated function drupal_set_message().  
+  88     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  90     Call to deprecated method url() of class Drupal.   
+  104    Call to deprecated function drupal_set_message().  
+  105    Call to deprecated method url() of class Drupal.   
+  113    Call to deprecated function user_load().           
+  124    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LogintobogganSettingsForm.php             
+ ------ --------------------------------------------------- 
+  249    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/logintobogganRegister.php                                   
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\logintoboggan\Form\LoginToBogganRegister was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 52 errors                                                         
+
+ </code>

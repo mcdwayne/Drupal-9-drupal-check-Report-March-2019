@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/imagefield_tokens 8.x-1.5
+source : https://cgit.drupalcode.org/imagefield_tokens 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ImageFieldTokensFormatter.php  
+ ------ --------------------------------------------------------------- 
+  129    Call to deprecated method urlInfo() of class                   
+         Drupal\CorentityntityInterface.                            
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/ImageFieldTokensWigdet.php     
+ ------ ------------------------------------------------------------ 
+  65     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

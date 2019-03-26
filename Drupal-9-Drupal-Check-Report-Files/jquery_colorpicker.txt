@@ -1,0 +1,66 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jquery_colorpicker ab20786a454d0b65382199af37dc05e256c40469
+source : https://cgit.drupalcode.org/jquery_colorpicker 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/JqueryColorpickerColorDisplayFormatter.php  
+ ------ ---------------------------------------------------------------------------- 
+  21     Class                                                                       
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker     
+         ColorDisplayFormatter extends deprecated class                              
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker     
+         DisplayFormatterBase.                                                       
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/JqueryColorpickerRawHexDisplayFormatter.php  
+ ------ ----------------------------------------------------------------------------- 
+  22     Class                                                                        
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker      
+         RawHexDisplayFormatter extends deprecated class                              
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker      
+         DisplayFormatterBase.                                                        
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/JqueryColorpickerRawRgbDisplayFormatter.php  
+ ------ ----------------------------------------------------------------------------- 
+  21     Class                                                                        
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker      
+         RawRgbDisplayFormatter extends deprecated class                              
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker      
+         DisplayFormatterBase.                                                        
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/JqueryColorpickerTextDisplayFormatter.php  
+ ------ --------------------------------------------------------------------------- 
+  22     Class                                                                      
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker    
+         TextDisplayFormatter extends deprecated class                              
+         Drupal\jquery_colorpicker\Plugin\Field\FieldFormatter\JqueryColorpicker    
+         DisplayFormatterBase.                                                      
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Element/JQueryColorpickerTest.php                        
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Test\jquery_colorpickerlement\JQueryColorpickerTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/jQueryColorpickerServiceTest.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Test\jquery_colorpicker\Service\JQueryColorpickerServiceTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

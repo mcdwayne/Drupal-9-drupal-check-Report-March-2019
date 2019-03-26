@@ -1,0 +1,323 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_entity bedef1b99cc0d4cafc3f3aa73e2c167e0851c993
+source : http://cgit.drupalcode.org/file_entity 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   file_entity.module                                                 
+ ------ ------------------------------------------------------------------- 
+  236    Call to deprecated method url() of class                           
+         Drupal\CorentityntityInterface.                                
+  296    Call to deprecated method entityManager() of class Drupal.         
+  361    Calls to function fnmatch should not exist.                        
+  361    Calls to function fnmatch should not exist.                        
+  466    Call to deprecated function entity_load_multiple_by_properties().  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   file_entity.tokens.inc                           
+ ------ ------------------------------------------------- 
+  87     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  87     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  114    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  114    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  123    Call to deprecated function db_select().         
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/FileController.php                   
+ ------ ---------------------------------------------------- 
+  63     Call to deprecated function drupal_basename().      
+  97     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/FileEntity.php                           
+ ------ ---------------------------------------------------- 
+  42     Call to deprecated function db_query().             
+  203    Call to deprecated function db_delete().            
+  207    Call to deprecated function db_insert().            
+  300    Call to deprecated function db_delete().            
+  397    Call to deprecated function file_uri_scheme().      
+  410    Call to deprecated function file_uri_scheme().      
+  434    Call to deprecated function file_uri_scheme().      
+  518    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/FileEntityViewBuilder.php                        
+ ------ ------------------------------------------------------------ 
+  30     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/FileEntityAccessControlHandler.php          
+ ------ ------------------------------------------------ 
+  53     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/FileTypeListBuilder.php                    
+ ------ ----------------------------------------------- 
+  35     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileAddArchiveForm.php                    
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_unlink().       
+  100    Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/FileAddForm.php                                    
+ ------ ------------------------------------------------------------ 
+  92     Call to deprecated function drupal_render().                
+  184    Call to deprecated method entityManager() of class Drupal.  
+  204    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  204    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  336    Call to deprecated function file_uri_scheme().              
+  391    Call to deprecated function file_uri_scheme().              
+  410    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/FileDeleteMultipleForm.php              
+ ------ ------------------------------------------------- 
+  110    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  110    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileEditForm.php                          
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_render().       
+  86     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileSettingsForm.php                      
+ ------ --------------------------------------------------- 
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileTypeDisableForm.php                   
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileTypeEnableForm.php                    
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileTypeForm.php                          
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Normalizer/FileEntityNormalizer.php        
+ ------ ----------------------------------------------- 
+  43     Call to deprecated function drupal_dirname().  
+  49     Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  49     Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/views/field/LinkDelete.php                  
+ ------ ------------------------------------------------------- 
+  34     Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/views/field/LinkEdit.php                    
+ ------ ------------------------------------------------------- 
+  34     Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------- 
+  Line   src/Plugin/views/filter/SchemeType.php  
+ ------ ---------------------------------------- 
+  48     Call to deprecated function db_like().  
+ ------ ---------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/FileEntityAccessTest.php                
+ ------ -------------------------------------------------- 
+  205    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  217    Call to deprecated function format_string().      
+  219    Call to deprecated function format_string().      
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/FileEntityAdminTest.php                           
+ ------ ------------------------------------------------------------ 
+  178    Call to deprecated method url() of class                    
+         Drupalile_entityntity\FileEntity.                       
+  180    Call to deprecated method url() of class                    
+         Drupalile_entityntity\FileEntity.                       
+  182    Call to deprecated method url() of class                    
+         Drupalile_entityntity\FileEntity.                       
+  186    Call to deprecated method url() of class                    
+         Drupalile_entityntity\FileEntity.                       
+  187    Call to deprecated method url() of class                    
+         Drupalile_entityntity\FileEntity.                       
+  188    Call to deprecated method url() of class                    
+         Drupalile_entityntity\FileEntity.                       
+  263    Call to deprecated method entityManager() of class Drupal.  
+  277    Call to deprecated method entityManager() of class Drupal.  
+  295    Call to deprecated method entityManager() of class Drupal.  
+  346    Call to deprecated method entityManager() of class Drupal.  
+  347    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/FileEntityCacheTagsTest.php                                   
+ ------ ------------------------------------------------------------------------ 
+  20     Usage of deprecated trait                                               
+         Drupal\system\Tests\Cache\AssertPageCacheContextsAndTagsTrait in class  
+         Drupalile_entity\Tests\FileEntityCacheTagsTest.                       
+  154    Call to deprecated method format() of class                             
+         Drupal\Component\Utility\SafeMarkup.                                    
+  154    Call to method format() of deprecated class                             
+         Drupal\Component\Utility\SafeMarkup.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/FileEntityCreationTest.php            
+ ------ ------------------------------------------------ 
+  49     Call to deprecated function drupal_realpath().  
+  71     Call to deprecated function drupal_realpath().  
+  109    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/FileEntityEditTest.php                            
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated function drupal_realpath().              
+  51     Call to deprecated method url() of class                    
+         Drupal\CorentityntityInterface.                         
+  84     Call to deprecated function drupal_realpath().              
+  102    Call to deprecated method entityManager() of class Drupal.  
+  111    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Tests/FileEntityFileTypeClassificationTest.php  
+ ------ ---------------------------------------------------- 
+  32     Call to deprecated function db_select().            
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/FileEntityPathautoTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  29     Call to deprecated method strtolower() of class                          
+         Drupal\Component\Utility\Unicode.                                        
+  38     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/FileEntityReplaceTest.php             
+ ------ ------------------------------------------------ 
+  48     Call to deprecated function drupal_realpath().  
+  65     Call to deprecated function drupal_realpath().  
+  76     Call to deprecated function drupal_realpath().  
+  86     Call to deprecated function drupal_basename().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/FileEntityServicesTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupalile_entity\Tests\FileEntityServicesTest extends            
+         deprecated class Drupalest\Tests\RESTTestBase.                         
+  79     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  85     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  89     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Tests/FileEntityTestBase.php                                   
+ ------ ------------------------------------------------------------------- 
+  158    Call to deprecated function entity_load_multiple_by_properties().  
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/FileEntityTypeTest.php                        
+ ------ -------------------------------------------------------- 
+  59     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  72     Call to deprecated function entity_get_form_display().  
+  86     Call to deprecated function drupal_realpath().          
+  123    Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  136    Call to deprecated function entity_get_form_display().  
+  149    Call to deprecated function drupal_realpath().          
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/FileEntityUnitTest.php                            
+ ------ ------------------------------------------------------------ 
+  81     Call to deprecated method entityManager() of class Drupal.  
+  82     Call to deprecated function file_load_multiple().           
+  102    Call to deprecated function file_load_multiple().           
+  132    Call to deprecated method entityManager() of class Drupal.  
+  148    Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/FileEntityNormalizerTest.php     
+ ------ -------------------------------------------------- 
+  110    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  153    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  155    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  156    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  211    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/views_handler_field_file_rendered.inc                            
+ ------ ----------------------------------------------------------------------- 
+         Class views_handler_field_file_rendered was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/views_plugin_row_file_rss.inc                                    
+ ------ ----------------------------------------------------------------------- 
+         Class views_plugin_row_file_rss was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 106 errors                                                        
+
+ </code>

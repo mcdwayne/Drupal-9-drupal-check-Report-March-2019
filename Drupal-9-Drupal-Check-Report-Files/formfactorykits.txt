@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/formfactorykits 2509b76adfdd32ac38fdf01eaf370b117d2952c4
+source : http://cgit.drupalcode.org/formfactorykits 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Kits/Field/Text/TextareaKit.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalormfactorykits\Kits\Field\Text\TextAreaKit was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Kits/Field/Table/TableSelectKitTest.php                  
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Testsormfactorykits\Unit\Kits\Field\Select\TableSelectKitTest  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Kits/Field/Text/TextareaKitTest.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Testsormfactorykits\Unit\Kits\Field\Text\TextAreaKitTest  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Kits/Field/Text/TextfieldKitTest.php                     
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Testsormfactorykits\Unit\Kits\Field\Text\TextFieldKitTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

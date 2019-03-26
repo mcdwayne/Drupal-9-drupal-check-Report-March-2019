@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/insert_block d489c9f6dc160d9a62fab8c6ab15f20029bd3905
+source : http://cgit.drupalcode.org/insert_block 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   insert_block.module                           
+ ------ ---------------------------------------------- 
+  42     Call to deprecated function entity_load().    
+  43     Call to deprecated function entity_view().    
+  46     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/insert_block/Plugin/Filter/FilterInsertBlock.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\insert_block\Plugin\Filter\FilterInsertBlock was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

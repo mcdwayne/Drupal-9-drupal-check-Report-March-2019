@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/layout_plugin a0a5ee04d162b90b690a09d1db29d541e9d2773c
+source : http://cgit.drupalcode.org/layout_plugin 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   layout_plugin.module                                              
+ ------ ------------------------------------------------------------------ 
+  46     Call to deprecated method getLibraryInfo() of class               
+         Drupal\layout_plugin\Plugin\Layout\LayoutPluginManagerInterface.  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginManagerTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  26     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  347    Call to deprecated method getLibraryInfo() of class                      
+         Drupal\layout_plugin\Plugin\Layout\LayoutPluginManager.                  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

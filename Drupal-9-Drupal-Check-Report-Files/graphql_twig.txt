@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graphql_twig 9c4c7efaec2efbd6978d8c4e6d34b70370fca0a9
+source : http://cgit.drupalcode.org/graphql_twig 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/BlockTest.php                
+ ------ ---------------------------------------------- 
+  41     Call to deprecated method install() of class  
+         Drupal\Corextension\ThemeHandler.           
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Kernel/EntityRenderTest.php                      
+ ------ ----------------------------------------------------------- 
+  21     Usage of deprecated trait                                  
+         Drupal\Tests\graphql\Traits\GraphQLFileTestTrait in class  
+         Drupal\Tests\graphql_twig\KernelntityRenderTest.         
+ ------ ----------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/RouteTest.php                
+ ------ ---------------------------------------------- 
+  37     Call to deprecated method install() of class  
+         Drupal\Corextension\ThemeHandler.           
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Kernel/ThemeTest.php                             
+ ------ ----------------------------------------------------------- 
+  19     Usage of deprecated trait                                  
+         Drupal\Tests\graphql\Traits\GraphQLFileTestTrait in class  
+         Drupal\Tests\graphql_twig\Kernel\ThemeTest.                
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/ThemeTestTrait.php (in context of class Drupal\Tests\graphql_twig\KernelntityRenderTest)  
+ ------ ------------------------------------------------------------------------------------------------------------- 
+  44     Call to deprecated method install() of class                                                                 
+         Drupal\Corextension\ThemeHandler.                                                                          
+ ------ ------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Traits/ThemeTestTrait.php (in context of class Drupal\Tests\graphql_twig\Kernel\ThemeTest)  
+ ------ ------------------------------------------------------------------------------------------------------ 
+  44     Call to deprecated method install() of class                                                          
+         Drupal\Corextension\ThemeHandler.                                                                   
+ ------ ------------------------------------------------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

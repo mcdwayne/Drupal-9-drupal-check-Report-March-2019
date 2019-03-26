@@ -1,0 +1,323 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mespronos a886127a83169b0995b067600f3181045e5350ba
+source : http://cgit.drupalcode.org/mespronos 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mespronos_group/mespronos_group.module             
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   mespronos_group/src/EventSubscriber/MespronosGroupSubscriber.php  
+ ------ ------------------------------------------------------------------ 
+  57     Call to deprecated function drupal_set_message().                 
+  59     Call to deprecated method url() of class Drupal.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   mespronos_group/src/Form/GroupDeleteForm.php  
+ ------ ---------------------------------------------- 
+  27     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mespronos_group/src/Form/GroupForm.php             
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mespronos_group/src/Form/GroupJoiningForm.php      
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  37     Call to deprecated method url() of class Drupal.   
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mespronos_group/src/Form/GroupLeavingForm.php      
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   mespronos_group/src/GroupListBuilder.php                             
+ ------ --------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\mespronos_group\GroupListBuilder.                       
+  48     Call to deprecated method l() of class                               
+         Drupal\mespronos_group\GroupListBuilder.                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   mespronos_group/src/tests/MespronosGroupCreationTest.php               
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\mespronos_group\Tests\MespronosGroupCreationTest was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/BetManager.php                        
+ ------ ------------------------------------------ 
+  67     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AdministrationController.php        
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/BetController.php                   
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+  99     Call to deprecated method url() of class Drupal.   
+  108    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/BettingController.php               
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/DayController.php                  
+ ------ -------------------------------------------------- 
+  144    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ImporterController.php              
+ ------ --------------------------------------------------- 
+  114    Call to deprecated function entity_load().         
+  134    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function entity_load().         
+  154    Call to deprecated function drupal_set_message().  
+  157    Call to deprecated function entity_load().         
+  170    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function entity_load().         
+  200    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/RankingController.php               
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  34     Call to deprecated method url() of class Drupal.   
+  121    Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Controller/UserController.php                                    
+ ------ --------------------------------------------------------------------- 
+  29     Call to deprecated method url() of class Drupal\Corentityntity.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Controller/BetListController.php     
+ ------ ------------------------------------------------ 
+  37     Call to deprecated method l() of class Drupal.  
+  38     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Controller/DayListController.php     
+ ------ ------------------------------------------------ 
+  43     Call to deprecated method l() of class Drupal.  
+  44     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Controller/GameListController.php    
+ ------ ------------------------------------------------ 
+  46     Call to deprecated function format_date().      
+  47     Call to deprecated method l() of class Drupal.  
+  48     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Controller/LeagueListController.php  
+ ------ ------------------------------------------------ 
+  43     Call to deprecated method l() of class Drupal.  
+  44     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/Controller/RankingDayListController.php  
+ ------ ---------------------------------------------------- 
+  37     Call to deprecated method l() of class Drupal.      
+  38     Call to deprecated method getLabel() of class       
+         Drupal\CorentityntityListBuilder.               
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Entity/Controller/RankingGeneralListController.php  
+ ------ -------------------------------------------------------- 
+  37     Call to deprecated method l() of class Drupal.          
+  38     Call to deprecated method getLabel() of class           
+         Drupal\CorentityntityListBuilder.                   
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Entity/Controller/RankingLeagueListController.php  
+ ------ ------------------------------------------------------- 
+  37     Call to deprecated method l() of class Drupal.         
+  38     Call to deprecated method getLabel() of class          
+         Drupal\CorentityntityListBuilder.                  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Controller/SportListController.php   
+ ------ ------------------------------------------------ 
+  37     Call to deprecated method l() of class Drupal.  
+  38     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Controller/TeamListController.php    
+ ------ ------------------------------------------------ 
+  37     Call to deprecated method l() of class Drupal.  
+  38     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/BetForm.php                        
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().  
+  32     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/DayForm.php                        
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GameForm.php                       
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GameRemoveBetsForm.php             
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/LeagueArchiveForm.php              
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/LeagueForm.php                     
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/MPNEntityDeleteForm.php            
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/SportForm.php                      
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+  48     Call to deprecated function drupal_set_message().  
+  51     Call to deprecated function entity_load().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/TeamForm.php                       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   src/Entity/Getters/DayGettersTrait.php (in context of class Drupal\mespronosntity\Day)  
+ ------ ------------------------------------------------------------------------------------------ 
+  22     Call to deprecated method url() of class Drupal\Corentityntity.                       
+  25     Call to deprecated method url() of class Drupal\Corentityntity.                       
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   src/Entity/Getters/GameGettersTrait.php (in context of class Drupal\mespronosntity\Game)  
+ ------ -------------------------------------------------------------------------------------------- 
+  147    Call to deprecated method url() of class Drupal\Corentityntity.                         
+ ------ -------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Entity/League.php                       
+ ------ -------------------------------------------- 
+  169    Call to deprecated function entity_load().  
+  210    Call to deprecated function entity_view().  
+ ------ -------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Entity/RankingGeneral.php            
+ ------ ----------------------------------------- 
+  100    Call to deprecated function db_query().  
+  105    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Entity/Sport.php                        
+ ------ -------------------------------------------- 
+  77     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Entity/Team.php                         
+ ------ -------------------------------------------- 
+  75     Call to deprecated function entity_view().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GamesBetting.php                          
+ ------ --------------------------------------------------- 
+  219    Call to deprecated function drupal_set_message().  
+  222    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GamesMarks.php                            
+ ------ --------------------------------------------------- 
+  104    Call to deprecated function drupal_set_message().  
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RemoveDataForm.php                        
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 83 errors                                                         
+
+ </code>

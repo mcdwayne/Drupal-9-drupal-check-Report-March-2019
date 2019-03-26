@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jasm 425f9c7244913345cfd9daa440b973f1c1faff38
+source : http://cgit.drupalcode.org/jasm 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/JasmListBuilder.php                 
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JasmDeleteForm.php                        
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JasmForm.php                              
+ ------ --------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

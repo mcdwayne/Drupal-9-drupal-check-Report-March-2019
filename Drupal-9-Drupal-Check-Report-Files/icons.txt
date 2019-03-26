@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/icons a2cd745621ae5e41851fb3fdc5172fafb52b2ca2
+source : http://cgit.drupalcode.org/icons 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   icons.module                                                
+ ------ ------------------------------------------------------------ 
+  241    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IconSetDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IconSetForm.php                           
+ ------ --------------------------------------------------- 
+  151    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+  163    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  204    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/IconLibraryPluginBase.php                    
+ ------ ------------------------------------------------- 
+  231    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/IconSetCreateTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\group\Kernel\IconSetCreateTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/IconsInstallTest.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\group\Kernel\IconsInstallTest was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_plus_login f9c115b5636204cd62023e84100545adce819086
+source : http://cgit.drupalcode.org/google_plus_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GooglePlusLoginController.php       
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GooglePlusLoginConfigForm.php             
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

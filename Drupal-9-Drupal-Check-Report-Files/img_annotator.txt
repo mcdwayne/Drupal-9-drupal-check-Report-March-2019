@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/img_annotator 8.x-1.1
+source : http://cgit.drupalcode.org/img_annotator 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/AnnotationsDeleteAction.php  
+ ------ -------------------------------------------- 
+  28     Call to deprecated function db_delete().    
+  37     Call to deprecated function entity_load().  
+  41     Call to deprecated function db_delete().    
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/AnnotationsRetrieveAction.php  
+ ------ ---------------------------------------------- 
+  18     Call to deprecated function entity_load().    
+  40     Call to deprecated function db_select().      
+  73     Call to deprecated function db_select().      
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/AnnotationsSaveAction.php    
+ ------ -------------------------------------------- 
+  38     Call to deprecated function db_insert().    
+  44     Call to deprecated function entity_load().  
+  59     Call to deprecated function db_insert().    
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/AnnotationsUpdateAction.php  
+ ------ -------------------------------------------- 
+  30     Call to deprecated function db_update().    
+  40     Call to deprecated function entity_load().  
+  47     Call to deprecated function db_update().    
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

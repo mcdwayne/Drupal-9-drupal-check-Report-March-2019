@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/key_auth 44690975a85bd8c2f68bb80455bddaba4d6896a5
+source : http://cgit.drupalcode.org/key_auth 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserKeyAuthForm.php                       
+ ------ --------------------------------------------------- 
+  163    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/key_auth_test/src/Controller/KeyAuthTestController.php  
+ ------ -------------------------------------------------------------- 
+  20     Call to deprecated method getUsername() of class              
+         Drupal\Core\Session\AccountInterface.                         
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/KeyAuthTest.php                  
+ ------ ------------------------------------------------------ 
+  317    Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  324    Call to deprecated method getUsername() of class      
+         Drupal\Core\Session\AccountInterface.                 
+  327    Call to deprecated method getUsername() of class      
+         Drupal\Core\Session\AccountInterface.                 
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

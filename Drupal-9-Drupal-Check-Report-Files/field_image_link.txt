@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_image_link c083c8655df307620d077bca3402f59f1c43bc7c
+source : http://cgit.drupalcode.org/field_image_link 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   field_image_link.module                      
+ ------ --------------------------------------------- 
+  48     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ImageLinkFormatter.php  
+ ------ -------------------------------------------------------- 
+  255    Call to deprecated method urlInfo() of class            
+         Drupal\CorentityntityInterface.                     
+  360    Call to deprecated method urlInfo() of class            
+         Drupal\CorentityntityInterface.                     
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

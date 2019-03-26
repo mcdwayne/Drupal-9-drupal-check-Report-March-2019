@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_entity_index c13786d4d984df53a04e0442d619a637242fc23b
+source : http://cgit.drupalcode.org/menu_entity_index 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigurationForm.php                     
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tracker.php                                    
+ ------ --------------------------------------------------- 
+  153    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

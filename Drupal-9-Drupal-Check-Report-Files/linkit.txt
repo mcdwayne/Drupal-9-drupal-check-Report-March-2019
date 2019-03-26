@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/linkit a8ab4f6b0bf529fcec455d1c429a1ee8bf268cfb
+source : http://cgit.drupalcode.org/linkit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Linkit/Substitution/File.php            
+ ------ --------------------------------------------------- 
+  36     Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/Update/LinkitUpdateTest.php                                 
+ ------ ---------------------------------------------------------------------- 
+  13     Class Drupal\linkit\Tests\Update\LinkitUpdateTest extends deprecated  
+         class Drupal\system\Tests\Update\UpdatePathTestBase.                  
+  26     Call to method setUp() of deprecated class                            
+         Drupal\system\Tests\Update\UpdatePathTestBase.                        
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Functional/Controllers/LinkitControllerTest.php               
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\linkit\Functional\Controller\LinkitControllerTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/LinkitDialogTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  21     Class Drupal\Tests\linkit\FunctionalJavascript\LinkitDialogTest extends  
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.    
+  57     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/LinkitFormatAdminTest.php              
+ ------ ---------------------------------------------------------------------- 
+  12     Class Drupal\Tests\linkit\FunctionalJavascript\LinkitFormatAdminTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+  25     Call to method setUp() of deprecated class                            
+         Drupal\Tests\BrowserTestBase.                                         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/libraries_provider 1d86ef19f9584f42fbf021de7f16dca2f5effc03
+source : https://gitlab.com/upstreamable/drupal-libraries-provider 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/libraries_provider_ui/libraries_provider_ui.module  
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/libraries_provider_ui/src/Form/LibraryForm.php  
+ ------ -------------------------------------------------------- 
+  186    Call to deprecated method link() of class               
+         Drupal\CorentityntityInterface.                     
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

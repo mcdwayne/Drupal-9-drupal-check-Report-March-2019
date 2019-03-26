@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flexmail a110b0f4b72a367ba0fd680cc316942cfd213f0b
+source : http://cgit.drupalcode.org/flexmail 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/FlexmailHelper/FlexmailHelper.php              
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  189    Call to deprecated function drupal_set_message().  
+  221    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscribeForm.php                         
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

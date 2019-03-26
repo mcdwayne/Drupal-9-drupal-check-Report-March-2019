@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mattermost_integration 848b699972e4f01f6aac0bd0e5a12b6e642c738f
+source : http://cgit.drupalcode.org/mattermost_integration 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/MattermostIntegrationConfigurationForm.php  
+ ------ ----------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OutgoingWebhookDeleteForm.php             
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OutgoingWebhookForm.php                   
+ ------ --------------------------------------------------- 
+  181    Call to deprecated function drupal_set_message().  
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

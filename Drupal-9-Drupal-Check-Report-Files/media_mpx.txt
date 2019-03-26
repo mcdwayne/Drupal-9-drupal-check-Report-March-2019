@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_mpx 45774df13fdd8a0d1f25e39b172c7dd5d255b596
+source : http://cgit.drupalcode.org/media_mpx 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Commands/NotificationQueuer.php                         
+ ------ ------------------------------------------------------------ 
+  108    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/CustomFieldDiscovery.php                         
+ ------ ----------------------------------------------------- 
+  65     Call to deprecated method registerLoader() of class  
+         Doctrine\Common\Annotations\AnnotationRegistry.      
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserDeleteForm.php                        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/MediaMpxType.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\paragraphs\Plugin\migrate\source\DrupalSqlBase not found  
+         and could not be autoloaded.                                           
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Behat/features/bootstrap/MediaMpxFeatureContext.php            
+ ------ ------------------------------------------------------------------------- 
+         Class MediaMpxFeatureContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\media_theplatform_mpx\Functional\LoadTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/CustomFieldMapTest.php   
+ ------ -------------------------------------------------------- 
+  84     Call to deprecated function entity_get_form_display().  
+  91     Call to deprecated function entity_get_display().       
+  114    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FieldMapTest.php         
+ ------ -------------------------------------------------------- 
+  84     Call to deprecated function entity_get_form_display().  
+  91     Call to deprecated function entity_get_display().       
+  114    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/PlayerFormatterTest.php  
+ ------ -------------------------------------------------------- 
+  88     Call to deprecated function entity_get_form_display().  
+  95     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

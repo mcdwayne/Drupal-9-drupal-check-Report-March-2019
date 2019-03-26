@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/imageapi_optimize_binaries 9e2f6f6571317180574d1e6385cbf649434fa0d8
+source : http://cgit.drupalcode.org/imageapi_optimize_binaries 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Unit/AdvDefTest.php                                        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests\imageapi_optimize\Unit\AdvDefTest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Unit/AdvPngTest.php                                        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests\imageapi_optimize\Unit\AdvPngTest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/BinaryTestCase.php                                       
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\imageapi_optimize\Unit\BinaryTestCase was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

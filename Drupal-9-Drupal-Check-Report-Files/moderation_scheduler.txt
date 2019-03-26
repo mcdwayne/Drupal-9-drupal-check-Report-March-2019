@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/moderation_scheduler 8.x-5.8
+source : http://cgit.drupalcode.org/moderation_scheduler 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/ModerationSchedulerTest.php  
+ ------ -------------------------------------------------- 
+  132    Call to deprecated method assert() of class       
+         Drupal\Tests\BrowserTestBase.                     
+  154    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

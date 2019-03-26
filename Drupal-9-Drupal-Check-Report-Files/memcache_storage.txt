@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/memcache_storage 9078f9f4406fc1ee62f6310aab2ba518fc6ab07b
+source : http://cgit.drupalcode.org/memcache_storage 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/MemcacheStorageBackendUnitTest.php                        
+ ------ -------------------------------------------------------------------- 
+  18     Class Drupal\memcache_storage\Tests\MemcacheStorageBackendUnitTest  
+         extends deprecated class                                            
+         Drupal\system\Tests\Cache\GenericCacheBackendUnitTestBase.          
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

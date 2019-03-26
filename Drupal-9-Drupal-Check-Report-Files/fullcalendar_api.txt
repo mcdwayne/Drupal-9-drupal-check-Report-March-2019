@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fullcalendar_api 19a9b2d700f1c2a618fcacae0ad1ad4434d57259
+source : http://cgit.drupalcode.org/fullcalendar_api 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   fullcalendar_api_example/fullcalendar_api_example.pages.inc  
+ ------ ------------------------------------------------------------- 
+  120    Call to deprecated method entityManager() of class Drupal.   
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   theme/theme.inc                                             
+ ------ ------------------------------------------------------------ 
+  67     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

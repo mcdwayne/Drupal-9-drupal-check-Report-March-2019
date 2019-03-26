@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/kpi_analytics 6aa0f2671d45dba49e974ded68348bc1f0e4ca70
+source : http://cgit.drupalcode.org/kpi_analytics 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/KPIDataFormatter/DatetimeKPIDataFormatter.php                
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\kpi_analytics\Plugin\KPIDataFormatter\DateTimeKPIDataFormatter   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/KPIDatasource/DrupalKPIDatasource.php  
+ ------ -------------------------------------------------- 
+  29     Call to deprecated function db_query().           
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

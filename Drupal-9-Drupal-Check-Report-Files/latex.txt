@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/latex 65a37a5d4d24efbb93dc721a161ab38ba1d93687
+source : http://cgit.drupalcode.org/latex 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LatexForm.php                             
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function node_load().           
+  90     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  127    Call to deprecated function node_load().           
+  153    Call to deprecated function drupal_set_message().  
+  156    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

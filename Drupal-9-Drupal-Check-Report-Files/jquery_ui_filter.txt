@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jquery_ui_filter 360de6667a4cf9235903a5668365562561d25f5d
+source : http://cgit.drupalcode.org/jquery_ui_filter 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/jQueryUiFilterUnitTest.php                                
+ ------ -------------------------------------------------------------------- 
+  23     Class Drupal\jquery_ui_filter\Tests\jQueryUiFilterUnitTest extends  
+         deprecated class Drupal\simpletest\KernelTestBase.                  
+  43     Call to method setUp() of deprecated class                          
+         Drupal\simpletest\KernelTestBase.                                   
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

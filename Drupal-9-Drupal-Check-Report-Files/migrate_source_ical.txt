@@ -1,0 +1,11 @@
+drupal-check results on commit hash: 
+ name     : drupal/migrate_source_ical
+source   : [git] https://git.drupal.org/project/migrate_source_ical 3e88f8ba7ff8c54ad4df535c18737db2d497bea0
+names    : drupal/migrate_source_ical
+source : http://cgit.drupalcode.org/migrate_source_ical
+issues : https://www.drupal.org/project/issues/migrate_source_ical 
+ 
+ <code> 
+Fatal error: Declaration of Drupal\migrate_source_ical\Plugin\migrate\source\Ical::count() must be compatible with Drupal\migrate\Plugin\migrate\source\SourcePluginBase::count($refresh = false) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/migrate_source_ical/src/Plugin/migrate/source/Ical.php on line 20 
+
+ </code>

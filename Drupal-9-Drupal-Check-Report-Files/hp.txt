@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hp 8de90c024f9dd94fd2aff17b274c73d873970fa6
+source : http://cgit.drupalcode.org/hp 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormStrategyForm.php                      
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/hp/Captcha.php                          
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

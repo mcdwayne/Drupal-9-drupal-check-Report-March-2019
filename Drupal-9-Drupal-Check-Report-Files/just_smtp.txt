@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/just_smtp af9227299406a312b63b2a157fbeeacc4dcab7e6
+source : http://cgit.drupalcode.org/just_smtp 
+ 
+ <code> 
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/PHPMailer.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 16
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/PHPMailer.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 16
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/SMTP.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 17
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/SMTP.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 17
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 18
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/Exception.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 18
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/PHPMailer.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 16
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/PHPMailer.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 16
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/SMTP.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 17
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/SMTP.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 17
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 18
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/Exception.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 18
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/PHPMailer.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 16
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/PHPMailer.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 16
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/SMTP.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 17
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/SMTP.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 17
+
+Warning: include_once(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 18
+
+Warning: include_once(): Failed opening '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/PHPMailer/src/Exception.php' for inclusion (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/just_smtp/src/Plugin/Mail/JustSmtpPhpMailer.php on line 18
+
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JustSMTPConfigForm.php                    
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  289    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Plugin/Mail/JustSmtpPhpMailer.php                           
+ ------ ---------------------------------------------------------------- 
+         Class PHPMailer\PHPMailer\PHPMailer not found and could not be  
+         autoloaded.                                                     
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

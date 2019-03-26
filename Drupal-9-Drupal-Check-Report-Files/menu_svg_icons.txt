@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_svg_icons 943396258daad8536be0839da50f9efab24ea01a
+source : http://cgit.drupalcode.org/menu_svg_icons 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/IconSetListBuilder.php          
+ ------ ----------------------------------------------- 
+  26     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IconSetDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IconSetForm.php                           
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+  159    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

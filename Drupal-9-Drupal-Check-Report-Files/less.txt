@@ -1,0 +1,81 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/less 6e75f83f0819eca6c205ef9b489e311ebf45b2fa
+source : http://cgit.drupalcode.org/less 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   classes/class.lessautoprefixer.inc                                 
+ ------ ------------------------------------------------------------------- 
+         Class LessAutoprefixer was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   classes/class.lessjs.inc                                                
+ ------ ------------------------------------------------------------------------ 
+         Class Lessjs was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   engines/abstract.LessEngine.inc                                          
+ ------ ------------------------------------------------------------------------- 
+         Class LessEngine was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   engines/engine.less_js.inc                                          
+ ------ -------------------------------------------------------------------- 
+         Class LessEngineLess_js was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   engines/engine.less_php.inc                                          
+ ------ --------------------------------------------------------------------- 
+         Class LessEngineLess_php was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   engines/engine.lessphp.inc                                          
+ ------ -------------------------------------------------------------------- 
+         Class LessEngineLessphp was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   engines/interface.LessEngine.inc                                      
+ ------ ---------------------------------------------------------------------- 
+         Class LessEngineInterface was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/less.admin.inc                            
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/less.process.inc                          
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function format_string().       
+  156    Call to deprecated function drupal_set_message().  
+  178    Call to deprecated function drupal_realpath().     
+  190    Call to deprecated function drupal_set_message().  
+  242    Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   less.module                                        
+ ------ --------------------------------------------------- 
+  177    Call to deprecated function drupal_set_message().  
+  576    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_vision f7b78d8d9bc11a28f9bde473b309d0b5e786e25e
+source : http://cgit.drupalcode.org/google_vision 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   google_vision.module                               
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/GoogleVisionApi.php                            
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/UserEmotionConstraintValidator.php  
+ ------ --------------------------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/ApiKeyConfigurationTest.php        
+ ------ -------------------------------------------------------- 
+  47     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  48     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  50     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  51     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  52     Call to deprecated method assertLink() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  62     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  63     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  68     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  69     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

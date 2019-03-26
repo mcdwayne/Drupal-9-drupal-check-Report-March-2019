@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/loopit 91be26c65e1da269d0b1beaeb08dafc05418394d
+source : http://cgit.drupalcode.org/loopit 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   loopit.drush.inc                                
+ ------ ------------------------------------------------ 
+  182    Call to deprecated function drupal_realpath().  
+  196    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Aggregate/AggregatePlugin.php        
+ ------ ----------------------------------------- 
+  216    Calls to function dpm should not exist.  
+  217    Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

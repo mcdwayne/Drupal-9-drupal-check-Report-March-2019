@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/faq 2bdc0f0fd3fa1941bf7d3579a498e6f40ca9c69a
+source : http://cgit.drupalcode.org/faq 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   faq.module                                    
+ ------ ---------------------------------------------- 
+  129    Call to deprecated function drupal_render().  
+  130    Call to deprecated function drupal_render().  
+  131    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   includes/faq.hide_answer.inc                     
+ ------ ------------------------------------------------- 
+  100    Call to deprecated method l() of class Drupal.   
+  107    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  107    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   includes/faq.new_page.inc                        
+ ------ ------------------------------------------------- 
+  26     Call to deprecated method l() of class Drupal.   
+  103    Call to deprecated method l() of class Drupal.   
+  110    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  110    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  146    Call to deprecated method l() of class Drupal.   
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   includes/faq.questions_inline.inc                
+ ------ ------------------------------------------------- 
+  122    Call to deprecated method l() of class Drupal.   
+  129    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  129    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   includes/faq.questions_top.inc                  
+ ------ ------------------------------------------------ 
+  44     Call to deprecated method l() of class Drupal.  
+  140    Call to deprecated method l() of class Drupal.  
+  189    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FaqController.php                   
+ ------ --------------------------------------------------- 
+  339    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/FaqViewer.php                               
+ ------ ------------------------------------------------ 
+  46     Call to deprecated method l() of class Drupal.  
+  54     Call to deprecated method l() of class Drupal.  
+  58     Call to deprecated method l() of class Drupal.  
+  97     Call to deprecated function drupal_render().    
+  126    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

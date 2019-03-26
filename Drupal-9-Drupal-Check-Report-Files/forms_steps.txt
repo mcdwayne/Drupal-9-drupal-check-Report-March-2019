@@ -1,0 +1,81 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/forms_steps 47dde54c37774ccaf309520bb98b347139a2e7f7
+source : http://cgit.drupalcode.org/forms_steps 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FormsStepsController.php                     
+ ------ ------------------------------------------------------------ 
+  96     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsAddForm.php                     
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsEditForm.php                    
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+  393    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  395    Call to deprecated function drupal_set_message().  
+  407    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsProgressStepAddForm.php         
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+  152    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsProgressStepDeleteForm.php      
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsProgressStepEditForm.php        
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsStepAddForm.php                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsStepDeleteForm.php              
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormsStepsStepEditForm.php                
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/FormsStepsStepFormBase.php                     
+ ------ -------------------------------------------------------- 
+  537    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Step.php                                                
+ ------ ------------------------------------------------------------ 
+  219    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

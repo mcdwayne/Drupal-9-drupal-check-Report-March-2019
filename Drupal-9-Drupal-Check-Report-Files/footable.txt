@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/footable 9a26f013a2b555b0eb57749d34c0893cef304012
+source : http://cgit.drupalcode.org/footable 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   footable.module                              
+ ------ --------------------------------------------- 
+  51     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  51     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

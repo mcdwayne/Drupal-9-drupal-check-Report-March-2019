@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/geocoder 13bbe218223db34a32438fd8c1ef632c639cdc91
+source : https://cgit.drupalcode.org/geocoder 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Drupal\geocoder_geofield\StatefulGeocoder not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Drupal\geocoder...')
+#1 /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/geocoder/modules/geocoder_geofield/src/ProviderUsingGeometryHandler.php(10): spl_autoload_call('Drupal\geocoder...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/home/thatonegu...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/thatonegu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\geocoder...')
+#5 [internal function]: spl_autoload_call('Drupal\geocoder...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php(347): in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupal\geocoder_geofield\ProviderUsingGeometryHandler::getHandlerWrapper(): Drupal\geocoder_geofield\StatefulGeocoder must be compatible with Drupal\geocoder\ProviderUsingHandlerBase::getHandlerWrapper(): Geocoder\StatefulGeocoder in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/geocoder/modules/geocoder_geofield/src/ProviderUsingGeometryHandler.php on line 10 
+
+ </code>

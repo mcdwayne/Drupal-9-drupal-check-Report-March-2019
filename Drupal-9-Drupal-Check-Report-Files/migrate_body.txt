@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_body 298a07ef642ae388d43ac23ecfe185fb3f42a3f4
+source : http://cgit.drupalcode.org/migrate_body 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/EventSubscriber/BodyTextContentRollback.php  
+ ------ ------------------------------------------------- 
+  27     Call to deprecated function node_load().         
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/migrate/process/BodyTextContentMigration.php     
+ ------ ------------------------------------------------------------ 
+  198    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

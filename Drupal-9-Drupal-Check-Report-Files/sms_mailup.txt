@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sms_mailup 8.x-1.0-beta2
+source : http://cgit.drupalcode.org/sms_mailup 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/MailupController.php                
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailupNewTokenConfirmForm.php             
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/SmsGateway/MailUp.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\sms\Plugin\SmsGatewayPluginBase not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

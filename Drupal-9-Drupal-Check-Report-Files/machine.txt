@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/machine 71af1f25c620940046753916e1ac649f40bc629f
+source : http://cgit.drupalcode.org/machine 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdminForm.php                             
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

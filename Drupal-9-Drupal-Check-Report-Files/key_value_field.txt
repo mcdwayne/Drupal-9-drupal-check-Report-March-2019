@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/key_value_field c5e3b5b9650d379a8f98963a4eed7a92834d9829
+source : http://cgit.drupalcode.org/key_value_field 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/KeyValueFormatter.php  
+ ------ ------------------------------------------------------- 
+  82     Call to deprecated method checkPlain() of class        
+         Drupal\Component\Utility\SafeMarkup.                   
+  82     Call to method checkPlain() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.                   
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/KeyValueFieldTypeTrait.php (in context of class Drupal\key_value_field\Plugin\Field\FieldType\KeyValueItem)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------- 
+  52     Instantiation of deprecated class                                                                                                       
+         Drupal\Core\StringTranslation\TranslationWrapper.                                                                                       
+  56     Instantiation of deprecated class                                                                                                       
+         Drupal\Core\StringTranslation\TranslationWrapper.                                                                                       
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/KeyValueFieldTypeTrait.php (in context of class Drupal\key_value_field\Plugin\Field\FieldType\KeyValueLongItem)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  52     Instantiation of deprecated class                                                                                                           
+         Drupal\Core\StringTranslation\TranslationWrapper.                                                                                           
+  56     Instantiation of deprecated class                                                                                                           
+         Drupal\Core\StringTranslation\TranslationWrapper.                                                                                           
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

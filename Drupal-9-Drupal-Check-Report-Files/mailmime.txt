@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailmime 8a63c2efd3e7995a6912cba31954203e1ce8e6d4
+source : http://cgit.drupalcode.org/mailmime 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   mailmime.inc                                                           
+ ------ ----------------------------------------------------------------------- 
+         Class MailMIME was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mailmime.module                                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+  52     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

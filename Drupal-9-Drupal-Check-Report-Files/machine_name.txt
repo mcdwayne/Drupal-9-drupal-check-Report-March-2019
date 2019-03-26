@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/machine_name 43eccd1cd3084204246efa7ef77cc1e406b007d1
+source : http://cgit.drupalcode.org/machine_name 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/MachineNameItemTest.php          
+ ------ -------------------------------------------------- 
+  61     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  62     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  67     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  72     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

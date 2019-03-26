@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailcamp 620997459359e0323bc8e5ca48e17159595c3782
+source : http://cgit.drupalcode.org/mailcamp 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SignupForm.php                            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/MailcampSignup.php                
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,10 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/htmlmail 40be72db5d20ecc70403ac4d298cf8e807b283f6
+source : https://cgit.drupalcode.org/htmlmail 
+ 
+ <code> 
+Warning: require_once(Mail/mime.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/htmlmail/src/Utility/HTMLMailMime.php on line 33
+
+Fatal error: require_once(): Failed opening required 'Mail/mime.php' (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/htmlmail/src/Utility/HTMLMailMime.php on line 33 
+
+ </code>

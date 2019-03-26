@@ -1,0 +1,220 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flag 468d1e0d1ecb7070525ac3924596cb939d825034
+source : http://cgit.drupalcode.org/flag 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/flag_bookmark/tests/src/FunctionalJavascript/FlagBookmarkUITest.php  
+ ------ ----------------------------------------------------------------------------- 
+  12     Class                                                                        
+         Drupal\Testslag_bookmark\FunctionalJavascript\FlagBookmarkUITest           
+         extends deprecated class                                                     
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                         
+  29     Call to method setUp() of deprecated class                                   
+         Drupal\Tests\BrowserTestBase.                                                
+  59     Call to deprecated method assertText() of class                              
+         Drupal\Tests\BrowserTestBase.                                                
+  105    Call to deprecated method assertNoText() of class                            
+         Drupal\Tests\BrowserTestBase.                                                
+  106    Call to deprecated method assertNoText() of class                            
+         Drupal\Tests\BrowserTestBase.                                                
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/FlagFormBase.php                                          
+ ------ ------------------------------------------------------------------- 
+  305    Call to deprecated method urlInfo() of class                       
+         Drupal\CorentityntityInterface.                                
+  307    Call to deprecated function drupal_set_message().                  
+  308    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  311    Call to deprecated function drupal_set_message().                  
+  312    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlagResetForm.php                         
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/FlagTestBase.php                    
+ ------ ---------------------------------------------- 
+  157    Call to deprecated function format_string().  
+  172    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/AnonymousFlagTest.php        
+ ------ -------------------------------------------------- 
+  79     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/ShowOnEntityFormTest.php              
+ ------ ----------------------------------------------------------- 
+  117    Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  143    Call to deprecated method assertNoField() of class         
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/AjaxLinkTest.php                        
+ ------ ----------------------------------------------------------------------- 
+  20     Class Drupal\Testslag\FunctionalJavascript\AjaxLinkTest extends      
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.  
+  74     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FlagContextualLinksTest.php            
+ ------ ---------------------------------------------------------------------- 
+  20     Class Drupal\Testslag\FunctionalJavascript\FlagContextualLinksTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+  86     Call to method setUp() of deprecated class                            
+         Drupal\Tests\BrowserTestBase.                                         
+  193    Call to deprecated function format_string().                          
+  207    Call to deprecated function format_string().                          
+  226    Call to deprecated function format_string().                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FlagCountExtensionTest.php            
+ ------ --------------------------------------------------------------------- 
+  14     Class Drupal\Testslag\FunctionalJavascript\FlagCountExtensionTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+  32     Call to method setUp() of deprecated class                           
+         Drupal\Tests\BrowserTestBase.                                        
+  79     Call to deprecated method assertText() of class                      
+         Drupal\Tests\BrowserTestBase.                                        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/LinkTypeAjaxTest.php                    
+ ------ ----------------------------------------------------------------------- 
+  13     Class Drupal\Testslag\FunctionalJavascript\LinkTypeAjaxTest extends  
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.  
+  61     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ModalFormTest.php                       
+ ------ ----------------------------------------------------------------------- 
+  14     Class Drupal\Testslag\FunctionalJavascript\ModalFormTest extends     
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.  
+  62     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/FlagActionTest.php              
+ ------ ------------------------------------------------- 
+  92     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  144    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/FlagCountsTest.php               
+ ------ -------------------------------------------------- 
+  169    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  174    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  175    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  180    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  185    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  206    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  208    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  217    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  244    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  246    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  250    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  291    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  293    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  297    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  305    Call to deprecated method assert() of class       
+         Drupal\KernelTests\KernelTestBase.                
+  342    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  345    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  353    Call to deprecated method assert() of class       
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/FlagKernelTestBase.php                                 
+ ------ ------------------------------------------------------------------------ 
+  16     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Testslag\Kernel\FlagKernelTestBase.                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/FlagServiceTest.php                  
+ ------ ------------------------------------------------------ 
+  36     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  76     Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  91     Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  108    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  116    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  127    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  136    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  151    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  159    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  166    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/FlaggingStorageTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Testslag\Kernel\FlaggingStorageTest.                      
+  17     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Testslag\Kernel\FlaggingStorageTest.                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Action/FlagActionTest.php  
+ ------ ------------------------------------------------- 
+  38     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  83     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  102    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 66 errors                                                         
+
+ </code>

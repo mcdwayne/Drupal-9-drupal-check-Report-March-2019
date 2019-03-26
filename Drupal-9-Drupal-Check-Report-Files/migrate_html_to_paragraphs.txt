@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_html_to_paragraphs b7fe3b2135910783f13ed27eea17b713df468b57
+source : http://cgit.drupalcode.org/migrate_html_to_paragraphs 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/migrate/html/process/HtmlTagImgProcess.php  
+ ------ ------------------------------------------------------- 
+  258    Call to deprecated function drupal_basename().         
+  369    Call to deprecated function drupal_basename().         
+  398    Call to deprecated method strlen() of class            
+         Drupal\Component\Utility\Unicode.                      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

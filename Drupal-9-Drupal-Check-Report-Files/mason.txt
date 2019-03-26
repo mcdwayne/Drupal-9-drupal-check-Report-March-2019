@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mason 94237baa96905d2495c70b760bb4d6e355a3d410
+source : http://cgit.drupalcode.org/mason 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/mason_ui/src/Controller/MasonListBuilder.php  
+ ------ ------------------------------------------------------ 
+  131    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/mason_ui/src/Form/MasonDeleteForm.php      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/mason_ui/src/Form/MasonForm.php            
+ ------ --------------------------------------------------- 
+  495    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  508    Call to deprecated function drupal_set_message().  
+  513    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/views/style/MasonViews.php                  
+ ------ ------------------------------------------------------- 
+  64     Call to method extendedSettings() of deprecated class  
+         Drupallazy\BlazyDefault.                             
+  102    Call to method entitySettings() of deprecated class    
+         Drupallazy\BlazyDefault.                             
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

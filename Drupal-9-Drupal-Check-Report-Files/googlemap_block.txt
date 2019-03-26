@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/googlemap_block 0bf8c8536eb748957b4c64c9595040efb2fa52d8
+source : http://cgit.drupalcode.org/googlemap_block 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddLocation.php                           
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function db_insert().           
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditLocation.php                          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function db_select().           
+  101    Call to deprecated function db_update().           
+  113    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/GoogleMapList.php                
+ ------ ------------------------------------------ 
+  38     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MapLocationDelete.php                     
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function db_select().           
+  79     Call to deprecated function db_delete().           
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/filehash f3ca346887968370c340ba4ea88cae24e53cca59
+source : http://cgit.drupalcode.org/filehash 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Batch/GenerateBatch.php                        
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Tests/FileHashTest.php                                         
+ ------ ------------------------------------------------------------------- 
+  14     Class Drupalilehash\Tests\FileHashTest extends deprecated class  
+         Drupalile\Tests\FileFieldTestBase.                               
+  32     Call to method setUp() of deprecated class                         
+         Drupalile\Tests\FileFieldTestBase.                               
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

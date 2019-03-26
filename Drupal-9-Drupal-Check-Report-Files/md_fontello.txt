@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/md_fontello b2495ddc99668e584ba60fcf3de36029401e20da
+source : http://cgit.drupalcode.org/md_fontello 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MDFontelloDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MDFontelloForm.php                        
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_url_formatter e9b3b4de22140de73b96093d0f19629aa930d9fe
+source : http://cgit.drupalcode.org/image_url_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   image_url_formatter.module                      
+ ------ ------------------------------------------------ 
+  66     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ImageUrlFormatter.php  
+ ------ ------------------------------------------------------- 
+  221    Call to deprecated method urlInfo() of class           
+         Drupal\CorentityntityInterface.                    
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,192 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/indieweb 902b67def6e04f2a4bbadc287dca780638b26067
+source : http://cgit.drupalcode.org/indieweb 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/indieweb_feed/src/Form/FeedForm.php                 
+ ------ ------------------------------------------------------------ 
+  155    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/indieweb_indieauth/src/Controller/IndieAuthController.php       
+ ------ ------------------------------------------------------------------------ 
+  436    Call to deprecated method set() of class Lcobucci\JWT\Builder.          
+  436    Call to deprecated method setAudience() of class Lcobucci\JWT\Builder.  
+  436    Call to deprecated method setId() of class Lcobucci\JWT\Builder.        
+  436    Call to deprecated method setIssuedAt() of class Lcobucci\JWT\Builder.  
+  436    Call to deprecated method setIssuer() of class Lcobucci\JWT\Builder.    
+  436    Call to deprecated method sign() of class Lcobucci\JWT\Builder.         
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/indieweb_indieauth/src/IndieAuthClient/IndieAuthClient.php  
+ ------ -------------------------------------------------------------------- 
+  93     Call to deprecated method verify() of class Lcobucci\JWT\Token.     
+  95     Call to deprecated method getHeader() of class Lcobucci\JWT\Token.  
+  153    Call to deprecated function drupal_unlink().                        
+  160    Call to deprecated function drupal_chmod().                         
+  234    Call to deprecated method verify() of class Lcobucci\JWT\Token.     
+  236    Call to deprecated method getHeader() of class Lcobucci\JWT\Token.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------- 
+  Line   modules/indieweb_microformat/src/Plugin/Field/FieldFormatter/EntityReferenceLabelWithClassFormatter.php  
+ ------ --------------------------------------------------------------------------------------------------------- 
+  81     Call to deprecated method urlInfo() of class                                                             
+         Drupal\CorentityntityInterface.                                                                      
+ ------ --------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   modules/indieweb_microformat/src/Plugin/Field/FieldFormatter/GeoMicroformatFormatter.php  
+ ------ ------------------------------------------------------------------------------------------ 
+         Class Drupal\geofield\Plugin\Field\FieldFormatter\LatLonFormatter not                     
+         found and could not be autoloaded.                                                        
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   modules/indieweb_microformat/src/Plugin/Field/FieldFormatter/OptionsMicroformatFormatter.php  
+ ------ ---------------------------------------------------------------------------------------------- 
+  27     Usage of deprecated trait Drupal\Core\Field\AllowedTagsXssTrait in                            
+         class                                                                                         
+         Drupal\indieweb_microformat\Plugin\Field\FieldFormatter\OptionsMicrofor                       
+         matFormatter.                                                                                 
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/indieweb_microsub/src/Controller/MicrosubController.php  
+ ------ ----------------------------------------------------------------- 
+  672    Call to deprecated method entityManager() of class               
+         Drupal\Core\Controller\ControllerBase.                           
+  683    Call to deprecated method entityManager() of class               
+         Drupal\Core\Controller\ControllerBase.                           
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/indieweb_webmention/src/Controller/CommentController.php  
+ ------ ------------------------------------------------------------------ 
+  88     Call to deprecated method entityManager() of class                
+         Drupal\Core\Controller\ControllerBase.                            
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/indieweb_webmention/src/Entity/Storage/SyndicationStorage.php  
+ ------ ----------------------------------------------------------------------- 
+  46     Call to deprecated function db_like().                                 
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/indieweb_webmention/src/Form/CommentSettingsForm.php  
+ ------ -------------------------------------------------------------- 
+  165    Call to deprecated method entityManager() of class Drupal.    
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/indieweb_webmention/src/Form/WebmentionNotifyForm.php       
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\indieweb_webmention\Form\webmentionNotifyForm was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/RabbitHoleBehaviorPlugin/Gone410.php                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalabbit_hole\Plugin\RabbitHoleBehaviorPluginBase not found  
+         and could not be autoloaded.                                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/indieweb_test/GoneTest.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\indieweb\Functional\GoneTest was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/CommentTest.php              
+ ------ -------------------------------------------------- 
+  250    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  265    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  270    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Functional/IndiewebBrowserTestBase.php                        
+ ------ ------------------------------------------------------------------------ 
+  865    Call to deprecated method set() of class Lcobucci\JWT\Builder.          
+  865    Call to deprecated method setAudience() of class Lcobucci\JWT\Builder.  
+  865    Call to deprecated method setId() of class Lcobucci\JWT\Builder.        
+  865    Call to deprecated method setIssuedAt() of class Lcobucci\JWT\Builder.  
+  865    Call to deprecated method setIssuer() of class Lcobucci\JWT\Builder.    
+  865    Call to deprecated method sign() of class Lcobucci\JWT\Builder.         
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/MicropubTest.php             
+ ------ -------------------------------------------------- 
+  162    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  234    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  297    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  421    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  451    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  483    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  534    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  577    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  618    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  660    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  1061   Call to deprecated function node_type_load().     
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/MicrosubTest.php              
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function entity_get_display().  
+  211    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  214    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  218    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  222    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  296    Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/RsvpTest.php                
+ ------ ------------------------------------------------- 
+  73     Call to deprecated function format_date().       
+  74     Call to deprecated function format_date().       
+  111    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/WebmentionTest.php           
+ ------ -------------------------------------------------- 
+  84     Call to deprecated method assertUrl() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  488    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 55 errors                                                         
+
+ </code>

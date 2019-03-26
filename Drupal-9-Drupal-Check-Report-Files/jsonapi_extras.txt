@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jsonapi_extras 25f1d3607d725cd533279f3fa8b2f9fbc53604d0
+source : http://cgit.drupalcode.org/jsonapi_extras 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JsonapiResourceConfigDeleteForm.php       
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JsonapiResourceConfigForm.php             
+ ------ --------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().  
+  209    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Normalizer/SchemaFieldDefinitionNormalizer.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\schemata_json_schema\Normalizer\jsonapi\FieldDefinitionNormalize  
+         r not found and could not be autoloaded.                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Normalizer/SchemataSchemaNormalizer.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\schemata_json_schema\Normalizer\jsonapi\SchemataSchemaNormalizer  
+         not found and could not be autoloaded.                                   
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

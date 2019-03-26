@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/helpfulness 8.x-1.0-rc2
+source : http://cgit.drupalcode.org/helpfulness 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/HelpfulnessAdminForm.php                   
+ ------ ---------------------------------------------------- 
+  130    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HelpfulnessBlockForm.php                  
+ ------ --------------------------------------------------- 
+  96     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HelpfulnessConfirmDeleteFeedbackForm.php  
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/HelpfulnessReportDownloadForm.php  
+ ------ -------------------------------------------- 
+  137    Call to deprecated function format_date().  
+  145    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HelpfulnessReportForm.php                 
+ ------ --------------------------------------------------- 
+  199    Call to deprecated function format_date().         
+  200    Call to deprecated function format_date().         
+  289    Call to deprecated function drupal_set_message().  
+  303    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HelpfulnessReportOptionsForm.php          
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

@@ -1,0 +1,62 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ledger 16acb960d019c7f6aa1d5550ec22cfead96eeb91
+source : http://cgit.drupalcode.org/ledger 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/account/src/Controller/LedgerAccountAddController.php  
+ ------ --------------------------------------------------------------- 
+  57     Call to deprecated method l() of class                         
+         Drupal\Core\Controller\ControllerBase.                         
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/account/src/Form/LedgerAccountForm.php     
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/account/src/Form/LedgerAccountTypeDeleteForm.php  
+ ------ ---------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/account/src/Form/LedgerAccountTypeForm.php  
+ ------ ---------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().   
+  74     Call to deprecated function drupal_set_message().   
+  78     Call to deprecated method urlInfo() of class        
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/account/src/LedgerAccountListBuilder.php                     
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\ledger_account\LedgerAccountListBuilder.                
+  34     Call to deprecated method l() of class                               
+         Drupal\ledger_account\LedgerAccountListBuilder.                      
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LedgerForm.php                            
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/LedgerListBuilder.php                                                
+ ------ ------------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in      
+         class Drupal\ledger\LedgerListBuilder.                                   
+  34     Call to deprecated method l() of class Drupal\ledger\LedgerListBuilder.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

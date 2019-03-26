@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/juicebox 8649ef0e169c14213a4a98341356a6bab734feb1
+source : http://cgit.drupalcode.org/juicebox 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+  157    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/JuiceboxFormatter.php                          
+ ------ --------------------------------------------------- 
+  163    Call to deprecated function libraries_detect().    
+  364    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  371    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  387    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  440    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/JuiceboxFieldFormatter.php  
+ ------ ------------------------------------------------------------ 
+  247    Call to deprecated function drupal_set_message().           
+  338    Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/style/JuiceboxDisplayStyle.php    
+ ------ --------------------------------------------------- 
+  254    Call to deprecated function drupal_set_message().  
+  500    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

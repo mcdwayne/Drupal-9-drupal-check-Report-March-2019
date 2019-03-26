@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/icon_select c5afbd7254cfab10ea55a9d52783562798c5c36a
+source : http://cgit.drupalcode.org/icon_select 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   icon_select.module                                    
+ ------ ------------------------------------------------------ 
+  137    Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomyntity\Term.                          
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/Helper/SvgSpriteGenerator.php              
+ ------ ----------------------------------------------- 
+  92     Call to deprecated function drupal_dirname().  
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

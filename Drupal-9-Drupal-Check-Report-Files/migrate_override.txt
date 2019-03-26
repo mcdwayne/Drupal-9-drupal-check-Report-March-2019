@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_override 3ce0d81fc983e510473222d7c8ce6cf82e1edaaf
+source : http://cgit.drupalcode.org/migrate_override 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/SettingsTest.php                
+ ------ ----------------------------------------------------- 
+  49     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  50     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  51     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

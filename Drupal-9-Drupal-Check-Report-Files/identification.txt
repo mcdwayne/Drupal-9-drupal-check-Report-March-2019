@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/identification e0751bfaf5657e7f32b2613ae52278c2cb554f8a
+source : http://cgit.drupalcode.org/identification 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   identification.module                     
+ ------ ------------------------------------------ 
+  27     Call to deprecated function db_select().  
+  54     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/IdentificationConfigForm.php                       
+ ------ ------------------------------------------------------------ 
+  40     Call to deprecated method l() of class Drupal.              
+  56     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

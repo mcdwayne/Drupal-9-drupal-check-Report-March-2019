@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ime 940769a99a00eb1e10703b7956b82b52d1ffecc9
+source : http://cgit.drupalcode.org/ime 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   ime.module                                         
+ ------ --------------------------------------------------- 
+  30     Call to deprecated method url() of class Drupal.   
+  101    Call to deprecated function libraries_detect().    
+  109    Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImeAdminForm.php                          
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function libraries_detect().    
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

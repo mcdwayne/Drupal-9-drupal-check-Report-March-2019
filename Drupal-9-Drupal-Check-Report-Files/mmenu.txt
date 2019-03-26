@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mmenu a3c39ba347dd1156c362c1536cdd6f7f46dc05fa
+source : http://cgit.drupalcode.org/mmenu 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   mmenu.module                                         
+ ------ ----------------------------------------------------- 
+  331    Call to deprecated function libraries_get_path().    
+  348    Call to deprecated function libraries_get_path().    
+  365    Call to deprecated function libraries_get_path().    
+  378    Call to deprecated function libraries_get_path().    
+  1081   Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MmenuSettingsForm.php                     
+ ------ --------------------------------------------------- 
+  85     Calls to function dpm should not exist.            
+  235    Call to deprecated function drupal_set_message().  
+  246    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/MMenuMenuTest.php                                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\mmenu\Tests\MmenuMenuTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

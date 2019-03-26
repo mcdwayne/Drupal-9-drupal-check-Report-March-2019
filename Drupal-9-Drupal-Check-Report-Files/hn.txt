@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hn 41b43fd68ddc51846bd5fe71d03ddcd53da15cca
+source : http://cgit.drupalcode.org/hn 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/hn_cleaner/src/Form/SettingsForm.php                
+ ------ ------------------------------------------------------------ 
+  68     Call to deprecated method entityManager() of class Drupal.  
+  102    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/hn_frontend/src/Form/SettingsForm.php      
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ImageItemNormalizerTest.php                       
+ ------ ------------------------------------------------------------------- 
+  47     Call to deprecated method url() of class Drupalilentity\File.  
+  74     Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

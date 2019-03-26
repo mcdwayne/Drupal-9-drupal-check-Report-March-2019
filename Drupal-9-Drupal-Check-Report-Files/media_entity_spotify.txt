@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_spotify de79344d34e84da9e86aff019b33767aaa01e8dd
+source : http://cgit.drupalcode.org/media_entity_spotify 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/SpotifyEmbedFormatter.php           
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/Spotify.php                             
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/SpotifyEmbedFormatterTest.php                                 
+ ------ ------------------------------------------------------------------------ 
+  13     Class Drupal\media_entity\Tests\MediaTestTrait not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

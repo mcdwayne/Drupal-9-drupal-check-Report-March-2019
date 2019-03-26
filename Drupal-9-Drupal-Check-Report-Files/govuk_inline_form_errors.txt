@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/govuk_inline_form_errors 0403f340262f90b7f8109536ec26c48b678ddbad
+source : http://cgit.drupalcode.org/govuk_inline_form_errors 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/GovUKFormErrorHandler.php                                        
+ ------ --------------------------------------------------------------------- 
+  23     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\govuk_inline_form_errors\GovUKFormErrorHandler.         
+  100    Call to deprecated method l() of class                               
+         Drupal\govuk_inline_form_errors\GovUKFormErrorHandler.               
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

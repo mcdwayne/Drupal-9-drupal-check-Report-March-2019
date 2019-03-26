@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lightning_scheduler 772f1739f532edf77b005f22d2f718c6c5e1d196
+source : http://cgit.drupalcode.org/lightning_scheduler 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/contexts/Helpers.behat.inc                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Acquia\LightningExtension\Context\Helpers was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/contexts/SchedulerContext.behat.inc                               
+ ------ ------------------------------------------------------------------------ 
+         Class Acquia\LightningExtension\Context\SchedulerContext was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/InlineEntityFormTest.php           
+ ------ -------------------------------------------------------- 
+  35     Call to deprecated function entity_create().            
+  45     Call to deprecated function entity_create().            
+  58     Call to deprecated function entity_get_form_display().  
+  64     Call to deprecated function entity_create().            
+  74     Call to deprecated function entity_create().            
+  87     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

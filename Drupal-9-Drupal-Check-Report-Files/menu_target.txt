@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_target 16f179ecac38fac743156de2516c088720e710ab
+source : http://cgit.drupalcode.org/menu_target 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   menu_target.admin.inc                     
+ ------ ------------------------------------------ 
+  172    Call to deprecated function db_query().   
+  187    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   menu_target.module                            
+ ------ ---------------------------------------------- 
+  57     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lionbridge_translation_provider a5bfd7e7bf1cb59f983055f8e806ccb2034acce7
+source : http://cgit.drupalcode.org/lionbridge_translation_provider 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   lionbridge_translation_provider.module             
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  189    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  189    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  200    Call to deprecated function drupal_set_message().  
+  206    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/LionbridgeTranslatorUi.php                     
+ ------ --------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

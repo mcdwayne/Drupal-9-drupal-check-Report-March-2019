@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fixed_block_content 0cb25873bc3bb950e5dacd0905297946ebb51015
+source : https://cgit.drupalcode.org/fixed_block_content 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/FixedBlockContentDeleteForm.php               
+ ------ ------------------------------------------------------- 
+  53     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/FixedBlockContentForm.php                                   
+ ------ --------------------------------------------------------------------- 
+         Class Drupalixed_block_content\Form\FixedBlockcontentForm was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

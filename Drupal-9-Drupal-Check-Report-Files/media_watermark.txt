@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_watermark 9b22da285fbd4d275143860947425e63d0033245
+source : http://cgit.drupalcode.org/media_watermark 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/MediaWatermarkListBuilder.php   
+ ------ ----------------------------------------------- 
+  37     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/BatchWatermarkForm.php                                    
+ ------ ------------------------------------------------------------------- 
+  220    Call to deprecated method url() of class Drupalilentity\File.  
+  237    Call to deprecated method getUsername() of class                   
+         Drupal\userntity\User.                                           
+  251    Call to deprecated function file_uri_scheme().                     
+  323    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MediaWatermarkDeleteForm.php              
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MediaWatermarkForm.php                    
+ ------ --------------------------------------------------- 
+  129    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  137    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+  167    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Watermark/Watermark.php                        
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated function drupal_set_message().  
+  239    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated function drupal_set_message().  
+  248    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

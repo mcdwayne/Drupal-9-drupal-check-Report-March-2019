@@ -1,0 +1,124 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/login_security 734ed5d241416246f54f7e7f857c97a06fc249a8
+source : http://cgit.drupalcode.org/login_security 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   login_security.module                               
+ ------ ---------------------------------------------------- 
+  125    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  125    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  214    Call to deprecated function drupal_get_messages().  
+  240    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  240    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  242    Call to deprecated function drupal_set_message().   
+  259    Call to deprecated function drupal_set_message().   
+  259    Call to deprecated function format_date().          
+  264    Call to deprecated function drupal_set_message().   
+  264    Call to deprecated function format_date().          
+  283    Call to deprecated function db_delete().            
+  289    Call to deprecated function db_delete().            
+  317    Call to deprecated function db_delete().            
+  333    Call to deprecated function db_insert().            
+  358    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  358    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  384    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  384    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  411    Call to deprecated function format_date().          
+  460    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  460    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  461    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  461    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  465    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  465    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  466    Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  466    Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoginSecurityAdminSettings.php            
+ ------ --------------------------------------------------- 
+  241    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/LoginSecurityInterfaceTest.php     
+ ------ --------------------------------------------- 
+  40     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  40     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/LoginSecuritySoftBlockTest.php     
+ ------ --------------------------------------------- 
+  24     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  24     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Tests/LoginSecurityTestBase.php      
+ ------ ----------------------------------------- 
+  22     Call to deprecated function db_query().  
+  23     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/LoginSecurityUserBlockingTest.php       
+ ------ -------------------------------------------------- 
+  50     Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  50     Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  64     Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  64     Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  105    Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  105    Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  106    Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  106    Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  150    Call to deprecated function db_truncate().        
+  170    Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  170    Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  171    Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  171    Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  217    Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  217    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  217    Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 50 errors                                                         
+
+ </code>

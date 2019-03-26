@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/govcms_dlm d164f0076c1f96af9cd90741ede04b45b3e087cd
+source : http://cgit.drupalcode.org/govcms_dlm 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   govcms_dlm.module                                
+ ------ ------------------------------------------------- 
+  26     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  26     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  31     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  31     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

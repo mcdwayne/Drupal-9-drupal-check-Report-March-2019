@@ -1,0 +1,561 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_effects 4360c8afa196098208adf2aada96a265323b0f0e
+source : http://cgit.drupalcode.org/image_effects 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   image_effects.module                         
+ ------ --------------------------------------------- 
+  150    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  151    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  168    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  172    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Component/ColorUtility.php                   
+ ------ ------------------------------------------------- 
+  22     Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  46     Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  63     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Component/TextUtility.php                
+ ------ --------------------------------------------- 
+  55     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  65     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Element/ImageEffectsColor.php                
+ ------ ------------------------------------------------- 
+  51     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  54     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  100    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/ImageEffectsPluginManager.php     
+ ------ --------------------------------------------- 
+  109    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  109    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\Background)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                       
+         Drupal\Component\Utility\Unicode.                                                                                                                 
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\DrawEllipse)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                        
+         Drupal\Component\Utility\Unicode.                                                                                                                  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\DrawLine)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------ 
+  47     Call to deprecated method substr() of class                                                                                                     
+         Drupal\Component\Utility\Unicode.                                                                                                               
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\DrawRectangle)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                          
+         Drupal\Component\Utility\Unicode.                                                                                                                    
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\GaussianBlur)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                         
+         Drupal\Component\Utility\Unicode.                                                                                                                   
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\Opacity)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                    
+         Drupal\Component\Utility\Unicode.                                                                                                              
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\SetGifTransparentColor)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                                   
+         Drupal\Component\Utility\Unicode.                                                                                                                             
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\SmartCrop)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                      
+         Drupal\Component\Utility\Unicode.                                                                                                                
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\TextOverlay)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                        
+         Drupal\Component\Utility\Unicode.                                                                                                                  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\TextToWrapper)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                          
+         Drupal\Component\Utility\Unicode.                                                                                                                    
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php (in context of class Drupal\image_effects\Plugin\ImageToolkit\Operation\gd\Watermark)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------- 
+  47     Call to deprecated method substr() of class                                                                                                      
+         Drupal\Component\Utility\Unicode.                                                                                                                
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/gd/TextToWrapper.php  
+ ------ -------------------------------------------------------- 
+  388    Call to deprecated method strlen() of class             
+         Drupal\Component\Utility\Unicode.                       
+  391    Call to deprecated method strlen() of class             
+         Drupal\Component\Utility\Unicode.                       
+  395    Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  403    Call to deprecated method strlen() of class             
+         Drupal\Component\Utility\Unicode.                       
+  404    Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  408    Call to deprecated method strlen() of class             
+         Drupal\Component\Utility\Unicode.                       
+  408    Call to deprecated method strlen() of class             
+         Drupal\Component\Utility\Unicode.                       
+  412    Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  413    Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  416    Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  418    Call to deprecated method substr() of class             
+         Drupal\Component\Utility\Unicode.                       
+  428    Call to deprecated method strlen() of class             
+         Drupal\Component\Utility\Unicode.                       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/AutoOrient.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Background.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Brightness.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Colorshift.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Contrast.php               
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Convolution.php            
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/DrawEllipse.php            
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/DrawRectangle.php          
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/GaussianBlur.php           
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/ImagemagickArguments.php   
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Interlace.php              
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Invert.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Mask.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Mirror.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Opacity.php                
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/ReplaceImage.php           
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/ScaleAndSmartCrop.php      
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/SetCanvas.php              
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/SetGifTransparentColor.php  
+ ------ -------------------------------------------------------------------------- 
+         Class                                                                     
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic   
+         kImageToolkitOperationBase not found and could not be autoloaded.         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/SmartCrop.php              
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Strip.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/TextToWrapper.php          
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagemagick/Watermark.php              
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\imagemagick\Plugin\ImageToolkit\Operation\imagemagick\Imagemagic  
+         kImageToolkitOperationBase not found and could not be autoloaded.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/image_effects/ColorSelector/JqueryColorPicker.php  
+ ------ -------------------------------------------------------------- 
+  27     Call to deprecated method substr() of class                   
+         Drupal\Component\Utility\Unicode.                             
+ ------ -------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/image_effects/ImageSelector/Dropdown.php  
+ ------ ----------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Tests/Update/Update8201Test.php                              
+ ------ ----------------------------------------------------------------- 
+  12     Class Drupal\image_effects\Tests\Update\Update8201Test extends   
+         deprecated class Drupal\system\Tests\Update\UpdatePathTestBase.  
+ ------ ----------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/Effect/AutoOrientTest.php    
+ ------ -------------------------------------------------- 
+  89     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  90     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  103    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  109    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  110    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  152    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  153    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/Effect/BackgroundTest.php       
+ ------ ----------------------------------------------------- 
+  56     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  57     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  66     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  72     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  73     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  101    Call to deprecated method assertNotEqual() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  117    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  118    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/Effect/ConvolutionSharpenTest.php  
+ ------ -------------------------------------------------------- 
+  70     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/Effect/ConvolutionTest.php   
+ ------ -------------------------------------------------- 
+  117    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  118    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  119    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  120    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/Effect/GaussianBlurTest.php  
+ ------ -------------------------------------------------- 
+  61     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/Effect/ImagemagickArgumentsTest.php  
+ ------ ---------------------------------------------------------- 
+  44     Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  66     Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  73     Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  74     Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  76     Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  102    Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  110    Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  111    Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  140    Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+  169    Call to deprecated method assertEqual() of class          
+         Drupal\Tests\BrowserTestBase.                             
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/Effect/MirrorTest.php       
+ ------ ------------------------------------------------- 
+  87     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/Effect/SetCanvasTest.php     
+ ------ -------------------------------------------------- 
+  60     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  61     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  70     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  75     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  76     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  103    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  104    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  113    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  118    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  119    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/Effect/StripMetadataTest.php  
+ ------ --------------------------------------------------- 
+  60     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  67     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/Effect/TextOverlayTest.php   
+ ------ -------------------------------------------------- 
+  131    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  155    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  156    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  157    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  165    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  166    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  176    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/ImageEffectsTestBase.php     
+ ------ -------------------------------------------------- 
+  91     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  142    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/SelectorPluginTest.php      
+ ------ ------------------------------------------------- 
+  45     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  68     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  99     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  122    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/SettingsFormTest.php            
+ ------ ----------------------------------------------------- 
+  51     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  63     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  75     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  94     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  97     Call to deprecated method assertNotEqual() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 125 errors                                                        
+
+ </code>

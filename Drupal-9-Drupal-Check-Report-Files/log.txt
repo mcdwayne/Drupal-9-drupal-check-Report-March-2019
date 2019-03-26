@@ -1,0 +1,153 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/log 729da32f610b6eeff755b5935e9f189171365803
+source : http://cgit.drupalcode.org/log 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   log.module                                                    
+ ------ -------------------------------------------------------------- 
+  85     Call to deprecated method l() of class Drupal.                
+  102    Call to deprecated method cacheUntilEntityChanges() of class  
+         Drupal\Core\Access\AccessResult.                              
+  110    Call to deprecated method cacheUntilEntityChanges() of class  
+         Drupal\Core\Access\AccessResult.                              
+  118    Call to deprecated method cacheUntilEntityChanges() of class  
+         Drupal\Core\Access\AccessResult.                              
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   log.tokens.inc                              
+ ------ -------------------------------------------- 
+  137    Call to deprecated function format_date().  
+  143    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/LogAddController.php     
+ ------ ---------------------------------------- 
+  57     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/LogController.php                    
+ ------ ---------------------------------------------------- 
+  79     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  86     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  87     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  115    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  134    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  151    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  152    Call to deprecated function format_date().          
+  170    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  197    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  200    Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Log.php                                          
+ ------ ------------------------------------------------------------ 
+  87     Call to deprecated method entityManager() of class Drupal.  
+  102    Call to deprecated method entityManager() of class Drupal.  
+  347    Call to deprecated method setQueryable() of class           
+         Drupal\Core\Field\BaseFieldDefinition.                      
+  352    Call to deprecated method setQueryable() of class           
+         Drupal\Core\Field\BaseFieldDefinition.                      
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/LogType.php                              
+ ------ ---------------------------------------------------- 
+  152    Call to deprecated function drupal_set_message().   
+  164    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteMultiple.php                        
+ ------ --------------------------------------------------- 
+  230    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LogForm.php                               
+ ------ --------------------------------------------------- 
+  118    Call to deprecated function drupal_set_message().  
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LogTypeDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LogTypeForm.php                           
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  105    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/LogListBuilder.php                                               
+ ------ --------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\log\LogListBuilder.                                     
+  38     Call to deprecated method l() of class Drupal\log\LogListBuilder.    
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/LogPermissions.php                                              
+ ------ -------------------------------------------------------------------- 
+  20     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\log\LogPermissions.                                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/LogTypeListBuilder.php                     
+ ------ ----------------------------------------------- 
+  30     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/LogBulkForm.php                              
+ ------ -------------------------------------------------------------------- 
+  17     Class Drupal\log\Pluginiewsield\LogBulkForm extends deprecated  
+         class Drupal\system\Pluginiewsield\BulkForm.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/LogCRUDTest.php                    
+ ------ --------------------------------------------- 
+  48     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  48     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  69     Call to deprecated function format_date().   
+  85     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  85     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  101    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  101    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 42 errors                                                         
+
+ </code>

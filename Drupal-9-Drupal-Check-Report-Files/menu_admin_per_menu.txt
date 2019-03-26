@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_admin_per_menu 188dff276ba4714676beebdb72c9afe36eee609e
+source : http://cgit.drupalcode.org/menu_admin_per_menu 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/MenuAdminPerMenuNodeSave.php           
+ ------ ------------------------------------------------- 
+  93     Call to deprecated method assertLink() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  107    Call to deprecated method assertLink() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  113    Call to deprecated method assertLink() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

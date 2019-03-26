@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graphql_mutation d1f44a09eb6ef962a3af68387eb95d01de07c2e1
+source : http://cgit.drupalcode.org/graphql_mutation 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CreateEntityTest.php                                    
+ ------ ------------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\graphql_mutation\Kernel\CreateEntityTest.             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/DeleteEntityTest.php                                    
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\graphql_mutation\Kernel\DeleteEntityTest.             
+  17     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\graphql_mutation\Kernel\DeleteEntityTest.                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/UpdateEntityTest.php                                    
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\graphql_mutation\Kernel\UpdateEntityTest.             
+  17     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\graphql_mutation\Kernel\UpdateEntityTest.                   
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

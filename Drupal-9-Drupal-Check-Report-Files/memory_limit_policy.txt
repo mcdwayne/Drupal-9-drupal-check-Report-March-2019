@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/memory_limit_policy 594309cc9daf495c164453b4df741b05b7ba85bb
+source : http://cgit.drupalcode.org/memory_limit_policy 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/memory_limit_policy_path/src/Plugin/MemoryLimitConstraint/Path.php  
+ ------ ---------------------------------------------------------------------------- 
+  62     Calls to function fnmatch should not exist.                                 
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MemoryLimitPolicyDeleteForm.php           
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

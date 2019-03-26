@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hashtags 8.x-1.0
+source : http://cgit.drupalcode.org/hashtags 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   hashtags.module                                             
+ ------ ------------------------------------------------------------ 
+  35     Call to deprecated method url() of class Drupal.            
+  396    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/ManagerForm.php                                
+ ------ -------------------------------------------------------- 
+  201    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

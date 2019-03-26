@@ -1,0 +1,86 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/group cb58c30b7e6a441ccfbf0bc63245b0ee32129b1c
+source : https://cgit.drupalcode.org/group 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Access/GroupPermissions.php                                     
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\group\Access\GroupPermissions.                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Entity/Form/GroupContentForm.php                   
+ ------ ------------------------------------------------------- 
+  102    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  196    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GroupContentTypeDeleteForm.php     
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GroupContentTypeForm.php           
+ ------ --------------------------------------------------- 
+  145    Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GroupDeleteForm.php                
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GroupForm.php                      
+ ------ --------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GroupRoleForm.php                  
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/GroupTypeForm.php                  
+ ------ --------------------------------------------------- 
+  215    Call to deprecated function drupal_set_message().  
+  218    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GroupPermissionsForm.php                  
+ ------ --------------------------------------------------- 
+  288    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Kernel/GroupContentTokenReplaceTest.php  
+ ------ --------------------------------------------------- 
+  35     Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  36     Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Kernel/GroupTokenReplaceTest.php                           
+ ------ --------------------------------------------------------------------- 
+  37     Call to deprecated method url() of class Drupal\Corentityntity.  
+  38     Call to deprecated method url() of class Drupal\Corentityntity.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

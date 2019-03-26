@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/javascript_libraries 58bd6222b56af34cf659c88b8ba21b99e0087e39
+source : http://cgit.drupalcode.org/javascript_libraries 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JavascriptCoreLibrariesDeleteForm.php     
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JavascriptLibrariesCustomAddForm.php      
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+  141    Call to deprecated function db_next_id().          
+  178    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JavascriptLibrariesCustomForm.php         
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JavascriptLibrariesDefaultForm.php        
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JavascriptLibrariesDeleteForm.php         
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JavascriptLibrariesEditForm.php           
+ ------ --------------------------------------------------- 
+  148    Call to deprecated function db_next_id().          
+  180    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

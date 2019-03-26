@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/instagram_display 4817d94fc85e3f50745d0c1610ad9076458df5ae
+source : http://cgit.drupalcode.org/instagram_display 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   instagram_display.module                         
+ ------ ------------------------------------------------- 
+  47     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/BlockExampleMenuTest.php          
+ ------ ------------------------------------------------------- 
+  38     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  46     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/BlockExampleTest.php        
+ ------ ------------------------------------------------- 
+  71     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

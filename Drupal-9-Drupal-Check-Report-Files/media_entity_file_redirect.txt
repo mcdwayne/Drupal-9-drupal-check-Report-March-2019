@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ descrip. : Provides a new /document/[id] path for accessing files associated with media entities that have file sources.
+source   : [git] https://git.drupal.org/project/media_entity_file_redirect 8.x-1.0-alpha4
+source : http://cgit.drupalcode.org/media_entity_file_redirect 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Linkit/Matcher/MediaEntityFileRedirectMatcher.php           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\linkit\Plugin\Linkit\MatcherntityMatcher not found and  
+         could not be autoloaded.                                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Linkit/Substitution/MediaFileRedirect.php                  
+ ------ ---------------------------------------------------------------------- 
+  19     Class Drupal\linkit\SubstitutionInterface not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

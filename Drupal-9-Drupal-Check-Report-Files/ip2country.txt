@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ip2country 84f6efd462f73c1e7dbce4e43b3b5149db249133
+source : http://cgit.drupalcode.org/ip2country 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   ip2country.inc                                  
+ ------ ------------------------------------------------ 
+  61     Call to deprecated function db_drop_table().    
+  67     Call to deprecated function db_create_table().  
+  70     Call to deprecated function db_insert().        
+  123    Call to deprecated function db_drop_table().    
+  201    Call to deprecated function db_transaction().   
+  205    Call to deprecated function db_drop_table().    
+  206    Call to deprecated function db_rename_table().  
+  212    Call to deprecated function db_drop_table().    
+  229    Call to deprecated function db_drop_table().    
+  266    Call to deprecated function db_truncate().      
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   ip2country.module                        
+ ------ ----------------------------------------- 
+  157    Call to deprecated function db_query().  
+  178    Call to deprecated function db_query().  
+  200    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   ip2country.rules.inc                      
+ ------ ------------------------------------------ 
+  101    Call to deprecated function user_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/Ip2CountryTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  114    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  124    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  135    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  142    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  231    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  238    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  248    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  258    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  266    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  301    Call to deprecated function db_select().                                 
+  306    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  313    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  334    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 27 errors                                                         
+
+ </code>

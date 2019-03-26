@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jw_player ed76eb3990c17ccfb5ca7bfd4494051613485a9e
+source : http://cgit.drupalcode.org/jw_player 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   jw_player.module                                      
+ ------ ------------------------------------------------------ 
+  64     Call to deprecated function libraries_get_path().     
+  73     Call to deprecated function libraries_get_path().     
+  133    Call to deprecated function libraries_detect().       
+  146    Call to deprecated function libraries_get_path().     
+  155    Call to deprecated function libraries_get_version().  
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JwplayerPresetAdd.php                     
+ ------ --------------------------------------------------- 
+  428    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  428    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  429    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  429    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  445    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  445    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  651    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/JwPlayer7ConfigurationTest.php        
+ ------ ------------------------------------------------ 
+  152    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/JwPlayerConfigurationTest.php         
+ ------ ------------------------------------------------ 
+  122    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/live_weather 8.x-2.3
+source : http://cgit.drupalcode.org/live_weather 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LiveWeatherDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/LiveWeather.php                          
+ ------ --------------------------------------------- 
+  109    Call to deprecated method strpos() of class  
+         Drupal\Component\Utility\Unicode.            
+  110    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

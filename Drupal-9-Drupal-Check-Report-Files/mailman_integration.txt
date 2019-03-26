@@ -1,0 +1,124 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailman_integration c0c2c9d09dc23915e1b02bb1f5489555c3fcce10
+source : http://cgit.drupalcode.org/mailman_integration 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mailman_integration.module                         
+ ------ --------------------------------------------------- 
+  112    Call to deprecated method l() of class Drupal.     
+  116    Call to deprecated method l() of class Drupal.     
+  364    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/MailmanIntegrationController.php  
+ ------ ------------------------------------------------- 
+  75     Call to deprecated function db_like().           
+  79     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  79     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  122    Call to deprecated function db_or().             
+  123    Call to deprecated function db_like().           
+  124    Call to deprecated function db_like().           
+  164    Call to deprecated function db_insert().         
+  193    Call to deprecated function db_insert().         
+  260    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  260    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  282    Call to deprecated function db_update().         
+  315    Call to deprecated function db_or().             
+  316    Call to deprecated function db_like().           
+  317    Call to deprecated function db_like().           
+  336    Call to deprecated function db_delete().         
+  375    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  375    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  419    Call to deprecated function db_insert().         
+  438    Call to deprecated function db_delete().         
+  459    Call to deprecated function db_delete().         
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/MailmanIntegrationAddRolelistForm.php      
+ ------ ---------------------------------------------------- 
+  109    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  109    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  140    Call to deprecated method l() of class Drupal.      
+  171    Call to deprecated function valid_email_address().  
+  185    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/MailmanIntegrationCreateListForm.php       
+ ------ ---------------------------------------------------- 
+  107    Call to deprecated method l() of class Drupal.      
+  138    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailmanIntegrationListDeleteConfirm.php   
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/MailmanIntegrationListUserForm.php       
+ ------ -------------------------------------------------- 
+  148    Call to deprecated method url() of class Drupal.  
+  159    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/MailmanIntegrationSearchListForm.php     
+ ------ -------------------------------------------------- 
+  85     Call to deprecated method l() of class Drupal.    
+  89     Call to deprecated method l() of class Drupal.    
+  94     Call to deprecated method l() of class Drupal.    
+  102    Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  102    Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  103    Call to deprecated method checkPlain() of class   
+         Drupal\Component\Utility\SafeMarkup.              
+  103    Call to method checkPlain() of deprecated class   
+         Drupal\Component\Utility\SafeMarkup.              
+  104    Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  104    Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+  137    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/MailmanIntegrationSubcribeUserForm.php     
+ ------ ---------------------------------------------------- 
+  127    Call to deprecated method l() of class Drupal.      
+  154    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailmanIntegrationUserForm.php            
+ ------ --------------------------------------------------- 
+  61     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  61     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MailmanIntegration.php                         
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 49 errors                                                         
+
+ </code>

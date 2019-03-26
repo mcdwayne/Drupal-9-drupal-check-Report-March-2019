@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gridstack 414451967eb5e394b3b084cb0915c970335a17f4
+source : http://cgit.drupalcode.org/gridstack 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/gridstack_ui/src/Form/GridStackDeleteForm.php  
+ ------ ------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/GridStackCrudTest.php            
+ ------ -------------------------------------------------- 
+  170    Call to deprecated function format_string().      
+  170    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  171    Call to deprecated function format_string().      
+  171    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  174    Call to deprecated function format_string().      
+  174    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

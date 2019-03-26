@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/interval 34addd8c84bdc23884bbad7106c06d7c69979e47
+source : http://cgit.drupalcode.org/interval 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   interval.module                               
+ ------ ---------------------------------------------- 
+  39     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/IntervalInterface.php                                       
+ ------ ---------------------------------------------------------------- 
+  14     Interface Drupal\interval\IntervalInterface extends deprecated  
+         interface Drupaliews\Pluginiews\PluginInterface.            
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/IntervalFormatterPhp.php  
+ ------ ---------------------------------------------------------- 
+  37     Call to deprecated method checkPlain() of class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  37     Call to method checkPlain() of deprecated class           
+         Drupal\Component\Utility\SafeMarkup.                      
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/IntervalFormatterRaw.php  
+ ------ ---------------------------------------------------------- 
+  36     Call to deprecated method checkPlain() of class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  36     Call to method checkPlain() of deprecated class           
+         Drupal\Component\Utility\SafeMarkup.                      
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Tests/IntervalTest.php                                         
+ ------ ------------------------------------------------------------------- 
+  84     Call to deprecated function entity_get_form_display().             
+  91     Call to deprecated function entity_get_display().                  
+  121    Call to deprecated function entity_load_multiple_by_properties().  
+  133    Call to deprecated function entity_get_display().                  
+  146    Call to deprecated function entity_get_display().                  
+  168    Call to deprecated method entityManager() of class Drupal.         
+  169    Call to deprecated function entity_load().                         
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

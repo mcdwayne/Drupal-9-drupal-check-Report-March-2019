@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/live_person e36eff2166049885d8d5555dab565bdee49e4f4b
+source : http://cgit.drupalcode.org/live_person 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/VisibilityCheck.php                          
+ ------ ------------------------------------------------- 
+  120    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fivestar cd9319a8a5e5c67d88d97aee6025d5f429165d55
+source : http://cgit.drupalcode.org/fivestar 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/fivestar.migrate.inc                                            
+ ------ ------------------------------------------------------------------------- 
+         Class MigrateFivestarFieldHandler was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   includes/fivestar.theme.inc                   
+ ------ ---------------------------------------------- 
+  93     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

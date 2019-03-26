@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mail_headers c1071b5e0a7aa3b1e1f57f19450e74e9ff88e1b1
+source : http://cgit.drupalcode.org/mail_headers 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/mail_headers/MailHeadersPhpMail.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\mail_headers\MailHeadersPhpMail was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   mail_headers.module                                
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

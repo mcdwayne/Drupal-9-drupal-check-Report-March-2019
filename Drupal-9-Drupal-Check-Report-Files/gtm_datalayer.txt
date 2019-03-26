@@ -1,0 +1,93 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gtm_datalayer a92796b94eaf2c89796eee867e69aa809a0b7d61
+source : https://cgit.drupalcode.org/gtm_datalayer 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/gtm_datalayer_forms/src/Controller/DataLayerFormsController.php  
+ ------ ------------------------------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().                        
+  177    Calls to function fnmatch should not exist.                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/gtm_datalayer_forms/src/DataLayerFormListBuilder.php  
+ ------ -------------------------------------------------------------- 
+  222    Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/gtm_datalayer_forms/src/Form/DataLayerFormEditForm.php  
+ ------ ---------------------------------------------------------------- 
+  105    Call to deprecated method strtolower() of class                 
+         Drupal\Component\Utility\Unicode.                               
+  183    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DataLayerController.php             
+ ------ --------------------------------------------------- 
+  179    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EntityDataLayerController.php       
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DataLayerListBuilder.php                       
+ ------ --------------------------------------------------- 
+  222    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionAddForm.php                      
+ ------ --------------------------------------------------- 
+  133    Call to deprecated function drupal_set_message().  
+  133    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionEditForm.php                     
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  34     Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DataLayerAddForm.php                      
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DataLayerEditForm.php                     
+ ------ --------------------------------------------------- 
+  104    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  181    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/PrivateTempStoreFactory.php                                        
+ ------ ----------------------------------------------------------------------- 
+  10     Class Drupal\gtm_datalayer\PrivateTempStoreFactory extends deprecated  
+         class Drupal\user\PrivateTempStoreFactory.                             
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

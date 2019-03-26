@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/key_value 5a24b5998f309ab17a2b79c88362f4c7f11265fa
+source : https://git.drupal.org/project/key_value.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Tests/DatabaseStorageListTest.php                 
+ ------ ------------------------------------------------------ 
+  38     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  41     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  48     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  52     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Tests/DatabaseStorageSortedSetTest.php            
+ ------ ------------------------------------------------------ 
+  48     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  51     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  54     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  57     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  60     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  66     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  70     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  73     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  76     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Tests/DatabaseStorageSortedTestBase.php           
+ ------ ------------------------------------------------------ 
+  49     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  51     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  62     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

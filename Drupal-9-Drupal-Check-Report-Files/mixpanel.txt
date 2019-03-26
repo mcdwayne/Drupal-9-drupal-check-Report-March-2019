@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mixpanel cc21d40e2bd1fa81d3d9a21b1da819007435302f
+source : http://cgit.drupalcode.org/mixpanel 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   mixpanel.module                             
+ ------ -------------------------------------------- 
+  279    Call to deprecated function format_date().  
+  310    Call to deprecated function user_load().    
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/mixpanel_defaults/includes/mixpanel_defaults.og.inc  
+ ------ ------------------------------------------------------------- 
+  35     Call to deprecated function node_load().                     
+  37     Call to deprecated function user_load().                     
+ ------ ------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/mixpanel_defaults/mixpanel_defaults.module  
+ ------ ---------------------------------------------------- 
+  17     Call to deprecated function user_load().            
+  19     Call to deprecated function format_date().          
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/mixpanel_rules/mixpanel_rules.theme.inc        
+ ------ ------------------------------------------------------- 
+  22     Call to deprecated function drupal_render().           
+  23     Call to deprecated function drupal_render().           
+  25     Call to deprecated function drupal_render().           
+  42     Call to deprecated function drupal_render().           
+  60     Call to deprecated function drupal_render().           
+  63     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MixpanelSettingsForm.php                  
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Block/BadgeBlock.php                                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupallock\BlockBase not found and could not be autoloaded.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

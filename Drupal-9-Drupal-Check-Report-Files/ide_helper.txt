@@ -1,0 +1,177 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ide_helper 3bad693a9b65af2403b079cb6cd30fc47f358331
+source : http://cgit.drupalcode.org/ide_helper 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   RoboFile.php                                                           
+ ------ ----------------------------------------------------------------------- 
+         Class RoboFile was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src-dev/Composer/Scripts.php                                            
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\ide_helper\Composer\Scripts was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src-dev/Tests/Unish/IdeHelperPhpStormMetaCommandTest.php                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\ide_helper\Tests\Unish\IdeHelperPhpStormMetaCommandTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src-dev/Tests/Unit/Handlers/PhpStormMetaCollectorTest.php               
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\ide_helper\Tests\Unit\Handlers\PhpStormMetaCollectorTest   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src-dev/Tests/Unit/Handlers/PhpStormMetaRendererTest.php                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\ide_helper\Tests\Unit\Handlers\PhpStormMetaRendererTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src-dev/Tests/Unit/IdeHelperTestBase.php                             
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\ide_helper\Tests\Unit\IdeHelperTestBase was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src-dev/Tests/Unit/UtilsTest.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\ide_helper\Tests\Unit\UtilsTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src-dev/expected/Unish/PhpStormMeta/drupal.core.php   
+ ------ ------------------------------------------------------ 
+  135    Fetching class constant class of deprecated class     
+         Drupal\Core\Routing\RouteFilterInterface.             
+  159    Fetching class constant class of deprecated class     
+         Drupal\CorentityntityManagerInterface.            
+  160    Fetching class constant class of deprecated class     
+         Drupal\Corentity\Query\QueryFactory.                
+  278    Fetching class constant class of deprecated class     
+         Drupal\Core\Routing\RouteFilterInterface.             
+  342    Fetching class constant class of deprecated class     
+         Drupal\Core\Routing\RouteFilterInterface.             
+  350    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+  351    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+  352    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+  354    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+  524    Fetching class constant class of deprecated class     
+         Drupal\Core\Routing\RouteFilterInterface.             
+  548    Fetching class constant class of deprecated class     
+         Drupal\CorentityntityManagerInterface.            
+  549    Fetching class constant class of deprecated class     
+         Drupal\Corentity\Query\QueryFactory.                
+  667    Fetching class constant class of deprecated class     
+         Drupal\Core\Routing\RouteFilterInterface.             
+  731    Fetching class constant class of deprecated class     
+         Drupal\Core\Routing\RouteFilterInterface.             
+  739    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+  740    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+  741    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+  743    Fetching class constant class of deprecated class     
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.  
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src-dev/expected/Unish/PhpStormMeta/drupal.user.php  
+ ------ ----------------------------------------------------- 
+  54     Fetching class constant class of deprecated class    
+         Drupal\user\PrivateTempStoreFactory.                 
+  55     Fetching class constant class of deprecated class    
+         Drupal\user\SharedTempStoreFactory.                  
+  75     Fetching class constant class of deprecated class    
+         Drupal\user\PrivateTempStoreFactory.                 
+  76     Fetching class constant class of deprecated class    
+         Drupal\user\SharedTempStoreFactory.                  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src-dev/fixtures/drush-sut/scripts/Composer/ScriptHandler.php        
+ ------ --------------------------------------------------------------------- 
+         Class DrushSut\Composer\ScriptHandler was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Commands/ide_helper/PhpStormMetaCommands.php                     
+ ------ --------------------------------------------------------------------- 
+         Class Drush\Commands\ide_helper\PhpStormMetaCommands was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Handlers/PhpStormMetaCollector.php                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\ide_helper\Handlers\PhpStormMetaCollector was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Handlers/PhpStormMetaRenderer.php                                
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\ide_helper\Handlers\PhpStormMetaRenderer was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Robo/Task/BaseTask.php                                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\ide_helper\Robo\Task\BaseTask was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Robo/Task/PhpstormMetaCollectorTask.php                          
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\ide_helper\Robo\Task\PhpstormMetaCollectorTask was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Robo/Task/PhpstormMetaRendererTask.php                          
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\ide_helper\Robo\Task\PhpstormMetaRendererTask was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Utils.php                                                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\ide_helper\Utils was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 37 errors                                                         
+
+ </code>

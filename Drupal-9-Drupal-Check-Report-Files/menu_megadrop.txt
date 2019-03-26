@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_megadrop 5bc57e11a495c1d9b0321fa2fe95193404ecf8ff
+source : http://cgit.drupalcode.org/menu_megadrop 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   menu_megadrop.module                                        
+ ------ ------------------------------------------------------------ 
+  53     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuMegadropForm.php                      
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

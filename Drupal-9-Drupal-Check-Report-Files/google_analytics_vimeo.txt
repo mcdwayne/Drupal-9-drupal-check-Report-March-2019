@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_analytics_vimeo 7a101727e50c8d1fe34384c90d7af1e00fced9e6
+source : http://cgit.drupalcode.org/google_analytics_vimeo 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   google_analytics_vimeo.inc                       
+ ------ ------------------------------------------------- 
+  28     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  32     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

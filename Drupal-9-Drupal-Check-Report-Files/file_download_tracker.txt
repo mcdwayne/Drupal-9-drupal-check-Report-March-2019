@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_download_tracker 8.x-1.0
+source : http://cgit.drupalcode.org/file_download_tracker 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/FileDownloadEntity.php                  
+ ------ --------------------------------------------------- 
+  325    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+  331    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/FileDownloadEntityListBuilder.php                                
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalile_download_tracker\FileDownloadEntityListBuilder.    
+  34     Call to deprecated method l() of class                               
+         Drupalile_download_tracker\FileDownloadEntityListBuilder.          
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

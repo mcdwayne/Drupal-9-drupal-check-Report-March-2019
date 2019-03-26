@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hubspot 18ea5bbac086963b36f79b6a6725b684c4cfd46b
+source : http://cgit.drupalcode.org/hubspot 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   hubspot.module                                 
+ ------ ----------------------------------------------- 
+  57     Call to deprecated function db_query_range().  
+  60     Call to deprecated function db_query_range().  
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/Controller.php                      
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AdminSettings.php                         
+ ------ --------------------------------------------------- 
+  420    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormSettings.php                          
+ ------ --------------------------------------------------- 
+  178    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/HubspotBlock.php                  
+ ------ --------------------------------------------------- 
+  264    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/WebformHandler/HubspotWebformHandler.php                 
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\webform\WebformHandlerBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

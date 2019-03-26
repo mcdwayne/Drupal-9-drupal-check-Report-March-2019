@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/isoregistry 8.x-2.1
+source : http://cgit.drupalcode.org/isoregistry 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   modules/registry_codes/registry_codes.module  
+ ------ ---------------------------------------------- 
+  22     Call to deprecated function node_load().      
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/registry_codes/src/Controller/CodelistsJSON.php     
+ ------ ------------------------------------------------------------ 
+  44     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/registry_codes/src/Controller/CodelistsXML.php      
+ ------ ------------------------------------------------------------ 
+  59     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/registry_codes/src/Controller/CodesJSON.php         
+ ------ ------------------------------------------------------------ 
+  44     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/registry_codes/src/Controller/CodesXML.php          
+ ------ ------------------------------------------------------------ 
+  47     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/registry_proxies/src/Form/ProxiesForm.php                    
+ ------ --------------------------------------------------------------------- 
+         Class Drupalegistry_proxies\ProxiesForm\ProxiesForm was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/RegistryExceptions.php              
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

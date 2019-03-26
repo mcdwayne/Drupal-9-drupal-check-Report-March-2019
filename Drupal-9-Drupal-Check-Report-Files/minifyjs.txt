@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/minifyjs 3b911db6f56ff15b93238e1d29ccaa72de59f861
+source : http://cgit.drupalcode.org/minifyjs 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   minifyjs.module                                    
+ ------ --------------------------------------------------- 
+  267    Call to deprecated function db_select().           
+  363    Call to deprecated function drupal_set_message().  
+  372    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FileManager.php                     
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().  
+  28     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+  49     Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ManageFilesForm.php                       
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

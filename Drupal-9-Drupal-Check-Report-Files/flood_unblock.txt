@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flood_unblock 0ed29f9cee56bc3b30bd5a513fef143690e947aa
+source : http://cgit.drupalcode.org/flood_unblock 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/FloodUnblockManager.php                        
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function db_table_exists().     
+  101    Call to deprecated function db_table_exists().     
+  128    Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  161    Call to deprecated function drupal_set_message().  
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

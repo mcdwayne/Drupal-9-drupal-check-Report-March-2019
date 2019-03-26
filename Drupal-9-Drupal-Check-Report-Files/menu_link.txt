@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_link 0f384acfa925e5fc0591b4fae231ac7821ba1814
+source : http://cgit.drupalcode.org/menu_link 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Plugin/Menu/Form/MenuLinkFieldForm.php  
+ ------ -------------------------------------------- 
+  32     Call to deprecated method url() of class    
+         Drupal\CorentityntityInterface.         
+ ------ -------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/MenuLinkFieldTranslateUITest.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal
+ode\Tests\NodeTranslationUITest not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/MenuLinkUpdatePathTest.php                                    
+ ------ ------------------------------------------------------------------------ 
+  14     Class Drupal\menu_link\Tests\MenuLinkUpdatePathTest extends deprecated  
+         class Drupal\system\Tests\Update\UpdatePathTestBase.                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/MenuLinkFieldStandardTest.php         
+ ------ ----------------------------------------------------------- 
+  49     Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  61     Call to deprecated method assertFieldChecked() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  62     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  76     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  86     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/Formatter/MenuLinkFormatterTest.php  
+ ------ ------------------------------------------------------ 
+  120    Call to deprecated function entity_get_display().     
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

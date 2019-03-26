@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hijri 474f4c42cefddd3bb77c222dc5d48a9a9bcb4b08
+source : http://cgit.drupalcode.org/hijri 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   hijri.module                                
+ ------ -------------------------------------------- 
+  33     Call to deprecated function format_date().  
+  34     Call to deprecated function format_date().  
+  35     Call to deprecated function format_date().  
+  44     Call to deprecated function format_date().  
+  72     Call to deprecated function format_date().  
+  75     Call to deprecated function format_date().  
+  78     Call to deprecated function format_date().  
+  160    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/SettingsController.php             
+ ------ -------------------------------------------- 
+  61     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/hijri_handler_hijri_created.inc                                    
+ ------ ------------------------------------------------------------------------- 
+         Class hijri_handler_hijri_created was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

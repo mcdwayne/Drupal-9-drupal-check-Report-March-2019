@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/loremipsum f8b56581bee0f25776802474984c9974565c50b2
+source : http://cgit.drupalcode.org/loremipsum 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/LoremIpsumController.php          
+ ------ ------------------------------------------------- 
+  63     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  63     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  65     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  65     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

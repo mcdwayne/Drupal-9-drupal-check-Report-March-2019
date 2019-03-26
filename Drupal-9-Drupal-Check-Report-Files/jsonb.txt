@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jsonb 1f588cefe85b8ed9ab3ccd6df372d778f233b663
+source : http://cgit.drupalcode.org/jsonb 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/JsonbWidget.php  
+ ------ ---------------------------------------------- 
+  47     Call to deprecated method strlen() of class   
+         Drupal\Component\Utility\Unicode.             
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

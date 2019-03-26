@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/imagecache_reflect 6522678995fd418c48849f207d654357f580879b
+source : http://cgit.drupalcode.org/imagecache_reflect 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/imagecache_reflect/Plugin/ImageEffect/ReflectImageEffect.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\imagecache_reflect\Plugin\ImageEffect\ReflectImageEffect    
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/imagecache_reflect/Plugin/ImageToolkit/GDToolkitReflect.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\imagecache_reflect\Plugin\ImageToolkit\GDToolkitReflect    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

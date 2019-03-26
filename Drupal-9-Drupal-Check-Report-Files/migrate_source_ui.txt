@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ name     : drupal/migrate_source_ui
+descrip. : UI for  csv, xml o json sources.
+source   : [git] https://git.drupal.org/project/migrate_source_ui 47ea1e99fe38d84fec4d9e29269b7e95bab77a77
+names    : drupal/migrate_source_ui
+source : http://cgit.drupalcode.org/migrate_source_ui
+issues : https://www.drupal.org/project/issues/migrate_source_ui 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/MigrateSourceUiForm.php                                       
+ ------ ----------------------------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().                      
+  152    Class Drupal\migrate_tools\MigrateBatchExecutable not found and could  
+         not be autoloaded.                                                     
+  153    Class Drupal\migrate_tools\MigrateBatchExecutable not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/MigrateBatchExecutable.php                                         
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\migrate_tools\MigrateBatchExecutable not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

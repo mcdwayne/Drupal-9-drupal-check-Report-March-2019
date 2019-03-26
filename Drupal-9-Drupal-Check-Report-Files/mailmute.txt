@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailmute afd07079589bb5c24970b0657ce02be4bd86f53e
+source : http://cgit.drupalcode.org/mailmute 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mailmute.module                                    
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   mailmute_simplenews/tests/src/Kernel/MailmuteSimplenewsTest.php  
+ ------ ----------------------------------------------------------------- 
+  54     Call to deprecated method entityManager() of class Drupal.       
+  55     Call to deprecated method assertEqual() of class                 
+         Drupal\KernelTests\KernelTestBase.                               
+  64     Call to deprecated method assertEqual() of class                 
+         Drupal\KernelTests\KernelTestBase.                               
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/SendStateItem.php       
+ ------ --------------------------------------------------- 
+  56     Instantiation of deprecated class                  
+         Drupal\Core\StringTranslation\TranslationWrapper.  
+  59     Instantiation of deprecated class                  
+         Drupal\Core\StringTranslation\TranslationWrapper.  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/SendStateManager.php                     
+ ------ --------------------------------------------- 
+  79     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  79     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/MuteUserTest.php                           
+ ------ ------------------------------------------------------------ 
+  44     Call to deprecated method entityManager() of class Drupal.  
+  45     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  51     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  75     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  81     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  87     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  96     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  98     Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  104    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  106    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

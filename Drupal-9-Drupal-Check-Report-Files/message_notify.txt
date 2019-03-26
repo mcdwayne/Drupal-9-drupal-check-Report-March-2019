@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message_notify f35a7f490e616bb7a99c6f0de24b98b3364b4733
+source : https://cgit.drupalcode.org/message_notify 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   message_notify.module                              
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   tests/src/Kernel/MessageNotifyTest.php     
+ ------ ------------------------------------------- 
+  166    Call to deprecated method pass() of class  
+         Drupal\KernelTests\KernelTestBase.         
+  182    Call to deprecated method pass() of class  
+         Drupal\KernelTests\KernelTestBase.         
+ ------ ------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

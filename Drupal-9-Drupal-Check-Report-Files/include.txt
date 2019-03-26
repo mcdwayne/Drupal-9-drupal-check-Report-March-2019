@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/include 7e0a1a96d2d6b56f4cf1aa031a6bd29407339613
+source : http://cgit.drupalcode.org/include 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   include.module                                     
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_realpath().     
+  171    Call to deprecated function drupal_set_message().  
+  183    Call to deprecated function drupal_realpath().     
+  184    Call to deprecated function drupal_set_message().  
+  195    Call to deprecated function drupal_set_message().  
+  208    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated function drupal_set_message().  
+  231    Call to deprecated function drupal_set_message().  
+  245    Call to deprecated function drupal_set_message().  
+  256    Call to deprecated function drupal_set_message().  
+  271    Call to deprecated function drupal_set_message().  
+  304    Call to deprecated function drupal_set_message().  
+  312    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

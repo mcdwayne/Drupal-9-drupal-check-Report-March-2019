@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/link_attributes c8795cc1c08de31cad0d5b487cb40fab52cac2d6
+source : http://cgit.drupalcode.org/link_attributes 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/LinkAttributesFieldTest.php            
+ ------ ------------------------------------------------------------ 
+  61     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  66     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/LinkAttributesTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\BlockCreationTrait in class  
+         Drupal\Tests\link_attributes\Functional\LinkAttributesTest.              
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

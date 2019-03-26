@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/layout_config_block 6f9f29ec5747368ddf6bc50ba8fc400e1eeb1f80
+source : http://cgit.drupalcode.org/layout_config_block 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LayoutBlockDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LayoutBlockForm.php                       
+ ------ --------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().  
+  178    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

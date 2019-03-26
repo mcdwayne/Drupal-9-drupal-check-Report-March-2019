@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/itemsessionlock 0125edd8e046ed4e21b2cde9a232ef3d58525a45
+source : http://cgit.drupalcode.org/itemsessionlock 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ItemSessionLockController.php       
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Lock.php                             
+ ------ ----------------------------------------- 
+  57     Call to deprecated function db_query().  
+  72     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/ItemSessionLock/ItemSessionLockBase.php                   
+ ------ --------------------------------------------------------------------- 
+  141    Call to deprecated method getUsername() of class                     
+         Drupal\userntity\User.                                             
+  141    Call to deprecated method l() of class Drupal.                       
+  141    Call to deprecated method url() of class Drupal\Corentityntity.  
+  145    Call to deprecated method l() of class Drupal.                       
+  148    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

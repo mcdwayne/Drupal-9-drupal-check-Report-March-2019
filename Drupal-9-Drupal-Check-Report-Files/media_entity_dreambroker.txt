@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_dreambroker ad08ee4066822e162c7b486de6863edbfabaccde
+source : http://cgit.drupalcode.org/media_entity_dreambroker 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/DreambrokerEmbedFormatterTest.php  
+ ------ -------------------------------------------------------- 
+  47     Call to deprecated function entity_get_form_display().  
+  53     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  54     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

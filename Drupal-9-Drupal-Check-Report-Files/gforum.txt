@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gforum 2dddc8738907ae09d4eb6c587520933477d224d7
+source : http://cgit.drupalcode.org/gforum 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   gforum.module                                      
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+  75     Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+  299    Call to deprecated function drupal_set_message().  
+  333    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/gforumSettingsForm.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\gforum\Form\GforumSettingsForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

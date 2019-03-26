@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_gathercontent 8.x-1.0-alpha1
+source : http://cgit.drupalcode.org/migrate_gathercontent 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/DrupalGatherContentClient.php                
+ ------ ------------------------------------------------- 
+  93     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/migrate/process/FileImport.php       
+ ------ ------------------------------------------------ 
+  313    Call to deprecated function drupal_basename().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

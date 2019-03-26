@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ip_ban 16a9d3f22bdbd8f4788eb4180e865b9309e4c714
+source : http://cgit.drupalcode.org/ip_ban 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   ip_ban.admin.inc                         
+ ------ ----------------------------------------- 
+  197    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/IpBanAdmin.php                                             
+ ------ --------------------------------------------------------------- 
+         Class Drupal\ip_ban\ConfigFormBase not found and could not be  
+         autoloaded.                                                    
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/IpBanSetBanManager.php                             
+ ------ ------------------------------------------------------- 
+  42     Call to deprecated function ip2country_get_country().  
+  97     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

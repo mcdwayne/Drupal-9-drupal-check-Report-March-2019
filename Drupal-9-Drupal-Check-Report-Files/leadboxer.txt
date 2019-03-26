@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/leadboxer 8097275f236ea22a2d3745d6541d77af1acaea3b
+source : http://git.drupal.org/project/leadboxer.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   leadboxer.module                                 
+ ------ ------------------------------------------------- 
+  137    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  141    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

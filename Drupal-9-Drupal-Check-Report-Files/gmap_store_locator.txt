@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gmap_store_locator 33bbe991b1f2f9dc75e124bc4be794574d2e5c1e
+source : http://cgit.drupalcode.org/gmap_store_locator 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StoreLocatorForm.php                      
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Helper/LocationDataHelper.php                           
+ ------ ------------------------------------------------------------ 
+  26     Call to deprecated method entityManager() of class Drupal.  
+  36     Call to deprecated method entityManager() of class Drupal.  
+  78     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/StoreLocatorListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\store_locator\StoreLocatorListBuilder.                  
+  35     Call to deprecated method l() of class                               
+         Drupal\store_locator\StoreLocatorListBuilder.                        
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

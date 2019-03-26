@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hms_field f138860c7b18c6aab00f5860b29d15b9ab2197f5
+source : http://cgit.drupalcode.org/hms_field 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   hms_field.migrate.inc                                                    
+ ------ ------------------------------------------------------------------------- 
+         Class MigrateHmsFieldHandler was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/HMSFieldItem.php        
+ ------ --------------------------------------------------- 
+  37     Instantiation of deprecated class                  
+         Drupal\Core\StringTranslation\TranslationWrapper.  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

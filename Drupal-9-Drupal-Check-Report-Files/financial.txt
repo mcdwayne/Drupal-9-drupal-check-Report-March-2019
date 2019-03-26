@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/financial cf828ab0db896cc88927353a2cad2eee6d92a5c3
+source : http://cgit.drupalcode.org/financial 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CompoundInterestForm.php                  
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoanEMIForm.php                           
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SimpleInterestForm.php                    
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

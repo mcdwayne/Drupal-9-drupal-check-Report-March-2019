@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jplayer 437018f959933b726406cc458c37d0cf1582221d
+source : http://cgit.drupalcode.org/jplayer 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/AudioPlayer/JplayerPlayer.php                                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupaludiofield\Plugin\AudioPlayer\JplayerPlayer was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/JplayerPlayer.php                       
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\jplayer\Plugin\Field\FieldFormatter\FileFormatterBase not  
+         found and could not be autoloaded.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   theme/jplayer.tpl.php                         
+ ------ ---------------------------------------------- 
+  52     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

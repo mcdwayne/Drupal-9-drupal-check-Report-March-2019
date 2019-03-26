@@ -1,0 +1,65 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_twitter eb463c613d9898d7c8a54a91e862e7074a486e33
+source : http://cgit.drupalcode.org/media_entity_twitter 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/TweetEmbedFormatterTest.php        
+ ------ -------------------------------------------------------- 
+  47     Call to deprecated function entity_get_form_display().  
+  53     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  54     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  64     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  70     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  77     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  83     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+  84     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+  85     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+  88     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+  89     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+  90     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+  104    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  129    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  132    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  133    Call to deprecated method assertRaw() of class          
+         Drupal\Tests\BrowserTestBase.                           
+  136    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  137    Call to deprecated method assertRaw() of class          
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/ThumbnailTest.php            
+ ------ ---------------------------------------------- 
+  64     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ConstraintsTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  99     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  130    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  135    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  168    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

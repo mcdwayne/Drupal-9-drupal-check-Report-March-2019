@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message_history 0593cdc6f022805e7799f1d2b6db66e1f9db6d71
+source : https://cgit.drupalcode.org/message_history 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   message_history.module                    
+ ------ ------------------------------------------ 
+  58     Call to deprecated function db_query().   
+  85     Call to deprecated function db_merge().   
+  102    Call to deprecated function db_delete().  
+  132    Call to deprecated function db_delete().  
+  143    Call to deprecated function db_delete().  
+  154    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/views/field/MessageHistoryTimestamp.php  
+ ------ ---------------------------------------------------- 
+  103    Call to deprecated function drupal_render().        
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

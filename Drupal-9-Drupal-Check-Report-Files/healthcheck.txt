@@ -1,0 +1,190 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/healthcheck 1a73c10dde79072133ca5a51e8fa67d4a8986b6b
+source : http://cgit.drupalcode.org/healthcheck 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CheckConfigForm.php                       
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/BadModules.php                                 
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\BadModules was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Healthcheck/CacheBackend.php                                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\healthcheck\Plugin\healthcheck\CacheBackend was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Healthcheck/ContentTypes.php                                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\healthcheck\Plugin\healthcheck\ContentTypes was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Cron.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Cron was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Database.php                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Database was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/DuplicateModules.php                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\DuplicateModules was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Healthcheck/EntityFields.php                                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\healthcheck\Plugin\healthcheckntityFields was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Http404.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Http404 was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Logging.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Logging was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Healthcheck/ManagedFiles.php                                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\healthcheck\Plugin\healthcheck\ManagedFiles was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/ModuleFolders.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\ModuleFolders was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Pagecache.php                                 
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Pagecache was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/PhpErrors.php                                 
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\PhpErrors was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/PreProcessing.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\PreProcessing was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Healthcheck/ServicesFile.php                                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\healthcheck\Plugin\healthcheck\ServicesFile was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Superuser.php                                 
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Superuser was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Taxonomy.php                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Taxonomy was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/Updates.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\Updates was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Healthcheck/UserRegistration.php                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\healthcheck\Plugin\healthcheck\UserRegistration was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   tests/modules/healthcheck_config_test/src/Plugin/Healthcheck/ConfigurableCheck.php  
+ ------ ------------------------------------------------------------------------------------ 
+         Class                                                                               
+         Drupal\healthcheck_config_test\Plugin\healthcheck\ConfigurableCheck was             
+         not found while trying to analyse it - autoloading is probably not                  
+         configured properly.                                                                
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   tests/modules/healthcheck_findings_test/src/Plugin/Healthcheck/AllFindings.php  
+ ------ -------------------------------------------------------------------------------- 
+         Class Drupal\healthcheck_findings_test\Plugin\healthcheck\AllFindings           
+         was not found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                            
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   tests/modules/healthcheck_findingsrv_test/src/PluginHealthcheck/AllYamlFindings.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class                                                                                
+         Drupal\healthcheck_findingsrv_test\Plugin\healthcheck\AllYamlFindings                
+         was not found while trying to analyse it - autoloading is probably not               
+         configured properly.                                                                 
+ ------ ------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 24 errors                                                         
+
+ </code>

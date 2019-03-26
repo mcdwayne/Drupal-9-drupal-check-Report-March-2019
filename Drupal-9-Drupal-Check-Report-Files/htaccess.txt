@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/htaccess 15c07231fcb7b81cbae553ef973916fa742ef75e
+source : http://cgit.drupalcode.org/htaccess 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   htaccess.drush.inc                        
+ ------ ------------------------------------------ 
+  39     Call to deprecated function db_select().  
+  73     Call to deprecated function db_select().  
+  83     Call to deprecated function db_select().  
+  91     Call to deprecated function db_update().  
+  98     Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   htaccess.module                                    
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function db_select().           
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HtaccessConfirmForm.php                   
+ ------ --------------------------------------------------- 
+  171    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  177    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  182    Call to deprecated function drupal_set_message().  
+  195    Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/HtaccessDeploymentForm.php         
+ ------ -------------------------------------------- 
+  111    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HtaccessDisplayForm.php                   
+ ------ --------------------------------------------------- 
+  61     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  61     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  75     Call to deprecated function db_select().           
+  104    Call to deprecated function db_select().           
+  112    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function db_delete().           
+  119    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function db_select().           
+  215    Call to deprecated function db_insert().           
+  224    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HtaccessGenerateForm.php                  
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  182    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

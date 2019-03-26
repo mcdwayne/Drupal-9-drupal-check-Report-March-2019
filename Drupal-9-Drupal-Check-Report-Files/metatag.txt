@@ -1,0 +1,248 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/metatag c8e7a2f1acbcbc3e64007a9af3e311cfc58d44f8
+source : http://cgit.drupalcode.org/metatag 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   metatag_facebook/src/Plugin/metatag/Group/Facebook.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalacebook\Plugin\metatag\Group\Facebook was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   metatag_mobile/src/Plugin/metatag/Group/AndroidMobile.php             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\metatag_mobile\Plugin\metatag\Group\GroupBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   metatag_mobile/src/Plugin/metatag/Group/AppleMobile.php               
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\metatag_mobile\Plugin\metatag\Group\GroupBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   metatag_mobile/src/Plugin/metatag/Group/Mobile.php                    
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\metatag_mobile\Plugin\metatag\Group\GroupBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   metatag_mobile/src/Plugin/metatag/Group/WindowsMobile.php             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\metatag_mobile\Plugin\metatag\Group\GroupBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   metatag_views/tests/src/Functional/MetatagViewsBasicsTest.php  
+ ------ --------------------------------------------------------------- 
+  66     Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  69     Call to deprecated method assertText() of class                
+         Drupal\Tests\BrowserTestBase.                                  
+  76     Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  84     Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  87     Call to deprecated method assertTitle() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  91     Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  94     Call to deprecated method assertText() of class                
+         Drupal\Tests\BrowserTestBase.                                  
+  97     Call to deprecated method assertText() of class                
+         Drupal\Tests\BrowserTestBase.                                  
+  103    Call to deprecated method assertNoText() of class              
+         Drupal\Tests\BrowserTestBase.                                  
+  109    Call to deprecated method assertText() of class                
+         Drupal\Tests\BrowserTestBase.                                  
+  110    Call to deprecated method assertFieldByName() of class         
+         Drupal\Tests\BrowserTestBase.                                  
+  111    Call to deprecated method assertFieldByName() of class         
+         Drupal\Tests\BrowserTestBase.                                  
+  112    Call to deprecated method assertFieldByName() of class         
+         Drupal\Tests\BrowserTestBase.                                  
+  120    Call to deprecated method assertText() of class                
+         Drupal\Tests\BrowserTestBase.                                  
+  130    Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  133    Call to deprecated method assertTitle() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  137    Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  138    Call to deprecated method assertText() of class                
+         Drupal\Tests\BrowserTestBase.                                  
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Command/GenerateGroupCommand.php                    
+ ------ -------------------------------------------------------- 
+  106    Call to deprecated method confirmGeneration() of class  
+         Drupal\metatag\Command\GenerateGroupCommand.            
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Command/GenerateTagCommand.php                      
+ ------ -------------------------------------------------------- 
+  140    Call to deprecated method confirmGeneration() of class  
+         Drupal\metatag\Command\GenerateTagCommand.              
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Scalars/MetatagScalar.php                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Scalars\Internal\StringScalar not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/DefaultTags.php                 
+ ------ ----------------------------------------------------- 
+  58     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  61     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  69     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  70     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  75     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  87     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  91     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  102    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  106    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  119    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  123    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  147    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  151    Call to deprecated method assertNotEqual() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  152    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/EnsureDevelWorks.php            
+ ------ ----------------------------------------------------- 
+  45     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  46     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  55     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MetatagHelperTrait.php (in context of class Drupal\Tests\metatag\Functional\DefaultTags)  
+ ------ --------------------------------------------------------------------------------------------------------------- 
+  118    Call to deprecated method assertEqual() of class                                                               
+         Drupal\Tests\BrowserTestBase.                                                                                  
+  151    Call to deprecated method assertEqual() of class                                                               
+         Drupal\Tests\BrowserTestBase.                                                                                  
+ ------ --------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MetatagHelperTrait.php (in context of class Drupal\Tests\metatag\FunctionalnsureDevelWorks)  
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  118    Call to deprecated method assertEqual() of class                                                                    
+         Drupal\Tests\BrowserTestBase.                                                                                       
+  151    Call to deprecated method assertEqual() of class                                                                    
+         Drupal\Tests\BrowserTestBase.                                                                                       
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Functional/MetatagHelperTrait.php (in context of class Drupal\Tests\metatag\Functional\NodeJsonOutput)  
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  118    Call to deprecated method assertEqual() of class                                                                  
+         Drupal\Tests\BrowserTestBase.                                                                                     
+  151    Call to deprecated method assertEqual() of class                                                                  
+         Drupal\Tests\BrowserTestBase.                                                                                     
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MetatagHelperTrait.php (in context of class Drupal\Tests\metatag\Functional\NodeTranslation)  
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  118    Call to deprecated method assertEqual() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                      
+  151    Call to deprecated method assertEqual() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                      
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MetatagHelperTrait.php (in context of class Drupal\Tests\metatag\Functional\RemoveCoreMetaTags)  
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  118    Call to deprecated method assertEqual() of class                                                                      
+         Drupal\Tests\BrowserTestBase.                                                                                         
+  151    Call to deprecated method assertEqual() of class                                                                      
+         Drupal\Tests\BrowserTestBase.                                                                                         
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MetatagHelperTrait.php (in context of class Drupal\Tests\metatag_views\Functional\MetatagViewsBasicsTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+  118    Call to deprecated method assertEqual() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                   
+  151    Call to deprecated method assertEqual() of class                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                   
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MetatagHelperTrait.php (in context of class Drupal\metatag_page_manager\Tests\Functional\MetatagPageManagerTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------- 
+  118    Call to deprecated method assertEqual() of class                                                                                       
+         Drupal\Tests\BrowserTestBase.                                                                                                          
+  151    Call to deprecated method assertEqual() of class                                                                                       
+         Drupal\Tests\BrowserTestBase.                                                                                                          
+ ------ --------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/NodeJsonOutput.php              
+ ------ ----------------------------------------------------- 
+  56     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  61     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  64     Call to deprecated method getRawContent() of class   
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/NodeTranslation.php             
+ ------ ----------------------------------------------------- 
+  48     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  57     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  69     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  70     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  72     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  73     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Functional/SchemaMetatagTest.php                           
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests\schema_web_page\Functional\SchemaWebPageTest not  
+         found and could not be autoloaded.                                   
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 67 errors                                                         
+
+ </code>

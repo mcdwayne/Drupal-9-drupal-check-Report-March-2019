@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_compressor_field c66244bfe2010ed6f5cd9890bab021bf1213b04d
+source : http://cgit.drupalcode.org/file_compressor_field 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/FileCompressorRebuildForm.php               
+ ------ ----------------------------------------------------- 
+  119    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/FileCompressorFieldItemList.php  
+ ------ ------------------------------------------------------------ 
+  64     Call to deprecated function drupal_set_message().           
+  80     Call to deprecated function entity_create().                
+  119    Call to deprecated method entityManager() of class Drupal.  
+  136    Call to deprecated function drupal_basename().              
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/FileCompressor/FileCompressorGZip.php  
+ ------ -------------------------------------------------- 
+  27     Call to deprecated function drupal_realpath().    
+  30     Call to deprecated function drupal_mkdir().       
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/FileCompressor/FileCompressorZip.php  
+ ------ ------------------------------------------------- 
+  29     Call to deprecated function drupal_realpath().   
+  33     Call to deprecated function drupal_realpath().   
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

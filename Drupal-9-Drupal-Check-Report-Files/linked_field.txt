@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/linked_field fcac226d9ee684a2bee59208a060a94c15ac44c9
+source : http://cgit.drupalcode.org/linked_field 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   linked_field.module                          
+ ------ --------------------------------------------- 
+  318    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                            
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

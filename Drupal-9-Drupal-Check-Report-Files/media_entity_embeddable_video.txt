@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_embeddable_video 80a4358d02131a35d2cb81f12a3ac846e601bcb7
+source : http://cgit.drupalcode.org/media_entity_embeddable_video 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/EmbeddableVideoTypeInterface.php                                     
+ ------ ------------------------------------------------------------------------- 
+  16     Class Drupal\media_entity\MediaTypeInterface not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/EmbeddableVideo.php                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

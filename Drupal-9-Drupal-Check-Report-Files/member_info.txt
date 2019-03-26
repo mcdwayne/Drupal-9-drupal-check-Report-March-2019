@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/member_info 274e7f3a04b122441a0142cc42fb18520d19520d
+source : http://cgit.drupalcode.org/member_info 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   member.module                                      
+ ------ --------------------------------------------------- 
+  22     Call to deprecated function taxonomy_term_load().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MemberService.php                              
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function taxonomy_term_load().  
+  26     Call to deprecated function taxonomy_term_load().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

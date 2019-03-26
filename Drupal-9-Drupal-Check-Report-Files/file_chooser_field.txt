@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_chooser_field ab67a9fc7f75fc1ab11210bfa93a9272e78248c9
+source : http://cgit.drupalcode.org/file_chooser_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/FileChooserFieldSettingsForm.php         
+ ------ -------------------------------------------------- 
+  97     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/FileItem.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalile_chooser_field\Plugin\Field\FieldType\FileChooserFieldFileIt  
+         em was not found while trying to analyse it - autoloading is probably    
+         not configured properly.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/ImageItem.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalile_chooser_field\Plugin\Field\FieldType\FileChooserFieldImageI  
+         tem was not found while trying to analyse it - autoloading is probably   
+         not configured properly.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/FileWidget.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalile_chooser_field\Plugin\Field\FileChooserField_FileWidget\File  
+         ChooserField_FileWidget was not found while trying to analyse it -       
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/ImageWidget.php                             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalile_chooser_field\Plugin\Field\FileChooserField_ImageWidget\Fil  
+         eChooserField_ImageWidget was not found while trying to analyse it -     
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

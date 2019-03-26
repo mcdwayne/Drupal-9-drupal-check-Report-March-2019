@@ -1,0 +1,94 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_ownage a949792f19dbe8355ca3fb266edff43f234aef9d
+source : http://cgit.drupalcode.org/file_ownage 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   file_ownage.drush.inc                    
+ ------ ----------------------------------------- 
+  98     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   file_ownage.module                                          
+ ------ ------------------------------------------------------------ 
+  76     Call to deprecated method url() of class Drupal.            
+  77     Call to deprecated method url() of class Drupal.            
+  130    Call to deprecated function drupal_set_message().           
+  130    Call to deprecated function format_string().                
+  298    Call to deprecated method entityManager() of class Drupal.  
+  404    Call to deprecated method entityManager() of class Drupal.  
+  686    Call to deprecated function drupal_set_message().           
+  693    Call to deprecated function drupal_set_message().           
+  697    Call to deprecated function drupal_set_message().           
+  712    Call to deprecated function drupal_set_message().           
+  719    Call to deprecated function drupal_set_message().           
+  725    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   file_ownage.process.inc                            
+ ------ --------------------------------------------------- 
+  393    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   file_ownage.rules.inc                    
+ ------ ----------------------------------------- 
+  119    Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   file_ownage_ui/file_ownage_ui.module               
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+  120    Call to deprecated function drupal_set_message().  
+  147    Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   file_ownage_ui/src/Form/FileChecker.php            
+ ------ --------------------------------------------------- 
+  162    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/FetchManager.php                                                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\stage_file_proxy\FetchManager not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/FileOwnageRepairTestCase.php                                       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalile_ownage\FileOwnageTestHelper not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/FileOwnageStatusTestCase.php                                       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalile_ownage\FileOwnageTestHelper not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/FileOwnageTestHelper.php                                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalile_ownage\FileEntityTestHelper not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/FindManager.php                             
+ ------ ------------------------------------------------ 
+  56     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

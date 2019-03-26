@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graphql_string_translation 7fa91b9a4dd884f8597eaee95cf64db5c11e00af
+source : http://cgit.drupalcode.org/graphql_string_translation 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   graphql_string_translation.module                                     
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddStringForm.php                         
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/Translation.php                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

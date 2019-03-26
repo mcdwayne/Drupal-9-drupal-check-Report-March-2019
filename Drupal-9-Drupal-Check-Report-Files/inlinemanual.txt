@@ -1,0 +1,97 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/inlinemanual 8c740e58fecfa1ec96347c25c9b5cb8762ebcc42
+source : http://cgit.drupalcode.org/inlinemanual 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   inlinemanual.module                       
+ ------ ------------------------------------------ 
+  46     Call to deprecated function db_update().  
+  76     Call to deprecated function db_merge().   
+  101    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/Controller/InlineManualController.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\inlinemanual\Controller\InlineManualController was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManual/InlineManual.php          
+ ------ --------------------------------------------------------------- 
+         Class InlineManual was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManual/InlineManual_ApiConnectionError.php  
+ ------ -------------------------------------------------------------------------- 
+         Class InlineManual_ApiConnectionError was not found while trying to       
+         analyse it - autoloading is probably not configured properly.             
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/inlinemanual/InlineManual/InlineManual_ApiError.php          
+ ------ ------------------------------------------------------------------------ 
+         Class InlineManual_ApiError was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/inlinemanual/InlineManual/InlineManual_ApiRequest.php        
+ ------ ------------------------------------------------------------------------ 
+         Class InlineManual_ApiRequest was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManual/InlineManual_Error.php          
+ ------ --------------------------------------------------------------------- 
+         Class InlineManual_Error was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManual/InlineManual_Site.php          
+ ------ -------------------------------------------------------------------- 
+         Class InlineManual_Site was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManualAdminList.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\inlinemanual\InlineManualAdminList was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManualSettingsForm.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\inlinemanual\InlineManualSettingsForm was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManualTopicDeleteConfirmForm.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\inlinemanual\InlineManualTopicDeleteConfirmForm was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/inlinemanual/InlineManualTopicPermissionsForm.php        
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\inlinemanual\InlineManualTopicPermissionsForm was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

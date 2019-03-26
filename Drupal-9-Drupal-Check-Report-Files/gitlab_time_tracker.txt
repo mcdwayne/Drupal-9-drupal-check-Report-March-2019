@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gitlab_time_tracker 98937b53e09a9546b2cdc893bf90ff8f129cf767
+source : https://git.drupal.org/project/gitlab_time_tracker.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   gitlab_time_tracker.module                
+ ------ ------------------------------------------ 
+  38     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/gitlab_time_tracker_users/src/Plugin/Block/GitlabAuthenticationBlock.php  
+ ------ ---------------------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in               
+         class                                                                             
+         Drupal\gitlab_time_tracker_users\Plugin\Block\GitlabAuthenticationBlock           
+         .                                                                                 
+  22     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in                
+         class                                                                             
+         Drupal\gitlab_time_tracker_users\Plugin\Block\GitlabAuthenticationBlock           
+         .                                                                                 
+  34     Call to deprecated method l() of class                                            
+         Drupal\gitlab_time_tracker_users\Plugin\Block\GitlabAuthenticationBlock           
+         .                                                                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

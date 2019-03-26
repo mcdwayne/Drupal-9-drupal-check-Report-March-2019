@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/instant_solr_index 52703cf0157b33e2e1a1fe99f54480a0767175d0
+source : http://cgit.drupalcode.org/instant_solr_index 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GotoSolrController.php              
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().  
+  34     Call to deprecated function drupal_set_message().  
+  39     Call to deprecated function drupal_set_message().  
+  54     Call to deprecated method l() of class Drupal.     
+  60     Call to deprecated method l() of class Drupal.     
+  72     Call to deprecated method l() of class Drupal.     
+  83     Call to deprecated method l() of class Drupal.     
+  99     Call to deprecated function drupal_render().       
+  109    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated method l() of class Drupal.     
+  165    Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

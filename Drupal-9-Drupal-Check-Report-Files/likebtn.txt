@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/likebtn d2814dbc16b585472eb7f59652d86e30f241cffd
+source : http://cgit.drupalcode.org/likebtn 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   likebtn.admin.inc                                   
+ ------ ---------------------------------------------------- 
+  20     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   likebtn.module                              
+ ------ -------------------------------------------- 
+  294    Call to deprecated function node_load().    
+  390    Call to deprecated function entity_load().  
+  1432   Call to deprecated function db_select().    
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   likebtn.php                                                              
+ ------ ------------------------------------------------------------------------- 
+         Class LikeBtn was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

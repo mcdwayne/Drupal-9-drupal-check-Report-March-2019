@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/minimal_share 192b446ba6facbefb0d72082889aab8628c5a152
+source : http://cgit.drupalcode.org/minimal_share 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/MinimalShareManager.php                      
+ ------ ------------------------------------------------- 
+  195    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

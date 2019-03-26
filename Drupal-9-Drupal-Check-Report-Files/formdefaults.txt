@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/formdefaults c2bf17251950e733efc16fedf6b54df849fb5a9b
+source : http://cgit.drupalcode.org/formdefaults 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Controller/FormDefaultsController.php                              
+ ------ ----------------------------------------------------------------------- 
+  8      Namespace declaration statement has to be the very first statement in  
+         the script on line 8                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/AdminForm.php                                                  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Formdefaults\Form\AdminForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/EditFieldForm.php                                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Formdefaults\FormditFieldForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/EditForm.php                                                  
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Formdefaults\FormditForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/ManageForm.php                                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Formdefaults\Form\ManageForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Helper/FormDefaultsHelper.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Formdefaults\Helper\FormDefaultsHelper was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

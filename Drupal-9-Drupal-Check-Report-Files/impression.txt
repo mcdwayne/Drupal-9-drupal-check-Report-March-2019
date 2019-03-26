@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/impression 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/impression 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   impression.module                             
+ ------ ---------------------------------------------- 
+  47     Call to deprecated function entity_create().  
+  137    Call to deprecated function db_query().       
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/DefaultController.php        
+ ------ -------------------------------------------- 
+  58     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Entity/Controller/BaseListBuilder.php  
+ ------ ------------------------------------------- 
+  63     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/EventSubscriber/ImpressionSubscriber.php  
+ ------ ---------------------------------------------- 
+  30     Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/QueueWorker/HouseKeeperBase.php             
+ ------ ------------------------------------------------------- 
+  26     Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/ImpressionTest.php                                          
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\impression\Tests\ContentEntityExampleTest was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

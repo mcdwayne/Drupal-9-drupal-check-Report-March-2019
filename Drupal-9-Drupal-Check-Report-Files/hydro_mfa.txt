@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hydro_mfa 8.x-1.0
+source : http://cgit.drupalcode.org/hydro_mfa 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AuthForm.php                              
+ ------ --------------------------------------------------- 
+  158    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated function drupal_set_message().  
+  288    Call to deprecated function drupal_set_message().  
+  293    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                                          
+ ------ ------------------------------------------------------------------- 
+  68     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/TokenStorage/PrivateTempStoreStorage.php                          
+ ------ ---------------------------------------------------------------------- 
+  17     Class Adrenth\Raindrop\TokenStorage\TokenStorage not found and could  
+         not be autoloaded.                                                    
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,95 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/iyo 8.x-1.0
+source : http://cgit.drupalcode.org/iyo 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   itsyouonline.module                                
+ ------ --------------------------------------------------- 
+  72     Call to deprecated method l() of class Drupal.     
+  134    Call to deprecated function db_select().           
+  136    Call to deprecated function db_and().              
+  153    Call to deprecated function db_like().             
+  153    Call to deprecated function db_select().           
+  222    Call to deprecated method l() of class Drupal.     
+  282    Call to deprecated method l() of class Drupal.     
+  312    Call to deprecated function db_select().           
+  354    Call to deprecated function db_select().           
+  368    Call to deprecated function db_insert().           
+  372    Call to deprecated function drupal_set_message().  
+  375    Call to deprecated function drupal_set_message().  
+  384    Call to deprecated function drupal_set_message().  
+  393    Call to deprecated function db_select().           
+  403    Call to deprecated function db_delete().           
+  407    Call to deprecated function db_delete().           
+  425    Call to deprecated function db_select().           
+  434    Call to deprecated function db_select().           
+  463    Call to deprecated function db_insert().           
+  467    Call to deprecated function drupal_set_message().  
+  470    Call to deprecated function drupal_set_message().  
+  479    Call to deprecated function db_select().           
+  482    Call to deprecated function db_or().               
+  503    Call to deprecated function db_select().           
+  685    Call to deprecated function drupal_set_message().  
+  697    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Controller/ItsyouonlineIntegrationController.php  
+ ------ ------------------------------------------------------ 
+  79     Call to deprecated function db_like().                
+  79     Call to deprecated function db_select().              
+  107    Call to deprecated function db_like().                
+  107    Call to deprecated function db_select().              
+  125    Call to deprecated function db_like().                
+  125    Call to deprecated function db_select().              
+  137    Call to deprecated function db_like().                
+  137    Call to deprecated function db_select().              
+  173    Call to deprecated function db_insert().              
+  177    Call to deprecated function drupal_set_message().     
+  184    Call to deprecated function drupal_set_message().     
+  187    Call to deprecated method url() of class Drupal.      
+ ------ ------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/AccountLinkForm.php                      
+ ------ -------------------------------------------------- 
+  29     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AccountSettingForm.php                             
+ ------ ------------------------------------------------------------ 
+  217    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/UserFieldsSettingForm.php                          
+ ------ ------------------------------------------------------------ 
+  104    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/ItsyouonlineUtils.php                          
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function db_select().           
+  131    Call to deprecated function db_delete().           
+  136    Call to deprecated function db_insert().           
+  150    Call to deprecated function db_select().           
+  159    Call to deprecated function user_load().           
+  162    Call to deprecated function db_update().           
+  176    Call to deprecated method url() of class Drupal.   
+  180    Call to deprecated function drupal_set_message().  
+  184    Call to deprecated method url() of class Drupal.   
+  204    Call to deprecated function db_insert().           
+  208    Call to deprecated function drupal_set_message().  
+  213    Call to deprecated function drupal_set_message().  
+  224    Call to deprecated method url() of class Drupal.   
+  229    Call to deprecated method url() of class Drupal.   
+  232    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 56 errors                                                         
+
+ </code>

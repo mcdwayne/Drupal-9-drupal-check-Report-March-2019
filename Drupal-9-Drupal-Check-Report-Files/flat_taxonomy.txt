@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flat_taxonomy 1441191da8e6a6ea93e0ffa2ff8313c1e96a3163
+source : http://cgit.drupalcode.org/flat_taxonomy 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   flat_taxonomy.module                                  
+ ------ ------------------------------------------------------ 
+  68     Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomyntity\Term.                          
+  75     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Flattener.php                                     
+ ------ ------------------------------------------------------ 
+  68     Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomyntity\Term.                          
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

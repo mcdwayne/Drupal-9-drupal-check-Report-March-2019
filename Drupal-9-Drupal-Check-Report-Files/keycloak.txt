@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/keycloak 34b4d1fb9aa95062bb9a8d1b960a3c9fd7a5cefc
+source : http://cgit.drupalcode.org/keycloak 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   keycloak.module                                    
+ ------ --------------------------------------------------- 
+  22     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Controller/KeycloakController.php                           
+ ------ ---------------------------------------------------------------- 
+  102    Call to deprecated function openid_connect_save_destination().  
+ ------ ---------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/OpenIDConnectClient/Keycloak.php                
+ ------ ----------------------------------------------------------- 
+  294    Call to deprecated function openid_connect_extract_sub().  
+  307    Call to deprecated function drupal_set_message().          
+  322    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

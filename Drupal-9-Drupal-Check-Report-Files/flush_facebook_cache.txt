@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flush_facebook_cache bdc18bd019e147906e9ce4965eca8812b9865c07
+source : http://cgit.drupalcode.org/flush_facebook_cache 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/flush_facebook_cache_rules/src/Plugin/RulesAction/FlushFacebookCacheRules.php  
+ ------ --------------------------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be                     
+         autoloaded.                                                                            
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DefaultController.php               
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   tests/src/Unit/ServiceTest.php                               
+ ------ ------------------------------------------------------------- 
+  18     Class Eris\TestTrait not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

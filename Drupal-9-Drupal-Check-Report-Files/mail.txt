@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mail 38a790b7d06eeee7599ad4c69f927f52dfdbe4f9
+source : http://cgit.drupalcode.org/mail 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EntityMailer.php                               
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailMessageForm.php                       
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/MailMessageGroupListController.php              
+ ------ ---------------------------------------------------- 
+  22     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,132 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/httpbl 90e366916fa5a620f41d09ac87c0d8d33ce7e413
+source : http://cgit.drupalcode.org/httpbl 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   httpbl.module                                      
+ ------ --------------------------------------------------- 
+  146    Call to deprecated function drupal_set_message().  
+  250    Call to deprecated function drupal_set_message().  
+  289    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostDeleteForm.php                        
+ ------ --------------------------------------------------- 
+  142    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostForm.php                              
+ ------ --------------------------------------------------- 
+  206    Call to deprecated function drupal_set_message().  
+  234    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostMultipleBanConfirm.php                
+ ------ --------------------------------------------------- 
+  265    Call to deprecated function drupal_set_message().  
+  281    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostMultipleDeleteConfirm.php             
+ ------ --------------------------------------------------- 
+  193    Call to deprecated function drupal_set_message().  
+  201    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostMultipleGreylistConfirm.php           
+ ------ --------------------------------------------------- 
+  210    Call to deprecated function drupal_set_message().  
+  226    Call to deprecated function drupal_set_message().  
+  230    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostMultipleRefreshConfirm.php            
+ ------ --------------------------------------------------- 
+  238    Call to deprecated function drupal_set_message().  
+  250    Call to deprecated function drupal_set_message().  
+  262    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostMultipleUnbanConfirm.php              
+ ------ --------------------------------------------------- 
+  183    Call to deprecated function drupal_set_message().  
+  229    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HostMultipleWhitelistConfirm.php          
+ ------ --------------------------------------------------- 
+  210    Call to deprecated function drupal_set_message().  
+  226    Call to deprecated function drupal_set_message().  
+  230    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HttpblConfigForm.php                      
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  291    Call to deprecated function drupal_set_message().  
+  301    Call to deprecated function drupal_set_message().  
+  306    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HttpblWhitelistForm.php                   
+ ------ --------------------------------------------------- 
+  199    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Future/HttpblManager.php                                           
+ ------ ----------------------------------------------------------------------- 
+  12     Class Drupal\httpbl\Future\HttpblManagerInterface not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/HttpblEvaluator.php                            
+ ------ --------------------------------------------------- 
+  282    Call to deprecated function drupal_set_message().  
+  577    Call to deprecated function drupal_set_message().  
+  586    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Plugin/views/field/CronExpireDate.php   
+ ------ -------------------------------------------- 
+  77     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/views/field/HostBulkForm.php                                 
+ ------ ------------------------------------------------------------------------ 
+  12     Class Drupal\httpbl\Pluginiewsield\HostBulkForm extends deprecated  
+         class Drupal\system\Pluginiewsield\BulkForm.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/views/field/ProjectLinkHost.php      
+ ------ ------------------------------------------------ 
+  48     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/views/field/ProjectLinkSource.php    
+ ------ ------------------------------------------------ 
+  50     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 36 errors                                                         
+
+ </code>

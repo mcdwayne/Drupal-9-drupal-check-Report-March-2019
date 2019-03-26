@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ief_table_view_mode 9a79364f42ca1355f93d54972c8e183738b127ea
+source : http://cgit.drupalcode.org/ief_table_view_mode 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   ief_table_view_mode.module                  
+ ------ -------------------------------------------- 
+  187    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/EntityInlineTableViewModeForm.php  
+ ------ -------------------------------------------- 
+  19     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

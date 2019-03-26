@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_books deee7e421bf6a2154b4cf26ddbf24c387639fb00
+source : http://cgit.drupalcode.org/google_books 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   Controller/GooglebooksController.php                                
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\google_books\Controller\GooglebooksController was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Filter/Googlebooks.php                  
+ ------ --------------------------------------------------- 
+  313    Call to deprecated function check_url().           
+  692    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

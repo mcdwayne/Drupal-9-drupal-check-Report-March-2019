@@ -1,0 +1,101 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/iots 6ba381609908d5adb6336ff965a2481faa760f54
+source : http://cgit.drupalcode.org/iots 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   modules/channel/src/Form/IotsChannelForm.php       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/channel/src/Hook/EntityView.php            
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/device/src/Controller/IotsDeviceController.php  
+ ------ -------------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class      
+         Drupal\Core\Controller\ControllerBase.                  
+  29     Call to deprecated method entityManager() of class      
+         Drupal\Core\Controller\ControllerBase.                  
+  44     Call to deprecated method entityManager() of class      
+         Drupal\Core\Controller\ControllerBase.                  
+  45     Call to deprecated function format_date().              
+  63     Call to deprecated method entityManager() of class      
+         Drupal\Core\Controller\ControllerBase.                  
+  91     Call to deprecated method l() of class                  
+         Drupal\Core\Controller\ControllerBase.                  
+  94     Call to deprecated method link() of class               
+         Drupal\CorentityntityInterface.                     
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/device/src/Form/IotsDeviceForm.php         
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/device/src/Form/IotsDeviceRevisionDeleteForm.php  
+ ------ ---------------------------------------------------------- 
+  76     Call to deprecated function format_date().                
+  110    Call to deprecated function drupal_set_message().         
+  110    Call to deprecated function format_date().                
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/device/src/Form/IotsDeviceRevisionRevertForm.php  
+ ------ ---------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/device/src/Form/IotsDeviceTypeDeleteForm.php  
+ ------ ------------------------------------------------------ 
+  41     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/device/src/Form/IotsDeviceTypeForm.php     
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/device/src/Hook/EntityView.php                      
+ ------ ------------------------------------------------------------ 
+  60     Call to deprecated function drupal_set_message().           
+  73     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/measure/src/Form/IotsMeasureForm.php       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   modules/measure/src/IotsMeasureListBuilder.php  
+ ------ ------------------------------------------------ 
+  32     Call to deprecated function format_date().      
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/DefaultController.php                        
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method entityManager() of class Drupal.  
+  33     Call to deprecated function format_date().                  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

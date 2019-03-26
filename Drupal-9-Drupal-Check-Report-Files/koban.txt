@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/koban 8.x-1.0
+source : http://cgit.drupalcode.org/koban 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   koban.module                                     
+ ------ ------------------------------------------------- 
+  54     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  58     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

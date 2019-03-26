@@ -1,0 +1,122 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/metatags_quick 3432664c5fb996b2b3a8b5bd9703dcfcf85a735d
+source : http://cgit.drupalcode.org/metatags_quick 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/metatags_quick/MetatagsQuickAdminSettingsForm.php        
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\metatags_quick\MetatagsQuickAdminSettingsForm was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/metatags_quick/Plugin/field/field_type/MetatagItem.php        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\metatags_quick\Pluginieldield_type\MetatagItem was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/metatags_quick/Plugin/field/formatter/MetatagFormatter.php    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\metatags_quick\Pluginieldormatter\MetatagFormatter was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/metatags_quick/Plugin/field/widget/MetatagDefaultWidget.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\metatags_quick\Pluginield\widget\MetatagDefaultWidget    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   metatags_quick.admin.inc                               
+ ------ ------------------------------------------------------- 
+  215    Call to deprecated function db_select().               
+  222    Call to deprecated function db_insert().               
+  251    Call to deprecated function drupal_set_message().      
+  259    Call to deprecated function drupal_set_message().      
+  326    Call to deprecated function db_select().               
+  333    Call to deprecated function drupal_get_destination().  
+  389    Call to deprecated function drupal_get_destination().  
+  415    Call to deprecated function db_select().               
+  423    Call to deprecated function db_insert().               
+  514    Call to deprecated function drupal_set_message().      
+  521    Call to deprecated function db_select().               
+  529    Call to deprecated function db_update().               
+  548    Call to deprecated function drupal_set_message().      
+  656    Call to deprecated function db_select().               
+  662    Call to deprecated function entity_load().             
+  671    Call to deprecated function db_delete().               
+  674    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   metatags_quick.drush.inc                           
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   metatags_quick.feeds.inc                  
+ ------ ------------------------------------------ 
+  40     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   metatags_quick.migrate.inc                                            
+ ------ ---------------------------------------------------------------------- 
+         Class MigrateMetatagsquickFieldHandler was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   metatags_quick.module                     
+ ------ ------------------------------------------ 
+  146    Call to deprecated function db_select().  
+  163    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   metatags_quick.views.inc                           
+ ------ --------------------------------------------------- 
+  14     Call to deprecated function taxonomy_term_load().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   metatags_quick_extra.admin.inc                     
+ ------ --------------------------------------------------- 
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   metatags_quick_extra.module                        
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function node_load().           
+  157    Call to deprecated function taxonomy_term_load().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   metatags_quick_import.admin.inc                    
+ ------ --------------------------------------------------- 
+  9      Call to deprecated function db_table_exists().     
+  84     Call to deprecated function drupal_set_message().  
+  88     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  103    Call to deprecated function db_select().           
+  128    Call to deprecated function node_load_multiple().  
+  129    Call to deprecated function db_select().           
+  166    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 39 errors                                                         
+
+ </code>

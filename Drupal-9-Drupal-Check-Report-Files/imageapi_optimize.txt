@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/imageapi_optimize 3daf4e61ede57598a9b9b6f1568bc6b146846704
+source : http://cgit.drupalcode.org/imageapi_optimize 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageAPIOptimizePipelineAddForm.php       
+ ------ --------------------------------------------------- 
+  17     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageAPIOptimizePipelineEditForm.php      
+ ------ --------------------------------------------------- 
+  221    Call to deprecated function drupal_set_message().  
+  244    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageAPIOptimizePipelineFlushForm.php     
+ ------ --------------------------------------------------- 
+  38     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Form/ImageAPIOptimizePipelineFormBase.php  
+ ------ ----------------------------------------------- 
+  76     Call to deprecated method urlInfo() of class   
+         Drupal\CorentityntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageAPIOptimizeProcessorDeleteForm.php   
+ ------ --------------------------------------------------- 
+  46     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  71     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageAPIOptimizeProcessorFormBase.php     
+ ------ --------------------------------------------------- 
+  95     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  126    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/ImageAPIOptimizePipelineListBuilder.php   
+ ------ ---------------------------------------------- 
+  75     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

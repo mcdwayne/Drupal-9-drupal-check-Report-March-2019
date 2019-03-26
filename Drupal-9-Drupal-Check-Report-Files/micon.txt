@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/micon 99f372b0c0a1375503da9a17efb3a20c0fb47156
+source : https://github.com/jacerider/micon 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   micon_paragraphs/src/MiconParagraphsTypeListBuilder.php                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\paragraphs\Controller\ParagraphsTypeListBuilder not found  
+         and could not be autoloaded.                                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Micon.php                            
+ ------ ------------------------------------------------ 
+  298    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiconDeleteForm.php                       
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiconForm.php                             
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  186    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/MiconListBuilder.php                                               
+ ------ ----------------------------------------------------------------------- 
+  14     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in    
+         class Drupal\micon\MiconListBuilder.                                   
+  41     Call to deprecated method l() of class Drupal\micon\MiconListBuilder.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EntityReferenceMiconFormatter.php  
+ ------ ------------------------------------------------------------------- 
+  39     Call to deprecated method urlInfo() of class                       
+         Drupal\CorentityntityInterface.                                
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/SocialMediaLinks/Iconset/Micon.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\social_media_links\IconsetBase not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

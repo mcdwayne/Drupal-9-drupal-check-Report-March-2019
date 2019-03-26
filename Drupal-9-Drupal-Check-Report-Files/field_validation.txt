@@ -1,0 +1,71 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_validation e276d46e71ecbc858ca115dcda63f37084c69cb8
+source : http://cgit.drupalcode.org/field_validation 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   field_validation.module                                     
+ ------ ------------------------------------------------------------ 
+  10     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldValidationRuleDeleteForm.php         
+ ------ --------------------------------------------------- 
+  46     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  71     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/FieldValidationRuleFormBase.php                    
+ ------ ------------------------------------------------------------ 
+  89     Call to deprecated method entityManager() of class Drupal.  
+  160    Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+  256    Call to deprecated function drupal_set_message().           
+  257    Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/FieldValidationRuleSetAddForm.php                  
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method entityManager() of class Drupal.  
+  90     Call to deprecated method entityManager() of class Drupal.  
+  108    Call to deprecated method entityManager() of class Drupal.  
+  122    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldValidationRuleSetEditForm.php        
+ ------ --------------------------------------------------- 
+  230    Call to deprecated function drupal_set_message().  
+  253    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/FieldValidationRuleSetFormBase.php   
+ ------ ---------------------------------------------- 
+  89     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/FieldValidationRule/EmailFieldValidationRule.php  
+ ------ ------------------------------------------------------------- 
+  76     Call to deprecated function valid_email_address().           
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/FieldValidationConstraintValidator.php  
+ ------ ------------------------------------------------------------------------- 
+  21     Call to deprecated method entityManager() of class Drupal.               
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

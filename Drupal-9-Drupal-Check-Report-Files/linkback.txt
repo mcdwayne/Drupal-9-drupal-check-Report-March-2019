@@ -1,0 +1,96 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/linkback 79a48edb34654a905de30e7c348f909bd09df9d8
+source : http://cgit.drupalcode.org/linkback 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   linkback_pingback/linkback_pingback.module  
+ ------ -------------------------------------------- 
+  104    Call to deprecated function node_load().    
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   linkback_webmention/linkback_webmention.module     
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   linkback_webmention/src/EventSubscriber/WebmentionReceiveSubscriber.php  
+ ------ ------------------------------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   linkback_webmention/src/EventSubscriber/WebmentionSendSubscriber.php  
+ ------ ---------------------------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   linkback_webmention/src/Form/WebmentionTestsForm.php  
+ ------ ------------------------------------------------------ 
+  108    Call to deprecated function drupal_set_message().     
+  112    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   linkback_webmention/src/LinkbackWebmentionMF2Parser.php  
+ ------ --------------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().        
+  54     Call to deprecated function drupal_set_message().        
+  896    Call to deprecated method getSummary() of class          
+         Drupal\linkback_webmention\LinkbackWebmentionMF2Parser.  
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   linkback_webmention/src/LinkbackWebmentionParser.php  
+ ------ ------------------------------------------------------ 
+  120    Call to deprecated function drupal_render().          
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   linkback_webmention/src/Webmention.php             
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/LinkbackAdminOverview.php            
+ ------ ---------------------------------------------- 
+  208    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/LinkbackListBuilder.php                
+ ------ ------------------------------------------- 
+  40     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/LinkbackService.php                       
+ ------ ---------------------------------------------- 
+  204    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/LinkbackKernelTestBase.php                              
+ ------ ------------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\linkback\Kernel\LinkbackKernelTestBase.               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/LinkbackServiceTest.php                                
+ ------ ------------------------------------------------------------------------ 
+  22     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class  
+         Drupal\Tests\linkback\Kernel\LinkbackServiceTest.                       
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

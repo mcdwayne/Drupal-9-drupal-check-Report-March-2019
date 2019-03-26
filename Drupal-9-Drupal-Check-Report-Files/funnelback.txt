@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/funnelback 456c17fb4427448394e429271b18c3792f5b5d92
+source : http://cgit.drupalcode.org/funnelback 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FunnelbackPageController.php        
+ ------ --------------------------------------------------- 
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FunnelbackClient.php                           
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Funnelback/FunnelbackTest.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Testsunnelback\Diff\FunnelbackTestCase was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

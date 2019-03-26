@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_link_modal 1dc58a48ad65dcd6896cadc4f6df02c7f9b39bb7
+source : http://cgit.drupalcode.org/menu_link_modal 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MenuLinkModalTest.php                 
+ ------ --------------------------------------------------------------------- 
+  12     Class                                                                
+         Drupal\Tests\menu_link_modal\FunctionalJavascript\MenuLinkModalTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+  63     Call to method setUp() of deprecated class                           
+         Drupal\Tests\BrowserTestBase.                                        
+  90     Call to deprecated method assertText() of class                      
+         Drupal\Tests\BrowserTestBase.                                        
+  98     Call to deprecated method assertResponse() of class                  
+         Drupal\Tests\BrowserTestBase.                                        
+  107    Call to deprecated method assertText() of class                      
+         Drupal\Tests\BrowserTestBase.                                        
+  109    Call to deprecated function entity_load_multiple_by_properties().    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

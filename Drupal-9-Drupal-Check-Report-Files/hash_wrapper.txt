@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hash_wrapper 9167d7d9c713499bdf1c78842c48d29f72b81e77
+source : http://cgit.drupalcode.org/hash_wrapper 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/HashStream.php                           
+ ------ --------------------------------------------- 
+  86     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  86     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  101    Call to deprecated function drupal_mkdir().  
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

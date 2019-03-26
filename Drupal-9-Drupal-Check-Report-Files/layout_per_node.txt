@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/layout_per_node 1463ae795034617dc8b9f985c352ab235bc8e85b
+source : http://cgit.drupalcode.org/layout_per_node 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   layout_per_node.module                                 
+ ------ ------------------------------------------------------- 
+  119    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AddContentForm.php                                 
+ ------ ------------------------------------------------------------ 
+  87     Call to deprecated method entityManager() of class Drupal.  
+  133    Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/LayoutEditorBuilder.php                          
+ ------ ----------------------------------------------------- 
+  125    Call to deprecated function entity_revision_load().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/LayoutPermissions.php                                           
+ ------ -------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\layout_per_node\LayoutPermissions.                     
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Services/LayoutPerNodeManager.php              
+ ------ --------------------------------------------------- 
+  179    Call to deprecated function entity_create().       
+  263    Call to deprecated function entity_get_display().  
+  329    Call to deprecated function entity_load().         
+  340    Call to deprecated function entity_load().         
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/BasicAccessTest.php             
+ ------ ----------------------------------------------------- 
+  73     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  74     Call to deprecated method assertUrl() of class       
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Functional/BasicEntityTest.php      
+ ------ ---------------------------------------------- 
+  44     Call to deprecated function entity_create().  
+  53     Call to deprecated function entity_load().    
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

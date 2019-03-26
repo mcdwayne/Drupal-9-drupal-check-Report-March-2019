@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media b9d72f21ea20c583ec4b83081720eba65670a8da
+source : http://cgit.drupalcode.org/media 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/EmbedButtonTest.php                     
+ ------ ----------------------------------------------------------------------- 
+  12     Class Drupal\Tests\media\FunctionalJavascriptmbedButtonTest extends  
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.  
+  27     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,156 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hook_update_deploy_tools 25416c0d16b5222ca1176ae262067e84f623b550
+source : http://cgit.drupalcode.org/hook_update_deploy_tools 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   boilerplate/install.php                            
+ ------ --------------------------------------------------- 
+  13     Call to deprecated function drupal_set_message().  
+  37     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   hook_update_deploy_tools.drush.inc                                  
+ ------ -------------------------------------------------------------------- 
+  222    Class DrupalUpdateException not found and could not be autoloaded.  
+  257    Call to deprecated function db_query().                             
+  335    Call to deprecated function db_update().                            
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   hook_update_deploy_tools.module          
+ ------ ----------------------------------------- 
+  173    Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Check.php                                                       
+ ------ -------------------------------------------------------------------- 
+  31     Class DrupalUpdateException not found and could not be autoloaded.  
+  55     Class DrupalUpdateException not found and could not be autoloaded.  
+  77     Class DrupalUpdateException not found and could not be autoloaded.  
+  102    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Features.php                                                    
+ ------ -------------------------------------------------------------------- 
+  121    Call to deprecated function format_string().                        
+  145    Class DrupalUpdateException not found and could not be autoloaded.  
+  215    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Fields.php                                                      
+ ------ -------------------------------------------------------------------- 
+  49     Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/HudtException.php                                               
+ ------ -------------------------------------------------------------------- 
+         Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/HudtInternal.php                                                
+ ------ -------------------------------------------------------------------- 
+  41     Class DrupalUpdateException not found and could not be autoloaded.  
+  171    Class DrupalUpdateException not found and could not be autoloaded.  
+  181    Class DrupalUpdateException not found and could not be autoloaded.  
+  274    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Menus.php                                                       
+ ------ -------------------------------------------------------------------- 
+  74     Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Message.php                               
+ ------ ---------------------------------------------- 
+  83     Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Modules.php                                                     
+ ------ -------------------------------------------------------------------- 
+  32     Class DrupalUpdateException not found and could not be autoloaded.  
+  65     Class DrupalUpdateException not found and could not be autoloaded.  
+  98     Class DrupalUpdateException not found and could not be autoloaded.  
+  147    Class DrupalUpdateException not found and could not be autoloaded.  
+  167    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Nodes.php                                                       
+ ------ -------------------------------------------------------------------- 
+  53     Call to deprecated function node_load().                            
+  77     Class DrupalUpdateException not found and could not be autoloaded.  
+  85     Class DrupalUpdateException not found and could not be autoloaded.  
+  93     Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/PageManager.php                                                 
+ ------ -------------------------------------------------------------------- 
+  60     Class DrupalUpdateException not found and could not be autoloaded.  
+  79     Class DrupalUpdateException not found and could not be autoloaded.  
+  111    Class DrupalUpdateException not found and could not be autoloaded.  
+  135    Class DrupalUpdateException not found and could not be autoloaded.  
+  140    Class DrupalUpdateException not found and could not be autoloaded.  
+  146    Class DrupalUpdateException not found and could not be autoloaded.  
+  151    Class DrupalUpdateException not found and could not be autoloaded.  
+  160    Class DrupalUpdateException not found and could not be autoloaded.  
+  165    Call to deprecated function db_query().                             
+  169    Class DrupalUpdateException not found and could not be autoloaded.  
+  175    Call to deprecated function db_query().                             
+  179    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Paths.php                                                       
+ ------ -------------------------------------------------------------------- 
+  49     Class DrupalUpdateException not found and could not be autoloaded.  
+  76     Class DrupalUpdateException not found and could not be autoloaded.  
+  90     Class DrupalUpdateException not found and could not be autoloaded.  
+  139    Class DrupalUpdateException not found and could not be autoloaded.  
+  154    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Redirects.php                                                   
+ ------ -------------------------------------------------------------------- 
+  56     Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Rules.php                                                       
+ ------ -------------------------------------------------------------------- 
+  59     Class DrupalUpdateException not found and could not be autoloaded.  
+  85     Class DrupalUpdateException not found and could not be autoloaded.  
+  104    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Settings.php                                                    
+ ------ -------------------------------------------------------------------- 
+  76     Class DrupalUpdateException not found and could not be autoloaded.  
+  96     Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Views.php                                                       
+ ------ -------------------------------------------------------------------- 
+  82     Class DrupalUpdateException not found and could not be autoloaded.  
+  97     Class DrupalUpdateException not found and could not be autoloaded.  
+  124    Class DrupalUpdateException not found and could not be autoloaded.  
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 57 errors                                                         
+
+ </code>

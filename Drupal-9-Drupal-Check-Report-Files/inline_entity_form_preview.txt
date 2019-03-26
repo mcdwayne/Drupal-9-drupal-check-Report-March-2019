@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/inline_entity_form_preview e5d94697e5c8839c3dd6069e03659a223b163b4a
+source : http://cgit.drupalcode.org/inline_entity_form_preview 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/InlineEntityFormPreviewWebTest.php            
+ ------ -------------------------------------------------------- 
+  44     Call to deprecated function entity_get_display().       
+  48     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

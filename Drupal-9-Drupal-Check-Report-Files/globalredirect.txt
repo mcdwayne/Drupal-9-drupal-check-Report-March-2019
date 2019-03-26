@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/globalredirect c2e0be7d3ca8158e44e0693cc185e6f5cb0b3f97
+source : http://cgit.drupalcode.org/globalredirect 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/EventSubscriber/GlobalredirectSubscriber.php  
+ ------ -------------------------------------------------- 
+  199    Call to deprecated method url() of class          
+         Drupal\CorentityntityInterface.               
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/GlobalredirectSettingsForm.php                            
+ ------ ------------------------------------------------------------------- 
+  102    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/GlobalRedirectTest.php              
+ ------ ---------------------------------------------- 
+  92     Call to deprecated function entity_create().  
+  101    Call to deprecated function entity_create().  
+  107    Call to deprecated function entity_create().  
+  193    Call to deprecated method format() of class   
+         Drupal\Component\Utility\SafeMarkup.          
+  193    Call to method format() of deprecated class   
+         Drupal\Component\Utility\SafeMarkup.          
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

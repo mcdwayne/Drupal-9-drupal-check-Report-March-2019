@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fieldable_path 2c60438d92e9c5f5f091cab7d6aa4fee87df9a48
+source : http://cgit.drupalcode.org/fieldable_path 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FieldablePathController.php                  
+ ------ ------------------------------------------------------------ 
+  161    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/FieldablePathBasicTest.php         
+ ------ -------------------------------------------------------- 
+  88     Call to deprecated function entity_get_form_display().  
+  94     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

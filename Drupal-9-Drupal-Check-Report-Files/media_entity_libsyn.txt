@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_libsyn 692e9a03fb248b77c46fcf181c5745f84d60a142
+source : http://cgit.drupalcode.org/media_entity_libsyn 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/LibsynEmbedFormatterTest.php        
+ ------ --------------------------------------------------------- 
+  70     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  71     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  97     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  145    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

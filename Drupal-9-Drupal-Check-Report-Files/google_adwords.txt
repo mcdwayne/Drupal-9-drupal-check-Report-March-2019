@@ -1,0 +1,66 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_adwords d0da4b31d19a5fce42b5528c883e4abb27cacf1a
+source : http://cgit.drupalcode.org/google_adwords 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   google_adwords.admin.inc                 
+ ------ ----------------------------------------- 
+  70     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/google_adwords_path/google_adwords_path.admin.inc  
+ ------ ----------------------------------------------------------- 
+  170    Call to deprecated function drupal_set_message().          
+  215    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/google_adwords_path/src/Form/GoogleAdwordsPathCodeDeleteForm.php  
+ ------ -------------------------------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/google_adwords_path/src/Form/GoogleAdwordsPathCodeForm.php  
+ ------ -------------------------------------------------------------------- 
+  133    Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/google_adwords_path/src/Form/GoogleAdwordsPathConfigDeleteForm.php  
+ ------ ---------------------------------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().                           
+  67     Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/google_adwords_path/src/Form/GoogleAdwordsPathConfigForm.php  
+ ------ ---------------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().                     
+  129    Call to deprecated function drupal_set_message().                     
+  133    Call to deprecated method urlInfo() of class                          
+         Drupal\CorentityntityInterface.                                   
+  145    Call to deprecated function drupal_set_message().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/google_adwords_path/src/GoogleAdwordsPathConfigListBuilder.php  
+ ------ ------------------------------------------------------------------------ 
+  30     Call to deprecated method getLabel() of class                           
+         Drupal\CorentityntityListBuilder.                                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/google_adwords_path/src/GoogleAdwordsPathTracker.backup.php      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\google_adwords_path\GoogleAdwordsPathTrackerBackup was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

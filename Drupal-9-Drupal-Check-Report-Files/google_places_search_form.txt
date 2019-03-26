@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_places_search_form 8.x-1.2
+source : http://cgit.drupalcode.org/google_places_search_form 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/AutocompleteController.php        
+ ------ ------------------------------------------------- 
+  29     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

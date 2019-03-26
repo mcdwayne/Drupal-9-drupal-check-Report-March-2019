@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/formui 7284299f9a5439d1a349692108f89c5851406082
+source : http://cgit.drupalcode.org/formui 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   formui.module                            
+ ------ ----------------------------------------- 
+  8      Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Item/Email.php                                             
+ ------ --------------------------------------------------------------- 
+         Class Drupalormui\Item\Textfield not found and could not be  
+         autoloaded.                                                    
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Item/Hidden.php                                            
+ ------ --------------------------------------------------------------- 
+         Class Drupalormui\Item\Textfield not found and could not be  
+         autoloaded.                                                    
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Item/TextField.php                                            
+ ------ ------------------------------------------------------------------ 
+         Class Drupalormui\Item\Textfield was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Item/Textarea.php                                          
+ ------ --------------------------------------------------------------- 
+         Class Drupalormui\Item\Textfield not found and could not be  
+         autoloaded.                                                    
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

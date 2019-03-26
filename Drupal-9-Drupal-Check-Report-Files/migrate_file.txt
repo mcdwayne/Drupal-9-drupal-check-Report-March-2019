@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_file 2d3b4e25ab619ac12cdab346479f49b71c3f4eab
+source : http://cgit.drupalcode.org/migrate_file 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/migrate/process/FileImport.php       
+ ------ ------------------------------------------------ 
+  328    Call to deprecated function drupal_basename().  
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                                   
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\Tests\migrate_remote_file\Functional\LoadTest was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

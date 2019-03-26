@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/liveblog 8a9a760359e5ccc6b83302bafcf301257b24bd32
+source : http://cgit.drupalcode.org/liveblog 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   modules/liveblog_pusher/src/Plugin/LiveblogNotificationChannel/PusherNotificationChannel.php  
+ ------ ---------------------------------------------------------------------------------------------- 
+  159    Call to deprecated method set_logger() of class Pusher\Pusher.                                
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LiveblogPostDeleteForm.php                
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LiveblogPostForm.php                      
+ ------ --------------------------------------------------- 
+  220    Call to deprecated function drupal_set_message().  
+  227    Call to deprecated function drupal_set_message().  
+  230    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LiveblogPostSettingsForm.php              
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LiveblogSettingsForm.php                  
+ ------ --------------------------------------------------- 
+  187    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Functional/LiveBlogReinstallTest.php  
+ ------ ------------------------------------------------ 
+  25     Call to deprecated function db_select().        
+  46     Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/link_class 8a28243dc63297d919e05f9a2dbb1e628c325b55
+source : http://cgit.drupalcode.org/link_class 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/LinkClassWidgetTest.php                
+ ------ ------------------------------------------------- 
+  102    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

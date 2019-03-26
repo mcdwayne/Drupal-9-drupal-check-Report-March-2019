@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/look 9827ffc13306a825250ef6ae1152015f9d1327b1
+source : https://github.com/morpht/look 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LookForm.php                              
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().  
+  29     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LookRevisionDeleteForm.php                
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LookRevisionRevertForm.php                
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

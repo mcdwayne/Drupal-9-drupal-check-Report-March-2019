@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ga_login a3a7122157e90de3f1b65913f668fa62904398fd
+source : http://cgit.drupalcode.org/ga_login 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/TfaSetup/GALoginHotpSetup.php          
+ ------ -------------------------------------------------- 
+  185    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/TfaSetup/GALoginTotpSetup.php          
+ ------ -------------------------------------------------- 
+  182    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/GALoginHotpValidationPluginTest.php  
+ ------ ---------------------------------------------------------- 
+  108    Call to deprecated method getUsername() of class          
+         Drupal\userntity\User.                                  
+  132    Call to deprecated method getUsername() of class          
+         Drupal\userntity\User.                                  
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/GALoginTotpValidationPluginTest.php  
+ ------ ---------------------------------------------------------- 
+  108    Call to deprecated method getUsername() of class          
+         Drupal\userntity\User.                                  
+  141    Call to deprecated method getUsername() of class          
+         Drupal\userntity\User.                                  
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

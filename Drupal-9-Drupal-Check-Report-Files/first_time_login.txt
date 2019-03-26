@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/first_time_login c11ab2d4d3af2de822392674f5ed19c8185c1133
+source : http://cgit.drupalcode.org/first_time_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   first_time_login.module                            
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function format_date().         
+  104    Call to deprecated function format_date().         
+  107    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

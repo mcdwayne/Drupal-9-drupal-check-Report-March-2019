@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_acquiadam 68c8d57aab02e6ee2a5d4b438afd74e0e947594b
+source : http://cgit.drupalcode.org/media_acquiadam 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/Acquiadam.php                      
+ ------ ------------------------------------------------------------------- 
+         Class Drupalntity_browser\WidgetBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/unit/AcquiadamAssetPluginTest.php                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\media_acquiadam\unit\AcquiadamAssetPluginTest was  
+         not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/unit/AcquiadamClientFactoryTest.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\media_acquiadam\unit\AcquiadamClientFactoryTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/unit/AcquiadamConfigFormTest.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\media_acquiadam\unit\AcquiadamConfigFormTest was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/unit/AcquiadamServiceTest.php                               
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\media_acquiadam\unit\AcquiadamServiceTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/unit/OauthTest.php                                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\media_acquiadam\unit\OauthTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

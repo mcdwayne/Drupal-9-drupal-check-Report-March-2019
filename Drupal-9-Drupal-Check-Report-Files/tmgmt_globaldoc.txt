@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_globaldoc 9e0ed01f3a129c4320f739662994230a940681bb
+source : http://cgit.drupalcode.org/tmgmt_globaldoc 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   src/GlobalDocTranslatorUi.php                            
+ ------ --------------------------------------------------------- 
+         Class SoapClient not found and could not be autoloaded.  
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/GlobalDocTranslator.php      
+ ------ --------------------------------------------------------- 
+         Class SoapClient not found and could not be autoloaded.  
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Service/LangXpertService.php                         
+ ------ --------------------------------------------------------- 
+         Class SoapClient not found and could not be autoloaded.  
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

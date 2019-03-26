@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gridstack_field f703272381a07f3e9ac0018e23f05cf579878e6f
+source : http://cgit.drupalcode.org/gridstack_field 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/GridstackFieldHelper.php                                
+ ------ ------------------------------------------------------------ 
+  58     Call to deprecated method entityManager() of class Drupal.  
+  59     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/GridstackFieldItem.php   
+ ------ ---------------------------------------------------- 
+  73     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

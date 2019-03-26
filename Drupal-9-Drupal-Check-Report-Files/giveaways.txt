@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/giveaways 5ebad89425f880b4aefe0909363021f38e58ab3f
+source : http://cgit.drupalcode.org/giveaways 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   giveaways.module                                            
+ ------ ------------------------------------------------------------ 
+  92     Call to deprecated function db_select().                    
+  105    Call to deprecated method entityManager() of class Drupal.  
+  106    Call to deprecated function db_select().                    
+  121    Call to deprecated method entityManager() of class Drupal.  
+  135    Call to deprecated function drupal_set_message().           
+  135    Call to deprecated method l() of class Drupal.              
+  155    Call to deprecated function db_select().                    
+  162    Call to deprecated function drupal_set_message().           
+  173    Call to deprecated function db_select().                    
+  180    Call to deprecated function drupal_set_message().           
+  200    Call to deprecated function db_select().                    
+  208    Call to deprecated function db_update().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   plugins/access/giveaways_keys_are_available.inc  
+ ------ ------------------------------------------------- 
+  19     Call to deprecated function db_select().         
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   plugins/access/giveaways_user_has_claimed.inc  
+ ------ ----------------------------------------------- 
+  32     Call to deprecated function db_select().       
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/giveaways_handler_field_ip_address.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\giveawaysiews_handler_field_numeric not found and could  
+         not be autoloaded.                                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/giveaways_keys_left.php                                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\giveawaysiews_handler_field not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

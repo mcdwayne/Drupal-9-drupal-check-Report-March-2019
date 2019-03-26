@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ip_language_negotiation abfc5e06e654c95b3ca746a70736d9ac7ae5bdeb
+source : http://cgit.drupalcode.org/ip_language_negotiation 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/IpLanguageNegotiationForm.php       
+ ------ --------------------------------------------- 
+  53     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   src/Plugin/LanguageNegotiation/IpLanguageNegotiationLanguageNegotiationIp.php  
+ ------ ------------------------------------------------------------------------------- 
+  52     Call to deprecated function ip2country_get_country().                          
+  58     Call to deprecated function ip2country_get_country().                          
+ ------ ------------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

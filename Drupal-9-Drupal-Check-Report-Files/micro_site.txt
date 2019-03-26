@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/micro_site 284d88a3b85a0c74a9310d6ed9ba3ce05ff7bb65
+source : http://cgit.drupalcode.org/micro_site 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/SiteController.php                   
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteForm.php                              
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function format_date().         
+  144    Call to deprecated function format_date().         
+  339    Call to deprecated function drupal_set_message().  
+  345    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteRevisionDeleteForm.php                
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteRevisionRevertForm.php                
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteTypeDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteTypeForm.php                          
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/SiteUrlFieldValueValidator.php  
+ ------ ----------------------------------------------------------------- 
+  33     Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+ ------ ----------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/SubDomainSiteUrlFieldValueValidator.php  
+ ------ -------------------------------------------------------------------------- 
+  38     Call to deprecated method strtolower() of class                           
+         Drupal\Component\Utility\Unicode.                                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

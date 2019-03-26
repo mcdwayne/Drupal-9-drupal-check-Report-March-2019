@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_with_title 0e88e0595097b2b1f201f1e35f1763a27eaf5650
+source : http://cgit.drupalcode.org/image_with_title 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   image_with_title.module                          
+ ------ ------------------------------------------------- 
+  52     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  52     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  83     Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

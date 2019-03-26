@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/freecaster 7d5b3a00ad283b3ad3da924f7eb3402308de97a0
+source : http://cgit.drupalcode.org/freecaster 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   freecaster.module                                  
+ ------ --------------------------------------------------- 
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/ProxyController.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalreecaster\Controller\FCException was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FcapiUtils.php                                 
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserInfoForm.php                          
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

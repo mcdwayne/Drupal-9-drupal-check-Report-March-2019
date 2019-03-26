@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/geofield 966547a2ec7dfcf3c61027475196942ae8ec9fcc
+source : http://git.drupal.org/project/geofield.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Feeds/Target/Geofield.php                                        
+ ------ --------------------------------------------------------------------- 
+         Class Drupaleeds\Plugin\Type\Target\FieldTargetBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/WktGeneratorTest.php             
+ ------ -------------------------------------------------- 
+  83     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

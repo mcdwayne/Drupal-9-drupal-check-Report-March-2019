@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_download bc74c1aa2d11235f20c5d8703da6461e858b61de
+source : http://cgit.drupalcode.org/media_entity_download 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Linkit/Substitution/MediaDownload.php                      
+ ------ ---------------------------------------------------------------------- 
+  23     Class Drupal\linkit\SubstitutionInterface not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Functional/DownloadTest.php                                  
+ ------ ----------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                              
+         Drupal\Tests\media\Functional\MediaFunctionalTestCreateMediaTypeTrait  
+         in class Drupal\Tests\media_entity_download\Functional\DownloadTest.   
+  66     Call to deprecated method assertResponse() of class                    
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

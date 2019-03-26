@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_redirection 99ba8ba79774cce799eaed11e7514bdc94c062f7
+source : http://cgit.drupalcode.org/field_redirection 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/FieldRedirectionFormatter.php  
+ ------ --------------------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().              
+  161    Call to deprecated method strtolower() of class                
+         Drupal\Component\Utility\Unicode.                              
+  180    Call to deprecated method strpos() of class                    
+         Drupal\Component\Utility\Unicode.                              
+  312    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

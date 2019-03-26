@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graphql_jwt aea9863f2ea4ccbcb71dd0010a3c6fcc8a59eeab
+source : https://cgit.drupalcode.org/graphql_jwt 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/JwtToken.php                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/GraphQL/Fields/JwtTokenQuery.php                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/GraphQL/Types/JwtTokenResult.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\graphql\Plugin\GraphQL\Types\TypePluginBase not found and  
+         could not be autoloaded.                                                
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_analytics_reports 9e4794c59aaefcd7e9e14af44bdff5be58afa77d
+source : http://cgit.drupalcode.org/google_analytics_reports 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   google_analytics_reports_api/google_analytics_reports_api.module  
+ ------ ------------------------------------------------------------------ 
+  46     Call to deprecated function drupal_set_message().                 
+  68     Call to deprecated function drupal_set_message().                 
+  74     Call to deprecated function drupal_set_message().                 
+  125    Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   google_analytics_reports_api/src/Form/GoogleAnalyticsReportsApiAdminSettingsForm.php  
+ ------ -------------------------------------------------------------------------------------- 
+  196    Call to deprecated function drupal_set_message().                                     
+  204    Call to deprecated function drupal_set_message().                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/GoogleAnalyticsReports.php                     
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+  49     Call to deprecated function drupal_set_message().  
+  53     Call to deprecated function drupal_set_message().  
+  117    Call to deprecated function drupal_set_message().  
+  169    Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/query/GoogleAnalyticsQuery.php    
+ ------ --------------------------------------------------- 
+  314    Call to deprecated function drupal_set_message().  
+  368    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

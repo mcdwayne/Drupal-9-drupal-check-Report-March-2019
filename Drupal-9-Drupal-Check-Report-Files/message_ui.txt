@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message_ui 54c935c1eb9c597b281ad259b3cd6571a4511d60
+source : http://cgit.drupalcode.org/message_ui 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   message_ui.module                               
+ ------ ------------------------------------------------ 
+  139    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  Line   modules/message_notify_ui/src/Plugin/MessageNotifyUiSenderSettingsForm/MessageNotifyUiSenderMailSettingsForm.php  
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  68     Call to deprecated function drupal_set_message().                                                                 
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/MessageController.php                        
+ ------ ------------------------------------------------------------ 
+  34     Call to deprecated method entityManager() of class Drupal.  
+  35     Call to deprecated method entityManager() of class Drupal.  
+  51     Call to deprecated method entityManager() of class          
+         Drupal\Core\Controller\ControllerBase.                      
+  52     Call to deprecated method entityManager() of class          
+         Drupal\Core\Controller\ControllerBase.                      
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteMultiple.php                        
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageForm.php                           
+ ------ --------------------------------------------------- 
+  232    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  246    Call to deprecated function drupal_set_message().  
+  250    Call to deprecated function drupal_set_message().  
+  269    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageMultipleDeleteForm.php             
+ ------ --------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/MessageAccessControlHandler.php                         
+ ------ ------------------------------------------------------------ 
+  76     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/MessagePermissions.php                                          
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\message_ui\MessagePermissions.                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/MessageUiPermissionsTest.php           
+ ------ ------------------------------------------------------------ 
+  31     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

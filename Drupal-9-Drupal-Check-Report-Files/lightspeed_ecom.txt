@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lightspeed_ecom f066fc66298ce1f197f05af519b77aed75324c5c
+source : http://cgit.drupalcode.org/lightspeed_ecom 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/WebhookAdminController.php          
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShopEntityDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShopEntityForm.php                        
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Kernel/Controller/WebhookControllerTest.php  
+ ------ ------------------------------------------------------- 
+  153    Call to deprecated method getMock() of class           
+         Drupal\KernelTests\KernelTestBase.                     
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/WebhookRegistryTest.php                           
+ ------ ------------------------------------------------------------------------- 
+  54     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  62     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  63     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hsts 9b9517fff3da4835b12c66e920c858509c706a8d
+source : http://cgit.drupalcode.org/hsts 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Tests/HstsTest.php                                     
+ ------ ----------------------------------------------------------- 
+  17     Class Drupal\hsts\Tests\HstsTest extends deprecated class  
+         Drupalest\Tests\RESTTestBase.                            
+  29     Call to method setUp() of deprecated class                 
+         Drupalest\Tests\RESTTestBase.                            
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/icecast 59cc129037164c1b58cc4a6165f65b29c649891b
+source : http://cgit.drupalcode.org/icecast 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   yplog/src/Controller/DefaultController.php  
+ ------ -------------------------------------------- 
+  30     Call to deprecated function db_select().    
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   yplog/yplog.graph.inc                     
+ ------ ------------------------------------------ 
+  15     Call to deprecated function db_select().  
+  100    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   yplog/yplog.module                        
+ ------ ------------------------------------------ 
+  48     Call to deprecated function db_delete().  
+  49     Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

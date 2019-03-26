@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/micro_path bd427641165f1be483ab4f723f6203eff3d87cc5
+source : http://cgit.drupalcode.org/micro_path 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MicroPathForm.php                         
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MicroPathautoGenerator.php                     
+ ------ --------------------------------------------------- 
+  156    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  224    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/SiteAliasUniquifier.php                  
+ ------ --------------------------------------------- 
+  100    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

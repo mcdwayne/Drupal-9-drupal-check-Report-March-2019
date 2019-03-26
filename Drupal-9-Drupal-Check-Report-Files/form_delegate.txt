@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/form_delegate bac437d6cb778954c0880a492c4d25910c6bccd4
+source : https://cgit.drupalcode.org/form_delegate 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/EntityTypeManager.php                                   
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   tests/modules/entity_form_delegate_test/src/Plugin/Form/EntityFormDelegateBodyAlter.php  
+ ------ ----------------------------------------------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().                                        
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   tests/modules/entity_form_delegate_test/src/Plugin/Form/EntityFormDelegateTitleAlter.php  
+ ------ ------------------------------------------------------------------------------------------ 
+  50     Call to deprecated function drupal_set_message().                                         
+ ------ ------------------------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

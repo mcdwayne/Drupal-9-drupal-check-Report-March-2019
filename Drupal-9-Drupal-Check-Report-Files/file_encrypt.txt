@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_encrypt 3a9437a11ab57ade37a2248596bee5d5e6368b52
+source : http://cgit.drupalcode.org/file_encrypt 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Controller/ImageStyleDownloadController.php                  
+ ------ ----------------------------------------------------------------- 
+  101    Call to deprecated function file_stream_wrapper_valid_scheme().  
+ ------ ----------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/FileUploadTest.php                 
+ ------ -------------------------------------------------------- 
+  55     Call to deprecated function entity_get_form_display().  
+  61     Call to deprecated function entity_get_display().       
+  84     Call to deprecated function drupal_realpath().          
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/ImageFileUploadTest.php            
+ ------ -------------------------------------------------------- 
+  56     Call to deprecated function entity_get_form_display().  
+  79     Call to deprecated function entity_get_display().       
+  105    Call to deprecated function drupal_realpath().          
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PathProcessorFilesTest.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

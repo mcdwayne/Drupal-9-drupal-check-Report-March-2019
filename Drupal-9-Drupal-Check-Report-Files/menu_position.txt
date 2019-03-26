@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_position 552e5b1fc5baaec4d0496dd1c67df710093beccb
+source : http://cgit.drupalcode.org/menu_position 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuPositionRuleDeleteForm.php            
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuPositionRuleForm.php                  
+ ------ --------------------------------------------------- 
+  259    Call to deprecated function drupal_set_message().  
+  262    Call to deprecated function drupal_set_message().  
+  265    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuPositionRuleOrderForm.php             
+ ------ --------------------------------------------------- 
+  177    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

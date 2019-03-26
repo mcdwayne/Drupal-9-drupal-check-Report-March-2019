@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/filter_field_list cb071891b9d47a078e665f54a94a5f64e7b95523
+source : http://cgit.drupalcode.org/filter_field_list 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   filter_field_list.module                  
+ ------ ------------------------------------------ 
+  190    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/ContributeForm.php                                 
+ ------ ------------------------------------------------------------ 
+  67     Call to deprecated method entityManager() of class Drupal.  
+  79     Call to deprecated function entity_get_bundles().           
+  200    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

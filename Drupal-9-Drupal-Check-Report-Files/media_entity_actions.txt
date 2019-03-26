@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_actions 4b612acb88542657aebae071dbc400d6c48b2dc3
+source : http://cgit.drupalcode.org/media_entity_actions 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/MediaBulkForm.php                             
+ ------ --------------------------------------------------------------------- 
+  12     Class Drupal\media_entity_actions\Pluginiewsield\MediaBulkForm   
+         extends deprecated class Drupal\system\Pluginiewsield\BulkForm.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Functional/MediaEntityActionsBulkFormTest.php                 
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\media_entity_actions\Functional\MediaBulkFormTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

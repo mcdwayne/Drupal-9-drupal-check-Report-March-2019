@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_download dc4b5a84a2a3006d408e663c9b24484ba6187180
+source : http://cgit.drupalcode.org/file_download 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/file_download_counter/file_download_counter.module  
+ ------ ------------------------------------------------------------ 
+  34     Call to deprecated function db_update().                    
+  41     Call to deprecated function db_query().                     
+  62     Call to deprecated function db_select().                    
+  102    Call to deprecated function db_query().                     
+  113    Call to deprecated function db_delete().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/file_download_counter/file_download_counter.tokens.inc  
+ ------ ---------------------------------------------------------------- 
+  55     Call to deprecated function format_date().                      
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

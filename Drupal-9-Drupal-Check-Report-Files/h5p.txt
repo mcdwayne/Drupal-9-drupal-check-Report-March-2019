@@ -1,0 +1,112 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/h5p 8.x-1.0-rc14
+source : http://cgit.drupalcode.org/h5p 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   h5p.module                                
+ ------ ------------------------------------------ 
+  147    Call to deprecated function db_query().   
+  178    Call to deprecated function db_query().   
+  249    Call to deprecated function db_delete().  
+  254    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/h5peditor/src/H5PEditor/H5PEditorDrupalAjax.php  
+ ------ --------------------------------------------------------- 
+  77     Call to deprecated function db_query().                  
+  86     Call to deprecated function db_query().                  
+  102    Call to deprecated function db_query().                  
+  141    Call to deprecated function db_query().                  
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/h5peditor/src/H5PEditor/H5PEditorDrupalStorage.php  
+ ------ ------------------------------------------------------------ 
+  21     Call to deprecated function db_query().                     
+  49     Call to deprecated function db_query().                     
+  111    Call to deprecated function db_query().                     
+  139    Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/H5PAJAX.php                
+ ------ ------------------------------------------ 
+  123    Call to deprecated function db_delete().  
+  135    Call to deprecated function db_query().   
+  150    Call to deprecated function db_insert().  
+  165    Call to deprecated function db_update().  
+  184    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Entity/H5PContent.php                
+ ------ ----------------------------------------- 
+  139    Call to deprecated function db_query().  
+  304    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/H5PDrupal/H5PDrupal.php                         
+ ------ ---------------------------------------------------- 
+  237    Call to deprecated function db_delete().            
+  326    Call to deprecated function db_update().            
+  348    Call to deprecated function drupal_set_message().   
+  356    Call to deprecated function drupal_set_message().   
+  368    Call to deprecated function drupal_get_messages().  
+  413    Call to deprecated function db_query().             
+  446    Call to deprecated function db_query().             
+  470    Call to deprecated function db_query().             
+  523    Call to deprecated function db_query().             
+  537    Call to deprecated function db_query().             
+  561    Call to deprecated function db_query().             
+  588    Call to deprecated function db_query().             
+  612    Call to deprecated function db_query().             
+  655    Call to deprecated function db_insert().            
+  683    Call to deprecated function db_update().            
+  713    Call to deprecated function db_delete().            
+  718    Call to deprecated function db_insert().            
+  751    Call to deprecated function db_driver().            
+  755    Call to deprecated function db_query().             
+  760    Call to deprecated function db_driver().            
+  761    Call to deprecated function db_query().             
+  769    Call to deprecated function db_delete().            
+  778    Call to deprecated function db_query().             
+  791    Call to deprecated function db_delete().            
+  792    Call to deprecated function db_delete().            
+  793    Call to deprecated function db_delete().            
+  801    Call to deprecated function db_select().            
+  809    Call to deprecated function db_insert().            
+  895    Call to deprecated function db_update().            
+  924    Call to deprecated function db_query().             
+  945    Call to deprecated function db_delete().            
+  950    Call to deprecated function db_delete().            
+  959    Call to deprecated function db_delete().            
+  976    Call to deprecated function db_insert().            
+  992    Call to deprecated function db_query().             
+  1025   Call to deprecated function db_query().             
+  1054   Call to deprecated function db_query().             
+  1108   Call to deprecated function db_query().             
+  1232   Call to deprecated function db_query().             
+  1240   Call to deprecated function db_query().             
+  1247   Call to deprecated function db_query().             
+  1317   Call to deprecated function db_delete().            
+  1322   Call to deprecated function db_insert().            
+  1354   Call to deprecated function db_query().             
+  1384   Call to deprecated function db_query().             
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/H5PDrupal/H5PEvent.php                
+ ------ ------------------------------------------ 
+  31     Call to deprecated function db_insert().  
+  47     Call to deprecated function db_query().   
+  61     Call to deprecated function db_insert().  
+  72     Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 68 errors                                                         
+
+ </code>

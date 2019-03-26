@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/git_issues 5655b82368ba8f72aede2441b3b75c7627d1ed1f
+source : http://cgit.drupalcode.org/git_issues 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/GitIssues/GitLab.php                    
+ ------ --------------------------------------------------- 
+  168    Call to deprecated method l() of class Drupal.     
+  258    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

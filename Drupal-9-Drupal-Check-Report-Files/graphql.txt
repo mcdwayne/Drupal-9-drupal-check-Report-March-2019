@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graphql 64650d795d199d1fd4302fbcc8d5a4a3a9800784
+source : http://cgit.drupalcode.org/graphql 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServerForm.php                            
+ ------ --------------------------------------------------- 
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/DataProducerPluginManager.php                               
+ ------ ----------------------------------------------------------------------- 
+  30     graphql cache tag might be unclear and does not contain the cache key  
+         in it.                                                                 
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/SchemaPluginManager.php                                     
+ ------ ----------------------------------------------------------------------- 
+  38     graphql cache tag might be unclear and does not contain the cache key  
+         in it.                                                                 
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ContextTest.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\graphql_core\Kernel\ContextTest was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/DataProducer/FieldTest.php                           
+ ------ ---------------------------------------------------------------------- 
+  25     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\graphql\Kernel\DataProducer\FieldTest.                   
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/DataProducer/TypedDataTest.php  
+ ------ ------------------------------------------------- 
+  37     Call to deprecated method getMock() of class     
+         Drupal\KernelTests\KernelTestBase.               
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/ResolverBuilderTest.php      
+ ------ ---------------------------------------------- 
+  163    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

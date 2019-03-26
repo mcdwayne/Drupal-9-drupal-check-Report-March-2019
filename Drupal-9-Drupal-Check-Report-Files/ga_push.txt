@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ga_push d376895d9b68c6e617c41a8374455b37631c49a9
+source : http://git.drupal.org/project/ga_push.git 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   ga_push.module                                          
+ ------ -------------------------------------------------------- 
+  669    Call to deprecated method l() of class Drupal.          
+  687    Call to deprecated method l() of class Drupal.          
+  705    Call to deprecated method l() of class Drupal.          
+  735    Call to deprecated method l() of class Drupal.          
+  754    Call to deprecated function libraries_get_libraries().  
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   inc/ga_push.php_ga.inc                             
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/Base.php                                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/Event.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\ga_push\Plugin\RulesAction\Base not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/Exception.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\ga_push\Plugin\RulesAction\Base not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/PageView.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\ga_push\Plugin\RulesAction\Base not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/Social.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\ga_push\Plugin\RulesAction\Base not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

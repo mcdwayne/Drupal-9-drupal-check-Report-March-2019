@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ descrip. : Provides migration source and processor plugins.
+source   : [git] https://git.drupal.org/project/migrate_plugins 095ad4d68cd223dba0525cbdff017e813229cd2a
+source : http://cgit.drupalcode.org/migrate_plugins
+drupal/migrate_source_csv * 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/migrate/process/RedirectMigrationLookup.php    
+ ------ ---------------------------------------------------------- 
+  158    Call to deprecated method lookupDestinationId() of class  
+         Drupal\migrate\Plugin\MigrateIdMapInterface.              
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

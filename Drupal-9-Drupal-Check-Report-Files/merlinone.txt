@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/merlinone 8275df5c1a409617fb41ae50d1ded16b5fe73f42
+source : http://cgit.drupalcode.org/merlinone 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/MerlinOneApi.php                               
+ ------ --------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+  207    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/MerlinOneSearch.php                
+ ------ ------------------------------------------------------------------- 
+         Class Drupalntity_browser\WidgetBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

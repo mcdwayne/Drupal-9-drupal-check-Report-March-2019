@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/login_by 8.x-1.0
+source : http://cgit.drupalcode.org/login_by 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   login_by.module                                   
+ ------ -------------------------------------------------- 
+  116    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoginBySettingsForm.php                   
+ ------ --------------------------------------------------- 
+  131    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

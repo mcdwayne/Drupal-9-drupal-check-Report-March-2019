@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/messagebird 32541e7bf94ce95bcb3c2b62e10ba09a59b5c457
+source : http://cgit.drupalcode.org/messagebird 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LookupTestForm.php                        
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageGetTestForm.php                    
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageSendTestForm.php                   
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MessageBirdException.php                       
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MessageBirdLookup.php                          
+ ------ --------------------------------------------------- 
+  211    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MessageBirdMessage.php                         
+ ------ --------------------------------------------------- 
+  346    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

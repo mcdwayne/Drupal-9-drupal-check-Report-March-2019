@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mixitup_views 4fbca97e05c83296bf4413b1cf0b5dd0573ba381
+source : https://cgit.drupalcode.org/mixitup_views 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/MixitupFunc.php                       
+ ------ ------------------------------------------ 
+  99     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   templates/mixitup_views.theme.inc                  
+ ------ --------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   tests/src/Kernel/MixItUpFuncTest.php      
+ ------ ------------------------------------------ 
+  110    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   tests/src/Kernel/MixitUpFiltersFormTest.php  
+ ------ --------------------------------------------- 
+  127    Call to deprecated function db_insert().     
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

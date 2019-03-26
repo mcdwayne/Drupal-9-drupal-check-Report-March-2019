@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flipping_book 959ebedd15ec34cf3696b1d74108301a2bcaca50
+source : http://cgit.drupalcode.org/flipping_book 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/FlippingBookListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupallipping_book\FlippingBookListBuilder.                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlippingBookForm.php                      
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  189    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlippingBookTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlippingBookTypeForm.php                  
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

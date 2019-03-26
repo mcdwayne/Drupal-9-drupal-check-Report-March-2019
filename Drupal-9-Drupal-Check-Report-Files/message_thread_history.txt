@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message_thread_history 297caa0656c1121850a9c93f93ede94f97273a39
+source : https://cgit.drupalcode.org/message_thread_history 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   message_thread_history.module             
+ ------ ------------------------------------------ 
+  33     Call to deprecated function db_merge().   
+  53     Call to deprecated function db_delete().  
+  103    Call to deprecated function db_update().  
+  115    Call to deprecated function db_delete().  
+  126    Call to deprecated function db_delete().  
+  137    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/views/field/MessageThreadHistoryTimestamp.php  
+ ------ ---------------------------------------------------------- 
+  123    Call to deprecated function drupal_render().              
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

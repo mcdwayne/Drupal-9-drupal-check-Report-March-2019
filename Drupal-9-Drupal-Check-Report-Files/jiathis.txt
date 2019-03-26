@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jiathis 06b1d179b07e8d7bfcf03bd25fc9a299bc3f7bb7
+source : http://cgit.drupalcode.org/jiathis 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   jiathis.module                                   
+ ------ ------------------------------------------------- 
+  61     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  61     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  141    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  141    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  237    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  237    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/BlockForm.php                            
+ ------ -------------------------------------------------- 
+  62     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/PageForm.php                                       
+ ------ ------------------------------------------------------------ 
+  60     Call to deprecated method entityManager() of class Drupal.  
+  68     Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Block/Jiathis.php                                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\jiathis\Plugin\Block\JiaThis was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

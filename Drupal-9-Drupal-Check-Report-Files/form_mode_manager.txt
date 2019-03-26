@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/form_mode_manager 165dbad23ba154cd1cd9691728e2a65c17056cd8
+source : https://www.drupal.org/project/form_mode_manager 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/AbstractEntityFormModesFactory.php                              
+ ------ -------------------------------------------------------------------- 
+  34     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupalorm_mode_manager\AbstractEntityFormModesFactory.      
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/FormModeManagerPermissions.php           
+ ------ --------------------------------------------- 
+  118    Call to deprecated method url() of class     
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/FormModeManagerBase.php     
+ ------ ------------------------------------------------- 
+  197    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lazyloader cae712885d11e691dcf733d8f19e85d57d6ad762
+source : http://cgit.drupalcode.org/lazyloader 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/tests/ExcludeTestCase.php                                            
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\lazyloader\TestsxcludeTestCase was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/tests/TestBase.php                                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\lazyloader\Tests\TestBase was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/ThemeTest.php                                          
+ ------ ------------------------------------------------------------------------ 
+  23     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\lazyloader\Kernel\ThemeTest.                               
+  75     Call to deprecated function entity_get_display().                       
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

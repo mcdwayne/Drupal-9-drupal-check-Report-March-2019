@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/language_cookie 8.x-1.0-beta1
+source : https://cgit.drupalcode.org/language_cookie 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   src/Plugin/LanguageCookieCondition/LanguageCookieConditionBlacklistedPaths.php  
+ ------ -------------------------------------------------------------------------------- 
+  109    Call to deprecated method strtolower() of class                                 
+         Drupal\Component\Utility\Unicode.                                               
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   src/Plugin/LanguageCookieCondition/LanguageCookieConditionHardcodedBlacklistedPaths.php  
+ ------ ----------------------------------------------------------------------------------------- 
+  129    Call to deprecated method strtolower() of class                                          
+         Drupal\Component\Utility\Unicode.                                                        
+ ------ ----------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

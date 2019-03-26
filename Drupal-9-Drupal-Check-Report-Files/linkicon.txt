@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/linkicon 97e49bed3c60f2e363f3336cb9770635f70e10c4
+source : http://cgit.drupalcode.org/linkicon 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/LinkIconFormatter.php  
+ ------ ------------------------------------------------------- 
+  510    Call to deprecated method strtolower() of class        
+         Drupal\Component\Utility\Unicode.                      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/log_monitor fe1c6ee564cccdbfb3c2082af1ee124a946d9aaa
+source : http://cgit.drupalcode.org/log_monitor 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/LogMonitorController.php             
+ ------ ---------------------------------------------------- 
+  74     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  285    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  289    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LogMonitorRuleDeleteForm.php              
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LogMonitorRuleForm.php                    
+ ------ --------------------------------------------------- 
+  408    Call to deprecated function drupal_set_message().  
+  414    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Logger/LogMonitorLog.php                 
+ ------ --------------------------------------------- 
+  73     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  80     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

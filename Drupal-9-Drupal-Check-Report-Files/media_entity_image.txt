@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_image 3264d04a39d342ca4e8484e37f56154ef333c4a6
+source : https://www.drupal.org/project/media_entity_image 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/Upload.php                          
+ ------ -------------------------------------------------------------------- 
+         Class Drupalntity_browser\PluginntityBrowser\Widget\Upload not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/Image.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

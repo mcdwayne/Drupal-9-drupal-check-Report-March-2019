@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/icodes 8.x-1.0
+source : http://cgit.drupalcode.org/icodes 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/IcodesFeedsForm.php                    
+ ------ ------------------------------------------------ 
+  114    Call to deprecated method l() of class Drupal.  
+  116    Call to deprecated method l() of class Drupal.  
+  157    Call to deprecated method l() of class Drupal.  
+  159    Call to deprecated method l() of class Drupal.  
+  201    Call to deprecated method l() of class Drupal.  
+  203    Call to deprecated method l() of class Drupal.  
+  216    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/IcodesMerchantsForm.php                
+ ------ ------------------------------------------------ 
+  67     Call to deprecated method l() of class Drupal.  
+  96     Call to deprecated method l() of class Drupal.  
+  109    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/IcodesOffersForm.php                   
+ ------ ------------------------------------------------ 
+  93     Call to deprecated method l() of class Drupal.  
+  109    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/IcodesSettingsForm.php                 
+ ------ ------------------------------------------------ 
+  48     Call to deprecated method l() of class Drupal.  
+  71     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/IcodesVouchersForm.php                 
+ ------ ------------------------------------------------ 
+  92     Call to deprecated method l() of class Drupal.  
+  108    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   src/IcodesCleanupProcess.php                           
+ ------ ------------------------------------------------------- 
+  118    Call to deprecated function entity_delete_multiple().  
+  146    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/IcodesMerchantProcess.php                      
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_realpath().     
+  186    Call to deprecated function drupal_realpath().     
+  355    Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/IcodesOfferProcess.php                         
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_realpath().     
+  203    Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/IcodesVoucherProcess.php                       
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+  168    Call to deprecated function drupal_realpath().     
+  206    Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jmol 469a730239c9cd4a7daac174cca973e80837ac5a
+source : http://cgit.drupalcode.org/jmol 
+ 
+ <code> 
+
+ ------ ---------------------------------------- 
+  Line   jmol_examples/src/Controller/Index.php  
+ ------ ---------------------------------------- 
+  17     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  18     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  19     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  27     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  28     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

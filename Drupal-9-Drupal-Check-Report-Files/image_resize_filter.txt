@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_resize_filter bf861386b2bd7e15a42f372f04e97ae93f9836e1
+source : http://cgit.drupalcode.org/image_resize_filter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   image_resize_filter.module                         
+ ------ --------------------------------------------------- 
+  157    Call to deprecated function drupal_set_message().  
+  282    Call to deprecated function file_uri_scheme().     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Filter/FilterImageResize.php            
+ ------ --------------------------------------------------- 
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

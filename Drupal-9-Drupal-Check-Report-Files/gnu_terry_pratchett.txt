@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gnu_terry_pratchett 1ee9cdb445642eb5cd00741d20825a54ae4e482c
+source : http://cgit.drupalcode.org/gnu_terry_pratchett 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/Headers/XClacksTest.php                                   
+ ------ -------------------------------------------------------------------- 
+  20     Class Drupal\gnu_terry_pratchett\Tests\Headers\XClacksTest extends  
+         deprecated class Drupal\simpletest\KernelTestBase.                  
+  31     Call to method setUp() of deprecated class                          
+         Drupal\simpletest\KernelTestBase.                                   
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

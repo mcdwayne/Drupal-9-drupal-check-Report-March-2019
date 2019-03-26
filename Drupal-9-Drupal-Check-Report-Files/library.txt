@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/library ebd607de0fe121056b2fefbf8b2fc7e9df64b278
+source : http://cgit.drupalcode.org/library 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Controller/OverdueOverview.php                   
+ ------ ----------------------------------------------------- 
+  38     Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LibraryActionDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LibraryActionForm.php                     
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LibraryAlterTransactionForm.php           
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LibraryCheckOutBulkForm.php               
+ ------ --------------------------------------------------- 
+  154    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LibraryCheckoutForm.php                   
+ ------ --------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/LibraryItemFieldFormatter.php  
+ ------ --------------------------------------------------------------- 
+  56     Call to deprecated function entity_load().                     
+  58     Call to deprecated method checkPlain() of class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  58     Call to method checkPlain() of deprecated class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  60     Call to deprecated method checkPlain() of class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  60     Call to method checkPlain() of deprecated class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  68     Call to deprecated function drupal_render().                   
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/WidgetSubmit.php                               
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/github_deploy 13a176e6aab35abdff17f3c02eeafe0c1bbd85df
+source : http://cgit.drupalcode.org/github_deploy 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   includes/github_deploy.git.inc                      
+ ------ ---------------------------------------------------- 
+  109    Call to deprecated function drupal_chmod().         
+  115    Call to deprecated function drupal_chmod().         
+  143    Call to deprecated function drupal_get_messages().  
+  147    Call to deprecated function drupal_set_message().   
+  151    Call to deprecated function drupal_set_message().   
+  155    Call to deprecated function drupal_set_message().   
+  159    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

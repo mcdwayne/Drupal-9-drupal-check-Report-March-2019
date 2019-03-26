@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/isotope bb2e8902af3798fdbc2dadb715cbecfd2e607602
+source : http://cgit.drupalcode.org/isotope 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/PresentationListBuilder.php     
+ ------ ----------------------------------------------- 
+  30     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PresentationDeleteForm.php                
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PresentationFormBase.php                  
+ ------ --------------------------------------------------- 
+  349    Call to deprecated function drupal_set_message().  
+  358    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

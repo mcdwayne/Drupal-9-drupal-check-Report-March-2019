@@ -1,0 +1,85 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/customer_identity_and_access_management e3606f8dbd990a95a5019de9b6a72d4a40a20d82
+source : http://cgit.drupalcode.org/customer_identity_and_access_management 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   lr_ciam/customhttpclient.php                                       
+ ------ ------------------------------------------------------------------- 
+         Class CustomHttpClient was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   lr_ciam/lr_ciam.module                                 
+ ------ ------------------------------------------------------- 
+  195    Call to deprecated function drupal_render_children().  
+  243    Call to deprecated function drupal_render_children().  
+  272    Call to deprecated function drupal_render_children().  
+  359    Call to deprecated function drupal_set_message().      
+  364    Call to deprecated function drupal_set_message().      
+  645    Call to deprecated function drupal_set_message().      
+  650    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   lr_ciam/src/CiamUserManager.php                             
+ ------ ------------------------------------------------------------ 
+  383    Call to deprecated function drupal_set_message().           
+  391    Call to deprecated function drupal_set_message().           
+  394    Call to deprecated function drupal_set_message().           
+  399    Call to deprecated function drupal_set_message().           
+  411    Call to deprecated function db_select().                    
+  508    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  508    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  596    Call to deprecated function drupal_set_message().           
+  619    Call to deprecated function drupal_set_message().           
+  624    Call to deprecated function drupal_set_message().           
+  629    Call to deprecated function drupal_set_message().           
+  961    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   lr_ciam/src/Controller/CiamController.php          
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function drupal_set_message().  
+  185    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   lr_ciam/src/Form/AdvancedSettingsForm.php                   
+ ------ ------------------------------------------------------------ 
+  289    Call to deprecated method entityManager() of class Drupal.  
+  461    Call to deprecated function drupal_set_message().           
+  488    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   lr_ciam/src/Form/CiamSettingsForm.php              
+ ------ --------------------------------------------------- 
+  139    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   lr_hostedpage/src/Form/HostedPageSettingsForm.php  
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   lr_sso/src/Form/SSOSettingsForm.php                
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 33 errors                                                         
+
+ </code>

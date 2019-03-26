@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/formatter_field ab256f48e3e40aaa6dcbc8f4bd3bac81947abcac
+source : http://cgit.drupalcode.org/formatter_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/FromFieldFormatter.php  
+ ------ -------------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/FormatterWidget.php   
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

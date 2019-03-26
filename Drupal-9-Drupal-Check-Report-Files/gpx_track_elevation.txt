@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gpx_track_elevation 0c428baf236d8ad9553b543ff7d17212b9141040
+source : http://cgit.drupalcode.org/gpx_track_elevation 
+ 
+ <code> 
+Notice: Constant MAP_IMAGE_MAX_SIZE already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/gpx_track_elevation/src/Form/GPXTrackEleTrackForm.php on line 15
+
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GPXTrackEleWPTDelete.php                  
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GPXTrackEleWPTEdit.php                    
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/GpxFileFormatter.php  
+ ------ ------------------------------------------------------ 
+  78     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

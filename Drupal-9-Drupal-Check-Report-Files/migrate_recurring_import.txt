@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_recurring_import a4644352ca46684b3e54eb439aa3f801ea955aa2
+source : http://cgit.drupalcode.org/migrate_recurring_import 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   migrate_recurring_import.module                  
+ ------ ------------------------------------------------- 
+  89     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  91     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  123    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

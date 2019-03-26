@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_trail_by_path eb3a9f735dc6e96de391d3f9d854016facea41dc
+source : http://cgit.drupalcode.org/menu_trail_by_path 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/MenuTrailByPathActiveTrailHtmlClassTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                
+         Drupal\system\Tests\Menu\AssertMenuActiveTrailTrait in class             
+         Drupal\menu_trail_by_path\Tests\MenuTrailByPathActiveTrailHtmlClassTest  
+         .                                                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

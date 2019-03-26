@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/login_history 6500ca00e28e6359671feba639f6c9170902cc83
+source : http://cgit.drupalcode.org/login_history 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   login_history.module                      
+ ------ ------------------------------------------ 
+  35     Call to deprecated function db_insert().  
+  63     Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/LoginHistoryController.php         
+ ------ -------------------------------------------------- 
+  61     Call to deprecated function db_select().          
+  107    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

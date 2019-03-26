@@ -1,0 +1,78 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/legal 9a1e381ccb51046cdafbbbfee3df46b4e2818e99
+source : http://cgit.drupalcode.org/legal 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   legal.module                                        
+ ------ ---------------------------------------------------- 
+  294    Call to deprecated function drupal_get_messages().  
+  299    Call to deprecated function drupal_set_message().   
+  603    Call to deprecated function db_select().            
+  672    Call to deprecated function db_select().            
+  683    Call to deprecated function db_select().            
+  712    Call to deprecated function db_select().            
+  714    Call to deprecated function db_or().                
+  716    Call to deprecated function db_and().               
+  792    Call to deprecated function db_select().            
+  808    Call to deprecated function db_select().            
+  857    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LegalAdminSettingsForm.php                
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LegalAdminTermsForm.php                   
+ ------ --------------------------------------------------- 
+  405    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/LegalLanguageSettings.php               
+ ------ ------------------------------------------------- 
+  35     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  35     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  66     Call to deprecated function db_select().         
+  77     Call to deprecated function db_select().         
+  93     Call to deprecated function db_select().         
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/LegalTestBase.php            
+ ------ -------------------------------------------------- 
+  54     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoginTest.php                   
+ ------ ----------------------------------------------------- 
+  27     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/PasswordResetTest.php           
+ ------ ----------------------------------------------------- 
+  28     Call to deprecated function db_update().             
+  61     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/RegistrationTest.php        
+ ------ ------------------------------------------------- 
+  44     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

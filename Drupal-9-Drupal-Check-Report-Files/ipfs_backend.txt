@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ipfs_backend 1f25e393949c4b9ddb1aa4d4cbf1e1d2b8ef2db3
+source : http://cgit.drupalcode.org/ipfs_backend 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   ipfs_backend.module                       
+ ------ ------------------------------------------ 
+  18     Call to deprecated function file_load().  
+  58     Call to deprecated function file_load().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IPFSHashForm.php                          
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

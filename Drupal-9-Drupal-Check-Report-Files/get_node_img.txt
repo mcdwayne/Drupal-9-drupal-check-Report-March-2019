@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/get_node_img d5bb9d9ab116fcb51e86e90450febe38e8409c0b
+source : http://cgit.drupalcode.org/get_node_img 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/Settings.php                                              
+ ------ ------------------------------------------------------------------- 
+  62     Call to deprecated method url() of class Drupalilentity\File.  
+  122    Call to deprecated function drupal_set_message().                  
+  125    Call to deprecated function drupal_set_message().                  
+  157    Call to deprecated function drupal_set_message().                  
+  160    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

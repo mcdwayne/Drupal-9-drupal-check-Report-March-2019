@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migration_tools e276b648a8bb74d7750d6d410b68738e98bde29b
+source : http://cgit.drupalcode.org/migration_tools 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/migrate_plus/data_parser/Dom.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\migrate_plus\DataParserPluginBase not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/StringTools.php                          
+ ------ --------------------------------------------- 
+  847    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Url.php                               
+ ------ ------------------------------------------ 
+  174    Call to deprecated function node_load().  
+  537    Call to deprecated function file_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

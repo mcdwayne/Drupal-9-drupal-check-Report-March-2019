@@ -1,0 +1,123 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ip_geoloc 2cfd91b181fec047b94527d72fdeda19a917519c
+source : http://cgit.drupalcode.org/ip_geoloc 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   ip_geoloc.admin.inc                                 
+ ------ ---------------------------------------------------- 
+  18     Call to deprecated function db_query().             
+  19     Call to deprecated function drupal_set_message().   
+  21     Call to deprecated function db_table_exists().      
+  22     Call to deprecated function drupal_set_message().   
+  25     Call to deprecated function drupal_set_message().   
+  28     Call to deprecated function db_query().             
+  29     Call to deprecated function drupal_set_message().   
+  31     Call to deprecated function drupal_set_message().   
+  41     Call to deprecated function drupal_set_message().   
+  44     Call to deprecated function drupal_set_message().   
+  70     Call to deprecated function drupal_get_messages().  
+  110    Call to deprecated function db_table_exists().      
+  113    Call to deprecated function db_query().             
+  114    Call to deprecated function db_query().             
+  122    Call to deprecated function drupal_get_messages().  
+  124    Call to deprecated function drupal_set_message().   
+  132    Call to deprecated function drupal_get_messages().  
+  133    Call to deprecated function db_delete().            
+  196    Call to deprecated function drupal_set_message().   
+  200    Call to deprecated function drupal_set_message().   
+  203    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   ip_geoloc.module                                   
+ ------ --------------------------------------------------- 
+  625    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   ip_geoloc_api.inc                                  
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function db_query().            
+  88     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+  406    Call to deprecated function db_query().            
+  475    Call to deprecated function drupal_set_message().  
+  487    Call to deprecated function drupal_set_message().  
+  495    Call to deprecated function drupal_set_message().  
+  502    Call to deprecated function drupal_set_message().  
+  508    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   ip_geoloc_blocks.inc                               
+ ------ --------------------------------------------------- 
+  184    Call to deprecated function drupal_set_message().  
+  200    Call to deprecated function db_table_exists().     
+  207    Call to deprecated function db_query_range().      
+  217    Call to deprecated function format_date().         
+  293    Call to deprecated function db_table_exists().     
+  294    Call to deprecated function db_query().            
+  296    Call to deprecated function format_date().         
+  325    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/ip_geoloc/Form/SettingsForm.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\ip_geoloc\Form\SettingsForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   plugins/ip_geoloc.statistics.inc          
+ ------ ------------------------------------------ 
+  448    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views/ip_geoloc_plugin_argument_default_ip_geoloc.inc                    
+ ------ ------------------------------------------------------------------------- 
+         Class ip_geoloc_plugin_argument_default_ip_geoloc was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   views/ip_geoloc_plugin_style.inc                       
+ ------ ------------------------------------------------------- 
+  529    Call to deprecated function drupal_render().           
+  530    Call to deprecated function drupal_render().           
+  531    Call to deprecated function drupal_render().           
+  532    Call to deprecated function drupal_render().           
+  541    Call to deprecated function drupal_render_children().  
+  676    Call to deprecated function drupal_set_message().      
+  677    Call to deprecated function drupal_set_message().      
+  678    Call to deprecated function drupal_set_message().      
+  886    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   views/ip_geoloc_plugin_style_leaflet.inc                            
+ ------ -------------------------------------------------------------------- 
+         Class ip_geoloc_plugin_style_leaflet was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   views/ip_geoloc_plugin_style_map.inc                                    
+ ------ ------------------------------------------------------------------------ 
+         Class ip_geoloc_plugin_style_map was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views/ip_geoloc_plugin_style_openlayers.inc                            
+ ------ ----------------------------------------------------------------------- 
+         Class ip_geoloc_plugin_style_openlayers was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 54 errors                                                         
+
+ </code>

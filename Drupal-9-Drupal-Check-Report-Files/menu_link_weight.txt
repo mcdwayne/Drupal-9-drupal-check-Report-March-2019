@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_link_weight 8.x-2.0-alpha2
+source : http://cgit.drupalcode.org/menu_link_weight 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   menu_link_weight.node.inc                     
+ ------ ---------------------------------------------- 
+  130    Call to deprecated function drupal_render().  
+  131    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MenuLinkWeightJavascriptTestBase.php      
+ ------ ------------------------------------------------------------------------- 
+  16     Class                                                                    
+         Drupal\Tests\menu_link_weight\FunctionalJavascript\MenuLinkWeightJavasc  
+         riptTestBase extends deprecated class                                    
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  71     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

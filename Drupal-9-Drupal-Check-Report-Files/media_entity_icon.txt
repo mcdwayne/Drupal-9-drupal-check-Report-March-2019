@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_icon b7874850780f0870e945c422d4e384a0009a6407
+source : http://cgit.drupalcode.org/media_entity_icon 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RelatedIconsForm.php                      
+ ------ --------------------------------------------------- 
+  489    Call to deprecated function drupal_set_message().  
+  492    Call to deprecated function drupal_set_message().  
+  526    Call to deprecated function drupal_set_message().  
+  529    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/SvgIcon.php                             
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/SvgSprite.php                           
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/micro_menu ffeb0b07bf6601c163c28a24c014971b4dcdd548
+source : http://cgit.drupalcode.org/micro_menu 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/SiteMenuForm.php                                            
+ ------ --------------------------------------------------------------------- 
+  71     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  72     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  82     Access to deprecated property $entityManager of class                
+         Drupal\CorentityntityForm.                                       
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

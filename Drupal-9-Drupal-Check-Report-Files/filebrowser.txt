@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/filebrowser e1e47a804bd7cba2befc6681a448b1b9ced40391
+source : http://cgit.drupalcode.org/filebrowser 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DefaultController.php               
+ ------ --------------------------------------------------- 
+  208    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/File/DisplayFileList.php                       
+ ------ --------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().  
+  166    Call to deprecated function drupal_set_message().  
+  380    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  148    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  185    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FolderForm.php                            
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RenameForm.php                            
+ ------ --------------------------------------------------- 
+  158    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UploadForm.php                            
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

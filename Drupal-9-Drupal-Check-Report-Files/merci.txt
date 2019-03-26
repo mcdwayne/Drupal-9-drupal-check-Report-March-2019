@@ -1,0 +1,181 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/merci b53933c9cbe093b0628f5b4b30ad899749957cc1
+source : http://cgit.drupalcode.org/merci 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/merci_entity_reference_select/merci_entity_reference_select.module  
+ ------ ---------------------------------------------------------------------------- 
+  20     Call to deprecated method entityManager() of class Drupal.                  
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Controller/MerciLineItemController.php  
+ ------ -------------------------------------------------------------------- 
+  30     Call to deprecated method entityManager() of class                  
+         Drupal\Core\Controller\ControllerBase.                              
+  31     Call to deprecated method entityManager() of class                  
+         Drupal\Core\Controller\ControllerBase.                              
+  46     Call to deprecated method entityManager() of class                  
+         Drupal\Core\Controller\ControllerBase.                              
+  47     Call to deprecated function format_date().                          
+  65     Call to deprecated method entityManager() of class                  
+         Drupal\Core\Controller\ControllerBase.                              
+  93     Call to deprecated method l() of class                              
+         Drupal\Core\Controller\ControllerBase.                              
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/merci_line_item/src/Entity/MerciLineItem.php  
+ ------ ------------------------------------------------------ 
+  261    Call to deprecated method setQueryable() of class     
+         Drupal\Core\Field\BaseFieldDefinition.                
+  267    Call to deprecated method setQueryable() of class     
+         Drupal\Core\Field\BaseFieldDefinition.                
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/merci_line_item/src/Form/DeleteMultiple.php  
+ ------ ----------------------------------------------------- 
+  190    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Form/MerciConfigureAction.php              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupaliews_bulk_operations\Form\ConfigureAction not found and  
+         could not be autoloaded.                                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Form/MerciLineItemForm.php  
+ ------ -------------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().       
+  64     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Form/MerciLineItemInlineForm.php         
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\inline_entity_form\FormntityInlineForm not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Form/MerciLineItemRevisionDeleteForm.php  
+ ------ ---------------------------------------------------------------------- 
+  76     Call to deprecated function format_date().                            
+  110    Call to deprecated function drupal_set_message().                     
+  110    Call to deprecated function format_date().                            
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Form/MerciLineItemRevisionRevertForm.php  
+ ------ ---------------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/merci_line_item/src/Form/MerciLineItemTypeDeleteForm.php  
+ ------ ------------------------------------------------------------------ 
+  41     Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/merci_line_item/src/Form/MerciLineItemTypeForm.php  
+ ------ ------------------------------------------------------------ 
+  54     Call to deprecated function drupal_set_message().           
+  60     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/MerciLineItemListBuilder.php             
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\merci_line_item\MerciLineItemListBuilder.               
+  34     Call to deprecated method l() of class                               
+         Drupal\merci_line_item\MerciLineItemListBuilder.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Plugin/Action/ExtendMerciLineItem.php     
+ ------ ---------------------------------------------------------------------- 
+  25     Class Drupaliews_bulk_operations\Form\ViewsBulkOperationsFormTrait  
+         not found and could not be autoloaded.                                
+  132    Call to deprecated function drupal_set_message().                     
+  134    Call to deprecated function drupal_set_message().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/merci_line_item/src/Plugin/Field/FieldWidget/MerciLineItemWidget.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class                                                                         
+         Drupal\inline_entity_form\Plugin\Field\FieldWidget\InlineEntityFormComp       
+         lex not found and could not be autoloaded.                                    
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/merci_line_item/src/Plugin/views/field/MerciLineItemBulkForm.php  
+ ------ -------------------------------------------------------------------------- 
+  12     Class Drupal\merci_line_item\Pluginiewsield\MerciLineItemBulkForm     
+         extends deprecated class Drupal\system\Pluginiewsield\BulkForm.       
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/merci_permissions/merci_permissions.module     
+ ------ ------------------------------------------------------- 
+  52     Call to deprecated function drupal_render().           
+  60     Call to deprecated function drupal_render().           
+  68     Call to deprecated function drupal_render().           
+  81     Call to deprecated function drupal_render().           
+  87     Call to deprecated function drupal_render_children().  
+  105    Call to deprecated function drupal_set_message().      
+  189    Call to deprecated function db_query().                
+  203    Call to deprecated function db_query().                
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/merci_printable_contract/merci-printable-contract.tpl.php  
+ ------ ------------------------------------------------------------------- 
+  49     Call to deprecated function node_load().                           
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/merci_printable_contract/merci_printable_contract.module  
+ ------ ------------------------------------------------------------------ 
+  130    Call to deprecated function user_load().                          
+  173    Call to deprecated function format_date().                        
+  174    Call to deprecated function format_date().                        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   modules/merci_staff/merci_staff.module   
+ ------ ----------------------------------------- 
+  272    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/MerciTestBase.php                                                 
+ ------ ---------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal	axonomy\Tests\TaxonomyTestTrait in  
+         class Drupal\merci\MerciTestBase.                                     
+  80     Call to deprecated function node_type_load().                         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/views/argument_default/CurrentUserRoles.php  
+ ------ -------------------------------------------------------- 
+  31     Calls to function dpm should not exist.                 
+  32     Calls to function dpm should not exist.                 
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/ReservationConflicts.php                                
+ ------ ------------------------------------------------------------ 
+  200    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 46 errors                                                         
+
+ </code>

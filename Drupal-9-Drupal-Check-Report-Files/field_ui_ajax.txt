@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_ui_ajax 1dffb7d3e0ddd844f7ca0638de2c7a2566a99d31
+source : http://cgit.drupalcode.org/field_ui_ajax 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/FieldConfigListBuilder.php                
+ ------ ---------------------------------------------- 
+  191    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  203    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  221    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/EntityDisplayModeAjaxAddForm.php              
+ ------ ------------------------------------------------------- 
+  88     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  92     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/EntityFormModeAjaxAddForm.php                 
+ ------ ------------------------------------------------------- 
+  21     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/FieldConfigAjaxEditForm.php                   
+ ------ ------------------------------------------------------- 
+  81     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldStorageAjaxAddForm.php               
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Routing/FieldUiEntityRouteEnhancer.php                     
+ ------ --------------------------------------------------------------- 
+  19     Class Drupalield_ui_ajax\Routing\FieldUiEntityRouteEnhancer  
+         implements deprecated interface                                
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.           
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Routing/FieldUiFormRouteEnhancer.php                                
+ ------ ------------------------------------------------------------------------ 
+  17     Class Drupalield_ui_ajax\Routing\FieldUiFormRouteEnhancer implements  
+         deprecated interface                                                    
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

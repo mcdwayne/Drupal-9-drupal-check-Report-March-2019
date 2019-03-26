@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/grapesjs 49d6c26e9ebdfe397f69c1a98d6822c86d66caa9
+source : http://cgit.drupalcode.org/grapesjs 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   grapesjs.module                                         
+ ------ -------------------------------------------------------- 
+  14     Syntax error, unexpected T_IF on line 14                
+  62     Syntax error, unexpected '}', expecting EOF on line 62  
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Controller/AjaxController.php                                  
+ ------ ------------------------------------------------------------------- 
+  68     Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Editor/GrapesJsEditor.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\grapesjs\Pluginditor\GrapesJSEditor was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

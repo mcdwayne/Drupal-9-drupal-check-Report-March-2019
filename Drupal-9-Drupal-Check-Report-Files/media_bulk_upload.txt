@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_bulk_upload 52c6d03a97e41ec89edbd1efbda60ef78c1ac942
+source : git://git.drupal.org/project/media_bulk_upload.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MediaBulkConfigDeleteForm.php             
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MediaBulkConfigForm.php                   
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/MediaBulkConfigPermissions.php                                  
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\media_bulk_upload\MediaBulkConfigPermissions.          
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

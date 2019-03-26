@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/images_migration 8.x-3.0-alpha6
+source : http://cgit.drupalcode.org/images_migration 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/DestinationDBHandler.php              
+ ------ ------------------------------------------ 
+  19     Call to deprecated function db_insert().  
+  41     Call to deprecated function db_insert().  
+  67     Call to deprecated function db_insert().  
+  99     Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/SourceDBHandler.php                   
+ ------ ------------------------------------------ 
+  15     Call to deprecated function db_select().  
+  38     Call to deprecated function db_select().  
+  59     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

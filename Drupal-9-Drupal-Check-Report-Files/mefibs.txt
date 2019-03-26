@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mefibs 8cf35d9adb8b788c3e1a326a187e104bf8b67cb7
+source : http://cgit.drupalcode.org/mefibs 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/mefibs/Plugin/Block/MefibsExposedFilterBlock.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\mefibs\Plugin\Block\MefibsExposedFilterBlock was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/mefibs/Plugin/Derivative/MefibsExposedFilterBlock.php        
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\mefibs\Plugin\Derivative\MefibsExposedFilterBlock was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   lib/Drupal/mefibs/Plugin/views/display_extender/MefibsDisplayExtender.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupal\mefibs\Pluginiews\display_extender\MefibsDisplayExtender    
+         was not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                       
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   mefibs.theme.inc                                       
+ ------ ------------------------------------------------------- 
+  28     Call to deprecated function drupal_render().           
+  29     Call to deprecated function drupal_render().           
+  30     Call to deprecated function drupal_render().           
+  31     Call to deprecated function drupal_render().           
+  35     Call to deprecated function drupal_render().           
+  35     Call to deprecated function drupal_render().           
+  40     Call to deprecated function drupal_render().           
+  64     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

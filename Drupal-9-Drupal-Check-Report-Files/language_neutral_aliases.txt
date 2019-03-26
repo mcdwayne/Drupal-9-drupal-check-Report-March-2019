@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/language_neutral_aliases 7a5713c6d0ce43c7207d48355befb246eaaf636c
+source : http://cgit.drupalcode.org/language_neutral_aliases 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Kernel/LanguageNeutralAliasesStorageTest.php  
+ ------ -------------------------------------------------------- 
+  88     Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  99     Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  132    Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  141    Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  146    Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  158    Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  163    Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  179    Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+  184    Call to deprecated method assertEqual() of class        
+         Drupal\KernelTests\KernelTestBase.                      
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

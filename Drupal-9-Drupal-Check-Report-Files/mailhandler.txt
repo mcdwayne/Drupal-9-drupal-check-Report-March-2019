@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailhandler 53ecf464101345c30bcbbdb1a2b7c338b352b3c4
+source : http://cgit.drupalcode.org/mailhandler/tree/?h=8.x-1.x 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   mailhandler_comment/src/Plugin/inmail/Handler/MailhandlerComment.php  
+ ------ ---------------------------------------------------------------------- 
+  170    Call to deprecated method entityManager() of class Drupal.            
+  238    Call to deprecated method entityManager() of class Drupal.            
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   mailhandler_comment/tests/src/Kernel/MailhandlerCommentTest.php  
+ ------ ----------------------------------------------------------------- 
+  158    Call to deprecated method getStatus() of class                   
+         Drupal

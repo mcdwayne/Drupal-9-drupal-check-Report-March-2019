@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_tools 7179ebe1f87efef8d3b33c8a29ce8fb3a34c4caf
+source : http://cgit.drupalcode.org/field_tools 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   field_tools.admin.inc                                 
+ ------ ------------------------------------------------------ 
+  341    Call to deprecated function element_info_property().  
+  469    Call to deprecated function drupal_set_message().     
+  528    Call to deprecated function drupal_set_message().     
+  914    Call to deprecated function drupal_set_message().     
+  938    Call to deprecated function drupal_set_message().     
+  947    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityDisplayBulkCloneForm.php            
+ ------ --------------------------------------------------- 
+  205    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityDisplaySettingsBulkCopyForm.php     
+ ------ --------------------------------------------------- 
+  197    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldBulkCloneForm.php                    
+ ------ --------------------------------------------------- 
+  156    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldConfigCloneForm.php                  
+ ------ --------------------------------------------------- 
+  165    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

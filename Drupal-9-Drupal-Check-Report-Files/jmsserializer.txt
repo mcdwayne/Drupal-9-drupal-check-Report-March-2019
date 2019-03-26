@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jmsserializer f03a4e2d939d3c6c5f7570685e1f8c1c8d40a8df
+source : http://cgit.drupalcode.org/jmsserializer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Serializer.php                                                   
+ ------ --------------------------------------------------------------------- 
+  14     Class JMS\Serializer\SerializerInterface not found and could not be  
+         autoloaded.                                                          
+  22     Call to deprecated method registerLoader() of class                  
+         Doctrine\Common\Annotations\AnnotationRegistry.                      
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

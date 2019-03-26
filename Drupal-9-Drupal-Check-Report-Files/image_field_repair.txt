@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_field_repair beedcb236cfebe69b1715672bf10250760e537a3
+source : http://cgit.drupalcode.org/image_field_repair 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RepairDimensionsForm.php                  
+ ------ --------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ImageFieldRepairWidgetTest.php            
+ ------ ------------------------------------------------------------------------- 
+  17     Class                                                                    
+         Drupal\Tests\image_field_repair\FunctionalJavascript\ImageFieldRepairWi  
+         dgetTest extends deprecated class                                        
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

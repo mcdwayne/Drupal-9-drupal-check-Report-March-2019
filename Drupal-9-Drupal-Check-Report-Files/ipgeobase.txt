@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ipgeobase e08b0272f3929b8c3425d30e1268a46a39753f46
+source : http://cgit.drupalcode.org/ipgeobase 
+ 
+ <code> 
+Warning: Declaration of Drupal\ipgeobase\Plugin\Block\IPGeobaseBlock::blockAccess(Drupal\ipgeobase\Plugin\Block\AccountInterface $account) should be compatible with Drupal\Core\Block\BlockBase::blockAccess(Drupal\Core\Session\AccountInterface $account) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/ipgeobase/src/Plugin/Block/IPGeobaseBlock.php on line 22
+
+
+ ------ ------------------------------------------ 
+  Line   ipgeobase.module                          
+ ------ ------------------------------------------ 
+  180    Call to deprecated function db_insert().  
+  184    Call to deprecated function db_query().   
+  193    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Block/IPGeobaseBlock.php                                 
+ ------ -------------------------------------------------------------------- 
+  22     Class Drupal\ipgeobase\Plugin\Block\AccountInterface not found and  
+         could not be autoloaded.                                            
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

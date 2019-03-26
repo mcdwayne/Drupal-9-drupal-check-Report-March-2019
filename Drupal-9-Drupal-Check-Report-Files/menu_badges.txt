@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_badges 61b4003b2ad15c80a5141c8aba5d88851b546b43
+source : http://cgit.drupalcode.org/menu_badges 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   menu_badges.module                            
+ ------ ---------------------------------------------- 
+  119    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/MenuBadgesManager.php                 
+ ------ ------------------------------------------ 
+  54     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

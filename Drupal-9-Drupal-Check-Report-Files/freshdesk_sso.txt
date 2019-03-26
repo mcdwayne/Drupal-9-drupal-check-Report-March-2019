@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/freshdesk_sso 726acbe028660fa89f8136450aee43748167a92b
+source : http://cgit.drupalcode.org/freshdesk_sso 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   Tests/Controller/RedirectControllerTest.php                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalreshdesk_sso\Tests\RedirectControllerTest was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FreshdeskConfigDeleteForm.php             
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FreshdeskConfigForm.php                   
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

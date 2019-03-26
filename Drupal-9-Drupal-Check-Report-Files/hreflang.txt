@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hreflang 28eebba0f52d667ae19c86acdca575724afecbb9
+source : http://cgit.drupalcode.org/hreflang 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/HreflangContentTranslationTest.php  
+ ------ --------------------------------------------------------- 
+  43     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  44     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  45     Call to deprecated method assertNoRaw() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  46     Call to deprecated method assertNoRaw() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  48     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  49     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  50     Call to deprecated method assertNoRaw() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  51     Call to deprecated method assertNoRaw() of class         
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Functional/HreflangTest.php           
+ ------ ------------------------------------------------ 
+  32     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  33     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  35     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  36     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  46     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  47     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  49     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  50     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  52     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+  53     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

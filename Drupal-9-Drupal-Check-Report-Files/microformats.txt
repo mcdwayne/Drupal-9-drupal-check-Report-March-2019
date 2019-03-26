@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/microformats 48fa51c5bcd6e32c9907a4d5aeaa0cba3cf6d9d3
+source : http://cgit.drupalcode.org/microformats 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   microformats.module                              
+ ------ ------------------------------------------------- 
+  210    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  210    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

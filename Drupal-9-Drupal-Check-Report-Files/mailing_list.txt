@@ -1,0 +1,98 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailing_list 686730a9fb4dc3f1245ea47a9707e598639f9e75
+source : http://cgit.drupalcode.org/mailing_list 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   mailing_list.module                           
+ ------ ---------------------------------------------- 
+  67     Call to deprecated function drupal_render().  
+  69     Call to deprecated function drupal_render().  
+  72     Call to deprecated method url() of class      
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   mailing_list.tokens.inc                     
+ ------ -------------------------------------------- 
+  171    Call to deprecated method url() of class    
+         Drupal\CorentityntityInterface.         
+  175    Call to deprecated method url() of class    
+         Drupal\CorentityntityInterface.         
+  179    Call to deprecated method url() of class    
+         Drupal\CorentityntityInterface.         
+  228    Call to deprecated function format_date().  
+  234    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   mailing_list_confirm/src/MailingListConfirmPermissions.php          
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\mailing_list_confirm\MailingListConfirmPermissions.    
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/MailingList.php                         
+ ------ --------------------------------------------------- 
+  239    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnonymousSubscriptionAccessForm.php       
+ ------ --------------------------------------------------- 
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailingListDeleteConfirmForm.php          
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailingListExportForm.php                 
+ ------ --------------------------------------------------- 
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailingListForm.php                       
+ ------ --------------------------------------------------- 
+  230    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailingListImportForm.php                 
+ ------ --------------------------------------------------- 
+  191    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionForm.php                      
+ ------ --------------------------------------------------- 
+  109    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/MailingListPermissions.php                                      
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\mailing_list\MailingListPermissions.                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/SubscriptionListBuilder.php               
+ ------ ---------------------------------------------- 
+  118    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

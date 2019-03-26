@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_appliance b9aa0790294b3d07e712b28e66f9c6ec3d453909
+source : http://cgit.drupalcode.org/google_appliance 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Service/Click.php                                                  
+ ------ ----------------------------------------------------------------------- 
+         Class Click was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/GoogleApplianceFunctionalTestBase.php               
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class   
+         Drupal\Tests\google_appliance\Functional\GoogleApplianceFunctionalTestB  
+         ase.                                                                     
+  17     Usage of deprecated trait Drupal\simpletest\BlockCreationTrait in class  
+         Drupal\Tests\google_appliance\Functional\GoogleApplianceFunctionalTestB  
+         ase.                                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ParserTest.php                                            
+ ------ ------------------------------------------------------------------------- 
+  21     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

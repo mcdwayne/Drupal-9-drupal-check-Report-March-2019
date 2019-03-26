@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/material_admin_support a618eb1a86bf2f64f1eee5074abb897926199237
+source : http://cgit.drupalcode.org/material_admin_support 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Routing/RouteSubscriber.php                                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\material_Admin_support\Routing\RouteSubscriber was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

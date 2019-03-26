@@ -1,0 +1,95 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mandrill f7519ffa7d43b8267611ad496251cd35bd2c7b93
+source : http://cgit.drupalcode.org/mandrill 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/mandrill_activity/src/Controller/MandrillActivityController.php  
+ ------ ------------------------------------------------------------------------- 
+  50     Call to deprecated function format_date().                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/mandrill_activity/src/Form/MandrillActivityDeleteForm.php  
+ ------ ------------------------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/mandrill_activity/src/Form/MandrillActivityForm.php  
+ ------ ------------------------------------------------------------- 
+  136    Call to deprecated method entityManager() of class Drupal.   
+  257    Call to deprecated method entityManager() of class Drupal.   
+ ------ ------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/mandrill_template/src/Form/MandrillTemplateMapDeleteForm.php  
+ ------ ---------------------------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/mandrill_template/src/Form/MandrillTemplateMapForm.php  
+ ------ ---------------------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().               
+  164    Call to deprecated function drupal_set_message().               
+  169    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/MandrillAdminSettingsForm.php                             
+ ------ ------------------------------------------------------------------- 
+  101    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  105    Call to deprecated function drupal_set_message().                  
+  132    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  138    Call to deprecated function drupal_set_message().                  
+  142    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  231    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  232    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MandrillAdminTestForm.php                 
+ ------ --------------------------------------------------- 
+  145    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MandrillAPI.php                                
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated function drupal_set_message().  
+  194    Call to deprecated function drupal_set_message().  
+  216    Call to deprecated function drupal_set_message().  
+  235    Call to deprecated function drupal_set_message().  
+  253    Call to deprecated function drupal_set_message().  
+  275    Call to deprecated function drupal_set_message().  
+  297    Call to deprecated function drupal_set_message().  
+  316    Call to deprecated function drupal_set_message().  
+  338    Call to deprecated function drupal_set_message().  
+  356    Call to deprecated function drupal_set_message().  
+  377    Call to deprecated function drupal_set_message().  
+  400    Call to deprecated function drupal_set_message().  
+  421    Call to deprecated function drupal_set_message().  
+  446    Call to deprecated function drupal_set_message().  
+  472    Call to deprecated function drupal_set_message().  
+  515    Call to deprecated function drupal_set_message().  
+  524    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Mail/MandrillMail.php                 
+ ------ ------------------------------------------------- 
+  144    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 40 errors                                                         
+
+ </code>

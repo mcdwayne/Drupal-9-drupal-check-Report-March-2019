@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/html_diff 14b164c14cc868ca30b64ac42026e7c77808e37c
+source : http://cgit.drupalcode.org/html_diff 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   Tests/Controller/DefaultControllerTest.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\html_diff\Tests\DefaultControllerTest was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Controller/HtmlDiffGenericRevisionController.php                  
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\diff\Controller\GenericRevisionController not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/HtmlDiffNodeRevisionController.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\html_diff\Controller\HtmlDiffGenericRevisionController not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Routing/RouteProvider.php                                         
+ ------ ---------------------------------------------------------------------- 
+  23     Class Drupal\diff\Controller\GenericRevisionController not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Routing/RouteSubscriber.php                                          
+ ------ ------------------------------------------------------------------------- 
+  27     Class Drupal\html_diff\Controller\HtmlDiffGenericRevisionController not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

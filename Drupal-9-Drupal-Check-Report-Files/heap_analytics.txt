@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/heap_analytics 1dd6654216b7482a6de586bb59682fa19e551816
+source : http://cgit.drupalcode.org/heap_analytics 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   heap_analytics.module                            
+ ------ ------------------------------------------------- 
+  123    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  127    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

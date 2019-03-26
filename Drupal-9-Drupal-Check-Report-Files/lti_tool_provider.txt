@@ -1,0 +1,70 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lti_tool_provider 74df80538ba5927ee95bc372eb7313a5df797ccf
+source : http://cgit.drupalcode.org/lti_tool_provider 
+ 
+ <code> 
+Notice: Constant LTI_TOOL_PROVIDER_NONCE_INTERVAL already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/lti_tool_provider/tests/src/Unit/LTIToolProviderTest.php on line 9
+
+Notice: Constant LTI_TOOL_PROVIDER_NONCE_EXPIRY already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/lti_tool_provider/tests/src/Unit/LTIToolProviderTest.php on line 10
+
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/lti_tool_provider_attributes/lti_tool_provider_attributes.module  
+ ------ -------------------------------------------------------------------------- 
+  29     Call to deprecated method getUsername() of class                          
+         Drupal\userntity\User.                                                  
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/lti_tool_provider_attributes/src/Form/MappedAttributesForm.php  
+ ------ ------------------------------------------------------------------------ 
+  85     Call to deprecated function drupal_set_message().                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/lti_tool_provider_roles/lti_tool_provider_roles.module  
+ ------ ---------------------------------------------------------------- 
+  30     Call to deprecated method getUsername() of class                
+         Drupal\userntity\User.                                        
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/lti_tool_provider_roles/src/Form/MappedRolesForm.php  
+ ------ -------------------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/ConsumerListBuilder.php                     
+ ------ ------------------------------------------------ 
+  62     Call to deprecated method l() of class Drupal.  
+  63     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+  70     Call to deprecated function format_date().      
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Functional/LTIAuthTest.php                                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Tests\lti_tool_provider\Functional\LTIAuth was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/LTIToolProviderTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  78     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  80     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  331    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  339    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  345    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  374    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  380    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  382    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

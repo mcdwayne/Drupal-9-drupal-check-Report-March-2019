@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flexible_list c19ae3d214992ea1bea17f241e413c11308b9444
+source : http://cgit.drupalcode.org/flexible_list 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   flexible_list.module                              
+ ------ -------------------------------------------------- 
+  23     Call to deprecated method url() of class Drupal.  
+  23     Call to deprecated method url() of class Drupal.  
+  27     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/FlexibleListItemBase.php                      
+ ------ ------------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal\Core\Field\AllowedTagsXssTrait in       
+         class Drupallexible_list\Plugin\Field\FieldType\FlexibleListItemBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

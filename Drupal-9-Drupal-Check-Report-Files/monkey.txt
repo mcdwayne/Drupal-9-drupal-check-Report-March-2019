@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/monkey 8ed07ec42d1d2873aaa805011a3c988ee4817b42
+source : http://cgit.drupalcode.org/monkey 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   monkey.drush.inc                                            
+ ------ ------------------------------------------------------------ 
+  276    Call to deprecated function entity_load().                  
+  313    Call to deprecated function entity_load().                  
+  345    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

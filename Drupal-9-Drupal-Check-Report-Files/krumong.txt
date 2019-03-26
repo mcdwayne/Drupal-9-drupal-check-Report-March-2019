@@ -1,0 +1,145 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/krumong 8b117e0d2757d6ff7054bf01ad63f477b41cd0fe
+source : http://cgit.drupalcode.org/krumong 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   lib/Drupal/krumong/AccessChecked.php                              
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\krumong\AccessChecked was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/Devel.php                                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\krumong\Devel was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/DoNothing.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\DoNothing was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/Main.php                                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\krumong\Main was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/Output/AjaxMessageSystem.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\Output\AjaxMessageSystem was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/Output/CssJs.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\Output\CssJs was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/Output/SessionRequestCache.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\Output\SessionRequestCache was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   lib/Drupal/krumong/Output/StdOut.php                              
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\krumong\Output\StdOut was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/ServiceCache/ServiceCache.php                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\ServiceCache\ServiceCache was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/ServiceCache/ServiceFactory.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\ServiceCache\ServiceFactory was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/krumong/Tests/BasicUnitTest.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\krumong\Tests\BasicUnitTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/TreeRenderer/Abstract.php                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\krumong\TreeRenderer_Abstract was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/TreeRenderer/BreadthFirst.php                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\TreeRenderer_BreadthFirst was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/TreeRenderer/DepthFirst.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\TreeRenderer_DepthFirst was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/krumong/TreeTheme/Interface.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\krumong\TreeTheme_Interface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/TreeTheme/JsDataPrefixed.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\TreeTheme_JsDataPrefixed was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/TreeTheme/JsDataPseudoTyped.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\krumong\TreeTheme_JsDataPseudoTyped was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/krumong/Util.php                                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\krumong\Util was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/example/krumong_example.module             
+ ------ --------------------------------------------------- 
+  19     Calls to function dpm should not exist.            
+  21     Calls to function dpm should not exist.            
+  31     Calls to function dfb should not exist.            
+  32     Calls to function dfb should not exist.            
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

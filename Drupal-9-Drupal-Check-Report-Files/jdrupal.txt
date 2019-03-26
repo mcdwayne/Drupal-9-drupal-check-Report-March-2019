@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jdrupal 5c026dc242b6d704f3564078b55a5e727f5b46a1
+source : http://cgit.drupalcode.org/jdrupal 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/jDrupalController.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\jDrupal\Controller\jDrupalController was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/rest/resource/jDrupalConnect.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\jDrupal\Pluginestesource\jDrupalConnect was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

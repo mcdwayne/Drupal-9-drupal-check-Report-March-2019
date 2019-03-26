@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hook_event_dispatcher 0ca0a11a36a4c603f1d2b4a718bc8d62a2d401f5
+source : http://cgit.drupalcode.org/hook_event_dispatcher 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   modules/webform_event_dispatcher/tests/src/Unit/WebformElement/WebformElementEventTest.php  
+ ------ -------------------------------------------------------------------------------------------- 
+         Class                                                                                       
+         Drupal\Tests\webform_event_dispatcher\Unit\WebformElement\WebformFormEl                     
+         ementEventTest was not found while trying to analyse it - autoloading                       
+         is probably not configured properly.                                                        
+ ------ -------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Example/ExamplePreprocessorEventSubscriber.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\ib_referencesventSubscriberxamplePreprocessorEventSubscriber  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   src/Example/preprocess_example_module/src/Event/ExamplePreprocessEvent.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupal\preprocess_example_moduleventxamplePreprocessEvent was     
+         not found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                        
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------- 
+  Line   src/Example/preprocess_example_module/src/Event/Factory/ExamplePreprocessEventFactory.php  
+ ------ ------------------------------------------------------------------------------------------- 
+         Class                                                                                      
+         Drupal\preprocess_example_modulevent\FactoryxamplePreprocessEventFa                    
+         ctory was not found while trying to analyse it - autoloading is                            
+         probably not configured properly.                                                          
+ ------ ------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   src/Example/preprocess_example_module/src/Event/Variables/ExampleEventVariables.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class                                                                                
+         Drupal\preprocess_example_modulevent\VariablesxampleEventVariables               
+         was not found while trying to analyse it - autoloading is probably not               
+         configured properly.                                                                 
+ ------ ------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

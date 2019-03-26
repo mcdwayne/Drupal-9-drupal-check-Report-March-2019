@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fullcalendar 5ff71c7147e5c30d9eb2d66f33a40f141b5cc342
+source : http://cgit.drupalcode.org/fullcalendar 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   fullcalendar_legend/src/Plugin/block/Bundle.php                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupalullcalendar_legend\Plugin\Block\Bundle was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   fullcalendar_legend/src/Plugin/block/FullcalendarLegendBase.php         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalullcalendar_legend\Plugin\Block\FullcalendarLegendBase    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   fullcalendar_legend/src/Plugin/block/Term.php                            
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalullcalendar_legend\Plugin\Block\Term was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   fullcalendar_options/fullcalendar_options.module  
+ ------ -------------------------------------------------- 
+  19     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/style/FullCalendar.php            
+ ------ --------------------------------------------------- 
+  248    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

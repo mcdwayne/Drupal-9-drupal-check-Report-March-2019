@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gmail_contact 04f0e2b59c2e5a57de3614ec3c7223087ad1de10
+source : http://cgit.drupalcode.org/gmail_contact 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GmailContactInviteForm.php                
+ ------ --------------------------------------------------- 
+  212    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Block/GmailContactBlock.php          
+ ------ ------------------------------------------------ 
+  33     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

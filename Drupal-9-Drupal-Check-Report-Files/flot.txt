@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flot d768c04d6df74f00b9ef48f077a9e3f4ed39b857
+source : http://cgit.drupalcode.org/flot 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   flot_examples/src/Controller/Realtime.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class Drupallot_examples\Controller\RealTime was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   flot_views_pie/flot_views_pie.theme.inc       
+ ------ ---------------------------------------------- 
+  67     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   flot_views_time/flot_views_time.theme.inc     
+ ------ ---------------------------------------------- 
+  81     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

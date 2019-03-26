@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/micro_contact 4aac616b77910c1638027654733b16c1a8bc5e60
+source : http://cgit.drupalcode.org/micro_contact 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   micro_contact.module                              
+ ------ -------------------------------------------------- 
+  203    Call to deprecated method url() of class Drupal.  
+  221    Call to deprecated function entity_view().        
+  242    Call to deprecated function entity_view().        
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

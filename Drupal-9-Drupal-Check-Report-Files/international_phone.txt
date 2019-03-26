@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/international_phone 8.x-1.0
+source : http://cgit.drupalcode.org/international_phone 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/InternationalPhoneDefaultFormatter.php  
+ ------ ------------------------------------------------------------------------ 
+  34     Call to deprecated method checkPlain() of class                         
+         Drupal\Component\Utility\SafeMarkup.                                    
+  34     Call to method checkPlain() of deprecated class                         
+         Drupal\Component\Utility\SafeMarkup.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/InternationalPhoneDefaultWidget.php  
+ ------ ------------------------------------------------------------------ 
+  34     Call to deprecated method checkPlain() of class                   
+         Drupal\Component\Utility\SafeMarkup.                              
+  34     Call to method checkPlain() of deprecated class                   
+         Drupal\Component\Utility\SafeMarkup.                              
+ ------ ------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

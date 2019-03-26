@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/kashing fe354653c4a7c633a84b6a24210432b6fa26e064
+source : http://cgit.drupalcode.org/kashing 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   ext/kashing_shortcode/src/Plugin/Shortcode/KashingShortcode.php         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\shortcode\Plugin\ShortcodeBase not found and could not be  
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/KashingSettingsForm.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\kashingorm\KashingSettingsForm was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/View/KashingFormConfiguration.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\kashingorm\View\KashingFormConfiguration was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/View/KashingFormEdit.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\kashingorm\View\KashingFormEdit was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/View/KashingFormGeneral.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\kashingorm\View\KashingFormGeneral was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/View/KashingFormNew.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\kashingorm\View\KashingFormNew was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

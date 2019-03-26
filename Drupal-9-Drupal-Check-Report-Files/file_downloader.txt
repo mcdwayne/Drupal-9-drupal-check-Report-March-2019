@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_downloader 81d6a5fbc072b8cbaf9513e1aa7777b699cf4ff9
+source : http://cgit.drupalcode.org/file_downloader 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/DownloadOptionConfigPermissions.php                             
+ ------ -------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupalile_downloader\DownloadOptionConfigPermissions.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DownloadOptionConfigDeleteForm.php        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DownloadOptionConfigForm.php              
+ ------ --------------------------------------------------- 
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

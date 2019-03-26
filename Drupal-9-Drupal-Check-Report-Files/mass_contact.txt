@@ -1,0 +1,156 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mass_contact 0f1554cf2776ae03ea655f9645f7bfeba83e5241
+source : http://cgit.drupalcode.org/mass_contact 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   mass_contact.module                             
+ ------ ------------------------------------------------ 
+  62     Call to deprecated method l() of class Drupal.  
+  63     Call to deprecated method l() of class Drupal.  
+  64     Call to deprecated method l() of class Drupal.  
+  65     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CategoryDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CategoryForm.php                          
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MassContactMessageConfirmForm.php         
+ ------ --------------------------------------------------- 
+  285    Call to deprecated function drupal_set_message().  
+  292    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/Form/AdminSettingsFormTest.php                               
+ ------ ----------------------------------------------------------------------- 
+  14     Class Drupal\mass_contact\Tests\Form\AdminSettingsFormTest extends     
+         deprecated class Drupal\system\Tests\System\SystemConfigFormTestBase.  
+  27     Call to method setUp() of deprecated class                             
+         Drupal\simpletest\WebTestBase.                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/Form/EmailBodyFormTest.php                                   
+ ------ ----------------------------------------------------------------------- 
+  13     Class Drupal\mass_contact\Tests\FormmailBodyFormTest extends         
+         deprecated class Drupal\system\Tests\System\SystemConfigFormTestBase.  
+  26     Call to method setUp() of deprecated class                             
+         Drupal\simpletest\WebTestBase.                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/Form/EmailHeaderFormTest.php                                 
+ ------ ----------------------------------------------------------------------- 
+  14     Class Drupal\mass_contact\Tests\FormmailHeaderFormTest extends       
+         deprecated class Drupal\system\Tests\System\SystemConfigFormTestBase.  
+  27     Call to method setUp() of deprecated class                             
+         Drupal\simpletest\WebTestBase.                                         
+  33     Call to deprecated method strtolower() of class                        
+         Drupal\Component\Utility\Unicode.                                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/Form/CategoryFormTest.php   
+ ------ ------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  94     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/CategoryAccessControlHandlerTest.php                   
+ ------ ------------------------------------------------------------------------ 
+  16     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\mass_contact\Kernel\CategoryAccessControlHandlerTest.      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CategoryCreationTrait.php (in context of class Drupal\Tests\mass_contact\Functional\MassContactTestBase)  
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  21     Call to deprecated method strtolower() of class                                                                            
+         Drupal\Component\Utility\Unicode.                                                                                          
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/CategoryCreationTrait.php (in context of class Drupal\Tests\mass_contact\Kernel\CategoryAccessControlHandlerTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  21     Call to deprecated method strtolower() of class                                                                                     
+         Drupal\Component\Utility\Unicode.                                                                                                   
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CategoryCreationTrait.php (in context of class Drupal\Tests\mass_contact\Kernelntity\MassContactCategoryTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  21     Call to deprecated method strtolower() of class                                                                                   
+         Drupal\Component\Utility\Unicode.                                                                                                 
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CategoryCreationTrait.php (in context of class Drupal\Tests\mass_contact\Kernel\MassContactTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  21     Call to deprecated method strtolower() of class                                                                    
+         Drupal\Component\Utility\Unicode.                                                                                  
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CategoryCreationTrait.php (in context of class Drupal\Tests\mass_contact\Kernel\OptOutTest)  
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  21     Call to deprecated method strtolower() of class                                                               
+         Drupal\Component\Utility\Unicode.                                                                             
+ ------ -------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CategoryCreationTrait.php (in context of class Drupal\Tests\mass_contact\Kernel\PermissionsTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+  21     Call to deprecated method strtolower() of class                                                                    
+         Drupal\Component\Utility\Unicode.                                                                                  
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/Entity/MassContactCategoryTest.php                     
+ ------ ------------------------------------------------------------------------ 
+  20     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\mass_contact\Kernelntity\MassContactCategoryTest.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/MassContactTest.php                                    
+ ------ ------------------------------------------------------------------------ 
+  18     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\mass_contact\Kernel\MassContactTest.                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/OptOutTest.php                                         
+ ------ ------------------------------------------------------------------------ 
+  18     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\mass_contact\Kernel\OptOutTest.                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Plugin/MassContact/GroupingMethod/RoleTest.php          
+ ------ ------------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class   
+         Drupal\Tests\mass_contact\Kernel\Plugin\MassContact\GroupingMethod\Role  
+         Test.                                                                    
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 30 errors                                                         
+
+ </code>

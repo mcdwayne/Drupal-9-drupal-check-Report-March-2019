@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mapycz 4def8baa40a574c72293d025e8fe0d3a76127fa2
+source : http://cgit.drupalcode.org/mapycz 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/MapyCzField.php                                 
+ ------ ----------------------------------------------------------------------- 
+  17     Class Drupal\mapycz\Pluginiewsield\MapyCzField extends deprecated  
+         class Drupaliews\Pluginiewsield\Field.                           
+  23     Call to method buildOptionsForm() of deprecated class                  
+         Drupaliews\PluginiewsieldntityField.                           
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

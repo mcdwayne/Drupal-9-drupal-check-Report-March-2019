@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/funnel 244b393e292565a04910025c4335448933293583
+source : http://cgit.drupalcode.org/funnel 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/PageFunnel.php                   
+ ------ ------------------------------------------------ 
+  39     Call to deprecated function format_date().      
+  69     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/PageFunnels.php                  
+ ------ ------------------------------------------------ 
+  28     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/UpdateCallback.php               
+ ------ ------------------------------------------------ 
+  31     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/Settings.php                                       
+ ------ ------------------------------------------------------------ 
+  79     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

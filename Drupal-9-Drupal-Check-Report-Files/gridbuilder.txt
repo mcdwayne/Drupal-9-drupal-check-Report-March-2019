@@ -1,0 +1,76 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gridbuilder 0f8a4b8fcfb4f0b9fe43130a2cee3f7b33dfbdc1
+source : http://cgit.drupalcode.org/gridbuilder 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   gridbuilder.admin.inc                              
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function entity_create().       
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   gridbuilder.module                                   
+ ------ ----------------------------------------------------- 
+  120    Call to deprecated function entity_load().           
+  130    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/gridbuilder/Grid.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\gridbuilder\Grid was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/gridbuilder/GridBuilderBundle.php                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\gridbuilder\GridBuilderBundle was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/gridbuilder/GridFormController.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\gridbuilder\GridFormController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/gridbuilder/Plugin/Derivative/GridBuilder.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\gridbuilder\Plugin\Derivative\GridBuilder was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/gridbuilder/Plugin/GridBuilderInterface.php               
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\gridbuilder\Plugin\GridBuilderInterface was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/gridbuilder/Plugin/Type/GridBuilderManager.php              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\gridbuilder\Plugin\Type\GridBuilderManager was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   lib/Drupal/gridbuilder/Plugin/gridbuilder/gridbuilder/EqualColumnGrid.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupal\gridbuilder\Plugin\gridbuilder\gridbuilderqualColumnGrid    
+         was not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                       
+ ------ --------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

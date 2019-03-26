@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/imagefield_eps f46c99b9ae9532b8622bbd9fe772da3151d060eb
+source : http://cgit.drupalcode.org/imagefield_eps 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   imagefield_eps.module                           
+ ------ ------------------------------------------------ 
+  38     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   includes/field.inc                                 
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_realpath().     
+  160    Call to deprecated function drupal_realpath().     
+  161    Call to deprecated function drupal_mkdir().        
+  166    Call to deprecated function drupal_realpath().     
+  169    Call to deprecated function libraries_get_path().  
+  170    Call to deprecated function drupal_realpath().     
+  171    Call to deprecated function drupal_realpath().     
+  322    Call to deprecated function file_load().           
+  353    Call to deprecated function file_load().           
+  363    Call to deprecated function file_load().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

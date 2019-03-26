@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/js_injector 54faf3b356f100acb6562b954c621ba683058375
+source : http://cgit.drupalcode.org/js_injector 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   js_injector.module                                   
+ ------ ----------------------------------------------------- 
+  51     Call to deprecated function entity_load().           
+  62     Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/js_injector/Entity/Rule.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\js_injectorntity\Rule was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/js_injector/Form/RuleDeleteForm.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\js_injector\Form\RuleDeleteForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/js_injector/RuleFormController.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\js_injector\RuleFormController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/js_injector/RuleInterface.php                              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\js_injector\RuleInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/js_injector/RuleListBuilder.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\js_injector\RuleListBuilder was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/js_injector/RuleStorage.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\js_injector\RuleStorage was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

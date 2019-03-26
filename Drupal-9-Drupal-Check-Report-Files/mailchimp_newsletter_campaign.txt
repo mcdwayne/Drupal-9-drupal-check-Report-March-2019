@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailchimp_newsletter_campaign df3c94ac1072e9c5f63acf9e7a636d6bb38e0a39
+source : http://cgit.drupalcode.org/mailchimp_newsletter_campaign 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   mailchimp_newsletter_campaign.module          
+ ------ ---------------------------------------------- 
+  167    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Campaigns.php                                  
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

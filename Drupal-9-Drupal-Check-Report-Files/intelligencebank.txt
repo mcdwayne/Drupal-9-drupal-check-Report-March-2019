@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/intelligencebank eb323fadec3f020a5cc8f5fe3370d4e2773b1029
+source : http://cgit.drupalcode.org/intelligencebank 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/ib_dam_media/src/Plugin/EntityBrowser/Widget/IbDamEbWidget.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalntity_browser\WidgetBase not found and could not be       
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/EntityBrowser/Widget/FileEntityBrowser.php                   
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\intelligencebank\PluginntityBrowser\Widget\FileEntityBrowser   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/get_linkedin_posts 98c46bc89870e42a4d7505e2fa58167616f9fe5e
+source : http://cgit.drupalcode.org/get_linkedin_posts 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GetTokenLinkedin.php                
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GetLinkedinPostsSettings.php              
+ ------ --------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

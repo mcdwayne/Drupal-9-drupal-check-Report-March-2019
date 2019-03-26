@@ -1,0 +1,141 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/linkchecker bf03bad57ebc9a730a610fb0df4daa8a45cd9ed5
+source : http://git.drupal.org/project/linkchecker.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   linkchecker.batch.inc                              
+ ------ --------------------------------------------------- 
+  15     Call to deprecated function db_query().            
+  61     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated function db_query().            
+  115    Call to deprecated function drupal_set_message().  
+  123    Call to deprecated function db_query().            
+  169    Call to deprecated function drupal_set_message().  
+  210    Call to deprecated function node_load().           
+  235    Call to deprecated function drupal_set_message().  
+  300    Call to deprecated function drupal_set_message().  
+  366    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   linkchecker.module                                 
+ ------ --------------------------------------------------- 
+  793    Call to deprecated method l() of class Drupal.     
+  822    Call to deprecated method l() of class Drupal.     
+  841    Call to deprecated method l() of class Drupal.     
+  857    Call to deprecated method l() of class Drupal.     
+  922    Call to deprecated function drupal_set_message().  
+  1040   Call to deprecated function drupal_set_message().  
+  1147   Call to deprecated function drupal_set_message().  
+  1320   Call to deprecated function db_insert().           
+  1412   Call to deprecated function db_insert().           
+  1517   Call to deprecated function db_insert().           
+  1829   Call to deprecated method l() of class Drupal.     
+  2193   Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  2194   Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   linkchecker.pages.inc                                  
+ ------ ------------------------------------------------------- 
+  22     Call to deprecated function db_select().               
+  26     Call to deprecated function db_select().               
+  30     Call to deprecated function db_select().               
+  35     Call to deprecated function db_select().               
+  38     Call to deprecated function db_select().               
+  63     Call to deprecated function db_select().               
+  70     Call to deprecated function db_or().                   
+  80     Call to deprecated function db_select().               
+  91     Call to deprecated function db_select().               
+  95     Call to deprecated function db_select().               
+  99     Call to deprecated function db_select().               
+  122    Call to deprecated function db_query().                
+  124    Call to deprecated function db_query().                
+  125    Call to deprecated function drupal_set_message().      
+  169    Call to deprecated function drupal_get_destination().  
+  174    Call to deprecated function drupal_get_destination().  
+  181    Call to deprecated function drupal_get_destination().  
+  188    Call to deprecated function drupal_get_destination().  
+  194    Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   linkchecker.redirect.inc                           
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Controller/LinkCheckerAdminReportPage.php          
+ ------ ------------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().      
+  119    Call to deprecated function drupal_get_destination().  
+  119    Call to deprecated method l() of class                 
+         Drupal\Core\Controller\ControllerBase.                 
+  126    Call to deprecated function drupal_get_destination().  
+  126    Call to deprecated method l() of class                 
+         Drupal\Core\Controller\ControllerBase.                 
+  133    Call to deprecated function drupal_get_destination().  
+  133    Call to deprecated method l() of class                 
+         Drupal\Core\Controller\ControllerBase.                 
+  139    Call to deprecated function drupal_get_destination().  
+  139    Call to deprecated method l() of class                 
+         Drupal\Core\Controller\ControllerBase.                 
+  151    Call to deprecated method l() of class                 
+         Drupal\Core\Controller\ControllerBase.                 
+  153    Call to deprecated method checkPlain() of class        
+         Drupal\Component\Utility\SafeMarkup.                   
+  153    Call to method checkPlain() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.                   
+  154    Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Entity/LinkCheckerLink.php                   
+ ------ ------------------------------------------------- 
+  62     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Form/LinkCheckerAdminSettingsForm.php  
+ ------ ------------------------------------------- 
+  143    Call to deprecated function db_query().    
+  144    Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/LinkCheckerInterfaceTest.php        
+ ------ ---------------------------------------------- 
+  110    Call to deprecated function format_string().  
+  113    Call to deprecated function format_string().  
+  152    Call to deprecated function db_query().       
+  160    Call to deprecated function format_string().  
+  163    Call to deprecated function format_string().  
+  190    Call to deprecated function db_update().      
+  212    Call to deprecated function db_query().       
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/LinkCheckerLinkExtractionTest.php   
+ ------ ---------------------------------------------- 
+  252    Call to deprecated function format_string().  
+  255    Call to deprecated function format_string().  
+  264    Call to deprecated function format_string().  
+  300    Call to deprecated function db_query().       
+  309    Call to deprecated function format_string().  
+  312    Call to deprecated function format_string().  
+  319    Call to deprecated function format_string().  
+  350    Call to deprecated function format_string().  
+  375    Call to deprecated function format_string().  
+  390    Call to deprecated function db_query().       
+  397    Call to deprecated function db_query().       
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 77 errors                                                         
+
+ </code>

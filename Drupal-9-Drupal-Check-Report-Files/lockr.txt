@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lockr c5900128503ef788b453a0b457ca5be11977759c
+source : http://cgit.drupalcode.org/lockr 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/LockrAdminController.php            
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LockrCSRForm.php                          
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LockrLoginForm.php                        
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+  157    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LockrMigrateForm.php                      
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LockrRegisterForm.php                     
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

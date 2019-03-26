@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/klipfolio_field e2870643f2b837766c1b6dba32ba0ff6ccf0a57b
+source : http://cgit.drupalcode.org/klipfolio_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/KlipfolioFieldTest.php             
+ ------ -------------------------------------------------------- 
+  63     Call to deprecated function entity_get_form_display().  
+  72     Call to deprecated function entity_get_display().       
+  81     Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  90     Call to deprecated method assertRaw() of class          
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/KlipfolioItemTest.php            
+ ------ -------------------------------------------------- 
+  63     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  64     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  69     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  74     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

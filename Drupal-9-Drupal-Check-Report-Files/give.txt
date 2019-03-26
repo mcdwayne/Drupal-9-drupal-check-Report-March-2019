@@ -1,0 +1,98 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/give e8ceb7a1c45a27e29a75eccf24b930042cd62f6b
+source : http://cgit.drupalcode.org/give 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   give.module                                       
+ ------ -------------------------------------------------- 
+  70     Call to deprecated method url() of class Drupal.  
+  71     Call to deprecated method url() of class Drupal.  
+  72     Call to deprecated method url() of class Drupal.  
+  192    Call to deprecated method url() of class Drupal.  
+  207    Call to deprecated function entity_view().        
+  246    Call to deprecated function entity_view().        
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GiveController.php                  
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Form/Donation/DonationEditForm.php     
+ ------ ------------------------------------------- 
+  88     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Donation/PaymentForm.php                  
+ ------ --------------------------------------------------- 
+  420    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GiveForm/GiveFormEditForm.php             
+ ------ --------------------------------------------------- 
+  365    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  367    Call to deprecated function drupal_set_message().  
+  371    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Form/GiveForm/GiveFormListBuilder.php  
+ ------ ------------------------------------------- 
+  29     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GiveForm/GiveSettings.php                 
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MailHandler.php                                
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/ProblemLog.php                        
+ ------ ------------------------------------------ 
+  78     Call to deprecated function db_query().   
+  90     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/src/Kernel/GiveFormAndDonationEntityTest.php               
+ ------ ----------------------------------------------------------------- 
+  106    Call to deprecated method setRecurrenceIntervalCount() of class  
+         Drupal\giventity\Donation.                                     
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/MailHandlerTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  71     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  264    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  301    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  327    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  331    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  359    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 29 errors                                                         
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/generator_ui 37c41c096d90e7cd563335f41c6cd4008f2c2679
+source : http://cgit.drupalcode.org/generator_ui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Generator.php                             
+ ------ --------------------------------------------------- 
+  510    Call to deprecated function drupal_set_message().  
+  513    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   templates/src/EventSubscriber/DefaultSubscriber.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	estmoduleventSubscriber\DefaultSubscriber was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   templates/src/EventSubscriber/ServiceSubscriber.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	estmoduleventSubscriber\ServiceSubscriber was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

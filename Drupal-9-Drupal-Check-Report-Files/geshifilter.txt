@@ -1,0 +1,208 @@
+drupal-check results on commit hash: 
+ descrip. : Provides a filter to highlight source code using the GeSHi library (Generic Syntax Highlighter).
+source   : [git] https://git.drupal.org/project/geshifilter c2ea6c1c947b8accc5ef08b905ffe93fdef444b8
+source : http://cgit.drupalcode.org/geshifilter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   geshifield/src/Plugin/Field/FieldFormatter/GeshiFieldDefaultFormatter.php  
+ ------ --------------------------------------------------------------------------- 
+  32     Call to deprecated function drupal_render().                               
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   geshifield/tests/src/Functional/GeshiFieldTest.php  
+ ------ ---------------------------------------------------- 
+  105    Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GeshiFilterLanguagesForm.php              
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/GeshiFilterSettingsForm.php                               
+ ------ ------------------------------------------------------------------- 
+  56     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  57     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  92     Call to deprecated method l() of class Drupal.                     
+  136    Call to deprecated method l() of class Drupal.                     
+  153    Call to deprecated method l() of class Drupal.                     
+  162    Call to deprecated method l() of class Drupal.                     
+  196    Call to deprecated method l() of class Drupal.                     
+  199    Call to deprecated method l() of class Drupal.                     
+  200    Call to deprecated method l() of class Drupal.                     
+  239    Call to deprecated method l() of class Drupal.                     
+  307    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/GeshiFilter.php                                            
+ ------ --------------------------------------------------------------- 
+  178    Call to deprecated method set_language_path() of class GeSHi.  
+  245    Call to deprecated method l() of class Drupal.                 
+  246    Call to deprecated method l() of class Drupal.                 
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/GeshiFilterCss.php                             
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/GeshiFilterProcess.php                                     
+ ------ --------------------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().              
+  97     Call to deprecated method checkPlain() of class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  97     Call to method checkPlain() of deprecated class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  116    Call to deprecated method checkPlain() of class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  116    Call to method checkPlain() of deprecated class                
+         Drupal\Component\Utility\SafeMarkup.                           
+  197    Call to deprecated method set_language_path() of class GeSHi.  
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Filter/GeshiFilterFilter.php            
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  196    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  196    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  197    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  197    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  199    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  199    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  203    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  203    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  204    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  204    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  206    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  206    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  210    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  210    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  211    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  211    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  213    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  213    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  217    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  217    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  218    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  218    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  220    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  220    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  223    Call to deprecated function drupal_set_message().  
+  224    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  224    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  225    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  225    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  374    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  374    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  377    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  377    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  934    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  934    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  949    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  949    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  999    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  999    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/GeshiFilterAdministrationTest.php   
+ ------ --------------------------------------------------------- 
+  98     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  106    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  158    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  171    Call to deprecated method assertFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  172    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/GeshiFilterCssTest.php       
+ ------ -------------------------------------------------- 
+  85     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  117    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  118    Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  150    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  151    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  182    Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  183    Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  203    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/GeshiFilterTest.php          
+ ------ -------------------------------------------------- 
+  127    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  173    Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  176    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  546    Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 83 errors                                                         
+
+ </code>

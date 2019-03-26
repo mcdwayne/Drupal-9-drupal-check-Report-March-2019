@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/module_builder 0c0c9ef0f922bcde2b4a5434bba223b8f340ab7e
+source : http://cgit.drupalcode.org/module_builder 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   module_builder_devel/src/Form/ProcessDevelForm.php  
+ ------ ---------------------------------------------------- 
+  91     Calls to function dpm should not exist.             
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   module_builder_devel/src/Form/ProcessFormExtra.php  
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ExceptionHandler.php                           
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function drupal_set_message().  
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ComponentFormBase.php                     
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  870    Call to deprecated function drupal_set_message().  
+  875    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ComponentGenerateForm.php                 
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+  208    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+  238    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/ModuleHooksForm.php                    
+ ------ ------------------------------------------------ 
+  71     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProcessForm.php                           
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function format_date().         
+  74     Call to deprecated function drupal_set_message().  
+  195    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

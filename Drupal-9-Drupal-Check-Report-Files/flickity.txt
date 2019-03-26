@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flickity aedc5d9e7e6958c37f851deb31401c3aab52bb98
+source : http://cgit.drupalcode.org/flickity 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   modules/views/theme/flickity_views.theme.inc  
+ ------ ---------------------------------------------- 
+  37     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlickityGroupDeleteForm.php               
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlickityGroupForm.php                     
+ ------ --------------------------------------------------- 
+  257    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  261    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   theme/flickity.theme.inc                      
+ ------ ---------------------------------------------- 
+  45     Call to deprecated function drupal_render().  
+  70     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

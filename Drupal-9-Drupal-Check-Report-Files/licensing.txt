@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/licensing dea6cb7d3fad105963e89d5e7d3caf0b870f09d2
+source : http://cgit.drupalcode.org/licensing 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LicenseForm.php                           
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LicenseTypeDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/LicenseTypeForm.php                                
+ ------ ------------------------------------------------------------ 
+  47     Call to deprecated method entityManager() of class Drupal.  
+  56     Call to deprecated method entityManager() of class Drupal.  
+  124    Call to deprecated function drupal_set_message().           
+  130    Call to deprecated function drupal_set_message().           
+  134    Call to deprecated method urlInfo() of class                
+         Drupal\CorentityntityInterface.                         
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/LicenseListBuilder.php                                           
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\licensing\LicenseListBuilder.                           
+  35     Call to deprecated method l() of class                               
+         Drupal\licensing\LicenseListBuilder.                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Condition/Licensing.php                                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal

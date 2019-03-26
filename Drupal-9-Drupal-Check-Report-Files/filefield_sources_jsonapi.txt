@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ name     : drupal/filefield_sources_jsonapi
+descrip. : JSON API remote file field source.
+source   : [git] https://git.drupal.org/project/filefield_sources_jsonapi e6772b7795bc5e086382106b9c8e436c3b3a5263
+names    : drupal/filefield_sources_jsonapi
+source : http://cgit.drupalcode.org/filefield_sources_jsonapi
+drupal/filefield_sources * 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileFieldSourcesJSONAPIDeleteForm.php     
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileFieldSourcesJSONAPIForm.php           
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FilefieldSource/RemoteJSONAPI.php       
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

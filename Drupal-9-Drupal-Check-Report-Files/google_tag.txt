@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_tag f1a1d0ed7ff5fcf5246d3b66e06e6a0d53679afb
+source : http://cgit.drupalcode.org/google_tag 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   google_tag.module                                                
+ ------ ----------------------------------------------------------------- 
+  79     Call to deprecated function file_stream_wrapper_valid_scheme().  
+  89     Call to deprecated function drupal_mkdir().                      
+  96     Call to deprecated function drupal_chmod().                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/ContainerController.php                  
+ ------ --------------------------------------------- 
+  62     Call to deprecated method url() of class     
+         Drupal\Core\Configntity\ConfigEntityBase.  
+  76     Call to deprecated method url() of class     
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Container.php                           
+ ------ --------------------------------------------------- 
+  381    Call to deprecated function drupal_set_message().  
+  413    Call to deprecated function drupal_set_message().  
+  414    Call to deprecated function drupal_set_message().  
+  431    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  444    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  448    Call to deprecated function drupal_set_message().  
+  476    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/ContainerManager.php                    
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/ContainerForm.php                
+ ------ ------------------------------------------ 
+  388    Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                         
+ ------ -------------------------------------------------- 
+  35     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

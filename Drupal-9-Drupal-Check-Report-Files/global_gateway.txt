@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/global_gateway ddaf1467dc233adfa3bbfd38bb1d4e47aa745f53
+source : http://cgit.drupalcode.org/global_gateway 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/global_gateway_address/src/Plugin/Field/FieldType/AddressItem.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupalddress\Plugin\Field\FieldType\AddressItem not found and      
+         could not be autoloaded.                                                   
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/global_gateway_address/src/Plugin/Field/FieldType/CountryItem.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupalddress\Plugin\Field\FieldType\CountryItem not found and      
+         could not be autoloaded.                                                   
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   modules/global_gateway_country/src/Form/RegionNegotiationByUserFieldConfigForm.php  
+ ------ ------------------------------------------------------------------------------------ 
+  77     Call to deprecated function drupal_set_message().                                   
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/global_gateway_country/src/Plugin/Field/FieldType/CountryItem.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupal

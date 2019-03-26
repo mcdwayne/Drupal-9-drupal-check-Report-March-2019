@@ -1,0 +1,110 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jsonapi fb7bf82c7acec2a2576bc01c2b51374593155d02
+source : http://cgit.drupalcode.org/jsonapi 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/JsonApiResource/ResourceObject.php                 
+ ------ ------------------------------------------------------- 
+  287    Call to deprecated method hasLabelCallback() of class  
+         Drupal\CorentityntityTypeInterface.                
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/JsonApiFunctionalTest.php              
+ ------ ------------------------------------------------------------ 
+  274    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  567    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  590    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  601    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  612    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  628    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  636    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  649    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  665    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  681    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  705    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  725    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  743    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  751    Call to deprecated method entityManager() of class Drupal.  
+  767    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  786    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  794    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  815    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  837    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  866    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  878    Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/JsonApiRegressionTest.php    
+ ------ -------------------------------------------------- 
+  73     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  137    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  184    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  224    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  286    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  325    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  411    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  472    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  566    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  640    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  692    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  760    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  804    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  849    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  890    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   tests/src/Functional/ResourceTestBase.php   
+ ------ -------------------------------------------- 
+  2328   Call to deprecated function entity_load().  
+  2875   Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Controller/EntityResourceTest.php                 
+ ------ ------------------------------------------------------------------- 
+  425    Call to deprecated function entity_load_multiple_by_properties().  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 40 errors                                                         
+
+ </code>

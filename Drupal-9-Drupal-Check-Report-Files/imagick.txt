@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/imagick 92423defbfa95230d984a568a829b071372b20e7
+source : http://cgit.drupalcode.org/imagick 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/ImageToolkit/ImagickToolkit.php      
+ ------ ------------------------------------------------ 
+  135    Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/ImageToolkit/Operation/imagick/Composite.php  
+ ------ --------------------------------------------------------- 
+  52     Call to deprecated function drupal_realpath().           
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

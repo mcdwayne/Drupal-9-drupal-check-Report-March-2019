@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/layout 20712a3800651973a3067212dfe5d42627133f3d
+source : http://cgit.drupalcode.org/layout 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/rlayout/Plugin/Derivative/Layout.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupallayout\Plugin\Derivative\Layout was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   lib/Drupal/rlayout/Plugin/layout/layout/ResponsiveLayout.php        
+ ------ -------------------------------------------------------------------- 
+         Class Drupallayout\Plugin\layout\layout\ResponsiveLayout was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/rlayout/RLayout.php                                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupallayout\RLayout was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/rlayout/RLayoutFormController.php                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupallayout\RLayoutFormController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   rlayout.admin.inc                                  
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function entity_create().       
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   rlayout.module                                       
+ ------ ----------------------------------------------------- 
+  115    Call to deprecated function entity_load().           
+  125    Call to deprecated function entity_load_multiple().  
+  136    Call to deprecated function entity_load().           
+  167    Call to deprecated function entity_load_multiple().  
+  237    Call to deprecated function entity_load().           
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

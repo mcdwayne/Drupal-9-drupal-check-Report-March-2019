@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mail_redirect b08197ed6c99128d8a1d994fd552f35b0cb272d5
+source : http://cgit.drupalcode.org/mail_redirect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mail_redirect.module                               
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/MailRedirectAdminSettings.php              
+ ------ ---------------------------------------------------- 
+  124    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

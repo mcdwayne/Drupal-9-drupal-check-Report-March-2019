@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/generate_errors 6f2daa09ba8eaf1067472a8c45a6b74660055fd1
+source : http://cgit.drupalcode.org/generate_errors 
+ 
+ <code> 
+
+ ------ ---------------------------------------- 
+  Line   generate_errors.parse.php               
+ ------ ---------------------------------------- 
+  8      Syntax error, unexpected EOF on line 8  
+ ------ ---------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TriggerForm.php                                    
+ ------ ------------------------------------------------------------ 
+  197    Call to deprecated function drupal_set_message().           
+  206    Call to deprecated function drupal_set_message().           
+  219    Call to deprecated function drupal_set_message().           
+  230    Call to deprecated function drupal_set_message().           
+  240    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated method entityManager() of class Drupal.  
+  285    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

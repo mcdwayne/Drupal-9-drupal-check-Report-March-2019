@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/imagecache_actions 9a1ad31250bb6eea17d9adb1036082f86a1af255
+source : http://cgit.drupalcode.org/imagecache_actions 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   autorotate/imagecache_autorotate.module            
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_realpath().     
+  184    Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   canvasactions/rounded_corners.inc                  
+ ------ --------------------------------------------------- 
+  17     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   image_effects_text/image_effects_text.inc          
+ ------ --------------------------------------------------- 
+  258    Call to deprecated function drupal_set_message().  
+  373    Call to deprecated function drupal_set_message().  
+  390    Call to deprecated function drupal_set_message().  
+  547    Call to deprecated function drupal_tempnam().      
+  554    Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   image_styles_admin/image_styles_admin.inc          
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().  
+  113    Call to deprecated function format_string().       
+  170    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   utility.inc                                        
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_realpath().     
+  185    Call to deprecated function file_load_multiple().  
+  198    Call to deprecated function entity_load().         
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   watermark.inc                                                           
+ ------ ------------------------------------------------------------------------ 
+         Class watermark was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

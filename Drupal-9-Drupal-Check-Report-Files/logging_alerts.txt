@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/logging_alerts cab7096420b6100b8ca9354552ef7dfc3f48ef41
+source : http://cgit.drupalcode.org/logging_alerts 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   emaillog/emaillog.module                         
+ ------ ------------------------------------------------- 
+  131    Call to deprecated function user_format_name().  
+  145    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   emaillog/src/Form/emaillogConfigForm.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalmaillog\FormmaillogConfigForm was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

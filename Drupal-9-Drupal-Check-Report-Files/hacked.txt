@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hacked 9f01f31e915adc173616e92996bb3126196a9ff3
+source : http://cgit.drupalcode.org/hacked 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   hacked.report.inc                                
+ ------ ------------------------------------------------- 
+  167    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  167    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/hackedProjectWebFilesDownloader.php      
+ ------ --------------------------------------------- 
+  119    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

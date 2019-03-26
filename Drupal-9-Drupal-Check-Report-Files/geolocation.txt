@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/geolocation aaa9f7466ef234d0debeba08473f2224572ab3a1
+source : http://git.drupal.org/project/geolocation.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Feeds/Target/Geolocation.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupaleeds\Plugin\Type\Target\FieldTargetBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Geocoder/Dumper/Geolocation.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\geocoder\DumperBase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Geocoder/Field/Geolocation.php                           
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\geocoder_field\Plugin\Geocoder\Field\DefaultField not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,144 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/maestro afd0f2ce24ad9db20657de636884a73821186312
+source : http://cgit.drupalcode.org/maestro 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   maestro.module                                     
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function entity_load().         
+  315    Call to deprecated function drupal_set_message().  
+  326    Call to deprecated function drupal_set_message().  
+  398    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  398    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  405    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  405    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  412    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  412    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  679    Call to deprecated function entity_load().         
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/examples/maestro_form_approval_example/maestro_form_approval_example.module  
+ ------ ------------------------------------------------------------------------------------- 
+  91     Call to deprecated function node_load().                                             
+  151    Call to deprecated function node_load().                                             
+  152    Call to deprecated function user_load().                                             
+  153    Call to deprecated method getUsername() of class                                     
+         Drupal\Core\Session\AccountInterface.                                                
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/maestro_taskconsole/src/Controller/MaestroTaskConsoleController.php  
+ ------ ----------------------------------------------------------------------------- 
+  289    Call to deprecated function drupal_render().                                 
+  296    Call to deprecated function drupal_render().                                 
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/maestro_template_builder/src/Form/MaestroTemplateBuilderEditTask.php  
+ ------ ------------------------------------------------------------------------------ 
+  72     Call to deprecated function drupal_set_message().                             
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/maestro_webform/src/Plugin/EngineTasks/MaestroWebformTask.php  
+ ------ ----------------------------------------------------------------------- 
+  174    Call to deprecated function drupal_set_message().                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/maestro_webform/src/Plugin/WebformHandler/MaestroWebformHandler.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Drupal\webform\Plugin\WebformHandlerBase not found and could not       
+         be autoloaded.                                                               
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/maestro_webform/tests/src/Functional/LoadTest.php  
+ ------ ----------------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/MaestroOrchestrator.php             
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/MaestroTemplateListBuilder.php  
+ ------ ----------------------------------------------- 
+  54     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Engine/MaestroEngine.php                                
+ ------ ------------------------------------------------------------ 
+  534    Call to deprecated method entityManager() of class Drupal.  
+  535    Call to deprecated function user_load().                    
+  1111   Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MaestroReassign.php                       
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  159    Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MaestroTemplateDeleteForm.php             
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MaestroTemplateFormBase.php               
+ ------ --------------------------------------------------- 
+  469    Call to deprecated function drupal_set_message().  
+  479    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MaestroTrace.php                          
+ ------ --------------------------------------------------- 
+  68     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  217    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MaestroTraceDeleteProcess.php             
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/MaestroRulesActionSpawnWorkflow.php          
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/views/field/MaestroEngineProcessInitiator.php  
+ ------ ---------------------------------------------------------- 
+  70     Call to deprecated function user_load().                  
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 37 errors                                                         
+
+ </code>

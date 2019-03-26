@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_export d473fdbbac980b5435235f53dc2f1f5205e621af
+source : http://cgit.drupalcode.org/menu_export 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuExportForm.php                        
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuImportForm.php                        
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/MenuExportConfigurationFormTest.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\menu_export\Functional\Form\MenuExportConfigurationFormTes  
+         t was not found while trying to analyse it - autoloading is probably     
+         not configured properly.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

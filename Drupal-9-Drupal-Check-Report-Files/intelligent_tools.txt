@@ -1,0 +1,78 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/intelligent_tools 19864cf9ab6119a9c343c43564c6e892e2fe452d
+source : http://cgit.drupalcode.org/intelligent_tools 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/intelligent_tools_duplicate_rate/intelligent_tools_duplicate_rate.module  
+ ------ ---------------------------------------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/IntelliController1.php     
+ ------ ------------------------------------------ 
+  71     Call to deprecated method url() of class  
+         Drupal\Core\Controller\ControllerBase.    
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/IntelliController2.php     
+ ------ ------------------------------------------ 
+  63     Call to deprecated method url() of class  
+         Drupal\Core\Controller\ControllerBase.    
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/IntelliController3.php     
+ ------ ------------------------------------------ 
+  63     Call to deprecated method url() of class  
+         Drupal\Core\Controller\ControllerBase.    
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AutoTagAddForm.php                                 
+ ------ ------------------------------------------------------------ 
+  60     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AutoTagEditForm.php                                
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/DuplicateRateAddForm.php                           
+ ------ ------------------------------------------------------------ 
+  60     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/DuplicateRateEditForm.php                          
+ ------ ------------------------------------------------------------ 
+  52     Call to deprecated method entityManager() of class Drupal.  
+  118    Call to deprecated method entityManager() of class Drupal.  
+  137    Call to deprecated function entity_get_form_display().      
+  142    Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TextSummarizeAddForm.php                           
+ ------ ------------------------------------------------------------ 
+  60     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TextSummarizeEditForm.php                          
+ ------ ------------------------------------------------------------ 
+  52     Call to deprecated method entityManager() of class Drupal.  
+  118    Call to deprecated method entityManager() of class Drupal.  
+  137    Call to deprecated function entity_get_form_display().      
+  142    Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

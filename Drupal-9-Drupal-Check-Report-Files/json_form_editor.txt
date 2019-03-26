@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/json_form_editor bbcb942bd53c60c715d176fbfd5c41ceced43968
+source : http://cgit.drupalcode.org/json_form_editor 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/JSONFormEditorWidget.php  
+ ------ ------------------------------------------------------- 
+  78     Call to deprecated method strlen() of class            
+         Drupal\Component\Utility\Unicode.                      
+  92     Call to deprecated method strlen() of class            
+         Drupal\Component\Utility\Unicode.                      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

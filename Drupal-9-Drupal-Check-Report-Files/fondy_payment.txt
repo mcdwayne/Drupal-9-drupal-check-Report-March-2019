@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fondy_payment 00cd202cd295c95f86fb83fb427995f63b735182
+source : http://cgit.drupalcode.org/fondy_payment 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/FondyController.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal_payment\PaymentMethodPluginBase not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Ubercart/PaymentMethod/Fondy.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal_payment\PaymentMethodPluginBase not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

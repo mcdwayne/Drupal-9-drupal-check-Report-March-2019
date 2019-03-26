@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/log_entity 573a9f9b0623d6d2bba88dc44616e0b6c3efcb51
+source : http://cgit.drupalcode.org/log_entity 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/log_entity_login_attempts/tests/src/Functional/LoginAttemptEventTest.php  
+ ------ ---------------------------------------------------------------------------------- 
+  48     Call to deprecated method getUsername() of class                                  
+         Drupal\userntity\User.                                                          
+ ------ ---------------------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

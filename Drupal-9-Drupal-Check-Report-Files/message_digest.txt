@@ -1,0 +1,65 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message_digest 022e5b255bba2cce8a0f81889886853ad8f88c6f
+source : http://cgit.drupalcode.org/message_digest 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   message_digest.behat.inc                                                
+ ------ ------------------------------------------------------------------------ 
+         Class MessageDigestSubContext was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   message_digest.module                                    
+ ------ --------------------------------------------------------- 
+  25     Call to deprecated method cleanupOldMessages() of class  
+         Drupal\message_digest\DigestManagerInterface.            
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   message_digest_ui/tests/src/Kernel/DigestActionsTest.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\message_subscribe_email\Kernel\MessageSubscribeEmailTestBa  
+         se not found and could not be autoloaded.                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   message_digest_ui/tests/src/Kernel/MessageDigestUiTest.php               
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\message_subscribe_email\Kernel\MessageSubscribeEmailTestBa  
+         se not found and could not be autoloaded.                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageDigestIntervalDeleteForm.php       
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MessageDigestIntervalForm.php             
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/DigestTestBase.php                                     
+ ------ ------------------------------------------------------------------------ 
+  17     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\message_digest\Kernel\DigestTestBase.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Kernel/MessageDigestTest.php                   
+ ------ --------------------------------------------------------- 
+  311    Call to deprecated method cleanupOldMessages() of class  
+         Drupal\message_digest\DigestManagerInterface.            
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

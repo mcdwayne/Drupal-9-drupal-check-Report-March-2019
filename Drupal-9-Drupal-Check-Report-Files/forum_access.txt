@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/forum_access 35abd218e24347018102c670c7a68c3b176b4af6
+source : https://cgit.drupalcode.org/forum_access 
+ 
+ <code> 
+
+ ------ --------------------------------------- 
+  Line   forum_access.module                    
+ ------ --------------------------------------- 
+  443    Call to deprecated function db_or().   
+  445    Call to deprecated function db_and().  
+ ------ --------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   forum_access_migrate/src/Plugin/migrate/destination/ForumAccess.php   
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\migrate_plus\Plugin\migrate\destination\Table not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   includes/forum_access.admin.inc                             
+ ------ ------------------------------------------------------------ 
+  95     Call to deprecated method entityManager() of class Drupal.  
+  119    Call to deprecated method entityManager() of class Drupal.  
+  138    Call to deprecated function drupal_set_message().           
+  142    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

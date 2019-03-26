@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/japan_postal_code fdbc126c682d74728f3a72d7db90c3160020d5ce
+source : http://cgit.drupalcode.org/japan_postal_code 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   japan_postal_code.module                           
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function db_transaction().      
+  129    Call to deprecated function drupal_tempnam().      
+  131    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated function drupal_set_message().  
+  147    Call to deprecated function drupal_set_message().  
+  152    Call to deprecated function drupal_set_message().  
+  159    Call to deprecated function drupal_set_message().  
+  168    Call to deprecated function drupal_set_message().  
+  194    Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function drupal_set_message().  
+  340    Call to deprecated function db_insert().           
+  390    Call to deprecated function db_select().           
+  428    Call to deprecated function db_select().           
+  467    Call to deprecated function db_select().           
+  479    Call to deprecated function db_truncate().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                            
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/JapanPostalCodeFunctionalTest.php  
+ ------ -------------------------------------------------------- 
+  56     Call to deprecated method assertEqual() of class        
+         Drupal\Tests\BrowserTestBase.                           
+  61     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  62     Call to deprecated method assertRaw() of class          
+         Drupal\Tests\BrowserTestBase.                           
+  63     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  69     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  86     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  87     Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  88     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  89     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  93     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 27 errors                                                         
+
+ </code>

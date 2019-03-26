@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailchimp_ecommerce d1074927644bc4e09acabdaf4c0a840f32532281
+source : http://cgit.drupalcode.org/mailchimp_ecommerce 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mailchimp_ecommerce.module                         
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/mailchimp_ecommerce_commerce/src/MailchimpEcommerceCommerceTestCase.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class Drupal\mailchimp_ecommerce_commerce\DrupalWebTestCase not found            
+         and could not be autoloaded.                                                     
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/mailchimp_ecommerce_commerce/src/Plugin/Commerce/CheckoutPane/ContactSubscription.php  
+ ------ ----------------------------------------------------------------------------------------------- 
+         Class                                                                                          
+         Drupal

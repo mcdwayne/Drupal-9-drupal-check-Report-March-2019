@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_image_sitemap 6575aa988d8cdc65764945ea32aacd8919bac8ee
+source : http://cgit.drupalcode.org/google_image_sitemap 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GISController.php                   
+ ------ --------------------------------------------------- 
+  150    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GoogleImageSitemapDeleteConfirmForm.php   
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().  
+  88     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

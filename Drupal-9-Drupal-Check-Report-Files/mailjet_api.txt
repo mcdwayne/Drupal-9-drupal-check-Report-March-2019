@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailjet_api a3ca068131a7a5cd3c5a6c0fd60d463d1b79aec5
+source : http://cgit.drupalcode.org/mailjet_api 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailjetApiAdminSettingsForm.php           
+ ------ --------------------------------------------------- 
+  222    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MailjetApiTestEmailForm.php               
+ ------ --------------------------------------------------- 
+  230    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MailjetApiHandler.php                          
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/Mail/MailjetApiMail.php           
+ ------ --------------------------------------------- 
+  156    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  157    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_sql_subrow c4640af9f9333e9f68f33d2480517718b1c9062e
+source : https://cgit.drupalcode.org/migrate_sql_subrow 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/migrate/process/SubRowMigration.php                          
+ ------ ------------------------------------------------------------------------ 
+  28     Class Drupal\migrate_sql_subrow\Plugin\migrate\process\SubRowMigration  
+         extends deprecated class                                                
+         Drupal\migrate\Plugin\migrate\process\Migration.                        
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/microspid 8.x-1.0-beta7
+source : http://cgit.drupalcode.org/microspid 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SpidPaswController.php              
+ ------ --------------------------------------------------- 
+  200    Call to deprecated function drupal_set_message().  
+  210    Call to deprecated function drupal_set_message().  
+  267    Call to deprecated function drupal_set_message().  
+  282    Call to deprecated function drupal_set_message().  
+  303    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CreateCertForm.php                        
+ ------ --------------------------------------------------- 
+  236    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/SyncingSettingsForm.php                            
+ ------ ------------------------------------------------------------ 
+  47     Call to deprecated method entityManager() of class Drupal.  
+  92     Call to deprecated method entityManager() of class Drupal.  
+  111    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Block/SpidPaswBlock.php                
+ ------ -------------------------------------------------- 
+  84     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/MicrospidDrupalAuth.php                
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function drupal_set_message().  
+  234    Call to deprecated function drupal_set_message().  
+  244    Call to deprecated function drupal_set_message().  
+  256    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/SpidPaswManager.php                    
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  297    Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  322    Call to deprecated function drupal_set_message().  
+  329    Call to deprecated function drupal_set_message().  
+  386    Call to deprecated function drupal_set_message().  
+  393    Call to deprecated function drupal_set_message().  
+  550    Call to deprecated function drupal_set_message().  
+  564    Call to deprecated function drupal_set_message().  
+  582    Call to deprecated function drupal_set_message().  
+  616    Call to deprecated function drupal_set_message().  
+  665    Call to deprecated function drupal_set_message().  
+  682    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/list_formatter 4a83d445d75c1ecc5566a5407733c3c106177c09
+source : http://cgit.drupalcode.org/list_formatter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tests/OutputTest.php                           
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function entity_get_display().  
+  89     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tests/TestBase.php                             
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

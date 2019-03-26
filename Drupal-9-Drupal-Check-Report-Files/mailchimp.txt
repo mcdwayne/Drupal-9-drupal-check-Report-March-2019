@@ -1,0 +1,217 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailchimp 4138c099ecbdaeef43f506572abcab146c3f4e6a
+source : http://cgit.drupalcode.org/mailchimp 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/MailchimpAutomationsTest.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpAutomationsTest was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/MailchimpCampaignsTest.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpCampaignsTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/MailchimpEcommerceTest.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpEcommerceTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/mailchimp-api-php/tests/MailchimpListsTest.php                      
+ ------ ------------------------------------------------------------------------ 
+         Class Mailchimp\Tests\MailchimpListsTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/MailchimpReportsTest.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpReportsTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/MailchimpTemplatesTest.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpTemplatesTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/MailchimpTest.php                      
+ ------ ------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/src/MailchimpAutomations.php               
+ ------ ----------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpAutomations was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/mailchimp-api-php/tests/src/MailchimpEcommerce.php                  
+ ------ ------------------------------------------------------------------------ 
+         Class Mailchimp\Tests\MailchimpEcommerce was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/mailchimp-api-php/tests/src/MailchimpReports.php                  
+ ------ ---------------------------------------------------------------------- 
+         Class Mailchimp\Tests\MailchimpReports was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/mailchimp-api-php/tests/src/MailchimpTemplates.php                  
+ ------ ------------------------------------------------------------------------ 
+         Class Mailchimp\Tests\MailchimpTemplates was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   mailchimp.module                                   
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  477    Call to deprecated function drupal_set_message().  
+  600    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/mailchimp_campaign/mailchimp_campaign.module  
+ ------ ------------------------------------------------------ 
+  133    Call to deprecated function drupal_set_message().     
+  155    Call to deprecated function drupal_set_message().     
+  164    Call to deprecated function drupal_set_message().     
+  213    Call to deprecated function drupal_set_message().     
+  243    Call to deprecated function drupal_set_message().     
+  395    Call to deprecated function drupal_set_message().     
+  411    Call to deprecated function drupal_set_message().     
+  447    Call to deprecated function drupal_set_message().     
+  478    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/mailchimp_campaign/src/Controller/MailchimpCampaignController.php  
+ ------ --------------------------------------------------------------------------- 
+  281    Call to deprecated function entity_load_multiple().                        
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/mailchimp_campaign/src/Entity/MailchimpCampaign.php  
+ ------ ------------------------------------------------------------- 
+  132    Call to deprecated method entityManager() of class           
+         Drupal\Corentityntity.                                   
+  136    Call to deprecated method entityManager() of class           
+         Drupal\Corentityntity.                                   
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/mailchimp_campaign/src/Entity/MailchimpCampaignViewBuilder.php  
+ ------ ------------------------------------------------------------------------ 
+  35     Call to deprecated function drupal_set_message().                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/mailchimp_campaign/src/Form/MailchimpCampaignDeleteForm.php  
+ ------ --------------------------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/mailchimp_campaign/src/Form/MailchimpCampaignForm.php  
+ ------ --------------------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/mailchimp_campaign/src/Form/MailchimpCampaignSendForm.php  
+ ------ ------------------------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/mailchimp_campaign/src/Plugin/Filter/FilterMailchimpCampaign.php  
+ ------ -------------------------------------------------------------------------- 
+  58     Call to deprecated method entityManager() of class Drupal.                
+  61     Call to deprecated method entityManager() of class Drupal.                
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/mailchimp_lists/mailchimp_lists.module      
+ ------ ---------------------------------------------------- 
+  113    Call to deprecated function valid_email_address().  
+  189    Call to deprecated function drupal_set_message().   
+  524    Call to deprecated function drupal_set_message().   
+  532    Call to deprecated function drupal_set_message().   
+  540    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/mailchimp_lists/src/Controller/MailchimpFieldsController.php  
+ ------ ---------------------------------------------------------------------- 
+  42     Call to deprecated method entityManager() of class Drupal.            
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/mailchimp_lists/src/Form/MailchimpListsClearCacheForm.php  
+ ------ ------------------------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/mailchimp_lists/src/Form/MailchimpListsUpdateMergevarsForm.php  
+ ------ ------------------------------------------------------------------------ 
+  64     Call to deprecated function drupal_set_message().                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/mailchimp_lists/src/Form/MailchimpListsWebhookSettingsForm.php  
+ ------ ------------------------------------------------------------------------ 
+  114    Call to deprecated function drupal_set_message().                       
+  121    Call to deprecated function drupal_set_message().                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/mailchimp_lists/src/Plugin/Field/FieldType/MailchimpListsSubscription.php  
+ ------ ----------------------------------------------------------------------------------- 
+  105    Call to deprecated method entityManager() of class Drupal.                         
+  109    Call to deprecated method entityManager() of class Drupal.                         
+  166    Call to deprecated function drupal_set_message().                                  
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/mailchimp_signup/src/Controller/MailchimpSignupListBuilder.php  
+ ------ ------------------------------------------------------------------------ 
+  87     Call to deprecated method getLabel() of class                           
+         Drupal\CorentityntityListBuilder.                                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/mailchimp_signup/src/Form/MailchimpSignupDeleteForm.php  
+ ------ ----------------------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/mailchimp_signup/src/Form/MailchimpSignupPageForm.php  
+ ------ --------------------------------------------------------------- 
+  228    Call to deprecated function drupal_set_message().              
+  238    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 49 errors                                                         
+
+ </code>

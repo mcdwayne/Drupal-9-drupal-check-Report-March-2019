@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/integration 334c976b5b379fc8827c2d679c82a95b4b94ca79
+source : https://cgit.drupalcode.org/integration 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/integration_migrate/tests/src/Kernel/MigrateDocumentEntityTest.php  
+ ------ ---------------------------------------------------------------------------- 
+  27     Usage of deprecated trait                                                   
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class        
+         Drupal\Tests\integration_migrate\Kernel\MigrateDocumentEntityTest.          
+ ------ ---------------------------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

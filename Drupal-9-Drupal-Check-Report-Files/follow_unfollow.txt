@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/follow_unfollow 545b48673eb808940ddd46e744a3f87ad0c75e28
+source : http://cgit.drupalcode.org/follow_unfollow 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   follow_unfollow.module                       
+ ------ --------------------------------------------- 
+  45     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  45     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  46     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  46     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  54     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  54     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  55     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  55     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/FollowUnfollowSendMail.php                    
+ ------ -------------------------------------------------- 
+  108    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/FollowUnfollowForm.php                             
+ ------ ------------------------------------------------------------ 
+  242    Call to deprecated method entityManager() of class Drupal.  
+  246    Call to deprecated method entityManager() of class Drupal.  
+  250    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/htmLawed 8.x-3.6
+source : http://cgit.drupalcode.org/htmlawed 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   htmlawed.module                                 
+ ------ ------------------------------------------------ 
+  33     Call to deprecated method l() of class Drupal.  
+  33     Call to deprecated method l() of class Drupal.  
+  33     Call to deprecated method l() of class Drupal.  
+  33     Call to deprecated method l() of class Drupal.  
+  35     Call to deprecated method l() of class Drupal.  
+  36     Call to deprecated method l() of class Drupal.  
+  40     Call to deprecated method l() of class Drupal.  
+  41     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Filter/Filterhtmlawed.php            
+ ------ ------------------------------------------------ 
+  132    Call to deprecated method l() of class Drupal.  
+  132    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

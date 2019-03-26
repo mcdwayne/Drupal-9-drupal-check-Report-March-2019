@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/loggable 058c2f42080bf79fc5a4192eb8584c0254f01344
+source : http://cgit.drupalcode.org/loggable 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoggableFilterDeleteForm.php              
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoggableFilterForm.php                    
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Logger/Loggable.php                      
+ ------ --------------------------------------------- 
+  159    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  164    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

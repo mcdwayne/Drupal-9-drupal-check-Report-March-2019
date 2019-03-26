@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_sitemap 66823f7af4ea941e506edb4df5321dc5c6ff8277
+source : http://cgit.drupalcode.org/media_sitemap 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   Tests/Controller/MediaSitemapBatchControllerTest.php                  
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\media_sitemap\Tests\MediaSitemapBatchControllerTest was  
+         not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   Tests/Controller/MediaSitemapControllerTest.php                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\media_sitemap\Tests\MediaSitemapControllerTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/MediaSitemapGenerator.php                      
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().  
+  109    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_report a3a067afa4c76d9a90f94728c8d499035048e3af
+source : http://cgit.drupalcode.org/field_report 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FieldReportController.php                    
+ ------ ------------------------------------------------------------ 
+  21     Call to deprecated method entityManager() of class Drupal.  
+  81     Call to deprecated method l() of class Drupal.              
+  88     Call to deprecated method l() of class Drupal.              
+  98     Call to deprecated method l() of class Drupal.              
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

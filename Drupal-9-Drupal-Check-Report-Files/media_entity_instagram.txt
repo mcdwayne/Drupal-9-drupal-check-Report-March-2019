@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_instagram e0c9acb48f6cc441e3746dd6563ea483239a6b79
+source : http://cgit.drupalcode.org/media_entity_instagram 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/InstagramEmbedFormatterTest.php                     
+ ------ ------------------------------------------------------------------------- 
+  15     Usage of deprecated trait                                                
+         Drupal\Tests\media\Functional\MediaFunctionalTestCreateMediaTypeTrait    
+         in class                                                                 
+         Drupal\Tests\media_entity_instagram\Functional\InstagramEmbedFormatterT  
+         est.                                                                     
+  80     Call to deprecated function entity_get_display().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ConstraintsTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

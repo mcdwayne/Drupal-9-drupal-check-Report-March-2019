@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/json_scanner_block 376251dcfc5aa286bedfbd2a1ed56ffc0d5ad19a
+source : http://cgit.drupalcode.org/json_scanner_block 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/DbStorage/DbActions.php               
+ ------ ------------------------------------------ 
+  34     Call to deprecated function db_insert().  
+  64     Call to deprecated function db_select().  
+  106    Call to deprecated function db_delete().  
+  125    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

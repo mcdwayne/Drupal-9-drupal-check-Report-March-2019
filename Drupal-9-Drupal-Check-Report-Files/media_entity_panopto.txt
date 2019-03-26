@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_panopto 5c61e1bb8db7de96a07feac92548e871c3dcabfd
+source : http://cgit.drupalcode.org/media_entity_panopto 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   src/PanoptoMetaData.php                                  
+ ------ --------------------------------------------------------- 
+         Class SoapClient not found and could not be autoloaded.  
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/PanoptoSessionManagementSoapClient.php               
+ ------ --------------------------------------------------------- 
+         Class SoapClient not found and could not be autoloaded.  
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/PanoptoEmbedFormatter.php           
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/Panopto.php                             
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

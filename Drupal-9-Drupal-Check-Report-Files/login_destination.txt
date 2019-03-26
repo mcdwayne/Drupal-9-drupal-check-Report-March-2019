@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/login_destination c311df035321429e69f96b492a00765d8f0303d5
+source : http://cgit.drupalcode.org/login_destination 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   login_destination.module                        
+ ------ ------------------------------------------------ 
+  27     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/Entity/LoginDestination.php              
+ ------ --------------------------------------------- 
+  308    Call to deprecated method strpos() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoginDestinationDeleteRuleForm.php        
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LoginDestinationRuleForm.php              
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  185    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/LoginDestinationManager.php                  
+ ------ ------------------------------------------------- 
+  98     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  135    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Functional/InstallTest.php            
+ ------ ------------------------------------------------ 
+  82     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/RedirectTest.php             
+ ------ -------------------------------------------------- 
+  204    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  242    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/LoginDestinationCreationTrait.php (in context of class Drupal\Tests\login_destination\Functional\RedirectTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  28     Call to deprecated method strtolower() of class                                                                                  
+         Drupal\Component\Utility\Unicode.                                                                                                
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

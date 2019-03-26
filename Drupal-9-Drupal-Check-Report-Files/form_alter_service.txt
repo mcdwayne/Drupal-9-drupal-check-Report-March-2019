@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/form_alter_service 22900e13b2a000e06a887b76f969986b21b52150
+source : http://cgit.drupalcode.org/form_alter_service 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/FormAlterCompilerPass.php                        
+ ------ ----------------------------------------------------- 
+  90     Call to deprecated method registerLoader() of class  
+         Doctrine\Common\Annotations\AnnotationRegistry.      
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

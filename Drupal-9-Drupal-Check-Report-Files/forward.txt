@@ -1,0 +1,57 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/forward d48fa8ca155fb2461d3e3c4d05762897618cc218
+source : http://cgit.drupalcode.org/forward 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ForwardForm.php                           
+ ------ --------------------------------------------------- 
+  604    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/DsField/ForwardForm.php                                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\DsFieldBase not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/DsField/ForwardFormTaxonomy.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalorward\Plugin\DsField\ForwardForm not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/DsField/ForwardFormUser.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalorward\Plugin\DsField\ForwardForm not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/DsField/ForwardLink.php                                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\DsFieldBase not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/DsField/ForwardLinkTaxonomy.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalorward\Plugin\DsField\ForwardLink not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/DsField/ForwardLinkUser.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalorward\Plugin\DsField\ForwardLink not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_processor f0ea3de5a1713111c598c5b8254538bd9a8c891b
+source : http://cgit.drupalcode.org/file_processor 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   file_processor.module                          
+ ------ ----------------------------------------------- 
+  25     Call to deprecated function file_load().       
+  97     Call to deprecated function db_query_range().  
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FileProcessorAdmin.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PrepareUninstallForm.php                  
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function db_update().           
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/file_processor/Image/gifsicleImageMin.php  
+ ------ ------------------------------------------------------ 
+  26     Call to deprecated function drupal_realpath().        
+ ------ ------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/file_processor/Image/jfifremoveImageMin.php  
+ ------ -------------------------------------------------------- 
+  26     Call to deprecated function drupal_realpath().          
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/file_processor/Image/jpegtranImageMin.php  
+ ------ ------------------------------------------------------ 
+  26     Call to deprecated function drupal_realpath().        
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/file_processor/Image/optipngImageMin.php  
+ ------ ----------------------------------------------------- 
+  25     Call to deprecated function drupal_realpath().       
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hierarchical_term_formatter 36bba932a43653ac589db72523bd15244229b4e5
+source : http://cgit.drupalcode.org/hierarchical_term_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   tests/src/Functional/HierarchicalTermFormatterErrorTest.php  
+ ------ ------------------------------------------------------------- 
+  82     Call to deprecated method assertResponse() of class          
+         Drupal\Tests\BrowserTestBase.                                
+  90     Call to deprecated method assertResponse() of class          
+         Drupal\Tests\BrowserTestBase.                                
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/HierarchicalTermFormatterTest.php  
+ ------ -------------------------------------------------------- 
+  120    Call to deprecated method assertRaw() of class          
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

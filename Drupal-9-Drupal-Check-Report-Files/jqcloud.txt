@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jqcloud 5a920cbce4b8a9ee008ba30911be682e58dafbb1
+source : http://cgit.drupalcode.org/jqcloud 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/JqcloudJavascriptTest.php               
+ ------ ----------------------------------------------------------------------- 
+  19     Class Drupal\Tests\jqcloud\FunctionalJavascript\JqcloudJavascriptTest  
+         extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                   
+  24     Usage of deprecated trait                                              
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class   
+         Drupal\Tests\jqcloud\FunctionalJavascript\JqcloudJavascriptTest.       
+  84     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+  93     Call to deprecated method strtolower() of class                        
+         Drupal\Component\Utility\Unicode.                                      
+  115    Call to deprecated method strtolower() of class                        
+         Drupal\Component\Utility\Unicode.                                      
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

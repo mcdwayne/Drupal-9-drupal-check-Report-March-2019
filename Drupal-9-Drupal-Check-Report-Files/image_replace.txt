@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_replace ee6f9e533d06ba5cf8d0abd322769be5aaab6ebb
+source : http://cgit.drupalcode.org/image_replace 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   image_replace.module                                 
+ ------ ----------------------------------------------------- 
+  28     Call to deprecated function db_select().             
+  47     Call to deprecated function db_insert().             
+  65     Call to deprecated function db_delete().             
+  136    Call to deprecated function drupal_set_message().    
+  137    Call to deprecated function drupal_set_message().    
+  258    Call to deprecated function entity_load_multiple().  
+  263    Call to deprecated method checkPlain() of class      
+         Drupal\Component\Utility\SafeMarkup.                 
+  263    Call to method checkPlain() of deprecated class      
+         Drupal\Component\Utility\SafeMarkup.                 
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tests/AdminTest.php                            
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function entity_get_display().  
+  52     Call to deprecated function entity_get_display().  
+  129    Call to deprecated function drupal_realpath().     
+  130    Call to deprecated function drupal_realpath().     
+  147    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  147    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  161    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  161    Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  161    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  161    Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tests/EntityTest.php                           
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function entity_get_display().  
+  61     Call to deprecated function entity_get_display().  
+  95     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  95     Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  95     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  95     Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+  109    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  109    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/ImageReplaceTestBase.php                      
+ ------ -------------------------------------------------------- 
+  54     Call to deprecated function entity_get_form_display().  
+  61     Call to deprecated function entity_get_display().       
+  104    Call to deprecated function drupal_basename().          
+  115    Call to deprecated function drupal_basename().          
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 30 errors                                                         
+
+ </code>

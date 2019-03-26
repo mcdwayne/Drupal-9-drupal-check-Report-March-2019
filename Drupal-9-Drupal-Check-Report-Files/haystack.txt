@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/haystack f86e6174d494aee44da79cdd3160cc8ac6243dd7
+source : http://cgit.drupalcode.org/haystack 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HaystackSettings.php                      
+ ------ --------------------------------------------------- 
+  404    Call to deprecated function drupal_set_message().  
+  426    Call to deprecated function drupal_set_message().  
+  527    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/HaystackCore.php                               
+ ------ --------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

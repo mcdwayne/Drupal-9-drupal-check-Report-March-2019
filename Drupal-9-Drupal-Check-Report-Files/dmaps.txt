@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dmaps 98681f82f5dfeb7998b2578093c2490b5aeb9425
+source : http://cgit.drupalcode.org/dmaps 
+ 
+ <code> 
+
+ ------ ------------------------------------------- 
+  Line   files/supported_countries/location.au.inc  
+ ------ ------------------------------------------- 
+  16     Call to deprecated function db_query().    
+  56     Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   files/supported_countries/location.ca.inc  
+ ------ ------------------------------------------- 
+  72     Call to deprecated function db_query().    
+  109    Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   files/supported_countries/location.de.inc  
+ ------ ------------------------------------------- 
+  292    Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   files/supported_countries/location.no.inc  
+ ------ ------------------------------------------- 
+  43     Call to deprecated function db_query().    
+  80     Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   files/supported_countries/location.nz.inc  
+ ------ ------------------------------------------- 
+  123    Call to deprecated function db_query().    
+  154    Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   files/supported_countries/location.us.inc  
+ ------ ------------------------------------------- 
+  29     Call to deprecated function db_query().    
+  69     Call to deprecated function db_query().    
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Breadcrumb/AdminPagesGeocoderBreadcrumbBuilder.php               
+ ------ --------------------------------------------------------------------- 
+  22     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\dmaps\Breadcrumb\AdminPagesGeocoderBreadcrumbBuilder.   
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DmapsUtilForm.php                         
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

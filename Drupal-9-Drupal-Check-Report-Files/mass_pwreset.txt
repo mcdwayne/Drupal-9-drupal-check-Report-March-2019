@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mass_pwreset bf99513ff560c8e5856986f540a5f4dca306a29f
+source : http://cgit.drupalcode.org/mass_pwreset 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   mass_pwreset.batch.inc                             
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   mass_pwreset.module                          
+ ------ --------------------------------------------- 
+  168    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

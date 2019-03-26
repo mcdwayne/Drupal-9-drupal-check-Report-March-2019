@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/handy_cache_tags 1f1271e9dedfc27b1b41405a92bca48e8572922e
+source : http://cgit.drupalcode.org/handy_cache_tags 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/src/Unit/TagNamesTest.php                                  
+ ------ ----------------------------------------------------------------- 
+  34     Call to deprecated function handy_cache_tags_get_entity_tags().  
+  35     Call to deprecated function handy_cache_tags_get_tag().          
+  36     Call to deprecated function                                      
+         handy_cache_tags_get_bundle_tag_from_entity().                   
+  37     Call to deprecated function handy_cache_tags_get_bundle_tag().   
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

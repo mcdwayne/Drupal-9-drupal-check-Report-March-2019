@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graph_reference d501a3b8f50445cf07c31a960762ce79bc5bf13a
+source : http://cgit.drupalcode.org/graph_reference 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GraphDeleteForm.php                       
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GraphForm.php                             
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

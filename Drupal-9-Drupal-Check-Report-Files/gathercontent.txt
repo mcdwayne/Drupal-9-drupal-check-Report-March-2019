@@ -1,0 +1,84 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gathercontent 96d9f191a5480a708b9839e64ba16dc72fd90f01
+source : http://cgit.drupalcode.org/gathercontent 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   gathercontent.module                               
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   gathercontent_ui/src/Form/MappingDeleteForm.php    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   gathercontent_ui/src/Form/MappingEditForm.php      
+ ------ --------------------------------------------------- 
+  272    Call to deprecated function drupal_set_message().  
+  275    Call to deprecated function drupal_set_message().  
+  285    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   gathercontent_ui/src/Form/MappingImportForm.php             
+ ------ ------------------------------------------------------------ 
+  131    Call to deprecated function drupal_set_message().           
+  159    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   gathercontent_ui/src/Form/RemoveGatherContentLocalData.php  
+ ------ ------------------------------------------------------------ 
+  26     Call to deprecated function drupal_set_message().           
+  58     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   gathercontent_ui/src/MappingListBuilder.php      
+ ------ ------------------------------------------------- 
+  67     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  158    Call to deprecated method urlInfo() of class     
+         Drupal\CorentityntityInterface.              
+  165    Call to deprecated method urlInfo() of class     
+         Drupal\CorentityntityInterface.              
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   gathercontent_ui/src/Plugin/views/field/ContentLink.php               
+ ------ ---------------------------------------------------------------------- 
+  17     Class Drupal\gathercontent_ui\Pluginiewsield\ContentLink extends  
+         deprecated class Drupal
+ode\Pluginiewsield\Path.                 
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   gathercontent_ui/src/Plugin/views/field/GathercontentContentLink.php  
+ ------ ---------------------------------------------------------------------- 
+  19     Class                                                                 
+         Drupal\gathercontent_ui\Pluginiewsield\GathercontentContentLink   
+         extends deprecated class Drupal
+ode\Pluginiewsield\Path.         
+  25     Call to method init() of deprecated class                             
+         Drupal
+ode\Pluginiewsield\Path.                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                            
+ ------ --------------------------------------------------- 
+  159    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ivw_integration 03e2486b512e59bf6f542e9f2c2020eb20708290
+source : http://cgit.drupalcode.org/ivw_integration 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/IvwLookupServiceTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  53     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  54     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  62     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  64     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  65     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

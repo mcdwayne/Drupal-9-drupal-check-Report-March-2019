@@ -1,0 +1,92 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/maillog 14fd24cd89e299ad271608cd52706c60b753c26d
+source : http://cgit.drupalcode.org/maillog 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/MaillogController.php               
+ ------ --------------------------------------------------- 
+  65     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  65     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  70     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  70     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  75     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  75     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  84     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  84     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  84     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  84     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  92     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  92     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MaillogClearConfirmForm.php               
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MaillogSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Mail/Maillog.php                        
+ ------ --------------------------------------------------- 
+  47     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  87     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated method l() of class Drupal.     
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/views/field/MaillogFieldDelete.php          
+ ------ ------------------------------------------------------- 
+  35     Call to deprecated function drupal_get_destination().  
+  35     Call to deprecated method l() of class Drupal.         
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/Mail/MailUiTest.php                     
+ ------ -------------------------------------------------- 
+  113    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  117    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  128    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  145    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/MailTest.php                     
+ ------ -------------------------------------------------- 
+  55     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  56     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  93     Call to deprecated method substr() of class       
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/linky f9e9c861f8e9b2e0e759c26d6c0c0cc76086ba9f
+source : http://cgit.drupalcode.org/linky 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LinkyForm.php                             
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().  
+  30     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/LinkyListBuilder.php                                               
+ ------ ----------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in    
+         class Drupal\linky\LinkyListBuilder.                                   
+  31     Call to deprecated method l() of class Drupal\linky\LinkyListBuilder.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/DsField/LinkyTitle.php                                
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\Title not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Linkit/Matcher/LinkyMatcher.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\linkit\Plugin\Linkit\MatcherntityMatcher not found and  
+         could not be autoloaded.                                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/LinkyFunctionalTest.php             
+ ------ ------------------------------------------------------------------- 
+  18     Class Drupal\Tests\linky\FunctionalJavascript\LinkyFunctionalTest  
+         extends deprecated class                                           
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.               
+  92     Call to method setUp() of deprecated class                         
+         Drupal\Tests\BrowserTestBase.                                      
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

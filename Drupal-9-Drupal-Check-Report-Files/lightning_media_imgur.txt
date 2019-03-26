@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lightning_media_imgur 733d187d1d3ce2adba61638a9c7e917a79ba66d6
+source : http://cgit.drupalcode.org/lightning_media_imgur 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lightning_media_imgur.module                                             
+ ------ ------------------------------------------------------------------------- 
+  24     Class Drupal\media_entity_imgur\Plugin\MediaEntity\Type\Imgur not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/Imgur.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\media_entity_imgur\Plugin\MediaEntity\Type\Imgur not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_tokens d56389a1c3b521fc4d1d69b215f39a686c4c3e3c
+source : http://cgit.drupalcode.org/field_tokens 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/FieldTokensTestBase.php                                       
+ ------ ------------------------------------------------------------------------ 
+  10     Class Drupalield_tokens\Tests\FieldTokensTestBase extends deprecated  
+         class Drupal\image\Tests\ImageFieldTestBase.                            
+  37     Call to method setUp() of deprecated class                              
+         Drupal\image\Tests\ImageFieldTestBase.                                  
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

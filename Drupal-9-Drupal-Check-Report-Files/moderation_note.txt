@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/moderation_note 743b1191b5769d2a73e8827844375c9acffcea4b
+source : http://cgit.drupalcode.org/moderation_note 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/ModerationNoteDeleteForm.php               
+ ------ ---------------------------------------------------- 
+  180    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/ModerationNoteResolveForm.php              
+ ------ ---------------------------------------------------- 
+  201    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ModerationNoteTest.php                 
+ ------ ---------------------------------------------------------------------- 
+  15     Class                                                                 
+         Drupal\Tests\moderation_note\FunctionalJavascript\ModerationNoteTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+  26     Call to method setUp() of deprecated class                            
+         Drupal\Tests\BrowserTestBase.                                         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,57 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/adsense 93ea0a6416540821f931a67e6608435f2dd85923
+source : http://cgit.drupalcode.org/adsense 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   oldcode/revenue_sharing_basic/revenue_sharing_basic.admin.inc  
+ ------ --------------------------------------------------------------- 
+  115    Call to deprecated function node_type_get_types().             
+  149    Call to deprecated function drupal_render().                   
+  155    Call to deprecated function drupal_render_children().          
+  180    Call to deprecated function db_query().                        
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   oldcode/revenue_sharing_basic/revenue_sharing_basic.module  
+ ------ ------------------------------------------------------------ 
+  159    Call to deprecated method entityManager() of class Drupal.  
+  216    Call to deprecated method entityManager() of class Drupal.  
+  229    Call to deprecated function drupal_render().                
+  247    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   oldcode/revenue_sharing_basic/src/Form/RevenueSharingBasicSettings.php   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalevenue_sharing_basic\Form\RevenueSharingBasicSettings was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   oldcode/src/Form/AdsenseOldSearchSettings.php      
+ ------ --------------------------------------------------- 
+  262    Call to deprecated function drupal_set_message().  
+  266    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   oldcode/src/Plugin/AdsenseAd/OldCodeAd.php   
+ ------ --------------------------------------------- 
+  123    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  124    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  125    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  126    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  127    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

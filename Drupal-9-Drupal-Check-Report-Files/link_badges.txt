@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/link_badges 32defdc7cc3c475f9ea364a0147158786e983288
+source : http://cgit.drupalcode.org/link_badges 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   link_badges.module                               
+ ------ ------------------------------------------------- 
+  41     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  41     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  62     Call to deprecated function drupal_render().     
+  98     Call to deprecated function drupal_render().     
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/LinkBadge/ViewsBadge.php           
+ ------ ---------------------------------------------- 
+  26     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ name     : drupal/migrate_source_csv
+descrip. : CSV source migration.
+source   : [git] https://git.drupal.org/project/migrate_source_csv f9f7417a187217ea7164add0ad0d96543f5a902e
+names    : drupal/migrate_source_csv
+source : https://cgit.drupalcode.org/migrate_source_csv
+issues : https://www.drupal.org/project/issues/migrate_source_csv 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/Plugin/migrate/source/CSVTest.php                      
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests\migrate_source_csv\Unit\Plugin\migrate\source\CSVTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

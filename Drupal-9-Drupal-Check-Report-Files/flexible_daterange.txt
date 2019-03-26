@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flexible_daterange cd9bf4e0127213d061c6d645cf731d1f1a88054c
+source : http://cgit.drupalcode.org/flexible_daterange 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/FlexibleDateRangeFieldTest.php      
+ ------ --------------------------------------------------------- 
+  49     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  50     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  51     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  52     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  53     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  54     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  55     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  80     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  81     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  82     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  83     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  84     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  91     Call to deprecated function entity_get_display().        
+  117    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  118    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  119    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  120    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  121    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  122    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  123    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  149    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  151    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  152    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  153    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  154    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  162    Call to deprecated function entity_get_display().        
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

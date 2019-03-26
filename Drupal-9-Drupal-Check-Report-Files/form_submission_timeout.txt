@@ -1,0 +1,72 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/form_submission_timeout 0ef99d3e09779c88e45360c7013e34018240b5cf
+source : http://cgit.drupalcode.org/form_submission_timeout 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   form_submission_timeout.module                   
+ ------ ------------------------------------------------- 
+  178    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  178    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  183    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  183    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   form_submission_timeout.theme.inc             
+ ------ ---------------------------------------------- 
+  40     Call to deprecated function drupal_render().  
+  41     Call to deprecated function drupal_render().  
+  42     Call to deprecated function drupal_render().  
+  43     Call to deprecated function drupal_render().  
+  44     Call to deprecated function drupal_render().  
+  50     Call to deprecated function drupal_render().  
+  51     Call to deprecated function drupal_render().  
+  52     Call to deprecated function drupal_render().  
+  53     Call to deprecated function drupal_render().  
+  113    Call to deprecated function drupal_render().  
+  114    Call to deprecated function drupal_render().  
+  115    Call to deprecated function drupal_render().  
+  116    Call to deprecated function drupal_render().  
+  117    Call to deprecated function drupal_render().  
+  118    Call to deprecated function drupal_render().  
+  119    Call to deprecated function drupal_render().  
+  120    Call to deprecated function drupal_render().  
+  126    Call to deprecated function drupal_render().  
+  127    Call to deprecated function drupal_render().  
+  128    Call to deprecated function drupal_render().  
+  129    Call to deprecated function drupal_render().  
+  130    Call to deprecated function drupal_render().  
+  131    Call to deprecated function drupal_render().  
+  132    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CountdownAdminForm.php                    
+ ------ --------------------------------------------------- 
+  80     Call to deprecated method l() of class Drupal.     
+  186    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/LandingAdminForm.php                   
+ ------ ------------------------------------------------ 
+  29     Call to deprecated method l() of class Drupal.  
+  31     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TimedAdminForm.php                        
+ ------ --------------------------------------------------- 
+  113    Call to deprecated method l() of class Drupal.     
+  285    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 34 errors                                                         
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/freelinking 42ecfb263c77601356e0e782a57c97c1d0f0a2bf
+source : http://cgit.drupalcode.org/freelinking 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/FreelinkingBrowserTestBase.php      
+ ------ --------------------------------------------------------- 
+  93     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  95     Call to deprecated method assertFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

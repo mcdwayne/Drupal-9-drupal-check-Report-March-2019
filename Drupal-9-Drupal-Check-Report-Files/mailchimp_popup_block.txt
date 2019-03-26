@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mailchimp_popup_block 405a1116189f4d161ff9a2fb715112501392c5a0
+source : http://cgit.drupalcode.org/mailchimp_popup_block 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MailchimpPopupBlockFunctionalTest.php     
+ ------ ------------------------------------------------------------------------- 
+  12     Class                                                                    
+         Drupal\Tests\mailchimp_popup_block\FunctionalJavascript\MailchimpPopupB  
+         lockFunctionalTest extends deprecated class                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  25     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

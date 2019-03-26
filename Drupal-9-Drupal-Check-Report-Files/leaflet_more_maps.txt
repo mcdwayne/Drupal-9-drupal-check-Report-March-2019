@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/leaflet_more_maps fd8a83e9b459f9f0631684fe18349059d12f946c
+source : http://cgit.drupalcode.org/leaflet_more_maps 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   leaflet_demo/lib/Drupal/leaflet_demo/Plugin/Block/LeafletDemoBlock.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\leaflet_demo\Plugin\Block\LeafletDemoBlock was not found   
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   leaflet_more_maps.module                         
+ ------ ------------------------------------------------- 
+  178    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  294    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  421    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

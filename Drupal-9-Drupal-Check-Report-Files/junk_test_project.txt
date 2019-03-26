@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/junk_test_project 7e07695848c264104df141cc01228adbff74a8ee
+source : http://cgit.drupalcode.org/junk_test_project 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   junk_test_project.module                            
+ ------ ---------------------------------------------------- 
+  26     Call to deprecated function valid_email_address().  
+  27     Call to deprecated function drupal_set_message().   
+  189    Call to deprecated function user_load().            
+  208    Call to deprecated function valid_email_address().  
+  208    Call to deprecated function valid_email_address().  
+  221    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

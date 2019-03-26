@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_analytics_et 7c05cad31c172cb115b9d2abdbe7926152a57c9c
+source : http://cgit.drupalcode.org/google_analytics_et 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Entity/GoogleAnalyticsEventTracker.php       
+ ------ ------------------------------------------------- 
+  104    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/GoogleAnalyticsEventTrackerDeleteForm.php  
+ ------ ---------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GoogleAnalyticsEventTrackerForm.php       
+ ------ --------------------------------------------------- 
+  176    Call to deprecated function drupal_set_message().  
+  182    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/GoogleAnalyticsEventTracking.php             
+ ------ ------------------------------------------------- 
+  127    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/GoogleAnalyticsEventTrackingJsTest.php    
+ ------ ------------------------------------------------------------------------- 
+  13     Class                                                                    
+         Drupal\Tests\google_analytics_et\FunctionalJavascript\GoogleAnalyticsEv  
+         entTrackingJsTest extends deprecated class                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  30     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hierarchical_config 9b01025db683b6f47a2d40fb6b63fdf68b37e8a2
+source : http://cgit.drupalcode.org/hierarchical_config 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   hierarchical_config.tokens.inc                              
+ ------ ------------------------------------------------------------ 
+  17     Call to deprecated method entityManager() of class Drupal.  
+  21     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HierarchicalConfigurationForm.php         
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Form/HierarchicalConfigurationTypeDeleteForm.php  
+ ------ ------------------------------------------------------ 
+  45     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HierarchicalConfigurationTypeForm.php     
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/HierarchicalConfigurationListBuilder.php                            
+ ------ ------------------------------------------------------------------------ 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in     
+         class Drupal\hierarchical_config\HierarchicalConfigurationListBuilder.  
+  37     Call to deprecated method l() of class                                  
+         Drupal\hierarchical_config\HierarchicalConfigurationListBuilder.        
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

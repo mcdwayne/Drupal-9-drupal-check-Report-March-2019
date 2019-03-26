@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_analytics_counter be4046d3d83b183f3c78bc768c343953bf37c347
+source : http://git.drupal.org/project/google_analytics_counter.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/GoogleAnalyticsCounterAppManager.php         
+ ------ ------------------------------------------------- 
+  257    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  257    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/GoogleAnalyticsCounterCustomFieldGenerator.php          
+ ------ ------------------------------------------------------------ 
+  152    Call to deprecated function entity_get_form_display().      
+  162    Call to deprecated function entity_get_display().           
+  171    Call to deprecated method entityManager() of class Drupal.  
+  173    Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/GoogleAnalyticsCounterQueueTest.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\google_analytics_counter\Kernel\GoogleAnalyticsCounterQueu  
+         eTest was not found while trying to analyse it - autoloading is          
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

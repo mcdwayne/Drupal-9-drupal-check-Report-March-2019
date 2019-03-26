@@ -1,0 +1,12 @@
+drupal-check results on commit hash: 
+ name     : drupal/migrate_source_xls
+descrip. : XLS source migration.
+source   : [git] https://git.drupal.org/project/migrate_source_xls 3978adeab208e60d78f0ac8fa978ca3c1da01e0f
+names    : drupal/migrate_source_xls
+source : https://cgit.drupalcode.org/migrate_source_xls
+issues : https://www.drupal.org/project/issues/migrate_source_xls 
+ 
+ <code> 
+Fatal error: Declaration of Drupal\migrate_source_xls\Plugin\migrate\source\XlsSource::count() must be compatible with Drupal\migrate\Plugin\migrate\source\SourcePluginBase::count($refresh = false) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/migrate_source_xls/src/Plugin/migrate/source/XlsSource.php on line 22 
+
+ </code>

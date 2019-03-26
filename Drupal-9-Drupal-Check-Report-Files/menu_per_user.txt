@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_per_user 973899e5e85078fce1a1518fbbb364f68485d4fa
+source : http://cgit.drupalcode.org/menu_per_user 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeletePath.php                            
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  39     Call to deprecated method url() of class Drupal.   
+  50     Call to deprecated function drupal_set_message().  
+  51     Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/EditPath.php                                
+ ------ ----------------------------------------------------- 
+  72     Call to deprecated function drupal_set_message().    
+  87     Call to deprecated function db_delete().             
+  91     Call to deprecated function db_delete().             
+  96     Call to deprecated function db_insert().             
+  102    Call to deprecated function db_insert().             
+  113    Call to deprecated function drupal_set_message().    
+  116    Call to deprecated function drupal_set_message().    
+  118    Call to deprecated function menu_cache_clear_all().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/ListRedirect.php                         
+ ------ -------------------------------------------------- 
+  66     Call to deprecated method l() of class Drupal.    
+  67     Call to deprecated method l() of class Drupal.    
+  92     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/MenuPerUserForm.php                         
+ ------ ----------------------------------------------------- 
+  77     Call to deprecated method url() of class Drupal.     
+  139    Call to deprecated function drupal_set_message().    
+  142    Call to deprecated function drupal_set_message().    
+  144    Call to deprecated function menu_cache_clear_all().  
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

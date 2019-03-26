@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_presets 176bdce36e7d071be00c65c5598057e18cef66eb
+source : http://cgit.drupalcode.org/field_presets 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldPresetsForm.php                      
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldPresetsSettingsForm.php              
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

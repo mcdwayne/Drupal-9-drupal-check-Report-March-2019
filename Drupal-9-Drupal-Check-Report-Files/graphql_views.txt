@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graphql_views 8.x-3.0-alpha1
+source : http://cgit.drupalcode.org/graphql_views 
+ 
+ <code> 
+Warning: Declaration of Drupal\graphql_views\Plugin\GraphQL\Fields\ViewRowField::resolveValues($value, array $args, Youshido\GraphQLxecution\ResolveInfo $info) should be compatible with Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase::resolveValues($value, array $args, Drupal\graphql\GraphQLxecution\ResolveContext $context, GraphQL\Type\Definition\ResolveInfo $info) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/graphql_views/src/Plugin/GraphQL/Fields/ViewRowField.php on line 19
+
+Warning: Declaration of Drupal\graphql_views\Plugin\GraphQL\Fields\View::getCacheDependencies($result, $value, array $args) should be compatible with Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase::getCacheDependencies(array $result, $parent, array $args, Drupal\graphql\GraphQLxecution\ResolveContext $context, GraphQL\Type\Definition\ResolveInfo $info) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/graphql_views/src/Plugin/GraphQL/Fields/View.php on line 26
+
+Warning: Declaration of Drupal\graphql_views\Plugin\GraphQL\Fields\View::resolveValues($value, array $args, Youshido\GraphQLxecution\ResolveInfo $info) should be compatible with Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase::resolveValues($value, array $args, Drupal\graphql\GraphQLxecution\ResolveContext $context, GraphQL\Type\Definition\ResolveInfo $info) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/graphql_views/src/Plugin/GraphQL/Fields/View.php on line 26
+
+Warning: Declaration of Drupal\graphql_views\Plugin\GraphQL\Fields\ViewResultCount::resolveValues($value, array $args, Youshido\GraphQLxecution\ResolveInfo $info) should be compatible with Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase::resolveValues($value, array $args, Drupal\graphql\GraphQLxecution\ResolveContext $context, GraphQL\Type\Definition\ResolveInfo $info) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/graphql_views/src/Plugin/GraphQL/Fields/ViewResultCount.php on line 33
+
+Warning: Declaration of Drupal\graphql_views\Plugin\GraphQL\Fields\ViewResultList::resolveValues($value, array $args, Youshido\GraphQLxecution\ResolveInfo $info) should be compatible with Drupal\graphql\Plugin\GraphQL\Fields\FieldPluginBase::resolveValues($value, array $args, Drupal\graphql\GraphQLxecution\ResolveContext $context, GraphQL\Type\Definition\ResolveInfo $info) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/graphql_views/src/Plugin/GraphQL/Fields/ViewResultList.php on line 33
+
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/display/GraphQL.php                                 
+ ------ --------------------------------------------------------------------- 
+  257    Call to deprecated method applyDisplayCachablityMetadata() of class  
+         Drupaliews\Pluginiews\display\DisplayPluginBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ViewsTestBase.php                                       
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\graphql_views\Kernel\ViewsTestBase.                         
+  19     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\graphql_views\Kernel\ViewsTestBase.                   
+  20     Usage of deprecated trait                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class     
+         Drupal\Tests\graphql_views\Kernel\ViewsTestBase.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ViewsTestBaseDeprecationFix.php                      
+ ------ ---------------------------------------------------------------------- 
+  8      Class Drupal\Tests\graphql_views\Kernel\ViewsTestBaseDeprecationFix   
+         extends deprecated class                                              
+         Drupal\Tests\graphql\Kernel\GraphQLFileTestBase.                      
+  9      Usage of deprecated trait Drupal	axonomy\Tests\TaxonomyTestTrait in  
+         class Drupal\Tests\graphql_views\Kernel\ViewsTestBaseDeprecationFix.  
+  12     Class Drupal\Tests\graphql_views\Kernel\ViewsTestBaseDeprecationFix   
+         extends deprecated class                                              
+         Drupal\Tests\graphql\Kernel\GraphQLFileTestBase.                      
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

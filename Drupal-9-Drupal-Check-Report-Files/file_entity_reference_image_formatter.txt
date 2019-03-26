@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_entity_reference_image_formatter 89b6b930b2e45ba5fd227d2678d81f8da1d732f5
+source : http://cgit.drupalcode.org/file_entity_reference_image_formatter 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/FileEntityReferenceImageFormatter.php  
+ ------ ----------------------------------------------------------------------- 
+  87     Call to deprecated function file_load().                               
+  115    Call to deprecated method checkPlain() of class                        
+         Drupal\Component\Utility\SafeMarkup.                                   
+  115    Call to method checkPlain() of deprecated class                        
+         Drupal\Component\Utility\SafeMarkup.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

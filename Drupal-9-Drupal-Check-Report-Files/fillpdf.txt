@@ -1,0 +1,81 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fillpdf 1a893da04746b5bc59487975c95ff91290218497
+source : http://cgit.drupalcode.org/fillpdf 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/HandlePdfController.php             
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FillPdfFormDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/FillPdfFormForm.php                                       
+ ------ ------------------------------------------------------------------- 
+  196    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  218    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  253    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  260    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FillPdfFormImportForm.php                 
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/FillPdfOverviewForm.php                                   
+ ------ ------------------------------------------------------------------- 
+  88     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/BackendService/LocalService.php         
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/FillPdfBackend/FillPdfServiceFillPdfBackend.php  
+ ------ ------------------------------------------------------------ 
+  68     Call to deprecated function drupal_set_message().           
+  74     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FillPdfBackend/LocalFillPdfBackend.php  
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FillPdfBackend/PdftkFillPdfBackend.php  
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/FillPdfOverviewFormTest.php                      
+ ------ ---------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Testsillpdf\Functional\FillPdfOverviewFormTest.              
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

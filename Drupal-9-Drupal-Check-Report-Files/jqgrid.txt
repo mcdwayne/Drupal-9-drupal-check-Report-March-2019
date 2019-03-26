@@ -1,0 +1,57 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jqgrid 466c0c1c151e450cc198e9e027f6d83599b09f90
+source : http://cgit.drupalcode.org/jqgrid 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   includes/jqgrid.callbacks.inc             
+ ------ ------------------------------------------ 
+  20     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   includes/jqgrid_views_plugin.inc                                      
+ ------ ---------------------------------------------------------------------- 
+         Class jqgrid_views_plugin was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   jqgrid.module                             
+ ------ ------------------------------------------ 
+  183    Call to deprecated function db_select().  
+  208    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/jqgrid/Plugin/views/style/ViewsJqgrid.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\jqgrid\Pluginiews\style\ViewsJqgrid was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   theme/theme.inc                                        
+ ------ ------------------------------------------------------- 
+  73     Call to deprecated function drupal_get_messages().     
+  200    Call to deprecated function drupal_render().           
+  230    Call to deprecated function drupal_render().           
+  231    Call to deprecated function drupal_render().           
+  232    Call to deprecated function drupal_render().           
+  233    Call to deprecated function drupal_render().           
+  234    Call to deprecated function drupal_render().           
+  237    Call to deprecated function drupal_render().           
+  241    Call to deprecated function drupal_render().           
+  245    Call to deprecated function drupal_render().           
+  254    Call to deprecated function drupal_render().           
+  255    Call to deprecated function drupal_render().           
+  256    Call to deprecated function drupal_render().           
+  257    Call to deprecated function drupal_render().           
+  270    Call to deprecated function drupal_render().           
+  279    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/mautic 0022f843797bb2d20b57cbb444c813b932c2eba8
+source : http://cgit.drupalcode.org/mautic 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   mautic.module                                    
+ ------ ------------------------------------------------- 
+  90     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  94     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

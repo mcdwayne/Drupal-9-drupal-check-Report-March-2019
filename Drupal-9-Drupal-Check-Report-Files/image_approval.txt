@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/image_approval b84b0041c20c5a2efe3fc13aca89ae257e73ba96
+source : http://cgit.drupalcode.org/image_approval 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   image_approval.module                              
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function user_load().           
+  103    Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  129    Call to deprecated function drupal_set_message().  
+  133    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  205    Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImageApprovalOverview.php                 
+ ------ --------------------------------------------------- 
+  298    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

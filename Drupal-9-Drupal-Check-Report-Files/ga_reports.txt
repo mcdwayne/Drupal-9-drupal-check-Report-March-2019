@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ga_reports c80d5ec1d52d19b0f4e38c00373ccc9ff17d014e
+source : http://cgit.drupalcode.org/ga_reports 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   ga_reports.module                                   
+ ------ ---------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().   
+  163    Call to deprecated function drupal_set_message().   
+  169    Call to deprecated function drupal_set_message().   
+  220    Call to deprecated function drupal_set_message().   
+  382    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GaReportsApiAdminSettingsForm.php         
+ ------ --------------------------------------------------- 
+  224    Call to deprecated function drupal_set_message().  
+  232    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/GaReports.php                                  
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+  48     Call to deprecated function drupal_set_message().  
+  52     Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/query/GaQuery.php                 
+ ------ --------------------------------------------------- 
+  323    Call to deprecated function drupal_set_message().  
+  377    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

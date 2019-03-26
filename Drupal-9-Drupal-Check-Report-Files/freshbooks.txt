@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/freshbooks 73d1d0bed3b29ddd5e292be1dc66769d32e33688
+source : http://cgit.drupalcode.org/freshbooks 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FreshbooksTestForm.php                    
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/FreshBooksApiFactory.php                   
+ ------ ----------------------------------------------- 
+  33     Call to deprecated function libraries_load().  
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gender 92209f0702d3f60b8e61ba590883de4bdb19e09e
+source : http://cgit.drupalcode.org/gender 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   gender.module                                     
+ ------ -------------------------------------------------- 
+  205    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/Gender.php        
+ ------ --------------------------------------------- 
+  89     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/GenderInstallTest.php             
+ ------ ------------------------------------------------------- 
+  57     Call to deprecated method assertPattern() of class     
+         Drupal\Tests\BrowserTestBase.                          
+  58     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  58     Call to deprecated method url() of class Drupal.       
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

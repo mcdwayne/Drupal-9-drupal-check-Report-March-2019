@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/http_response_headers de12feba1ca817352cafae68e4731344a56341c5
+source : http://cgit.drupalcode.org/http_response_headers 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/ResponseHeaderListBuilder.php   
+ ------ ----------------------------------------------- 
+  26     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResponseHeaderDeleteForm.php              
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResponseHeaderForm.php                    
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

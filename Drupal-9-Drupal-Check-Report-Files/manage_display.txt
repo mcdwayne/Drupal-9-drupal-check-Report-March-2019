@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/manage_display 49119ed27693bbc47cf48640bcc8b11ca4e43608
+source : http://cgit.drupalcode.org/manage_display 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TitleFormatter.php                       
+ ------ ------------------------------------------------------------------------- 
+  24     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in      
+         class Drupal\manage_display\Plugin\Field\FieldFormatter\TitleFormatter.  
+  35     Call to deprecated method l() of class                                   
+         Drupal\manage_display\Plugin\Field\FieldFormatter\TitleFormatter.        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

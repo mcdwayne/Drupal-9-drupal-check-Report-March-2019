@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/librejs 8d097cf2d4d4c18238b6b9f8a467ef6e258a8f76
+source : http://cgit.drupalcode.org/librejs 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   librejs.admin.inc                         
+ ------ ------------------------------------------ 
+  132    Call to deprecated function db_query().   
+  167    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   librejs.module                           
+ ------ ----------------------------------------- 
+  31     Call to deprecated function db_query().  
+  56     Call to deprecated function db_merge().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   librejs.pages.inc                        
+ ------ ----------------------------------------- 
+  24     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

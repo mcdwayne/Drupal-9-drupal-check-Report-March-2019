@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/gmap_static a1dd674e1c14aa3875e00d4a389819d1992a4728
+source : http://cgit.drupalcode.org/gmap_static 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   gmap_static.module                               
+ ------ ------------------------------------------------- 
+  66     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  68     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

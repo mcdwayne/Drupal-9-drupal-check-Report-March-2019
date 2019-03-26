@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/language_selection_page 06fa1dac2e86e8c083386422defabd7b355e3ef3
+source : https://cgit.drupalcode.org/language_selection_page 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/LanguageSelectionPageCondition/LanguageSelectionPageConditionBlacklistedPaths.php  
+ ------ ---------------------------------------------------------------------------------------------- 
+  109    Call to deprecated method strtolower() of class                                               
+         Drupal\Component\Utility\Unicode.                                                             
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   src/Plugin/LanguageSelectionPageCondition/LanguageSelectionPageConditionPath.php  
+ ------ ---------------------------------------------------------------------------------- 
+  142    Call to deprecated function drupal_set_message().                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/graphql_entity_definitions 7710fe5121c7c0137048cf41074d1d1ed07b680a
+source : http://cgit.drupalcode.org/graphql_entity_definitions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/GraphQL/Fields/EntityDefinition/Fields.php       
+ ------ ------------------------------------------------------------ 
+  73     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EntityDefinitionTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  14     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class                                                                    
+         Drupal\Tests\graphql_entity_definitions\KernelntityDefinitionTest.     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

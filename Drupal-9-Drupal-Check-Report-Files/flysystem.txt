@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flysystem b14365295121e8fc55caf55cbdfbb4cc815af115
+source : http://cgit.drupalcode.org/flysystem 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Asset/JsCollectionOptimizerTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EventSubscriber/EnsureSubscriberTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  25     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FlysystemFactoryTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  59     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/FlysystemPluginManagerTest.php                     
+ ------ ------------------------------------------------------------------------- 
+  22     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/ImageStyleGenerationTraitTest.php  
+ ------ --------------------------------------------------------- 
+  43     Fetching class constant class of deprecated class        
+         Drupal\CorentityntityManagerInterface.               
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

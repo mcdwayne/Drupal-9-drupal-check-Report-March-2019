@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_webdam d6564405d9227a17a29e0a8bb1893723aedc3b98
+source : http://cgit.drupalcode.org/media_webdam 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/Widget/Webdam.php                         
+ ------ ------------------------------------------------------------------- 
+         Class Drupalntity_browser\WidgetBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/WebdamAsset.php                         
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/PlaceholderTest.php                                       
+ ------ -------------------------------------------------------------------- 
+  12     Class Drupal\media_webdam\Tests\PlaceholderTest extends deprecated  
+         class Drupal\simpletest\KernelTestBase.                             
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/unit/OauthTest.php                                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\media_webdam\unit\OauthTest was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/unit/WebdamAssetPluginTest.php                            
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\Tests\media_webdam\unit\WebdamAssetPluginTest was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/unit/WebdamClientFactoryTest.php                            
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\media_webdam\unit\WebdamClientFactoryTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/unit/WebdamConfigFormTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\media_webdam\unit\WebdamConfigFormTest was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/unit/WebdamServiceTest.php                                  
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\media_webdam\unit\WebdamServiceTest was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

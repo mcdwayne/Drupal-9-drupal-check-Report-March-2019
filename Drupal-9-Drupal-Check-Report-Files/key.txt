@@ -1,0 +1,99 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/key 13a8a0fc3ca2893f06b6b32dbd9225212ac2a1e4
+source : http://cgit.drupalcode.org/key 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/KeyConfigOverrideDeleteForm.php           
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/KeyDeleteForm.php                         
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/KeyFormBase.php                           
+ ------ --------------------------------------------------- 
+  331    Call to deprecated function drupal_set_message().  
+  338    Call to deprecated function drupal_set_message().  
+  341    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/KeyInput/GenerateKeyInput.php           
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/KeyAdminTest.php                
+ ------ ----------------------------------------------------- 
+  49     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  52     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  68     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  71     Call to deprecated method assertNoText() of class    
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/KeyRepositoryServiceTest.php  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  44     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  51     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  54     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  59     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  62     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  67     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  74     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+  81     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Functional/KeyTestTrait.php (in context of class Drupal\Tests\key\Functional\KeyAdminTest)  
+ ------ ------------------------------------------------------------------------------------------------------ 
+  37     Call to deprecated method assertResponse() of class                                                   
+         Drupal\Tests\BrowserTestBase.                                                                         
+ ------ ------------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/KeyTestTrait.php (in context of class Drupal\Tests\key\Functional\KeyNonAdminAccessTest)  
+ ------ --------------------------------------------------------------------------------------------------------------- 
+  37     Call to deprecated method assertResponse() of class                                                            
+         Drupal\Tests\BrowserTestBase.                                                                                  
+ ------ --------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/KeyTestTrait.php (in context of class Drupal\Tests\key\Functional\KeyOverrideAdminTest)  
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  37     Call to deprecated method assertResponse() of class                                                           
+         Drupal\Tests\BrowserTestBase.                                                                                 
+ ------ -------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Functional/KeyTestTrait.php (in context of class Drupal\Tests\key\Functional\KeyRepositoryServiceTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  37     Call to deprecated method assertResponse() of class                                                               
+         Drupal\Tests\BrowserTestBase.                                                                                     
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

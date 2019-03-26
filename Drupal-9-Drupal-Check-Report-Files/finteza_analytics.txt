@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/finteza_analytics 8.x-1.2
+source : http://cgit.drupalcode.org/finteza_analytics 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/finteza_analytics_ckeditor/src/Plugin/CKEditorPlugin/fintezaAnalyticsCustomEvents.php  
+ ------ ----------------------------------------------------------------------------------------------- 
+         Class                                                                                          
+         Drupalinteza_analytics_ckeditor\Plugin\CKEditorPlugin\FintezaAnalytic                        
+         sCustomEvents was not found while trying to analyse it - autoloading is                        
+         probably not configured properly.                                                              
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FintezaAnalyticsRegistrationForm.php      
+ ------ --------------------------------------------------- 
+  233    Call to deprecated function drupal_set_message().  
+  270    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

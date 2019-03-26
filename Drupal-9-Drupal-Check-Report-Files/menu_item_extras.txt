@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_item_extras 678d66cab33fc8047abb32140a17693077f941e4
+source : http://cgit.drupalcode.org/menu_item_extras 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/MenuController.php                  
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfirmClearMenuForm.php                  
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

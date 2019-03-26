@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/inline_image_attach 208f11914f1a479eec499d875f8f9beadd76b81a
+source : http://cgit.drupalcode.org/inline_image_attach 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   inline_image_attach.module                  
+ ------ -------------------------------------------- 
+  43     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/InlineImageAttachForm.php                          
+ ------ ------------------------------------------------------------ 
+  45     Call to deprecated function entity_get_bundles().           
+  49     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

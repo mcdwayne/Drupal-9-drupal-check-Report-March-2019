@@ -1,0 +1,121 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/filefield_paths 8a85f4b2d0dbf64c0213ddc5015af0fa0701efd3
+source : http://cgit.drupalcode.org/filefield_paths 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   filefield_paths.inc                          
+ ------ --------------------------------------------- 
+  104    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  107    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  107    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   filefield_paths.module                       
+ ------ --------------------------------------------- 
+  457    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  457    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  457    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   filefield_paths.tokens.inc                   
+ ------ --------------------------------------------- 
+  55     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  55     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  55     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  61     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  61     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  61     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/SettingsForm.php                       
+ ------ ------------------------------------------------ 
+  52     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/FileFieldPathsPathautoTest.php  
+ ------ ----------------------------------------------------- 
+  32     Call to deprecated method strtolower() of class      
+         Drupal\Component\Utility\Unicode.                    
+  38     Call to deprecated method assertField() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  41     Call to deprecated method assert() of class          
+         Drupal\Tests\BrowserTestBase.                        
+  50     Call to deprecated method strtolower() of class      
+         Drupal\Component\Utility\Unicode.                    
+  78     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/FileFieldPathsTestBase.php         
+ ------ -------------------------------------------------------- 
+  61     Call to deprecated function entity_create().            
+  79     Call to deprecated function entity_create().            
+  81     Call to deprecated function entity_get_form_display().  
+  88     Call to deprecated function entity_get_display().       
+  120    Call to deprecated function entity_create().            
+  128    Call to deprecated function entity_create().            
+  139    Call to deprecated function entity_get_form_display().  
+  146    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/FileFieldPathsTokensTest.php  
+ ------ --------------------------------------------------- 
+  27     Call to deprecated method assertEqual() of class   
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/FileFieldPathsTransliterationTest.php  
+ ------ ------------------------------------------------------------ 
+  20     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  27     Call to deprecated method assertField() of class            
+         Drupal\Tests\BrowserTestBase.                               
+  30     Call to deprecated method assert() of class                 
+         Drupal\Tests\BrowserTestBase.                               
+  39     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  65     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/FileFieldPathsUpdateTest.php  
+ ------ --------------------------------------------------- 
+  18     Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  28     Call to deprecated method assertNoText() of class  
+         Drupal\Tests\BrowserTestBase.                      
+  36     Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  66     Call to deprecated method assertRaw() of class     
+         Drupal\Tests\BrowserTestBase.                      
+  79     Call to deprecated method assert() of class        
+         Drupal\Tests\BrowserTestBase.                      
+  83     Call to deprecated method assertRaw() of class     
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 38 errors                                                         
+
+ </code>

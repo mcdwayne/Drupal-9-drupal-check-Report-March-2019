@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/icecat 58c72a3b6112c13952996b5910fa72e9fb899b50
+source : http://cgit.drupalcode.org/icecat 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/settingsForm.php                                            
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\icecat\Form\SettingsForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/IcecatMappingForm.php                          
+ ------ --------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().  
+  169    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/IcecatMappingLinkForm.php                      
+ ------ --------------------------------------------------- 
+  346    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  349    Call to deprecated function drupal_set_message().  
+  352    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/IcecatConfigEntityTest.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\icecate\Kernel\IcecatConfigEntityTest was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

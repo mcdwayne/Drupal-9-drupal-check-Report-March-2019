@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/instagram_field a13b032e9a767b8c90131b26ddd5bc16a7595c0c
+source : https://cgit.drupalcode.org/instagram_field 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CallbackController.php              
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Functional/InstagramFieldTest.php                            
+ ------ ----------------------------------------------------------------------- 
+  14     Usage of deprecated trait Drupal

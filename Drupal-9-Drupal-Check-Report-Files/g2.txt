@@ -1,0 +1,98 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/g2 65827cdda31e7f442c25144176a577041d5472b2
+source : http://cgit.drupalcode.org/g2 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   g2.admin.inc                              
+ ------ ------------------------------------------ 
+  233    Call to deprecated function node_load().  
+  244    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   g2.install.php                                     
+ ------ --------------------------------------------------- 
+  134    Call to deprecated function db_query().            
+  148    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function db_query().            
+  176    Call to deprecated function drupal_set_message().  
+  212    Call to deprecated function drupal_set_message().  
+  227    Call to deprecated function db_table_exists().     
+  231    Call to deprecated function db_create_table().     
+  236    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   g2.module.php                                            
+ ------ --------------------------------------------------------- 
+  153    Call to deprecated method substr() of class              
+         Drupal\Component\Utility\Unicode.                        
+  243    Call to deprecated function db_query_range().            
+  274    Call to deprecated function taxonomy_vocabulary_load().  
+  416    Call to deprecated function db_query().                  
+  428    Call to deprecated function db_query_range().            
+  430    Call to deprecated function node_load().                 
+  473    Call to deprecated function db_query().                  
+  478    Call to deprecated function node_load().                 
+  557    Call to deprecated function db_query().                  
+  562    Call to deprecated function db_query().                  
+  577    Call to deprecated function node_load().                 
+  688    Call to deprecated function node_load().                 
+  867    Call to deprecated function db_query().                  
+  888    Call to deprecated function db_query().                  
+  891    Call to deprecated function node_load().                 
+  1032   Call to deprecated function db_query().                  
+  1248   Call to deprecated function drupal_set_message().        
+  1274   Call to deprecated function db_query_range().            
+  1381   Call to deprecated function db_query().                  
+  1386   Call to deprecated function db_query().                  
+  1609   Call to deprecated function node_load().                 
+  1862   Call to deprecated function db_delete().                 
+  2035   Call to deprecated function db_select().                 
+  2115   Call to deprecated function node_load().                 
+  2224   Call to deprecated function db_select().                 
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Alphabar.php                             
+ ------ --------------------------------------------- 
+  88     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  89     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Controller/Homonyms.php                          
+ ------ ----------------------------------------------------- 
+  244    Call to deprecated method indexUsingNode() of class  
+         Drupal\g2\Controller\Homonyms.                       
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/RefererWipe.php                                                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\g2\RefererWipe was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  229    Call to deprecated function drupal_set_message().  
+  484    Call to deprecated function drupal_set_message().  
+  502    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/AlphabarTest.php                   
+ ------ --------------------------------------------- 
+  65     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 43 errors                                                         
+
+ </code>

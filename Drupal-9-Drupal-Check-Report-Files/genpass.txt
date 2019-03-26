@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/genpass e82a2b732bf83beecef45d0336ad2375b7ec5c29
+source : https://github.com/luksak/genpass 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   genpass.module                                     
+ ------ --------------------------------------------------- 
+  263    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/InitSubscriber.php                                                 
+ ------ ----------------------------------------------------------------------- 
+  4      Class Drupal\genpassventSubscriberInterface not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

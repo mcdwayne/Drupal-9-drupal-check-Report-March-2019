@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_views b51e7e4c1bc4ef940ed4da22d87692db42e0b31d
+source : http://cgit.drupalcode.org/menu_views 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   menu_views.admin.inc                               
+ ------ --------------------------------------------------- 
+  622    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   menu_views.module                                  
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_render().       
+  245    Call to deprecated function drupal_render().       
+  416    Call to deprecated function db_select().           
+  553    Call to deprecated function drupal_set_message().  
+  566    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

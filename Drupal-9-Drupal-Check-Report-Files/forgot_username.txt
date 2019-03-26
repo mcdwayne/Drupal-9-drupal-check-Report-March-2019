@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/forgot_username c1dcb19ae61998061a16768220cd8615844ff2bf
+source : http://cgit.drupalcode.org/forgot_username 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ForgotUsernameForm.php                    
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function db_query().            
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

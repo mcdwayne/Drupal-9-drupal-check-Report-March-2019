@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/micro_user 5dd7033b7127bd09e03f882f0d59938fe9058a8e
+source : http://cgit.drupalcode.org/micro_user 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Access/RegisterAccessCheck.php                                   
+ ------ --------------------------------------------------------------------- 
+  52     Call to deprecated method cacheUntilConfigurationChanges() of class  
+         Drupal\Core\Access\AccessResult.                                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

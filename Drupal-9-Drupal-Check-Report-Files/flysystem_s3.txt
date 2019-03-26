@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flysystem_s3 968c0a0a7347be07f1eab338179b264a4ce4388b
+source : http://cgit.drupalcode.org/flysystem_s3 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Unit/AwsCacheAdapterTest.php                              
+ ------ -------------------------------------------------------------------- 
+         Class NoDrupal\Testslysystem_s3\Unit\AwsCacheAdapterTest was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Unit/Flysystem/S3Test.php                                    
+ ------ ----------------------------------------------------------------------- 
+         Class NoDrupal\Testslysystem_s3\Unit\Flysystem\S3Test was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

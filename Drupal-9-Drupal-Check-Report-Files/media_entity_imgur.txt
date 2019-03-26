@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/media_entity_imgur 076dfb847dd6ffae26e6de09b20d66b31af2e282
+source : http://cgit.drupalcode.org/media_entity_imgur 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ImgurEmbedFormatter.php                
+ ------ ----------------------------------------------------------------------- 
+  21     Class Drupal\media_entitymbedCodeValueTrait not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/Imgur.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Validation/Constraint/ImgurEmbedCodeConstraintValidator.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be      
+         autoloaded.                                                             
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

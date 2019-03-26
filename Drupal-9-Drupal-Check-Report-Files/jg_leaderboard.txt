@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/jg_leaderboard b27f119b4d2b735fa05c7ac34447bec7dc406488
+source : http://cgit.drupalcode.org/jg_leaderboard 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/Form/CreateEventForm.php             
+ ------ ----------------------------------------- 
+  141    Calls to function dsm should not exist.  
+  142    Calls to function dsm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/Unit/LeaderboardAPITest.php                                       
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Test\jg_leaderboard\Unit\LeaderboardAPITest was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

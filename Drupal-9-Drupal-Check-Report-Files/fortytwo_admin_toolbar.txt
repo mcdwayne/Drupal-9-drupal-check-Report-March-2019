@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fortytwo_admin_toolbar 99266084b0f975a231119366920826b55c23551b
+source : http://cgit.drupalcode.org/fortytwo_admin_toolbar 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FortyTwoAdminToolbarTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  13     Class                                                                    
+         Drupal\Testsortytwo_admin_toolbar\Functional\FortyTwoAdminToolbarTest  
+         extends deprecated class                                                 
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  30     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

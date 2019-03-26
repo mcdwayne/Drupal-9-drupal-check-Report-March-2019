@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/file_url 2cca618a4d14aa4291d542326a4e23e8a8f16a18
+source : http://cgit.drupalcode.org/file_uri 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/FileUrlFieldItemList.php         
+ ------ ------------------------------------------------------------ 
+  95     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FileUrlWidgetTest.php                
+ ------ -------------------------------------------------------------------- 
+  18     Class Drupal\Testsile_url\FunctionalJavascript\FileUrlWidgetTest  
+         extends deprecated class                                            
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                
+  53     Call to method setUp() of deprecated class                          
+         Drupal\Tests\BrowserTestBase.                                       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/FileUrlFieldItemTest.php        
+ ------ ------------------------------------------------- 
+  28     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

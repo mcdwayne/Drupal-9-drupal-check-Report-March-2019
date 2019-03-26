@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/matrix_api eed61956c7edec36caaef01a099896f4911780b0
+source : http://cgit.drupalcode.org/matrix_api 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MatrixApiSettingsForm.php                 
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+  166    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/SendMatrixMessage.php                        
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

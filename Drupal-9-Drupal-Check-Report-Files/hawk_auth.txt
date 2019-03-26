@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/hawk_auth 1b94b774b0994aadb9608673f6be18dc999338d5
+source : http://cgit.drupalcode.org/hawk_auth 
+ 
+ <code> 
+Warning: Declaration of Drupal\hawk_authntity\HawkCredentialAccessControlHandler::checkAccess(Drupal\hawk_authntity\HawkCredentialInterface $entity, $operation, $langcode, Drupal\Core\Session\AccountInterface $account) should be compatible with Drupal\CorentityntityAccessControlHandler::checkAccess(Drupal\CorentityntityInterface $entity, $operation, Drupal\Core\Session\AccountInterface $account) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/hawk_auth/src/Entity/HawkCredentialAccessControlHandler.php on line 18
+
+
+ ------ ------------------------------------------------------------------------- 
+  Line   hawk_auth_qr/src/EventSubscriber/HawkAuthQREventSubscriber.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\hawk_auth_qrventSubscriber\HawkAuthQrEventSubscriber was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   hawk_auth_qr/src/Response/HawkAuthQrImageResponse.php  
+ ------ ------------------------------------------------------- 
+  71     Call to deprecated method getUsername() of class       
+         Drupal\Core\Session\AccountInterface.                  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Authentication/Provider/HawkAuth.php     
+ ------ --------------------------------------------- 
+  142    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  142    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/HawkConfigForm.php                      
+ ------ ------------------------------------------------- 
+  92     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  92     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/HawkDeleteCredentialForm.php                                
+ ------ --------------------------------------------------------------------- 
+  38     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/HawkAuthTest.php                        
+ ------ -------------------------------------------------- 
+  62     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  72     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  86     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  90     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  100    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  107    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/modules/hawk_route_tests/src/TestController.php  
+ ------ ------------------------------------------------------- 
+  16     Call to deprecated method getUsername() of class       
+         Drupal\Core\Session\AccountInterface.                  
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

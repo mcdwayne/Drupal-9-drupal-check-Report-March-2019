@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/google_analytics_light_report f277a5679cec61e783457c20dd0e9afcb2468e99
+source : http://cgit.drupalcode.org/google_analytics_light_report 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   google_analytics_light_report.module               
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_render().       
+  130    Call to deprecated function libraries_get_path().  
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   includes/google_analytics_light_report.block.inc  
+ ------ -------------------------------------------------- 
+  108    Call to deprecated function drupal_render().      
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/google_analytics_light_report.inc         
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function file_load().           
+  22     Call to deprecated function drupal_realpath().     
+  32     Call to deprecated function drupal_set_message().  
+  52     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/GoogleAnalyticsLightReportSettingsForm.php  
+ ------ ----------------------------------------------------- 
+  70     Call to deprecated function drupal_realpath().       
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

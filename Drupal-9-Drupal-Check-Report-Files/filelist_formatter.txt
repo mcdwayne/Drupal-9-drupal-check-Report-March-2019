@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/filelist_formatter dc2bd606906906f0a434eaf92891cc6091cdffc7
+source : http://cgit.drupalcode.org/filelist_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/FileListFormatter.php  
+ ------ ------------------------------------------------------- 
+  90     Call to deprecated method checkPlain() of class        
+         Drupal\Component\Utility\SafeMarkup.                   
+  90     Call to method checkPlain() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.                   
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

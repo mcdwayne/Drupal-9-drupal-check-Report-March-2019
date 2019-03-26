@@ -1,0 +1,143 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/flashpoint a26b8d5ccf9214df50597cc1bed43dc25a25744e
+source : http://cgit.drupalcode.org/flashpoint 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_community_content/src/Controller/GroupFlashpointCommunityContentController.php  
+ ------ --------------------------------------------------------------------------------------------------- 
+         Class Drupal\groupntity\Controller\GroupContentController not found                              
+         and could not be autoloaded.                                                                       
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_community_content/src/Form/FlashpointCommunityContentForm.php  
+ ------ ---------------------------------------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().                                 
+  43     Call to deprecated function drupal_set_message().                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_community_content/src/Form/FlashpointCommunityContentTypeDeleteForm.php  
+ ------ -------------------------------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                                           
+ ------ -------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_community_content/src/Form/FlashpointCommunityContentTypeForm.php  
+ ------ -------------------------------------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().                                     
+  58     Call to deprecated function drupal_set_message().                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_community_content/src/Plugin/GroupContentEnabler/GroupFlashpointCommunityContent.php  
+ ------ --------------------------------------------------------------------------------------------------------- 
+         Class Drupal\group\Plugin\GroupContentEnablerBase not found and could                                    
+         not be autoloaded.                                                                                       
+ ------ --------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course/src/Controller/FlashpointCourseController.php  
+ ------ ------------------------------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().                        
+  46     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_content/src/Controller/GroupFlashpointCourseContentController.php  
+ ------ --------------------------------------------------------------------------------------------- 
+         Class Drupal\groupntity\Controller\GroupContentController not found                        
+         and could not be autoloaded.                                                                 
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_content/src/Form/FlashpointCourseContentForm.php  
+ ------ ---------------------------------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().                           
+  43     Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_content/src/Form/FlashpointCourseContentTypeDeleteForm.php  
+ ------ -------------------------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_content/src/Form/FlashpointCourseContentTypeForm.php  
+ ------ -------------------------------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().                               
+  58     Call to deprecated function drupal_set_message().                               
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_content/src/Plugin/GroupContentEnabler/GroupFlashpointCourseContent.php  
+ ------ --------------------------------------------------------------------------------------------------- 
+         Class Drupal\group\Plugin\GroupContentEnablerBase not found and could                              
+         not be autoloaded.                                                                                 
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_module/src/Controller/FlashpointCourseGroupFlashpointCourseModuleController.php  
+ ------ ----------------------------------------------------------------------------------------------------------- 
+         Class Drupal\groupntity\Controller\GroupContentController not found                                      
+         and could not be autoloaded.                                                                               
+ ------ ----------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_module/src/Controller/FlashpointCourseModuleController.php  
+ ------ -------------------------------------------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class                                    
+         Drupal\Core\Controller\ControllerBase.                                                
+  29     Call to deprecated method entityManager() of class                                    
+         Drupal\Core\Controller\ControllerBase.                                                
+  44     Call to deprecated method entityManager() of class                                    
+         Drupal\Core\Controller\ControllerBase.                                                
+  45     Call to deprecated function format_date().                                            
+  63     Call to deprecated method entityManager() of class                                    
+         Drupal\Core\Controller\ControllerBase.                                                
+  91     Call to deprecated method l() of class                                                
+         Drupal\Core\Controller\ControllerBase.                                                
+  94     Call to deprecated method link() of class                                             
+         Drupal\CorentityntityInterface.                                                   
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_module/src/Form/FlashpointCourseModuleForm.php  
+ ------ -------------------------------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().                         
+  64     Call to deprecated function drupal_set_message().                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_module/src/Form/FlashpointCourseModuleRevisionDeleteForm.php  
+ ------ ---------------------------------------------------------------------------------------- 
+  76     Call to deprecated function format_date().                                              
+  110    Call to deprecated function drupal_set_message().                                       
+  110    Call to deprecated function format_date().                                              
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_module/src/Form/FlashpointCourseModuleRevisionRevertForm.php  
+ ------ ---------------------------------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().                                       
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+  Line   modules/flashpoint_course_module/src/Plugin/GroupContentEnabler/FlashpointCourseGroupFlashpointCourseModule.php  
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+         Class Drupal\group\Plugin\GroupContentEnablerBase not found and could                                            
+         not be autoloaded.                                                                                               
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FlashpointSettingsForm.php                
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 32 errors                                                         
+
+ </code>

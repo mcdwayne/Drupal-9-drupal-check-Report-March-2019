@@ -1,0 +1,71 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/message_subscribe 64f093bb82a6a98e5a0d271d68f945173bd4308b
+source : https://cgit.drupalcode.org/message_subscribe 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   message_subscribe_email/message_subscribe_email.module  
+ ------ -------------------------------------------------------- 
+  77     Call to deprecated function db_select().                
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   message_subscribe_email/tests/src/Functional/ViewsTest.php               
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\message_subscribe_email\Functional\ViewsTest.         
+  17     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\message_subscribe_email\Functional\ViewsTest.               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   message_subscribe_email/tests/src/FunctionalJavascript/MessageSubscribeEmailTest.php  
+ ------ -------------------------------------------------------------------------------------- 
+  12     Class                                                                                 
+         Drupal\Tests\message_subscribe_email\FunctionalJavascript\MessageSubscr               
+         ibeEmailTest extends deprecated class                                                 
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                                  
+  44     Call to method setUp() of deprecated class                                            
+         Drupal\Tests\BrowserTestBase.                                                         
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   message_subscribe_ui/tests/src/Functional/SubscriptionsBlockTest.php  
+ ------ ---------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\message_subscribe_ui\Functional\SubscriptionsBlockTest.  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ContextTest.php                                      
+ ------ ---------------------------------------------------------------------- 
+  23     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\message_subscribe\Kernel\ContextTest.                    
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/MessageSubscribeTestBase.php                            
+ ------ ------------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\message_subscribe\Kernel\MessageSubscribeTestBase.    
+  19     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\message_subscribe\Kernel\MessageSubscribeTestBase.          
+  20     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class   
+         Drupal\Tests\message_subscribe\Kernel\MessageSubscribeTestBase.          
+  67     Call to deprecated method strtolower() of class                          
+         Drupal\Component\Utility\Unicode.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/SubscribersTest.php             
+ ------ ------------------------------------------------- 
+  408    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

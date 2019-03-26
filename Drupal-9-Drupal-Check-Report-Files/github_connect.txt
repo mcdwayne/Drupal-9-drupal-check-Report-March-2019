@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/github_connect 65f8935c204cb13dde90b53c48a2db25eac4221f
+source : http://cgit.drupalcode.org/github_connect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GithubConnectController.php         
+ ------ --------------------------------------------------- 
+  135    Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  155    Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  167    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated function drupal_set_message().  
+  182    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/UsernameChooseForm.php                                      
+ ------ --------------------------------------------------------------------- 
+  117    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/VerifyEmailForm.php                                         
+ ------ --------------------------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().                    
+  130    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/GithubConnectService.php                       
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function entity_create().       
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Block/GithubConnectBlock.php                              
+ ------ --------------------------------------------------------------------- 
+  23     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\github_connect\Plugin\Block\GithubConnectBlock.         
+  81     Call to deprecated method l() of class                               
+         Drupal\github_connect\Plugin\Block\GithubConnectBlock.               
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>
