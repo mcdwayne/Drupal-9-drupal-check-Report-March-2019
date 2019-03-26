@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_paymentexpress c1faf59c04b7f67eab2bdd7a6da8c65c657ff038
+source : http://cgit.drupalcode.org/uc_paymentexpress 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DPSController.php                   
+ ------ --------------------------------------------------- 
+  142    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   uc_paymentexpress.module                           
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

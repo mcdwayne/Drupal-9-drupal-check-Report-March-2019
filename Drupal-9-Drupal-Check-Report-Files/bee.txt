@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bee cc985ef0ac9c480595930dcdd88eff021ffe39b9
+source : http://cgit.drupalcode.org/bee 
+ 
+ <code> 
+
+
+
+ ------ ------------------------------------------------------------ 
+  Line   bee.module                                                  
+ ------ ------------------------------------------------------------ 
+  281    Call to deprecated function drupal_set_message().           
+  284    Call to deprecated function drupal_set_message().           
+  287    Call to deprecated function drupal_set_message().           
+  361    Call to deprecated method entityManager() of class Drupal.  
+  382    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/bee_webform/bee_webform.module             
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function node_load().           
+  145    Call to deprecated function drupal_set_message().  
+  151    Call to deprecated function drupal_set_message().  
+  302    Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  302    Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  369    Call to deprecated function node_load().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/bee_webform/src/Element/WebformBeeReservationForm.php          
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webform\Element\WebformCompositeBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/bee_webform/src/Plugin/WebformElement/WebformBeeReservationForm.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Drupal\webform\Plugin\WebformElement\WebformCompositeBase not          
+         found and could not be autoloaded.                                           
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/BeePermissions.php                             
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function entity_get_bundles().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/AddReservationForm.php                             
+ ------ ------------------------------------------------------------ 
+  209    Call to deprecated method entityManager() of class Drupal.  
+  253    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UpdateAvailabilityForm.php                
+ ------ --------------------------------------------------- 
+  261    Call to deprecated function drupal_set_message().  
+  307    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ueditor f56b649396ef6fae1bbd86841bc9491978f970e4
+source : http://cgit.drupalcode.org/ueditor 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UeditorGlobalSettingsForm.php             
+ ------ --------------------------------------------------- 
+  227    Call to deprecated function drupal_set_message().  
+  279    Call to deprecated function drupal_realpath().     
+  287    Call to deprecated function file_uri_scheme().     
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

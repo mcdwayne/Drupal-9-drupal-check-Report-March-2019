@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bigvideo 354c0fc4d7ca69e84d7cba7a97e38ff65f7c9fb4
+source : http://cgit.drupalcode.org/bigvideo 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   bigvideo.module                                  
+ ------ ------------------------------------------------- 
+  30     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BigvideoPageDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BigvideoPageForm.php                      
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().  
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BigvideoSourceDeleteForm.php              
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BigvideoSourceForm.php                    
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+  147    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/ContextReaction/AttachVideo.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal

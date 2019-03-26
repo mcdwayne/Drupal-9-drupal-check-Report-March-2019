@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bat_api 3bdfd2ad26bf5e2cc9f2af68cfed45f3aa511b2e
+source : http://cgit.drupalcode.org/bat_api 
+ 
+ <code> 
+
+
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/ServiceDefinition/CalendarEventsIndex.php  
+ ------ ------------------------------------------------------ 
+  202    Call to deprecated function db_select().              
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/ServiceDefinition/EventsIndex.php  
+ ------ ---------------------------------------------- 
+  123    Call to deprecated function entity_load().    
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/ServiceDefinition/MatchingUnitIndex.php  
+ ------ ---------------------------------------------------- 
+  132    Call to deprecated function entity_load().          
+  198    Call to deprecated function db_select().            
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Plugin/ServiceDefinition/UnitIndex.php  
+ ------ -------------------------------------------- 
+  155    Call to deprecated function db_select().    
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

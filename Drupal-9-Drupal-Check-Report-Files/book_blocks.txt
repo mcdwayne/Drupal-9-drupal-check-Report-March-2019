@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/book_blocks 8.x-1.3
+source : http://cgit.drupalcode.org/book_blocks 
+ 
+ <code> 
+
+
+
+ ------ -------------------------------------------------- 
+  Line   book_blocks.module                                
+ ------ -------------------------------------------------- 
+  67     Call to deprecated method url() of class Drupal.  
+  78     Call to deprecated method url() of class Drupal.  
+  90     Call to deprecated method url() of class Drupal.  
+  100    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Block/BookBlocksChildrenBlock.php      
+ ------ -------------------------------------------------- 
+  108    Call to deprecated function node_load().          
+  113    Call to deprecated function node_load().          
+  118    Call to deprecated method url() of class Drupal.  
+  135    Call to deprecated method url() of class Drupal.  
+  147    Call to deprecated method url() of class Drupal.  
+  157    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Block/BookBlocksEditBlock.php                    
+ ------ ------------------------------------------------------------ 
+  269    Call to deprecated function node_load().                    
+  274    Call to deprecated function node_load().                    
+  279    Call to deprecated method url() of class Drupal.            
+  297    Call to deprecated method url() of class Drupal.            
+  310    Call to deprecated method url() of class Drupal.            
+  321    Call to deprecated method url() of class Drupal.            
+  381    Call to deprecated method entityManager() of class Drupal.  
+  410    Call to deprecated function node_load().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Block/BookBlocksNavigationBlock.php    
+ ------ -------------------------------------------------- 
+  107    Call to deprecated function node_load().          
+  112    Call to deprecated function node_load().          
+  117    Call to deprecated method url() of class Drupal.  
+  134    Call to deprecated method url() of class Drupal.  
+  146    Call to deprecated method url() of class Drupal.  
+  156    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Plugin/Block/BookBlocksTOCBlock.php   
+ ------ ------------------------------------------ 
+  117    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

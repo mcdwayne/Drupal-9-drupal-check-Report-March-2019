@@ -1,0 +1,10 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bootstrap_modal_messages 367c681f0b44582574f6cb157e52759543c9e78a
+source : http://cgit.drupalcode.org/bootstrap_modal_messages 
+ 
+ <code> 
+
+
+Fatal error: Drupal\Core\DependencyInjection\ContainerNotInitializedException thrown while calling __toString on a Drupal\Core\StringTranslation\TranslatableMarkup object in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/core/lib/Drupal.php on line 130: \Drupal::$container is not initialized yet. \Drupal::setContainer() must be called with a real container. in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/core/lib/Drupal/Component/Utility/ToStringTrait.php on line 20 
+
+ </code>

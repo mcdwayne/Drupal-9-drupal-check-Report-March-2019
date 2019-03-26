@@ -1,0 +1,65 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bitmovin_player 9aa09cf6d7cb8e4caabd800db740da78a26141cc
+source : http://cgit.drupalcode.org/bitmovin_player 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   bitdash_player.admin.inc                        
+ ------ ------------------------------------------------ 
+  29     Call to deprecated method l() of class Drupal.  
+  36     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   bitdash_player.module                                       
+ ------ ------------------------------------------------------------ 
+  92     Call to deprecated function db_update().                    
+  97     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   lib/BitdashPlayerDownloadEncoding.php                              
+ ------ ------------------------------------------------------------------- 
+         Class BitdashPlayerDownloadEncoding was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/BitdashPlayerEncode.php                                           
+ ------ ---------------------------------------------------------------------- 
+         Class BitdashPlayerEncode was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/BitdashPlayerDownloadEncoding.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalitdash_player\ApiResource not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/BitdashPlayerEncode.php                                         
+ ------ -------------------------------------------------------------------- 
+         Class Drupalitdash_player\ApiResource not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/BitdashPlayerSettingForm.php           
+ ------ ------------------------------------------------ 
+  67     Call to deprecated method l() of class Drupal.  
+  76     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/BitdashPlayerItem.php            
+ ------ ------------------------------------------------------------ 
+  215    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

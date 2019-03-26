@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_everyday 79cd2493540def6a15a68b3e9724738421823642
+source : http://cgit.drupalcode.org/uc_everyday 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EverydayController.php              
+ ------ --------------------------------------------------- 
+  63     Call to deprecated method checkPlain() of class    
+         Drupal\Component\Utility\SafeMarkup.               
+  63     Call to method checkPlain() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.               
+  94     Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EverydayCheckoutForm.php                  
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Ubercart/PaymentMethod/Everyday.php     
+ ------ --------------------------------------------------- 
+  242    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

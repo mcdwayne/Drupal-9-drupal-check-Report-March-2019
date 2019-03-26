@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/blazemeter bfe187481e8789842921a1951ac1d2e8346b61ed
+source : http://cgit.drupalcode.org/blazemeter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlazeMeterSettingsForm.php                
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+  559    Call to deprecated function drupal_set_message().  
+  563    Call to deprecated function drupal_set_message().  
+  632    Call to deprecated function drupal_set_message().  
+  658    Call to deprecated function drupal_set_message().  
+  661    Call to deprecated function drupal_set_message().  
+  668    Call to deprecated function drupal_set_message().  
+  714    Call to deprecated function drupal_set_message().  
+  717    Call to deprecated function drupal_set_message().  
+  746    Call to deprecated function drupal_set_message().  
+  749    Call to deprecated function drupal_set_message().  
+  778    Call to deprecated function drupal_set_message().  
+  781    Call to deprecated function drupal_set_message().  
+  829    Call to deprecated function drupal_set_message().  
+  830    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlazemeterUserDeleteForm.php              
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlazemeterUserForm.php                    
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

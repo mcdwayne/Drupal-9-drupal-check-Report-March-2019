@@ -1,0 +1,63 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/billing 1bb61b197e43fff1f254d16b2b45e74db392d415
+source : http://cgit.drupalcode.org/billing 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/BillingAccountManager.php                    
+ ------ ------------------------------------------------------------ 
+  44     Call to deprecated method entityManager() of class Drupal.  
+  106    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/BillingTransactionManager.php                
+ ------ ------------------------------------------------------------ 
+  48     Call to deprecated function drupal_set_message().           
+  116    Call to deprecated method entityManager() of class Drupal.  
+  147    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/CurrencyHelper.php                           
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/BillingAccount.php                               
+ ------ ------------------------------------------------------------ 
+  91     Call to deprecated function drupal_set_message().           
+  105    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   src/Entity/BillingAccountListBuilder.php    
+ ------ -------------------------------------------- 
+  89     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/BillingTransaction.php                           
+ ------ ------------------------------------------------------------ 
+  78     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BillingAccountForm.php                    
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BillingTransactionForm.php                
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

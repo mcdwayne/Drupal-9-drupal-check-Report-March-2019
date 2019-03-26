@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/blogapi 0b69c60dd8307962ffc62f099178c8cee17382a1
+source : http://cgit.drupalcode.org/blogapi 
+ 
+ <code> 
+
+
+
+ ------ ------------------------------------------------------ 
+  Line   src/BlogapiCommunicator.php                           
+ ------ ------------------------------------------------------ 
+  440    Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomy\Entity\Term.                          
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  263    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

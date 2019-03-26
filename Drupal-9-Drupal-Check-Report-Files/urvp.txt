@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/urvp 6e7602a300adf56eb37c4b4ef044b90c58fb162f
+source : http://cgit.drupalcode.org/urvp 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/EventSubscriber/RVPSubscriber.php    
+ ------ ----------------------------------------- 
+  32     Call to deprecated function db_merge().  
+ ------ ----------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   uvrp.module                                   
+ ------ ---------------------------------------------- 
+  19     Call to deprecated function db_select().      
+  49     Call to deprecated function node_load().      
+  52     Call to deprecated function drupal_render().  
+  71     Call to deprecated function db_delete().      
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

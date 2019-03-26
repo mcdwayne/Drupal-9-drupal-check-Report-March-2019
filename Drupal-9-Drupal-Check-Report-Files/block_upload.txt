@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/block_upload ae0950b0e11e8af0ab386c299e8af19a13b6ac91
+source : http://cgit.drupalcode.org/block_upload 
+ 
+ <code> 
+
+
+
+ ------ --------------------------------------------------- 
+  Line   src/BlockUploadBuild.php                           
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlockUploadForm.php                       
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlockUploadPluploadForm.php               
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

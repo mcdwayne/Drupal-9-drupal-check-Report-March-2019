@@ -1,0 +1,63 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/blocktabs bcb450f8b76c7665ef70646d9cb7303dae05c39c
+source : http://cgit.drupalcode.org/blocktabs 
+ 
+ <code> 
+
+
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlocktabsAddForm.php                      
+ ------ --------------------------------------------------- 
+  17     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlocktabsEditForm.php                     
+ ------ --------------------------------------------------- 
+  222    Call to deprecated function drupal_set_message().  
+  245    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/BlocktabsFormBase.php                
+ ------ ---------------------------------------------- 
+  111    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TabDeleteForm.php                         
+ ------ --------------------------------------------------- 
+  46     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+  71     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TabFormBase.php                           
+ ------ --------------------------------------------------- 
+  100    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+  153    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Plugin/Tab/BlockContentTab.php       
+ ------ ----------------------------------------- 
+  54     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Tab/ViewsTab.php                   
+ ------ ---------------------------------------------- 
+  111    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

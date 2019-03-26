@@ -1,0 +1,324 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bat f2a555c111a66bbc064bd362015962a237fdea3e
+source : http://cgit.drupalcode.org/bat 
+ 
+ <code> 
+
+
+
+ ------ --------------------------------------------------- 
+  Line   bat.module                                         
+ ------ --------------------------------------------------- 
+  81     Call to deprecated method l() of class Drupal.     
+  129    Call to deprecated function db_select().           
+  262    Call to deprecated function entity_get_bundles().  
+  352    Call to deprecated function entity_get_bundles().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   modules/bat_booking/bat_booking.module          
+ ------ ------------------------------------------------ 
+  198    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/bat_booking/bat_booking_example/src/Form/BookingConfirmationForm.php  
+ ------ ------------------------------------------------------------------------------ 
+  115    Call to deprecated function drupal_set_message().                             
+  118    Call to deprecated function drupal_set_message().                             
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/bat_booking/src/BookingBundleForm.php      
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/bat_booking/src/BookingListBuilder.php                       
+ ------ --------------------------------------------------------------------- 
+  25     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalat_booking\BookingListBuilder.                         
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/bat_booking/src/Entity/Form/BookingDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/bat_booking/src/Entity/Form/BookingForm.php  
+ ------ ----------------------------------------------------- 
+  51     Call to deprecated function format_date().           
+  112    Call to deprecated function drupal_set_message().    
+  118    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/bat_booking/src/Form/BookingBundleDeleteConfirm.php  
+ ------ ------------------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/bat_calendar_reference/src/Controller/BatEventTypeAutocompleteController.php  
+ ------ -------------------------------------------------------------------------------------- 
+  84     Call to deprecated method strtolower() of class                                       
+         Drupal\Component\Utility\Unicode.                                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/bat_calendar_reference/src/Controller/BatUnitAutocompleteController.php  
+ ------ --------------------------------------------------------------------------------- 
+  84     Call to deprecated method strtolower() of class                                  
+         Drupal\Component\Utility\Unicode.                                                
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/bat_event/bat_event.module                          
+ ------ ------------------------------------------------------------ 
+  494    Call to deprecated function db_drop_table().                
+  638    Call to deprecated function db_create_table().              
+  796    Call to deprecated method entityManager() of class Drupal.  
+  1044   Call to deprecated method l() of class Drupal.              
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/bat_event/src/Entity/Event.php                
+ ------ ------------------------------------------------------ 
+  194    Call to deprecated function entity_load_unchanged().  
+  209    Call to deprecated function entity_load().            
+  256    Call to deprecated function entity_load().            
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/bat_event/src/Entity/Form/EventDeleteForm.php  
+ ------ ------------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/bat_event/src/Entity/Form/EventForm.php         
+ ------ -------------------------------------------------------- 
+  56     Call to deprecated function format_date().              
+  99     Call to deprecated function entity_get_form_display().  
+  203    Call to deprecated function drupal_set_message().       
+  209    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/bat_event/src/Entity/Form/StateDeleteForm.php  
+ ------ ------------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/bat_event/src/Entity/Form/StateForm.php    
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/bat_event/src/EventListBuilder.php                           
+ ------ --------------------------------------------------------------------- 
+  24     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalat_event\EventListBuilder.                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/bat_event/src/EventTypeForm.php                     
+ ------ ------------------------------------------------------------ 
+  128    Call to deprecated method entityManager() of class Drupal.  
+  154    Call to deprecated method entityManager() of class Drupal.  
+  222    Call to deprecated function drupal_set_message().           
+  225    Call to deprecated function drupal_set_message().           
+  228    Call to deprecated method urlInfo() of class                
+         Drupal\Core\Entity\EntityInterface.                         
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/bat_event/src/Plugin/views/field/BatEventHandlerValueField.php  
+ ------ ------------------------------------------------------------------------ 
+  38     Call to deprecated function drupal_render().                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/bat_event/src/StateListBuilder.php                           
+ ------ --------------------------------------------------------------------- 
+  25     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalat_event\StateListBuilder.                             
+  133    Call to deprecated method l() of class                               
+         Drupalat_event\StateListBuilder.                                   
+  134    Call to deprecated method getLabel() of class                        
+         Drupal\Core\Entity\EntityListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/bat_facets/src/Plugin/facets/widget/BatStateWidget.php      
+ ------ -------------------------------------------------------------------- 
+         Class Drupalacets\Pluginacets\widget\LinksWidget not found and  
+         could not be autoloaded.                                            
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/bat_fullcalendar/src/Form/FullcalendarEventManagerForm.php  
+ ------ -------------------------------------------------------------------- 
+  72     Call to deprecated function entity_load().                          
+  110    Call to deprecated method entityManager() of class Drupal.          
+  113    Call to deprecated function entity_get_form_display().              
+  209    Call to deprecated function entity_load().                          
+  212    Call to deprecated function drupal_render().                        
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/bat_fullcalendar/src/FullCalendarOpenStateEventFormatter.php  
+ ------ ---------------------------------------------------------------------- 
+  46     Call to deprecated function entity_load().                            
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   modules/bat_unit/bat_unit.module                
+ ------ ------------------------------------------------ 
+  88     Call to deprecated method l() of class Drupal.  
+  109    Call to deprecated method l() of class Drupal.  
+  215    Call to deprecated function db_and().           
+  547    Call to deprecated function db_and().           
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/bat_unit/src/Entity/Form/UnitDeleteForm.php  
+ ------ ----------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/bat_unit/src/Entity/Form/UnitForm.php      
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function format_date().         
+  112    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/bat_unit/src/Entity/Form/UnitTypeDeleteForm.php  
+ ------ --------------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/bat_unit/src/Entity/Form/UnitTypeForm.php  
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function format_date().         
+  112    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/bat_unit/src/Form/TypeBundleDeleteConfirm.php  
+ ------ ------------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/bat_unit/src/Plugin/views/field/UnitBulkForm.php       
+ ------ --------------------------------------------------------------- 
+  12     Class Drupalat_unit\Pluginiewsield\UnitBulkForm extends  
+         deprecated class Drupal\system\Pluginiewsield\BulkForm.    
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/bat_unit/src/TypeBundleForm.php            
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/bat_unit/src/UnitBundleForm.php            
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/bat_unit/src/UnitListBuilder.php                                 
+ ------ ------------------------------------------------------------------------- 
+  25     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in      
+         class Drupalat_unit\UnitListBuilder.                                   
+  114    Call to deprecated method l() of class Drupalat_unit\UnitListBuilder.  
+  115    Call to deprecated method getLabel() of class                            
+         Drupal\Core\Entity\EntityListBuilder.                                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/bat_unit/src/UnitTypeListBuilder.php                         
+ ------ --------------------------------------------------------------------- 
+  25     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalat_unit\UnitTypeListBuilder.                           
+  114    Call to deprecated method l() of class                               
+         Drupalat_unit\UnitTypeListBuilder.                                 
+  115    Call to deprecated method getLabel() of class                        
+         Drupal\Core\Entity\EntityListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/TypeGroupDeleteForm.php            
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/TypeGroupForm.php                  
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function format_date().         
+  112    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/ParamConverter/DateParamConverter.php        
+ ------ ------------------------------------------------- 
+  20     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  20     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/TypeGroupBundleForm.php                        
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/TypeGroupListBuilder.php                                             
+ ------ ------------------------------------------------------------------------- 
+  25     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in      
+         class Drupalat\TypeGroupListBuilder.                                   
+  113    Call to deprecated method l() of class Drupalat\TypeGroupListBuilder.  
+  114    Call to deprecated method getLabel() of class                            
+         Drupal\Core\Entity\EntityListBuilder.                                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   test/behat/features/bootstrap/FeatureContext.php                 
+ ------ ----------------------------------------------------------------- 
+         Class FeatureContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 89 errors                                                         
+
+ </code>

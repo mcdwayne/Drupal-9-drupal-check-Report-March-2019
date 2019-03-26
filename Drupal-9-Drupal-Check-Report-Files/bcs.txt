@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bcs 8.x-1.7
+source : http://cgit.drupalcode.org/bcs 
+ 
+ <code> 
+
+
+ ------ ------------------------------------------------------------ 
+  Line   src/BCSBase.php                                             
+ ------ ------------------------------------------------------------ 
+  21     Call to deprecated method entityManager() of class Drupal.  
+  57     Call to deprecated function db_update().                    
+  82     Call to deprecated function db_select().                    
+  101    Call to deprecated function db_delete().                    
+  120    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

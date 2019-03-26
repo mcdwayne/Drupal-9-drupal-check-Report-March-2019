@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bif df8e7d85b5f9c34731464ef4bfb025d18d69160a
+source : http://cgit.drupalcode.org/bif 
+ 
+ <code> 
+
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/BlockInFormAddController.php         
+ ------ ---------------------------------------------------- 
+  25     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/BlockInFormAddForm.php                             
+ ------ ------------------------------------------------------------ 
+  214    Call to deprecated method entityManager() of class Drupal.  
+  300    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BlockInFormDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/FormEntityFormDisplayEditAlter.php                 
+ ------ ------------------------------------------------------------ 
+  217    Call to deprecated method l() of class Drupal.              
+  256    Call to deprecated function drupal_set_message().           
+  431    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

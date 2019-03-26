@@ -1,0 +1,8 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uber_publisher_core 5a29f3cd0c006a27d0d26a30d2be35473f8baff6
+source : http://cgit.drupalcode.org/uber_publisher_core 
+ 
+ <code> 
+Fatal error: Declaration of Drupal\uber_publisher_fbia\Plugin\Field\FieldFormatter\ERImageFormatter::viewInstantArticle(Drupal\Core\Field\FieldItemListInterface $items, Facebook\InstantArticles\Elements\InstantArticle $article, $region, $langcode = NULL) must be compatible with Drupalb_instant_articles\Plugin\Field\InstantArticleFormatterInterface::viewInstantArticle(Drupal\Core\Field\FieldItemListInterface $items, Facebook\InstantArticles\Elements\InstantArticle $article, $region, Symfony\Component\Serializer\Normalizer\NormalizerInterface $normalizer, $langcode = NULL) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/uber_publisher_core/modules/uber_publisher_fbia/src/Plugin/Field/FieldFormatter/ERImageFormatter.php on line 35 
+
+ </code>

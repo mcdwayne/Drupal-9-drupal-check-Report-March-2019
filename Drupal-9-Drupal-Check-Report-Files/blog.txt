@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/blog 43a21717baa0e28888a40da5792601d33ecc016f
+source : http://cgit.drupalcode.org/blog 
+ 
+ <code> 
+
+
+
+ ------ ------------------------------------------------ 
+  Line   blog.module                                     
+ ------ ------------------------------------------------ 
+  19     Call to deprecated method l() of class Drupal.  
+  89     Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/BlogLister.php                                
+ ------ -------------------------------------------------- 
+  52     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

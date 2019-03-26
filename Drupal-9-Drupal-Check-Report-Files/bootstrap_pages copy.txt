@@ -1,0 +1,10 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bootstrap_pages 1dc40546168c72b5722cc043cb1be2746142947c
+source : http://cgit.drupalcode.org/bootstrap_pages 
+ 
+ <code> 
+
+
+Fatal error: Drupal\Core\DependencyInjection\ContainerNotInitializedException thrown while calling __toString on a Drupal\Core\StringTranslation\TranslatableMarkup object in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/core/lib/Drupal.php on line 130: \Drupal::$container is not initialized yet. \Drupal::setContainer() must be called with a real container. in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/core/lib/Drupal/Component/Utility/ToStringTrait.php on line 20 
+
+ </code>

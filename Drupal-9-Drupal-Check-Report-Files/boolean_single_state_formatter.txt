@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/boolean_single_state_formatter 2df40ccf4bba6ed7e3bf613ee30209151d77e2c4
+source : http://cgit.drupalcode.org/boolean_single_state_formatter 
+ 
+ <code> 
+
+
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/FieldFormatterTest.php        
+ ------ --------------------------------------------------- 
+  63     Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  76     Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  130    Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>
