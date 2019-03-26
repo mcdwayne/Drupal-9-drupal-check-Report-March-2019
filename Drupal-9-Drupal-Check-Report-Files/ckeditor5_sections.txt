@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ckeditor5_sections 55be84ce0808f7650ded1d944f01e6107d28451e
+source : http://cgit.drupalcode.org/ckeditor5_sections 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Form/SectionsMediaLibraryUploadForm.php                           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\media_library\Form\MediaLibraryUploadForm not found and  
+         could not be autoloaded.                                              
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/EntityUsage/Track/CKEditor5SectionsMedia.php                
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\entity_usage\Plugin\EntityUsage\Track\TextFieldEmbedBase  
+         not found and could not be autoloaded.                                 
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

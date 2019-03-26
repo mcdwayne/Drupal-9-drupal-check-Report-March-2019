@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/chinese_captcha 547a41429479843bff97176268f0270223d6b229
+source : http://cgit.drupalcode.org/chinese_captcha 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   chinese_captcha.module                            
+ ------ -------------------------------------------------- 
+  129    Call to deprecated method l() of class Drupal.    
+  180    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ChineseCaptchaRefreshController.php  
+ ------ ---------------------------------------------------- 
+  40     Call to deprecated function db_update().            
+  46     Call to deprecated method url() of class Drupal.    
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Response/ChineseCaptchaResponse.php  
+ ------ ----------------------------------------- 
+  59     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

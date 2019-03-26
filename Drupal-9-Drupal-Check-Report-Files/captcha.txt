@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/captcha e935322714de920f9378958b801cd3ab58f3d7e8
+source : http://cgit.drupalcode.org/captcha 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   captcha.module                                   
+ ------ ------------------------------------------------- 
+  257    Call to deprecated method url() of class         
+         Drupal\Core\Config\Entity\ConfigEntityBase.      
+  320    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  320    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  350    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  350    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   image_captcha/src/Controller/CaptchaImageRefresh.php  
+ ------ ------------------------------------------------------ 
+  46     Call to deprecated method url() of class Drupal.      
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   image_captcha/src/Form/ImageCaptchaSettingsForm.php  
+ ------ ----------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/captcha_long_form_id_test/src/Form/LongIdForm.php  
+ ------ ----------------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CaptchaPointDeleteForm.php                
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CaptchaPointDisableForm.php               
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CaptchaPointEnableForm.php                
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CaptchaPointForm.php                      
+ ------ --------------------------------------------------- 
+  104    Call to deprecated function drupal_set_message().  
+  109    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CaptchaSettingsForm.php                   
+ ------ --------------------------------------------------- 
+  237    Call to deprecated function drupal_set_message().  
+  252    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cacheflush a7efd85f4c1a4212a9d3c5cd53b099ac8111f640
+source : http://cgit.drupalcode.org/cacheflush 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/cacheflush_ui/src/Entity/Form/CacheflushEntityDeleteForm.php  
+ ------ ---------------------------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/cacheflush_ui/src/Entity/Form/CacheflushEntityForm.php  
+ ------ ---------------------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().               
+  118    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/cacheflush_ui/src/Form/CacheflushDeleteMultiple.php  
+ ------ ------------------------------------------------------------- 
+  198    Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/cacheflush_ui/src/Plugin/views/field/CacheflushBulkForm.php  
+ ------ --------------------------------------------------------------------- 
+  12     Class Drupal

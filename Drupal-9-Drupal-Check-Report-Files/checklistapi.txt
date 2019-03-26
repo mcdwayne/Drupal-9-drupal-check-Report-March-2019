@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/checklistapi 8c2928a836ef43a255e9fd82c5dab7cc7ec4cd5c
+source : http://cgit.drupalcode.org/checklistapi 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   checklistapi.drush.inc                            
+ ------ -------------------------------------------------- 
+  146    Call to deprecated function format_date().        
+  147    Call to deprecated method getUsername() of class  
+         Drupal\user\Entity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ChecklistapiChecklist.php                      
+ ------ --------------------------------------------------- 
+  124    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  147    Call to deprecated function drupal_set_message().  
+  181    Call to deprecated method getUsername() of class   
+         Drupal\user\Entity\User.                           
+  197    Call to deprecated function format_date().         
+  311    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ChecklistapiController.php          
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_placeholder().  
+  46     Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChecklistapiChecklistForm.php             
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function format_date().         
+  88     Call to deprecated method getUsername() of class   
+         Drupal\user\Entity\User.                           
+  107    Call to deprecated method l() of class Drupal.     
+  159    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

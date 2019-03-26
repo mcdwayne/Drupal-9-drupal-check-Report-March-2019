@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/calendar 1ef5b86b11bf69641cc6539bcc93f73e7afb8ebf
+source : http://cgit.drupalcode.org/calendar 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   calendar.theme.inc                                        
+ ------ ---------------------------------------------------------- 
+  84     Call to deprecated function calendar_granularity_path().  
+  646    Call to deprecated function calendar_granularity_path().  
+  647    Call to deprecated function calendar_granularity_path().  
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/CalendarHelper.php                       
+ ------ --------------------------------------------- 
+  46     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/CalendarLegend.php                
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/style/Calendar.php                
+ ------ --------------------------------------------------- 
+  487    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

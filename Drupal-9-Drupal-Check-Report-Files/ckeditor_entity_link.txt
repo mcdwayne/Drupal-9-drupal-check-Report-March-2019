@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ckeditor_entity_link e64c802f65639f5f9a7b9526724c9d5fa37ee3a4
+source : http://cgit.drupalcode.org/ckeditor_entity_link 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/CKEditorEntityLinkConfigForm.php                   
+ ------ ------------------------------------------------------------ 
+  71     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/CKEditorEntityLinkDialog.php                       
+ ------ ------------------------------------------------------------ 
+  129    Call to deprecated method entityManager() of class Drupal.  
+  161    Call to deprecated method url() of class                    
+         Drupal\Core\Entity\EntityInterface.                         
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

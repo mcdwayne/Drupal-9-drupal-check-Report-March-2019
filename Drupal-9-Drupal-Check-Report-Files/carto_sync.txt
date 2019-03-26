@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/carto_sync c53b800d5e5549a44677ebc83b3d4fbb305d1d1a
+source : http://cgit.drupalcode.org/carto_sync 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImportForm.php                            
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/display/CartoSync.php                      
+ ------ ------------------------------------------------------------ 
+  287    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/style/CartoSync.php                        
+ ------ ------------------------------------------------------------ 
+  228    Call to deprecated method entityManager() of class Drupal.  
+  269    Call to deprecated function file_prepare_directory().       
+  270    Call to deprecated function file_unmanaged_save_data().     
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

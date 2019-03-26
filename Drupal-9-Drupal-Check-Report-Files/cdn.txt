@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cdn dda083681c56b7f39422e4ad58e29618c04aedcf
+source : http://cgit.drupalcode.org/cdn 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/File/FileUrlGenerator.php                    
+ ------ ------------------------------------------------- 
+  161    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  212    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/StackMiddleware/DuplicateContentPreventionMiddleware.php  
+ ------ -------------------------------------------------------------- 
+  150    Call to deprecated method strtolower() of class               
+         Drupal\Component\Utility\Unicode.                             
+  165    Call to deprecated method strtolower() of class               
+         Drupal\Component\Utility\Unicode.                             
+  167    Call to deprecated method strtolower() of class               
+         Drupal\Component\Utility\Unicode.                             
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/carerix_form 4ed30f69cee2a1be43d26833a8df11e8dbb6efd2
+source : http://cgit.drupalcode.org/carerix_form 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/carerix_form_test/src/Controller/TestController.php  
+ ------ ------------------------------------------------------------- 
+  123    Calls to function dpm should not exist.                      
+  128    Calls to function dpm should not exist.                      
+  138    Calls to function dpm should not exist.                      
+  139    Calls to function dpm should not exist.                      
+  151    Calls to function dpm should not exist.                      
+  155    Calls to function dpm should not exist.                      
+  174    Calls to function dpm should not exist.                      
+  175    Calls to function dpm should not exist.                      
+  184    Calls to function dpm should not exist.                      
+  187    Calls to function dpm should not exist.                      
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/CarerixService.php                             
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CRDataNodesSyncController.php       
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  141    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CRForm.php                                
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  218    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CarerixFormEditForm.php                   
+ ------ --------------------------------------------------- 
+  149    Call to deprecated function drupal_set_message().  
+  236    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

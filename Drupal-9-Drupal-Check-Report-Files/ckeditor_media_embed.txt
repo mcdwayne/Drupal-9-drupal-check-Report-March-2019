@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ckeditor_media_embed 248d487bf181f9aa94464effbae2205f4495f5ca
+source : https://drupal.org/project/ckeditor_media_embed 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Embed.php                                      
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  131    Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CKEditorMediaEmbedSettingsForm.php        
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

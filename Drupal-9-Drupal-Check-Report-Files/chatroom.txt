@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/chatroom 95733b794186f49a3e14e9509d108846f9bbc7db
+source : http://cgit.drupalcode.org/chatroom 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   chatroom.module                              
+ ------ --------------------------------------------- 
+  18     Call to deprecated function db_query().      
+  29     Call to deprecated function db_query().      
+  39     Call to deprecated function db_query().      
+  68     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  134    Call to deprecated function user_load().     
+  188    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  188    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/ChatroomViewBuilder.php                                 
+ ------ ------------------------------------------------------------ 
+  87     Call to deprecated method entityManager() of class Drupal.  
+  120    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ChatroomController.php               
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  66     Call to deprecated function drupal_render().        
+  93     Call to deprecated function drupal_render().        
+  115    Call to deprecated function drupal_render().        
+  152    Call to deprecated function drupal_render().        
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Chatroom.php                                     
+ ------ ------------------------------------------------------------ 
+  248    Call to deprecated method entityManager() of class Drupal.  
+  264    Call to deprecated function user_load_multiple().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChatroomForm.php                          
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  35     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+  38     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

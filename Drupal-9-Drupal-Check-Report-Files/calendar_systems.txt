@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/calendar_systems 7bcec8784616dc24ef26bef98c17fbfe5a2b8355
+source : http://cgit.drupalcode.org/calendar_systems 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   calendar_systems_bef/calendar_systems_bef.module                         
+ ------ ------------------------------------------------------------------------- 
+  7      Class                                                                    
+         Drupaletter_exposed_filters\Pluginiews\exposed_form\BetterExposedFi  
+         lters not found and could not be autoloaded.                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   calendar_systems_bef/src/Plugin/views/exposed_form/CalendarSystemsBef.php  
+ ------ --------------------------------------------------------------------------- 
+         Class                                                                      
+         Drupaletter_exposed_filters\Pluginiews\exposed_form\BetterExposedFi    
+         lters not found and could not be autoloaded.                               
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/CalendarSystemsBlock.php          
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cctags 5e84329875b51363a0e162cc54be882ae32cc7c2
+source : http://cgit.drupalcode.org/cctags 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   cctags.module                                    
+ ------ ------------------------------------------------- 
+  132    Call to deprecated function db_select().         
+  154    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  154    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/CctagsDeleteItemForm.php                           
+ ------ ------------------------------------------------------------ 
+  90     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Block/CctagsBlock.php                                     
+ ------ --------------------------------------------------------------------- 
+  27     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal

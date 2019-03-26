@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ckeditor_uploadimage 887e4d06f6778fcfe7ad1ec969a89fe9d0364a01
+source : http://cgit.drupalcode.org/ckeditor_uploadimage 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Controller/CKEditorUploadImageController.php       
+ ------ ------------------------------------------------------- 
+  32     Call to deprecated function file_upload_max_size().    
+  34     Call to deprecated function file_prepare_directory().  
+  57     Call to deprecated function drupal_get_messages().     
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/DrupalUploadImage.php      
+ ------ ----------------------------------------------------- 
+  91     Call to deprecated function file_upload_max_size().  
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/DrupalUploadImageImce.php  
+ ------ ----------------------------------------------------- 
+  91     Call to deprecated function file_upload_max_size().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/FileTools.php            
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_get_profile().  
+  36     Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/Notification.php         
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_get_profile().  
+  37     Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/CKEditorPlugin/NotificationAggregator.php  
+ ------ ------------------------------------------------------ 
+  35     Call to deprecated function drupal_get_profile().     
+  36     Call to deprecated function drupal_get_profile().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/UploadImage.php          
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_get_profile().  
+  37     Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/UploadWidget.php         
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_get_profile().  
+  36     Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/anchor_link 2c85228bda2fb60ca7d51cdf4ffe1642bb559564
+source : http://cgit.drupalcode.org/anchor_link 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   anchor_link.module                                 
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/AnchorLink.php           
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

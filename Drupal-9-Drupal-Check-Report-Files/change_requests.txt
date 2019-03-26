@@ -1,0 +1,89 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/change_requests 9f6ba8ba0234add4ee1a99f55e81c17b1cca0672
+source : http://cgit.drupalcode.org/change_requests 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   change_requests.module                             
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/PatchApplyController.php            
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/PatchesOverview.php            
+ ------ ---------------------------------------------- 
+  232    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityBase.                
+  239    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityBase.                
+  246    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityBase.                
+  253    Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityBase.                
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DiffService.php                                
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Patch.php                               
+ ------ --------------------------------------------------- 
+  398    Call to deprecated function drupal_set_message().  
+  468    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PatchApplyForm.php                        
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function drupal_set_message().  
+  212    Call to deprecated function drupal_set_message().  
+  323    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PatchDeleteForm.php                       
+ ------ --------------------------------------------------- 
+  30     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+  37     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PatchForm.php                             
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/NodeObserver.php                                                     
+ ------ ------------------------------------------------------------------------- 
+  114    Call to deprecated function drupal_set_message().                        
+  120    Call to deprecated method url() of class Drupal\Core\Entity\EntityBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PatchViewBuilder.php                           
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

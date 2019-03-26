@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/clean_maintenance 8.x-1.3
+source : http://cgit.drupalcode.org/clean_maintenance 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   clean_maintenance.module                     
+ ------ --------------------------------------------- 
+  50     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  50     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

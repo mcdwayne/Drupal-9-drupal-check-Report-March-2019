@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/chatbot f653932487d82827b7eee761fbaf2ae20cb522b6
+source : http://cgit.drupalcode.org/chatbot 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/chatbot_facebook/src/Message/ButtonBase.php        
+ ------ ----------------------------------------------------------- 
+  43     Instantiation of deprecated class                          
+         Doctrine\Common\Proxy\Exception\InvalidArgumentException.  
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/chatbot_facebook/src/Message/ButtonMessage.php     
+ ------ ----------------------------------------------------------- 
+  40     Instantiation of deprecated class                          
+         Doctrine\Common\Proxy\Exception\InvalidArgumentException.  
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/chatbot_facebook/src/Workflow/FBMessengerBotWorkflow.php  
+ ------ ------------------------------------------------------------------ 
+  121    Call to deprecated method entityManager() of class Drupal.        
+  142    Call to deprecated method entityManager() of class Drupal.        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/chatbot_slack/src/Message/ButtonBase.php           
+ ------ ----------------------------------------------------------- 
+  49     Instantiation of deprecated class                          
+         Doctrine\Common\Proxy\Exception\InvalidArgumentException.  
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/chatbot_slack/src/Message/ButtonMessage.php        
+ ------ ----------------------------------------------------------- 
+  42     Instantiation of deprecated class                          
+         Doctrine\Common\Proxy\Exception\InvalidArgumentException.  
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/chatbot_slack/src/Workflow/SlackBotWorkflow.php     
+ ------ ------------------------------------------------------------ 
+  112    Call to deprecated method entityManager() of class Drupal.  
+  133    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/ChatbotListBuilder.php                                           
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal

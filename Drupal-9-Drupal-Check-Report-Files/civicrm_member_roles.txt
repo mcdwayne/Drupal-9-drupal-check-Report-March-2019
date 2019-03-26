@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/civicrm_member_roles 4618f2870a087851c88a5664723b36513279afbc
+source : http://cgit.drupalcode.org/civicrm_member_roles 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Batch/Sync.php                                 
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CivicrmMemberRoleRuleDeleteForm.php       
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CivicrmMemberRoleRuleForm.php             
+ ------ --------------------------------------------------- 
+  140    Call to deprecated function drupal_set_message().  
+  146    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

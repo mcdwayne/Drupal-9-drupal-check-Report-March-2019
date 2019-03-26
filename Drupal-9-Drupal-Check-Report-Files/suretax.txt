@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/suretax 05ac34f4a371921c0d90b840c98ba13118112684
+source : http://cgit.drupalcode.org/suretax 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   suretax.module                                     
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated method l() of class Drupal.     
+  88     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   suretax_sales_calculate.inc               
+ ------ ------------------------------------------ 
+  125    Call to deprecated function db_merge().   
+  158    Call to deprecated function db_select().  
+  197    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>
