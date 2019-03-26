@@ -59,7 +59,7 @@ IFS=${old_IFS2}
 
 ## Extra cleanup step, prevents dependency hang caused by unavailable or require once things
 ## Does clean it up but does slow this down.
-composer require ${col2}
+composer remove ${col2}
 
 
 ## Done with the loop
