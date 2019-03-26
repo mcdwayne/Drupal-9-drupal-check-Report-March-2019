@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/broken_link 8.x-3.0
+source : http://cgit.drupalcode.org/broken_link 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/BrokenLink.php                                   
+ ------ ------------------------------------------------------------ 
+  114    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrokenLinkDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrokenLinkDeleteMultipleForm.php          
+ ------ --------------------------------------------------- 
+  190    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrokenLinkRedirectDeleteForm.php          
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrokenLinkRedirectForm.php                
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+  131    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/views/field/BrokenLinkBulkForm.php                           
+ ------ ------------------------------------------------------------------------ 
+  12     Class Drupalroken_link\Pluginiewsield\BrokenLinkBulkForm extends  
+         deprecated class Drupal\system\Pluginiewsield\BulkForm.             
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

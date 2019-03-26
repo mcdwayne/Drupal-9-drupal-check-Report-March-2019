@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/captcha_questions 99d5788bc47992b91e55be1b560bedd2d8313f7d
+source : http://cgit.drupalcode.org/captcha_questions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   captcha_questions.module                         
+ ------ ------------------------------------------------- 
+  68     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  81     Call to deprecated function db_insert().         
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CaptchaQuestionsSettingsForm.php          
+ ------ --------------------------------------------------- 
+  259    Call to deprecated function drupal_set_message().  
+  263    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

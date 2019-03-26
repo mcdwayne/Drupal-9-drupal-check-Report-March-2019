@@ -1,0 +1,125 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/brightcove 652b9f8f77bf8d0cd11fd3705cd9f702c400a4a0
+source : http://cgit.drupalcode.org/brightcove 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   brightcove.module                                     
+ ------ ------------------------------------------------------ 
+  315    Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomy\TermInterface.                        
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/media_entity_brightcove/src/Plugin/MediaEntity/Type/BrightcoveVideo.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be               
+         autoloaded.                                                                      
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/BrightcovePlaylistListBuilder.php                                
+ ------ --------------------------------------------------------------------- 
+  21     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalrightcove\BrightcovePlaylistListBuilder.               
+  106    Call to deprecated method l() of class                               
+         Drupalrightcove\BrightcovePlaylistListBuilder.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/BrightcoveUtil.php                             
+ ------ --------------------------------------------------- 
+  198    Call to deprecated function drupal_set_message().  
+  208    Call to deprecated function drupal_set_message().  
+  214    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/BrightcoveVideoListBuilder.php                                   
+ ------ --------------------------------------------------------------------- 
+  23     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalrightcove\BrightcoveVideoListBuilder.                  
+  111    Call to deprecated method l() of class                               
+         Drupalrightcove\BrightcoveVideoListBuilder.                        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Controller/BrightcoveSubscriptionController.php  
+ ------ ----------------------------------------------------- 
+  192    Call to deprecated function drupal_set_message().    
+  235    Call to deprecated function drupal_set_message().    
+  267    Call to deprecated function drupal_set_message().    
+  287    Call to deprecated function drupal_set_message().    
+  290    Call to deprecated function drupal_set_message().    
+  309    Call to deprecated function drupal_set_message().    
+  312    Call to deprecated function drupal_set_message().    
+  379    Call to deprecated function drupal_set_message().    
+  382    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/BrightcoveVideo.php                     
+ ------ --------------------------------------------------- 
+  924    Call to deprecated function drupal_set_message().  
+  928    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrightcoveAPIClientDeleteForm.php         
+ ------ --------------------------------------------------- 
+  253    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrightcoveAPIClientForm.php               
+ ------ --------------------------------------------------- 
+  320    Call to deprecated function drupal_set_message().  
+  344    Call to deprecated function drupal_set_message().  
+  353    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrightcovePlaylistForm.php                
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrightcoveSubscriptionDeleteForm.php      
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrightcoveSubscriptionForm.php            
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrightcoveTextTrackForm.php               
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BrightcoveVideoForm.php                   
+ ------ --------------------------------------------------- 
+  265    Call to deprecated function drupal_set_message().  
+  271    Call to deprecated function drupal_set_message().  
+  278    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 39 errors                                                         
+
+ </code>

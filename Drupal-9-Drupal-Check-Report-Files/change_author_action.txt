@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/change_author_action 8.x-1.0-alpha1
+source : http://cgit.drupalcode.org/change_author_action 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ChangeAuthorAction.php                         
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChangeAuthorActionForm.php                
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

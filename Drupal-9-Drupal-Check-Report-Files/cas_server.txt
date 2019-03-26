@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cas_server 91919073d53a716a78c6893a683addae4c0c45b1
+source : http://cgit.drupalcode.org/cas_server 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Configuration/ConfigHelper.php           
+ ------ --------------------------------------------- 
+  241    Calls to function fnmatch should not exist.  
+ ------ --------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/ServicesListBuilder.php         
+ ------ ----------------------------------------------- 
+  32     Call to deprecated method getLabel() of class  
+         Drupal\Core\Entity\EntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServicesDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ServicesForm.php                          
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserLogin.php                             
+ ------ --------------------------------------------------- 
+  177    Call to deprecated function drupal_set_message().  
+  201    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

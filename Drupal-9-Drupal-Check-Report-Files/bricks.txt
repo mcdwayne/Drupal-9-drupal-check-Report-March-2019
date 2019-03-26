@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bricks 2dc98d42a1f56850bf581519bb12ad73292bc6dc
+source : http://cgit.drupalcode.org/bricks 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   bricks.module                                      
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+  196    Call to deprecated function entity_create().       
+  196    Call to deprecated function entity_load().         
+  237    Call to deprecated function drupal_render().       
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   modules/bricks_dynamic/src/Plugin/Field/FieldFormatter/BricksNestedDynamicFormatter.php  
+ ------ ----------------------------------------------------------------------------------------- 
+         Class                                                                                    
+         Drupal\dynamic_entity_reference\Plugin\Field\FieldFormatter\DynamicEnti                  
+         tyReferenceEntityFormatter not found and could not be autoloaded.                        
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/bricks_dynamic/src/Plugin/Field/FieldType/BricksTreeDynamicItem.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class                                                                        
+         Drupal\dynamic_entity_reference\Plugin\Field\FieldType\DynamicEntityRef      
+         erenceItem not found and could not be autoloaded.                            
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/bricks_dynamic/src/Plugin/Field/FieldWidget/BricksTreeDynamicWidget.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class                                                                            
+         Drupal\dynamic_entity_reference\Plugin\Field\FieldWidget\DynamicEntityR          
+         eferenceWidget not found and could not be autoloaded.                            
+ ------ --------------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

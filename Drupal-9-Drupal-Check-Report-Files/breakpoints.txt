@@ -1,0 +1,137 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/breakpoints 8e92c6d901bba977a04b14e71c4dee73d89906a8
+source : http://cgit.drupalcode.org/breakpoints 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   breakpoint.module                                    
+ ------ ----------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().    
+  151    Call to deprecated function entity_load_multiple().  
+  165    Call to deprecated function entity_load_multiple().  
+  193    Call to deprecated function entity_load_multiple().  
+  350    Call to deprecated function entity_load().           
+  366    Call to deprecated function entity_load().           
+  377    Call to deprecated function entity_load_multiple().  
+  393    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Breakpoint.php          
+ ------ ---------------------------------------------- 
+  212    Call to deprecated function entity_create().  
+  258    Call to deprecated function format_string().  
+  264    Call to deprecated function format_string().  
+  268    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/BreakpointGroup.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalreakpoint\BreakpointGroup was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/InvalidBreakpointException.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalreakpoint\InvalidBreakpointException was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/InvalidBreakpointMediaQueryException.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalreakpoint\InvalidBreakpointMediaQueryException was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/InvalidBreakpointNameException.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalreakpoint\InvalidBreakpointNameException was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/breakpoint/InvalidBreakpointSourceException.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalreakpoint\InvalidBreakpointSourceException was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/InvalidBreakpointSourceTypeException.php        
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalreakpoint\InvalidBreakpointSourceTypeException was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointAPITest.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointAPITest was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointCrudTest.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointCrudTest was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointGroupAPITest.php               
+ ------ --------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointGroupAPITest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointGroupCrudTest.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointGroupCrudTest was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointGroupTestBase.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointGroupTestBase was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointMediaQueryTest.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointMediaQueryTest was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointTestBase.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointTestBase was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/breakpoint/Tests/BreakpointThemeTest.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalreakpoint\Tests\BreakpointThemeTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

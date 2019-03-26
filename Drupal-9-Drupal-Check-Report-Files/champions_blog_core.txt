@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/champions_blog_core e311f07613ba7c4b51905875478891e12a650960
+source : http://cgit.drupalcode.org/champions_blog_core 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   includes/champs_blog.common.inc                        
+ ------ ------------------------------------------------------- 
+  39     Call to deprecated method getEntityManager() of class  
+         Drupal\Core\Config\ConfigManagerInterface.             
+  85     Call to deprecated method getEntityManager() of class  
+         Drupal\Core\Config\ConfigManagerInterface.             
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

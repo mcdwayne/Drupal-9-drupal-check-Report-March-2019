@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feeds_brighttalk 0c7ada1c6e3ae212a589c7815d77cc52e32133fe
+source : http://cgit.drupalcode.org/feeds_brighttalk 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   BrighttalkChannelParser.inc                                             
+ ------ ------------------------------------------------------------------------ 
+         Class BrighttalkChannelParser was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   copy-to-feeds/BrightTALKParser.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupaleeds\Feeds\Parser\BrightTALKParser was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/BrighttalkChannelParser.php                                       
+ ------ ---------------------------------------------------------------------- 
+         Class Drupaleeds_brighttalk\FeedsParser not found and could not be  
+         autoloaded.                                                           
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/chrome_push_notification 36d82cec10d1c8d5afe66ee722c575733808a395
+source : http://cgit.drupalcode.org/chrome_push_notification 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChromePushNotificationConfigForm.php      
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/ChromePushNotificationSendMessageForm.php  
+ ------ ---------------------------------------------------- 
+  153    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

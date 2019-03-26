@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ckeditor_sitesearch d114d33263e90da747b836f7e82db342e43f931b
+source : http://cgit.drupalcode.org/ckeditor_sitesearch 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   ckeditor_sitesearch.module                        
+ ------ -------------------------------------------------- 
+  21     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/SiteSearch.php           
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function libraries_get_path().  
+  59     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

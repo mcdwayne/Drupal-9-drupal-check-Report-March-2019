@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bulk_copy_fields 822724f83e323039cca683702028a814726fc4ec
+source : http://cgit.drupalcode.org/bulk_copy_fields 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/BulkCopyFields.php                             
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BulkCopyFieldsForm.php                    
+ ------ --------------------------------------------------- 
+  165    Call to deprecated function drupal_set_message().  
+  251    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

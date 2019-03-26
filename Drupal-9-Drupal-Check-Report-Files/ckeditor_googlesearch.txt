@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ckeditor_googlesearch 0219848b20498f3121e0ce1f7afa84746ef5c4b9
+source : http://cgit.drupalcode.org/ckeditor_googlesearch 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   ckeditor_googlesearch.module                      
+ ------ -------------------------------------------------- 
+  22     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/Search.php               
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function libraries_get_path().  
+  56     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

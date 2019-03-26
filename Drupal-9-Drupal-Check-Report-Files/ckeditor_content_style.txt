@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ckeditor_content_style 035bb4247ae68d4b284a6733a7297b34caecf5ab
+source : http://cgit.drupalcode.org/ckeditor_content_style 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   ckeditor_content_style.module             
+ ------ ------------------------------------------ 
+  44     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CkCSForm.php                              
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

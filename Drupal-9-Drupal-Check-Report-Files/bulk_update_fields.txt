@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bulk_update_fields e67cda06e7df400b1d8c7e39e24b2c11ecd60bf8
+source : http://cgit.drupalcode.org/bulk_update_fields 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/BulkUpdateFields.php                           
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BulkUpdateFieldsForm.php                  
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  211    Call to deprecated function drupal_set_message().  
+  240    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

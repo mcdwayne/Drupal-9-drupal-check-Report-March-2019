@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/chain_menu_access 3e7d65b833e407e1fec9016ebfa5bce9ebf422da
+source : http://cgit.drupalcode.org/chain_menu_access 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   chain_menu_access.module                                           
+ ------ ------------------------------------------------------------------- 
+         Class ChainMenuAccessChainException was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/chain_menu_access_test.module                
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

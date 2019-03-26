@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/chart_suite 8.x-1.0
+source : http://cgit.drupalcode.org/chart_suite 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   libraries/SDSCStructuredData.1.0.1.php                                
+ ------ ---------------------------------------------------------------------- 
+         Class SDSC\StructuredData\AbstractData was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ChartSuiteFileFormatter.php              
+ ------ ------------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException         
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()     
+         must be called with a real container.) thrown while autoloading class    
+         Drupal

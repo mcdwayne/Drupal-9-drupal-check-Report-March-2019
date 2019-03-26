@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/browscap 618b6cb2a02c4953638d8f99f828a50d1cd88038
+source : http://cgit.drupalcode.org/browscap 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   browscap.module                                 
+ ------ ------------------------------------------------ 
+  18     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/BrowscapEndpoint.php                           
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/BrowscapImporter.php                           
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+  258    Call to deprecated function db_insert().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/BrowscapAdmin.php                      
+ ------ ------------------------------------------------ 
+  69     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

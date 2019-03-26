@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/chessboard 64fd2703737f330bd29850c6ac71f4f4eae75387
+source : http://cgit.drupalcode.org/chessboard 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   chessboard_filter/chessboard_filter.module        
+ ------ -------------------------------------------------- 
+  15     Call to deprecated method url() of class Drupal.  
+  16     Call to deprecated method l() of class Drupal.    
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   chessboard_filter/src/Tests/ChessboardFilterTest.php  
+ ------ ------------------------------------------------------ 
+  54     Call to deprecated function entity_create().          
+ ------ ------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------- 
+  Line   chessboard_plain_text_formatter/src/Plugin/Field/FieldFormatter/ChessboardPlainTextFormatter.php  
+ ------ -------------------------------------------------------------------------------------------------- 
+         Class                                                                                             
+         Drupal

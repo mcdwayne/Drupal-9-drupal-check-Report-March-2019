@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bulkdelete 24499e0f069301d605ab0691e2d6e17ecbcb4060
+source : http://cgit.drupalcode.org/bulkdelete 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/BulkDeleteForm.php                            
+ ------ ------------------------------------------------------- 
+  28     Call to deprecated function node_type_get_types().     
+  74     Call to deprecated function db_select().               
+  113    Call to deprecated function drupal_set_message().      
+  128    Call to deprecated function entity_delete_multiple().  
+  151    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/browser_refresh 6387f0b526fe0896da826c3375002f186e356fbf
+source : http://cgit.drupalcode.org/browser_refresh 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/BrowserRefreshService.php                      
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_realpath().     
+  95     Call to deprecated function drupal_tempnam().      
+  173    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Command/BrowserRefreshCommandBase.php                        
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\Console\Command\Command not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Command/BrowserRefreshRestartCommand.php                        
+ ------ -------------------------------------------------------------------- 
+         Class Drupalrowser_refresh\Command\BrowserRefreshCommandBase not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Command/BrowserRefreshStartCommand.php                          
+ ------ -------------------------------------------------------------------- 
+         Class Drupalrowser_refresh\Command\BrowserRefreshCommandBase not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Command/BrowserRefreshStatusCommand.php                         
+ ------ -------------------------------------------------------------------- 
+         Class Drupalrowser_refresh\Command\BrowserRefreshCommandBase not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Command/BrowserRefreshStopCommand.php                           
+ ------ -------------------------------------------------------------------- 
+         Class Drupalrowser_refresh\Command\BrowserRefreshCommandBase not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

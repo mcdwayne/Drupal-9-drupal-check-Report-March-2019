@@ -1,0 +1,63 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cb e21cf6d32e1cb5ed90d894bbf9821c20bf3f92b6
+source : http://cgit.drupalcode.org/cb 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   cb.module                                 
+ ------ ------------------------------------------ 
+  54     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/BreadcrumbStorage.php                 
+ ------ ------------------------------------------ 
+  113    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/CbBreadcrumbBuilder.php                                 
+ ------ ------------------------------------------------------------ 
+  83     Call to deprecated method entityManager() of class Drupal.  
+  114    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/CbController.php                     
+ ------ ---------------------------------------------------- 
+  23     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  40     Call to deprecated function db_select().            
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Breadcrumb.php                                   
+ ------ ------------------------------------------------------------ 
+  156    Call to deprecated method entityManager() of class Drupal.  
+  164    Call to deprecated function entity_delete_multiple().       
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/OverviewBreadcrumbs.php                                     
+ ------ --------------------------------------------------------------------- 
+  103    Call to deprecated function db_select().                             
+  149    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/MultistepBreadcrumbForm.php                             
+ ------ ------------------------------------------------------------ 
+  67     Access to deprecated property $entityManager of class       
+         Drupal\Core\Entity\EntityForm.                              
+  79     Call to deprecated function db_select().                    
+  341    Call to deprecated method link() of class                   
+         Drupal\Core\Entity\EntityInterface.                         
+  344    Call to deprecated function drupal_set_message().           
+  348    Call to deprecated function drupal_set_message().           
+  365    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

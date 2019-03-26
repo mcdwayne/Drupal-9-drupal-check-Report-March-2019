@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bulk_content_operation 8.x-3.0-alpha2
+source : http://cgit.drupalcode.org/bulk_content_operation 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/FileManagerServices.php                        
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function drupal_set_message().  
+  22     Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/PHPExcelGenericOperations.php                           
+ ------ ------------------------------------------------------------ 
+  15     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/PHPExcelOperations.php                         
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function libraries_get_path().  
+  25     Call to deprecated function libraries_get_path().  
+  28     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  65     Call to deprecated function libraries_get_path().  
+  66     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

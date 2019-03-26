@@ -1,0 +1,251 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/campaign_kit ad59e3ab6257df0d4bbe172124c1cad23f97914a
+source : http://cgit.drupalcode.org/campaign_kit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   campaign_kit.module                                
+ ------ --------------------------------------------------- 
+  697    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Controller/CampaignController.php  
+ ------ ----------------------------------------------------------------- 
+  154    Call to deprecated method l() of class                           
+         Drupal\Core\Controller\ControllerBase.                           
+  160    Call to deprecated method link() of class                        
+         Drupal\Core\Entity\EntityInterface.                              
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Controller/CampaignTransactionController.php  
+ ------ ---------------------------------------------------------------------------- 
+  156    Call to deprecated method l() of class                                      
+         Drupal\Core\Controller\ControllerBase.                                      
+  162    Call to deprecated method link() of class                                   
+         Drupal\Core\Entity\EntityInterface.                                         
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Controller/CampaignUpdateController.php  
+ ------ ----------------------------------------------------------------------- 
+  156    Call to deprecated method l() of class                                 
+         Drupal\Core\Controller\ControllerBase.                                 
+  162    Call to deprecated method link() of class                              
+         Drupal\Core\Entity\EntityInterface.                                    
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Controller/DonationController.php  
+ ------ ----------------------------------------------------------------- 
+  155    Call to deprecated method l() of class                           
+         Drupal\Core\Controller\ControllerBase.                           
+  161    Call to deprecated method link() of class                        
+         Drupal\Core\Entity\EntityInterface.                              
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Controller/TeamController.php  
+ ------ ------------------------------------------------------------- 
+  147    Call to deprecated method l() of class                       
+         Drupal\Core\Controller\ControllerBase.                       
+  150    Call to deprecated method link() of class                    
+         Drupal\Core\Entity\EntityInterface.                          
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignDonationForm.php  
+ ------ ------------------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().            
+  43     Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignDonationTypeDeleteForm.php  
+ ------ ----------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignDonationTypeForm.php  
+ ------ ----------------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().                
+  58     Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignForm.php  
+ ------ ----------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().    
+  64     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignRevisionDeleteForm.php  
+ ------ ------------------------------------------------------------------- 
+  76     Call to deprecated function format_date().                         
+  110    Call to deprecated function drupal_set_message().                  
+  110    Call to deprecated function format_date().                         
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignRevisionRevertForm.php  
+ ------ ------------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignTransactionForm.php  
+ ------ ---------------------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().               
+  64     Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/campaign_kit_core/src/Form/CampaignTransactionRevisionDeleteForm.php  
+ ------ ------------------------------------------------------------------------------ 
+  76     Call to deprecated function format_date().                                    
+  110    Call to deprecated function drupal_set_message().                             
+  110    Call to deprecated function format_date().                                    
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/campaign_kit_core/src/Form/CampaignTransactionRevisionRevertForm.php  
+ ------ ------------------------------------------------------------------------------ 
+  123    Call to deprecated function drupal_set_message().                             
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignTransactionTypeDeleteForm.php  
+ ------ -------------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignTransactionTypeForm.php  
+ ------ -------------------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().                   
+  58     Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignTypeDeleteForm.php  
+ ------ --------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignTypeForm.php  
+ ------ --------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().        
+  58     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignUpdateForm.php  
+ ------ ----------------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().          
+  64     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignUpdateRevisionDeleteForm.php  
+ ------ ------------------------------------------------------------------------- 
+  76     Call to deprecated function format_date().                               
+  110    Call to deprecated function drupal_set_message().                        
+  110    Call to deprecated function format_date().                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignUpdateRevisionRevertForm.php  
+ ------ ------------------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignUpdateTypeDeleteForm.php  
+ ------ --------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/CampaignUpdateTypeForm.php  
+ ------ --------------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().              
+  58     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/DonationForm.php  
+ ------ ----------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().    
+  64     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/DonationRevisionDeleteForm.php  
+ ------ ------------------------------------------------------------------- 
+  76     Call to deprecated function format_date().                         
+  110    Call to deprecated function drupal_set_message().                  
+  110    Call to deprecated function format_date().                         
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/DonationRevisionRevertForm.php  
+ ------ ------------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/DonationTypeDeleteForm.php  
+ ------ --------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/DonationTypeForm.php  
+ ------ --------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().        
+  58     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/TeamForm.php    
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/TeamRevisionDeleteForm.php  
+ ------ --------------------------------------------------------------- 
+  76     Call to deprecated function format_date().                     
+  110    Call to deprecated function drupal_set_message().              
+  110    Call to deprecated function format_date().                     
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/TeamRevisionRevertForm.php  
+ ------ --------------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/TeamTypeDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/Form/TeamTypeForm.php  
+ ------ ----------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().    
+  58     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/campaign_kit_core/src/TeamTranslationHandler.php               
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal

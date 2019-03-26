@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/byu_calendar 0d37f656f774610e0beff62fe3dffc8015a40f68
+source : http://cgit.drupalcode.org/byu_calendar 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   byu_calendar.module                              
+ ------ ------------------------------------------------- 
+  49     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/BlockExampleMenuTest.php          
+ ------ ------------------------------------------------------- 
+  38     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  46     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/BlockExampleTest.php        
+ ------ ------------------------------------------------- 
+  71     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

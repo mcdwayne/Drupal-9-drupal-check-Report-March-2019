@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bulk_alias_checker e107570b7e01d3b6aba9a92804d52138f9d0687f
+source : http://cgit.drupalcode.org/bulk_alias_checker 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   includes/bulk_alias_checker.inc                    
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function drupal_set_message().  
+  25     Call to deprecated function drupal_set_message().  
+  36     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

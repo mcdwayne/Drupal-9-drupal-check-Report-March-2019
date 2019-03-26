@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/prefetcher 0633d7f2e1cc91f6bdb83f753295457fcb4a43b4
+source : http://cgit.drupalcode.org/prefetcher 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/ImportPrefetcherUrisForm.php                
+ ------ ----------------------------------------------------- 
+  60     Call to deprecated function file_upload_max_size().  
+  100    Call to deprecated function drupal_set_message().    
+  112    Call to deprecated function file_delete().           
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImportSitemapForm.php                     
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PrefetcherUriForm.php                     
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/PrefetcherImporterService.php                  
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+  144    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

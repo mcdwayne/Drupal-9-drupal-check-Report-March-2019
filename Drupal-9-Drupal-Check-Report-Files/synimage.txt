@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/synimage 58dfcdd6aac0ec47412b07e5a1be65a44e501bff
+source : http://cgit.drupalcode.org/synimage 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/EditorImageSynboxDialog.php                        
+ ------ ------------------------------------------------------------ 
+  193    Call to deprecated function file_upload_max_size().         
+  250    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

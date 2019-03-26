@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/botscout bb09c460b24f6a4c2edd58674de4c4f46c03571c
+source : http://cgit.drupalcode.org/botscout 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   botscout.module                                    
+ ------ --------------------------------------------------- 
+  109    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BotscoutAdmin.php                         
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

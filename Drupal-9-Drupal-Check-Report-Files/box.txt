@@ -1,0 +1,152 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/box 346f97eaaee12e56bb086ed0558205fa232fb973
+source : http://cgit.drupalcode.org/box 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   modules/box_clone/box_clone.module            
+ ------ ---------------------------------------------- 
+  56     Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/box_clone/src/Form/BoxCloneForm.php        
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/graphql_box/src/Plugin/GraphQL/Fields/BoxByMachineName.php     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\graphql_core\GraphQL\FieldPluginBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/graphql_box/src/Plugin/GraphQL/Fields/BoxMachineName.php       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\graphql_core\GraphQL\FieldPluginBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/BoxListBuilder.php                                               
+ ------ --------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalox\BoxListBuilder.                                     
+  41     Call to deprecated method l() of class Drupalox\BoxListBuilder.    
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/BoxPermissions.php                                              
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupalox\BoxPermissions.                                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/BoxController.php                    
+ ------ ---------------------------------------------------- 
+  30     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  31     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  46     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  47     Call to deprecated function format_date().          
+  65     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  93     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  96     Call to deprecated method link() of class           
+         Drupal\Core\Entity\EntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BoxDeleteMultipleForm.php                 
+ ------ --------------------------------------------------- 
+  192    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BoxForm.php                               
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BoxRevisionDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BoxRevisionRevertForm.php                 
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/BoxTypeForm.php                               
+ ------ ------------------------------------------------------- 
+  27     Access to deprecated property $entityManager of class  
+         Drupal\Core\Entity\EntityForm.                         
+  36     Access to deprecated property $entityManager of class  
+         Drupal\Core\Entity\EntityForm.                         
+  144    Call to deprecated function drupal_set_message().      
+  150    Call to deprecated function drupal_set_message().      
+  155    Access to deprecated property $entityManager of class  
+         Drupal\Core\Entity\EntityForm.                         
+  163    Access to deprecated property $entityManager of class  
+         Drupal\Core\Entity\EntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/BoxView.php                       
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/BoxBulkForm.php                              
+ ------ -------------------------------------------------------------------- 
+  12     Class Drupalox\Pluginiewsield\BoxBulkForm extends deprecated  
+         class Drupal\system\Pluginiewsield\BulkForm.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/views/field/RevisionLink.php       
+ ------ ---------------------------------------------- 
+  27     Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/wizard/Box.php                             
+ ------ ------------------------------------------------------------ 
+  220    Call to deprecated function entity_get_form_display().      
+  221    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/EntityTest.php              
+ ------ ------------------------------------------------- 
+  77     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/TypeTest.php                
+ ------ ------------------------------------------------- 
+  57     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 35 errors                                                         
+
+ </code>

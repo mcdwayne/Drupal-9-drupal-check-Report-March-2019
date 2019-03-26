@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/business_core 33153b24d568f1fd2ae49fbdb343eb27b068df4c
+source : http://cgit.drupalcode.org/business_core 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Symfony\Component\Validator\ExecutionContextInterface not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Symfony\Compone...')
+#1 /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/business_core/modules/bom/src/Plugin/Validation/Constraint/BomAllowedItem.php(17): spl_autoload_call('Symfony\Compone...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/Users/dwaynemc...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/dwaynemc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\bom\Plug...')
+#5 [internal function]: spl_autoload_call('Drupal\bom\Plug...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.ph in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupalom\Plugin\Validation\Constraint\BomAllowedItem::initialize(Symfony\Component\Validator\ExecutionContextInterface $context) must be compatible with Symfony\Component\Validator\ConstraintValidatorInterface::initialize(Symfony\Component\Validator\Context\ExecutionContextInterface $context) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/business_core/modules/bom/src/Plugin/Validation/Constraint/BomAllowedItem.php on line 17 
+
+ </code>

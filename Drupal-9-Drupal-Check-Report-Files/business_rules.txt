@@ -1,0 +1,170 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/business_rules 410606a691b0cd6a9e7a294737f691724dd7f197
+source : http://cgit.drupalcode.org/business_rules 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/br_group/src/Plugin/BusinessRulesAction/AddUserToGroupAction.php  
+ ------ -------------------------------------------------------------------------- 
+  142    Call to deprecated method getUsername() of class                          
+         Drupal\user\Entity\User.                                                  
+  151    Call to deprecated method getUsername() of class                          
+         Drupal\user\Entity\User.                                                  
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/br_group/src/Plugin/BusinessRulesAction/AssignRoleToUserAction.php  
+ ------ ---------------------------------------------------------------------------- 
+  170    Call to deprecated method getUsername() of class                            
+         Drupal\user\Entity\User.                                                    
+  180    Call to deprecated method getUsername() of class                            
+         Drupal\user\Entity\User.                                                    
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/br_group/src/Plugin/BusinessRulesAction/RemoveRoleFromUserAction.php  
+ ------ ------------------------------------------------------------------------------ 
+  170    Call to deprecated method getUsername() of class                              
+         Drupal\user\Entity\User.                                                      
+  180    Call to deprecated method getUsername() of class                              
+         Drupal\user\Entity\User.                                                      
+  191    Call to deprecated method getUsername() of class                              
+         Drupal\user\Entity\User.                                                      
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/br_group/src/Plugin/BusinessRulesAction/RemoveUserFromGroupAction.php  
+ ------ ------------------------------------------------------------------------------- 
+  142    Call to deprecated method getUsername() of class                               
+         Drupal\user\Entity\User.                                                       
+  151    Call to deprecated method getUsername() of class                               
+         Drupal\user\Entity\User.                                                       
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Controller/BusinessRuleController.php    
+ ------ --------------------------------------------- 
+  26     Call to deprecated method url() of class     
+         Drupal\Core\Config\Entity\ConfigEntityBase.  
+  41     Call to deprecated method url() of class     
+         Drupal\Core\Config\Entity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Controller/ScheduleController.php                                 
+ ------ ---------------------------------------------------------------------- 
+  162    Call to deprecated method entityManager() of class                    
+         Drupal\Core\Controller\ControllerBase.                                
+  165    Call to deprecated method entityManager() of class                    
+         Drupal\Core\Controller\ControllerBase.                                
+  182    Call to deprecated method entityManager() of class                    
+         Drupal\Core\Controller\ControllerBase.                                
+  188    Call to deprecated function format_date().                            
+  208    Call to deprecated method entityManager() of class                    
+         Drupal\Core\Controller\ControllerBase.                                
+  245    Call to deprecated method l() of class                                
+         Drupal\Core\Controller\ControllerBase.                                
+  251    Call to deprecated method link() of class Drupal\Core\Entity\Entity.  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ActionDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BusinessRuleDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BusinessRuleForm.php                      
+ ------ --------------------------------------------------- 
+  516    Call to deprecated function drupal_set_message().  
+  522    Call to deprecated function drupal_set_message().  
+  531    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Config\Entity\ConfigEntityBase.        
+  534    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Config\Entity\ConfigEntityBase.        
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ItemForm.php                              
+ ------ --------------------------------------------------- 
+  450    Call to deprecated function drupal_set_message().  
+  456    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduleForm.php                          
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+  104    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduleRevisionDeleteForm.php            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ScheduleRevisionRevertForm.php            
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VariableDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/BusinessRulesAction/FetchEntityVariableAction.php  
+ ------ -------------------------------------------------------------- 
+  295    Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/BusinessRulesAction/ShowMessage.php     
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/BusinessRulesItemPluginBase.php    
+ ------ ---------------------------------------------- 
+  80     Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityInterface.           
+  87     Call to deprecated method urlInfo() of class  
+         Drupal\Core\Entity\EntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/EntityReferenceSelection/BusinessRulesViewsSelection.php  
+ ------ --------------------------------------------------------------------- 
+  372    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Util/BusinessRulesProcessor.php                
+ ------ --------------------------------------------------- 
+  325    Call to deprecated function drupal_set_message().  
+  333    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 41 errors                                                         
+
+ </code>

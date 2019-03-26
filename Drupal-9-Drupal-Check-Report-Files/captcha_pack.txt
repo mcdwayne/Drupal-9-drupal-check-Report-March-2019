@@ -1,0 +1,85 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/captcha_pack ed6e23b38f977ec8f4b70ecec678ebbb7c7e4152
+source : http://cgit.drupalcode.org/captcha_pack 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   ascii_art_captcha/src/Tests/AsciiArtCaptchaTestCase.php     
+ ------ ------------------------------------------------------------ 
+  48     Call to deprecated method getUsername() of class            
+         Drupal\user\Entity\User.                                    
+  222    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated function entity_get_form_display().      
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   css_captcha/src/Tests/CSSCaptchaTestCase.php                
+ ------ ------------------------------------------------------------ 
+  48     Call to deprecated method getUsername() of class            
+         Drupal\user\Entity\User.                                    
+  222    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated function entity_get_form_display().      
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   random_captcha_type/src/Form/RandomCaptchaTypeSettingsForm.php  
+ ------ ---------------------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   random_captcha_type/src/Tests/RandomCaptchaTypeTestCase.php  
+ ------ ------------------------------------------------------------- 
+  48     Call to deprecated method getUsername() of class             
+         Drupal\user\Entity\User.                                     
+  222    Call to deprecated method entityManager() of class Drupal.   
+  241    Call to deprecated function entity_get_form_display().       
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   text_captcha/lost_character_captcha/lost_character_captcha.module  
+ ------ ------------------------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   text_captcha/lost_character_captcha/src/Tests/LostCharacterCaptchaTestCase.php  
+ ------ -------------------------------------------------------------------------------- 
+  48     Call to deprecated method getUsername() of class                                
+         Drupal\user\Entity\User.                                                        
+  222    Call to deprecated method entityManager() of class Drupal.                      
+  241    Call to deprecated function entity_get_form_display().                          
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   text_captcha/phrase_captcha/src/Form/PhraseCaptchaSettingsForm.php  
+ ------ -------------------------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   text_captcha/phrase_captcha/src/Test/PhraseCaptchaTestCase.php         
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\phrase_captcha\Tests\PhraseCaptchaTestCase was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   text_captcha/word_list_captcha/src/Form/WordListCaptchaSettingsForm.php  
+ ------ ------------------------------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   text_captcha/word_list_captcha/src/Test/WordListCaptchaTestCase.php   
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\word_list_captcha\Tests\WordListCaptchaTestCase was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

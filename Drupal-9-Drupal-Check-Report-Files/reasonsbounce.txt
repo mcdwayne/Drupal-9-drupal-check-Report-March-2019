@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/reasonsbounce 09ab7f022fa4573982c869d6ea73d895906e750a
+source : http://git.drupal.org/project/reasonsbounce.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   reasonsbounce.module                                        
+ ------ ------------------------------------------------------------ 
+  7      Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/ReasonsbounceController.php                  
+ ------ ------------------------------------------------------------ 
+  17     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/ReasonsbounceForm.php                   
+ ------ ------------------------------------------------- 
+  128    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  128    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

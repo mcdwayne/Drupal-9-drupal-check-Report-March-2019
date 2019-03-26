@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/check_dns 9218e2e3bfabd91e0247250193b818be50415f41
+source : http://cgit.drupalcode.org/check_dns 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   check_dns.module                                 
+ ------ ------------------------------------------------- 
+  50     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  50     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

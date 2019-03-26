@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bridtv 87469ca70c3e229676aa524247380f037d4fcfcc
+source : http://cgit.drupalcode.org/bridtv 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/MediaEntity/Type/Bridtv.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\media_entity\MediaTypeBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   src/Plugin/Validation/Constraint/BridtvValidReferenceConstraintValidator.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class                                                                         
+         Drupal\Core\Entity\Plugin\Validation\Constraint\BridtvValidReferenceCon       
+         straintValidator was not found while trying to analyse it - autoloading       
+         is probably not configured properly.                                          
+ ------ ------------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>
