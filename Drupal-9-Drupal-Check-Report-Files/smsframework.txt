@@ -1,0 +1,685 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smsframework b1ffda4479d556c9c118669faa5ed0e81c3fc96f
+source : http://cgit.drupalcode.org/smsframework 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   modules/sms_blast/src/SmsBlastForm.php             
+ ------ --------------------------------------------------- 
+  114    Call to deprecated function drupal_set_message().  
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/sms_blast/tests/src/Functional/SmsBlastBrowserTest.php  
+ ------ ---------------------------------------------------------------- 
+  39     Call to deprecated method strtolower() of class                 
+         Drupal\Component\Utility\Unicode.                               
+  89     Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  90     Call to deprecated method assertText() of class                 
+         Drupal\Tests\BrowserTestBase.                                   
+  93     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/sms_devel/src/Form/SmsDevelMessageForm.php  
+ ------ ---------------------------------------------------- 
+  190    Call to deprecated function drupal_set_message().   
+  216    Call to deprecated function drupal_set_message().   
+  220    Call to deprecated function drupal_set_message().   
+  240    Call to deprecated function drupal_set_message().   
+  246    Call to deprecated function drupal_set_message().   
+  251    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/sms_devel/tests/src/Functional/SmsDevelMessageTest.php  
+ ------ ---------------------------------------------------------------- 
+  49     Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  50     Call to deprecated method assertRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                   
+  53     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  54     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  66     Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  67     Call to deprecated method assertRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                   
+  71     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  72     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  85     Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  86     Call to deprecated method assertRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                   
+  88     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  101    Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  102    Call to deprecated method assertRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                   
+  106    Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  107    Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  117    Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  118    Call to deprecated method assertRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                   
+  131    Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  155    Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  159    Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  173    Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+  174    Call to deprecated method assertRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                   
+  177    Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/sms_sendtophone/src/Form/AdminOverviewForm.php  
+ ------ -------------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/sms_sendtophone/src/Form/SendToPhoneForm.php               
+ ------ ------------------------------------------------------------------- 
+  88     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  89     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  180    Call to deprecated function drupal_set_message().                  
+  183    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/sms_sendtophone/src/Plugin/Filter/FilterInlineSms.php        
+ ------ --------------------------------------------------------------------- 
+  30     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\sms_sendtophone\Plugin\Filter\FilterInlineSms.          
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/sms_sendtophone/tests/src/Functional/SmsSendToPhoneBrowserTest.php  
+ ------ ---------------------------------------------------------------------------- 
+  67     Call to deprecated method strtolower() of class                             
+         Drupal\Component\Utility\Unicode.                                           
+  98     Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  107    Call to deprecated method assertEqual() of class                            
+         Drupal\Tests\BrowserTestBase.                                               
+  115    Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  125    Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  126    Call to deprecated method assertFieldByXPath() of class                     
+         Drupal\Tests\BrowserTestBase.                                               
+  130    Call to deprecated method assertResponse() of class                         
+         Drupal\Tests\BrowserTestBase.                                               
+  132    Call to deprecated method assertFieldByName() of class                      
+         Drupal\Tests\BrowserTestBase.                                               
+  133    Call to deprecated method assertFieldByName() of class                      
+         Drupal\Tests\BrowserTestBase.                                               
+  140    Call to deprecated method assertEqual() of class                            
+         Drupal\Tests\BrowserTestBase.                                               
+  170    Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  180    Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  183    Call to deprecated method assertResponse() of class                         
+         Drupal\Tests\BrowserTestBase.                                               
+  184    Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  192    Call to deprecated method assertEqual() of class                            
+         Drupal\Tests\BrowserTestBase.                                               
+  201    Call to deprecated method strtolower() of class                             
+         Drupal\Component\Utility\Unicode.                                           
+  257    Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  258    Call to deprecated method assertText() of class                             
+         Drupal\Tests\BrowserTestBase.                                               
+  266    Call to deprecated method assertEqual() of class                            
+         Drupal\Tests\BrowserTestBase.                                               
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/sms_user/src/Form/AdminSettingsForm.php    
+ ------ --------------------------------------------------- 
+  183    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/sms_user/tests/src/Functional/SmsFrameworkUserMenuLinksTest.php  
+ ------ ------------------------------------------------------------------------- 
+  38     Call to deprecated function entity_get_form_display().                   
+  41     Call to deprecated method assertLink() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  49     Call to deprecated method assertNoLink() of class                        
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/sms_user/tests/src/Functional/SmsFrameworkUserSettingsTest.php  
+ ------ ------------------------------------------------------------------------ 
+  52     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  54     Call to deprecated method assertFieldByName() of class                  
+         Drupal\Tests\BrowserTestBase.                                           
+  55     Call to deprecated method assertNoFieldChecked() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  59     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  62     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  76     Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  79     Call to deprecated method assertFieldChecked() of class                 
+         Drupal\Tests\BrowserTestBase.                                           
+  80     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  81     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  82     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  83     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  84     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  85     Call to deprecated method assertOptionSelected() of class               
+         Drupal\Tests\BrowserTestBase.                                           
+  107    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  116    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  127    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  139    Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  140    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  156    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  187    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  215    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  223    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  231    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  245    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  253    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  261    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  270    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  280    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  297    Call to deprecated method assertNoRaw() of class                        
+         Drupal\Tests\BrowserTestBase.                                           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/sms_user/tests/src/Kernel/SmsFrameworkUserAccountRegistrationServiceTest.php  
+ ------ -------------------------------------------------------------------------------------- 
+  100    Call to deprecated method strtolower() of class                                       
+         Drupal\Component\Utility\Unicode.                                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   sms.tokens.inc                                    
+ ------ -------------------------------------------------- 
+  54     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhoneNumberSettingsDeleteForm.php         
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PhoneNumberSettingsForm.php               
+ ------ --------------------------------------------------- 
+  277    Call to deprecated function drupal_set_message().  
+  280    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmsGatewayDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmsGatewayForm.php                        
+ ------ --------------------------------------------------- 
+  268    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  272    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  317    Call to deprecated function drupal_set_message().  
+  326    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmsSettingsForm.php                       
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VerifyPhoneNumberForm.php                 
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/SmsTelephoneWidget.php                 
+ ------ -------------------------------------------------------------------- 
+  24     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\sms\Plugin\Field\FieldWidget\SmsTelephoneWidget.       
+  45     Call to deprecated method url() of class                            
+         Drupal\sms\Plugin\Field\FieldWidget\SmsTelephoneWidget.             
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Routing/RouteSubscriber.php              
+ ------ --------------------------------------------- 
+  57     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  74     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  74     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  85     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  85     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/SmsIncomingController.php                                         
+ ------ ---------------------------------------------------------------------- 
+  67     Call to deprecated method getArguments() of class                     
+         Symfony\Component\HttpKernel\Controller\ControllerResolverInterface.  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkBrowserTest.php  
+ ------ -------------------------------------------------- 
+  47     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  48     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/SmsFrameworkBrowserTestBase.php  
+ ------ ------------------------------------------------------ 
+  63     Call to deprecated method strtolower() of class       
+         Drupal\Component\Utility\Unicode.                     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkDeliveryReportTest.php  
+ ------ --------------------------------------------------------- 
+  32     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  39     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  60     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  66     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  67     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  68     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkGatewayAdminTest.php      
+ ------ ----------------------------------------------------------- 
+  50     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  56     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  57     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  58     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  63     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  75     Call to deprecated method assertEqual() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  83     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  86     Call to deprecated method assertEqual() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  97     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  101    Call to deprecated method strtolower() of class            
+         Drupal\Component\Utility\Unicode.                          
+  106    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  108    Call to deprecated method assertUrl() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  111    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  114    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  130    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  131    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  132    Call to deprecated method assertNoFieldChecked() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  133    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  134    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  137    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  147    Call to deprecated method assertUrl() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  148    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  149    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  157    Call to deprecated method assertEqual() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  158    Call to deprecated method assertEqual() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  159    Call to deprecated method assertEqual() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  164    Call to deprecated method assertEqual() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  177    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  178    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  180    Call to deprecated method assertNoFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                              
+  197    Call to deprecated method assertUrl() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  198    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  203    Call to deprecated method assertUrl() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  204    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  205    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  208    Call to deprecated method assertNoRaw() of class           
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkPhoneNumberAdminTest.php  
+ ------ ----------------------------------------------------------- 
+  48     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  49     Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+  84     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  97     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  105    Call to deprecated method assertUrl() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  107    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  108    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  110    Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+  111    Call to deprecated method assertLinkByHref() of class      
+         Drupal\Tests\BrowserTestBase.                              
+  115    Call to deprecated method assertNoOption() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  119    Call to deprecated method assertField() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  120    Call to deprecated method assertNoField() of class         
+         Drupal\Tests\BrowserTestBase.                              
+  121    Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  128    Call to deprecated method assertEqual() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  132    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  136    Call to deprecated method assertUrl() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  137    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  140    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  169    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  170    Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/SmsFrameworkPhoneNumberTest.php  
+ ------ ------------------------------------------------------ 
+  38     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+  43     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+  62     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+  70     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+  87     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+  89     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/SmsFrameworkPhoneNumberVerifyForm.php  
+ ------ ------------------------------------------------------------ 
+  22     Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  30     Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  31     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  32     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  58     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  63     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  87     Call to deprecated method assertNoText() of class           
+         Drupal\Tests\BrowserTestBase.                               
+  89     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  104    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  114    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+  116    Call to deprecated method assertResponse() of class         
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/SmsFrameworkPhoneNumberWidgetTest.php  
+ ------ ------------------------------------------------------------ 
+  49     Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  57     Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  70     Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  90     Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  102    Call to deprecated method assertFieldByName() of class      
+         Drupal\Tests\BrowserTestBase.                               
+  103    Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  125    Call to deprecated method assertFieldByName() of class      
+         Drupal\Tests\BrowserTestBase.                               
+  150    Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  152    Call to deprecated method assertFieldByName() of class      
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkSettingsTest.php  
+ ------ --------------------------------------------------- 
+  32     Call to deprecated method assertRaw() of class     
+         Drupal\Tests\BrowserTestBase.                      
+  43     Call to deprecated method assertRaw() of class     
+         Drupal\Tests\BrowserTestBase.                      
+  53     Call to deprecated method assertRaw() of class     
+         Drupal\Tests\BrowserTestBase.                      
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\FunctionalJavascript\SmsFrameworkPhoneNumberAdminTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                                              
+         Drupal\Component\Utility\Unicode.                                                                                                            
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Functional\SmsFrameworkBrowserTestBase)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------ 
+  43     Call to deprecated method strtolower() of class                                                                               
+         Drupal\Component\Utility\Unicode.                                                                                             
+ ------ ------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Functional\SmsFrameworkUpdateTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                          
+         Drupal\Component\Utility\Unicode.                                                                                        
+ ------ ------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Kernel\SmsFrameworkDeliveryReportEntityTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                                    
+         Drupal\Component\Utility\Unicode.                                                                                                  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Kernel\SmsFrameworkDeliveryReportUpdateTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                                    
+         Drupal\Component\Utility\Unicode.                                                                                                  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Kernel\SmsFrameworkKernelBase)  
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                      
+         Drupal\Component\Utility\Unicode.                                                                                    
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Kernel\SmsFrameworkMessageEntityTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                             
+         Drupal\Component\Utility\Unicode.                                                                                           
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Kernel\SmsFrameworkViewsTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                     
+         Drupal\Component\Utility\Unicode.                                                                                   
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkTestTrait.php (in context of class Drupal\Tests\sms\Unitvent\RecipientGatewayEventTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+  43     Call to deprecated method strtolower() of class                                                                             
+         Drupal\Component\Utility\Unicode.                                                                                           
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/SmsFrameworkUpdateTest.php   
+ ------ -------------------------------------------------- 
+  60     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  61     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  85     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  87     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/FunctionalJavascript/SmsFrameworkPhoneNumberAdminTest.php     
+ ------ ------------------------------------------------------------------------ 
+  14     Class                                                                   
+         Drupal\Tests\sms\FunctionalJavascript\SmsFrameworkPhoneNumberAdminTest  
+         extends deprecated class                                                
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                    
+  31     Call to method setUp() of deprecated class                              
+         Drupal\Tests\BrowserTestBase.                                           
+  56     Call to deprecated method strtolower() of class                         
+         Drupal\Component\Utility\Unicode.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Kernel/SmsFrameworkPhoneNumberProviderTest.php  
+ ------ ---------------------------------------------------------- 
+  78     Call to deprecated method strtolower() of class           
+         Drupal\Component\Utility\Unicode.                         
+ ------ ---------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/src/Kernel/SmsFrameworkPhoneNumberVerificationTest.php  
+ ------ -------------------------------------------------------------- 
+  80     Call to deprecated method strtolower() of class               
+         Drupal\Component\Utility\Unicode.                             
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/SmsFrameworkTokenTest.php        
+ ------ -------------------------------------------------- 
+  47     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/src/Kernel/SmsFrameworkVerificationMaintenanceTest.php  
+ ------ -------------------------------------------------------------- 
+  51     Call to deprecated method strtolower() of class               
+         Drupal\Component\Utility\Unicode.                             
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/RecipientGatewayEventTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  29     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  36     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  83     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  90     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  112    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  119    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  126    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  147    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  154    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  161    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 237 errors                                                        
+
+ </code>

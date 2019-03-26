@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_multidelete_terms 6e9911b8ec56006d64457b1821d49af10a30fd79
+source : https://cgit.drupalcode.org/taxonomy_multidelete_terms 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/TaxonomyMultideleteBatch.php                   
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   taxonomy_multidelete_terms.module                 
+ ------ -------------------------------------------------- 
+  168    Call to deprecated method url() of class Drupal.  
+  184    Call to deprecated function drupal_render().      
+  190    Call to deprecated method l() of class Drupal.    
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

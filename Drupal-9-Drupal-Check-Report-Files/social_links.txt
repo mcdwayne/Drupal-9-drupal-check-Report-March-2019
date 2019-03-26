@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_links f7b3273f60d3544c7a95a18bbcbaefe860afc0ac
+source : http://cgit.drupalcode.org/social_links 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   social_links.module                                         
+ ------ ------------------------------------------------------------ 
+  33     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Social/SocialLinks.php               
+ ------ ------------------------------------------------ 
+  170    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/subrequests 6c04700bd59763930d0d0da55a8004c26800236e
+source : http://cgit.drupalcode.org/subrequests 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Normalizer/JsonBlueprintDenormalizerTest.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\subrequests\Normalizer\JsonBlueprintDenormalizerTest  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Normalizer/JsonSubrequestDenormalizerTest.php            
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests\subrequests\Normalizer\JsonSubrequestDenormalizerTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Normalizer/MultiresponseJsonNormalizerTest.php            
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\subrequests\Normalizer\MultiresponseJsonNormalizerTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Normalizer/MultiresponseNormalizerTest.php               
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\subrequests\Normalizer\MultiresponseNormalizerTest   
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/synhelper 932c1b9c76ef5a21fc98717eea4e6112938e24af
+source : http://cgit.drupalcode.org/synhelper 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Hook/ContactMessagePresave.php                          
+ ------ ------------------------------------------------------------ 
+  18     Call to deprecated method entityManager() of class Drupal.  
+  20     Call to deprecated function format_date().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Hook/FileValidate.php                       
+ ------ ------------------------------------------------ 
+  17     Call to deprecated function drupal_basename().  
+  18     Call to deprecated function drupal_dirname().   
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Hook/FormContactMessageFormAlter.php           
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Hook/FormFieldConfigEditFormAlter.php          
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Hook/FormFieldUiFieldStorageAddFormAlter.php   
+ ------ --------------------------------------------------- 
+  21     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Hook/FormMenuEditFormAlter.php                 
+ ------ --------------------------------------------------- 
+  17     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Hook/NodePresave.php                    
+ ------ -------------------------------------------- 
+  23     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Hook/PreprocessHtml.php                        
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

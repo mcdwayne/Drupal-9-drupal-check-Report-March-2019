@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stripe_registration b11553521c8d0dafe31344b6d0a7500be64818b7
+source : http://cgit.drupalcode.org/stripe_registration 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   Tests/Controller/UserSubscriptionsControllerTest.php                    
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\stripe_registration\Tests\UserSubscriptionsControllerTest  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StripePlanEntityForm.php                  
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StripeSubscriptionEntityForm.php          
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/StripePlanEntityListBuilder.php                                  
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\stripe_registration\StripePlanEntityListBuilder.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/StripeRegistrationService.php                           
+ ------ ------------------------------------------------------------ 
+  219    Call to deprecated function drupal_set_message().           
+  275    Call to deprecated function drupal_set_message().           
+  286    Call to deprecated function drupal_set_message().           
+  301    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/StripeSubscriptionEntityListBuilder.php                            
+ ------ ----------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in    
+         class Drupal\stripe_registration\StripeSubscriptionEntityListBuilder.  
+  34     Call to deprecated method l() of class                                 
+         Drupal\stripe_registration\StripeSubscriptionEntityListBuilder.        
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   stripe_registration.module                                  
+ ------ ------------------------------------------------------------ 
+  235    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated function drupal_set_message().           
+  252    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

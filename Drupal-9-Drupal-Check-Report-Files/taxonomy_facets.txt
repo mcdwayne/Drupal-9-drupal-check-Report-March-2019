@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_facets 00749407cdef4efa718d0b98a0f9488b43a2d526
+source : http://cgit.drupalcode.org/taxonomy_facets 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/TaxonomyFacetsController.php        
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function node_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/GetNodes.php                          
+ ------ ------------------------------------------ 
+  38     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/MenuLeaf.php                                   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function db_select().           
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/NodeTerms.php                                  
+ ------ --------------------------------------------------- 
+  21     Call to deprecated function node_load().           
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/SelectedFilters.php                   
+ ------ ------------------------------------------ 
+  62     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

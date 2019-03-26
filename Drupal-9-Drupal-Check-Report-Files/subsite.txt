@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/subsite 78e6347134ae8d6140ae183d1055b438769fa5ca
+source : http://cgit.drupalcode.org/subsite 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/SubsiteController.php                        
+ ------ ------------------------------------------------------------ 
+  116    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  122    Call to deprecated method entityManager() of class Drupal.  
+  154    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/PathProcessor/SubsitePathProcessor.php                           
+ ------ --------------------------------------------------------------------- 
+  67     Call to deprecated method url() of class Drupal\Corentityntity.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/BookLinksFormatter.php                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\subsite\Plugin\Field\FieldFormatter\BookForma not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/SubsiteBookManager.php                    
+ ------ ---------------------------------------------- 
+  76     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

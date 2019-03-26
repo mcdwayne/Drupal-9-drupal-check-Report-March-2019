@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/simplesamlphp_auth 9b212856e8ee8a9292c4f0e1a4dd9af5fb6b7321
+source : http://cgit.drupalcode.org/simplesamlphp_auth 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/EventSubscriber/SimplesamlSubscriber.php      
+ ------ -------------------------------------------------- 
+  125    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/SimplesamlphpDrupalAuth.php            
+ ------ --------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+  195    Call to deprecated function drupal_set_message().  
+  227    Call to deprecated function drupal_set_message().  
+  237    Call to deprecated function drupal_set_message().  
+  248    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/SimplesamlphpAuthManagerTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  21     SimpleSAMLrror\CriticalConfigurationError (The configuration           
+         (config/config.php) is invalid: Missing configuration file) thrown       
+         while autoloading class SimpleSAML_Configuration.                        
+  81     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  255    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Service/SimplesamlphpDrupalAuthTest.php                   
+ ------ ------------------------------------------------------------------------- 
+  70     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  90     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  93     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  96     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  208    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  273    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  344    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/timelinejs 48cc22e90e5c44c5fc2b0eae2b253e00829af155
+source : http://cgit.drupalcode.org/timelinejs 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/TimelineController.php               
+ ------ ---------------------------------------------------- 
+  30     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  31     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  46     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  47     Call to deprecated function format_date().          
+  65     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  93     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TimelineForm.php                          
+ ------ --------------------------------------------------- 
+  109    Call to deprecated function drupal_set_message().  
+  115    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TimelineRevisionDeleteForm.php            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TimelineRevisionRevertForm.php            
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/TimelineListBuilder.php                                          
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal	imelinejs\TimelineListBuilder.                         
+  34     Call to deprecated method l() of class                               
+         Drupal	imelinejs\TimelineListBuilder.                               
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

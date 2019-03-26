@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/superfish e4758298dd4c4e44d545f40573938466a3d4340a
+source : https://cgit.drupalcode.org/superfish 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   superfish.module                                   
+ ------ --------------------------------------------------- 
+  213    Call to deprecated function drupal_get_profile().  
+  214    Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   superfish.theme.inc                          
+ ------ --------------------------------------------- 
+  291    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  291    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  297    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  297    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

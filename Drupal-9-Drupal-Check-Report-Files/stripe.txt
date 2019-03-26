@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stripe 7760e35f7d2fddae5ca1266713f239363e2b9934
+source : http://cgit.drupalcode.org/stripe 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/stripe_examples/src/Form/SimpleCheckoutForm.php  
+ ------ --------------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().        
+  77     Call to deprecated function drupal_set_message().        
+  85     Call to deprecated function drupal_set_message().        
+  126    Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Element/Stripe.php                             
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

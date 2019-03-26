@@ -1,0 +1,189 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/skinr 0b96fe6eb9e90171fcda8cc896b7cdd72274929e
+source : http://cgit.drupalcode.org/skinr 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/block.skinr.inc                                        
+ ------ --------------------------------------------------------------- 
+  89     Call to deprecated method entityManager() of class Drupal.     
+  102    Fetching deprecated class constant BLOCK_REGION_NONE of class  
+         Drupallock\BlockInterface.                                   
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/comment.skinr.inc                           
+ ------ ---------------------------------------------------- 
+  21     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   modules/node.skinr.inc                         
+ ------ ----------------------------------------------- 
+  34     Call to deprecated function node_type_load().  
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   skinr.module                                                       
+ ------ ------------------------------------------------------------------- 
+  189    Call to deprecated function entity_load_multiple_by_properties().  
+  685    Call to deprecated function db_query().                            
+  700    Call to deprecated function db_query().                            
+  723    Call to deprecated function entity_load_multiple().                
+  845    Call to deprecated function entity_load().                         
+  1098   Calls to function dpm should not exist.                            
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   skinr_context/skinr_context.module                     
+ ------ ------------------------------------------------------- 
+  103    Call to deprecated function entity_load().             
+  141    Call to deprecated function db_transaction().          
+  154    Call to deprecated function entity_delete_multiple().  
+  158    Call to deprecated function db_delete().               
+  226    Call to deprecated function db_select().               
+  274    Call to deprecated function db_query().                
+  493    Call to deprecated function db_select().               
+  527    Call to deprecated function db_select().               
+  634    Call to deprecated function db_delete().               
+  648    Call to deprecated function db_select().               
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   skinr_context/skinr_context_ui.admin.inc             
+ ------ ----------------------------------------------------- 
+  46     Call to deprecated function db_query().              
+  51     Call to deprecated function entity_create().         
+  129    Call to deprecated function drupal_set_message().    
+  185    Call to deprecated function drupal_set_message().    
+  188    Call to deprecated function drupal_set_message().    
+  191    Call to deprecated function drupal_set_message().    
+  262    Call to deprecated function db_select().             
+  308    Call to deprecated function entity_create().         
+  434    Call to deprecated function db_select().             
+  453    Call to deprecated function entity_load_multiple().  
+  501    Call to deprecated function drupal_set_message().    
+  504    Call to deprecated function drupal_set_message().    
+  508    Call to deprecated function drupal_set_message().    
+  548    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   skinr_context/skinr_context_ui.edit.inc                
+ ------ ------------------------------------------------------- 
+  58     Call to deprecated function entity_load_multiple().    
+  175    Call to deprecated function drupal_set_message().      
+  335    Call to deprecated function drupal_render().           
+  342    Call to deprecated function drupal_render().           
+  343    Call to deprecated function drupal_render().           
+  344    Call to deprecated function drupal_render().           
+  357    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   skinr_context/skinr_context_ui.module              
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function db_query_range().      
+  396    Call to deprecated function entity_load().         
+  421    Call to deprecated function drupal_set_message().  
+  507    Call to deprecated function drupal_set_message().  
+  509    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   skinr_panels/skinr_panels.skinr.inc                
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function node_load_multiple().  
+  168    Call to deprecated function db_query().            
+  171    Call to deprecated function node_load().           
+  189    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   skinr_ui/skinr_ui.admin.inc                            
+ ------ ------------------------------------------------------- 
+  63     Call to deprecated function db_query().                
+  67     Call to deprecated function entity_create().           
+  233    Call to deprecated function drupal_set_message().      
+  242    Call to deprecated function entity_load().             
+  289    Call to deprecated function drupal_set_message().      
+  292    Call to deprecated function drupal_set_message().      
+  295    Call to deprecated function drupal_set_message().      
+  385    Call to deprecated function entity_load_multiple().    
+  410    Call to deprecated function entity_delete_multiple().  
+  418    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   skinr_ui/skinr_ui.module                          
+ ------ -------------------------------------------------- 
+  83     Call to deprecated method url() of class Drupal.  
+  87     Call to deprecated method url() of class Drupal.  
+  89     Call to deprecated method url() of class Drupal.  
+  91     Call to deprecated method url() of class Drupal.  
+  93     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   skinr_ui/src/Controller/SkinListBuilder.php    
+ ------ ----------------------------------------------- 
+  59     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   skinr_ui/src/Controller/SkinrUIController.php      
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   skinr_ui/src/Form/LibraryListForm.php              
+ ------ --------------------------------------------------- 
+  229    Call to deprecated function drupal_set_message().  
+  239    Call to deprecated function db_update().           
+  248    Call to deprecated function drupal_set_message().  
+  271    Call to deprecated function drupal_set_message().  
+  274    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   skinr_ui/src/Form/SkinDeleteForm.php               
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   skinr_ui/src/Form/SkinEditForm.php                 
+ ------ --------------------------------------------------- 
+  272    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   skinr_ui/src/Form/SkinsEditForm.php                         
+ ------ ------------------------------------------------------------ 
+  81     Call to deprecated method entityManager() of class Drupal.  
+  249    Call to deprecated function drupal_set_message().           
+  380    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Component/Discovery/DiscoveryException.php                         
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\skinr\Component\Discovery\SkinDiscoveryException was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Tests/SkinrApiTest.php                                  
+ ------ ------------------------------------------------------------ 
+  339    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 81 errors                                                         
+
+ </code>

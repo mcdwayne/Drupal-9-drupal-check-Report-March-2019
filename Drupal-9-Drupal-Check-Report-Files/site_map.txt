@@ -1,0 +1,120 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/site_map 414e3c5687ed8b58eba286ead1afe0a9d19573fc
+source : http://cgit.drupalcode.org/site_map 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   site_map.module                                 
+ ------ ------------------------------------------------ 
+  78     Call to deprecated method l() of class Drupal.  
+  86     Call to deprecated function drupal_render().    
+  94     Call to deprecated function drupal_render().    
+  134    Call to deprecated method l() of class Drupal.  
+  141    Call to deprecated function drupal_render().    
+  155    Call to deprecated function db_select().        
+  181    Call to deprecated function drupal_render().    
+  199    Call to deprecated function drupal_render().    
+  208    Call to deprecated function drupal_render().    
+  227    Call to deprecated method l() of class Drupal.  
+  234    Call to deprecated function drupal_render().    
+  255    Call to deprecated function drupal_render().    
+  274    Call to deprecated method l() of class Drupal.  
+  281    Call to deprecated function drupal_render().    
+  302    Call to deprecated function drupal_render().    
+  335    Call to deprecated function drupal_render().    
+  338    Call to deprecated method l() of class Drupal.  
+  349    Call to deprecated function drupal_render().    
+  399    Call to deprecated function drupal_render().    
+  419    Call to deprecated function drupal_render().    
+  448    Call to deprecated function drupal_render().    
+  471    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   site_map.theme.inc                                          
+ ------ ------------------------------------------------------------ 
+  22     Call to deprecated function drupal_render().                
+  27     Call to deprecated function drupal_render().                
+  56     Call to deprecated function drupal_render().                
+  66     Call to deprecated function drupal_render().                
+  71     Call to deprecated method l() of class Drupal.              
+  136    Call to deprecated function drupal_render().                
+  163    Call to deprecated function drupal_render().                
+  205    Call to deprecated method entityManager() of class Drupal.  
+  243    Call to deprecated function drupal_render().                
+  244    Call to deprecated function drupal_render().                
+  249    Call to deprecated function drupal_render_children().       
+  263    Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/SitemapSettingsForm.php                                   
+ ------ ------------------------------------------------------------------- 
+  88     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  184    Call to deprecated function taxonomy_vocabulary_load_multiple().   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Block/SitemapSyndicateBlock.php    
+ ------ ---------------------------------------------- 
+  64     Call to deprecated function drupal_render().  
+  71     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/SiteMapHelper.php                                       
+ ------ ------------------------------------------------------------ 
+  99     Call to deprecated method l() of class Drupal.              
+  117    Call to deprecated function drupal_render().                
+  128    Call to deprecated method entityManager() of class Drupal.  
+  158    Call to deprecated method l() of class Drupal.              
+  161    Call to deprecated method l() of class Drupal.              
+  181    Call to deprecated function drupal_render().                
+  191    Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Tests/SiteMapContentTest.php                                   
+ ------ ------------------------------------------------------------------- 
+  135    Call to deprecated function entity_load_multiple_by_properties().  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/SiteMapRssTest.php                     
+ ------ ------------------------------------------------- 
+  40     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  80     Call to deprecated function format_string().     
+  95     Call to deprecated function format_string().     
+  115    Call to deprecated function format_string().     
+  137    Call to deprecated function format_string().     
+  149    Call to deprecated function format_string().     
+  160    Call to deprecated function format_string().     
+  161    Call to deprecated function format_string().     
+  162    Call to deprecated function format_string().     
+  173    Call to deprecated function format_string().     
+  174    Call to deprecated function format_string().     
+  175    Call to deprecated function format_string().     
+  186    Call to deprecated function format_string().     
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/SiteMapTestBase.php                                         
+ ------ ---------------------------------------------------------------------- 
+  12     Class Drupal\site_map\Tests\SiteMapTestBase extends deprecated class  
+         Drupal	axonomy\Tests\TaxonomyTestBase.                               
+  25     Call to method setUp() of deprecated class                            
+         Drupal	axonomy\Tests\TaxonomyTestBase.                               
+  28     Call to deprecated function entity_create().                          
+  133    Call to deprecated method strtolower() of class                       
+         Drupal\Component\Utility\Unicode.                                     
+  134    Call to deprecated function entity_create().                          
+  149    Call to deprecated function entity_create().                          
+  153    Call to deprecated function entity_get_form_display().                
+  158    Call to deprecated function entity_get_display().                     
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 67 errors                                                         
+
+ </code>

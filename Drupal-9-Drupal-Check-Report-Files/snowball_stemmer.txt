@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/snowball_stemmer d5083e0cce31d8c790ee2aba1d459d14d07057d7
+source : http://cgit.drupalcode.org/snowball_stemmer 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/processor/SnowballStemmer.php                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\search_api\Plugin\search_api\processor\Stemmer not found  
+         and could not be autoloaded.                                           
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/CoreSearchTest.php               
+ ------ -------------------------------------------------- 
+  31     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  82     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Processor/StemmerTest.php                          
+ ------ ------------------------------------------------------------------------- 
+  23     Class Drupal\Tests\search_api\Unit\Processor\ProcessorTestTrait not      
+         found and could not be autoloaded.                                       
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Class Drupal\search_api\Plugin\search_api\processor\Stemmer not found    
+         and could not be autoloaded.                                             
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  91     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  128    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  162    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  190    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  197    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  243    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  250    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

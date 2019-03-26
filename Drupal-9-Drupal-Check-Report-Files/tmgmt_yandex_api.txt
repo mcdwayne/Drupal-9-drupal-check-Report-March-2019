@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_yandex_api 8.x-1.0-alpha1
+source : http://git.drupal.org/project/tmgmt_yandex_api.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/YandexTranslator.php   
+ ------ --------------------------------------------------- 
+  104    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/YandexTest.php                                                 
+ ------ ------------------------------------------------------------------------- 
+  19     Class Drupal	mgmt_yandex_api\Tests\YandexTest extends deprecated class  
+         Drupal	mgmt\Tests\TMGMTTestBase.                                        
+  39     Call to method setUp() of deprecated class                               
+         Drupal	mgmt\Tests\TMGMTTestBase.                                        
+  127    Call to deprecated function entity_create().                             
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

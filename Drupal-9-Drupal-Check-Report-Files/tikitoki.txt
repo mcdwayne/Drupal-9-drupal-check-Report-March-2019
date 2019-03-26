@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tikitoki 820980c9c4e86f305128d10a65ed9c6309c57603
+source : http://cgit.drupalcode.org/tikitoki 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/FieldProcessor/EndDateFieldProcessor.php  
+ ------ ---------------------------------------------- 
+  40     Call to deprecated function format_date().    
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/FieldProcessor/StartDateFieldProcessor.php  
+ ------ ------------------------------------------------ 
+  41     Call to deprecated function format_date().      
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

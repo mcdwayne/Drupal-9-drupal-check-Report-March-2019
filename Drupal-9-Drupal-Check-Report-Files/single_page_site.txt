@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/single_page_site e779a8faa18e7a2717810bfd0cd5061ea03d091a
+source : http://cgit.drupalcode.org/single_page_site 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/SinglePageSiteController.php         
+ ------ ---------------------------------------------------- 
+  77     Call to deprecated function drupal_get_messages().  
+  120    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SinglePageSiteConfigForm.php              
+ ------ --------------------------------------------------- 
+  232    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

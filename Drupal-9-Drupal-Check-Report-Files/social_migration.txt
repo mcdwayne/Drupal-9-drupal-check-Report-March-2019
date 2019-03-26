@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_migration 47b41ce5501d02b2fcb73a4cdc7a1eb193b281f6
+source : http://cgit.drupalcode.org/social_migration 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SocialFeedController.php            
+ ------ --------------------------------------------------- 
+  321    Call to deprecated function drupal_set_message().  
+  324    Call to deprecated function drupal_set_message().  
+  328    Call to deprecated function drupal_set_message().  
+  345    Call to deprecated function drupal_set_message().  
+  348    Call to deprecated function drupal_set_message().  
+  364    Call to deprecated function drupal_set_message().  
+  368    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FacebookForm.php                          
+ ------ --------------------------------------------------- 
+  238    Call to deprecated function entity_create().       
+  241    Call to deprecated function drupal_set_message().  
+  276    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GenericDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/InstagramForm.php                         
+ ------ --------------------------------------------------- 
+  233    Call to deprecated function entity_create().       
+  236    Call to deprecated function drupal_set_message().  
+  273    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TwitterForm.php                           
+ ------ --------------------------------------------------- 
+  280    Call to deprecated function entity_create().       
+  283    Call to deprecated function drupal_set_message().  
+  317    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/QueueWorker/SocialMigrationCronImporter.php                  
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\social_migration\Plugin\QueueWorker\SocialMigrationImporterBase  
+         not found and could not be autoloaded.                                  
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/QueueWorker/SocialMigrationImporterBase.php              
+ ------ -------------------------------------------------------------------- 
+         Class Drupal

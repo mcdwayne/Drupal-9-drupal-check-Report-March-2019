@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_manager 87c9f60b76be9ceafacb47ba2ff2d77548081681
+source : http://cgit.drupalcode.org/taxonomy_manager 
+ 
+ <code> 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/MainController.php       
+ ------ ---------------------------------------- 
+  21     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  27     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+  41     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/TaxonomyManagerForm.php                                     
+ ------ --------------------------------------------------------------------- 
+  253    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/TaxonomyManagerPagesTest.php                                
+ ------ ---------------------------------------------------------------------- 
+  14     Usage of deprecated trait Drupal	axonomy\Tests\TaxonomyTestTrait in  
+         class Drupal	axonomy_manager\Tests\TaxonomyManagerPagesTest.         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

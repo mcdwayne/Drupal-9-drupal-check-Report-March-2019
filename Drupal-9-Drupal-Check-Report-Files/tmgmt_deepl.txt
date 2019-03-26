@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_deepl bd0dd05a96801a6559d565bf7b8cefdf63d082b9
+source : http://cgit.drupalcode.org/tmgmt_deepl 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/DeeplProTranslator.php  
+ ------ ---------------------------------------------------- 
+  107    Call to deprecated method url() of class            
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Tests/DeeplProTranslatorTest.php                           
+ ------ --------------------------------------------------------------- 
+  14     Class Drupal	mgmt_deepl\Tests\DeeplProTranslatorTest extends  
+         deprecated class Drupal	mgmt\Tests\TMGMTTestBase.             
+  34     Call to method setUp() of deprecated class                     
+         Drupal	mgmt\Tests\TMGMTTestBase.                              
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

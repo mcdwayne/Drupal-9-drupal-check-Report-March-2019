@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tcmb 4602743b31e7ad502822824cc5d4a29a7e35e821
+source : http://cgit.drupalcode.org/tcmb 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/tcmb/Plugin/block/block/TcmbCurrencyBlock.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal	cmb\Pluginlocklock\TcmbCurrencyBlock was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tcmb.module                                        
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function db_insert().           
+  197    Call to deprecated function drupal_set_message().  
+  238    Call to deprecated function db_select().           
+  247    Call to deprecated function db_select().           
+  294    Call to deprecated function drupal_set_message().  
+  466    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

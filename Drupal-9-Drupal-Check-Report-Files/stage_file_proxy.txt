@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stage_file_proxy 4c3fa8d12703d8665032719ac002529d6d3a1c70
+source : http://cgit.drupalcode.org/stage_file_proxy 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/EventSubscriber/ProxySubscriber.php      
+ ------ --------------------------------------------- 
+  82     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  107    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  107    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  97     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   stage_file_proxy.drush.inc                         
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  66     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  90     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+  109    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

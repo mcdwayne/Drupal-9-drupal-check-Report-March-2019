@@ -1,0 +1,89 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sweepstakes a37bee3282f9cc76d49bb10509faa4fcb02ae749
+source : http://cgit.drupalcode.org/sweepstakes 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   plugins/access/sweepstake_has_expired.inc                   
+ ------ ------------------------------------------------------------ 
+  19     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   plugins/access/sweepstake_prizes_are_drawn.inc  
+ ------ ------------------------------------------------ 
+  19     Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   plugins/access/sweepstake_user_has_registered.inc  
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   plugins/access/sweepstake_user_has_won.inc  
+ ------ -------------------------------------------- 
+  32     Call to deprecated function db_select().    
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Action/AssignPrizes.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Sweepstakes\Plugin\Action\AssignPrizes was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Action/UnAssignPrizes.php                                 
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Sweepstakes\Plugin\Action\UnAssignPrizes was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Block/AdminOps.php                                            
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Sweepstakes\Plugin\Block\AdminOps was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Block/EntryBlock.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Sweepstakes\Plugin\BlockntryBlock was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/SweepstakesPickWinnerConfirmation.php                     
+ ------ -------------------------------------------------------------- 
+         Class Drupal\sweepstakes\FormBase not found and could not be  
+         autoloaded.                                                   
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/sweepstakes_handler_field_ip_address.php                        
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\sweepstakesiews_handler_field_numeric not found and  
+         could not be autoloaded.                                            
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   sweepstakes.module                                          
+ ------ ------------------------------------------------------------ 
+  9      Call to deprecated function db_update().                    
+  16     Call to deprecated method entityManager() of class Drupal.  
+  17     Call to deprecated function db_select().                    
+  32     Call to deprecated function drupal_set_message().           
+  50     Call to deprecated function db_update().                    
+  58     Call to deprecated method entityManager() of class Drupal.  
+  59     Call to deprecated method entityManager() of class Drupal.  
+  63     Call to deprecated function db_select().                    
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

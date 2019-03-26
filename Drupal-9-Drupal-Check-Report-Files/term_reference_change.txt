@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/term_reference_change 802f17f55e34a99518179b28f10c86ce77d72f2a
+source : http://cgit.drupalcode.org/term_reference_change 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ReferenceFinderTest.php                              
+ ------ ---------------------------------------------------------------------- 
+  22     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests	erm_reference_change\Kernel\ReferenceFinderTest.        
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ReferenceMigratorTest.php                            
+ ------ ---------------------------------------------------------------------- 
+  24     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests	erm_reference_change\Kernel\ReferenceMigratorTest.      
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

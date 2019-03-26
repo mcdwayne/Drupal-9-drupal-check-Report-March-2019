@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/swiftype 8.x-1.0
+source : http://cgit.drupalcode.org/swiftype 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/SwiftypeIntegrationSettingsForm.php  
+ ------ ---------------------------------------------- 
+  55     Call to deprecated method strlen() of class   
+         Drupal\Component\Utility\Unicode.             
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

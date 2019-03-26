@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/syndev 4aea490999987174b16bc3494ead9f3a4361bf36
+source : http://cgit.drupalcode.org/syndev 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   syndev.module                                      
+ ------ --------------------------------------------------- 
+  29     Calls to function dsm should not exist.            
+  33     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

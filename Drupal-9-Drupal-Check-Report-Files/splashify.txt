@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/splashify dbb19a358823ffefac251b4fd69d495f90bc054d
+source : http://cgit.drupalcode.org/splashify 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SplashifyEntityForm.php                   
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SplashifyGroupEntityForm.php              
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Service/SplashifyInjection.php               
+ ------ ------------------------------------------------- 
+  273    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  278    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SplashifyEntityListBuilder.php                                   
+ ------ --------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\splashify\SplashifyEntityListBuilder.                   
+  37     Call to deprecated method l() of class                               
+         Drupal\splashify\SplashifyEntityListBuilder.                         
+  49     Call to deprecated method l() of class                               
+         Drupal\splashify\SplashifyEntityListBuilder.                         
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SplashifyGroupEntityListBuilder.php                              
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\splashify\SplashifyGroupEntityListBuilder.              
+  34     Call to deprecated method l() of class                               
+         Drupal\splashify\SplashifyGroupEntityListBuilder.                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

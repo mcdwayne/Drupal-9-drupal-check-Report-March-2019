@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/svg_icon bb089ff1631fea0f8b0a8b58f0f3b786bef5aef7
+source : http://cgit.drupalcode.org/svg_icon 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/SvgIconFormatter.php               
+ ------ ------------------------------------------------------------------- 
+  92     Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/SvgIconWidget.php                     
+ ------ ------------------------------------------------------------------- 
+  171    Call to deprecated method url() of class Drupalilentity\File.  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_extension_suit ae5027981099d73b4564d1f854daee42c93320d7
+source : http://cgit.drupalcode.org/tmgmt_extension_suit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CancelTmgmtActionApproveForm.php          
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Plugin/QueueWorker/JobDownload.php      
+ ------ -------------------------------------------- 
+  79     Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/TmgmtExtensionSuitTestBase.php                            
+ ------ -------------------------------------------------------------------- 
+  20     Class Drupal	mgmt_extension_suit\Tests\TmgmtExtensionSuitTestBase  
+         extends deprecated class Drupal	mgmt\Tests\TMGMTTestBase.          
+  44     Call to method setUp() of deprecated class                          
+         Drupal	mgmt\Tests\TMGMTTestBase.                                   
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

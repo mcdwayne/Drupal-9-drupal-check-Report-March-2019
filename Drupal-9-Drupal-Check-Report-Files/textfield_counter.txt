@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/textfield_counter a28d4327b11567cc9a9bd78ea1867c79c7390742
+source : http://cgit.drupalcode.org/textfield_counter 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/TextFieldCounterWidgetTrait.php (in context of class Drupal	extfield_counter\Plugin\Field\FieldWidget\StringTextareaWithCounterWidget)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  344    Call to deprecated method strlen() of class                                                                                                                           
+         Drupal\Component\Utility\Unicode.                                                                                                                                     
+  347    Call to deprecated method strlen() of class                                                                                                                           
+         Drupal\Component\Utility\Unicode.                                                                                                                                     
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/TextFieldCounterWidgetTrait.php (in context of class Drupal	extfield_counter\Plugin\Field\FieldWidget\StringTextfieldWithCounterWidget)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  344    Call to deprecated method strlen() of class                                                                                                                            
+         Drupal\Component\Utility\Unicode.                                                                                                                                      
+  347    Call to deprecated method strlen() of class                                                                                                                            
+         Drupal\Component\Utility\Unicode.                                                                                                                                      
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/TextFieldCounterWidgetTrait.php (in context of class Drupal	extfield_counter\Plugin\Field\FieldWidget\TextareaWithCounterWidget)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  344    Call to deprecated method strlen() of class                                                                                                                     
+         Drupal\Component\Utility\Unicode.                                                                                                                               
+  347    Call to deprecated method strlen() of class                                                                                                                     
+         Drupal\Component\Utility\Unicode.                                                                                                                               
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/TextFieldCounterWidgetTrait.php (in context of class Drupal	extfield_counter\Plugin\Field\FieldWidget\TextareaWithSummaryAndCounterWidget)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  344    Call to deprecated method strlen() of class                                                                                                                               
+         Drupal\Component\Utility\Unicode.                                                                                                                                         
+  347    Call to deprecated method strlen() of class                                                                                                                               
+         Drupal\Component\Utility\Unicode.                                                                                                                                         
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/TextFieldCounterWidgetTrait.php (in context of class Drupal	extfield_counter\Plugin\Field\FieldWidget\TextfieldWithCounterWidget)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  344    Call to deprecated method strlen() of class                                                                                                                      
+         Drupal\Component\Utility\Unicode.                                                                                                                                
+  347    Call to deprecated method strlen() of class                                                                                                                      
+         Drupal\Component\Utility\Unicode.                                                                                                                                
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

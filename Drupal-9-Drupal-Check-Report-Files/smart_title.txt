@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smart_title 9b8d757a60decc8cc0eefd2ea3144c79dd53b426
+source : https://cgit.drupalcode.org/smart_title 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/SmartTitleBasicTest.php      
+ ------ -------------------------------------------------- 
+  93     Call to deprecated method assertTitle() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmartTitleConfigTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  63     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmartTitleXssTest.php                               
+ ------ ------------------------------------------------------------------------- 
+  37     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  47     Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/summoner 1230767d205bd08c560761b55e3b0e52ea23916f
+source : http://cgit.drupalcode.org/summoner 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/summoner/Controller/SummonerController.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\summoner\Controller\SummonerController was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/summoner/Exception/LibraryNotFoundException.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\summonerxception\LibraryNotFoundException was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/summoner/LibraryList.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\summoner\LibraryList was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/summoner/ParamConverter/LibraryConverter.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\summoner\ParamConverter\LibraryConverter was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   tests/modules/summoner_test/lib/Drupal/summoner_test/Controller/SummonerTestController.php  
+ ------ -------------------------------------------------------------------------------------------- 
+         Class Drupal\summoner_test\Controller\SummonerTestController was not                        
+         found while trying to analyse it - autoloading is probably not                              
+         configured properly.                                                                        
+ ------ -------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,382 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/support 6b2a747c7885529158537820c2a3a1e74bc379a0
+source : http://cgit.drupalcode.org/support 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Controller/SupportTicketController.php  
+ ------ ------------------------------------------------------------------- 
+  79     Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  86     Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  87     Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  114    Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  133    Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  150    Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  151    Call to deprecated function format_date().                         
+  165    Call to deprecated method entityManager() of class                 
+         Drupal\Core\Controller\ControllerBase.                             
+  189    Call to deprecated method l() of class                             
+         Drupal\Core\Controller\ControllerBase.                             
+  192    Call to deprecated method link() of class                          
+         Drupal\CorentityntityInterface.                                
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Controller/SupportTicketPreviewController.php  
+ ------ -------------------------------------------------------------------------- 
+  36     Call to deprecated method url() of class                                  
+         Drupal\CorentityntityInterface.                                       
+  45     Call to deprecated method url() of class                                  
+         Drupal\CorentityntityInterface.                                       
+  64     Call to deprecated method checkPlain() of class                           
+         Drupal\Component\Utility\SafeMarkup.                                      
+  64     Call to method checkPlain() of deprecated class                           
+         Drupal\Component\Utility\SafeMarkup.                                      
+ ------ -------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Controller/SupportTicketRevisionController.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupal\diffntityComparisonBase not found and could not be          
+         autoloaded.                                                                
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Controller/SupportTicketViewController.php  
+ ------ ----------------------------------------------------------------------- 
+  30     Call to deprecated method url() of class                               
+         Drupal\CorentityntityInterface.                                    
+  40     Call to deprecated method url() of class                               
+         Drupal\CorentityntityInterface.                                    
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/support_ticket/src/Entity/SupportTicket.php         
+ ------ ------------------------------------------------------------ 
+  150    Call to deprecated method entityManager() of class Drupal.  
+  394    Call to deprecated method setQueryable() of class           
+         Drupal\Core\Field\BaseFieldDefinition.                      
+  400    Call to deprecated method setQueryable() of class           
+         Drupal\Core\Field\BaseFieldDefinition.                      
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/support_ticket/src/Entity/SupportTicketType.php  
+ ------ --------------------------------------------------------- 
+  182    Call to deprecated function drupal_set_message().        
+  194    Call to deprecated method entityManager() of class       
+         Drupal\Corentityntity.                               
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/support_ticket/src/Form/DeleteMultiple.php  
+ ------ ---------------------------------------------------- 
+  195    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Form/RevisionOverviewForm.php           
+ ------ ------------------------------------------------------------------- 
+  173    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  183    Call to deprecated method format() of class                        
+         Drupal\Component\Utility\SafeMarkup.                               
+  183    Call to method format() of deprecated class                        
+         Drupal\Component\Utility\SafeMarkup.                               
+  230    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Form/SupportTicketDeleteForm.php  
+ ------ ------------------------------------------------------------- 
+  24     Access to deprecated property $entityManager of class        
+         Drupal\CorentityntityForm.                               
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Form/SupportTicketRevisionDeleteForm.php  
+ ------ --------------------------------------------------------------------- 
+  90     Call to deprecated function format_date().                           
+  125    Call to deprecated function drupal_set_message().                    
+  125    Call to deprecated function format_date().                           
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Form/SupportTicketRevisionRevertForm.php  
+ ------ --------------------------------------------------------------------- 
+  66     Call to deprecated function format_date().                           
+  109    Call to deprecated function format_date().                           
+  114    Call to deprecated function drupal_set_message().                    
+  114    Call to deprecated function format_date().                           
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/support_ticket/src/Plugin/Action/UnpublishByKeywordSupportTicket.php  
+ ------ ------------------------------------------------------------------------------ 
+  32     Call to deprecated function drupal_render().                                  
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/migrate/source/d6/SupportTicket.php  
+ ------ ----------------------------------------------------------------------- 
+  90     Class Drupal\migrate\Plugin\SourceEntityInterface not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/migrate/source/d6/SupportTicketReference.php  
+ ------ -------------------------------------------------------------------------------- 
+  31     Class Drupal\migrate\Plugin\SourceEntityInterface not found and could           
+         not be autoloaded.                                                              
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/argument/Stid.php  
+ ------ ----------------------------------------------------------- 
+  65     Call to deprecated method checkPlain() of class            
+         Drupal\Component\Utility\SafeMarkup.                       
+  65     Call to method checkPlain() of deprecated class            
+         Drupal\Component\Utility\SafeMarkup.                       
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/argument/Type.php  
+ ------ ----------------------------------------------------------- 
+  79     Call to deprecated method checkPlain() of class            
+         Drupal\Component\Utility\SafeMarkup.                       
+  79     Call to method checkPlain() of deprecated class            
+         Drupal\Component\Utility\SafeMarkup.                       
+ ------ ----------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/argument/Vid.php  
+ ------ ---------------------------------------------------------- 
+  87     Call to deprecated method checkPlain() of class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  87     Call to method checkPlain() of deprecated class           
+         Drupal\Component\Utility\SafeMarkup.                      
+ ------ ---------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/argument_default/SupportTicket.php  
+ ------ ---------------------------------------------------------------------------- 
+  26     Class Drupaliews\Plugin\CacheablePluginInterface not found and could      
+         not be autoloaded.                                                          
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/field/Path.php  
+ ------ -------------------------------------------------------- 
+  71     Call to deprecated method url() of class Drupal.        
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/field/RevisionLink.php  
+ ------ ---------------------------------------------------------------- 
+  32     Call to deprecated method urlInfo() of class                    
+         Drupal\CorentityntityInterface.                             
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/field/SupportTicketBulkForm.php  
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupal\support_ticket\Pluginiewsield\SupportTicketBulkForm     
+         extends deprecated class Drupal\system\Pluginiewsield\BulkForm.      
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/support_ticket/src/Plugin/views/row/Rss.php  
+ ------ ----------------------------------------------------- 
+  81     Call to deprecated method checkPlain() of class      
+         Drupal\Component\Utility\SafeMarkup.                 
+  81     Call to method checkPlain() of deprecated class      
+         Drupal\Component\Utility\SafeMarkup.                 
+  116    Call to deprecated method url() of class             
+         Drupal\CorentityntityInterface.                  
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/support_ticket/src/Plugin/views/wizard/SupportTicket.php  
+ ------ ------------------------------------------------------------------ 
+  223    Call to deprecated function entity_get_bundles().                 
+  231    Call to deprecated function entity_get_form_display().            
+  232    Call to deprecated method entityManager() of class Drupal.        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/support_ticket/src/SupportTicketAccessControlHandler.php  
+ ------ ------------------------------------------------------------------ 
+  80     Call to deprecated method cacheUntilEntityChanges() of class      
+         Drupal\Core\Access\AccessResult.                                  
+  84     Call to deprecated method cacheUntilEntityChanges() of class      
+         Drupal\Core\Access\AccessResult.                                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/support_ticket/src/SupportTicketForm.php   
+ ------ --------------------------------------------------- 
+  370    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  376    Call to deprecated function drupal_set_message().  
+  380    Call to deprecated function drupal_set_message().  
+  398    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/support_ticket/src/SupportTicketListBuilder.php  
+ ------ --------------------------------------------------------- 
+  112    Call to deprecated method urlInfo() of class             
+         Drupal\CorentityntityInterface.                      
+  119    Call to deprecated function drupal_render().             
+  122    Call to deprecated method checkPlain() of class          
+         Drupal\Component\Utility\SafeMarkup.                     
+  122    Call to method checkPlain() of deprecated class          
+         Drupal\Component\Utility\SafeMarkup.                     
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/SupportTicketPermissions.php             
+ ------ -------------------------------------------------------------------- 
+  20     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\support_ticket\SupportTicketPermissions.               
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/SupportTicketTypeAccessControlHandler.php  
+ ------ ---------------------------------------------------------------------- 
+  28     Call to deprecated method cacheUntilEntityChanges() of class          
+         Drupal\Core\Access\AccessResult.                                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/support_ticket/src/SupportTicketTypeForm.php  
+ ------ ------------------------------------------------------ 
+  58     Call to deprecated method checkPlain() of class       
+         Drupal\Component\Utility\SafeMarkup.                  
+  58     Call to method checkPlain() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.                  
+  227    Call to deprecated function drupal_set_message().     
+  231    Call to deprecated function drupal_set_message().     
+  232    Call to deprecated method link() of class             
+         Drupal\CorentityntityInterface.                   
+  253    Call to deprecated method urlInfo() of class          
+         Drupal\CorentityntityInterface.                   
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/support_ticket/src/SupportTicketTypeListBuilder.php  
+ ------ ------------------------------------------------------------- 
+  38     Call to deprecated method getLabel() of class                
+         Drupal\CorentityntityListBuilder.                        
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/support_ticket/src/SupportTicketViewBuilder.php  
+ ------ --------------------------------------------------------- 
+  115    Call to deprecated method urlInfo() of class             
+         Drupal\CorentityntityInterface.                      
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Tests/SupportTicketCreationTest.php  
+ ------ ---------------------------------------------------------------- 
+  41     Call to deprecated method entityManager() of class Drupal.      
+  67     Call to deprecated method getUsername() of class                
+         Drupal\Core\Session\AccountInterface.                           
+  68     Call to deprecated function format_date().                      
+  95     Call to deprecated function entity_create().                    
+  211    Call to deprecated function db_query().                         
+  229    Call to deprecated function db_query().                         
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Tests/SupportTicketFormButtonsTest.php  
+ ------ ------------------------------------------------------------------- 
+  122    Call to deprecated method entityManager() of class Drupal.         
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/support_ticket/src/Tests/SupportTicketSaveTest.php  
+ ------ ------------------------------------------------------------ 
+  52     Call to deprecated method entityManager() of class Drupal.  
+  67     Call to deprecated function entity_create().                
+  92     Call to deprecated function entity_create().                
+  121    Call to deprecated function entity_create().                
+  147    Call to deprecated function entity_create().                
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Tests/SupportTicketTestBase.php         
+ ------ ------------------------------------------------------------------- 
+  58     Call to deprecated function entity_create().                       
+  63     Call to deprecated method format() of class                        
+         Drupal\Component\Utility\SafeMarkup.                               
+  63     Call to method format() of deprecated class                        
+         Drupal\Component\Utility\SafeMarkup.                               
+  77     Call to deprecated method entityManager() of class Drupal.         
+  134    Call to deprecated function format_string().                       
+  157    Call to deprecated method entityManager() of class Drupal.         
+  159    Call to deprecated function entity_load_multiple_by_properties().  
+  204    Call to deprecated function entity_create().                       
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Tests/SupportTicketTokenReplaceTest.php       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\system\Tests\System\TokenReplaceUnitTestBase not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Tests/SupportTicketViewLanguageTest.php       
+ ------ ------------------------------------------------------------------------- 
+  41     Call to deprecated function entity_get_display().                        
+  48     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/support_ticket/src/Tests/SupportTicketViewTest.php               
+ ------ ------------------------------------------------------------------------- 
+  38     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  41     Call to deprecated method url() of class Drupal\Corentityntity.      
+  44     Call to deprecated method url() of class Drupal\Corentityntity.      
+  47     Call to deprecated method url() of class Drupal\Corentityntity.      
+  57     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/support_ticket/support_ticket.module                       
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\diffntityComparisonBase not found and could not be  
+         autoloaded.                                                        
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/support_ticket/support_ticket.tokens.inc            
+ ------ ------------------------------------------------------------ 
+  131    Call to deprecated method entityManager() of class Drupal.  
+  147    Call to deprecated function entity_get_display().           
+  170    Call to deprecated method url() of class                    
+         Drupal\CorentityntityInterface.                         
+  174    Call to deprecated method url() of class                    
+         Drupal\CorentityntityInterface.                         
+  187    Call to deprecated function format_date().                  
+  193    Call to deprecated function format_date().                  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/SupportUnitTest.php                                         
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Tests\support\SupportTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 110 errors                                                        
+
+ </code>

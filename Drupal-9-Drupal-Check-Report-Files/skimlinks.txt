@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/skimlinks fb018b49d00cccc40147fe0356441ed220ac5316
+source : http://cgit.drupalcode.org/skimlinks 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   skimlinks.module                                 
+ ------ ------------------------------------------------- 
+  75     Call to deprecated function db_table_exists().   
+  79     Call to deprecated function db_select().         
+  112    Call to deprecated function db_truncate().       
+  113    Call to deprecated function db_insert().         
+  116    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  116    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  220    Call to deprecated function db_merge().          
+  267    Call to deprecated function db_table_exists().   
+  270    Call to deprecated function db_table_exists().   
+  277    Call to deprecated function db_select().         
+  315    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  315    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  317    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  317    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  418    Call to deprecated function db_select().         
+  463    Call to deprecated function db_select().         
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SkimlinksApiConnection.php                     
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

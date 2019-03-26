@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_memory 2af8ad167a485abcae1d449d562d59da094be84d
+source : http://cgit.drupalcode.org/tmgmt_memory 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Entity/ListBuilder/SegmentTranslationListBuilder.php  
+ ------ ---------------------------------------------------------- 
+  37     Call to deprecated method urlInfo() of class              
+         Drupal\CorentityntityInterface.                       
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChangeConfirmationForm.php                
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImportForm.php                            
+ ------ --------------------------------------------------- 
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Tests/IntegrationTest.php                                       
+ ------ -------------------------------------------------------------------- 
+  13     Class Drupal	mgmt_memory\Tests\IntegrationTest extends deprecated  
+         class Drupal	mgmt\TestsntityTestBase.                            
+  32     Call to method setUp() of deprecated class                          
+         Drupal	mgmt\Tests\TMGMTTestBase.                                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tmgmt_memory.module                             
+ ------ ------------------------------------------------ 
+  114    Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

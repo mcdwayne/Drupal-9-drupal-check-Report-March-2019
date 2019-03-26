@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/theme_by_author 4336ce4389bf96fd2f435ce767ad12913d86286e
+source : http://cgit.drupalcode.org/theme_by_author 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/AuthorThemeNegotiatorTest.php                          
+ ------ ------------------------------------------------------------------------ 
+  19     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class  
+         Drupal\Tests	heme_by_author\Kernel\AuthorThemeNegotiatorTest.          
+  20     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests	heme_by_author\Kernel\AuthorThemeNegotiatorTest.          
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

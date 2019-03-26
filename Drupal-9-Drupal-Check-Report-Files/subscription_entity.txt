@@ -1,0 +1,197 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/subscription_entity 15e9bd253eed1f5b4c19d1ba18d7402836244d46
+source : http://cgit.drupalcode.org/subscription_entity 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/SubscriptionController.php           
+ ------ ---------------------------------------------------- 
+  30     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  31     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  46     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  47     Call to deprecated function format_date().          
+  65     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  93     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/SubscriptionTermController.php       
+ ------ ---------------------------------------------------- 
+  30     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  31     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  46     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  47     Call to deprecated function format_date().          
+  65     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  93     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Subscription.php                        
+ ------ --------------------------------------------------- 
+  662    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+  668    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/SubscriptionTerm.php                    
+ ------ --------------------------------------------------- 
+  503    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+  509    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionForm.php                      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function user_load().           
+  71     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionRevisionDeleteForm.php        
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function format_date().         
+  109    Call to deprecated function drupal_set_message().  
+  109    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionRevisionRevertForm.php        
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionTermForm.php                  
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionTermRevisionDeleteForm.php    
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionTermRevisionRevertForm.php    
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionTermTypeDeleteForm.php        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionTermTypeForm.php              
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SubscriptionTypeForm.php                  
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SubscriptionListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\subscription_entity\SubscriptionListBuilder.            
+  34     Call to deprecated method l() of class                               
+         Drupal\subscription_entity\SubscriptionListBuilder.                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SubscriptionTermListBuilder.php                                  
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\subscription_entity\SubscriptionTermListBuilder.        
+  34     Call to deprecated method l() of class                               
+         Drupal\subscription_entity\SubscriptionTermListBuilder.              
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/Subscription/SubscriptionTest.php                      
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\subscription\Kernel\Subscription\SubscriptionTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Kernel/SubscriptionKernelTestBase.php                        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Tests\subscription\Kernel\SubscriptionKernelTestBase was  
+         not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/SubscriptionTerm/SubscriptionTermTest.php              
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests\subscription\Kernel\SubscriptionTerm\SubscriptionTermTest  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/SubscriptionTermType/SubscriptionTermTypeTest.php       
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\subscription\Kernel\SubscriptionTermType\SubscriptionTermT  
+         ypeTest was not found while trying to analyse it - autoloading is        
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/SubscriptionType/SubscriptionTypeTest.php              
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests\subscription\Kernel\SubscriptionType\SubscriptionTypeTest  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SubscriptionTypeTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\subscription\Unit\SubscriptionTypeTest was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 45 errors                                                         
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smart_content_segments ac5a6e7de45f4fc1591e6ffe504b86410a01fa2b
+source : http://cgit.drupalcode.org/smart_content_segments 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmartSegmentDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmartSegmentForm.php                      
+ ------ --------------------------------------------------- 
+  366    Call to deprecated function drupal_set_message().  
+  372    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/smart_content/ConditionGroup/Segment.php                     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\smart_content\Plugin\smart_content\ConditionGroup\Segment  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

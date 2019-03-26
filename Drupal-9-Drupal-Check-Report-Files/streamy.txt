@@ -1,0 +1,78 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/streamy 8.x-1.x
+source : http://cgit.drupalcode.org/streamy 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/streamy_aws/src/Plugin/StreamyStream/AwsV3.php       
+ ------ ------------------------------------------------------------- 
+  71     Call to deprecated method factory() of class Aws\AwsClient.  
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/streamy_aws/tests/src/Functional/AwsCdnPluginTest.php  
+ ------ --------------------------------------------------------------- 
+  150    Call to deprecated function format_string().                   
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/streamy_aws/tests/src/Functional/AwsCdnTest.php  
+ ------ --------------------------------------------------------- 
+  123    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/streamy_aws/tests/src/Functional/AwsS3Test.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\streamy_aws\Tests\Functional\AwsS3Test was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/streamy_aws/tests/src/Functional/ModuleInstallUninstallTest.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\streamy_aws\Tests\Functional\ModuleInstallUninstallTest     
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/streamy_dropbox/tests/src/Functional/DropboxFormTest.php         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\streamy_dropbox\Functional\DropboxForm was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/StreamWrapper/FlySystemHelper.php              
+ ------ --------------------------------------------------- 
+  394    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------- 
+  Line   src/StreamWrapper/StreamyURLTrait.php (in context of class Drupal\streamy\StreamWrapper\FlySystemHelper)  
+ ------ ---------------------------------------------------------------------------------------------------------- 
+  10     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in                                        
+         class Drupal\streamy\StreamWrapper\FlySystemHelper.                                                       
+  24     Call to deprecated method url() of class                                                                  
+         Drupal\streamy\StreamWrapper\FlySystemHelper.                                                             
+ ------ ---------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Functional/LocalPluginTest.php      
+ ------ ---------------------------------------------- 
+  295    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/StreamyFunctionalTestBase.php  
+ ------ ---------------------------------------------------- 
+  157    Call to deprecated function entity_get_display().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

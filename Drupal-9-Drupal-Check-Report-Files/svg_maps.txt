@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/svg_maps 2b68cadf89143690fff3414f4ea17a23f58d070e
+source : http://cgit.drupalcode.org/svg_maps 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/SvgMapsEntity.php                                
+ ------ ------------------------------------------------------------ 
+  204    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SvgMapsEntityDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SvgMapsEntityForm.php                     
+ ------ --------------------------------------------------- 
+  233    Call to deprecated function drupal_set_message().  
+  239    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tac_lite 84befb05c44ec6d0543609a0ad256bebc941c322
+source : http://cgit.drupalcode.org/tac_lite 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                            
+ ------ --------------------------------------------------- 
+  34     Call to deprecated method url() of class Drupal.   
+  99     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/SchemeForm.php                                     
+ ------ ------------------------------------------------------------ 
+  124    Call to deprecated method url() of class Drupal.            
+  145    Call to deprecated function drupal_set_message().           
+  145    Call to deprecated method url() of class Drupal.            
+  174    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/UserAccessForm.php                       
+ ------ -------------------------------------------------- 
+  67     Call to deprecated method url() of class Drupal.  
+  76     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tac_lite.module                                             
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method l() of class Drupal.              
+  35     Call to deprecated method url() of class Drupal.            
+  109    Call to deprecated function drupal_set_message().           
+  110    Call to deprecated method url() of class Drupal.            
+  125    Call to deprecated method entityManager() of class Drupal.  
+  140    Call to deprecated method getVocabularyId() of class        
+         Drupal	axonomyntity\Term.                                
+  254    Call to deprecated function db_or().                        
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   tac_lite_create/tac_lite_create.module                      
+ ------ ------------------------------------------------------------ 
+  55     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

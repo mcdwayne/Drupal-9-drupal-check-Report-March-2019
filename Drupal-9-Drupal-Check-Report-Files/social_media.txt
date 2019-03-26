@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_media 9460bef0791783f18e886d7bdaac124542d9c477
+source : http://cgit.drupalcode.org/social_media 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ForwardEmailForm.php                      
+ ------ --------------------------------------------------- 
+  148    Call to deprecated function drupal_set_message().  
+  152    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SocialMediaAdminForm.php                  
+ ------ --------------------------------------------------- 
+  241    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

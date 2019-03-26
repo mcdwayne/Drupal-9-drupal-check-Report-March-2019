@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tagadelic 13d0d782e9e6c57aa9d8b98bf87c412af7e540bc
+source : http://cgit.drupalcode.org/tagadelic 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/TagadelicCloudTaxonomy.php            
+ ------ ------------------------------------------ 
+  40     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/TagadelicTag.php                             
+ ------ ------------------------------------------------- 
+  43     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  43     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  52     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  52     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/TagadelicAdminTest.php                 
+ ------ ------------------------------------------------- 
+  71     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  81     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/TagadelicServiceTest.php                      
+ ------ -------------------------------------------------------- 
+  93     Call to deprecated function entity_get_form_display().  
+  100    Call to deprecated function entity_get_display().       
+  106    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tagadelic.theme.inc                                
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

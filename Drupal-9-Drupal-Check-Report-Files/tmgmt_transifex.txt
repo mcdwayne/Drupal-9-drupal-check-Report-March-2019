@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_transifex 8.x-1.1
+source : http://cgit.drupalcode.org/tmgmt_transifex 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/TransifexTranslator.php  
+ ------ ----------------------------------------------------- 
+  83     Call to deprecated method url() of class             
+         Drupal\CorentityntityInterface.                  
+  220    Call to deprecated function drupal_set_message().    
+  223    Call to deprecated function drupal_set_message().    
+  259    Call to deprecated function drupal_set_message().    
+  263    Call to deprecated function drupal_set_message().    
+  267    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Tests/TMGMTTransifexTest.php                               
+ ------ --------------------------------------------------------------- 
+  15     Class Drupal	mgmt_transifex\Tests\TMGMTTransifexTest extends  
+         deprecated class Drupal	mgmt\Tests\TMGMTTestBase.             
+  27     Call to method setUp() of deprecated class                     
+         Drupal	mgmt\Tests\TMGMTTestBase.                              
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   tests/TMGMTTransifexTest.php                
+ ------ -------------------------------------------- 
+  22     Call to method setUp() of deprecated class  
+         Drupal	mgmt\Tests\TMGMTTestBase.           
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tmgmt_transifex.module                             
+ ------ --------------------------------------------------- 
+  14     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

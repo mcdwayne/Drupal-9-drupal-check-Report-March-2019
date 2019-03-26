@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/system_tags fc43ca33b208a52e2bbec30c6f8673cd3c1ac2e2
+source : https://cgit.drupalcode.org/system_tags 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SystemTagForm.php                         
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/DefaultSystemTagsTest.php                        
+ ------ ---------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\system_tags\Functional\DefaultSystemTagsTest.            
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

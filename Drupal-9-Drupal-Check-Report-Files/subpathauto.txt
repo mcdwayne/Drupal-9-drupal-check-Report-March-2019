@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/subpathauto 192dcda7805c2ceacb89712c085c1708f9603bbc
+source : http://cgit.drupalcode.org/subpathauto 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/SubPathautoKernelTest.php                              
+ ------ ------------------------------------------------------------------------ 
+  17     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\subpathauto\Kernel\SubPathautoKernelTest.                  
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SubPathautoTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  77     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  81     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

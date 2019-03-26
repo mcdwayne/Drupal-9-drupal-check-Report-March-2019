@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sapi 7b7ad8ec084158709449a49f938ee9906b437141
+source : http://cgit.drupalcode.org/sapi 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/sapi_data/src/Controller/SAPIDataAddController.php  
+ ------ ------------------------------------------------------------ 
+  56     Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/sapi_data/src/Form/SAPIDataForm.php        
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/sapi_data/src/Form/SAPIDataTypeDeleteForm.php  
+ ------ ------------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/sapi_data/src/Form/SAPIDataTypeForm.php    
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/sapi_data/src/SAPIDataListBuilder.php                        
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\sapi_data\SAPIDataListBuilder.                          
+  34     Call to deprecated method l() of class                               
+         Drupal\sapi_data\SAPIDataListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

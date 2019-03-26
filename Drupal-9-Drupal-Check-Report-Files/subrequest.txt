@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/subrequest 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/subrequest 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Block/SubrequestBlock.php                        
+ ------ ------------------------------------------------------------ 
+  240    Call to deprecated method entityManager() of class Drupal.  
+  241    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/SubrequestManager.php                                             
+ ------ ---------------------------------------------------------------------- 
+  97     Call to deprecated method getArguments() of class                     
+         Symfony\Component\HttpKernel\Controller\ControllerResolverInterface.  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

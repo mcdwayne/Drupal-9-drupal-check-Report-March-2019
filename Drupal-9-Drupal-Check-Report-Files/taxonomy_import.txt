@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_import 8c1fda2daacb930e54cae4730e1f7376680a19bd
+source : http://cgit.drupalcode.org/taxonomy_import 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImportForm.php                            
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function db_query().            
+  124    Call to deprecated function db_query().            
+  132    Call to deprecated function db_query().            
+  165    Call to deprecated function drupal_set_message().  
+  196    Call to deprecated function db_query().            
+  207    Call to deprecated function db_query().            
+  233    Call to deprecated function drupal_set_message().  
+  238    Call to deprecated function drupal_set_message().  
+  241    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

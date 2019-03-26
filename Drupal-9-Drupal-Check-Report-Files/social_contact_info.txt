@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_contact_info 13240dde186cacc23d5abaa1ad74ba92e5e68f32
+source : http://cgit.drupalcode.org/social_contact_info 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   social_contact_info.module                        
+ ------ -------------------------------------------------- 
+  18     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/SocialContactInfo.php           
+ ------ ------------------------------------------------- 
+  502    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

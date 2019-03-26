@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/super_login 49f9cb906e2d0e50941358bedb29a2cbbe08fca6
+source : http://cgit.drupalcode.org/super_login 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Super_loginSettingsForm.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\super_login\super_loginSettingsForm was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   super_login.module                               
+ ------ ------------------------------------------------- 
+  137    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

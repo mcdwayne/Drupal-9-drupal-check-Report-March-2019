@@ -1,0 +1,133 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/spammaster 0b9402d2cf879d81d4fc76f60b13a053db0364aa
+source : http://cgit.drupalcode.org/spammaster 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   spammaster.module                                  
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function db_insert().           
+  84     Call to deprecated function db_insert().           
+  306    Call to deprecated function drupal_set_message().  
+  309    Call to deprecated function drupal_set_message().  
+  312    Call to deprecated function drupal_set_message().  
+  315    Call to deprecated function drupal_set_message().  
+  320    Call to deprecated function drupal_set_message().  
+  323    Call to deprecated function drupal_set_message().  
+  738    Call to deprecated function db_insert().           
+  831    Call to deprecated function db_insert().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/SpamMasterCleanUpController.php  
+ ------ ------------------------------------------------ 
+  26     Call to deprecated function db_query().         
+  30     Call to deprecated function db_insert().        
+  39     Call to deprecated function db_insert().        
+  62     Call to deprecated function db_query().         
+  66     Call to deprecated function db_insert().        
+  75     Call to deprecated function db_insert().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/SpamMasterCommentController.php  
+ ------ ------------------------------------------------ 
+  56     Call to deprecated function db_insert().        
+  67     Call to deprecated function db_insert().        
+  119    Call to deprecated function db_insert().        
+  129    Call to deprecated function db_insert().        
+  142    Call to deprecated function db_insert().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/SpamMasterContactController.php  
+ ------ ------------------------------------------------ 
+  54     Call to deprecated function db_insert().        
+  67     Call to deprecated function db_insert().        
+  78     Call to deprecated function db_insert().        
+  130    Call to deprecated function db_insert().        
+  140    Call to deprecated function db_insert().        
+  153    Call to deprecated function db_insert().        
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/Controller/SpamMasterCronController.php  
+ ------ --------------------------------------------- 
+  42     Call to deprecated function db_insert().     
+  78     Call to deprecated function db_insert().     
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SpamMasterLicController.php         
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function db_insert().           
+  121    Call to deprecated function db_insert().           
+  232    Call to deprecated function db_insert().           
+  246    Call to deprecated function db_insert().           
+  260    Call to deprecated function db_insert().           
+  271    Call to deprecated function db_insert().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SpamMasterMailController.php        
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function db_insert().           
+  66     Call to deprecated function db_insert().           
+  73     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function db_insert().           
+  85     Call to deprecated function db_insert().           
+  136    Call to deprecated function db_insert().           
+  142    Call to deprecated function db_insert().           
+  176    Call to deprecated function db_insert().           
+  182    Call to deprecated function db_insert().           
+  232    Call to deprecated function db_insert().           
+  238    Call to deprecated function db_insert().           
+  288    Call to deprecated function db_insert().           
+  294    Call to deprecated function db_insert().           
+  412    Call to deprecated function db_insert().           
+  629    Call to deprecated function db_insert().           
+  840    Call to deprecated function db_insert().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Controller/SpamMasterRegistrationController.php  
+ ------ ----------------------------------------------------- 
+  50     Call to deprecated function db_insert().             
+  68     Call to deprecated function db_insert().             
+  79     Call to deprecated function db_insert().             
+  137    Call to deprecated function db_insert().             
+  147    Call to deprecated function db_insert().             
+  160    Call to deprecated function db_insert().             
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/EventSubscriber/SpamMasterFirewallSubscriber.php  
+ ------ ------------------------------------------------------ 
+  30     Call to deprecated function db_insert().              
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SpamMasterBufferForm.php                  
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function db_query().            
+  30     Call to deprecated function drupal_set_message().  
+  32     Call to deprecated function db_insert().           
+  95     Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SpamMasterLogForm.php                     
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function db_query().            
+  54     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function db_insert().           
+  72     Call to deprecated function db_truncate().         
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 69 errors                                                         
+
+ </code>

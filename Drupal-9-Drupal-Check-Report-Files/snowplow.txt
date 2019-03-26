@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/snowplow db6273ea5cb9022750ee2780de3ffed79e80b7b4
+source : http://cgit.drupalcode.org/snowplow 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/snowplow_js/src/Form/SnowplowJsSettingsForm.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\snowplow\Form\SnowplowJsSettingsForm was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   snowplow.module                                    
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

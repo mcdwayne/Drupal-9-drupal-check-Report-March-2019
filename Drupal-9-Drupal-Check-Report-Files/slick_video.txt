@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slick_video c125d7293faecf60e746b21c47b7279cd62b8e07
+source : http://cgit.drupalcode.org/slick_video 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/SlickVideoFormatter.php              
+ ------ --------------------------------------------------------------------- 
+  27     Class                                                                
+         Drupal\slick_video\Plugin\Field\FieldFormatter\SlickVideoFormatter   
+         extends deprecated class Drupallazy\Dejavu\BlazyVideoBase.         
+  36     Call to method __construct() of deprecated class                     
+         Drupal\Core\Field\FormatterBase.                                     
+  87     Call to deprecated method buildVideo() of class                      
+         Drupal\slick_video\Plugin\Field\FieldFormatter\SlickVideoFormatter.  
+  115    Call to deprecated method buildVideo() of class                      
+         Drupal\slick_video\Plugin\Field\FieldFormatter\SlickVideoFormatter.  
+  137    Call to method getScopedFormElements() of deprecated class           
+         Drupallazy\Dejavu\BlazyVideoBase.                                  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

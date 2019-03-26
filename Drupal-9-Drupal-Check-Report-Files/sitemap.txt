@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sitemap 0451164f3a2196f0c204441b2a97f76f8d2a8575
+source : http://cgit.drupalcode.org/sitemap 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/SitemapSettingsForm.php                                   
+ ------ ------------------------------------------------------------------- 
+  106    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  269    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/SitemapRssTest.php                     
+ ------ ------------------------------------------------- 
+  45     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/SitemapTaxonomyTestBase.php                                  
+ ------ ----------------------------------------------------------------------- 
+  13     Class Drupal\sitemap\Tests\SitemapTaxonomyTestBase extends deprecated  
+         class Drupal	axonomy\Tests\TaxonomyTestBase.                          
+  54     Call to method setUp() of deprecated class                             
+         Drupal	axonomy\Tests\TaxonomyTestBase.                                
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,151 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stratoserp 23c5ee5a2b208bfb00e3a1eea8c1ae8c27844a70
+source : http://cgit.drupalcode.org/stratoserp 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   se_core/src/Controller/AutocompleteController.php  
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function db_like().             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_core/src/Form/SearchForm.php                    
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   se_customer/src/Tests/CustomerWebTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  17     Class                                                                    
+         Drupalntity_reference_revisions\TestsntityReferenceRevisionsCoreVer  
+         sionUiTestTrait not found and could not be autoloaded.                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   se_information/src/Controller/InformationController.php  
+ ------ --------------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class       
+         Drupal\Core\Controller\ControllerBase.                   
+  29     Call to deprecated method entityManager() of class       
+         Drupal\Core\Controller\ControllerBase.                   
+  44     Call to deprecated method entityManager() of class       
+         Drupal\Core\Controller\ControllerBase.                   
+  45     Call to deprecated function format_date().               
+  63     Call to deprecated method entityManager() of class       
+         Drupal\Core\Controller\ControllerBase.                   
+  91     Call to deprecated method l() of class                   
+         Drupal\Core\Controller\ControllerBase.                   
+  94     Call to deprecated method link() of class                
+         Drupal\CorentityntityInterface.                      
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_information/src/Form/InformationForm.php        
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   se_information/src/Form/InformationRevisionDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  76     Call to deprecated function format_date().                 
+  110    Call to deprecated function drupal_set_message().          
+  110    Call to deprecated function format_date().                 
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   se_information/src/Form/InformationRevisionRevertForm.php  
+ ------ ----------------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   se_information/src/Form/InformationTypeDeleteForm.php  
+ ------ ------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_information/src/Form/InformationTypeForm.php    
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   se_item/modules/se_stock/src/Plugin/Validation/Constraint/CodeSerialUniqueConstraint.php  
+ ------ ------------------------------------------------------------------------------------------ 
+         Class                                                                                     
+         Drupal\se_stocks\Plugin\Validation\Constraint\CodeSerialUniqueConstrain                   
+         t was not found while trying to analyse it - autoloading is probably                      
+         not configured properly.                                                                  
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   se_item/src/Controller/ItemController.php           
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_item/src/Form/ItemForm.php                      
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_item/src/Form/ItemRevisionDeleteForm.php        
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_item/src/Form/ItemRevisionRevertForm.php        
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_item/src/Form/ItemTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   se_item/src/Form/ItemTypeForm.php                  
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   shop6_migrate/src/Plugin/migrate/process/FileImport.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\shop_migrate\Plugin\migrate\process\FileImport was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 38 errors                                                         
+
+ </code>

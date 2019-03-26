@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tablefield 53033327b2769803b7cc17be8a96c45aad93ccc7
+source : http://cgit.drupalcode.org/tablefield 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Element/Tablefield.php                         
+ ------ --------------------------------------------------- 
+  276    Call to deprecated function drupal_set_message().  
+  311    Call to deprecated function drupal_set_message().  
+  337    Call to deprecated function drupal_set_message().  
+  341    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/TablefieldConfigForm.php            
+ ------ --------------------------------------------- 
+  76     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/template_mapper 07b7e6b953d7bc0a59a8ad03900be8d18b5fdce9
+source : http://cgit.drupalcode.org/template_mapper 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TemplateMappingDeleteForm.php             
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TemplateMappingForm.php                   
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/TemplateMappingListBuilder.php             
+ ------ ----------------------------------------------- 
+  31     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/behat/features/bootstrap/FeatureContext.php                
+ ------ ----------------------------------------------------------------- 
+         Class FeatureContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Unit/TemplateMapperTest.php                                
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests	emplate_mapper\TemplateMapperTest was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

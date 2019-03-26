@@ -1,0 +1,134 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_edge 166bb48e7525a9ae07a40cbace89e9ad18246444
+source : http://cgit.drupalcode.org/taxonomy_edge 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   taxonomy_edge.admin.inc                                           
+ ------ ------------------------------------------------------------------ 
+  47     Call to deprecated function drupal_get_destination().             
+  50     Call to deprecated function drupal_get_destination().             
+  53     Call to deprecated function drupal_get_destination().             
+  69     Call to deprecated function drupal_set_message().                 
+  108    Call to deprecated function taxonomy_vocabulary_load_multiple().  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   taxonomy_edge.core.inc                                      
+ ------ ------------------------------------------------------------ 
+  37     Call to deprecated function db_select().                    
+  49     Call to deprecated function db_select().                    
+  69     Call to deprecated function taxonomy_term_load_multiple().  
+  137    Call to deprecated function taxonomy_vocabulary_load().     
+  172    Call to deprecated function db_select().                    
+  225    Call to deprecated function taxonomy_term_load_multiple().  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   taxonomy_edge.module                                              
+ ------ ------------------------------------------------------------------ 
+  137    Call to deprecated function db_truncate().                        
+  138    Call to deprecated function db_truncate().                        
+  142    Call to deprecated function taxonomy_vocabulary_load_multiple().  
+  156    Call to deprecated function taxonomy_vocabulary_load_multiple().  
+  209    Call to deprecated function db_insert().                          
+  220    Call to deprecated function db_delete().                          
+  277    Call to deprecated function taxonomy_vocabulary_load_multiple().  
+  426    Call to deprecated function taxonomy_vocabulary_load_multiple().  
+  458    Call to deprecated function db_query().                           
+  468    Call to deprecated function db_query().                           
+  500    Call to deprecated function db_query().                           
+  530    Call to deprecated function taxonomy_vocabulary_load().           
+  536    Call to deprecated function db_transaction().                     
+  538    Call to deprecated function db_insert().                          
+  545    Call to deprecated function db_query().                           
+  565    Call to deprecated function db_transaction().                     
+  592    Call to deprecated function db_query().                           
+  682    Call to deprecated function db_query().                           
+  714    Call to deprecated function db_query_range().                     
+  725    Call to deprecated function db_query_range().                     
+  738    Call to deprecated function db_delete().                          
+  752    Call to deprecated function db_query().                           
+  772    Call to deprecated function db_query().                           
+  836    Call to deprecated function db_query().                           
+  839    Call to deprecated function db_select().                          
+  846    Call to deprecated function db_select().                          
+  851    Call to deprecated function db_select().                          
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   taxonomy_edge.pages.inc                            
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function node_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   taxonomy_edge.rebuild.inc                                
+ ------ --------------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().        
+  88     Call to deprecated function taxonomy_vocabulary_load().  
+  111    Call to deprecated function db_transaction().            
+  117    Call to deprecated function db_query().                  
+  131    Call to deprecated function db_query().                  
+  170    Call to deprecated function taxonomy_vocabulary_load().  
+  184    Call to deprecated function db_transaction().            
+  188    Call to deprecated function db_query().                  
+  190    Call to deprecated function db_query().                  
+  204    Call to deprecated function db_insert().                 
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   taxonomy_edge.theme.inc                                
+ ------ ------------------------------------------------------- 
+  17     Call to deprecated function drupal_render().           
+  22     Call to deprecated function drupal_render().           
+  24     Call to deprecated function drupal_render().           
+  25     Call to deprecated function drupal_render().           
+  26     Call to deprecated function drupal_render().           
+  27     Call to deprecated function drupal_render().           
+  28     Call to deprecated function drupal_render().           
+  29     Call to deprecated function drupal_render().           
+  62     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   views_taxonomy_edge/handlers/views_handler_argument_term_edge_node_tid_depth.inc  
+ ------ ---------------------------------------------------------------------------------- 
+         Class views_handler_argument_term_edge_node_tid_depth was not found               
+         while trying to analyse it - autoloading is probably not configured               
+         properly.                                                                         
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------- 
+  Line   views_taxonomy_edge/handlers/views_handler_argument_term_edge_node_tid_depth_modifier.inc  
+ ------ ------------------------------------------------------------------------------------------- 
+         Class views_handler_argument_term_edge_node_tid_depth_modifier was not                     
+         found while trying to analyse it - autoloading is probably not                             
+         configured properly.                                                                       
+ ------ ------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   views_taxonomy_edge/handlers/views_handler_filter_term_edge_node_tid_depth.inc  
+ ------ -------------------------------------------------------------------------------- 
+         Class views_handler_filter_term_edge_node_tid_depth was not found while         
+         trying to analyse it - autoloading is probably not configured properly.         
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   views_taxonomy_edge/handlers/views_handler_sort_term_edge_hierarchy.inc  
+ ------ ------------------------------------------------------------------------- 
+         Class views_handler_sort_term_edge_hierarchy was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   views_taxonomy_edge/handlers/views_join_term_edge.inc                  
+ ------ ----------------------------------------------------------------------- 
+         Class views_join_term_edge was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 63 errors                                                         
+
+ </code>

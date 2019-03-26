@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smtp 84f789cbba894290cf82ed2558c8a4e7e24f3c89
+source : http://cgit.drupalcode.org/smtp 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Mail/SMTPMailSystem.php               
+ ------ ------------------------------------------------- 
+  410    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  466    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  469    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

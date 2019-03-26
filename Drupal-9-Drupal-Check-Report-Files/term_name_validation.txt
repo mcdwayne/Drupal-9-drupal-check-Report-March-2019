@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/term_name_validation 8e4d35f72e292403a39c393a7298a39b7c2b3815
+source : http://cgit.drupalcode.org/term_name_validation 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TermNameValidationAdminForm.php           
+ ------ --------------------------------------------------- 
+  171    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Plugin/Validation/Constraint/TermNameConstraintValidator.php  
+ ------ ------------------------------------------------------------------ 
+  58     Call to deprecated method strlen() of class                       
+         Drupal\Component\Utility\Unicode.                                 
+  66     Call to deprecated method strlen() of class                       
+         Drupal\Component\Utility\Unicode.                                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   term_name_validation.module                  
+ ------ --------------------------------------------- 
+  116    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  127    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  214    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

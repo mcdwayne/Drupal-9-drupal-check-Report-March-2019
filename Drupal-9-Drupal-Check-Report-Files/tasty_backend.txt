@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tasty_backend d788f679ed2d9b83b30211cbb27ab898a8c6e194
+source : http://cgit.drupalcode.org/tasty_backend 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TastyBackendReloadAdminViewsForm.php      
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Derivative/AddContentLocalActions.php  
+ ------ -------------------------------------------------- 
+  25     Call to deprecated method strtolower() of class   
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/TastyBackendManager.php                        
+ ------ --------------------------------------------------- 
+  114    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

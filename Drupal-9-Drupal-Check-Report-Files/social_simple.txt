@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_simple 21005e466158a2d5a07ccfbdcda766bfcfd075fd
+source : http://cgit.drupalcode.org/social_simple 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Functional/TestSocialSimpleTestBase.php                      
+ ------ ----------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal	axonomy\Tests\TaxonomyTestTrait in   
+         class Drupal\Tests\social_simple\Functional\TestSocialSimpleTestBase.  
+  20     Usage of deprecated trait                                              
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class   
+         Drupal\Tests\social_simple\Functional\TestSocialSimpleTestBase.        
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

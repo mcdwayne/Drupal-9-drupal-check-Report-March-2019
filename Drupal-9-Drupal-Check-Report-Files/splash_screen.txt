@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/splash_screen a9464b300055fdf58b33ff51ff767a043a4aa1eb
+source : http://cgit.drupalcode.org/splash_screen 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/SplashScreenController.php       
+ ------ ------------------------------------------------ 
+  66     Call to deprecated method l() of class Drupal.  
+  67     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteForm.php                            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SplashScreenForm.php                      
+ ------ --------------------------------------------------- 
+  286    Call to deprecated function drupal_set_message().  
+  296    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

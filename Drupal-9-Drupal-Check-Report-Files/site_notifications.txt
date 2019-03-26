@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/site_notifications 82672866abfe41de17c4d602c9dfe073568165b3
+source : http://cgit.drupalcode.org/site_notifications 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   site_notifications.module                         
+ ------ -------------------------------------------------- 
+  28     Call to deprecated method url() of class Drupal.  
+  31     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/SiteNotificationsSettingsForm.php          
+ ------ ---------------------------------------------------- 
+  50     Call to deprecated function node_type_get_types().  
+  168    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SiteNotificationsHelper.php                    
+ ------ --------------------------------------------------- 
+  16     Call to deprecated function db_query().            
+  26     Call to deprecated function db_query().            
+  51     Call to deprecated function db_insert().           
+  56     Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function db_select().           
+  223    Call to deprecated function user_load().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

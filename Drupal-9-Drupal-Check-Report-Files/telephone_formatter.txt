@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/telephone_formatter ed9162cae03daf13abfe3a2cf4bff01c12397e6b
+source : http://cgit.drupalcode.org/telephone_formatter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Functional/FieldFormatterTest.php        
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FormatterTest.php                                         
+ ------ ------------------------------------------------------------------------- 
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

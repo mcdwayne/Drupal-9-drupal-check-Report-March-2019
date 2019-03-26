@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/termcase 04db13d0c8cf5f0881292370254183fc4033490b
+source : http://cgit.drupalcode.org/termcase 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/UpdateTerms.php                                
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/VocabularyListBuilder.php                      
+ ------ --------------------------------------------------- 
+  47     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  99     Call to deprecated method url() of class Drupal.   
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   termcase.module                                  
+ ------ ------------------------------------------------- 
+  184    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  188    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

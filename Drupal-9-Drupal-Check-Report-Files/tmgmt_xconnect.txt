@@ -1,0 +1,77 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_xconnect f28fe88ffabb7f2aa77594fdc721e69298c0f14b
+source : http://cgit.drupalcode.org/tmgmt_xconnect 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   includes/import_html.inc                                                
+ ------ ------------------------------------------------------------------------ 
+         Class TmgmtXConnectImportHtml was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   includes/import_result_success.inc                                    
+ ------ ---------------------------------------------------------------------- 
+         Class TmgmtXConnectImportResultSuccess was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AdminController.php                 
+ ------ --------------------------------------------------- 
+  98     Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  104    Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+  105    Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+  106    Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+  137    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+  163    Call to deprecated function drupal_set_message().  
+  187    Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  206    Call to deprecated function drupal_set_message().  
+  216    Call to deprecated function drupal_set_message().  
+  245    Call to deprecated function drupal_set_message().  
+  277    Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+  302    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  305    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  333    Call to deprecated function drupal_set_message().  
+  352    Call to deprecated function drupal_set_message().  
+  370    Call to deprecated function drupal_set_message().  
+  432    Call to deprecated function drupal_set_message().  
+  451    Call to deprecated function drupal_set_message().  
+  469    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/XConnectTranslator.php  
+ ------ ---------------------------------------------------- 
+  48     Call to deprecated method url() of class            
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/tmgmt_xconnect/Format/Html.php          
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tmgmt_xconnect.module                                       
+ ------ ------------------------------------------------------------ 
+  67     Call to deprecated method entityManager() of class Drupal.  
+  159    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

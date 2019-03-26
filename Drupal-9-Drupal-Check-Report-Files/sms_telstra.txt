@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sms_telstra 570e42b925ab50a0d0cf4c2d8e3f674c4329bd7a
+source : http://cgit.drupalcode.org/sms_telstra 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/SmsGateway/Telstra.php            
+ ------ --------------------------------------------- 
+  189    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsTelstraBrowserTestBase.php                       
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\sms\Tests\SmsFrameworkTestTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SmsTelstraIncomingTest.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\sms_telstra\Functional\SmsFrameworkIncomingBrowserTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

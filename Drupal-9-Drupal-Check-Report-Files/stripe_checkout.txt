@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stripe_checkout 2393bc5ec23f0e0f929a52704416cf08051e02e8
+source : http://cgit.drupalcode.org/stripe_checkout 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/StripeChargeController.php          
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

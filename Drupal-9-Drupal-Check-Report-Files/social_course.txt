@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_course 8c904a5bdcb7d1535dbe6258d09c2d6899a6736b
+source : http://cgit.drupalcode.org/social_course 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CoursesController.php               
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GroupController.php                 
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Routing/RouteSubscriber.php                                        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\social_group\Routing\RouteSubscriber not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

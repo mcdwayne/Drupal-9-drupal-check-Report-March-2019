@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stools f749ddfb1b15963af233b3eb915ebbefeae96180
+source : http://cgit.drupalcode.org/stools 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   stools.module                                 
+ ------ ---------------------------------------------- 
+  221    Call to deprecated function db_query().       
+  273    Call to deprecated function db_select().      
+  448    Call to deprecated function drupal_render().  
+  639    Call to deprecated function entity_create().  
+  695    Call to deprecated function db_select().      
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

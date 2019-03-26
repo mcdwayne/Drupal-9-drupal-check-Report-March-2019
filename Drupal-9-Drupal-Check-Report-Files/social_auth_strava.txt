@@ -1,0 +1,8 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_auth_strava 94fb36f8d291a7931dc24762fe6eb0ece1e31454
+source : http://cgit.drupalcode.org/social_auth_strava 
+ 
+ <code> 
+Fatal error: Class Drupal\social_auth_strava\StravaAuthManager contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (Drupal\social_api\AuthManager\OAuth2ManagerInterface::getAuthorizationUrl, Drupal\social_api\AuthManager\OAuth2ManagerInterface::getState, Drupal\social_auth\AuthManager\OAuth2ManagerInterface::requestEndPoint) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/social_auth_strava/src/StravaAuthManager.php on line 12 
+
+ </code>

@@ -1,0 +1,63 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/site_settings 326b36fd6cefdad530597c2c21a01e58df6d3336
+source : http://cgit.drupalcode.org/site_settings 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SiteSettingEntityAddController.php  
+ ------ --------------------------------------------------- 
+  60     Call to deprecated method l() of class             
+         Drupal\Core\Controller\ControllerBase.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteSettingEntityForm.php                 
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/SiteSettingEntityTypeDeleteForm.php                
+ ------ ------------------------------------------------------------ 
+  46     Call to deprecated method entityManager() of class Drupal.  
+  54     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteSettingEntityTypeForm.php             
+ ------ --------------------------------------------------- 
+  133    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteSettingReplicateForm.php              
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+  159    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SiteSettingEntityListBuilder.php                                 
+ ------ --------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\site_settings\SiteSettingEntityListBuilder.             
+  50     Call to deprecated method l() of class                               
+         Drupal\site_settings\SiteSettingEntityListBuilder.                   
+  168    Call to deprecated method l() of class                               
+         Drupal\site_settings\SiteSettingEntityListBuilder.                   
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SiteSettingsReplicator.php                     
+ ------ --------------------------------------------------- 
+  227    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

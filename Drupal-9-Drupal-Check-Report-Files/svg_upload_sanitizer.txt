@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/svg_upload_sanitizer 7eeab534be060dd086f6448f2c8da3582dfb2b01
+source : http://cgit.drupalcode.org/svg_upload_sanitizer 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/src/Unit/Helper/FileHelperTest.php                            
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\svg_upload_sanitizer\Unit\Helper\FileHelperTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/src/Unit/Helper/SanitizerHelperTest.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\svg_upload_sanitizer\Unit\Helper\SanitizerHelperTest  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/src/Unit/HookHandler/FileInsertHookHandlerTest.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests\svg_upload_sanitizer\Unit\HookHandler\FileInsertHookHandle  
+         rTest was not found while trying to analyse it - autoloading is          
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

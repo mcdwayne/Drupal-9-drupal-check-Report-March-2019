@@ -1,0 +1,572 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_smartling 5d758e7d06d3957027a5fee38d5bd14cb6074be8
+source : http://cgit.drupalcode.org/tmgmt_smartling 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/tmgmt_smartling_context_debug/src/Form/TmgmtSmartlingContextDebugForm.php  
+ ------ ----------------------------------------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().                                  
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/RequestSubscriber.php          
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendContextActionApproveForm.php          
+ ------ --------------------------------------------------- 
+  264    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/SmartlingTranslator.php  
+ ------ ----------------------------------------------------- 
+  172    Call to deprecated method url() of class             
+         Drupal\CorentityntityInterface.                  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SmartlingTranslatorUi.php                      
+ ------ --------------------------------------------------- 
+  334    Call to deprecated function drupal_set_message().  
+  384    Call to deprecated function drupal_set_message().  
+  387    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/SmartlingTestBase.php                                          
+ ------ ------------------------------------------------------------------------- 
+  22     Class Drupal	mgmt_smartling\Tests\SmartlingTestBase extends deprecated  
+         class Drupal	mgmt\Tests\TMGMTTestBase.                                  
+  82     Call to method setUp() of deprecated class                               
+         Drupal	mgmt\Tests\TMGMTTestBase.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tmgmt_smartling.module                             
+ ------ --------------------------------------------------- 
+  600    Call to deprecated function drupal_set_message().  
+  657    Call to deprecated function drupal_set_message().  
+  691    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInit8078ef7da56eab6ad00d819d530f757a was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/composer/autoload_static.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Composer\Autoload\ComposerStaticInit8078ef7da56eab6ad00d819d530f757a    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/AuditLog/AuditLogApi.php           
+ ------ -------------------------------------------------------------------- 
+         Class Smartling\AuditLog\AuditLogApi was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/AuditLog/Params/CreateRecordParameters.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Smartling\AuditLog\Params\CreateRecordParameters was not found         
+         while trying to analyse it - autoloading is probably not configured          
+         properly.                                                                    
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/AuditLog/Params/SearchRecordParameters.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Smartling\AuditLog\Params\SearchRecordParameters was not found         
+         while trying to analyse it - autoloading is probably not configured          
+         properly.                                                                    
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/AuthApi/AuthApiInterface.php           
+ ------ ------------------------------------------------------------------------ 
+         Class Smartling\AuthApi\AuthApiInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/AuthApi/AuthTokenProvider.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\AuthApi\AuthTokenProvider was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/BaseApiAbstract.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Smartling\BaseApiAbstract was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Batch/BatchApi.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Batch\BatchApi was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Batch/Params/CreateBatchParameters.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Batch\Params\CreateBatchParameters was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/Context/ContextApi.php           
+ ------ ------------------------------------------------------------------ 
+         Class Smartling\Context\ContextApi was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Context/Params/MatchContextParameters.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Smartling\Context\Params\MatchContextParameters was not found         
+         while trying to analyse it - autoloading is probably not configured         
+         properly.                                                                   
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Context/Params/MissingResourcesParameters.php  
+ ------ -------------------------------------------------------------------------------- 
+         Class Smartling\Context\Params\MissingResourcesParameters was not found         
+         while trying to analyse it - autoloading is probably not configured             
+         properly.                                                                       
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Context/Params/UploadContextParameters.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Smartling\Context\Params\UploadContextParameters was not found         
+         while trying to analyse it - autoloading is probably not configured          
+         properly.                                                                    
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/Context/Params/UploadResourceParameters.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class Smartling\Context\Params\UploadResourceParameters was not found         
+         while trying to analyse it - autoloading is probably not configured           
+         properly.                                                                     
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Exceptions/InvalidAccessTokenException.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Smartlingxceptions\InvalidAccessTokenException was not found         
+         while trying to analyse it - autoloading is probably not configured          
+         properly.                                                                    
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Exceptions/SmartlingApiException.php    
+ ------ ------------------------------------------------------------------------- 
+         Class Smartlingxceptions\SmartlingApiException was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/File/FileApi.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\File\FileApi was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/File/Params/DownloadFileParameters.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\File\Params\DownloadFileParameters was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/File/Params/ExtendedListFilesParameters.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class Smartling\File\ParamsxtendedListFilesParameters was not found         
+         while trying to analyse it - autoloading is probably not configured           
+         properly.                                                                     
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/File/Params/ListFilesParameters.php     
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\File\Params\ListFilesParameters was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/File/Params/UploadFileParameters.php    
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\File\Params\UploadFileParameters was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/JobStatus.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\JobStatus was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/JobsApi.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\JobsApi was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/Params/AddFileToJobParameters.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\Params\AddFileToJobParameters was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/Params/AddLocaleToJobParameters.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Smartling\Jobs\Params\AddLocaleToJobParameters was not found         
+         while trying to analyse it - autoloading is probably not configured        
+         properly.                                                                  
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/Params/CancelJobParameters.php     
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\Params\CancelJobParameters was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/Params/CreateJobParameters.php     
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\Params\CreateJobParameters was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/Params/ListJobsParameters.php      
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\Params\ListJobsParameters was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/Params/SearchJobsParameters.php    
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\Params\SearchJobsParameters was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Jobs/Params/UpdateJobParameters.php     
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Jobs\Params\UpdateJobParameters was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Logger/DevNullLogger.php           
+ ------ -------------------------------------------------------------------- 
+         Class Smartling\Logger\DevNullLogger was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Parameters/BaseParameters.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Parameters\BaseParameters was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Parameters/ParameterInterface.php       
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Parameters\ParameterInterface was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/ProgressTracker/Params/RecordParameters.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class Smartling\ProgressTracker\Params\RecordParameters was not found         
+         while trying to analyse it - autoloading is probably not configured           
+         properly.                                                                     
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/ProgressTracker/ProgressTrackerApi.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\ProgressTracker\ProgressTrackerApi was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/Project/ProjectApi.php           
+ ------ ------------------------------------------------------------------ 
+         Class Smartling\Project\ProjectApi was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/CreateTranslationRequestParams.php  
+ ------ ------------------------------------------------------------------------------------------------ 
+         Class                                                                                           
+         Smartling\TranslationRequests\Params\CreateTranslationRequestParams was                         
+         not found while trying to analyse it - autoloading is probably not                              
+         configured properly.                                                                            
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/CreateTranslationSubmissionParams.php  
+ ------ --------------------------------------------------------------------------------------------------- 
+         Class                                                                                              
+         Smartling\TranslationRequests\Params\CreateTranslationSubmissionParams                             
+         was not found while trying to analyse it - autoloading is probably not                             
+         configured properly.                                                                               
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/ParamsAbstract.php  
+ ------ -------------------------------------------------------------------------------- 
+         Class Smartling\TranslationRequests\Params\ParamsAbstract was not found         
+         while trying to analyse it - autoloading is probably not configured             
+         properly.                                                                       
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/SearchTranslationRequestParams.php  
+ ------ ------------------------------------------------------------------------------------------------ 
+         Class                                                                                           
+         Smartling\TranslationRequests\Params\SearchTranslationRequestParams was                         
+         not found while trying to analyse it - autoloading is probably not                              
+         configured properly.                                                                            
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/TranslationRequestParamsAbstract.php  
+ ------ -------------------------------------------------------------------------------------------------- 
+         Class                                                                                             
+         Smartling\TranslationRequests\Params\TranslationRequestParamsAbstract                             
+         was not found while trying to analyse it - autoloading is probably not                            
+         configured properly.                                                                              
+ ------ -------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/TranslationSubmissionParamsAbstract.php  
+ ------ ----------------------------------------------------------------------------------------------------- 
+         Class                                                                                                
+         Smartling\TranslationRequests\Params\TranslationSubmissionParamsAbstrac                              
+         t was not found while trying to analyse it - autoloading is probably                                 
+         not configured properly.                                                                             
+ ------ ----------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/TranslationSubmissionStates.php  
+ ------ --------------------------------------------------------------------------------------------- 
+         Class Smartling\TranslationRequests\Params\TranslationSubmissionStates                       
+         was not found while trying to analyse it - autoloading is probably not                       
+         configured properly.                                                                         
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/UpdateTranslationRequestParams.php  
+ ------ ------------------------------------------------------------------------------------------------ 
+         Class                                                                                           
+         Smartling\TranslationRequests\Params\UpdateTranslationRequestParams was                         
+         not found while trying to analyse it - autoloading is probably not                              
+         configured properly.                                                                            
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/Params/UpdateTranslationSubmissionParams.php  
+ ------ --------------------------------------------------------------------------------------------------- 
+         Class                                                                                              
+         Smartling\TranslationRequests\Params\UpdateTranslationSubmissionParams                             
+         was not found while trying to analyse it - autoloading is probably not                             
+         configured properly.                                                                               
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/TranslationRequests/TranslationRequestsApi.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class Smartling\TranslationRequests\TranslationRequestsApi was not               
+         found while trying to analyse it - autoloading is probably not                   
+         configured properly.                                                             
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/src/Waitable.php                        
+ ------ --------------------------------------------------------------------- 
+         Class Smartling\Waitable was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/functional/AuditLogApiFunctionalTest.php  
+ ------ ----------------------------------------------------------------------------- 
+         Class Smartling\Tests\Functional\AuditLogApiFunctionalTest was not           
+         found while trying to analyse it - autoloading is probably not               
+         configured properly.                                                         
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/functional/ContextApiFunctionalTest.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Smartling\Tests\Functional\ContextApiFunctionalTest was not found     
+         while trying to analyse it - autoloading is probably not configured         
+         properly.                                                                   
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/functional/FileApiFunctionalTest.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Tests\Functional\FileApiFunctionalTest was not found     
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/functional/JobsApiFunctionalTest.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Tests\Functional\JobsApiFunctionalTest was not found     
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/tests/functional/ProgressTrackerApiFunctionalTest.php  
+ ------ ------------------------------------------------------------------------------------ 
+         Class Smartling\Tests\Functional\ProgressTrackerApiFunctionalTest was               
+         not found while trying to analyse it - autoloading is probably not                  
+         configured properly.                                                                
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/functional/ProjectApiFunctionalTest.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Smartling\Tests\Functional\ProjectApiFunctionalTest was not found     
+         while trying to analyse it - autoloading is probably not configured         
+         properly.                                                                   
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/functional/TranslationRequestsApiFunctionalTest.php  
+ ------ ---------------------------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\TranslationRequestsApiFunctionalTest was not                 
+         found while trying to analyse it - autoloading is probably not                          
+         configured properly.                                                                    
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/ApiTestAbstract.php            
+ ------ ----------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\ApiTestAbstract was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/AuditLogApiTest.php            
+ ------ ----------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\AuditLogApiTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/AuthApiTest.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Tests\AuthApiTest was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/BaseApiAbstractTest.php          
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\BaseApiAbstractTest was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/BatchApiTest.php               
+ ------ ----------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\BatchApiTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/ContextApiTest.php          
+ ------ -------------------------------------------------------------------- 
+         Class Smartling\Tests\ContextApiTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/ExceptionTest.php          
+ ------ ------------------------------------------------------------------- 
+         Class Smartling\TestsxceptionTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/FileApiTest.php               
+ ------ ---------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\FileApiTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/JobsApiTest.php               
+ ------ ---------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\JobsApiTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/ProgressTrackerApiTest.php       
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\ProgressTrackerApiTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/smartling/api-sdk-php/tests/unit/ProjectApiTest.php               
+ ------ ------------------------------------------------------------------------- 
+         Class Smartling\Tests\Unit\ProjectApiTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/smartling/api-sdk-php/tests/unit/TranslationRequestsApiTest.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Smartling\Tests\Unit\TranslationRequestsApiTest was not found     
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 80 errors                                                         
+
+ </code>

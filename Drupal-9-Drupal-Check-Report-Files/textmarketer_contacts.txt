@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/textmarketer_contacts c0df7069c8244686510b0c32523fe3ae483f98da
+source : http://cgit.drupalcode.org/textmarketer_contacts 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TMSettingsForm.php                        
+ ------ --------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/RequestContacts/RequestContacts.php            
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

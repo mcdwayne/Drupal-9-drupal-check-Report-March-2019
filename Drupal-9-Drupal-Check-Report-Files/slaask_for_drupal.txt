@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slaask_for_drupal b7907a24c28111087ebbc406a51f2ff22319032a
+source : http://cgit.drupalcode.org/slaask_for_drupal 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   slaask.module                                
+ ------ --------------------------------------------- 
+  150    Call to deprecated function drupal_rmdir().  
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/SlaaskAdminSettingsForm.php             
+ ------ ------------------------------------------------- 
+  119    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  343    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  346    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  391    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

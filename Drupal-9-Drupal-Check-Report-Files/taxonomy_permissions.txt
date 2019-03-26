@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_permissions ff62acf4fd56179c2c10277a956ba54f78588926
+source : http://cgit.drupalcode.org/taxonomy_permissions 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Tests/TaxonomyPermissionsTestBase.php                 
+ ------ ---------------------------------------------------------- 
+  144    Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  145    Call to deprecated method assertText() of class           
+         Drupal\Tests\BrowserTestBase.                             
+  146    Call to deprecated method assertLink() of class           
+         Drupal\Tests\BrowserTestBase.                             
+  150    Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  151    Call to deprecated method assertNoText() of class         
+         Drupal\Tests\BrowserTestBase.                             
+  152    Call to deprecated method assertNoLink() of class         
+         Drupal\Tests\BrowserTestBase.                             
+  161    Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  165    Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  174    Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  175    Call to deprecated method assertFieldByName() of class    
+         Drupal\Tests\BrowserTestBase.                             
+  179    Call to deprecated method assertResponse() of class       
+         Drupal\Tests\BrowserTestBase.                             
+  180    Call to deprecated method assertNoFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                             
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

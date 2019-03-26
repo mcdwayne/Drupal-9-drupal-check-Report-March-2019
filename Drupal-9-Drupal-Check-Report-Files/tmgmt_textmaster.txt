@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_textmaster ce9c428e0f4057c772f8e8e3bee59b1fb5bd3521
+source : http://cgit.drupalcode.org/tmgmt_textmaster 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/TextmasterProjectController.php     
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/tmgmt/Translator/TextmasterTranslator.php  
+ ------ ------------------------------------------------------ 
+  294    Call to deprecated function drupal_set_message().     
+  310    Call to deprecated function drupal_set_message().     
+  317    Call to deprecated function drupal_set_message().     
+  1063   Call to deprecated function drupal_set_message().     
+  1073   Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/TextmasterTranslatorUi.php                     
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  264    Call to deprecated function drupal_set_message().  
+  280    Call to deprecated function drupal_set_message().  
+  290    Call to deprecated function drupal_set_message().  
+  420    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/TmgmtTextmasterTestBase.php               
+ ------ ------------------------------------------------------------------------- 
+  14     Class                                                                    
+         Drupal\Tests	mgmt_textmaster\FunctionalJavascript\TmgmtTextmasterTestB  
+         ase extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  72     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  97     Call to method createScreenshot() of deprecated class                    
+         Drupal\FunctionalJavascriptTests\WebDriverTestBase.                      
+  260    Call to deprecated method entityManager() of class Drupal.               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tmgmt_textmaster.module                            
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+  167    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

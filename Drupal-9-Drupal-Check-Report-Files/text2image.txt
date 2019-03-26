@@ -1,0 +1,171 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/text2image 16a334aa504bc13d09c9c9b347b5a82c47b1bcf0
+source : http://cgit.drupalcode.org/text2image 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/Text2ImageController.php            
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Text2ImageConfigForm.php                  
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Text2ImageFontsForm.php                   
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  38     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Text2ImageSamplerForm.php                 
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/Text2ImageServiceFontsTest.php  
+ ------ ----------------------------------------------------- 
+  36     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  39     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  44     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  47     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/Text2ImageServiceGeneratorTest.php  
+ ------ --------------------------------------------------------- 
+  28     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  31     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  46     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  62     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  63     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  64     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  65     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  66     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  67     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  70     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  72     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  74     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  83     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  84     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  85     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  86     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  90     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  91     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  92     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  93     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  97     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  98     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  99     Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  100    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  104    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  105    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  106    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  107    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  111    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  112    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  113    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  114    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  118    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  119    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  120    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  121    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  125    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  126    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  127    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  128    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  136    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  138    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  139    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  140    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  141    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  142    Call to deprecated function drupal_realpath().           
+  147    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  149    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  150    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  151    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  152    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  153    Call to deprecated function drupal_realpath().           
+  154    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  164    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  166    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  167    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  168    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  169    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  170    Call to deprecated function drupal_realpath().           
+  171    Call to deprecated method assertNotEqual() of class      
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 71 errors                                                         
+
+ </code>

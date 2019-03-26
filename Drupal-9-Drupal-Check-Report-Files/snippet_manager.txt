@@ -1,0 +1,240 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/snippet_manager 1ad3265b0004d91f1749524a66978851734756ab
+source : http://cgit.drupalcode.org/snippet_manager 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SnippetController.php               
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CssForm.php                               
+ ------ --------------------------------------------------- 
+  142    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GeneralForm.php                           
+ ------ --------------------------------------------------- 
+  378    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/JsForm.php                                
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TemplateForm.php                          
+ ------ --------------------------------------------------- 
+  163    Call to deprecated function drupal_set_message().  
+  231    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VariableAddForm.php                       
+ ------ --------------------------------------------------- 
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VariableDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VariableEditForm.php                      
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/VariableFormBase.php                      
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/SnippetVariable/Entity.php              
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SnippetLibraryBuilder.php                      
+ ------ --------------------------------------------------- 
+  142    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/SnippetTemplateLoader.php                                  
+ ------ --------------------------------------------------------------- 
+  11     Class Drupal\snippet_manager\SnippetTemplateLoader implements  
+         deprecated interface Twig_ExistsLoaderInterface.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/DefaultContextTest.php         
+ ------ ---------------------------------------------------- 
+  20     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  21     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  22     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  23     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  24     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  25     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  26     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/EnableDisableTest.php          
+ ------ ---------------------------------------------------- 
+  17     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  20     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  24     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/SnippetFormTest.php            
+ ------ ---------------------------------------------------- 
+  19     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  20     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  22     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  25     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  26     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  27     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  28     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  29     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  30     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  31     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  32     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  33     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  34     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  35     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  37     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  58     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  59     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  61     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  62     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  63     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  64     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  65     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  66     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  68     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  78     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  79     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  80     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  101    Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  108    Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  109    Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  113    Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  114    Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/SnippetTemplateTest.php        
+ ------ ---------------------------------------------------- 
+  19     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  20     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  22     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  23     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  24     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  37     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  38     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  41     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/TemplateLoaderTest.php         
+ ------ ---------------------------------------------------- 
+  31     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+  41     Call to deprecated method assertByXpath() of class  
+         Drupal\Tests\snippet_manager\Functional\TestBase.   
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/EditorTest.php                       
+ ------ -------------------------------------------------------------------- 
+  13     Class Drupal\Tests\snippet_manager\FunctionalJavascriptditorTest  
+         extends deprecated class                                            
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/OverviewFilterTest.php                 
+ ------ ---------------------------------------------------------------------- 
+  13     Class                                                                 
+         Drupal\Tests\snippet_manager\FunctionalJavascript\OverviewFilterTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/SnippetListBuilderTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  46     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  58     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  68     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  136    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 73 errors                                                         
+
+ </code>

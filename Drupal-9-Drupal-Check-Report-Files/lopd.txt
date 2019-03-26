@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/lopd f088a66eaffba970c15942f4efe6868bbd0526b8
+source : http://cgit.drupalcode.org/lopd 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/LopdServiceKernelTest.php        
+ ------ -------------------------------------------------- 
+  169    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

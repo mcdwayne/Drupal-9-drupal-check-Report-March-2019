@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/teamleader 1369dd34a8ceca2d9b4f0c234da9b8c39d682856
+source : http://cgit.drupalcode.org/teamleader 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/teamleader_contact/src/TeamleaderContact.php  
+ ------ ------------------------------------------------------ 
+  61     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/TeamleaderApi.php                              
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_google c5094931fa5730997c26d0fe15e6bc1e37543e00
+source : http://cgit.drupalcode.org/tmgmt_google 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/GoogleTranslator.php   
+ ------ --------------------------------------------------- 
+  123    Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  134    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  194    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/GoogleTranslatorTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  22     Class Drupal	mgmt_google\Tests\GoogleTranslatorTest extends deprecated  
+         class Drupal	mgmt\Tests\TMGMTTestBase.                                  
+  42     Call to method setUp() of deprecated class                               
+         Drupal	mgmt\Tests\TMGMTTestBase.                                        
+  132    Call to deprecated function entity_create().                             
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

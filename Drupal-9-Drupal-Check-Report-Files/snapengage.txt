@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/snapengage c58d30c228647255f97177be5691d65e3157259b
+source : http://cgit.drupalcode.org/snapengage 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   snapengage.module                                
+ ------ ------------------------------------------------- 
+  73     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  76     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

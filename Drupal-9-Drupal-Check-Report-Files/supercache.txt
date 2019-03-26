@@ -1,0 +1,90 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/supercache cc24082d1b202f64e39316d7c3d9448b405afbe8
+source : http://cgit.drupalcode.org/supercache 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Tests/Cache/ApcuRawBackendExpireTests.php  
+ ------ ----------------------------------------------- 
+  14     Call to deprecated method pass() of class      
+         Drupal\KernelTests\KernelTestBase.             
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Tests/Cache/ApcuRawBackendGeneralTests.php  
+ ------ ------------------------------------------------ 
+  14     Call to deprecated method pass() of class       
+         Drupal\KernelTests\KernelTestBase.              
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/Cache/CacheCacheTagsChecksumTests.php                       
+ ------ ---------------------------------------------------------------------- 
+  24     Class Drupal\supercache\Cache\CacheServicesTrait not found and could  
+         not be autoloaded.                                                    
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Tests/Generic/Cache/BackendGetMultipleTests.php  
+ ------ ----------------------------------------------------- 
+  36     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  37     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  45     Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/Generic/Cache/CacheServicesTrait.php (in context of class Drupal\supercache\Tests\KeyValue\ChainedStorageTests)  
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+  42     Call to deprecated method getMock() of class                                                                               
+         Drupal\KernelTests\KernelTestBase.                                                                                         
+  113    Call to deprecated method getMock() of class                                                                               
+         Drupal\KernelTests\KernelTestBase.                                                                                         
+ ------ --------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Tests/Generic/Cache/RawBackendGeneralTests.php  
+ ------ ---------------------------------------------------- 
+  33     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  36     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  39     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  42     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  46     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  49     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  50     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  54     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  55     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  59     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  60     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  68     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  72     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+  73     Call to deprecated method assertEqual() of class    
+         Drupal\KernelTests\KernelTestBase.                  
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/Generic/KeyValue/KeyValueTests.php      
+ ------ -------------------------------------------------- 
+  67     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

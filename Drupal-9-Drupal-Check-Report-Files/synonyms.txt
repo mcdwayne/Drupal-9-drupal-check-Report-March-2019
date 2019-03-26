@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/synonyms 5327ef244bad11e859eed9ff71b49cb8f9955190
+source : http://cgit.drupalcode.org/synonyms 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SynonymDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SynonymForm.php                           
+ ------ --------------------------------------------------- 
+  239    Call to deprecated function drupal_set_message().  
+  244    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Synonyms/Provider/Field.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\synonyms\Plugin\Synonyms\Provider\FieldQuery was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

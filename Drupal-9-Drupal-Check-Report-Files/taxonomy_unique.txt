@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_unique 7e57e004b0092541df25cc312167cb867f37135a
+source : http://cgit.drupalcode.org/taxonomy_unique 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/TaxonomyUniqueValidator.php  
+ ------ -------------------------------------------------------------- 
+  20     Call to deprecated method getVocabularyId() of class          
+         Drupal	axonomy\TermInterface.                                
+  21     Call to deprecated method getVocabularyId() of class          
+         Drupal	axonomy\TermInterface.                                
+  25     Call to deprecated method getVocabularyId() of class          
+         Drupal	axonomy\TermInterface.                                
+  39     Call to deprecated method getVocabularyId() of class          
+         Drupal	axonomy\TermInterface.                                
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

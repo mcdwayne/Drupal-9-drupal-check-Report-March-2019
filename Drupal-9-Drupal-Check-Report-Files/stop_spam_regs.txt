@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stop_spam_regs f0582607db6b872078a0804d91556594b8f04db4
+source : http://cgit.drupalcode.org/stop_spam_regs 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   stop_spam_regs.module                        
+ ------ --------------------------------------------- 
+  28     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

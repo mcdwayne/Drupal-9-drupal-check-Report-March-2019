@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/telephone_type 717d9e44bdc844c6847ef14cf92f579f3e5a2fdc
+source : http://cgit.drupalcode.org/telephone_type 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/TelephoneFieldTest.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests	elephone_type\Functional\TelephoneTypeFieldTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/TelephoneTypeItemTest.php        
+ ------ -------------------------------------------------- 
+  63     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  64     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  65     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  66     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  73     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  74     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  79     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  80     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

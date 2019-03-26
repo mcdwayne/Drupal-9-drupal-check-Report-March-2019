@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/term_reference_tree b44575344b9748fb4054fdeaf5e42ca6c7348752
+source : http://cgit.drupalcode.org/term_reference_tree 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   term_reference_tree.module                                  
+ ------ ------------------------------------------------------------ 
+  38     Call to deprecated function drupal_render_children().       
+  114    Call to deprecated function drupal_render().                
+  199    Call to deprecated function db_select().                    
+  304    Call to deprecated method entityManager() of class Drupal.  
+  408    Call to deprecated function db_query_range().               
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/suggest_similar_titles 5c72b3d1fa12a1ae8e959ae54d53c0e17d532cee
+source : http://cgit.drupalcode.org/suggest_similar_titles 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/SuggestionController.php   
+ ------ ------------------------------------------ 
+  52     Call to deprecated function db_like().    
+  57     Call to deprecated function db_query().   
+  79     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

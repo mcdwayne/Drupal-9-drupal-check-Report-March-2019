@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/swiper c3e4068f9f29c041a488f7406c0816acaa0d0d7c
+source : http://cgit.drupalcode.org/swiper 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Controller/SwiperOptionsController.php   
+ ------ --------------------------------------------- 
+  25     Call to deprecated method url() of class     
+         Drupal\Core\Configntity\ConfigEntityBase.  
+  39     Call to deprecated method url() of class     
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SwiperDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SwiperForm.php                            
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+  179    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

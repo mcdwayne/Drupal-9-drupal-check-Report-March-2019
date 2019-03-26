@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/thank_you_commenter e1978fb12d7f12101bd07bf9361d6caf8fa1ade6
+source : http://cgit.drupalcode.org/thank_you_commenter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   thank_you_commenter.module                         
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function db_select().           
+  41     Call to deprecated function db_select().           
+  62     Call to deprecated function db_select().           
+  89     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

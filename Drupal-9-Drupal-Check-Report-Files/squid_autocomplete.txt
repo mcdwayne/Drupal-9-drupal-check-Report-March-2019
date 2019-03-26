@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/squid_autocomplete 2804ebb83d62cbd01d7747f24fbe8b40c25ad477
+source : http://cgit.drupalcode.org/squid_autocomplete 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Controller/SquidEntityAutocompleteController.php  
+ ------ ------------------------------------------------------ 
+  84     Call to deprecated method strtolower() of class       
+         Drupal\Component\Utility\Unicode.                     
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

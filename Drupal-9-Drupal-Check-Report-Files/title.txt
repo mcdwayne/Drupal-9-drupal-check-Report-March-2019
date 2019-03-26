@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/title 0ecac436d4e3a803e8a45215f843d68ee4516768
+source : http://cgit.drupalcode.org/title 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/LinkedAndWrapped.php                 
+ ------ --------------------------------------------------------------------- 
+  24     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal	itle\Plugin\Field\FieldFormatter\LinkedAndWrapped.     
+  48     Call to deprecated method l() of class                               
+         Drupal	itle\Plugin\Field\FieldFormatter\LinkedAndWrapped.           
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

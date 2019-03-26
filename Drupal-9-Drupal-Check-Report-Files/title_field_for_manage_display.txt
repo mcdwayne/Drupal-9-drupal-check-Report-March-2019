@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/title_field_for_manage_display 78f7728646c9e3c37958e18719dcc2b894d0497e
+source : http://cgit.drupalcode.org/title_field_for_manage_display 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TitleStyleTextFieldFormatter.php         
+ ------ ------------------------------------------------------------------------- 
+  27     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in      
+         class                                                                    
+         Drupal	itle_field_for_manage_display\Plugin\Field\FieldFormatter\Title  
+         StyleTextFieldFormatter.                                                 
+  47     Call to deprecated method l() of class                                   
+         Drupal	itle_field_for_manage_display\Plugin\Field\FieldFormatter\Title  
+         StyleTextFieldFormatter.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   title_field_for_manage_display.module                   
+ ------ -------------------------------------------------------- 
+  66     Call to deprecated function entity_get_form_display().  
+  69     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

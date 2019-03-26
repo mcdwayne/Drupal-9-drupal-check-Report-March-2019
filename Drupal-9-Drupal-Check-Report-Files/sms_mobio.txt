@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sms_mobio 2f77f5a6ffa464a524b20b35c0b4cf530f5aa7d6
+source : http://cgit.drupalcode.org/sms_mobio 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   sms_mobio.module                                   
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmsMobioCheckCode.php                     
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+  104    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Block/SmsMobioService.php                                 
+ ------ --------------------------------------------------------------------- 
+         Class Drupallock\BlockBase not found and could not be autoloaded.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

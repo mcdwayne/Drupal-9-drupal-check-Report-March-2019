@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/testswarm e542bb37a6fcbc6f2d26aa88524c113337769bb4
+source : http://cgit.drupalcode.org/testswarm 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/testswarm/Controller/TestswarmController.php              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal	estswarm\Controller\TestswarmController was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/testswarm/Form/TestswarmAdminSettingsForm.php              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal	estswarm\Form\TestswarmAdminSettingsForm was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/testswarm/Form/TestswarmClearTestDetailsForm.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	estswarm\Form\TestswarmClearTestDetailsForm was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/testswarm/Tests/TestswarmTest.php                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal	estswarm\Tests\TestswarmTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/testswarm/TestswarmStorageController.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	estswarm\TestswarmStorageController was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   testswarm.module                          
+ ------ ------------------------------------------ 
+  210    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stockapi 3a68b87ac78d302b1a8071921cb22b5a276e5c0c
+source : http://cgit.drupalcode.org/stockapi 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/StockApiController.php     
+ ------ ------------------------------------------ 
+  71     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   stockapi.inc                                       
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function db_query().            
+  55     Call to deprecated function db_query().            
+  103    Call to deprecated function drupal_set_message().  
+  846    Call to deprecated function db_query().            
+  852    Call to deprecated function db_update().           
+  861    Call to deprecated function db_insert().           
+  884    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  890    Call to deprecated function db_query().            
+  920    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   stockapi.module                                  
+ ------ ------------------------------------------------- 
+  31     Call to deprecated function db_query().          
+  39     Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  65     Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  91     Call to deprecated function db_query().          
+  126    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  128    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

@@ -1,0 +1,8 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_auth_paypal b29f06e9ffbbf79ac7c302205882932e2aadfbee
+source : http://cgit.drupalcode.org/social_auth_paypal 
+ 
+ <code> 
+Fatal error: Declaration of Drupal\social_auth_paypal\PaypalAuthManager::getExtraDetails($url) must be compatible with Drupal\social_auth\AuthManager\OAuth2Manager::getExtraDetails($method = 'GET', $domain = NULL) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/social_auth_paypal/src/PaypalAuthManager.php on line 15 
+
+ </code>

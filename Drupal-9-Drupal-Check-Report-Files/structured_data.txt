@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/structured_data 8.x-1.0
+source : http://cgit.drupalcode.org/structured_data 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Core/Helper.php                       
+ ------ ------------------------------------------ 
+  45     Call to deprecated function db_select().  
+  69     Call to deprecated function db_select().  
+  99     Call to deprecated function db_insert().  
+  105    Call to deprecated function db_update().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PageJsonForm.php                          
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

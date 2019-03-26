@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slides_presentation bd50ad1101704d047d71587dc7a62f1457de1eb5
+source : http://cgit.drupalcode.org/slides_presentation 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   slides_presentation.module                         
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/PresentationDeleteForm.php         
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/PresentationForm.php               
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/SlideDeleteForm.php                
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/SlideForm.php                      
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/PresentationListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\slides_presentation\PresentationListBuilder.            
+  35     Call to deprecated method l() of class                               
+         Drupal\slides_presentation\PresentationListBuilder.                  
+  36     Call to deprecated method getLabel() of class                        
+         Drupal\CorentityntityListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SlideListBuilder.php                                             
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\slides_presentation\SlideListBuilder.                   
+  37     Call to deprecated method l() of class                               
+         Drupal\slides_presentation\SlideListBuilder.                         
+  38     Call to deprecated method getLabel() of class                        
+         Drupal\CorentityntityListBuilder.                                
+  46     Call to deprecated method l() of class                               
+         Drupal\slides_presentation\SlideListBuilder.                         
+  47     Call to deprecated method getLabel() of class                        
+         Drupal\CorentityntityListBuilder.                                
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

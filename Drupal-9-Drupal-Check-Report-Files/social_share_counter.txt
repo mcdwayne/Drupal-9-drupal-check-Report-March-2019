@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_share_counter 55f3a48609d34dfa8c0911ff5874c245c01c7584
+source : http://cgit.drupalcode.org/social_share_counter 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   social_share_counter.module                       
+ ------ -------------------------------------------------- 
+  22     Call to deprecated method url() of class Drupal.  
+  129    Call to deprecated function drupal_render().      
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/SocialShareCounterSettingForm.php                  
+ ------ ------------------------------------------------------------ 
+  91     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tag1quo 1e414867b281a5102d868431e51ac552fcf9db06
+source : http://cgit.drupalcode.org/tag1quo 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/Adapter/Config/Config6.php           
+ ------ ----------------------------------------- 
+  55     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Adapter/Config/Config7.php            
+ ------ ------------------------------------------ 
+  17     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Adapter/Core/Core.php                          
+ ------ --------------------------------------------------- 
+  851    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Adapter/Core/Core6.php               
+ ------ ----------------------------------------- 
+  67     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Adapter/Core/Core7.php                   
+ ------ --------------------------------------------- 
+  57     Call to deprecated function element_info().  
+  67     Call to deprecated function db_query().      
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tag1quo.module                                
+ ------ ---------------------------------------------- 
+  102    Call to deprecated function drupal_render().  
+  117    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

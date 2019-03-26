@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/term_merge 54a328076063282beb85ced64de0a17c4d00e70d
+source : http://cgit.drupalcode.org/term_merge 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MergeTermsConfirm.php                     
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+  247    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Kernel/Form/MergeTermsConfirmTest.php     
+ ------ ---------------------------------------------------- 
+  185    Call to deprecated function drupal_get_messages().  
+  301    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/MergeTermsTestBase.php       
+ ------ ---------------------------------------------- 
+  94     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/TermMergerNodeCrudTest.php                           
+ ------ ---------------------------------------------------------------------- 
+  19     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests	erm_merge\Kernel\TermMergerNodeCrudTest.                
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

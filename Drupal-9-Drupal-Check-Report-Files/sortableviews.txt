@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sortableviews 21270bcc6cdeffefc7e3c3a26416db42949fd447
+source : http://cgit.drupalcode.org/sortableviews 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/SortableviewsTest.php                 
+ ------ ----------------------------------------------------------- 
+  56     Call to deprecated method assertElementPresent() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  57     Call to deprecated method assertElementPresent() of class  
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Access/SortableviewsAccessTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  40     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  83     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Controller/AjaxControllerTest.php                         
+ ------ ------------------------------------------------------------------------- 
+  38     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  42     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  63     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  68     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

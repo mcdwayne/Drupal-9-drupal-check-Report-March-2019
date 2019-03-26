@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smart_login ed9f6565f44dd075fc2d77c0ef90177d02cd5e98
+source : http://cgit.drupalcode.org/smart_login 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/SmartLoginController.php           
+ ------ -------------------------------------------------- 
+  157    Call to deprecated method url() of class Drupal.  
+  184    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/SmartLoginSettingsForm.php                                  
+ ------ --------------------------------------------------------------------- 
+  87     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,126 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sms_ui 3f6edd90a8ca06fd2f504311ea67421bb5749b09
+source : http://cgit.drupalcode.org/sms_ui 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   sms_ui.number_validate.inc                      
+ ------ ------------------------------------------------ 
+  34     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BulkComposeForm.php                       
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   src/Form/ComposeFormTrait.php (in context of class Drupal\sms_ui\Form\BulkComposeForm)  
+ ------ ---------------------------------------------------------------------------------------- 
+  193    Call to deprecated function drupal_set_message().                                       
+  197    Call to deprecated function drupal_set_message().                                       
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   src/Form/ComposeFormTrait.php (in context of class Drupal\sms_ui\Form\GroupComposeForm)  
+ ------ ----------------------------------------------------------------------------------------- 
+  193    Call to deprecated function drupal_set_message().                                        
+  197    Call to deprecated function drupal_set_message().                                        
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GroupComposeForm.php                      
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GroupListUploadForm.php                   
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  143    Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendCompleteForm.php                      
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  86     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Form/sms_ui.bulk.inc                      
+ ------ ---------------------------------------------- 
+  31     Call to deprecated function drupal_render().  
+  53     Call to deprecated function db_query().       
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Action/SendSmsAction.php                                  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\sms_actions\Plugin\Action\SendSmsAction was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/SmsUi.php                                
+ ------ --------------------------------------------- 
+  98     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  102    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/BulkComposeFormTest.php                                        
+ ------ ------------------------------------------------------------------------- 
+  14     Class Drupal\sms\Tests\SmsFrameworkTestTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/SendCompleteFormTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  14     Class Drupal\sms\Tests\SmsFrameworkTestTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/SmsHistoryUiTest.php                                           
+ ------ ------------------------------------------------------------------------- 
+  17     Class Drupal\sms\Tests\SmsFrameworkTestTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/SmsHistoryEntityTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  16     Class Drupal\sms\Tests\SmsFrameworkTestTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/SmsHistoryProcessorTest.php                             
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupal\sms\Tests\SmsFrameworkTestTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/SmsHistoryStorageTest.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\sms_ui\Kernel\TestSmsSplitter was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

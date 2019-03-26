@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_term_fields_manager 427395441931b6d1378486fa560e1ecedf2213d9
+source : http://cgit.drupalcode.org/taxonomy_term_fields_manager 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TaxonomyTermSetFieldForm.php                       
+ ------ ------------------------------------------------------------ 
+  49     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/TaxonomyTermFieldManagerStorage.php                     
+ ------ ------------------------------------------------------------ 
+  19     Call to deprecated method entityManager() of class Drupal.  
+  35     Call to deprecated function db_table_exists().              
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   taxonomy_term_fields_manager.module               
+ ------ -------------------------------------------------- 
+  19     Call to deprecated method url() of class Drupal.  
+  23     Call to deprecated method url() of class Drupal.  
+  198    Call to deprecated method url() of class Drupal.  
+  216    Call to deprecated function drupal_render().      
+  227    Call to deprecated function drupal_render().      
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

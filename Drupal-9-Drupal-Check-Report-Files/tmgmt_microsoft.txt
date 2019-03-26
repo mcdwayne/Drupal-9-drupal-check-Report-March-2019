@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_microsoft 0a6397d77f84d30faf4026324ab829067b356b34
+source : http://cgit.drupalcode.org/tmgmt_microsoft 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/MicrosoftTranslator.php  
+ ------ ----------------------------------------------------- 
+  109    Call to deprecated method url() of class             
+         Drupal\CorentityntityInterface.                  
+  120    Call to deprecated method strlen() of class          
+         Drupal\Component\Utility\Unicode.                    
+  158    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Tests/MicrosoftTest.php                                          
+ ------ --------------------------------------------------------------------- 
+  19     Class Drupal	mgmt_microsoft\Tests\MicrosoftTest extends deprecated  
+         class Drupal	mgmt\Tests\TMGMTTestBase.                              
+  39     Call to method setUp() of deprecated class                           
+         Drupal	mgmt\Tests\TMGMTTestBase.                                    
+  127    Call to deprecated function entity_create().                         
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/term_split 15d08cb18c3827b713b1ea0705631bb92bca7e9a
+source : http://cgit.drupalcode.org/term_split 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   src/EventSubscriber/OverviewTerms.php                    
+ ------ --------------------------------------------------------- 
+  24     Fetching class constant FORM_ALTER of deprecated class   
+         Drupal\hook_event_dispatcher\HookEventDispatcherEvents.  
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/TermSplitter.php                               
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/TermSplitTestBase.php                                
+ ------ ---------------------------------------------------------------------- 
+  19     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests	erm_split\Kernel\TermSplitTestBase.                     
+  96     Call to deprecated method getMock() of class                          
+         Drupal\KernelTests\KernelTestBase.                                    
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

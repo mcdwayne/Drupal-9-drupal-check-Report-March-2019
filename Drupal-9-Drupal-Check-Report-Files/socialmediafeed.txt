@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/socialmediafeed 62aacd8f4d35390c045a5c6d669390119c7f0637
+source : http://cgit.drupalcode.org/socialmediafeed 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/FacebookController.php           
+ ------ ------------------------------------------------ 
+  250    Call to deprecated method l() of class Drupal.  
+  261    Call to deprecated method l() of class Drupal.  
+  286    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/InstagramController.php          
+ ------ ------------------------------------------------ 
+  116    Call to deprecated method l() of class Drupal.  
+  120    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/TwitterController.php            
+ ------ ------------------------------------------------ 
+  132    Call to deprecated method l() of class Drupal.  
+  146    Call to deprecated method l() of class Drupal.  
+  150    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/YoutubeController.php               
+ ------ --------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SocialMediaFeedInstagram.php              
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+  100    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated method url() of class Drupal.   
+  159    Call to deprecated method l() of class Drupal.     
+  192    Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SocialMediaFeedLinkedin.php               
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated method url() of class Drupal.   
+  170    Call to deprecated method l() of class Drupal.     
+  192    Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SocialMediaFeedYoutube.php                
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  162    Call to deprecated method url() of class Drupal.   
+  186    Call to deprecated method l() of class Drupal.     
+  208    Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 24 errors                                                         
+
+ </code>

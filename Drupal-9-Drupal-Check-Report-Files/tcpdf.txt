@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tcpdf 4e0fe95c73eb595e30a380acd9ccd8914c629875
+source : http://cgit.drupalcode.org/tcpdf 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/TCPDFDrupal.php                                 
+ ------ ---------------------------------------------------- 
+         Class TCPDF not found and could not be autoloaded.  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tcpdf.config.inc                                
+ ------ ------------------------------------------------ 
+  79     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

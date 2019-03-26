@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/strava 77cb7a15c7474740426fc3b99bde34a9c7a572a9
+source : git@git.drupal.org:project/strava.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/strava_activities/src/ActivityListBuilder.php                
+ ------ --------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\strava_activities\ActivityListBuilder.                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   modules/strava_activities/src/Plugin/Field/FieldFormatter/StravaMapPolylineFormatter.php  
+ ------ ------------------------------------------------------------------------------------------ 
+         Class                                                                                     
+         Drupal\geofield_map\Plugin\Field\FieldFormatter\GeofieldGoogleMapFormat                   
+         ter not found and could not be autoloaded.                                                
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/strava_athletes/src/AthleteListBuilder.php                   
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\strava_athletes\AthleteListBuilder.                     
+  39     Call to deprecated method l() of class                               
+         Drupal\strava_athletes\AthleteListBuilder.                           
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/strava_clubs/src/ClubListBuilder.php                         
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\strava_clubs\ClubListBuilder.                           
+  39     Call to deprecated method l() of class                               
+         Drupal\strava_clubs\ClubListBuilder.                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/API/Strava.php                                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\strava\Api\Strava was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/API/StravaInterface.php                                            
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\strava\Api\StravaInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

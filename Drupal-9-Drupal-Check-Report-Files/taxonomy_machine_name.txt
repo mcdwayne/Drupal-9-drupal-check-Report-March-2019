@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_machine_name 4e4da6c6ac8a4b5b5df61dff722e585c25911bbe
+source : http://cgit.drupalcode.org/taxonomy_machine_name 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   taxonomy_machine_name.module                                       
+ ------ ------------------------------------------------------------------- 
+  164    Call to deprecated method getVocabularyId() of class               
+         Drupal	axonomyntity\Term.                                       
+  172    Call to deprecated function entity_load_multiple_by_properties().  
+  225    Call to deprecated method strtolower() of class                    
+         Drupal\Component\Utility\Unicode.                                  
+  248    Call to deprecated method getVocabularyId() of class               
+         Drupal	axonomyntity\Term.                                       
+  262    Call to deprecated method strlen() of class                        
+         Drupal\Component\Utility\Unicode.                                  
+  265    Call to deprecated method getVocabularyId() of class               
+         Drupal	axonomyntity\Term.                                       
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

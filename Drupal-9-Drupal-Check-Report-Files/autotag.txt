@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/autotag f9519d1fbdcea599f1d7afcfae4dd0f31beb4bea
+source : http://cgit.drupalcode.org/autotag 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   autotag.module                                                    
+ ------ ------------------------------------------------------------------ 
+  37     Call to deprecated function db_query().                           
+  69     Call to deprecated function db_query_temporary().                 
+  77     Call to deprecated function db_change_field().                    
+  86     Call to deprecated function db_add_primary_key().                 
+  94     Call to deprecated function db_insert().                          
+  114    Call to deprecated function db_select().                          
+  120    Call to deprecated function db_select().                          
+  127    Call to deprecated function taxonomy_term_load().                 
+  130    Call to deprecated function db_select().                          
+  141    Call to deprecated function taxonomy_term_load().                 
+  151    Call to deprecated function taxonomy_vocabulary_load_multiple().  
+ ------ ------------------------------------------------------------------ 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

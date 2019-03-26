@@ -1,0 +1,66 @@
+drupal-check results on commit hash: 
+ descrip. : Crowd-sourced translation service, former myGengo. Sign up at http://gengo.com/!
+source   : [git] https://git.drupal.org/project/tmgmt_mygengo 61889f5bd040647fd519c60f008be469ce285f36
+source : http://cgit.drupalcode.org/tmgmt_mygengo 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/MyGengoTranslatorUi.php                        
+ ------ --------------------------------------------------- 
+  245    Call to deprecated method l() of class Drupal.     
+  354    Call to deprecated function format_date().         
+  407    Call to deprecated function drupal_set_message().  
+  460    Call to deprecated function drupal_set_message().  
+  499    Call to deprecated function drupal_set_message().  
+  558    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/MyGengoTranslator.php  
+ ------ --------------------------------------------------- 
+  148    Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  492    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/MyGengoTest.php                                              
+ ------ ----------------------------------------------------------------------- 
+  24     Class Drupal	mgmt_mygengo\Tests\MyGengoTest extends deprecated class  
+         Drupal	mgmt\Tests\TMGMTTestBase.                                      
+  37     Call to method setUp() of deprecated class                             
+         Drupal	mgmt\Tests\TMGMTTestBase.                                      
+  140    Call to deprecated method entityManager() of class Drupal.             
+  303    Call to deprecated method entityManager() of class Drupal.             
+  373    Call to deprecated method entityManager() of class Drupal.             
+  387    Call to deprecated method entityManager() of class Drupal.             
+  429    Call to deprecated method entityManager() of class Drupal.             
+  457    Call to deprecated method entityManager() of class Drupal.             
+  519    Call to deprecated method entityManager() of class Drupal.             
+  661    Call to deprecated method entityManager() of class Drupal.             
+  716    Call to deprecated function format_date().                             
+  717    Call to deprecated function format_date().                             
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tmgmt_mygengo.module                               
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+  212    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tmgmt_mygengo.theme.inc                          
+ ------ ------------------------------------------------- 
+  37     Call to deprecated function format_date().       
+  38     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  38     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

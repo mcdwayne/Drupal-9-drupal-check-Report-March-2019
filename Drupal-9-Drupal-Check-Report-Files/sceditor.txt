@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ descrip. : Module to edit source code online for development.
+source   : [git] https://git.drupal.org/project/sceditor 0f3fd251cab28a6d13a132b71ac8ada59697b53e
+source : http://cgit.drupalcode.org/sceditor 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SCEditorController.php              
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  166    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FTPAccessForm.php                         
+ ------ --------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().  
+  167    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function drupal_set_message().  
+  179    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

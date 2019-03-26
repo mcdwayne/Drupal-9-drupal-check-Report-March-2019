@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/theme_change 16d154bc832a6b2c48c911979e018dfdf84cc31d
+source : http://cgit.drupalcode.org/theme_change 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/ThemeChangeListBuilder.php      
+ ------ ----------------------------------------------- 
+  29     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ThemeChangeDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ThemeChangeForm.php                       
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

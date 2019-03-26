@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/timelogin 4bdbca43156ebf0b26a6da3be4172a346cef5834
+source : http://cgit.drupalcode.org/timelogin 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/DefaultController.php            
+ ------ ------------------------------------------------ 
+  35     Call to deprecated function db_select().        
+  47     Call to deprecated method l() of class Drupal.  
+  49     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TimeloginTimeslotDeleteConfirm.php        
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TimeloginTimeslotForm.php                 
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function db_select().           
+  94     Call to deprecated function db_update().           
+  107    Call to deprecated function db_insert().           
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   timelogin.admin.inc                                
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function db_select().           
+  84     Call to deprecated function db_update().           
+  97     Call to deprecated function db_insert().           
+  108    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function db_select().           
+  174    Call to deprecated function drupal_set_message().  
+  185    Call to deprecated function db_delete().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   timelogin.module                                   
+ ------ --------------------------------------------------- 
+  13     Call to deprecated method url() of class Drupal.   
+  42     Call to deprecated function db_select().           
+  44     Call to deprecated function db_like().             
+  50     Call to deprecated function db_select().           
+  103    Call to deprecated function db_select().           
+  116    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function db_delete().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

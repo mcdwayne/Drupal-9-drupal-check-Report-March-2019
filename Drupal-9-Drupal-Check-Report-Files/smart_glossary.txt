@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smart_glossary 66d9b38dfb544708439802f5eaa0e5d475f0a692
+source : http://cgit.drupalcode.org/smart_glossary 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SmartGlossaryController.php         
+ ------ --------------------------------------------------- 
+  109    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmartGlossaryConfigCloneForm.php          
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmartGlossaryConfigDeleteForm.php         
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/SmartGlossaryConfigFixedConnectionAddForm.php  
+ ------ -------------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().       
+  86     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmartGlossaryConfigForm.php               
+ ------ --------------------------------------------------- 
+  1032   Call to deprecated function drupal_set_message().  
+  1035   Call to deprecated function drupal_set_message().  
+  1059   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/SmartGlossary.php                                    
+ ------ --------------------------------------------------------- 
+  868    Call to deprecated method visualMapperExists() of class  
+         Drupal\semantic_connector\SemanticConnector.             
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

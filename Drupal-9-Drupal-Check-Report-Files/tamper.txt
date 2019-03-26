@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tamper 333bb7611f69342315d52cabcb904e28f52ababb
+source : http://cgit.drupalcode.org/tamper 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Tamper/CountryToCode.php              
+ ------ ------------------------------------------------- 
+  49     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  60     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Adapter/TamperableComplexDataAdapterTest.php              
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Tamper/CountryToCodeTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Tamper/HashTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  31     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Tamper/TamperPluginTestBase.php                    
+ ------ ------------------------------------------------------------------------- 
+  26     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  71     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

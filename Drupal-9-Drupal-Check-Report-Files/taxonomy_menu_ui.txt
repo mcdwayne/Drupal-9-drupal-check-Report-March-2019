@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_menu_ui b14c0e3968d0d04c91580cf5b1353a9e307855b7
+source : http://cgit.drupalcode.org/taxonomy_menu_ui 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   taxonomy_menu_ui.module                                     
+ ------ ------------------------------------------------------------ 
+  64     Call to deprecated method getVocabularyId() of class        
+         Drupal	axonomy\TermInterface.                              
+  112    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

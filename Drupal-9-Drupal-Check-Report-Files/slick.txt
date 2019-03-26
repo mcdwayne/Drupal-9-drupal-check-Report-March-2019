@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slick 11b3507a052dbc2309ca8b16f34897b87dd9200b
+source : http://cgit.drupalcode.org/slick 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Form/SlickAdmin.php                               
+ ------ ------------------------------------------------------ 
+  442    Call to deprecated method settingsSummary() of class  
+         Drupallazy\Form\BlazyAdminFormatterBase.            
+ ------ ------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/SlickCrudTest.php                
+ ------ -------------------------------------------------- 
+  188    Call to deprecated method jsSettings() of class   
+         Drupal\slickntity\Slick.                        
+  221    Call to deprecated function format_string().      
+  221    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  222    Call to deprecated function format_string().      
+  222    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  225    Call to deprecated function format_string().      
+  225    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

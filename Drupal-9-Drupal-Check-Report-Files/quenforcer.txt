@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/quenforcer 56541e24bba9d7144a3a4df01faac11c9f47ee3b
+source : http://cgit.drupalcode.org/quenforcer 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/Quotas/StorageQuota.php              
+ ------ ----------------------------------------- 
+  50     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Quotas/UserQuota.php                 
+ ------ ----------------------------------------- 
+  16     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

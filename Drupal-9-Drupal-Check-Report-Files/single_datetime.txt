@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/single_datetime 04f3ab37dc80c69c09a7fedf908ff90566f9c0fa
+source : http://cgit.drupalcode.org/single_datetime 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/SingleDateTimeBase.php        
+ ------ ----------------------------------------------------------- 
+  262    Call to deprecated function datetime_date_default_time().  
+  296    Call to deprecated function datetime_date_default_time().  
+  345    Call to deprecated function datetime_date_default_time().  
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_stats aff97ac6a2285a9162081363d877303b67b37293
+source : http://cgit.drupalcode.org/social_stats 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/SocialStatsFbManager.php             
+ ------ ----------------------------------------- 
+  45     Call to deprecated function db_merge().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/SocialStatsGplusManager.php          
+ ------ ----------------------------------------- 
+  26     Call to deprecated function db_merge().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/SocialStatsLinkedinManager.php       
+ ------ ----------------------------------------- 
+  28     Call to deprecated function db_merge().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/SocialStatsTwitterManager.php        
+ ------ ----------------------------------------- 
+  30     Call to deprecated function db_merge().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

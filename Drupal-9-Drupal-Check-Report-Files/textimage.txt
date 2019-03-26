@@ -1,0 +1,202 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/textimage d44513e5006a59391459993e99255efb4162cf9b
+source : http://cgit.drupalcode.org/textimage 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/TextimageDownloadController.php  
+ ------ ------------------------------------------------ 
+  203    Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/TextimageImageFieldFormatter.php  
+ ------ ------------------------------------------------------------------ 
+  235    Call to deprecated method urlInfo() of class                      
+         Drupal\CorentityntityInterface.                               
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TextimageTextFieldFormatter.php  
+ ------ ----------------------------------------------------------------- 
+  292    Call to deprecated method urlInfo() of class                     
+         Drupal\CorentityntityInterface.                              
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/TextimageFactory.php                           
+ ------ --------------------------------------------------- 
+  346    Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/TextimageLogger.php                            
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/TextimageApiTest.php         
+ ------ -------------------------------------------------- 
+  144    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  157    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  166    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  167    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  168    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  199    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  201    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  222    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  240    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  245    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  260    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  285    Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/TextimageFieldFormatterTest.php                     
+ ------ ------------------------------------------------------------------------- 
+  55     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  58     Call to deprecated function entity_get_display().                        
+  69     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  70     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  76     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  77     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  80     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  81     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  89     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  92     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  93     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  102    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  104    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  105    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  106    Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  107    Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  112    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  118    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  146    Call to deprecated function entity_get_display().                        
+  156    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  157    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  158    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  159    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  162    Call to deprecated function entity_get_display().                        
+  168    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  177    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  178    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  179    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  221    Call to deprecated function entity_get_display().                        
+  232    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  233    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  241    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  242    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  245    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  246    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  254    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  257    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  258    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  264    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  267    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  268    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  277    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  278    Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  279    Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  280    Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  281    Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  282    Call to deprecated method assertCacheTag() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  292    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  299    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  316    Call to deprecated function entity_get_display().                        
+  326    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  332    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  339    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  345    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  381    Call to deprecated function entity_get_form_display().                   
+  388    Call to deprecated function entity_get_display().                        
+  431    Call to deprecated function drupal_realpath().                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/TextimageTest.php               
+ ------ ----------------------------------------------------- 
+  71     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  79     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  119    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  123    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  128    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  139    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Functional/TextimageTestBase.php      
+ ------ ------------------------------------------------ 
+  81     Call to deprecated method assertRaw() of class  
+         Drupal\Tests\BrowserTestBase.                   
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   textimage.module                                  
+ ------ -------------------------------------------------- 
+  23     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 82 errors                                                         
+
+ </code>

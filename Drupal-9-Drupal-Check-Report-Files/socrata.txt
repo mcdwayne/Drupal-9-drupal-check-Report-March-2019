@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/socrata e45ca256de1da77e552d82ddf98b0dd793e34183
+source : http://cgit.drupalcode.org/socrata 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   socrata.module                           
+ ------ ----------------------------------------- 
+  110    Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   socrata_views/src/Plugin/views/query/Soql.php  
+ ------ ----------------------------------------------- 
+  540    Call to deprecated function db_and().          
+  541    Call to deprecated function db_and().          
+  541    Call to deprecated function db_or().           
+  546    Call to deprecated function db_and().          
+  546    Call to deprecated function db_or().           
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/EndpointListBuilder.php         
+ ------ ----------------------------------------------- 
+  26     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EndpointDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EndpointForm.php                          
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EndpointTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

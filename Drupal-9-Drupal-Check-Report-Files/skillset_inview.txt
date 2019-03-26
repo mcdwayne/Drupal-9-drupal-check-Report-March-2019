@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/skillset_inview 164af13611967af1777a4fb03c1d1510d62476d1
+source : http://cgit.drupalcode.org/skillset_inview 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/Preview.php                         
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddSkill.php                              
+ ------ --------------------------------------------------- 
+  128    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ColorSkill.php                            
+ ------ --------------------------------------------------- 
+  321    Call to deprecated function drupal_set_message().  
+  361    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteSkill.php                           
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OrderSkill.php                            
+ ------ --------------------------------------------------- 
+  209    Call to deprecated function drupal_set_message().  
+  220    Call to deprecated function drupal_set_message().  
+  252    Call to deprecated function drupal_set_message().  
+  273    Call to deprecated function drupal_set_message().  
+  291    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  318    Call to deprecated function drupal_set_message().  
+  363    Call to deprecated function drupal_set_message().  
+  402    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/ParamConverter/SkillLoader.php       
+ ------ ----------------------------------------- 
+  19     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/TwigExtension/HexToRgb.php                                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\skillset_inview\TwigExtension\HexToRGB was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

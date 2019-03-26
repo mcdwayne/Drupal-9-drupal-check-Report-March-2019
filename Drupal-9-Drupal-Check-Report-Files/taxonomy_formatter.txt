@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_formatter afdec98bac86935b8104a03033556ef0db507af3
+source : http://cgit.drupalcode.org/taxonomy_formatter 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TaxonomyTermReferenceCsv.php  
+ ------ -------------------------------------------------------------- 
+  139    Call to deprecated method checkPlain() of class               
+         Drupal\Component\Utility\SafeMarkup.                          
+  139    Call to method checkPlain() of deprecated class               
+         Drupal\Component\Utility\SafeMarkup.                          
+  141    Call to deprecated method checkPlain() of class               
+         Drupal\Component\Utility\SafeMarkup.                          
+  141    Call to method checkPlain() of deprecated class               
+         Drupal\Component\Utility\SafeMarkup.                          
+  149    Call to deprecated method checkPlain() of class               
+         Drupal\Component\Utility\SafeMarkup.                          
+  149    Call to method checkPlain() of deprecated class               
+         Drupal\Component\Utility\SafeMarkup.                          
+  163    Call to deprecated method checkPlain() of class               
+         Drupal\Component\Utility\SafeMarkup.                          
+  163    Call to method checkPlain() of deprecated class               
+         Drupal\Component\Utility\SafeMarkup.                          
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

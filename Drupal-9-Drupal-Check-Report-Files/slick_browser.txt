@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slick_browser 665b2e58b2294562c0cd5c6722f867b0fbaa028d
+source : http://cgit.drupalcode.org/slick_browser 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   src/Plugin/EntityBrowser/FieldWidgetDisplay/SlickBrowserFieldWidgetDisplayFile.php  
+ ------ ------------------------------------------------------------------------------------ 
+  48     Call to deprecated method isSubclassOf() of class                                   
+         Drupal\CorentityntityTypeInterface.                                             
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/FieldWidgetDisplay/SlickBrowserFieldWidgetDisplayMedia.php  
+ ------ ------------------------------------------------------------------------------------- 
+  46     Call to deprecated method isSubclassOf() of class                                    
+         Drupal\CorentityntityTypeInterface.                                              
+ ------ ------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

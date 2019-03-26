@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/site_verify 011b68dbbf2efd79c9f00582328de37656c3baec
+source : http://cgit.drupalcode.org/site_verify 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/SiteVerifyController.php           
+ ------ -------------------------------------------------- 
+  49     Call to deprecated method l() of class Drupal.    
+  75     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteVerifyAdminForm.php                   
+ ------ --------------------------------------------------- 
+  90     Call to deprecated method url() of class Drupal.   
+  166    Call to deprecated function drupal_set_message().  
+  213    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SiteVerifyDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

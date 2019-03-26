@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slack_invite 4b6842d565b926e2bce013d21dd3deaae6fff442
+source : http://cgit.drupalcode.org/slack_invite 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/SlackInviteForm.php                                         
+ ------ --------------------------------------------------------------------- 
+  32     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  55     Call to deprecated function valid_email_address().                   
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SlackInvite.php                                
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

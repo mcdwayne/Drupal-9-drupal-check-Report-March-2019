@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_manager_lite ee500fc444900e88d2462dabad467323108a23ca
+source : http://cgit.drupalcode.org/taxonomy_manager_lite 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/TaxonomyManagerLiteAssignTaxonomyTerms.php                
+ ------ ------------------------------------------------------------------- 
+  112    Call to deprecated method entityManager() of class Drupal.         
+  140    Call to deprecated function drupal_set_message().                  
+  163    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TaxonomyManagerLiteDeleteTaxonomyTerms.php         
+ ------ ------------------------------------------------------------ 
+  99     Call to deprecated function drupal_set_message().           
+  113    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

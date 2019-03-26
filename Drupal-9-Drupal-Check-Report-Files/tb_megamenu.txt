@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tb_megamenu b34b1a0c98e65604adf4306db0e37b68aa29060a
+source : http://cgit.drupalcode.org/tb_megamenu 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/TBMegaMenuAdminController.php       
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MegaMenuAdd.php                           
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MegaMenuDelete.php                        
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tb_megamenu.module                                 
+ ------ --------------------------------------------------- 
+  430    Call to deprecated method url() of class Drupal.   
+  637    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

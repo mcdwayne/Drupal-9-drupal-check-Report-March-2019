@@ -1,0 +1,62 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smart_ip c1602abc3fdbdcdde6fd913346b37d040c177945
+source : http://cgit.drupalcode.org/smart_ip 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/device_geolocation/device_geolocation.module  
+ ------ ------------------------------------------------------ 
+  83     Call to deprecated method strtolower() of class       
+         Drupal\Component\Utility\Unicode.                     
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/smart_ip_ip2location_bin_db/src/DatabaseFileUtility.php  
+ ------ ----------------------------------------------------------------- 
+  39     Call to deprecated method strtoupper() of class                  
+         Drupal\Component\Utility\Unicode.                                
+  42     Call to deprecated method strtoupper() of class                  
+         Drupal\Component\Utility\Unicode.                                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   modules/smart_ip_ip2location_bin_db/src/EventSubscriber/SmartIpEventSubscriber.php  
+ ------ ------------------------------------------------------------------------------------ 
+  100    Call to deprecated method strtoupper() of class                                     
+         Drupal\Component\Utility\Unicode.                                                   
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/smart_ip_ipinfodb_web_service/src/EventSubscriber/SmartIpEventSubscriber.php  
+ ------ -------------------------------------------------------------------------------------- 
+  80     Call to deprecated method strtoupper() of class                                       
+         Drupal\Component\Utility\Unicode.                                                     
+  105    Call to deprecated method strtoupper() of class                                       
+         Drupal\Component\Utility\Unicode.                                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/smart_ip_maxmind_geoip2_bin_db/src/EventSubscriber/SmartIpEventSubscriber.php  
+ ------ --------------------------------------------------------------------------------------- 
+  103    Call to deprecated method strtoupper() of class                                        
+         Drupal\Component\Utility\Unicode.                                                      
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   modules/smart_ip_maxmind_geoip2_web_service/src/EventSubscriber/SmartIpEventSubscriber.php  
+ ------ -------------------------------------------------------------------------------------------- 
+  69     Call to deprecated method strtoupper() of class                                             
+         Drupal\Component\Utility\Unicode.                                                           
+ ------ -------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/SmartIp.php                                  
+ ------ ------------------------------------------------- 
+  360    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

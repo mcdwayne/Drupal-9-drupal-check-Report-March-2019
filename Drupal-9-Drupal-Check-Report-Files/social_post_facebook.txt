@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_post_facebook a881c26eeac3b6804828cdac3d955ed83a4a4206
+source : http://cgit.drupalcode.org/social_post_facebook 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FacebookPostController.php          
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+  157    Call to deprecated function drupal_set_message().  
+  166    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function drupal_set_message().  
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/Post.php                                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

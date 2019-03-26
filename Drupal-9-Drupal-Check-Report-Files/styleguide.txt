@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/styleguide ebc01f564586004cd27d289fc9578fa96b362a13
+source : http://cgit.drupalcode.org/styleguide 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Styleguide/DefaultStyleguide.php         
+ ------ ---------------------------------------------------- 
+  528    Call to deprecated function drupal_get_messages().  
+  532    Call to deprecated function drupal_set_message().   
+  537    Call to deprecated function drupal_get_messages().  
+  544    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   styleguide.module                                 
+ ------ -------------------------------------------------- 
+  27     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

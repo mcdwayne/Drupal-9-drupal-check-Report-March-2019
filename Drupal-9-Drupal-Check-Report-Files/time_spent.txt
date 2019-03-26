@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/time_spent 153fbcf2853db59d418e908359d6965a30093f51
+source : http://cgit.drupalcode.org/time_spent 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/timeSpentController.php            
+ ------ -------------------------------------------------- 
+  63     Call to deprecated function drupal_render().      
+  66     Call to deprecated method l() of class            
+         Drupal\Core\Controller\ControllerBase.            
+  114    Call to deprecated function drupal_render().      
+  164    Call to deprecated function drupal_render().      
+  167    Call to deprecated method l() of class            
+         Drupal\Core\Controller\ControllerBase.            
+  223    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  223    Call to deprecated method l() of class            
+         Drupal\Core\Controller\ControllerBase.            
+  286    Call to deprecated method l() of class            
+         Drupal\Core\Controller\ControllerBase.            
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

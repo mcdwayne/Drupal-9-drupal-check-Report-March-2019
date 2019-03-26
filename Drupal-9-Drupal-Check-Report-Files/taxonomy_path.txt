@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_path b608e9bde65d520ecb457b2a60ee815c2a60c35a
+source : http://cgit.drupalcode.org/taxonomy_path 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TaxonomyPathFormatter.php  
+ ------ ----------------------------------------------------------- 
+  119    Call to deprecated method urlInfo() of class               
+         Drupal\CorentityntityInterface.                        
+  186    Call to deprecated method strtoupper() of class            
+         Drupal\Component\Utility\Unicode.                          
+  188    Call to deprecated method strtolower() of class            
+         Drupal\Component\Utility\Unicode.                          
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

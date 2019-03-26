@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tvi c7f52316b5a0dc5593d9021700737ab52b744b75
+source : http://cgit.drupalcode.org/tvi 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/TaxonomyViewsIntegratorSettingsForm.php  
+ ------ -------------------------------------------------- 
+  157    Call to deprecated method strlen() of class       
+         Drupal\Component\Utility\Unicode.                 
+  161    Call to deprecated method strlen() of class       
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Service/TaxonomyViewsIntegratorManager.php        
+ ------ ------------------------------------------------------ 
+  79     Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomy\TermInterface.                        
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/TaxonomyViewsIntegratorTestBase.php              
+ ------ ---------------------------------------------------------------------- 
+  14     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests	vi\Functional\TaxonomyViewsIntegratorTestBase.          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   tvi.module                                   
+ ------ --------------------------------------------- 
+  153    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  157    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

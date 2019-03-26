@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/toc_formatter b495222ac0406965e076c272125fddf532c588d0
+source : http://cgit.drupalcode.org/toc_formatter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   lib/Drupal/toc_formatter/Plugin/Field/FieldFormatter/TextTocFormatter.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupal	oc_formatter\Plugin\Field\FieldFormatter\TextTocFormatter    
+         was not found while trying to analyse it - autoloading is probably not     
+         configured properly.                                                       
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   toc_formatter.module                          
+ ------ ---------------------------------------------- 
+  84     Call to deprecated function drupal_render().  
+  89     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

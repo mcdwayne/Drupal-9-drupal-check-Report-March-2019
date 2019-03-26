@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/spectra 5a2e691195383f4abc4200379ef7384d000e92d3
+source : http://cgit.drupalcode.org/spectra 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/spectra_expire/src/Plugin/EntityExpiration/SpectraExpirationMethod.php  
+ ------ -------------------------------------------------------------------------------- 
+  24     Class Drupalntity_expirationntityExpirationMethodInterface not              
+         found and could not be autoloaded.                                              
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SpectraNounForm.php                       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SpectraVerbForm.php                       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/term_merge_manager c21f997bc01f92ec753bd2c0c210b340bf77bbac
+source : http://cgit.drupalcode.org/term_merge_manager 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   src/EventSubscriber/DefaultSubscriber.php             
+ ------ ------------------------------------------------------ 
+  50     Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomy\TermInterface.                        
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TermMergeFromForm.php                     
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TermMergeIntoForm.php                     
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   term_merge_manager.module                             
+ ------ ------------------------------------------------------ 
+  17     Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomyntity\Term.                          
+  31     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

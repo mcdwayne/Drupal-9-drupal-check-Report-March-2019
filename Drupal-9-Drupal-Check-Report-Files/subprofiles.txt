@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/subprofiles 513ab0f97c499d1437f763ef2d47ce03292879c3
+source : http://cgit.drupalcode.org/subprofiles 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   subprofiles.install.inc                            
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_get_profile().  
+  235    Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

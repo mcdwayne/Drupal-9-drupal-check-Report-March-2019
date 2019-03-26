@@ -1,0 +1,179 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tether_stats 75130d4f1ff8511359807a3e42486d4ae57cf9c4
+source : http://cgit.drupalcode.org/tether_stats 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/TetherStatsTrackController.php    
+ ------ ------------------------------------------------- 
+  190    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  190    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/TetherStatsElementFinderForm.php   
+ ------ -------------------------------------------- 
+  262    Call to deprecated function entity_load().  
+  419    Call to deprecated function db_or().        
+  428    Call to deprecated function db_or().        
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Plugin/tether_stats/Chart/TetherStatsChartRendererGoogle.php  
+ ------ ------------------------------------------------------------------ 
+  246    Call to deprecated function format_date().                        
+  250    Call to deprecated function format_date().                        
+  254    Call to deprecated function format_date().                        
+  259    Call to deprecated function format_date().                        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/Tests/TetherStatsAnalyticsStorageTest.php  
+ ------ ----------------------------------------------- 
+  162    Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  162    Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+  182    Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  182    Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+  226    Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  226    Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+  246    Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  246    Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+  358    Call to deprecated method url() of class       
+         Drupal\CorentityntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/TetherStatsIdentitySetTest.php     
+ ------ --------------------------------------------- 
+  55     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  55     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  68     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  68     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  82     Call to deprecated method url() of class     
+         Drupal\CorentityntityInterface.          
+  97     Call to deprecated method url() of class     
+         Drupal\CorentityntityInterface.          
+  106    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  106    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  148    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  148    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  154    Call to deprecated method url() of class     
+         Drupal\CorentityntityInterface.          
+  163    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  163    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  178    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  178    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  228    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  228    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  236    Call to deprecated method url() of class     
+         Drupal\CorentityntityInterface.          
+  248    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  248    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  261    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  261    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/TetherStatsStorageTest.php         
+ ------ --------------------------------------------- 
+  28     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  28     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  39     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  39     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  50     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  50     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  103    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  103    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Tests/TetherStatsTestBase.php         
+ ------ ------------------------------------------ 
+  139    Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/TetherStatsDerivativeListBuilder.php         
+ ------ ------------------------------------------------- 
+  43     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  43     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/TetherStatsIdentitySet.php              
+ ------ -------------------------------------------- 
+  228    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/TetherStatsManager.php                       
+ ------ ------------------------------------------------- 
+  262    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  262    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  268    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  268    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  275    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  275    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  281    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  281    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  287    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  287    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  288    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  288    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 64 errors                                                         
+
+ </code>

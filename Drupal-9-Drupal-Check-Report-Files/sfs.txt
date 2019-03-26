@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sfs 7fdeb36036a36ba023499ee1f2f7fd088a1fa36b
+source : http://cgit.drupalcode.org/sfs 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   sfs.module                                
+ ------ ------------------------------------------ 
+  146    Call to deprecated function db_insert().  
+  161    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   src/ReportSpam.php                                
+ ------ -------------------------------------------------- 
+  92     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  139    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

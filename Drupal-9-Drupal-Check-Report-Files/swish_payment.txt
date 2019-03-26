@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/swish_payment 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/swish_payment 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SwishTransactionForm.php                  
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SwishClient.php                                
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/SwishTransactionListBuilder.php                                  
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\swish_payment\SwishTransactionListBuilder.              
+  34     Call to deprecated method l() of class                               
+         Drupal\swish_payment\SwishTransactionListBuilder.                    
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

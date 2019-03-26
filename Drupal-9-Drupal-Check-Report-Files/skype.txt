@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/skype 0af2ad2b58feea86f2a566b5954c2fd0afae3bee
+source : http://cgit.drupalcode.org/skype 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Manager/SkypeManager.php                     
+ ------ ------------------------------------------------- 
+  54     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  57     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,121 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stacksight 32c76354b992054281af2304dcf29445d597e870
+source : http://cgit.drupalcode.org/stacksight 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   stacksight-php-sdk/SSLogsTracker.php                            
+ ------ ---------------------------------------------------------------- 
+         Class SSLogsTracker was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   stacksight-php-sdk/bootstrap-drupal-7.php                         
+ ------ ------------------------------------------------------------------ 
+         Class DrupalBootstrap was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   stacksight-php-sdk/bootstrap-drupal-8.php                         
+ ------ ------------------------------------------------------------------ 
+         Class DrupalBootstrap was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/bootstrap-magento-2.php                          
+ ------ -------------------------------------------------------------------- 
+         Class Magento2Bootstrap was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/bootstrap-symfony-2.php                         
+ ------ ------------------------------------------------------------------- 
+         Class SymfonyBootstrap was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   stacksight-php-sdk/bootstrap-wp.php                           
+ ------ -------------------------------------------------------------- 
+         Class WPBootstrap was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/platforms/SSMagento2Client.php                  
+ ------ ------------------------------------------------------------------- 
+         Class SSMagento2Client was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   stacksight-php-sdk/platforms/SSPHPClient.php                  
+ ------ -------------------------------------------------------------- 
+         Class SSPHPClient was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/platforms/SSSymfony2Client.php                  
+ ------ ------------------------------------------------------------------- 
+         Class SSSymfony2Client was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/platforms/SSWordpressClient.php                  
+ ------ -------------------------------------------------------------------- 
+         Class SSWordpressClient was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   stacksight-php-sdk/requests/SSHttpInterface.php                   
+ ------ ------------------------------------------------------------------ 
+         Class SShttpInterface was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/requests/SSHttpRequestCurl.php                   
+ ------ -------------------------------------------------------------------- 
+         Class SSHttpRequestCurl was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/requests/SSHttpRequestMultiCurl.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class SSHttpRequestMultiCurl was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/requests/SSHttpRequestSockets.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class SSHttpRequestSockets was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   stacksight-php-sdk/requests/SSHttpRequestThread.php                   
+ ------ ---------------------------------------------------------------------- 
+         Class SSHttpRequestThread was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   stacksight.module                                  
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+  549    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

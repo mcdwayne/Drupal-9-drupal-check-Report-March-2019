@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sitename_by_path 4830433c3c3c498dfb33f944d947097147c704e2
+source : http://cgit.drupalcode.org/sitename_by_path 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/SitenameByPathController.php     
+ ------ ------------------------------------------------ 
+  22     Call to deprecated method l() of class Drupal.  
+  44     Call to deprecated method l() of class Drupal.  
+  46     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SitenameByPathAddForm.php                 
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SitenameByPathDeleteForm.php              
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function db_delete().           
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SitenameByPathUpdateForm.php              
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SitenameByPathStorage.php                      
+ ------ --------------------------------------------------- 
+  16     Call to deprecated function db_insert().           
+  21     Call to deprecated function drupal_set_message().  
+  34     Call to deprecated function db_update().           
+  44     Call to deprecated function db_delete().           
+  53     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

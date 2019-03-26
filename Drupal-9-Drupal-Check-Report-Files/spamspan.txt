@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/spamspan 21544d369a30eca6a7bf41b85ebf32e8a3702f47
+source : http://cgit.drupalcode.org/spamspan 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   spamspan.module                                   
+ ------ -------------------------------------------------- 
+  27     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/SpamSpanTestForm.php                                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\spamspan\Form\SpamspanTestForm was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/FilterSpamspanUnitTest.php           
+ ------ ------------------------------------------------------ 
+  63     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  66     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  210    Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

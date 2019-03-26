@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_move 3c9afe36ee6363be705bac01bd35c2548778b5b2
+source : http://cgit.drupalcode.org/taxonomy_move 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TaxonomyDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TaxonomyMoveForm.php                      
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+  179    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   taxonomy_move.module                                  
+ ------ ------------------------------------------------------ 
+  26     Call to deprecated method getVocabularyId() of class  
+         Drupal	axonomyntity\Term.                          
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

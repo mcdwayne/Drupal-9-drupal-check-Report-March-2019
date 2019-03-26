@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/synergy 80270599be87bab1b38301938d1ec9957224481d
+source : http://cgit.drupalcode.org/synergy 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/SynergyController.php                
+ ------ ---------------------------------------------------- 
+  65     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  178    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  178    Call to deprecated method urlInfo() of class        
+         Drupal\CorentityntityInterface.                 
+  205    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  205    Call to deprecated method urlInfo() of class        
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   synergy.module                                
+ ------ ---------------------------------------------- 
+  13     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

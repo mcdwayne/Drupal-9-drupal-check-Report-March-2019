@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/static_generator a8c84a90ef1db0e9ed1dbde8e9a5d345e98ef96c
+source : http://cgit.drupalcode.org/static_generator 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Command/GenerateBlocksCommand.php                               
+ ------ -------------------------------------------------------------------- 
+  25     Usage of deprecated trait                                           
+         Drupal\static_generator\StaticGeneratorBlockCreationTrait in class  
+         Drupal\static_generator\Command\GenerateBlocksCommand.              
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StaticGeneratorSettingsForm.php           
+ ------ --------------------------------------------------- 
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/StaticGeneratorBlockTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\simpletest\BlockCreationTrait in class  
+         Drupal\Tests\static_generator\Functional\StaticGeneratorBlockTest.       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

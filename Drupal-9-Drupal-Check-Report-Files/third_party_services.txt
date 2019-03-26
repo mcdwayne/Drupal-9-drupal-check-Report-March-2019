@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/third_party_services 263b3348e808e8e233265cc5760f53cc3c5dc0f7
+source : http://cgit.drupalcode.org/third_party_services 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Twig/ConfigurationFormUrlTwigExtension.php                       
+ ------ --------------------------------------------------------------------- 
+  51     Call to deprecated method getName() of class                         
+         Drupal	hird_party_services\Twig\ConfigurationFormUrlTwigExtension.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Ajax/LocalStorageCommandTest.php                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests	hird_party_services\Ajax\LocalStorageCommandTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

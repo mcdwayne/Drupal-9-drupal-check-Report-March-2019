@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/toc_filter 536e1a6067c5f5e3b9efd6f097343de7bfc3c6c1
+source : http://cgit.drupalcode.org/toc_filter 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Filter/TocFilter.php                                     
+ ------ -------------------------------------------------------------------- 
+  47     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal	oc_filter\Plugin\Filter\TocFilter.                    
+  77     Call to deprecated method url() of class                            
+         Drupal	oc_filter\Plugin\Filter\TocFilter.                          
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/TocFilterBlockTest.php              
+ ------ ---------------------------------------------- 
+  47     Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/TocFilterTest.php                   
+ ------ ---------------------------------------------- 
+  126    Call to deprecated function format_string().  
+  133    Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

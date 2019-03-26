@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/split 8.x-1.0
+source : http://cgit.drupalcode.org/split 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   split.module                                      
+ ------ -------------------------------------------------- 
+  8      Call to deprecated function db_query().           
+  14     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  25     Call to deprecated function db_query().           
+  30     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SplitForm.php                             
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function db_query().            
+  38     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  66     Call to deprecated function db_query().            
+  67     Call to deprecated function db_query().            
+  70     Call to deprecated function db_insert().           
+  77     Call to deprecated function db_query().            
+  79     Call to deprecated function db_insert().           
+  85     Call to deprecated function db_query().            
+  89     Call to deprecated function db_insert().           
+  92     Call to deprecated function db_insert().           
+  98     Call to deprecated function db_insert().           
+  101    Call to deprecated function db_insert().           
+  107    Call to deprecated function db_insert().           
+  110    Call to deprecated function db_insert().           
+  118    Call to deprecated function db_query().            
+  120    Call to deprecated function db_insert().           
+  125    Call to deprecated function db_query().            
+  126    Call to deprecated function db_query().            
+  130    Call to deprecated function db_insert().           
+  133    Call to deprecated function db_insert().           
+  139    Call to deprecated function db_insert().           
+  142    Call to deprecated function db_insert().           
+  148    Call to deprecated function db_insert().           
+  151    Call to deprecated function db_insert().           
+  158    Call to deprecated function db_insert().           
+  167    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 30 errors                                                         
+
+ </code>

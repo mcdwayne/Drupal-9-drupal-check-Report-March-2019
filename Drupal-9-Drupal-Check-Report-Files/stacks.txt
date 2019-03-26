@@ -1,0 +1,197 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stacks abcb4de64c1128c3c39796a6749937c988b869bd
+source : http://cgit.drupalcode.org/stacks 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   inc/cron.inc                             
+ ------ ----------------------------------------- 
+  29     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/stacks_content_feed/src/Controller/GridController.php  
+ ------ --------------------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/stacks_content_feed/src/Plugin/WidgetType/ContentFeed.php  
+ ------ ------------------------------------------------------------------- 
+  313    Call to deprecated function drupal_set_message().                  
+  377    Call to deprecated function taxonomy_term_load().                  
+  379    Call to deprecated method getVocabularyId() of class               
+         Drupal	axonomyntity\Term.                                       
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/stacks_content_feed/src/StacksQuery/StacksDatabaseQuery.php  
+ ------ --------------------------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/stacks_content_feed/src/StacksQuery/StacksSolrQuery.php  
+ ------ ----------------------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().                
+  123    Call to deprecated function drupal_set_message().                
+  218    Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/WidgetEntityAddController.php  
+ ------ ---------------------------------------------- 
+  57     Call to deprecated method l() of class        
+         Drupal\Core\Controller\ControllerBase.        
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/WidgetExtendEntityAddController.php  
+ ------ ---------------------------------------------------- 
+  58     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Entity/WidgetInstanceEntity.php      
+ ------ ----------------------------------------- 
+  555    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetEntityForm.php                      
+ ------ --------------------------------------------------- 
+  121    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetEntityTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetEntityTypeForm.php                  
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+  82     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetExtendEntityForm.php                
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetExtendEntityTypeDeleteForm.php      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetExtendEntityTypeForm.php            
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/WidgetInstanceEntityForm.php              
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/FormWidgetType.php             
+ ------ ------------------------------------------------------------ 
+  279    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/WidgetInstanceBulkForm.php                      
+ ------ ----------------------------------------------------------------------- 
+  12     Class Drupal\stacks\Pluginiewsield\WidgetInstanceBulkForm extends  
+         deprecated class Drupal\system\Pluginiewsield\BulkForm.            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Widget/WidgetData.php                                   
+ ------ ------------------------------------------------------------ 
+  248    Call to deprecated method entityManager() of class Drupal.  
+  258    Call to deprecated method entityManager() of class Drupal.  
+  281    Call to deprecated method entityManager() of class Drupal.  
+  313    Call to deprecated method entityManager() of class Drupal.  
+  322    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Widget/WidgetTemplates.php                     
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/WidgetAdmin/Controller/WidgetAdmin.php          
+ ------ ---------------------------------------------------- 
+  220    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/WidgetAdmin/Form/WidgetFormAdmin.php            
+ ------ ---------------------------------------------------- 
+  134    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/WidgetAdmin/Step/StepOne.php                            
+ ------ ------------------------------------------------------------ 
+  338    Call to deprecated function drupal_set_message().           
+  389    Call to deprecated method entityManager() of class Drupal.  
+  664    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/WidgetEntityListBuilder.php                                      
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\stacks\WidgetEntityListBuilder.                         
+  34     Call to deprecated method l() of class                               
+         Drupal\stacks\WidgetEntityListBuilder.                               
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/WidgetExtendEntityListBuilder.php                                
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\stacks\WidgetExtendEntityListBuilder.                   
+  33     Call to deprecated method l() of class                               
+         Drupal\stacks\WidgetExtendEntityListBuilder.                         
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/WidgetInstanceEntityListBuilder.php                              
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\stacks\WidgetInstanceEntityListBuilder.                 
+  33     Call to deprecated method l() of class                               
+         Drupal\stacks\WidgetInstanceEntityListBuilder.                       
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   stacks.module                                               
+ ------ ------------------------------------------------------------ 
+  27     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 46 errors                                                         
+
+ </code>

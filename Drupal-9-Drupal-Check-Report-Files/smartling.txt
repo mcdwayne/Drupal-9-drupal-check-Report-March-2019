@@ -1,0 +1,132 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smartling 1a4bebd669185870b2726736032cf7182d397fb9
+source : http://cgit.drupalcode.org/smartling 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   smartling.module                                            
+ ------ ------------------------------------------------------------ 
+  37     Call to deprecated method url() of class Drupal.            
+  39     Call to deprecated method url() of class Drupal.            
+  85     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/ApiWrapper/SmartlingLocalApiWrapper.php     
+ ------ ------------------------------------------------ 
+  28     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/SmartlingController.php              
+ ------ ---------------------------------------------------- 
+  126    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Encoder/XmlEncoder.php                                          
+ ------ -------------------------------------------------------------------- 
+  19     Class Drupal\smartlingncoder\XmlEncoder extends deprecated class  
+         Symfony\Component\Serializerncoder\SerializerAwareEncoder.        
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Entity/SmartlingSubmission.php               
+ ------ ------------------------------------------------- 
+  173    Call to deprecated function entity_load().       
+  261    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AccountInfoSettingsForm.php               
+ ------ --------------------------------------------------- 
+  309    Call to deprecated function drupal_set_message().  
+  314    Call to deprecated function drupal_set_message().  
+  321    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/EntitySubmissionsForm.php                          
+ ------ ------------------------------------------------------------ 
+  238    Call to deprecated method entityManager() of class Drupal.  
+  251    Call to deprecated function drupal_set_message().           
+  254    Call to deprecated function drupal_set_message().           
+  263    Call to deprecated method entityManager() of class Drupal.  
+  286    Call to deprecated function drupal_set_message().           
+  293    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SendMultipleConfirmForm.php               
+ ------ --------------------------------------------------- 
+  347    Call to deprecated function drupal_set_message().  
+  349    Call to deprecated function drupal_set_message().  
+  352    Call to deprecated function drupal_set_message().  
+  360    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/QueueWorker/SmartlingDownload.php                
+ ------ ------------------------------------------------------------ 
+  112    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/SmartlingEntityHandler.php                     
+ ------ --------------------------------------------------- 
+  125    Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+  128    Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/SubmissionListBuilder.php                 
+ ------ ---------------------------------------------- 
+  112    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/SerializationTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\smartling\Tests\SerializationTest extends deprecated class  
+         Drupal\simpletest\KernelTestBase.                                        
+  57     Call to method setUp() of deprecated class                               
+         Drupal\simpletest\KernelTestBase.                                        
+  66     Call to deprecated function entity_create().                             
+  73     Call to deprecated function entity_create().                             
+  84     Call to deprecated function entity_create().                             
+  91     Call to deprecated function entity_create().                             
+  102    Call to deprecated function entity_create().                             
+  109    Call to deprecated function entity_create().                             
+  154    Call to deprecated function entity_create().                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/SmartlingSubmissionTest.php                                    
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupal\smartling\Tests\SmartlingSubmissionTest extends deprecated  
+         class Drupal\simpletest\KernelTestBase.                                  
+  56     Call to method setUp() of deprecated class                               
+         Drupal\simpletest\KernelTestBase.                                        
+  79     Call to deprecated function entity_create().                             
+  94     Call to deprecated function entity_create().                             
+  133    Call to deprecated function entity_create().                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   submodules/smartling_config_translation/src/Form/DownloadLangSelectForm.php  
+ ------ ----------------------------------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().                            
+  105    Call to deprecated function drupal_set_message().                            
+  108    Call to deprecated function drupal_set_message().                            
+  116    Call to deprecated function drupal_set_message().                            
+ ------ ----------------------------------------------------------------------------- 
+
+ [ERROR] Found 43 errors                                                         
+
+ </code>

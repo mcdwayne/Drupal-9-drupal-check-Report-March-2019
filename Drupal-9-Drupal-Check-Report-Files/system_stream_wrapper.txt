@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/system_stream_wrapper 71084942a71ec6b45874c012666c575a0ccff286
+source : http://cgit.drupalcode.org/system_stream_wrapper 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/StreamWrapper/LocalStream.php               
+ ------ ------------------------------------------------ 
+  75     Call to deprecated function drupal_basename().  
+  316    Call to deprecated function drupal_unlink().    
+  363    Call to deprecated function drupal_mkdir().     
+  366    Call to deprecated function drupal_mkdir().     
+  386    Call to deprecated function drupal_rmdir().     
+  389    Call to deprecated function drupal_rmdir().     
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/StreamWrapper/ProfileStream.php                
+ ------ --------------------------------------------------- 
+  16     Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

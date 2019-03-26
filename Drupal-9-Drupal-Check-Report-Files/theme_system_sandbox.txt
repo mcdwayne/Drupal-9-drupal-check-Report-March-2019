@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/theme_system_sandbox 069fb0c5797052cca9f20a3e426c9d36dfbf9252
+source : http://cgit.drupalcode.org/theme_system_sandbox 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   tests/src/Unit/RendererTest.php              
+ ------ --------------------------------------------- 
+  50     Call to deprecated method isSafe() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  50     Call to method isSafe() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  55     Call to deprecated method isSafe() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  55     Call to method isSafe() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  56     Call to deprecated method isSafe() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  56     Call to method isSafe() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+  754    Call to deprecated method isSafe() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  754    Call to method isSafe() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/RendererTestBase.php                                      
+ ------ ------------------------------------------------------------------------- 
+  120    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  121    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  122    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  143    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

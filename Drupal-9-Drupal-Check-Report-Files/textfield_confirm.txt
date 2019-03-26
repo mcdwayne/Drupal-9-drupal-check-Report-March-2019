@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/textfield_confirm 7dc880c64bc6128b80c70d60d58daf637f2b5517
+source : http://cgit.drupalcode.org/textfield_confirm 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Element/TextfieldConfirm.php                 
+ ------ ------------------------------------------------- 
+  134    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  134    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  135    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  135    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Tests/TextfieldConfirmTest.php           
+ ------ --------------------------------------------- 
+  85     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  85     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/modules/textfield_confirm_test/src/Form/Text.php  
+ ------ -------------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

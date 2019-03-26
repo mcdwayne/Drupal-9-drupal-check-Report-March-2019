@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/skip_temp_file_warnings 337345c5f66f61698bb9331f5f89ba0bab3e56aa
+source : http://cgit.drupalcode.org/skip_temp_file_warnings 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   skip_temp_file_warnings.module                              
+ ------ ------------------------------------------------------------ 
+  17     Call to deprecated method entityManager() of class Drupal.  
+  47     Call to deprecated function db_or().                        
+  80     Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

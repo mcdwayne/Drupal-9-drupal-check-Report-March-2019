@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_moderator 23aaba2839c7ed96f79c5f88678379c3281b62ec
+source : http://cgit.drupalcode.org/taxonomy_moderator 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/TaxonomyModerationTermApproveForm.php              
+ ------ ------------------------------------------------------------ 
+  43     Call to deprecated function entity_load().                  
+  50     Call to deprecated method l() of class Drupal.              
+  52     Call to deprecated function format_date().                  
+  55     Call to deprecated function taxonomy_vocabulary_load().     
+  160    Call to deprecated function entity_load().                  
+  161    Call to deprecated method entityManager() of class Drupal.  
+  203    Call to deprecated function drupal_set_message().           
+  218    Call to deprecated function entity_load().                  
+  219    Call to deprecated method entityManager() of class Drupal.  
+  245    Call to deprecated function drupal_set_message().           
+  247    Call to deprecated method entityManager() of class Drupal.  
+  272    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Form/TaxonomyModerationTermReportForm.php            
+ ------ --------------------------------------------------------- 
+  40     Call to deprecated function entity_load().               
+  47     Call to deprecated method l() of class Drupal.           
+  49     Call to deprecated function format_date().               
+  52     Call to deprecated function taxonomy_vocabulary_load().  
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/TaxonomyModeratorFieldConstraintValidator.php  
+ ------ -------------------------------------------------------------------------------- 
+  29     Call to deprecated method entityManager() of class Drupal.                      
+ ------ -------------------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

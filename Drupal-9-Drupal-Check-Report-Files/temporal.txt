@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/temporal 4467b9e2ba873128c311a8205475e99843d3625e
+source : http://cgit.drupalcode.org/temporal 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/TemporalAddController.php  
+ ------ ------------------------------------------ 
+  62     Call to deprecated method l() of class    
+         Drupal\Core\Controller\ControllerBase.    
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TemporalForm.php                          
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TemporalTypeDeleteForm.php                
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TemporalTypeForm.php                      
+ ------ --------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/TemporalListBuilder.php                                          
+ ------ --------------------------------------------------------------------- 
+  23     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal	emporal\TemporalListBuilder.                           
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   temporal.module                                             
+ ------ ------------------------------------------------------------ 
+  180    Call to deprecated function drupal_set_message().           
+  419    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

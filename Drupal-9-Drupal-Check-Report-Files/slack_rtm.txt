@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slack_rtm ab8a1862ca99489babfb2a7090e36be2b9914495
+source : http://cgit.drupalcode.org/slack_rtm 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Batch/SlackRtmBatch.php                        
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SlackRtmMessageForm.php                   
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/SlackRtmApi.php                                
+ ------ --------------------------------------------------- 
+  275    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

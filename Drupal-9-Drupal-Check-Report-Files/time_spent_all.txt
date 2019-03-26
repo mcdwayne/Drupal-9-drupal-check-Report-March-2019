@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/time_spent_all 8.x-2.1
+source : http://cgit.drupalcode.org/time_spent_all 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/timeSpentAllController.php       
+ ------ ------------------------------------------------ 
+  68     Call to deprecated function drupal_render().    
+  72     Call to deprecated method l() of class          
+         Drupal\Core\Controller\ControllerBase.          
+  122    Call to deprecated function drupal_render().    
+  173    Call to deprecated function drupal_render().    
+  180    Call to deprecated method l() of class          
+         Drupal\Core\Controller\ControllerBase.          
+  183    Call to deprecated method l() of class Drupal.  
+  300    Call to deprecated function drupal_render().    
+  303    Call to deprecated method l() of class          
+         Drupal\Core\Controller\ControllerBase.          
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TimeSpentAllUserDeleteForm.php            
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function db_truncate().         
+  90     Call to deprecated function db_truncate().         
+  92     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function db_delete().           
+  99     Call to deprecated function db_delete().           
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   time_spent_all.module                           
+ ------ ------------------------------------------------ 
+  181    Call to deprecated function db_select().        
+  211    Call to deprecated function drupal_render().    
+  215    Call to deprecated method l() of class Drupal.  
+  228    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

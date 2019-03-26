@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sparkpost 296809cc3b28560a00b558389992847e003c8046
+source : http://cgit.drupalcode.org/sparkpost 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TestMailForm.php                          
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/AdminSettingsTest.php                 
+ ------ --------------------------------------------------------------------- 
+  12     Class Drupal\Tests\sparkpost\FunctionalJavascript\AdminSettingsTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+  37     Call to method setUp() of deprecated class                           
+         Drupal\Tests\BrowserTestBase.                                        
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/SubjectFilterTest.php                 
+ ------ --------------------------------------------------------------------- 
+  13     Class Drupal\Tests\sparkpost\FunctionalJavascript\SubjectFilterTest  
+         extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

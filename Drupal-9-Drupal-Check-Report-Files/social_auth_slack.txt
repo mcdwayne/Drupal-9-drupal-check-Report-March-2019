@@ -1,0 +1,8 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_auth_slack 195f1cdfc39aedc9c802ddbcceb718bc5ba19416
+source : http://cgit.drupalcode.org/social_auth_slack 
+ 
+ <code> 
+Fatal error: Declaration of Drupal\social_auth_slack\SlackAuthManager::requestEndPoint($path) must be compatible with Drupal\social_auth\AuthManager\OAuth2ManagerInterface::requestEndPoint($method, $path, $domain = NULL, array $options = Array) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/social_auth_slack/src/SlackAuthManager.php on line 11 
+
+ </code>

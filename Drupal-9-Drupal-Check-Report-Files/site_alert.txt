@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/site_alert 1d86b66e2655de4664355e218bff2087cf47fe6b
+source : http://cgit.drupalcode.org/site_alert 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/SiteAlertDeleteForm.php            
+ ------ --------------------------------------------------- 
+  38     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/SiteAlertListBuilder.php                   
+ ------ ----------------------------------------------- 
+  55     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

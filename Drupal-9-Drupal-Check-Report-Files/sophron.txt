@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sophron 44586180ac118a28cb183afee43cc2f9a2e02d23
+source : http://cgit.drupalcode.org/sophron 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/SophronTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests
+parser\Functional
+parserTest was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

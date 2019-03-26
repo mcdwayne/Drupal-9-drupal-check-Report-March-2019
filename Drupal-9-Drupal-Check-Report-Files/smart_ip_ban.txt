@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smart_ip_ban 9e445b598271ce7d116be3bb156bb73d5e05d5a8
+source : http://cgit.drupalcode.org/smart_ip_ban 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   smart_ip_ban.module                       
+ ------ ------------------------------------------ 
+  35     Call to deprecated function db_query().   
+  41     Call to deprecated function db_query().   
+  45     Call to deprecated function db_insert().  
+  65     Call to deprecated function db_delete().  
+  68     Call to deprecated function db_query().   
+  72     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmartIPForm.php                           
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

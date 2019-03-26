@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slimbox2 a9e1b77bbb7b8046eef793b38e0b0bce694b15ba
+source : http://cgit.drupalcode.org/slimbox2 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/slimbox2/Form/slimbox2SettingsForm.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\slimbox2\Form\Slimbox2SettingsForm was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   slimbox2.module                                   
+ ------ -------------------------------------------------- 
+  32     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

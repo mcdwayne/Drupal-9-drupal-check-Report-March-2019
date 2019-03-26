@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_image ee1a04dd13dc05ef29acd7f92c7f4e807e00238e
+source : http://cgit.drupalcode.org/taxonomy_image 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/TaxonomyImageTermReferenceImage.php  
+ ------ --------------------------------------------------------------------- 
+  108    Call to deprecated method urlInfo() of class                         
+         Drupal\CorentityntityInterface.                                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   taxonomy_image.module                              
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

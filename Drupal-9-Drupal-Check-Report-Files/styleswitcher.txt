@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/styleswitcher 693cff93f3994f5bcdb8ca2771703acef79d1d36
+source : http://cgit.drupalcode.org/styleswitcher 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StyleswitcherConfigTheme.php              
+ ------ --------------------------------------------------- 
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StyleswitcherStyleDeleteForm.php          
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StyleswitcherStyleForm.php                
+ ------ --------------------------------------------------- 
+  181    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   styleswitcher.module                             
+ ------ ------------------------------------------------- 
+  361    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

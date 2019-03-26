@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/stress_test_add_translations 2c0a2bc89b919d58f7122730f4242b8be3171b63
+source : http://cgit.drupalcode.org/stress_test_add_translations 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/StressAddTranslationsTest.php   
+ ------ ----------------------------------------------------- 
+  96     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  98     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  146    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

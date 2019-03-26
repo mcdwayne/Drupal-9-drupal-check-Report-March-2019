@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_post_linkedin 303c96ba74c2fcf01e8830a4ba42d606304ec917
+source : http://cgit.drupalcode.org/social_post_linkedin 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/Post.php                                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Functional/SocialPostLinkedInSettingsFormTest.php          
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\social_api\SocialApiSettingsFormBaseTest not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

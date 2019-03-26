@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tmgmt_xtm d673e3649017dc3db9ced0fc0d21b19a92747876
+source : http://cgit.drupalcode.org/tmgmt_xtm 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/Cart.php                   
+ ------ ------------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().      
+  56     Call to deprecated function drupal_set_message().      
+  68     Call to deprecated function drupal_set_message().      
+  84     Call to deprecated function drupal_set_message().      
+  96     Call to deprecated function drupal_set_message().      
+  122    Call to deprecated function drupal_set_message().      
+  130    Call to deprecated function drupal_set_message().      
+  145    Call to deprecated function drupal_set_message().      
+  373    Call to deprecated function drupal_set_message().      
+  388    Call to deprecated function entity_delete_multiple().  
+  510    Call to deprecated function drupal_set_message().      
+  557    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/Connector.php          
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated function drupal_set_message().  
+  146    Call to deprecated function drupal_set_message().  
+  152    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function drupal_set_message().  
+  203    Call to deprecated function drupal_set_message().  
+  228    Call to deprecated function drupal_set_message().  
+  232    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/JobEdit.php            
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/tmgmt/Translator/XtmTranslator.php      
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  135    Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  148    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/XtmTranslatorUi.php                            
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tmgmt_xtm.module                                   
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+  144    Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 32 errors                                                         
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/statistics_counter 28ab7097166df988f435dcaa344bebfa02eb0ed5
+source : http://cgit.drupalcode.org/statistics_counter 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/EventSubscriber/StatisticsCounterSubscriber.php  
+ ------ ----------------------------------------------------- 
+  40     Call to deprecated function db_merge().              
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   statistics_counter.module                 
+ ------ ------------------------------------------ 
+  44     Call to deprecated function db_update().  
+  136    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

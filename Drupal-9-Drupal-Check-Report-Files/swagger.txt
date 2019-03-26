@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/swagger f38b9510f7253f5b94bc38d8940e6e74bb80a992
+source : http://cgit.drupalcode.org/swagger 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/OpenAPIResourceTest.php                                      
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\swagger\Tests\SwaggerTestBase not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/ResourceDiscoveryTest.php                                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\swagger\Tests\SwaggerTestBase not found and could not be  
+         autoloaded.                                                            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Tests/WaterwheelTestBase.php                                       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\swagger\Tests\SwaggerTestBase was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tft c64300e6b5229837ace79621a8bb67a3da94a697
+source : http://cgit.drupalcode.org/tft 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/TFTController.php                            
+ ------ ------------------------------------------------------------ 
+  67     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   tft.module                                  
+ ------ -------------------------------------------- 
+  652    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

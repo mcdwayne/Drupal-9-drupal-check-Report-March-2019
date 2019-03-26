@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/term_csv_tree_import 16802eccf100d539d91261791cb658f447a54a04
+source : http://cgit.drupalcode.org/term_csv_tree_import 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImportForm.php                            
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CsvDataKernelTest.php                                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Tests	erm_csv_tree_import\kernel\TermKernelTest was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

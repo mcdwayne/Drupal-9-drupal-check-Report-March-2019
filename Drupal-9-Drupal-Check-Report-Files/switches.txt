@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/switches 15ed4d022f1a757e98bd1cf1dc4ca05550721aec
+source : http://cgit.drupalcode.org/switches 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SwitchDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SwitchForm.php                            
+ ------ --------------------------------------------------- 
+  216    Call to deprecated function drupal_set_message().  
+  222    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/TwigExtension/SwitchExtension.php                      
+ ------ ----------------------------------------------------------- 
+  49     Instantiation of deprecated class Twig_Function_Function.  
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

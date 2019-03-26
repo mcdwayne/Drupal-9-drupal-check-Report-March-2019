@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tc affb3be76c16c41e2b31529af1c86b4fe42c8725
+source : http://cgit.drupalcode.org/tc 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Controller/TcSubmitController.php        
+ ------ --------------------------------------------- 
+  82     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/TcSettingsForm.php                      
+ ------ ------------------------------------------------- 
+  76     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  81     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  91     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+  165    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

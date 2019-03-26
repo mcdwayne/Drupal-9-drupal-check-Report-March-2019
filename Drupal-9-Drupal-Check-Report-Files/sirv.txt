@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sirv 409e3ff8322f67fe366abc69540746e2aa872093
+source : http://cgit.drupalcode.org/sirv 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   sirv.image.inc                               
+ ------ --------------------------------------------- 
+  94     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/SirvImageFieldFormatter.php  
+ ------ ------------------------------------------------------------- 
+  195    Call to deprecated method urlInfo() of class                 
+         Drupal\CorentityntityInterface.                          
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/SirvFile.php                                
+ ------ ------------------------------------------------ 
+  56     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/StreamWrapper/SirvStream.php                                   
+ ------ ------------------------------------------------------------------- 
+         Class Aws\S3\StreamWrapper not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

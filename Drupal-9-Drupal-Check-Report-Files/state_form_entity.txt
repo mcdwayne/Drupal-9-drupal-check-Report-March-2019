@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/state_form_entity 4cabd4fe4c8f588cd5584b73aaad5ee3e646ebe0
+source : http://cgit.drupalcode.org/state_form_entity 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StateFormEntityForm.php                   
+ ------ --------------------------------------------------- 
+  252    Call to deprecated function drupal_set_message().  
+  257    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/StateFormEntityListBuilder.php             
+ ------ ----------------------------------------------- 
+  31     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

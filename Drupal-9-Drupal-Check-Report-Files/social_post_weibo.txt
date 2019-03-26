@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/social_post_weibo 88551a70b0a1dcc1b4710d8419266f7e1e0a3d9d
+source : http://cgit.drupalcode.org/social_post_weibo 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/WeiboPostController.php             
+ ------ --------------------------------------------------- 
+  140    Call to deprecated function drupal_set_message().  
+  173    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Network/WeiboPost.php                   
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/Weibo.php                                    
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

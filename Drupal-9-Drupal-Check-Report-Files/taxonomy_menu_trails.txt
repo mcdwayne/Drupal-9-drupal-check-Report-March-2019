@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/taxonomy_menu_trails 2aa3f41fea1e5b2f668e25078fb54b4e886f36b2
+source : http://cgit.drupalcode.org/taxonomy_menu_trails 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/TaxonomyMenuTrailsBreadcrumbBuilder.php                 
+ ------ ------------------------------------------------------------ 
+  100    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   taxonomy_menu_trails.module                                 
+ ------ ------------------------------------------------------------ 
+  35     Call to deprecated method entityManager() of class Drupal.  
+  97     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  136    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  139    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

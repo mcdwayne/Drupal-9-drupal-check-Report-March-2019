@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/smsc 6b906f047f07546322bc2f5f423860352c8e5d9b
+source : http://cgit.drupalcode.org/smsc 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/SmscSendMessageForm.php                    
+ ------ ---------------------------------------------------- 
+  187    Call to deprecated function drupal_set_message().   
+  216    Call to deprecated function drupal_get_messages().  
+  264    Call to deprecated function drupal_set_message().   
+  267    Call to deprecated function drupal_set_message().   
+  274    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/RulesSmscSend.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\smsc\Plugin\RulesAction\SmscRulesSend was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/SmsGateway/SmscGateway.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\sms\Plugin\SmsGatewayPluginBase not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

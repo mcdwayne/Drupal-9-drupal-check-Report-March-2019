@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/static_server 05b26d7e7afcdd49daef5dbe9c017a210b821956
+source : http://cgit.drupalcode.org/static_server 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StaticServerConfigForm.php                
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   static_server.module                            
+ ------ ------------------------------------------------ 
+  36     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>
