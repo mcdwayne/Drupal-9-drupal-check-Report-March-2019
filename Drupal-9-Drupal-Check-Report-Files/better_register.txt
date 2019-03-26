@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/better_register 1bdce46a73aa50bff5350b805c8e5cf5171861cc
+source : http://cgit.drupalcode.org/better_register 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   better_register.module                             
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ConfirmationEmailController.php     
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated function drupal_set_message().  
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

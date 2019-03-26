@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bootstrap_datepicker a3c111447dc3dd660062000e76a00a23a67b1784
+source : http://cgit.drupalcode.org/bootstrap_datepicker 
+ 
+ <code> 
+
+
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/BootstrapDatepickerBase.php   
+ ------ ----------------------------------------------------------- 
+  637    Call to deprecated function datetime_date_default_time().  
+  671    Call to deprecated function datetime_date_default_time().  
+  719    Call to deprecated function datetime_date_default_time().  
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

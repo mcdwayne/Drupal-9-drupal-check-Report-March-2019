@@ -1,0 +1,143 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_gc_client 0ce837494b77a88276937bb8b5885d3acf9deb0c
+source : http://cgit.drupalcode.org/uc_gc_client 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GoCardless.php                      
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function db_update().           
+  123    Call to deprecated function db_update().           
+  138    Call to deprecated function db_update().           
+  153    Call to deprecated function db_update().           
+  249    Call to deprecated function drupal_set_message().  
+  263    Call to deprecated function db_select().           
+  319    Call to deprecated function db_merge().            
+  368    Call to deprecated function format_date().         
+  383    Call to deprecated function format_date().         
+  388    Call to deprecated function drupal_set_message().  
+  391    Call to deprecated function drupal_set_message().  
+  443    Call to deprecated function db_update().           
+  459    Call to deprecated function drupal_set_message().  
+  463    Call to deprecated function drupal_set_message().  
+  467    Call to deprecated function db_update().           
+  482    Call to deprecated function db_update().           
+  500    Call to deprecated function format_date().         
+  502    Call to deprecated function drupal_set_message().  
+  529    Call to deprecated function drupal_set_message().  
+  532    Call to deprecated function drupal_set_message().  
+  544    Call to deprecated function db_update().           
+  554    Call to deprecated function db_delete().           
+  560    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/GoCardlessPartner.php               
+ ------ --------------------------------------------------- 
+  199    Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function drupal_set_message().  
+  221    Call to deprecated function drupal_set_message().  
+  235    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PaymentsForm.php                          
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function db_select().           
+  113    Call to deprecated function drupal_set_message().  
+  147    Call to deprecated function format_date().         
+  148    Call to deprecated function format_date().         
+  150    Call to deprecated function format_date().         
+  175    Call to deprecated function format_date().         
+  177    Call to deprecated function format_date().         
+  233    Call to deprecated method l() of class Drupal.     
+  243    Call to deprecated function format_date().         
+  245    Call to deprecated function format_date().         
+  337    Call to deprecated function db_select().           
+  360    Call to deprecated method l() of class Drupal.     
+  370    Call to deprecated method l() of class Drupal.     
+  513    Call to deprecated function db_select().           
+  560    Call to deprecated function db_select().           
+  578    Call to deprecated function drupal_set_message().  
+  591    Call to deprecated function db_insert().           
+  604    Call to deprecated function drupal_set_message().  
+  616    Call to deprecated function db_update().           
+  623    Call to deprecated function drupal_set_message().  
+  623    Call to deprecated function format_date().         
+  687    Call to deprecated function drupal_set_message().  
+  691    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Ubercart/OrderPane/GoCardlessCancel.php  
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated function db_select().            
+  43     Call to deprecated function format_date().          
+  51     Call to deprecated function format_date().          
+  55     Call to deprecated function format_date().          
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Ubercart/OrderPane/GoCardlessInfo.php  
+ ------ -------------------------------------------------- 
+  35     Call to deprecated function db_select().          
+  45     Call to deprecated function format_date().        
+  53     Call to deprecated function format_date().        
+  57     Call to deprecated function format_date().        
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Ubercart/PaymentMethod/GoCardlessClient.php  
+ ------ -------------------------------------------------------- 
+  340    Call to deprecated function drupal_set_message().       
+  343    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Plugin/views/field/PaymentType.php    
+ ------ ------------------------------------------ 
+  48     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   uc_gc_client.admin.inc                             
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function db_select().           
+  194    Call to deprecated function db_select().           
+  205    Call to deprecated function drupal_set_message().  
+  210    Call to deprecated function db_merge().            
+  226    Call to deprecated function db_update().           
+  243    Call to deprecated function db_delete().           
+  261    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   uc_gc_client.module                                
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function db_select().           
+  273    Call to deprecated function drupal_set_message().  
+  311    Call to deprecated function drupal_set_message().  
+  397    Call to deprecated function db_update().           
+  580    Call to deprecated function db_select().           
+  741    Call to deprecated function format_date().         
+  750    Call to deprecated function format_date().         
+  768    Call to deprecated function db_update().           
+  777    Call to deprecated function db_update().           
+  794    Call to deprecated function db_select().           
+  876    Call to deprecated function drupal_set_message().  
+  882    Call to deprecated function drupal_set_message().  
+  885    Call to deprecated function drupal_set_message().  
+  989    Call to deprecated function db_delete().           
+  993    Call to deprecated function db_delete().           
+  1003   Call to deprecated function db_select().           
+  1022   Call to deprecated function db_update().           
+  1032   Call to deprecated function drupal_set_message().  
+  1035   Call to deprecated function drupal_set_message().  
+  1044   Call to deprecated function db_select().           
+  1084   Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 89 errors                                                         
+
+ </code>

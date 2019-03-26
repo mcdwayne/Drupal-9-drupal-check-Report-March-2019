@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_paypal_plus 3eade168752027c01ea5c7f21ab8328f20083f28
+source : http://cgit.drupalcode.org/uc_paypal_plus 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   uc_paypal_plus/src/Controller/EcplusController.php  
+ ------ ---------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().   
+  98     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   uc_paypal_plus/src/Controller/PayPalplusController.php  
+ ------ -------------------------------------------------------- 
+  77     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  77     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  114    Call to deprecated function db_query_range().           
+  122    Call to deprecated function db_insert().                
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   uc_paypal_plus/src/Plugin/Ubercart/PaymentMethod/PayPalplusExpressCheckout.php  
+ ------ -------------------------------------------------------------------------------- 
+  122    Call to deprecated function db_query().                                         
+  277    Call to deprecated function drupal_set_message().                               
+  308    Call to deprecated function drupal_set_message().                               
+  400    Call to deprecated function db_delete().                                        
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   uc_paypal_plus/uc_paypal_plus.module     
+ ------ ----------------------------------------- 
+  71     Call to deprecated function db_query().  
+  99     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

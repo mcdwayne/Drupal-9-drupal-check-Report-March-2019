@@ -1,0 +1,108 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_affirm 33a3b63ea7bd1468159cb0d8c0b6ce85b8b9cd5e
+source : http://cgit.drupalcode.org/uc_affirm 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/AffirmController.php                
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+  32     Call to deprecated method url() of class Drupal.   
+  35     Call to deprecated method url() of class Drupal.   
+  51     Call to deprecated function drupal_set_message().  
+  52     Call to deprecated method url() of class Drupal.   
+  81     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated method url() of class Drupal.   
+  101    Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+  107    Call to deprecated method url() of class Drupal.   
+  119    Call to deprecated function db_update().           
+  125    Call to deprecated function db_update().           
+  138    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated method url() of class Drupal.   
+  212    Call to deprecated function drupal_set_message().  
+  219    Call to deprecated function drupal_set_message().  
+  226    Call to deprecated function drupal_set_message().  
+  311    Call to deprecated function db_update().           
+  318    Call to deprecated function db_update().           
+  361    Call to deprecated method url() of class Drupal.   
+  366    Call to deprecated method url() of class Drupal.   
+  374    Call to deprecated function drupal_set_message().  
+  375    Call to deprecated method url() of class Drupal.   
+  385    Call to deprecated function db_update().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AffirmCaptureForm.php                     
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AffirmRefundForm.php                      
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function format_date().         
+  49     Call to deprecated function drupal_set_message().  
+  54     Call to deprecated function db_query().            
+  58     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function db_query().            
+  121    Call to deprecated function drupal_set_message().  
+  124    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AffirmVoidForm.php                        
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   uc_affirm.module                             
+ ------ --------------------------------------------- 
+  112    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  129    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  130    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  131    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  132    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  133    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  134    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  136    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  138    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  143    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  144    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  145    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  146    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  147    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  149    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  151    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  152    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  248    Call to deprecated function db_select().     
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 57 errors                                                         
+
+ </code>

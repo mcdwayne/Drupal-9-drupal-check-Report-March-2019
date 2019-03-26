@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/block_blacklist 686c34e2c35f2b1e3329f0da188d9e350791d425
+source : http://cgit.drupalcode.org/block_blacklist 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/BlockBlacklistTest.php             
+ ------ -------------------------------------------------------- 
+  52     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  102    Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  107    Call to deprecated method assertFieldByName() of class  
+         Drupal\Tests\BrowserTestBase.                           
+  119    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  146    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

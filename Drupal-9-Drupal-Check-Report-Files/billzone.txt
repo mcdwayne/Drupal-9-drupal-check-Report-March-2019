@@ -1,0 +1,67 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/billzone e38b2c26f5fddb2af768994a96f516b3891c0708
+source : http://cgit.drupalcode.org/billzone 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------- 
+  Line   includes/PHP/CreateInvoiceWithDefaultsInvoiceClauses.php  
+ ------ ---------------------------------------------------------- 
+  93     Syntax error, unexpected T_STRING on line 93              
+  96     Syntax error, unexpected T_STRING on line 96              
+  100    Syntax error, unexpected T_STRING on line 100             
+  106    Syntax error, unexpected T_STRING on line 106             
+  110    Syntax error, unexpected T_STRING on line 110             
+  113    Syntax error, unexpected T_STRING on line 113             
+  116    Syntax error, unexpected T_STRING on line 116             
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   includes/PHP/CreateInvoiceWithDefaultsInvoiceClausesWithoutParameters.php  
+ ------ --------------------------------------------------------------------------- 
+  82     Syntax error, unexpected T_STRING on line 82                               
+  85     Syntax error, unexpected T_STRING on line 85                               
+  89     Syntax error, unexpected T_STRING on line 89                               
+  95     Syntax error, unexpected T_STRING on line 95                               
+  99     Syntax error, unexpected T_STRING on line 99                               
+  102    Syntax error, unexpected T_STRING on line 102                              
+  105    Syntax error, unexpected T_STRING on line 105                              
+ ------ --------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   includes/PHP/CreateInvoiceWithDefaultsInvoiceLineClauses.php  
+ ------ -------------------------------------------------------------- 
+  93     Syntax error, unexpected T_STRING on line 93                  
+  96     Syntax error, unexpected T_STRING on line 96                  
+  100    Syntax error, unexpected T_STRING on line 100                 
+  106    Syntax error, unexpected T_STRING on line 106                 
+  110    Syntax error, unexpected T_STRING on line 110                 
+  113    Syntax error, unexpected T_STRING on line 113                 
+  116    Syntax error, unexpected T_STRING on line 116                 
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   includes/PHP/InvoicingService.php                               
+ ------ ---------------------------------------------------------------- 
+         Class CreateInvoice was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/PHP/WSDLInterpreter-v1.0.0/WSDLInterpreter.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class WSDLInterpreterException was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/BillzoneSettingsForm.php               
+ ------ ------------------------------------------------ 
+  70     Call to deprecated method l() of class Drupal.  
+  79     Call to deprecated method l() of class Drupal.  
+  100    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

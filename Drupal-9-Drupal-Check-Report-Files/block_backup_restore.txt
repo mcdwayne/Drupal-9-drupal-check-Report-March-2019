@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/block_backup_restore a16facfc760d4f9f8cebbf8d0c8aea129a496595
+source : http://cgit.drupalcode.org/block_backup_restore 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/BlockBackupRestoreController.php    
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+  161    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated function drupal_set_message().  
+  180    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RestoreConfigForm.php                     
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

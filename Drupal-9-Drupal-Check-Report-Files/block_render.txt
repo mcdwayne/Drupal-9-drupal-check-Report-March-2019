@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/block_render ee23fd4ba50f73968b3a501ed8394c8be9e2da9f
+source : http://cgit.drupalcode.org/block_render 
+ 
+ <code> 
+
+
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/BlockController.php                  
+ ------ ---------------------------------------------------- 
+  98     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/BlockBuilderTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+  24     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  41     Call to deprecated method getBlockMockWithMachineName() of class         
+         Drupal\Tests\UnitTestCase.                                               
+  43     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  54     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  61     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/BlockRenderOutboundPathProcessorTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  25     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/src/Unit/Controller/BlockControllerTest.php                 
+ ------ ------------------------------------------------------------------ 
+  50     Call to deprecated method getBlockMockWithMachineName() of class  
+         Drupal\Tests\UnitTestCase.                                        
+  91     Call to deprecated method getBlockMockWithMachineName() of class  
+         Drupal\Tests\UnitTestCase.                                        
+  106    Call to deprecated method getBlockMockWithMachineName() of class  
+         Drupal\Tests\UnitTestCase.                                        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Normalizer/RenderedContentNormalizerTest.php             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupallock_render\Normalizer\RenderedContentNormalizerTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/rest/resource/BlockRenderMultipleResourceTest.php  
+ ------ ------------------------------------------------------------------------- 
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/rest/resource/BlockRenderResourceTest.php          
+ ------ ------------------------------------------------------------------------- 
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

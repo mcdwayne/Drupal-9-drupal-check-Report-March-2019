@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bootstrap_library cc5b35a94843615fc9e042d4e6b35f4609546f9d
+source : http://cgit.drupalcode.org/bootstrap_library 
+ 
+ <code> 
+
+
+
+ ------ ------------------------------------------------- 
+  Line   bootstrap_library.module                         
+ ------ ------------------------------------------------- 
+  114    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  118    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

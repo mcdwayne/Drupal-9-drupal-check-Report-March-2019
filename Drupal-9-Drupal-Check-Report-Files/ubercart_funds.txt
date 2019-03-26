@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ubercart_funds a5ad076f8adf9f023b3ac9861163f34f00cb7118
+source : http://cgit.drupalcode.org/ubercart_funds 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserFundsEscrow.php                       
+ ------ --------------------------------------------------- 
+  196    Call to deprecated function drupal_set_message().  
+  203    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserFundsTransfer.php                     
+ ------ --------------------------------------------------- 
+  211    Call to deprecated function drupal_set_message().  
+  218    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserFundsWithdraw.php                     
+ ------ --------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FundsWithdrawalMethod/BankAccount.php   
+ ------ --------------------------------------------------- 
+  197    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FundsWithdrawalMethod/Check.php         
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FundsWithdrawalMethod/Paypal.php        
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FundsWithdrawalMethod/Skrill.php        
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

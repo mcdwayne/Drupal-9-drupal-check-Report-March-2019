@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ descrip. : Subscribe to block updates for source themes.
+source   : [git] https://git.drupal.org/project/block_theme_sync dad414c08d2ce35921b871f201dc5324e476096a
+source : http://cgit.drupalcode.org/block_theme_sync 
+ 
+ <code> 
+
+
+
+ ------ -------------------------------------------------- 
+  Line   block_theme_sync.module                           
+ ------ -------------------------------------------------- 
+  14     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ThemeMappingDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ThemeMappingForm.php                      
+ ------ --------------------------------------------------- 
+  254    Call to deprecated function drupal_set_message().  
+  260    Call to deprecated function drupal_set_message().  
+  264    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Entity\EntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_wish_list f49ac3eac8f14905e5c75c103f3c9ee19ff8e48c
+source : http://cgit.drupalcode.org/uc_wish_list 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Drupal\uc_wishlist\ContainerInterface not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Drupal\uc_wishl...')
+#1 /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/uc_wishlist/src/UcWishlistListBuilder.php(18): spl_autoload_call('Drupal\uc_wishl...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/Users/dwaynemc...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/dwaynemc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\uc_wishl...')
+#5 [internal function]: spl_autoload_call('Drupal\uc_wishl...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php(347): class_exists('Drupal\uc_wishl...')
+#7 phar:// in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupal\uc_wishlist\UcWishlistListBuilder::createInstance(Drupal\uc_wishlist\ContainerInterface $container, Drupal\Core\Entity\EntityTypeInterface $entity_type) must be compatible with Drupal\Core\Entity\EntityListBuilder::createInstance(Symfony\Component\DependencyInjection\ContainerInterface $container, Drupal\Core\Entity\EntityTypeInterface $entity_type) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/uc_wishlist/src/UcWishlistListBuilder.php on line 18 
+
+ </code>
