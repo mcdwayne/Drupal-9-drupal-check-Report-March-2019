@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/expressions ce7640cb271bd18c61a69924212175592d639b59
+source : http://cgit.drupalcode.org/expressions 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/ExpressionListBuilder.php       
+ ------ ----------------------------------------------- 
+  31     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/ExpressionLanguage.php                                               
+ ------ ------------------------------------------------------------------------- 
+         Class Symfony\ComponentxpressionLanguagexpressionLanguage not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExpressionDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExpressionForm.php                        
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+  74     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Condition/Expression.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Symfony\ComponentxpressionLanguagexpressionLanguage not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

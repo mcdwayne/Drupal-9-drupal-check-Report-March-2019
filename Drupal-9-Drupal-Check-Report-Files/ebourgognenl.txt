@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ebourgognenl 8.x-1.0
+source : http://cgit.drupalcode.org/ebourgognenl 
+ 
+ <code> 
+Notice: Constant EBOU_NEWS_MODULE_CONFIG_URL already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/ebourgognenl/src/Plugin/Block/EbourgogneNewsletterBlock.php on line 17
+
+Notice: Constant EBOU_NEWS_MODULE_CONFIG_URL already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/ebourgognenl/src/Plugin/Block/EbourgogneNewsletterBlock.php on line 17
+
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/EbourgogneNewsletterUnsubscribeController.php             
+ ------ ------------------------------------------------------------------------- 
+  24     Drupal\Core\DependencyInjection\ContainerNotInitializedException         
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()     
+         must be called with a real container.) thrown while autoloading class    
+         Drupalbourgognenewsletter\ControllerbourgogneNewsletterUnsubscribeC  
+         ontroller.                                                               
+  70     Call to deprecated function drupal_set_message().                        
+  74     Call to deprecated function drupal_set_message().                        
+  77     Call to deprecated function drupal_set_message().                        
+  83     Call to deprecated function drupal_set_message().                        
+  86     Call to deprecated function drupal_set_message().                        
+  90     Call to deprecated function drupal_set_message().                        
+  93     Call to deprecated method url() of class Drupal.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/EbourgogneNewsletterConfigForm.php                            
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupalbourgognenewsletter\FormbourgogneNewsletterConfigForm.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/NewsletterBlockForm.php                    
+ ------ ---------------------------------------------------- 
+  68     Call to deprecated function valid_email_address().  
+  125    Call to deprecated function drupal_set_message().   
+  132    Call to deprecated function drupal_set_message().   
+  135    Call to deprecated function drupal_set_message().   
+  142    Call to deprecated function drupal_set_message().   
+  145    Call to deprecated function drupal_set_message().   
+  150    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Block/EbourgogneNewsletterBlock.php                         
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupalbourgognenewsletter\Plugin\BlockbourgogneNewsletterBlock.    
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

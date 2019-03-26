@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eboks c7edecfa1dd445ff79b998f426ea207af7533d21
+source : http://cgit.drupalcode.org/eboks 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EboksController.php                 
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/EboksSenderMSOutlook.php                    
+ ------ ------------------------------------------------ 
+  149    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/EboksSenderNets.php                         
+ ------ ------------------------------------------------ 
+  209    Call to deprecated function drupal_realpath().  
+  215    Call to deprecated function drupal_realpath().  
+  306    Call to deprecated function drupal_realpath().  
+  318    Call to deprecated method strlen() of class     
+         Drupal\Component\Utility\Unicode.               
+  319    Call to deprecated method substr() of class     
+         Drupal\Component\Utility\Unicode.               
+  461    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/EboksStatusChecker.php                         
+ ------ --------------------------------------------------- 
+  243    Call to deprecated function drupal_realpath().     
+  311    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

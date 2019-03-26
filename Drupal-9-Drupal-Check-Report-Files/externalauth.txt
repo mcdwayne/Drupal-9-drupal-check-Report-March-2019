@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/externalauth 6242039afb26cd82dd1f5c8e257e6c55a9955401
+source : http://cgit.drupalcode.org/externalauth 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/AuthmapTest.php                                             
+ ------ ---------------------------------------------------------------------- 
+  15     Class Drupalxternalauth\Tests\AuthmapTest extends deprecated class  
+         Drupal\simpletest\KernelTestBase.                                     
+  30     Call to method setUp() of deprecated class                            
+         Drupal\simpletest\KernelTestBase.                                     
+  60     Call to deprecated function db_query().                               
+  87     Call to deprecated function db_query().                               
+  92     Call to deprecated function db_query().                               
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/AuthmapTest.php                                           
+ ------ ------------------------------------------------------------------------- 
+  110    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ExternalAuthTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  92     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  93     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  154    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  164    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  279    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  312    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

@@ -1,0 +1,222 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/facets ece1a1ca46335dbc3d1fb6631f4b036039d1adbc
+source : git://git.drupal.org/project/facets.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/facets_summary/src/Form/FacetsSummaryForm.php  
+ ------ ------------------------------------------------------- 
+  403    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/facets_summary/src/Form/FacetsSummarySettingsForm.php  
+ ------ --------------------------------------------------------------- 
+  197    Call to deprecated function drupal_set_message().              
+  225    Call to deprecated function drupal_set_message().              
+  244    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/facets_summary/tests/src/Functional/HierarchicalFacetIntegrationTest.php  
+ ------ ---------------------------------------------------------------------------------- 
+  20     Usage of deprecated trait                                                         
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class              
+         Drupal\Testsacets_summary\Functional\HierarchicalFacetIntegrationTest           
+         .                                                                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/facets_summary/tests/src/Functional/IntegrationTest.php  
+ ------ ----------------------------------------------------------------- 
+  211    Call to deprecated method assertText() of class                  
+         Drupal\Tests\BrowserTestBase.                                    
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FacetListBuilder.php                           
+ ------ --------------------------------------------------- 
+  303    Call to deprecated function drupal_set_message().  
+  331    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FacetCloneForm.php                        
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FacetDeleteConfirmForm.php                
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FacetForm.php                             
+ ------ --------------------------------------------------- 
+  720    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FacetSettingsForm.php                     
+ ------ --------------------------------------------------- 
+  292    Call to deprecated function drupal_set_message().  
+  297    Call to deprecated function drupal_set_message().  
+  315    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FacetSourceEditForm.php                   
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/facets_custom_widget/src/Plugin/facets/processor/TestPreQuery.php  
+ ------ ------------------------------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/HierarchicalFacetIntegrationTest.php             
+ ------ ---------------------------------------------------------------------- 
+  19     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Testsacets\Functional\HierarchicalFacetIntegrationTest.      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/ProcessorIntegrationTest.php          
+ ------ ----------------------------------------------------------- 
+  88     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  89     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  101    Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  102    Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/TestHelperTrait.php (in context of class Drupal\Testsacets\Functional\FacetsTestBase)  
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  22     Call to deprecated method assert() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                 
+  39     Call to deprecated method assert() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                 
+  58     Call to deprecated method assert() of class                                                                   
+         Drupal\Tests\BrowserTestBase.                                                                                 
+ ------ -------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FacetSource/FacetSourcePluginManagerTest.php              
+ ------ ------------------------------------------------------------------------- 
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  68     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/processor/ListItemProcessorTest.php                
+ ------ ------------------------------------------------------------------------- 
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/processor/TranslateEntityProcessorTest.php         
+ ------ ------------------------------------------------------------------------- 
+  62     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  133    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  176    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  211    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/processor/UidToUserNameCallbackProcessorTest.php   
+ ------ ------------------------------------------------------------------------- 
+  42     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  43     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  43     Fetching class constant class of deprecated class                        
+         Drupal\CorentityntityManagerInterface.                               
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  52     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  93     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  94     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  94     Fetching class constant class of deprecated class                        
+         Drupal\CorentityntityManagerInterface.                               
+  95     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/processor/UrlProcessorHandlerTest.php              
+ ------ ------------------------------------------------------------------------- 
+  110    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/url_processor/QueryStringTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  126    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  207    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  273    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  372    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  395    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Processor/ProcessorPluginManagerTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  68     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  76     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  78     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/QueryType/QueryTypePluginManagerTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  59     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  65     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/UrlProcessor/UrlProcessorPluginManagerTest.php            
+ ------ ------------------------------------------------------------------------- 
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  77     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Utility/FacetsDateHandlerTest.php                         
+ ------ ------------------------------------------------------------------------- 
+  46     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Fetching class constant class of deprecated class                        
+         Drupal\CorentityntityManagerInterface.                               
+  56     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  59     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Widget/WidgetPluginManagerTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  77     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 72 errors                                                         
+
+ </code>

@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_access 0ee9336da6d5fd812650d332b639603148ec1906
+source : http://cgit.drupalcode.org/content_access 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   content_access.module                              
+ ------ --------------------------------------------------- 
+  775    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentAccessAdminSettingsForm.php        
+ ------ --------------------------------------------------- 
+  76     Call to deprecated method l() of class Drupal.     
+  168    Call to deprecated function drupal_set_message().  
+  172    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentAccessPageForm.php                 
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+  186    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/ActionGrantNodePermissions.php               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/ActionResetNodePermissions.php               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/ActionRevokeNodePermissions.php              
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/ActionUserGrant.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal

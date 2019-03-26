@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_change_notifier 434c647ddcd84cd3f9b267d18a114f31af369d43
+source : http://cgit.drupalcode.org/entity_change_notifier 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DestinationForm.php                       
+ ------ --------------------------------------------------- 
+  198    Call to deprecated function drupal_set_message().  
+  205    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PublisherDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PublisherForm.php                         
+ ------ --------------------------------------------------- 
+  148    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  187    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/MessageDestination/MessageGenerator.php  
+ ------ ---------------------------------------------------- 
+  49     Instantiation of deprecated class                   
+         Drupal\jsonapi\ResourceType\ResourceType.           
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

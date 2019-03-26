@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contact_storage_export 4b64b590b5e32ba420fc92ee54a84c5030eae9cb
+source : http://cgit.drupalcode.org/contact_storage_export 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ContactStorageExportBatches.php                
+ ------ --------------------------------------------------- 
+  211    Call to deprecated function drupal_set_message().  
+  272    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactStorageDownloadForm.php            
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactStorageExportForm.php              
+ ------ --------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().  
+  182    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

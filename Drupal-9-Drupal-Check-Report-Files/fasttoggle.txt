@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fasttoggle cf7e38f767a81843de6df8d3870d9034c65f9da1
+source : http://cgit.drupalcode.org/fasttoggle 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FasttoggleController.php                     
+ ------ ------------------------------------------------------------ 
+  178    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/Fasttoggle_overview.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalasttoggle\Controller\Fasttoggle was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/PluginTypeExampleTest.php                                   
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\plugin_type_example\Tests\PluginTypeExampleTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------- 
+  Line   src/viewElementsTrait.php (in context of class Drupalasttoggle\Plugin\Field\FieldFormatter\BooleanFormatter)  
+ ------ ---------------------------------------------------------------------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().                                                               
+ ------ ---------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  Line   src/viewElementsTrait.php (in context of class Drupalasttoggle\Plugin\Field\FieldFormatter\OptionsDefaultFormatter)  
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().                                                                      
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

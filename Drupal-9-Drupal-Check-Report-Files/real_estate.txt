@@ -1,0 +1,157 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/real_estate 4ee8b4254773f151d5b85fbdf53184b6beeaa2f3
+source : http://cgit.drupalcode.org/real_estate 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/agency/src/AgencyListBuilder.php                             
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupaleal_estate_agency\AgencyListBuilder.                   
+  34     Call to deprecated method l() of class                               
+         Drupaleal_estate_agency\AgencyListBuilder.                         
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/agency/src/Form/AgencyForm.php             
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/agency/src/Form/AgencyTypeDeleteForm.php   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/agency/src/Form/AgencyTypeForm.php         
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/openimmo/src/Form/OpenImmoDeleteForm.php   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/openimmo/src/Form/OpenImmoForm.php         
+ ------ --------------------------------------------------- 
+  158    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/openimmo/src/Form/OpenImmoQueriesList.php                    
+ ------ --------------------------------------------------------------------- 
+  42     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  120    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/openimmo/src/Form/OpenImmoQueryAddForm.php  
+ ------ ---------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/openimmo/src/Form/OpenImmoQueryDeleteForm.php  
+ ------ ------------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/openimmo/src/Form/OpenImmoQueryEditForm.php  
+ ------ ----------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/property/real_estate_property.module            
+ ------ -------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/property/src/Form/PropertyForm.php         
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/property/src/Form/PropertyTypeDeleteForm.php  
+ ------ ------------------------------------------------------ 
+  41     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   modules/property/src/Form/PropertyTypeForm.php     
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/property/src/PropertyListBuilder.php                         
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupaleal_estate_property\PropertyListBuilder.               
+  34     Call to deprecated method l() of class                               
+         Drupaleal_estate_property\PropertyListBuilder.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/rets/real_estate_rets.module               
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+  42     Call to deprecated function drupal_set_message().  
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/rets/src/Form/RetsConnectionDeleteForm.php  
+ ------ ---------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/rets/src/Form/RetsConnectionForm.php       
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+  149    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/rets/src/Form/RetsConnectionQueriesList.php                  
+ ------ --------------------------------------------------------------------- 
+  42     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  120    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/rets/src/Form/RetsConnectionQueryAddForm.php  
+ ------ ------------------------------------------------------ 
+  218    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/rets/src/Form/RetsConnectionQueryDeleteForm.php  
+ ------ --------------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/rets/src/Form/RetsConnectionQueryEditForm.php  
+ ------ ------------------------------------------------------- 
+  204    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 34 errors                                                         
+
+ </code>

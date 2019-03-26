@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/landing_page e5b1f9c865fd0a01ba571246a9db823942e6a05a
+source : http://cgit.drupalcode.org/landing_page 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   landing_page.module                                         
+ ------ ------------------------------------------------------------ 
+  116    Call to deprecated method entityManager() of class Drupal.  
+  144    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LandingPageTemplatesForm.php              
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,98 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/decoupled_auth 3fdb8e2abbb1a809bd483b9a33d7af2e211c28f4
+source : http://cgit.drupalcode.org/decoupled_auth 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/DecoupledAuthUserMailUniqueValidator.php  
+ ------ --------------------------------------------------------------------------- 
+  103    Call to deprecated method strtolower() of class                            
+         Drupal\Component\Utility\Unicode.                                          
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/DecoupledAuthUserCreationTrait.php (in context of class Drupal\Tests\decoupled_auth\Functional\UserLoginFormTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------- 
+  30     Call to deprecated method format() of class                                                                                  
+         Drupal\Component\Utility\SafeMarkup.                                                                                         
+  30     Call to method format() of deprecated class                                                                                  
+         Drupal\Component\Utility\SafeMarkup.                                                                                         
+ ------ ----------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/DecoupledAuthUserCreationTrait.php (in context of class Drupal\Tests\decoupled_auth\Functional\UserPasswordFormTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+  30     Call to deprecated method format() of class                                                                                     
+         Drupal\Component\Utility\SafeMarkup.                                                                                            
+  30     Call to method format() of deprecated class                                                                                     
+         Drupal\Component\Utility\SafeMarkup.                                                                                            
+ ------ -------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/DecoupledAuthUserCreationTrait.php (in context of class Drupal\Tests\decoupled_auth\Kernel\AcquisitionApiTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  30     Call to deprecated method format() of class                                                                               
+         Drupal\Component\Utility\SafeMarkup.                                                                                      
+  30     Call to method format() of deprecated class                                                                               
+         Drupal\Component\Utility\SafeMarkup.                                                                                      
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/DecoupledAuthUserCreationTrait.php (in context of class Drupal\Tests\decoupled_auth\Kernel\UniqueEmailTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  30     Call to deprecated method format() of class                                                                            
+         Drupal\Component\Utility\SafeMarkup.                                                                                   
+  30     Call to method format() of deprecated class                                                                            
+         Drupal\Component\Utility\SafeMarkup.                                                                                   
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/DecoupledAuthUserCreationTrait.php (in context of class Drupal\Tests\decoupled_auth\Kernel\UserEntityTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+  30     Call to deprecated method format() of class                                                                           
+         Drupal\Component\Utility\SafeMarkup.                                                                                  
+  30     Call to method format() of deprecated class                                                                           
+         Drupal\Component\Utility\SafeMarkup.                                                                                  
+ ------ ---------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+  Line   src/Tests/DecoupledAuthUserCreationTrait.php (in context of class Drupal\decoupled_auth\Tests\RegistrationTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+  30     Call to deprecated method format() of class                                                                      
+         Drupal\Component\Utility\SafeMarkup.                                                                             
+  30     Call to method format() of deprecated class                                                                      
+         Drupal\Component\Utility\SafeMarkup.                                                                             
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/AcquisitionApiTest.php                                 
+ ------ ------------------------------------------------------------------------ 
+  20     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\decoupled_auth\Kernel\AcquisitionApiTest.                  
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/UniqueEmailTest.php                                    
+ ------ ------------------------------------------------------------------------ 
+  19     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\decoupled_auth\Kernel\UniqueEmailTest.                     
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/UserEntityTest.php                                     
+ ------ ------------------------------------------------------------------------ 
+  20     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\decoupled_auth\Kernel\UserEntityTest.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/UserProfileFieldTest.php                               
+ ------ ------------------------------------------------------------------------ 
+  19     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Tests\decoupled_auth\Kernel\UserProfileFieldTest.                
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

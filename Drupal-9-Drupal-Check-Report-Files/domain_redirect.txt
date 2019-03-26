@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/domain_redirect 6efed911258dfb70bf270d32482b7545a8e5a39d
+source : http://cgit.drupalcode.org/domain_redirect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DomainRedirectListBuilder.php       
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_render().       
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainRedirectDeleteForm.php              
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainRedirectFormBase.php                
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainRedirectSettingsForm.php            
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

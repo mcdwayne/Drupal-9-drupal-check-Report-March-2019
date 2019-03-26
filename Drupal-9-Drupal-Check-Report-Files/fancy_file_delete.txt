@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fancy_file_delete d96f3f87be00d6fff3dbb6eb1bb4713e488534ef
+source : http://cgit.drupalcode.org/fancy_file_delete 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   fancy_file_delete.batch.inc                                 
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated method entityManager() of class Drupal.  
+  52     Call to deprecated function db_delete().                    
+  68     Call to deprecated method entityManager() of class Drupal.  
+  75     Call to deprecated function drupal_set_message().           
+  77     Call to deprecated method url() of class Drupal.            
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   fancy_file_delete.module                  
+ ------ ------------------------------------------ 
+  130    Call to deprecated function db_select().  
+  143    Call to deprecated function db_select().  
+  158    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/views/filter/FancyFileDeleteOrphanFileFilter.php  
+ ------ ------------------------------------------------------------- 
+  36     Call to deprecated function db_query().                      
+ ------ ------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

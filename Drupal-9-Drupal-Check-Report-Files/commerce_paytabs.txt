@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_paytabs b2aa812b6e01fb2ba5ebae7ccced7a7d9d6b2401
+source : http://cgit.drupalcode.org/commerce_paytabs 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/PaytabsOffsiteRedirect.php  
+ ------ --------------------------------------------------------------- 
+  210    Call to deprecated function drupal_set_message().              
+  238    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

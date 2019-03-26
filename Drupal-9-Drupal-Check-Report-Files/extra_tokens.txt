@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/extra_tokens 01c9fccf39b44cea945a9ca82cab713bd4a1ca4c
+source : http://cgit.drupalcode.org/extra_tokens 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/OneTimeLoginController.php          
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CurrencyForm.php                          
+ ------ --------------------------------------------------- 
+  154    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/email_contact e54a4d699484afc11294a90d602d8e898af18f6e
+source : http://cgit.drupalcode.org/email_contact 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/ContactController.php                        
+ ------ ------------------------------------------------------------ 
+  19     Call to deprecated method entityManager() of class Drupal.  
+  28     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/ContactForm.php                            
+ ------ ---------------------------------------------------- 
+  86     Call to deprecated function valid_email_address().  
+  126    Call to deprecated function drupal_set_message().   
+  129    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EmailContactLinkFormatter.php  
+ ------ --------------------------------------------------------------- 
+  99     Call to deprecated method l() of class Drupal.                 
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

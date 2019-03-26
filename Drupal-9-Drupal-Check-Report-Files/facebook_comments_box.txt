@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/facebook_comments_box f8c8974c1d500f1dcef975fcdc8ea016fb80b5af
+source : http://cgit.drupalcode.org/facebook_comments_box 
+ 
+ <code>  
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/CustomForm.php                             
+ ------ ---------------------------------------------------- 
+  114    Call to deprecated function node_type_get_types().  
+  152    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Plugin/Block/facebookcomments.php     
+ ------ ------------------------------------------ 
+  29     Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

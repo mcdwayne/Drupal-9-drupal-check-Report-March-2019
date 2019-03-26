@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_monetico 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/commerce_monetico 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/CommerceCmcicAPI.php                     
+ ------ --------------------------------------------- 
+  152    Call to deprecated function db_query().      
+  200    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  200    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/CmcicPaymentGateway.php               
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal

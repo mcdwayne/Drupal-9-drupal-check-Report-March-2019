@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_type_clone e4948ca14f73c98f44dae5139f01b0f3c5a66a1e
+source : http://cgit.drupalcode.org/content_type_clone 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CloneContentType.php                      
+ ------ --------------------------------------------------- 
+  168    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Helpers/ContentTypeCloneHelper.php             
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

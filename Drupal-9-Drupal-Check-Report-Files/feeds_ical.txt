@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feeds_ical 8.x-1.0
+source : http://cgit.drupalcode.org/feeds_ical 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Feeds/Parser/IcalParser.php                                        
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupaleeds_ical\Feeds\Parser\IcalParser.                             
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInitf41804c989a67b26034ce47de705ea17 was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/composer/autoload_static.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Composer\Autoload\ComposerStaticInitf41804c989a67b26034ce47de705ea17    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/nesbot/carbon/src/Carbon/Carbon.php                             
+ ------ ----------------------------------------------------------------------- 
+  1197   Call to deprecated method setToStringFormat() of class Carbon\Carbon.  
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

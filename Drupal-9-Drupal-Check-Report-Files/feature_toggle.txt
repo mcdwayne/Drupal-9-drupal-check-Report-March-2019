@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feature_toggle 8753ecb9a6a541fdea2de04a4640aa6b998a8df4
+source : http://cgit.drupalcode.org/feature_toggle 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FeatureAddForm.php                        
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FeatureDeleteForm.php                     
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FeatureToggleForm.php                     
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

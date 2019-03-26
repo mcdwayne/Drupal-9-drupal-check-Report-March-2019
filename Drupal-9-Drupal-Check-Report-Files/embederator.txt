@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/embederator 152724aa66aaf05d79f2bbd50eaba8b6011ab761
+source : http://cgit.drupalcode.org/embederator 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   embederator.theme.inc                             
+ ------ -------------------------------------------------- 
+  52     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/Controller/EmbederatorController.php     
+ ------ ---------------------------------------------------- 
+  58     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  65     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  90     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Entity/Controller/EmbederatorListBuilder.php  
+ ------ -------------------------------------------------- 
+  74     Call to deprecated method link() of class         
+         Drupal\CorentityntityInterface.               
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EmbederatorTypeForm.php                   
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

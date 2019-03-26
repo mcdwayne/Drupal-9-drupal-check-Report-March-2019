@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupal_reset 9d8dfc6e17f7f704f099b50518df0bda3454efa0
+source : http://cgit.drupalcode.org/drupal_reset 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Command/DrupalResetCommand.php                                    
+ ------ ---------------------------------------------------------------------- 
+  18     Class Drupal\Console\Command\Shared\CommandTrait not found and could  
+         not be autoloaded.                                                    
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DrupalResetForm.php                       
+ ------ --------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

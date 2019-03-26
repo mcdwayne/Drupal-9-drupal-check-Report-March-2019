@@ -1,0 +1,310 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/crm_core 24b50ab864372d18ac29192e5eef09616b94fcde
+source : http://cgit.drupalcode.org/crm_core 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/crm_core_activity/legacy/CRMFeedsActivityProcessor.inc         
+ ------ ----------------------------------------------------------------------- 
+         Class CRMFeedsActivityProcessor was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/crm_core_activity/src/ActivityListBuilder.php  
+ ------ ------------------------------------------------------- 
+  66     Call to deprecated method urlInfo() of class           
+         Drupal\CorentityntityInterface.                    
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/crm_core_activity/src/ActivityTypeListBuilder.php  
+ ------ ----------------------------------------------------------- 
+  47     Call to deprecated method getLabel() of class              
+         Drupal\CorentityntityListBuilder.                      
+ ------ ----------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_activity/src/Entity/Activity.php                     
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_activity/src/Entity/ActivityType.php                 
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/crm_core_activity/src/Form/ActivityForm.php  
+ ------ ----------------------------------------------------- 
+  21     Call to deprecated method url() of class             
+         Drupal\CorentityntityInterface.                  
+  24     Call to deprecated function drupal_set_message().    
+  33     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/crm_core_activity/src/Form/ActivityTypeForm.php  
+ ------ --------------------------------------------------------- 
+  94     Call to deprecated method url() of class Drupal.         
+  97     Call to deprecated function drupal_set_message().        
+  100    Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_activity/src/Tests/ActivityUiTest.php                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/crm_core_activity/tests/src/Kernel/ActivityEntityPreDeleteTest.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found        
+         and could not be autoloaded.                                                
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/crm_core_activity/tests/src/Kernel/ActivityTypePluginTest.php  
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found   
+         and could not be autoloaded.                                           
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/legacy/CRMFeedsContactProcessor.inc             
+ ------ ------------------------------------------------------------------------- 
+         Class CRMFeedsContactProcessor was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/legacy/context/crm_core_contact_context_condition_contact_type.inc  
+ ------ --------------------------------------------------------------------------------------------- 
+         Class crm_core_contact_context_condition_contact_type was not found                          
+         while trying to analyse it - autoloading is probably not configured                          
+         properly.                                                                                    
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/crm_core_contact/legacy/crm_core_contact.context.inc  
+ ------ -------------------------------------------------------------- 
+  58     Call to deprecated function entity_create().                  
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/crm_core_contact/legacy/plugins/tasks/view.inc  
+ ------ -------------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Entity/Individual.php                    
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Entity/Organization.php                  
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/crm_core_contact/src/Form/IndividualForm.php  
+ ------ ------------------------------------------------------ 
+  21     Call to deprecated method url() of class              
+         Drupal\CorentityntityInterface.                   
+  24     Call to deprecated function drupal_set_message().     
+  33     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Form/IndividualTypeForm.php  
+ ------ ---------------------------------------------------------- 
+  116    Call to deprecated method url() of class Drupal.          
+  119    Call to deprecated function drupal_set_message().         
+  122    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Form/OrganizationForm.php  
+ ------ -------------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().       
+  35     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/crm_core_contact/src/Form/OrganizationTypeForm.php  
+ ------ ------------------------------------------------------------ 
+  119    Call to deprecated function drupal_set_message().           
+  122    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/IndividualListBuilder.php  
+ ------ -------------------------------------------------------- 
+  82     Call to deprecated method urlInfo() of class            
+         Drupal\CorentityntityInterface.                     
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Plugin/Action/MergeContactsAction.php    
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Plugin/Field/FieldType/MailWithTypeItem.php  
+ ------ -------------------------------------------------------------------------- 
+  115    Call to deprecated method strlen() of class                               
+         Drupal\Component\Utility\Unicode.                                         
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Tests/IndividualUiTest.php               
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/src/Tests/OrganizationUiTest.php             
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/tests/src/Kernel/IndividualCRUDTest.php      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/tests/src/Kernel/MailWithTypeItemTest.php  
+ ------ -------------------------------------------------------------------- 
+  162    Call to deprecated method getMock() of class                        
+         Drupal\KernelTests\KernelTestBase.                                  
+  170    Call to deprecated method getMock() of class                        
+         Drupal\KernelTests\KernelTestBase.                                  
+  178    Call to deprecated method getMock() of class                        
+         Drupal\KernelTests\KernelTestBase.                                  
+  187    Call to deprecated method getMock() of class                        
+         Drupal\KernelTests\KernelTestBase.                                  
+  194    Call to deprecated method getMock() of class                        
+         Drupal\KernelTests\KernelTestBase.                                  
+  201    Call to deprecated method getMock() of class                        
+         Drupal\KernelTests\KernelTestBase.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_contact/tests/src/Kernel/OrganizationCRUDTest.php    
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/crm_core_match/src/Form/MatcherForm.php    
+ ------ --------------------------------------------------- 
+  175    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_match/tests/src/Kernel/FieldMatcherTest.php          
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_match/tests/src/Unit/DefaultEngineTest.php           
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/crm_core_match/tests/src/Unit/MatcherTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  76     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/crm_core_relationship_ui/crm_core_relationship_ui.admin.inc  
+ ------ --------------------------------------------------------------------- 
+  235    Call to deprecated function drupal_set_message().                    
+  278    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/crm_core_relationship_ui/crm_core_relationship_ui.module  
+ ------ ------------------------------------------------------------------ 
+  343    Call to deprecated function db_or().                              
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/crm_core_relationship_ui/crm_core_relationship_ui.pages.inc  
+ ------ --------------------------------------------------------------------- 
+  388    Call to deprecated function entity_load().                           
+  410    Call to deprecated function entity_load().                           
+  425    Call to deprecated function drupal_set_message().                    
+  426    Call to deprecated function drupal_get_destination().                
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/crm_core_user_sync/crm_core_user_sync.admin.inc  
+ ------ --------------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().        
+  144    Call to deprecated function drupal_render().             
+  145    Call to deprecated function drupal_render().             
+  146    Call to deprecated function drupal_render().             
+  147    Call to deprecated function drupal_render().             
+  148    Call to deprecated function drupal_render().             
+  166    Call to deprecated function drupal_render_children().    
+  262    Call to deprecated function drupal_set_message().        
+  295    Call to deprecated function drupal_set_message().        
+  317    Call to deprecated function user_load().                 
+  330    Call to deprecated function user_load().                 
+  452    Call to deprecated function drupal_set_message().        
+  466    Call to deprecated function db_select().                 
+  476    Call to deprecated function entity_load().               
+  501    Call to deprecated function entity_load().               
+  534    Call to deprecated function drupal_set_message().        
+  558    Call to deprecated function db_select().                 
+  574    Call to deprecated function user_load_multiple().        
+  593    Call to deprecated function drupal_set_message().        
+  596    Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/crm_core_user_sync/crm_core_user_sync.module                  
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity\Revision\RevisionableContentEntityBase not found  
+         and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/crm_core_user_sync/views/views_plugin_argument_default_contact_id.inc  
+ ------ ------------------------------------------------------------------------------- 
+         Class views_plugin_argument_default_contact_id was not found while             
+         trying to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------------- 
+
+ [ERROR] Found 79 errors                                                         
+
+ </code>

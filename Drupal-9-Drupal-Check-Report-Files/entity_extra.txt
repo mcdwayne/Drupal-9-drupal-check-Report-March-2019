@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_extra a9a9934210b0defe60c3d987be1c05d7465ba83e
+source : https://cgit.drupalcode.org/entity_extra 
+ 
+ <code> 
+Warning: Declaration of Drupalntity_extra\Form\PrepareModulesEntityUninstallForm::deleteContentEntities($entity_type_id, $bundle, &$context) should be compatible with Drupal\system\Form\PrepareModulesEntityUninstallForm::deleteContentEntities($entity_type_id, &$context) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/entity_extra/src/Form/PrepareModulesEntityUninstallForm.php on line 16
+
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentEntityForm.php                     
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PrepareModulesEntityUninstallForm.php     
+ ------ --------------------------------------------------- 
+  279    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/datetime_range_timezone 92fe91660d1d4791ddb10b618e73e9a2c3a48436
+source : http://cgit.drupalcode.org/datetime_range_timezone 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/DateRangeTimezoneHelperTrait.php (in context of class Drupal\Tests\datetime_range_timezone\Functional\DateRangeTimezoneTestBase)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  35     Call to deprecated function entity_get_form_display().                                                                                             
+  40     Call to deprecated function entity_get_display().                                                                                                  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/DateRangeTimezoneHelperTrait.php (in context of class Drupal\Tests\datetime_range_timezone\Kernel\DateRangeTimezoneFormatterTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  35     Call to deprecated function entity_get_form_display().                                                                                              
+  40     Call to deprecated function entity_get_display().                                                                                                   
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

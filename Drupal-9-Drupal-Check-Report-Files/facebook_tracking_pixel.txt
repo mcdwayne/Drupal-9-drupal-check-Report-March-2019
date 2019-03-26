@@ -1,0 +1,140 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/facebook_tracking_pixel bcc3ae11b55f5f3580fbaccd60ade7ee25d5c2f7
+source : http://cgit.drupalcode.org/facebook_tracking_pixel 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   facebook_tracking_pixel.admin.commerce.inc         
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function db_select().           
+  55     Call to deprecated function db_select().           
+  151    Call to deprecated function db_select().           
+  192    Call to deprecated function drupal_set_message().  
+  196    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   facebook_tracking_pixel.admin.inc                      
+ ------ ------------------------------------------------------- 
+  40     Call to deprecated function db_query().                
+  121    Call to deprecated function drupal_realpath().         
+  123    Call to deprecated function drupal_set_message().      
+  134    Call to deprecated function db_select().               
+  140    Call to deprecated function db_select().               
+  233    Call to deprecated function db_query().                
+  268    Call to deprecated function drupal_render().           
+  269    Call to deprecated function drupal_render().           
+  270    Call to deprecated function drupal_render().           
+  271    Call to deprecated function drupal_render().           
+  271    Call to deprecated function drupal_render().           
+  272    Call to deprecated function drupal_render().           
+  284    Call to deprecated function drupal_render().           
+  286    Call to deprecated function drupal_render().           
+  288    Call to deprecated function drupal_render().           
+  290    Call to deprecated function drupal_render().           
+  291    Call to deprecated function drupal_get_destination().  
+  292    Call to deprecated function drupal_get_destination().  
+  313    Call to deprecated function drupal_render_children().  
+  325    Call to deprecated function db_select().               
+  374    Call to deprecated function db_insert().               
+  382    Call to deprecated function drupal_set_message().      
+  401    Call to deprecated function db_select().               
+  462    Call to deprecated function db_select().               
+  531    Call to deprecated function db_update().               
+  541    Call to deprecated function drupal_set_message().      
+  544    Call to deprecated function drupal_set_message().      
+  598    Call to deprecated function db_query().                
+  603    Call to deprecated function db_query().                
+  623    Call to deprecated function db_select().               
+  625    Call to deprecated function db_like().                 
+  629    Call to deprecated function db_delete().               
+  635    Call to deprecated function drupal_set_message().      
+  636    Call to deprecated function drupal_set_message().      
+  640    Call to deprecated function drupal_set_message().      
+  654    Call to deprecated function db_select().               
+  672    Call to deprecated function db_select().               
+  745    Call to deprecated function db_select().               
+  755    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   facebook_tracking_pixel.admin.path.inc                 
+ ------ ------------------------------------------------------- 
+  17     Call to deprecated function db_select().               
+  35     Call to deprecated function db_select().               
+  57     Call to deprecated function db_select().               
+  63     Call to deprecated function db_select().               
+  145    Call to deprecated function drupal_render().           
+  172    Call to deprecated function drupal_render().           
+  174    Call to deprecated function drupal_render().           
+  176    Call to deprecated function drupal_render().           
+  178    Call to deprecated function drupal_render().           
+  180    Call to deprecated function drupal_render().           
+  182    Call to deprecated function drupal_render().           
+  184    Call to deprecated function drupal_render().           
+  186    Call to deprecated function drupal_get_destination().  
+  187    Call to deprecated function drupal_get_destination().  
+  198    Call to deprecated function drupal_render().           
+  199    Call to deprecated function drupal_render().           
+  208    Call to deprecated function drupal_render_children().  
+  225    Call to deprecated function db_query().                
+  264    Call to deprecated function db_select().               
+  266    Call to deprecated function db_and().                  
+  280    Call to deprecated function db_select().               
+  308    Call to deprecated function db_select().               
+  339    Call to deprecated function db_insert().               
+  354    Call to deprecated function drupal_set_message().      
+  360    Call to deprecated function drupal_set_message().      
+  365    Call to deprecated function drupal_set_message().      
+  380    Call to deprecated function db_select().               
+  414    Call to deprecated function db_select().               
+  427    Call to deprecated function db_delete().               
+  432    Call to deprecated function drupal_set_message().      
+  438    Call to deprecated function drupal_set_message().      
+  459    Call to deprecated function db_select().               
+  464    Call to deprecated function db_select().               
+  554    Call to deprecated function db_select().               
+  595    Call to deprecated function db_update().               
+  610    Call to deprecated function drupal_set_message().      
+  615    Call to deprecated function drupal_set_message().      
+  620    Call to deprecated function drupal_set_message().      
+  635    Call to deprecated function db_select().               
+  651    Call to deprecated function db_select().               
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   facebook_tracking_pixel.module                     
+ ------ --------------------------------------------------- 
+  145    Call to deprecated function db_select().           
+  188    Call to deprecated function db_select().           
+  216    Call to deprecated function db_select().           
+  244    Call to deprecated function db_select().           
+  262    Call to deprecated function format_string().       
+  514    Call to deprecated function db_select().           
+  542    Call to deprecated function db_query().            
+  594    Call to deprecated function db_select().           
+  645    Call to deprecated function drupal_set_message().  
+  648    Call to deprecated function db_delete().           
+  655    Call to deprecated function db_select().           
+  665    Call to deprecated function db_select().           
+  677    Call to deprecated function drupal_set_message().  
+  682    Call to deprecated function db_delete().           
+  703    Call to deprecated function drupal_set_message().  
+  707    Call to deprecated function drupal_set_message().  
+  710    Call to deprecated function drupal_set_message().  
+  903    Call to deprecated function db_select().           
+  910    Call to deprecated function db_update().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/facebook_tracking_pixel.helper.php                             
+ ------ --------------------------------------------------------------------- 
+         Class facebookTrackingPixel\FacebookTrackingPixelTestHelper was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 104 errors                                                        
+
+ </code>

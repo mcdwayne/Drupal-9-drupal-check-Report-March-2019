@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/environment bc06deb991baa1396d57e3a5b45318d4296b4d38
+source : http://cgit.drupalcode.org/environment 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   environment.drush.inc                              
+ ------ --------------------------------------------------- 
+  152    Call to deprecated function drupal_set_message().  
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   environment.module                                          
+ ------ ------------------------------------------------------------ 
+  31     Call to deprecated function drupal_set_message().           
+  41     Call to deprecated function drupal_set_message().           
+  50     Call to deprecated function drupal_set_message().           
+  59     Call to deprecated function drupal_set_message().           
+  119    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/EnvironmentListBuilder.php      
+ ------ ----------------------------------------------- 
+  31     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EnvironmentAdminSettings.php              
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EnvironmentDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EnvironmentForm.php                       
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+  75     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EnvironmentSwitchConfirm.php              
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

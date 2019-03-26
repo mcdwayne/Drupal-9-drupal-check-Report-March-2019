@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/token_custom 51068ea9447d660c4d4d28495364291efc7928e9
+source : http://cgit.drupalcode.org/token_custom 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/TokenCustomDelete.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal	oken_custom\Form\TokenCustomDelete was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TokenCustomForm.php                       
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  136    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  147    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TokenCustomTypeForm.php                   
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/TokenCustomTypeListBuilder.php         
+ ------ ------------------------------------------- 
+  41     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/TokenCustomConfigSchemaTest.php  
+ ------ -------------------------------------------------- 
+  49     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

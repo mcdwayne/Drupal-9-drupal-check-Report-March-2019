@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feedmine 6b3bf9e2d1ebbc635ed9927bee46a8a450b0829d
+source : http://cgit.drupalcode.org/feedmine 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FeedmineAdminRmprojectForm.php            
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/FeedmineBlockContentsForm.php                 
+ ------ ------------------------------------------------------- 
+  94     Call to deprecated function drupal_get_destination().  
+  141    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

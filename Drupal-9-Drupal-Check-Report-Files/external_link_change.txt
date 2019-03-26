@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/external_link_change 338f413ab45fcaacbbf15496829db57607bf6bc8
+source : http://cgit.drupalcode.org/external_link_change 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

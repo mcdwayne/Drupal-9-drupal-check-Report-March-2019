@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/devdocs a8e1069f6f92e2c37aeed04318311ccd3cea7556
+source : https://github.com/CBones/devdocs.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   devdocs.module                                              
+ ------ ------------------------------------------------------------ 
+  155    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Controller/DocsDownloadController.php                        
+ ------ ----------------------------------------------------------------- 
+  51     Call to deprecated function file_stream_wrapper_valid_scheme().  
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DocsOutput.php                      
+ ------ --------------------------------------------------- 
+  47     Call to deprecated method l() of class Drupal.     
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/StreamWrapper/DocsStream.php                                    
+ ------ -------------------------------------------------------------------- 
+  25     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal\devdocs\StreamWrapper\DocsStream.                      
+  60     Call to deprecated method url() of class                            
+         Drupal\devdocs\StreamWrapper\DocsStream.                            
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

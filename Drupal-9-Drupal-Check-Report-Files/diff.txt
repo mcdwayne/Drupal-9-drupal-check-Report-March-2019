@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/diff e8eb2f872f2499e15566d47ca694e5f6d743c545
+source : http://cgit.drupalcode.org/diff 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldsSettingsForm.php                    
+ ------ --------------------------------------------------- 
+  225    Call to deprecated function drupal_set_message().  
+  490    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Tests/DiffRevisionTest.php                           
+ ------ --------------------------------------------------------- 
+  16     Usage of deprecated trait                                
+         Drupal\system\Tests\Menu\AssertBreadcrumbTrait in class  
+         Drupal\diff\Tests\DiffRevisionTest.                      
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Tests/DiffViewsTest.php                                     
+ ------ ---------------------------------------------------------------- 
+  17     Class Drupal\diff\Tests\DiffViewsTest extends deprecated class  
+         Drupaliews\Tests\ViewTestBase.                                
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

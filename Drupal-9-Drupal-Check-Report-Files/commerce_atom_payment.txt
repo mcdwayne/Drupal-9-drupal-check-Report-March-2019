@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_atom_payment 54675c5c8b6cd0e155ed371b57a62e9dcbc791e2
+source : http://cgit.drupalcode.org/commerce_atom_payment 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/AtomRedirect.php  
+ ------ ----------------------------------------------------- 
+  164    Call to deprecated function drupal_set_message().    
+  168    Call to deprecated function drupal_set_message().    
+  172    Call to deprecated function drupal_set_message().    
+  176    Call to deprecated function drupal_set_message().    
+  186    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/PluginForm/AtomRedirect/PaymentAtomForm.php   
+ ------ -------------------------------------------------- 
+  44     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

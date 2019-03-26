@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/droogle_hangout b9bd2c8708af6e2d08429d4b2b30f4f68cff6d8e
+source : http://cgit.drupalcode.org/droogle_hangout 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   droogle_hangout.inc                                
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   droogle_hangout.module                                  
+ ------ -------------------------------------------------------- 
+  90     Call to deprecated method getUsername() of class        
+         Drupal\userntity\User.                                
+  95     Call to deprecated method l() of class Drupal.          
+  100    Call to deprecated function db_query().                 
+  105    Call to deprecated function db_table_exists().          
+  106    Call to deprecated function db_table_exists().          
+  107    Call to deprecated function db_query().                 
+  126    Call to deprecated method l() of class Drupal.          
+  139    Call to deprecated function libraries_get_libraries().  
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DroogleHangoutController.php        
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_db_table_views b35ee910f895afb2a34f0d823f1457dc56e42653
+source : http://cgit.drupalcode.org/custom_db_table_views 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   src/CustomDatabaseService.php            
+ ------ ----------------------------------------- 
+  16     Call to deprecated function db_query().  
+  24     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/DBTableExportForm.php                  
+ ------ ------------------------------------------------ 
+  82     Call to deprecated function db_table_exists().  
+  92     Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

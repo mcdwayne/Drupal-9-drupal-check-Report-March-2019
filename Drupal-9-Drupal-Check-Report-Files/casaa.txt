@@ -1,0 +1,111 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/casaa 7a24db209462c518466ba9b1b8097a2aa49a4884
+source : http://cgit.drupalcode.org/casaa 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   casaa.add.inc                                      
+ ------ --------------------------------------------------- 
+  234    Call to deprecated function drupal_set_message().  
+  254    Call to deprecated function db_query().            
+  256    Call to deprecated function db_query().            
+  258    Call to deprecated function db_query().            
+  259    Call to deprecated function drupal_set_message().  
+  263    Call to deprecated function db_query().            
+  264    Call to deprecated function drupal_set_message().  
+  269    Call to deprecated function drupal_set_message().  
+  289    Call to deprecated function db_query().            
+  290    Call to deprecated function db_query().            
+  313    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   casaa.delete.inc                                   
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function db_query().            
+  58     Call to deprecated function db_query().            
+  59     Call to deprecated function db_query().            
+  60     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function db_query().            
+  76     Call to deprecated function db_query().            
+  77     Call to deprecated function db_query().            
+  78     Call to deprecated function drupal_set_message().  
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   casaa.edit.inc                                     
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function db_query().            
+  134    Call to deprecated function db_query().            
+  139    Call to deprecated function db_query().            
+  144    Call to deprecated function db_query().            
+  162    Call to deprecated function db_query().            
+  171    Call to deprecated function db_query().            
+  187    Call to deprecated function db_query().            
+  196    Call to deprecated function db_query().            
+  209    Call to deprecated function db_query().            
+  210    Call to deprecated function drupal_set_message().  
+  213    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   casaa.execute.inc                        
+ ------ ----------------------------------------- 
+  72     Call to deprecated function db_query().  
+  89     Call to deprecated function db_query().  
+  97     Call to deprecated function db_query().  
+  101    Call to deprecated function db_query().  
+  144    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   casaa.module                                       
+ ------ --------------------------------------------------- 
+  269    Call to deprecated function drupal_set_message().  
+  279    Call to deprecated function drupal_set_message().  
+  282    Call to deprecated function drupal_set_message().  
+  301    Call to deprecated function db_delete().           
+  304    Call to deprecated function drupal_set_message().  
+  319    Call to deprecated function db_query().            
+  337    Call to deprecated function db_query().            
+  351    Call to deprecated function db_query().            
+  382    Call to deprecated function db_delete().           
+  389    Call to deprecated function drupal_set_message().  
+  392    Call to deprecated function drupal_set_message().  
+  407    Call to deprecated function db_query().            
+  501    Call to deprecated function drupal_render().       
+  511    Call to deprecated function db_update().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   casaa.search.inc                         
+ ------ ----------------------------------------- 
+  84     Call to deprecated function db_query().  
+  92     Call to deprecated function db_query().  
+  107    Call to deprecated function db_query().  
+  114    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   casaa.table.inc                          
+ ------ ----------------------------------------- 
+  52     Call to deprecated function db_query().  
+  60     Call to deprecated function db_query().  
+  81     Call to deprecated function db_query().  
+  93     Call to deprecated function db_query().  
+  137    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   plugins/casaa_path.context.inc                                    
+ ------ ------------------------------------------------------------------ 
+         Class casaa_path_context_condition was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ [ERROR] Found 61 errors                                                         
+
+ </code>

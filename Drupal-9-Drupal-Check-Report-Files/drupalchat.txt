@@ -1,0 +1,87 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupalchat ba460ec87c825ee58e537c4dde11269d80e4a0ec
+source : http://cgit.drupalcode.org/drupalchat 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   drupalchat.module                                
+ ------ ------------------------------------------------- 
+  149    Call to deprecated function user_load().         
+  150    Call to deprecated function user_format_name().  
+  167    Call to deprecated function db_update().         
+  185    Call to deprecated function db_query().          
+  205    Call to deprecated function db_update().         
+  220    Call to deprecated function db_query().          
+  376    Call to deprecated function db_delete().         
+  379    Call to deprecated function db_delete().         
+  385    Call to deprecated function db_delete().         
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/drupalchatController.php                     
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  47     Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  201    Call to deprecated function db_query().                     
+  207    Call to deprecated function db_query().                     
+  218    Call to deprecated function db_query().                     
+  221    Call to deprecated function db_query().                     
+  229    Call to deprecated method entityManager() of class Drupal.  
+  230    Call to deprecated function user_format_name().             
+  239    Call to deprecated function db_query().                     
+  242    Call to deprecated method entityManager() of class Drupal.  
+  249    Call to deprecated method entityManager() of class Drupal.  
+  250    Call to deprecated function user_format_name().             
+  259    Call to deprecated function db_query().                     
+  262    Call to deprecated method entityManager() of class Drupal.  
+  325    Call to deprecated function db_query().                     
+  357    Call to deprecated function db_query().                     
+  416    Call to deprecated method entityManager() of class Drupal.  
+  417    Call to deprecated function user_format_name().             
+  419    Call to deprecated method entityManager() of class Drupal.  
+  425    Call to deprecated method entityManager() of class Drupal.  
+  468    Call to deprecated function drupal_render().                
+  509    Call to deprecated function db_query().                     
+  612    Call to deprecated function db_select().                    
+  618    Call to deprecated function db_or().                        
+  619    Call to deprecated function db_and().                       
+  620    Call to deprecated function db_and().                       
+  629    Call to deprecated function format_date().                  
+  658    Call to deprecated function db_query().                     
+  661    Call to deprecated function db_query().                     
+  668    Call to deprecated function user_load().                    
+  669    Call to deprecated function user_format_name().             
+  679    Call to deprecated function db_query().                     
+  683    Call to deprecated function user_load().                    
+  690    Call to deprecated function user_load().                    
+  691    Call to deprecated function user_format_name().             
+  702    Call to deprecated function db_query().                     
+  706    Call to deprecated function user_load().                    
+  876    Call to deprecated function user_format_name().             
+  1024   Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  1038   Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+  1103   Call to deprecated method l() of class Drupal.              
+  1144   Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+  1146   Call to deprecated function db_select().                    
+  1150   Call to deprecated function db_like().                      
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/drupalchatSettingsForm.php                
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  116    Call to deprecated method l() of class Drupal.     
+  268    Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  309    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 57 errors                                                         
+
+ </code>

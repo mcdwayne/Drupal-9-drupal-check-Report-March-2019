@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_sepa fb90b14dc34314fdc6a008689b189d95458e5894
+source : https://cgit.drupalcode.org/commerce_sepa 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/BankAccount.php  
+ ------ ------------------------------------------------------- 
+  37     Call to method create() of deprecated class            
+         Drupal\Core\Field\BaseFieldDefinition.                 
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

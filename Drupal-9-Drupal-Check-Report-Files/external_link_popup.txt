@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/external_link_popup 2e5e6dd8c0a4f593237cf249140ff70217ee5655
+source : http://cgit.drupalcode.org/external_link_popup 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/ExternalLinkPopupController.php  
+ ------ ------------------------------------------------ 
+  25     Call to deprecated method url() of class        
+         Drupal\Core\Configntity\ConfigEntityBase.     
+  39     Call to deprecated method url() of class        
+         Drupal\Core\Configntity\ConfigEntityBase.     
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/discussions 8.x-3.0-alpha1
+source : http://cgit.drupalcode.org/discussions 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/discussions_email/src/Form/DiscussionsEmailSettingsForm.php  
+ ------ --------------------------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/DiscussionType.php                               
+ ------ ------------------------------------------------------------ 
+  78     Call to deprecated method entityManager() of class Drupal.  
+  86     Call to deprecated function entity_get_form_display().      
+  94     Call to deprecated function entity_get_display().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DiscussionForm.php                        
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DiscussionTypeDeleteForm.php              
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DiscussionTypeForm.php                    
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GroupDiscussionForm.php                   
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+  72     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

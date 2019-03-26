@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dfp 2d0d5a363b876b5811830bc343ad3bb40f799e13
+source : http://cgit.drupalcode.org/dfp 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Tag.php                                   
+ ------ --------------------------------------------------- 
+  212    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/DfpTestBase.php                        
+ ------ ------------------------------------------------- 
+  122    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/DisplayTagTest.php                     
+ ------ ------------------------------------------------- 
+  30     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  206    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/View/dfp.adtest.inc                  
+ ------ ----------------------------------------- 
+  35     Calls to function kpr should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/View/TagViewTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  101    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

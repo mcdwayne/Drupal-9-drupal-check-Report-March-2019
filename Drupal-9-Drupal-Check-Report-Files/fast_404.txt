@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fast_404 db0ed5810b8efd9585965f8e72094fdb1b3ae3bf
+source : http://cgit.drupalcode.org/fast_404 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/Fast404PathTest.php             
+ ------ ----------------------------------------------------- 
+  81     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  82     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  86     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  87     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  109    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Fast404EventSubscriberTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  32     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

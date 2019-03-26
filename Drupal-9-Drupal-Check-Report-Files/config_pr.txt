@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_pr d1957ddc7d30c6e50e6c18c3d15ede0fc3f93a14
+source : http://cgit.drupalcode.org/config_pr 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/config_pr_gitlab/src/RepoControllers/GitLabApi.php           
+ ------ --------------------------------------------------------------------- 
+         Class Gitlab\Api\AbstractApi not found and could not be autoloaded.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/config_pr_gitlab/src/RepoControllers/GitLabController.php    
+ ------ --------------------------------------------------------------------- 
+         Class Gitlab\Api\AbstractApi not found and could not be autoloaded.  
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

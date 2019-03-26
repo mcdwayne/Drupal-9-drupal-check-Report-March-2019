@@ -1,0 +1,173 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_collection 5dd01f0c2e5ab92d0d5acaa8ae7d79f85141b2ba
+source : http://cgit.drupalcode.org/entity_collection 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   entity_collection.admin.inc                            
+ ------ ------------------------------------------------------- 
+  266    Call to deprecated function entity_load().             
+  381    Call to deprecated function drupal_get_destination().  
+  559    Call to deprecated function entity_load().             
+  609    Call to deprecated function drupal_render().           
+  610    Call to deprecated function drupal_render().           
+  611    Call to deprecated function drupal_render().           
+  623    Call to deprecated function drupal_render().           
+  631    Call to deprecated function drupal_render().           
+  632    Call to deprecated function drupal_render().           
+  633    Call to deprecated function drupal_render().           
+  683    Call to deprecated function drupal_render_children().  
+  797    Call to deprecated function entity_load().             
+  850    Call to deprecated function db_like().                 
+  860    Call to deprecated function entity_load().             
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   entity_collection.module                    
+ ------ -------------------------------------------- 
+  704    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   entity_collection.rules.inc                                          
+ ------ --------------------------------------------------------------------- 
+         Class EntityCollectionRulesController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   entity_collection_db/plugins/entity_collection_storage/db.inc          
+ ------ ----------------------------------------------------------------------- 
+         Class EntityCollectionStorageDB was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   entity_collection_db/plugins/entity_collection_storage/db_limit.inc  
+ ------ --------------------------------------------------------------------- 
+         Class EntityCollectionStorageLimitDB was not found while trying to   
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   includes/entity_collection.inc                                     
+ ------ ------------------------------------------------------------------- 
+         Class EntityCollection was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/entity_collection_query.inc                                
+ ------ -------------------------------------------------------------------- 
+         Class EntityCollectionQueryException was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/tree.inc                                                        
+ ------ ------------------------------------------------------------------------- 
+         Class EntityCollectionTreeNode was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/entity_collection_db_context/plugins/entity_collection_storage/db_context.inc  
+ ------ --------------------------------------------------------------------------------------- 
+         Class EntityCollectionStorageDBContext was not found while trying to                   
+         analyse it - autoloading is probably not configured properly.                          
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   plugins/content_types/entity_collection.inc            
+ ------ ------------------------------------------------------- 
+  72     Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   plugins/entity_collection_row/entity_collection_row.inc           
+ ------ ------------------------------------------------------------------ 
+         Class EntityCollectionRowInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   plugins/entity_collection_row/entity_collection_row_options.inc         
+ ------ ------------------------------------------------------------------------ 
+         Class EntityCollectionRowOptions was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   plugins/entity_collection_row/entity_collection_row_panels_mini.inc  
+ ------ --------------------------------------------------------------------- 
+         Class EntityCollectionRowPanelsMini was not found while trying to    
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   plugins/entity_collection_row/entity_collection_row_view_mode.inc        
+ ------ ------------------------------------------------------------------------- 
+         Class EntityCollectionRowViewMode was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   plugins/entity_collection_storage/entity_collection_storage.inc       
+ ------ ---------------------------------------------------------------------- 
+         Class EntityCollectionStorageInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   plugins/entity_collection_style/entity_collection_style.inc         
+ ------ -------------------------------------------------------------------- 
+         Class EntityCollectionStyleInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   plugins/entity_collection_style/entity_collection_style_flat.inc       
+ ------ ----------------------------------------------------------------------- 
+         Class EntityCollectionStyleFlat was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   plugins/entity_collection_style/entity_collection_style_grid.inc       
+ ------ ----------------------------------------------------------------------- 
+         Class EntityCollectionStyleGrid was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   plugins/entity_collection_style/entity_collection_style_hierarchy.inc  
+ ------ ----------------------------------------------------------------------- 
+         Class EntityCollectionStyleHierarchy was not found while trying to     
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   plugins/entity_collection_style/entity_collection_style_hierarchy_limited.inc  
+ ------ ------------------------------------------------------------------------------- 
+         Class EntityCollectionStyleHierarchyLimited was not found while trying         
+         to analyse it - autoloading is probably not configured properly.               
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   plugins/entity_collection_style/entity_collection_style_limit.inc       
+ ------ ------------------------------------------------------------------------ 
+         Class EntityCollectionStyleLimit was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   plugins/export_ui/entity_collection_ui.class.php                       
+ ------ ----------------------------------------------------------------------- 
+         Class entity_collection_ui was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 35 errors                                                         
+
+ </code>

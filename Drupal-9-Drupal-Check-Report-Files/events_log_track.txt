@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/events_log_track 5a3afa0714c5314ef1fc4d9b08203fee96d49628
+source : http://cgit.drupalcode.org/events_log_track 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   event_log_track_auth/event_log_track_auth.module  
+ ------ -------------------------------------------------- 
+  38     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  42     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------- 
+  Line   src/EventLogStorage.php                 
+ ------ ---------------------------------------- 
+  51     Call to deprecated function db_like().  
+  54     Call to deprecated function db_like().  
+ ------ ---------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/OverviewForm.php                                               
+ ------ ------------------------------------------------------------------- 
+  137    Call to deprecated method getUsername() of class                   
+         Drupal\userntity\User.                                           
+  137    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

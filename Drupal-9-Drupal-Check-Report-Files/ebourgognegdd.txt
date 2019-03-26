@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ebourgognegdd 8.x-1.0
+source : http://cgit.drupalcode.org/ebourgognegdd 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/EbourgogneGddConfigForm.php                                   
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupalbourgognegdd\FormbourgogneGddConfigForm.                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Block/EbourgogneGddBlock.php                                
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupalbourgognegdd\FormbourgogneGddConfigForm.                     
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

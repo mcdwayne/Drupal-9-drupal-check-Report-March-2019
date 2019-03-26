@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/devel_snippet 742e1b4055943193e57327521c66fecd10660b0a
+source : http://cgit.drupalcode.org/devel_snippet 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DevelSnippetForm.php                      
+ ------ --------------------------------------------------- 
+  48     Calls to function dpm should not exist.            
+  60     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

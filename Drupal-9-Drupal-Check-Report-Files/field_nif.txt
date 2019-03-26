@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_nif 2472a7acf0285009baff4ca97799fe6b195c83ac
+source : https://cgit.drupalcode.org/field_nif 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Element/Nif.php                              
+ ------ ------------------------------------------------- 
+  94     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/NifUtils.php                                 
+ ------ ------------------------------------------------- 
+  28     Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/NifValueValidator.php  
+ ------ -------------------------------------------------------- 
+  24     Call to deprecated method strtoupper() of class         
+         Drupal\Component\Utility\Unicode.                       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/WebformElement/Nif.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\webform\Plugin\WebformElement\TextBase not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

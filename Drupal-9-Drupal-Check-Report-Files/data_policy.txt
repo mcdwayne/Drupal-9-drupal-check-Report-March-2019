@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/data_policy 01d22fe4aa80977060f87261827752d2407e1aa9
+source : http://cgit.drupalcode.org/data_policy 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/DataPolicyRevisionEdit.php                    
+ ------ ------------------------------------------------------- 
+  42     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  73     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/InformBlockForm.php                       
+ ------ --------------------------------------------------- 
+  109    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/DataPolicyInformBlock.php       
+ ------ ------------------------------------------------- 
+  196    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

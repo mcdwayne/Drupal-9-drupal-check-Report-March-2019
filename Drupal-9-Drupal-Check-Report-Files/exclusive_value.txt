@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/exclusive_value 9611f7fc2d1849f76b226389c7d7858f98b192d7
+source : http://cgit.drupalcode.org/exclusive_value 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   exclusive_value.module                    
+ ------ ------------------------------------------ 
+  92     Call to deprecated function db_select().  
+  109    Call to deprecated function db_update().  
+  115    Call to deprecated function db_delete().  
+  124    Call to deprecated function db_update().  
+  130    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

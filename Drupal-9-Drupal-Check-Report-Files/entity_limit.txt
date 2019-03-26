@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_limit 6bc3f1fcbb522e92d4eb530713f3884212c43066
+source : http://cgit.drupalcode.org/entity_limit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EntityLimitListBuilder.php                     
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityLimitAddForm.php                    
+ ------ --------------------------------------------------- 
+  170    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  174    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  177    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityLimitDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

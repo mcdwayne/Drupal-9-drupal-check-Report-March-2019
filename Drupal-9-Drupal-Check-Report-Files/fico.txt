@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fico 5374da3f10d5a343518f6e67d323a97bf5ce2b1f
+source : http://cgit.drupalcode.org/fico 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/Condition/HideIfAuthor.php  
+ ------ ------------------------------------------------------------ 
+  62     Call to deprecated method getUsername() of class            
+         Drupal\userntity\User.                                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/FieldFormatterConditionBase.php                  
+ ------ ------------------------------------------------------------ 
+  78     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

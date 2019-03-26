@@ -1,0 +1,133 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_print 3f1738f652a0bf246b7a351c05961b76d939a00b
+source : http://cgit.drupalcode.org/entity_print 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   entity_print.module                                
+ ------ --------------------------------------------------- 
+  38     Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/entity_print_views/src/Controller/ViewPrintController.php  
+ ------ ------------------------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/entity_print_views/tests/src/Kernel/ViewsAccessTest.php         
+ ------ ------------------------------------------------------------------------ 
+  18     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Testsntity_print_views\Kernel\ViewsAccessTest.                 
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/EventSubscriber/PostRenderSubscriber.php  
+ ------ ---------------------------------------------- 
+  75     Call to deprecated method substr() of class   
+         Drupal\Component\Utility\Unicode.             
+  76     Call to deprecated method substr() of class   
+         Drupal\Component\Utility\Unicode.             
+  78     Call to deprecated method substr() of class   
+         Drupal\Component\Utility\Unicode.             
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/EventSubscriber/PrintEngineExceptionSubscriber.php  
+ ------ -------------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().  
+  238    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Action/PrintDownload.php                
+ ------ --------------------------------------------------- 
+  124    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Tests/Update/EntityPrintUpdateTest.php                            
+ ------ ---------------------------------------------------------------------- 
+  12     Class Drupalntity_print\Tests\UpdatentityPrintUpdateTest extends  
+         deprecated class Drupal\system\Tests\Update\UpdatePathTestBase.       
+  25     Call to method setUp() of deprecated class                            
+         Drupal\system\Tests\Update\UpdatePathTestBase.                        
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/Base64ImageTest.php         
+ ------ ------------------------------------------------- 
+  52     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EntityPrintAccessTest.php                               
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class   
+         Drupal\Testsntity_print\KernelntityPrintAccessTest.                  
+  19     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Testsntity_print\KernelntityPrintAccessTest.                  
+  20     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Testsntity_print\KernelntityPrintAccessTest.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ExtraFieldsTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  20     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Testsntity_print\KernelxtraFieldsTest.                        
+  21     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class   
+         Drupal\Testsntity_print\KernelxtraFieldsTest.                        
+  22     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Testsntity_print\KernelxtraFieldsTest.                  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/FilenameGeneratorTest.php                              
+ ------ ------------------------------------------------------------------------ 
+  15     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class  
+         Drupal\Testsntity_print\Kernel\FilenameGeneratorTest.                 
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/PrintBuilderTest.php                                   
+ ------ ------------------------------------------------------------------------ 
+  15     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class  
+         Drupal\Testsntity_print\Kernel\PrintBuilderTest.                      
+  37     Call to deprecated method install() of class                            
+         Drupal\Corextension\ThemeHandler.                                     
+  87     Call to deprecated method install() of class                            
+         Drupal\Corextension\ThemeHandler.                                     
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/PrintLinkTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\simpletest\BlockCreationTrait in class  
+         Drupal\Testsntity_print\Kernel\PrintLinkTest.                          
+  63     Call to deprecated method getMock() of class                             
+         Drupal\KernelTests\KernelTestBase.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/TranslationTest.php                                    
+ ------ ------------------------------------------------------------------------ 
+  17     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class  
+         Drupal\Testsntity_print\Kernel\TranslationTest.                       
+  41     Call to deprecated method install() of class                            
+         Drupal\Corextension\ThemeHandler.                                     
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 27 errors                                                         
+
+ </code>

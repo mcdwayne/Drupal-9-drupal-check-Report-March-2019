@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cmood 8.x-1.3
+source : http://cgit.drupalcode.org/cmood 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   cmood.module                                      
+ ------ -------------------------------------------------- 
+  22     Call to deprecated method url() of class Drupal.  
+  23     Call to deprecated method url() of class Drupal.  
+  26     Call to deprecated method url() of class Drupal.  
+  27     Call to deprecated method url() of class Drupal.  
+  53     Call to deprecated function db_merge().           
+  84     Call to deprecated function db_merge().           
+  130    Call to deprecated function db_select().          
+  137    Call to deprecated function db_select().          
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/CmoodController.php              
+ ------ ------------------------------------------------ 
+  74     Call to deprecated method l() of class Drupal.  
+  75     Call to deprecated method l() of class Drupal.  
+  114    Call to deprecated method l() of class Drupal.  
+  115    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Storage/CmoodStorage.php              
+ ------ ------------------------------------------ 
+  22     Call to deprecated function db_select().  
+  46     Call to deprecated function db_select().  
+  66     Call to deprecated function db_select().  
+  145    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_role_split 90f24725a01cd4a24ff99a5b834614aa9c9bf478
+source : http://cgit.drupalcode.org/config_role_split 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RoleSplitEntityDeleteForm.php             
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RoleSplitEntityForm.php                   
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

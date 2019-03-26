@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_uuid 82c812c694e0124af92fb31843d7b05ede0c78c3
+source : http://cgit.drupalcode.org/entity_reference_uuid 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   entity_reference_uuid.views.inc                             
+ ------ ------------------------------------------------------------ 
+  130    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/EntityReferenceUuidEntityViewsTrait.php (in context of class Drupalntity_reference_uuid_testntity\TestEntityTwoViewsData)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  146    Call to deprecated method entityManager() of class Drupal.                                                                         
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/EntityReferenceUuidFieldItemList.php                    
+ ------ ------------------------------------------------------------ 
+  48     Call to deprecated method entityManager() of class Drupal.  
+  86     Call to deprecated method entityManager() of class Drupal.  
+  128    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/EntityReferenceUuidItem.php      
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated method entityManager() of class Drupal.  
+  234    Call to deprecated method entityManager() of class Drupal.  
+  272    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/filter/TaxonomyIndexUuid.php               
+ ------ ------------------------------------------------------------ 
+  55     Call to deprecated method entityManager() of class Drupal.  
+  73     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/modules/entity_reference_uuid_test/src/Form/TestEntityOneForm.php  
+ ------ ------------------------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().                        
+  31     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/modules/entity_reference_uuid_test/src/Form/TestEntityTwoForm.php  
+ ------ ------------------------------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().                        
+  31     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

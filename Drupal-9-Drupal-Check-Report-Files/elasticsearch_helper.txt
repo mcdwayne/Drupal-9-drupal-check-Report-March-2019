@@ -1,0 +1,48 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/elasticsearch_helper 82f270a88c54b0e6bae7f0b7451bb13560cb5592
+source : http://cgit.drupalcode.org/elasticsearch_helper 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/elasticsearch_helper_aws/src/Form/AwsSettingsForm.php       
+ ------ -------------------------------------------------------------------- 
+         Class Drupallasticsearch_helper_aws\Form\AWSSettingsForm was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/elasticsearch_helper_content/src/Plugin/Normalizer/ElasticsearchContentNormalizer.php  
+ ------ ----------------------------------------------------------------------------------------------- 
+  281    Call to deprecated function entity_get_display().                                              
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElasticsearchHelperSettingsForm.php       
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+  88     Call to deprecated function drupal_set_message().  
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/ElasticsearchIndexBase.php              
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/EntityOpsTest.php                      
+ ------ ---------------------------------------------------------------------- 
+  13     Class                                                                 
+         Drupal\Testslasticsearch_helper\FunctionalJavascriptntityOpsTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

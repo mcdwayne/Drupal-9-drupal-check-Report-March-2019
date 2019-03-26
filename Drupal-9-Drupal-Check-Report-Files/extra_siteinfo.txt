@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/extra_siteinfo a3490af445f9e1fea671f41e1bc8e9887027242b
+source : http://cgit.drupalcode.org/extra_siteinfo 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   extra_siteinfo.drush.inc                  
+ ------ ------------------------------------------ 
+  54     Call to deprecated function db_select().  
+  70     Call to deprecated function db_select().  
+  79     Call to deprecated function db_select().  
+  90     Call to deprecated function db_select().  
+  106    Call to deprecated function db_select().  
+  115    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   extra_siteinfo.inc                                          
+ ------ ------------------------------------------------------------ 
+  17     Call to deprecated function db_select().                    
+  74     Call to deprecated method entityManager() of class Drupal.  
+  75     Call to deprecated function db_delete().                    
+  78     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   extra_siteinfo.module                     
+ ------ ------------------------------------------ 
+  250    Call to deprecated function db_select().  
+  277    Call to deprecated function db_select().  
+  281    Call to deprecated function db_select().  
+  298    Call to deprecated function db_select().  
+  303    Call to deprecated function db_select().  
+  318    Call to deprecated function db_select().  
+  332    Call to deprecated function db_select().  
+  339    Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/DefaultController.php      
+ ------ ------------------------------------------ 
+  53     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Form/ExtraSiteinfoCurrentlyLoggedinUsersPageEndSession.php  
+ ------ ---------------------------------------------------------------- 
+  29     Call to deprecated method entityManager() of class Drupal.      
+  30     Call to deprecated function db_delete().                        
+  33     Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

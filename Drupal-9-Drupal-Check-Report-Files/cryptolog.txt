@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cryptolog d8b497cfad07d1c57c089f6961e762298891520b
+source : http://cgit.drupalcode.org/cryptolog 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/CryptologTest.php               
+ ------ ----------------------------------------------------- 
+  32     Call to deprecated method assertNotEqual() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  36     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

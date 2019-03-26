@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_rental e5369322fbe70b3901f1c873729cb27e3db43252
+source : http://cgit.drupalcode.org/commerce_rental 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/commerce_rental_reservation/src/EventSubscriber/OrderEventSubscriber.php  
+ ------ ---------------------------------------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().                                 
+  101    Call to deprecated function drupal_set_message().                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/commerce_rental_reservation/src/EventSubscriber/OrderItemEventSubscriber.php  
+ ------ -------------------------------------------------------------------------------------- 
+  67     Call to deprecated function drupal_set_message().                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/commerce_rental_reservation/src/Form/RentalInstanceTypeForm.php  
+ ------ ------------------------------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().                        
+  107    Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/commerce_rental_reservation/src/Form/RentalReservationTypeForm.php  
+ ------ ---------------------------------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().                           
+  92     Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RentalPeriodForm.php                      
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RentalPeriodTypeForm.php                  
+ ------ --------------------------------------------------- 
+  133    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

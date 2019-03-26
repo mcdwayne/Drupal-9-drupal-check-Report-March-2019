@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/download_all_files 8.x-1.1
+source : http://cgit.drupalcode.org/download_all_files 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DownloadController.php              
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

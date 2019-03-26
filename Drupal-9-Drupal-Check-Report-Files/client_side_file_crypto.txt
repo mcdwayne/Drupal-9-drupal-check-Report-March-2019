@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/client_side_file_crypto 51049753e4406bba5c108722c989730a11c57c89
+source : http://cgit.drupalcode.org/client_side_file_crypto 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   client_side_file_crypto.module                              
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated function drupal_set_message().           
+  53     Call to deprecated function drupal_set_message().           
+  155    Call to deprecated method entityManager() of class Drupal.  
+  166    Call to deprecated function db_insert().                    
+  182    Call to deprecated method entityManager() of class Drupal.  
+  186    Call to deprecated function db_select().                    
+  200    Call to deprecated function db_delete().                    
+  219    Call to deprecated function db_insert().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Plugin/rest/resource/AccessKey.php    
+ ------ ------------------------------------------ 
+  94     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   src/Plugin/rest/resource/AccessKeyPending.php  
+ ------ ----------------------------------------------- 
+  94     Call to deprecated function db_select().       
+  171    Call to deprecated function db_select().       
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Plugin/rest/resource/FileMetaData.php  
+ ------ ------------------------------------------- 
+  96     Call to deprecated function db_select().   
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Plugin/rest/resource/GroupKeys.php    
+ ------ ------------------------------------------ 
+  96     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/controller/ClientSideFileCryptoController.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal

@@ -1,0 +1,113 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cloudwords 51a72d903db4c6268f20cc623432b2569ae5ca03
+source : http://cgit.drupalcode.org/cloudwords 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   cloudwords.cron.inc                                
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   cloudwords.module                           
+ ------ -------------------------------------------- 
+  1516   Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   handlers/cloudwords_handler_filter_project_user.inc                      
+ ------ ------------------------------------------------------------------------- 
+         Class cloudwords_handler_filter_project_user was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   handlers/cloudwords_handler_relationship.inc                         
+ ------ --------------------------------------------------------------------- 
+         Class cloudwords_handler_relationship was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   handlers/cloudwords_views_handler_label.inc                         
+ ------ -------------------------------------------------------------------- 
+         Class cloudwords_views_handler_label was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   includes/cloudwords.serializer.inc                                     
+ ------ ----------------------------------------------------------------------- 
+         Class CloudwordsFileformatXLIFF was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   lib/cloudwords_api.php                                          
+ ------ ---------------------------------------------------------------- 
+         Class CloudwordsAPI was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   lib/cloudwords_client.php                                          
+ ------ ------------------------------------------------------------------- 
+         Class CloudwordsClient was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/cloudwords_html_converter.inc                                     
+ ------ ---------------------------------------------------------------------- 
+         Class CloudwordsConverter was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/cloudwords_config_translation/cloudwords_config_translation.module  
+ ------ ---------------------------------------------------------------------------- 
+  54     Call to deprecated method entityManager() of class Drupal.                  
+  126    Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/cloudwords_config_translation/src/CloudwordsConfigEntitySourceController.php  
+ ------ -------------------------------------------------------------------------------------- 
+  79     Call to deprecated method url() of class                                              
+         Drupal\CorentityntityInterface.                                                   
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/cloudwords_interface_translation/cloudwords_interface_translation.module  
+ ------ ---------------------------------------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/cloudwords_translation/cloudwords_translation.module  
+ ------ -------------------------------------------------------------- 
+  456    Call to deprecated method entityManager() of class Drupal.    
+  547    Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/cloudwords_translation/cloudwords_translation.pages.inc  
+ ------ ----------------------------------------------------------------- 
+  237    Call to deprecated function drupal_set_message().                
+  247    Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cloudwords_translation/src/CloudwordsEntitySourceController.php  
+ ------ ------------------------------------------------------------------------- 
+  59     Call to deprecated method entityManager() of class Drupal.               
+  72     Call to deprecated method url() of class                                 
+         Drupal\CorentityntityInterface.                                      
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/CloudwordsApiException.php                                
+ ------ -------------------------------------------------------------- 
+         Class Drupal

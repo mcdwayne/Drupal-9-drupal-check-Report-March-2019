@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cmsship 203a355f53118ebb169cd54f36a0ce575e4684ea
+source : http://cgit.drupalcode.org/cmsship 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CmsshipController.php               
+ ------ --------------------------------------------------- 
+  50     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+  53     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

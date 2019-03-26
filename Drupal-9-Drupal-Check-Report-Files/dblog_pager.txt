@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dblog_pager 7f8962db7997312c0a82e3461e093ca8dabb5742
+source : http://cgit.drupalcode.org/dblog_pager 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DblogPagerController.php            
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function db_select().           
+  81     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

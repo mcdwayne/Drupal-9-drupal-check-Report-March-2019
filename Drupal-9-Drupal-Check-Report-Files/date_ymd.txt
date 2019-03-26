@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/date_ymd 8.x-1.0
+source : http://cgit.drupalcode.org/date_ymd 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   date_ymd.migrate.inc                                                    
+ ------ ------------------------------------------------------------------------ 
+         Class MigrateDateYMDFieldHandler was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   date_ymd.module                             
+ ------ -------------------------------------------- 
+  211    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

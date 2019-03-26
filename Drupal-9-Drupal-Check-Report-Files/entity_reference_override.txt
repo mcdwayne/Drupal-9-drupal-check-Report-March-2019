@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_override 54c428f0e1c7c468b90b696214f333c142794907
+source : http://cgit.drupalcode.org/entity_reference_override 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/FormatterTest.php                                      
+ ------ ------------------------------------------------------------------------ 
+  18     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class  
+         Drupal\Testsntity_reference_override\Kernel\FormatterTest.            
+  150    Call to deprecated function entity_get_display().                       
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

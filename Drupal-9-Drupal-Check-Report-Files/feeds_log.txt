@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feeds_log 784c7a4337b9f03b85babd47f11a3acb782a720a
+source : http://cgit.drupalcode.org/feeds_log 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   feeds_log.module                          
+ ------ ------------------------------------------ 
+  92     Call to deprecated function db_insert().  
+  101    Call to deprecated function db_delete().  
+  107    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

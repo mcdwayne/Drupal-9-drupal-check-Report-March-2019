@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_search 88520d6f1578a442c1ce12f29c45e5edcd90fa87
+source : http://cgit.drupalcode.org/custom_search 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   custom_search.pages.inc                     
+ ------ -------------------------------------------- 
+  165    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   custom_search.post_update.php                               
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/CustomSearchBlockForm.php                          
+ ------ ------------------------------------------------------------ 
+  189    Call to deprecated method entityManager() of class Drupal.  
+  202    Call to deprecated method substr() of class                 
+         Drupal\Component\Utility\Unicode.                           
+  568    Call to deprecated method substr() of class                 
+         Drupal\Component\Utility\Unicode.                           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

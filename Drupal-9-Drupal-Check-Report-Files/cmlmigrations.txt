@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cmlmigrations 778c0b4e9f2eaa2607ed0f13172c9525dc2f9099
+source : http://cgit.drupalcode.org/cmlmigrations 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   src/Controller/StatusPage.php               
+ ------ -------------------------------------------- 
+  70     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Hook/CommerceProductVariationInsert.php                 
+ ------ ------------------------------------------------------------ 
+  23     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/MigrationsSourceBase.php             
+ ------ ----------------------------------------- 
+  30     Calls to function dsm should not exist.  
+  31     Calls to function dsm should not exist.  
+  32     Calls to function dsm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Service/PipeLine.php                    
+ ------ -------------------------------------------- 
+  130    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Utility/Service.php                                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal

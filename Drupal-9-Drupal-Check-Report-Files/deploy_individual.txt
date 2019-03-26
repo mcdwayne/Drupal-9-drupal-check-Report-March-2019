@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/deploy_individual dcba82b650c0ff72878c95c9f95f31f509ad6c3a
+source : http://cgit.drupalcode.org/deploy_individual 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Form/IndividualReplicationForm.php      
+ ------ --------------------------------------------------- 
+  173    Call to deprecated function drupal_set_message().  
+  321    Call to deprecated function drupal_set_message().  
+  324    Call to deprecated function drupal_set_message().  
+  329    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IndividualPullForm.php                    
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function drupal_set_message().  
+  189    Call to deprecated function drupal_set_message().  
+  192    Call to deprecated function drupal_set_message().  
+  197    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/IndividualPushConfirm.php                 
+ ------ --------------------------------------------------- 
+  306    Call to deprecated function drupal_set_message().  
+  309    Call to deprecated function drupal_set_message().  
+  314    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

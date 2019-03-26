@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dynamic_layouts 279d64272c9119152a3c4522402d8cfc1926d241
+source : http://cgit.drupalcode.org/dynamic_layouts 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/DynamicLayoutListBuilder.php                   
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DynamicLayoutDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DynamicLayoutForm.php                     
+ ------ --------------------------------------------------- 
+  452    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  143    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  228    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

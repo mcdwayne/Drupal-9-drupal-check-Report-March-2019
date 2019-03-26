@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_payway d4d6abf8e5b153d1d60b1436a255166da1c88669
+source : http://cgit.drupalcode.org/commerce_payway 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/PayWay.php  
+ ------ -------------------------------------------------- 
+  33     Call to method create() of deprecated class       
+         Drupal\Core\Field\BaseFieldDefinition.            
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

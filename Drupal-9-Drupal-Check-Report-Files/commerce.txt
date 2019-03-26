@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce d08050c892f023b6820e3ef10e9fb54054139a57
+source : http://cgit.drupalcode.org/commerce 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/price/src/CommercePriceServiceProvider.php                      
+ ------ ------------------------------------------------------------------------ 
+  20     Class Drupal\physical\NumberFormatterInterface not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/product/src/Plugin/PanelizerEntity/PanelizerProduct.php        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\panelizer\Plugin\PanelizerEntityBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

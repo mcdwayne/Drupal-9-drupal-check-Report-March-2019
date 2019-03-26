@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ext_redirect 4b6b7d5c6c6489a6e54e9efb62c187253ea643ae
+source : http://cgit.drupalcode.org/ext_redirect 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/ext_redirect_sort/src/Plugin/views/field/WeightViewsField.php  
+ ------ ----------------------------------------------------------------------- 
+  19     Class Drupalxt_redirect_sort\Pluginiewsield\WeightViewsField     
+         extends deprecated class Drupal\system\Pluginiewsield\BulkForm.    
+  39     Call to method defineOptions() of deprecated class                     
+         Drupaliews\Pluginiewsield\BulkForm.                              
+  49     Call to method buildOptionsForm() of deprecated class                  
+         Drupaliews\Pluginiewsield\BulkForm.                              
+  117    Call to deprecated function drupal_set_message().                      
+  120    Call to deprecated function drupal_set_message().                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RedirectRuleForm.php                      
+ ------ --------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/RedirectRuleHelper.php                         
+ ------ --------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,123 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/competition 9da86dc9535502849e19df0f66afd55aaa3078d2
+source : http://cgit.drupalcode.org/competition 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   competition.module                              
+ ------ ------------------------------------------------ 
+  76     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/competition_voting/competition_voting.module  
+ ------ ------------------------------------------------------ 
+  286    Call to deprecated function drupal_set_message().     
+  294    Call to deprecated function drupal_set_message().     
+  329    Call to deprecated function drupal_set_message().     
+  332    Call to deprecated function drupal_set_message().     
+  341    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/competition_voting/src/CompetitionVoting.php  
+ ------ ------------------------------------------------------ 
+  348    Call to deprecated function drupal_set_message().     
+  440    Call to deprecated function drupal_set_message().     
+  450    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/competition_voting/src/Controller/CompetitionVotingController.php  
+ ------ --------------------------------------------------------------------------- 
+  129    Call to deprecated method entityManager() of class                         
+         Drupal\Core\Controller\ControllerBase.                                     
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/competition_voting/src/Form/CompetitionEntryVoteForm.php  
+ ------ ------------------------------------------------------------------ 
+  142    Call to deprecated function drupal_set_message().                 
+  147    Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/CompetitionJudgingSetup.php                    
+ ------ --------------------------------------------------- 
+  230    Call to deprecated function drupal_set_message().  
+  365    Call to deprecated function drupal_set_message().  
+  380    Call to deprecated function drupal_set_message().  
+  533    Call to deprecated function drupal_set_message().  
+  536    Call to deprecated function drupal_set_message().  
+  673    Call to deprecated function drupal_set_message().  
+  684    Call to deprecated function drupal_set_message().  
+  695    Call to deprecated function drupal_set_message().  
+  721    Call to deprecated function drupal_set_message().  
+  841    Call to deprecated function drupal_set_message().  
+  849    Call to deprecated function drupal_set_message().  
+  858    Call to deprecated function drupal_set_message().  
+  1413   Call to deprecated function drupal_set_message().  
+  1422   Call to deprecated function drupal_set_message().  
+  1430   Call to deprecated function drupal_set_message().  
+  1437   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/CompetitionManager.php                         
+ ------ --------------------------------------------------- 
+  342    Call to deprecated function drupal_set_message().  
+  347    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/CompetitionReporter.php                        
+ ------ --------------------------------------------------- 
+  2496   Call to deprecated function drupal_set_message().  
+  2855   Call to deprecated function drupal_set_message().  
+  3054   Call to deprecated function drupal_set_message().  
+  3113   Call to deprecated function drupal_set_message().  
+  3163   Call to deprecated function drupal_set_message().  
+  3184   Call to deprecated function drupal_set_message().  
+  3197   Call to deprecated function drupal_set_message().  
+  3228   Call to deprecated function drupal_set_message().  
+  3249   Call to deprecated function drupal_set_message().  
+  3262   Call to deprecated function drupal_set_message().  
+  3294   Call to deprecated function drupal_set_message().  
+  3306   Call to deprecated function drupal_set_message().  
+  3329   Call to deprecated function drupal_set_message().  
+  3624   Call to deprecated function drupal_set_message().  
+  3802   Call to deprecated function drupal_set_message().  
+  4226   Call to deprecated function drupal_set_message().  
+  4230   Call to deprecated function drupal_set_message().  
+  4234   Call to deprecated function drupal_set_message().  
+  4255   Call to deprecated function drupal_set_message().  
+  4264   Call to deprecated function drupal_set_message().  
+  4284   Call to deprecated function drupal_set_message().  
+  4296   Call to deprecated function drupal_set_message().  
+  4315   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CompetitionEntryController.php      
+ ------ --------------------------------------------------- 
+  177    Call to deprecated function drupal_set_message().  
+  181    Call to deprecated function drupal_set_message().  
+  262    Call to deprecated function drupal_set_message().  
+  275    Call to deprecated function drupal_set_message().  
+  278    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  286    Call to deprecated function drupal_set_message().  
+  356    Call to deprecated function drupal_set_message().  
+  700    Call to deprecated function drupal_realpath().     
+  793    Call to deprecated function drupal_set_message().  
+  823    Call to deprecated function drupal_set_message().  
+  842    Call to deprecated function drupal_set_message().  
+  852    Call to deprecated function drupal_set_message().  
+  864    Call to deprecated function drupal_set_message().  
+  905    Call to deprecated function drupal_set_message().  
+  914    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------- 
+  Line   src/Entity/CompetitionEntryJudgingTrait.php (in context of class Drupal

@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_marketplace 680d2d334737ebcd88ff3145d5bb4fdd59c65ce4
+source : http://cgit.drupalcode.org/commerce_marketplace 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   commerce_marketplace.module                                 
+ ------ ------------------------------------------------------------ 
+  126    Call to deprecated method entityManager() of class Drupal.  
+  150    Call to deprecated method entityManager() of class Drupal.  
+  159    Call to deprecated method entityManager() of class Drupal.  
+  167    Call to deprecated method entityManager() of class Drupal.  
+  180    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/MarketplaceProductForm.php                    
+ ------ ------------------------------------------------------- 
+  18     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  24     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/MarketplaceEntityPermissionProvider.php                            
+ ------ ----------------------------------------------------------------------- 
+  12     Class Drupal

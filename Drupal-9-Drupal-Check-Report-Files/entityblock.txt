@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entityblock 462104cbbc28edb648fbade1c2479269b69eae46
+source : http://cgit.drupalcode.org/entityblock 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/EntityBlockBlock.php            
+ ------ ------------------------------------------------- 
+  139    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/EntityBlockFieldTest.php               
+ ------ ------------------------------------------------- 
+  56     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/EntityBlockFieldUITest.php             
+ ------ ------------------------------------------------- 
+  56     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

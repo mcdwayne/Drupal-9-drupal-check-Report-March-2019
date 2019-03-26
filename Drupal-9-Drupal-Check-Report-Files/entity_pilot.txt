@@ -1,0 +1,630 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_pilot 69ccbcf880e03195b4608235e5a75ad0f6423bf5
+source : http://cgit.drupalcode.org/entity_pilot 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   entity_pilot.module                                         
+ ------ ------------------------------------------------------------ 
+  60     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/entity_pilot_map_config/src/BundleMappingListBuilder.php  
+ ------ ------------------------------------------------------------------ 
+  26     Call to deprecated method getLabel() of class                     
+         Drupal\CorentityntityListBuilder.                             
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/entity_pilot_map_config/src/FieldMappingListBuilder.php  
+ ------ ----------------------------------------------------------------- 
+  26     Call to deprecated method getLabel() of class                    
+         Drupal\CorentityntityListBuilder.                            
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/entity_pilot_map_config/src/Form/BundleMappingDeleteForm.php  
+ ------ ---------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/entity_pilot_map_config/src/Form/BundleMappingForm.php  
+ ------ ---------------------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().               
+  142    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/entity_pilot_map_config/src/Form/FieldMappingDeleteForm.php  
+ ------ --------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/entity_pilot_map_config/src/Form/FieldMappingForm.php  
+ ------ --------------------------------------------------------------- 
+  152    Call to deprecated function drupal_set_message().              
+  158    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/entity_pilot_map_config/tests/src/Functional/BundleMappingUITest.php  
+ ------ ------------------------------------------------------------------------------ 
+  99     Call to deprecated method assertResponse() of class                           
+         Drupal\Tests\BrowserTestBase.                                                 
+  105    Call to deprecated method assertResponse() of class                           
+         Drupal\Tests\BrowserTestBase.                                                 
+  115    Call to deprecated method assertLink() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  117    Call to deprecated method assertUrl() of class                                
+         Drupal\Tests\BrowserTestBase.                                                 
+  118    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  120    Call to deprecated method assertFieldByName() of class                        
+         Drupal\Tests\BrowserTestBase.                                                 
+  121    Call to deprecated method assertFieldByName() of class                        
+         Drupal\Tests\BrowserTestBase.                                                 
+  125    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  127    Call to deprecated method assertFieldByName() of class                        
+         Drupal\Tests\BrowserTestBase.                                                 
+  132    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  134    Call to deprecated method assertFieldByName() of class                        
+         Drupal\Tests\BrowserTestBase.                                                 
+  137    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  139    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/entity_pilot_map_config/tests/src/Functional/EntityPilotMapConfigUITest.php  
+ ------ ------------------------------------------------------------------------------------- 
+  73     Call to deprecated method assertRaw() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                        
+  82     Call to deprecated method assertRaw() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                        
+  140    Call to deprecated method assertFieldByName() of class                               
+         Drupal\Tests\BrowserTestBase.                                                        
+  141    Call to deprecated method assertFieldByName() of class                               
+         Drupal\Tests\BrowserTestBase.                                                        
+  142    Call to deprecated method assertOption() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  143    Call to deprecated method assertOption() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  144    Call to deprecated method assertNoOption() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  146    Call to deprecated method assertNoFieldByName() of class                             
+         Drupal\Tests\BrowserTestBase.                                                        
+  162    Call to deprecated method assertUrl() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                        
+  164    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  165    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  183    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/entity_pilot_map_config/tests/src/Functional/FieldMappingUITest.php  
+ ------ ----------------------------------------------------------------------------- 
+  99     Call to deprecated method assertResponse() of class                          
+         Drupal\Tests\BrowserTestBase.                                                
+  105    Call to deprecated method assertResponse() of class                          
+         Drupal\Tests\BrowserTestBase.                                                
+  115    Call to deprecated method assertLink() of class                              
+         Drupal\Tests\BrowserTestBase.                                                
+  117    Call to deprecated method assertUrl() of class                               
+         Drupal\Tests\BrowserTestBase.                                                
+  118    Call to deprecated method assertText() of class                              
+         Drupal\Tests\BrowserTestBase.                                                
+  120    Call to deprecated method assertFieldByName() of class                       
+         Drupal\Tests\BrowserTestBase.                                                
+  121    Call to deprecated method assertFieldByName() of class                       
+         Drupal\Tests\BrowserTestBase.                                                
+  125    Call to deprecated method assertText() of class                              
+         Drupal\Tests\BrowserTestBase.                                                
+  127    Call to deprecated method assertFieldByName() of class                       
+         Drupal\Tests\BrowserTestBase.                                                
+  132    Call to deprecated method assertText() of class                              
+         Drupal\Tests\BrowserTestBase.                                                
+  134    Call to deprecated method assertFieldByName() of class                       
+         Drupal\Tests\BrowserTestBase.                                                
+  137    Call to deprecated method assertText() of class                              
+         Drupal\Tests\BrowserTestBase.                                                
+  139    Call to deprecated method assertText() of class                              
+         Drupal\Tests\BrowserTestBase.                                                
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/AirTrafficControl.php                                           
+ ------ -------------------------------------------------------------------- 
+  20     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupalntity_pilot\AirTrafficControl.                        
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Batch/AirTrafficController.php                          
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated function drupal_set_message().           
+  47     Call to deprecated function drupal_set_message().           
+  50     Call to deprecated function drupal_set_message().           
+  78     Call to deprecated function drupal_set_message().           
+  81     Call to deprecated function drupal_set_message().           
+  115    Call to deprecated method entityManager() of class Drupal.  
+  116    Call to deprecated function drupal_set_message().           
+  127    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Batch/CustomsOfficer.php                       
+ ------ --------------------------------------------------- 
+  60     Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  60     Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+  87     Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ArrivalController.php                
+ ------ ---------------------------------------------------- 
+  51     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  78     Call to deprecated method url() of class            
+         Drupal\Core\Controller\ControllerBase.              
+  95     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  137    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  137    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  137    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  151    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  166    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  181    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/DepartureController.php              
+ ------ ---------------------------------------------------- 
+  24     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  51     Call to deprecated method url() of class            
+         Drupal\Core\Controller\ControllerBase.              
+  68     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  110    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  110    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  110    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  124    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  139    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  154    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Form/AccountForm.php                   
+ ------ ------------------------------------------- 
+  187    Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/ArrivalApproveForm.php                   
+ ------ -------------------------------------------------- 
+  101    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  115    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  129    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/ArrivalForm.php                          
+ ------ -------------------------------------------------- 
+  174    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/ArrivalQueueForm.php                          
+ ------ ------------------------------------------------------- 
+  55     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  74     Call to deprecated method getUsername() of class       
+         Drupal\Core\Session\AccountInterface.                  
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/DepartureApproveForm.php                 
+ ------ -------------------------------------------------- 
+  131    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  145    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  159    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/DepartureForm.php                        
+ ------ -------------------------------------------------- 
+  183    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/DepartureQueueForm.php                        
+ ------ ------------------------------------------------------- 
+  55     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  76     Call to deprecated method getUsername() of class       
+         Drupal\Core\Session\AccountInterface.                  
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Customs)  
+ ------ -------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                               
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Form\AccountDeleteForm)  
+ ------ ----------------------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                                              
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Form\AccountForm)  
+ ------ ----------------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                                        
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Form\ArrivalForm)  
+ ------ ----------------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                                        
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Form\ArrivalQueueForm)  
+ ------ ---------------------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                                             
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Form\DepartureForm)  
+ ------ ------------------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                                          
+ ------ ------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Form\DepartureQueueForm)  
+ ------ ------------------------------------------------------------------------------------------------ 
+  15     Call to deprecated function drupal_set_message().                                               
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Form\FlightDeleteFormBase)  
+ ------ -------------------------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                                                 
+ ------ -------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/LegacyMessagingTrait.php (in context of class Drupalntity_pilot\Plugin\Field\FieldWidget\ApprovedPassengersSelect)  
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().                                                                         
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/ListBuilders/AccountListBuilder.php          
+ ------ ------------------------------------------------- 
+  42     Call to deprecated method link() of class        
+         Drupal\CorentityntityInterface.              
+  43     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  43     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/ListBuilders/ArrivalListBuilder.php        
+ ------ ----------------------------------------------- 
+  38     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/ListBuilders/DepartureListBuilder.php      
+ ------ ----------------------------------------------- 
+  38     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Normalizer/FileEntityNormalizer.php        
+ ------ ----------------------------------------------- 
+  44     Call to deprecated function drupal_dirname().  
+  50     Call to deprecated method format() of class    
+         Drupal\Component\Utility\SafeMarkup.           
+  50     Call to method format() of deprecated class    
+         Drupal\Component\Utility\SafeMarkup.           
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/AccountTest.php                        
+ ------ ------------------------------------------------------------ 
+  49     Call to deprecated function entity_load().                  
+  64     Call to deprecated function entity_load().                  
+  77     Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  85     Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  103    Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  107    Call to deprecated method assertNoText() of class           
+         Drupal\Tests\BrowserTestBase.                               
+  113    Call to deprecated method assertRaw() of class              
+         Drupal\Tests\BrowserTestBase.                               
+  117    Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  119    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/ArrivalTestBase.php                                 
+ ------ ------------------------------------------------------------------------- 
+  85     Call to deprecated method assertUrl() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  86     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  87     Call to deprecated method assertTitle() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  88     Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  89     Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  90     Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  91     Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  92     Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  93     Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  94     Call to deprecated method assertLink() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  95     Call to deprecated method assertLink() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  99     Call to deprecated method assertTitle() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  100    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  101    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  107    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  108    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  109    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  110    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  132    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  141    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  165    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  192    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  197    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  209    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  216    Call to deprecated method assertNoField() of class                       
+         Drupal\Tests\BrowserTestBase.                                            
+  224    Call to deprecated method assertNoField() of class                       
+         Drupal\Tests\BrowserTestBase.                                            
+  226    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  227    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  228    Call to deprecated method assertLink() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  234    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  253    Call to deprecated method assertRaw() of class                           
+         Drupal\Tests\BrowserTestBase.                                            
+  258    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  263    Call to deprecated method assertEqual() of class                         
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/ArrivalsApproveAndLandTest.php  
+ ------ ----------------------------------------------------- 
+  62     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  74     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  75     Call to deprecated method assertNoLink() of class    
+         Drupal\Tests\BrowserTestBase.                        
+  76     Call to deprecated method assertNoLink() of class    
+         Drupal\Tests\BrowserTestBase.                        
+  77     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  94     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  104    Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  113    Call to deprecated method assertUrl() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  120    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  123    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/ArrivalsApproveAndQueueTest.php        
+ ------ ------------------------------------------------------------ 
+  46     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  47     Call to deprecated method assertLink() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  48     Call to deprecated method assertNoLink() of class           
+         Drupal\Tests\BrowserTestBase.                               
+  50     Call to deprecated method entityManager() of class Drupal.  
+  55     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+  56     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+  60     Call to deprecated method entityManager() of class Drupal.  
+  64     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+  65     Call to deprecated method assertNoLink() of class           
+         Drupal\Tests\BrowserTestBase.                               
+  66     Call to deprecated method assertNoLink() of class           
+         Drupal\Tests\BrowserTestBase.                               
+  67     Call to deprecated method assertLink() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  71     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+  75     Call to deprecated method assertEqual() of class            
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/src/Functional/DepartureTest.php                             
+ ------ ------------------------------------------------------------------- 
+  53     Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  58     Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  66     Call to deprecated method assertField() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  74     Call to deprecated method assertNoField() of class                 
+         Drupal\Tests\BrowserTestBase.                                      
+  76     Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  77     Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  78     Call to deprecated method assertLink() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  83     Call to deprecated method assertRaw() of class                     
+         Drupal\Tests\BrowserTestBase.                                      
+  84     Call to deprecated method assertField() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  85     Call to deprecated method assertField() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  88     Call to deprecated function entity_create().                       
+  92     Call to deprecated function entity_create().                       
+  114    Call to deprecated method assertRaw() of class                     
+         Drupal\Tests\BrowserTestBase.                                      
+  119    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  121    Call to deprecated function entity_load_multiple_by_properties().  
+  124    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  126    Call to deprecated method assertUrl() of class                     
+         Drupal\Tests\BrowserTestBase.                                      
+  128    Call to deprecated method assertTitle() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  129    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  130    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  131    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  133    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  134    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  135    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  136    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  148    Call to deprecated method assertTitle() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  150    Call to deprecated method entityManager() of class Drupal.         
+  153    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  154    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  159    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  165    Call to deprecated method assertUrl() of class                     
+         Drupal\Tests\BrowserTestBase.                                      
+  166    Call to deprecated method assertNoLink() of class                  
+         Drupal\Tests\BrowserTestBase.                                      
+  170    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  174    Call to deprecated method entityManager() of class Drupal.         
+  177    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  178    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  179    Call to deprecated method getUsername() of class                   
+         Drupal\Core\Session\AccountInterface.                              
+  182    Call to deprecated method assertNoLink() of class                  
+         Drupal\Tests\BrowserTestBase.                                      
+  183    Call to deprecated method assertNoLink() of class                  
+         Drupal\Tests\BrowserTestBase.                                      
+  184    Call to deprecated method assertLink() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  188    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  196    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  198    Call to deprecated method entityManager() of class Drupal.         
+  201    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  209    Call to deprecated method entityManager() of class Drupal.         
+  236    Call to deprecated method assertRaw() of class                     
+         Drupal\Tests\BrowserTestBase.                                      
+  244    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  251    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  258    Call to deprecated method assertText() of class                    
+         Drupal\Tests\BrowserTestBase.                                      
+  262    Call to deprecated method assertUrl() of class                     
+         Drupal\Tests\BrowserTestBase.                                      
+  263    Call to deprecated method assertNoLink() of class                  
+         Drupal\Tests\BrowserTestBase.                                      
+  264    Call to deprecated function entity_load_multiple_by_properties().  
+  267    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+  270    Call to deprecated method assertEqual() of class                   
+         Drupal\Tests\BrowserTestBase.                                      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/UserExistsByNameTest.php                   
+ ------ ------------------------------------------------------------ 
+  61     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 230 errors                                                        
+
+ </code>

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_access_audit a7afd9852f749e9ad02f2de58818a5aff804cbee
+source : http://cgit.drupalcode.org/entity_access_audit 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/AuditReportTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  14     Class Drupal\local_testing\LocalTestingTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Unit/AccessAuditResultTest.php                              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Testsntity_access_audit\AccessAuditResultTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

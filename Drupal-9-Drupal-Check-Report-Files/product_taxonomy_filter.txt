@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/product_taxonomy_filter 442a34c85a9ef978938c4bb1970fb3aa3d6c30f8
+source : http://cgit.drupalcode.org/product_taxonomy_filter 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/views/argument/IndexTidProductDepth.php  
+ ------ ---------------------------------------------------- 
+  95     Call to deprecated function db_select().            
+  97     Call to deprecated function db_or().                
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/views/filter/TaxonomyIndexProductTidDepth.php  
+ ------ ---------------------------------------------------------- 
+  89     Call to deprecated function db_select().                  
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

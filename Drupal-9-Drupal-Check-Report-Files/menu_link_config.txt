@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/menu_link_config 535353615b2488624b2eee95077f92fac0365723
+source : http://cgit.drupalcode.org/menu_link_config 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/MenuController.php                           
+ ------ ------------------------------------------------------------ 
+  25     Call to deprecated method entityManager() of class          
+         Drupal\Core\Controller\ControllerBase.                      
+  35     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/MenuLinkConfig.php                               
+ ------ ------------------------------------------------------------ 
+  162    Call to deprecated method entityManager() of class          
+         Drupal\Corentityntity.                                  
+  180    Call to deprecated method entityManager() of class          
+         Drupal\Corentityntity.                                  
+  211    Call to deprecated method entityManager() of class Drupal.  
+  230    Call to deprecated method entityManager() of class          
+         Drupal\Corentityntity.                                  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Menu/Form/MenuLinkConfigForm.php        
+ ------ --------------------------------------------------- 
+  312    Call to deprecated function drupal_set_message().  
+  329    Call to deprecated function drupal_set_message().  
+  336    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Plugin/Menu/MenuLinkConfig.php            
+ ------ ---------------------------------------------- 
+  131    Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

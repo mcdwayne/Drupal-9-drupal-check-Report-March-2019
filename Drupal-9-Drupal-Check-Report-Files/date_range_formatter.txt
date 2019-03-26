@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/date_range_formatter ca28e69d405c75c3b713d5c14aa7976385f84820
+source : http://cgit.drupalcode.org/date_range_formatter 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/DateRangeFormatterRangeFormatter.php  
+ ------ ---------------------------------------------------------------------- 
+  67     Call to deprecated function format_date().                            
+  71     Call to deprecated function format_date().                            
+  78     Call to deprecated function format_date().                            
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

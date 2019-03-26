@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_paytrail bfd575e433469d8598bc51c5887ae4733ab14c19
+source : http://cgit.drupalcode.org/commerce_paytrail 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FormManagerTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  296    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  296    Fetching class constant class of deprecated class                        
+         Drupal\CorentityntityManagerInterface.                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ResponseTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

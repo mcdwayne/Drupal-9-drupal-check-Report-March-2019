@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/comparison_builder dd98e750907db8994d8e603716791235e74a48b4
+source : http://cgit.drupalcode.org/comparison_builder 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/ComparisonPlan.php                           
+ ------ ------------------------------------------------------------ 
+  30     Call to deprecated function db_query().                     
+  52     Call to deprecated method entityManager() of class Drupal.  
+  86     Call to deprecated function db_query().                     
+  98     Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Block/TestBlock.php                              
+ ------ ------------------------------------------------------------ 
+  72     Call to deprecated method entityManager() of class Drupal.  
+  88     Call to deprecated function db_query().                     
+  140    Call to deprecated method entityManager() of class Drupal.  
+  175    Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Plugin/Derivative/TestBlock.php      
+ ------ ----------------------------------------- 
+  45     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_staging 05b7ea88dd058c19deb8bca45229fb52f55ea939
+source : http://cgit.drupalcode.org/entity_staging 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EntityStagingExport.php                        
+ ------ --------------------------------------------------- 
+  185    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/EntityStagingImport.php                        
+ ------ --------------------------------------------------- 
+  146    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/process/EntityStagingIterator.php                
+ ------ -------------------------------------------------------------------- 
+  19     Class                                                               
+         Drupalntity_staging\Plugin\migrate\processntityStagingIterator  
+         extends deprecated class                                            
+         Drupal\migrate\Plugin\migrate\process\Iterator.                     
+  31     Call to method transform() of deprecated class                      
+         Drupal\migrate\Plugin\migrate\process\SubProcess.                   
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

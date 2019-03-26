@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_adyen f89017c700babf8fa2e7b9fcd0db2a19e6b1abff
+source : http://cgit.drupalcode.org/commerce_adyen 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Adyen/Capture.php                                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Commerce\Utils\Transaction not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Adyen/Modification.php                                               
+ ------ ------------------------------------------------------------------------- 
+         Class Commerce\Utils\Transaction not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Adyen/Refund.php                                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Commerce\Utils\Transaction not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Adyen/Transaction/Payment.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Commerce\Utils\Transaction not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Adyen/Transaction/Refund.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupal

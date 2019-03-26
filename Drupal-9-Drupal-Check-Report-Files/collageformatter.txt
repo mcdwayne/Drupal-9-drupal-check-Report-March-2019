@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/collageformatter 993bd6e803544880ec9fc173dd13c520cf2e5e5a
+source : http://cgit.drupalcode.org/collageformatter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   collageformatter.module                            
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/CollageFormatter.php  
+ ------ ------------------------------------------------------ 
+  390    Call to deprecated method urlInfo() of class          
+         Drupal\CorentityntityInterface.                   
+ ------ ------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/ImageEffect/CollageFormatterImageEffect.php  
+ ------ -------------------------------------------------------- 
+  31     Call to deprecated method strpos() of class             
+         Drupal\Component\Utility\Unicode.                       
+  32     Call to deprecated method strpos() of class             
+         Drupal\Component\Utility\Unicode.                       
+  33     Call to deprecated method strpos() of class             
+         Drupal\Component\Utility\Unicode.                       
+  40     Call to deprecated method strpos() of class             
+         Drupal\Component\Utility\Unicode.                       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_log 8.x-1.0-alpha2
+source : http://cgit.drupalcode.org/entity_log 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/EntityLogListBuilder.php                                         
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalntity_logntityLogListBuilder.                        
+  34     Call to deprecated method l() of class                               
+         Drupalntity_logntityLogListBuilder.                              
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityLogForm.php                         
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

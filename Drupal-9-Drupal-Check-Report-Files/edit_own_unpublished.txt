@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/edit_own_unpublished 2ca83c6973c4e8936d8c475e30004c8523de4a95
+source : http://cgit.drupalcode.org/edit_own_unpublished 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   edit_own_unpublished.module                        
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/EditOwnUnpublishedPermissions.php     
+ ------ ------------------------------------------ 
+  52     Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

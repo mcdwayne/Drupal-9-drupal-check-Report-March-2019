@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_encrypt 706b464a852eec9b67b6ce2c023426ee741a4674
+source : http://cgit.drupalcode.org/field_encrypt 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/ConfigSubscriber.php           
+ ------ --------------------------------------------------- 
+  163    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldEncryptUpdateForm.php                
+ ------ --------------------------------------------------- 
+  171    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/FieldEncryptTestBase.php                      
+ ------ -------------------------------------------------------- 
+  158    Call to deprecated function entity_get_form_display().  
+  161    Call to deprecated function entity_get_display().       
+  180    Call to deprecated function entity_get_form_display().  
+  183    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FieldEncryptProcessEntitiesTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  162    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

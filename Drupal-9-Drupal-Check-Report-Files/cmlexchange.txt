@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cmlexchange cd86195b0cb669ced424aa8edfe7c341b7dc422a
+source : http://cgit.drupalcode.org/cmlexchange 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/OrdersDebug.php                     
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function format_date().         
+  20     Call to deprecated function drupal_set_message().  
+  22     Calls to function dsm should not exist.            
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Service/CheckAuth.php                   
+ ------ -------------------------------------------- 
+  264    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Service/FileService.php                                        
+ ------ ------------------------------------------------------------------- 
+  178    Call to deprecated function entity_load_multiple_by_properties().  
+  193    Call to deprecated function format_date().                         
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Service/ImportPipeline.php                                     
+ ------ ------------------------------------------------------------------- 
+  227    Call to deprecated function entity_load_multiple_by_properties().  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Service/Orders.php                                      
+ ------ ------------------------------------------------------------ 
+  67     Call to deprecated method entityManager() of class Drupal.  
+  93     Call to deprecated function format_date().                  
+  106    Call to deprecated function format_date().                  
+  107    Call to deprecated function format_date().                  
+  122    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

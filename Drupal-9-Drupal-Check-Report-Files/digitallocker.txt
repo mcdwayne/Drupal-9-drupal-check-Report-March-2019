@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/digitallocker 9e178f2fe988c837bc0d2e81943e5c043c317f64
+source : http://cgit.drupalcode.org/digitallocker 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   digitallocker_issuer/src/Form/DigitalLockerEntityTypeSettings.php  
+ ------ ------------------------------------------------------------------- 
+  56     Call to deprecated method entityManager() of class Drupal.         
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   digitallocker_issuer/src/PushApi.php                        
+ ------ ------------------------------------------------------------ 
+  76     Call to deprecated function drupal_set_message().           
+  92     Call to deprecated method entityManager() of class Drupal.  
+  142    Call to deprecated function drupal_set_message().           
+  146    Call to deprecated function drupal_set_message().           
+  149    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   digitallocker_requester/src/Plugin/Field/FieldWidget/DigitalLockerFileWidget.php  
+ ------ ---------------------------------------------------------------------------------- 
+         Class                                                                             
+         Drupal\Digitallocker_requester\Plugin\Field\FieldWidget\DigitalLockerFi           
+         leWidget was not found while trying to analyse it - autoloading is                
+         probably not configured properly.                                                 
+ ------ ---------------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

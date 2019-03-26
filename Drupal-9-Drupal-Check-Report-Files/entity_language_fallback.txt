@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_language_fallback 710d6281e8186d57f1ddf1e3645b44df5f1e6b86
+source : http://cgit.drupalcode.org/entity_language_fallback 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   entity_language_fallback.module                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\search_api\Plugin\search_api\datasource\ContentEntity not  
+         found and could not be autoloaded.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/search_api/datasource/ContentEntityFallback.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\search_api\Plugin\search_api\datasource\ContentEntity not  
+         found and could not be autoloaded.                                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/datasource/ContentEntityFallbackDeriver.php        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\search_api\Plugin\search_api\datasource\ContentEntityDeriver not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/processor/FallbackLanguage.php                 
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\search_api\Processor\ProcessorPluginBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

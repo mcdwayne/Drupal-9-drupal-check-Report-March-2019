@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/domain_simple_sitemap f905dd719d32fe115225c3eed6d44cdf81e72002
+source : http://cgit.drupalcode.org/domain_simple_sitemap 
+ 
+ <code> 
+Warning: Declaration of Drupal\domain_simple_sitemap\Controller\DomainSimpleSitemapController::getSitemap($chunk_id = NULL) should be compatible with Drupal\simple_sitemap\Controller\SimplesitemapController::getSitemap(Symfony\Component\HttpFoundation\Request $request, $variant = NULL) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/domain_simple_sitemap/src/Controller/DomainSimpleSitemapController.php on line 20
+
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Batch.php                                                 
+ ------ -------------------------------------------------------------- 
+         Class Drupal\simple_sitemap\Batch not found and could not be  
+         autoloaded.                                                   
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/DomainSimpleSitemapGenerator.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\simple_sitemap\SitemapGenerator not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/EntityUrlTest.php           
+ ------ ------------------------------------------------- 
+  91     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

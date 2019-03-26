@@ -1,0 +1,89 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/evergreen_node 885c57c3b1011d2fac64a784b2adac24dc507d12
+source : http://cgit.drupalcode.org/evergreen_node 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/evergreen/Evergreen/Node.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupalvergreen_node\Pluginvergreenvergreen\Node was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/NodeEvergreenContent.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalvergreen_node\Pluginiewsield\NodeEvergreenContent was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/NodeEvergreenExpired.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalvergreen_node\Pluginiewsield\NodeEvergreenExpired was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/NodeExpiration.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalvergreen_node\Pluginiewsield\NodeExpiration was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/views/field/NodeIsEvergreen.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalvergreen_node\Pluginiewsield\NodeIsEvergreen was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/views/filter/NodeEvergreenEnabled.php                        
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalvergreen_node\Pluginiewsilter\NodeEvergreenEnabled    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/views/filter/NodeExpired.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupalvergreen_node\Pluginiewsilter\NodeExpired was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/filter/NodeIsEvergreen.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalvergreen_node\Pluginiewsilter\NodeIsEvergreen was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EvergreenNodeTest.php                              
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\Testsvergreen_node\KernelvergreenNodeTest was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/NodeIsEvergreenViewsFilterTest.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Testsvergreen_node\Kernel\NodeIsEvergreenViewsFilterTest  
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

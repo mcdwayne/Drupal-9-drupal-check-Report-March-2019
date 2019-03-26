@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_table_creation 047c60be35e487ff45ae224afd18db545382f100
+source : http://cgit.drupalcode.org/custom_table_creation 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/CustomtableController.php        
+ ------ ------------------------------------------------ 
+  17     Call to deprecated method l() of class Drupal.  
+  20     Call to deprecated function db_select().        
+  27     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/TableCreationForm.php            
+ ------ ------------------------------------------ 
+  202    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

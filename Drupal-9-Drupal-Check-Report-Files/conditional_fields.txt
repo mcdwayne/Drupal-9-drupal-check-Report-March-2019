@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/conditional_fields 816e14704c8ce9f04ccf334470e064d961e63ba4
+source : http://cgit.drupalcode.org/conditional_fields 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   conditional_fields.api.inc                          
+ ------ ---------------------------------------------------- 
+  498    Call to deprecated function drupal_get_messages().  
+  513    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   conditional_fields.module                             
+ ------ ------------------------------------------------------ 
+  399    Call to deprecated function element_info_property().  
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/ConditionalFieldEditForm.php        
+ ------ --------------------------------------------- 
+  276    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  280    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/conditional_fields/handler/DefaultStateHandler.php  
+ ------ --------------------------------------------------------------- 
+  46     Call to deprecated method substr() of class                    
+         Drupal\Component\Utility\Unicode.                              
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   src/Plugin/conditional_fields/handler/extra_contrib/LinkAddressfield.php  
+ ------ -------------------------------------------------------------------------- 
+         Class                                                                     
+         Drupal

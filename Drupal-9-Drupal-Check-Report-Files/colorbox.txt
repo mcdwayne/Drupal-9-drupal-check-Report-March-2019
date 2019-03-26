@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/colorbox 693aabdbaee34d85e99ffc23d529a63cb24c9109
+source : https://cgit.drupalcode.org/colorbox 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   colorbox.theme.inc                           
+ ------ --------------------------------------------- 
+  88     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  89     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  156    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ColorboxJavascriptTest.php                
+ ------ ------------------------------------------------------------------------- 
+  17     Class Drupal\Tests

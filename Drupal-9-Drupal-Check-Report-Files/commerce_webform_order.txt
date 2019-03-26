@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_webform_order a6f70a0b07cfcb0e665a5bbf9be1f3d84581f88a
+source : https://cgit.drupalcode.org/commerce_webform_order 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/WebformHandler/CommerceWebformOrderHandler.php  
+ ------ ----------------------------------------------------------- 
+  650    Call to deprecated method strtolower() of class            
+         Drupal\Component\Utility\Unicode.                          
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

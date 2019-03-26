@@ -1,0 +1,146 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_browser a6df34434e573d9b552e8760cee15d56366a066d
+source : http://cgit.drupalcode.org/entity_browser 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Plugin/EntityBrowser/FieldWidgetDisplay/ImageThumbnail.php  
+ ------ ---------------------------------------------------------------- 
+  98     Call to deprecated method isSubclassOf() of class               
+         Drupal\CorentityntityTypeInterface.                         
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/EntityBrowserUITest.php      
+ ------ -------------------------------------------------- 
+  70     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/EntityBrowserUpdateHookTest.php  
+ ------ ------------------------------------------------------ 
+  43     Call to deprecated method assertRaw() of class        
+         Drupal\Tests\BrowserTestBase.                         
+  44     Call to deprecated method assertRaw() of class        
+         Drupal\Tests\BrowserTestBase.                         
+  56     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+  67     Call to deprecated method assertEqual() of class      
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/EntityBrowserJavascriptTestBase.php       
+ ------ ------------------------------------------------------------------------- 
+  22     Class                                                                    
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase extends deprecated class                                       
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/EntityBrowserTest.php                     
+ ------ ------------------------------------------------------------------------- 
+  10     Class                                                                    
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserTest       
+         extends deprecated class                                                 
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/EntityBrowserViewsWidgetTest.php          
+ ------ ------------------------------------------------------------------------- 
+  13     Class                                                                    
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserViewsWidg  
+         etTest extends deprecated class                                          
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+  30     Call to method setUp() of deprecated class                               
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/EntityReferenceWidgetTest.php             
+ ------ ------------------------------------------------------------------------- 
+  17     Class                                                                    
+         Drupal\Testsntity_browser\FunctionalJavascriptntityReferenceWidgetT  
+         est extends deprecated class                                             
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+  23     Call to method setUp() of deprecated class                               
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ImageFieldTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  17     Class Drupal\Testsntity_browser\FunctionalJavascript\ImageFieldTest    
+         extends deprecated class                                                 
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+  30     Call to method setUp() of deprecated class                               
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/InlineEntityFormTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  14     Class                                                                    
+         Drupal\Testsntity_browser\FunctionalJavascript\InlineEntityFormTest    
+         extends deprecated class                                                 
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MultiStepSelectionDisplayTest.php         
+ ------ ------------------------------------------------------------------------- 
+  14     Class                                                                    
+         Drupal\Testsntity_browser\FunctionalJavascript\MultiStepSelectionDisp  
+         layTest extends deprecated class                                         
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/PagerElementTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  14     Class Drupal\Testsntity_browser\FunctionalJavascript\PagerElementTest  
+         extends deprecated class                                                 
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+  33     Call to method setUp() of deprecated class                               
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  10     Class Drupal\Testsntity_browser\FunctionalJavascript\ParagraphsTest    
+         extends deprecated class                                                 
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/UploadWidgetTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\Testsntity_browser\FunctionalJavascript\UploadWidgetTest  
+         extends deprecated class                                                 
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+  18     Call to method setUp() of deprecated class                               
+         Drupal\Testsntity_browser\FunctionalJavascriptntityBrowserJavascrip  
+         tTestBase.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

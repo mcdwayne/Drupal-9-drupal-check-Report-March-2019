@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/draggableviews 2f9716c2da160335873bc329357bf5b1fea1bca5
+source : https://cgit.drupalcode.org/draggableviews 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Drupal\migratentity\MigrationInterface not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Drupal\migrate\...')
+#1 /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/draggableviews/src/Plugin/migrate/destination/DraggableViews.php(17): spl_autoload_call('Drupal\migrate\...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/home/thatonegu...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/thatonegu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\draggabl...')
+#5 [internal function]: spl_autoload_call('Drupal\draggabl...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php(347): class in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupal\draggableviews\Plugin\migrate\destination\DraggableViews::fields(?Drupal\migratentity\MigrationInterface $migration = NULL) must be compatible with Drupal\migrate\Plugin\MigrateDestinationInterface::fields(?Drupal\migrate\Plugin\MigrationInterface $migration = NULL) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/draggableviews/src/Plugin/migrate/destination/DraggableViews.php on line 17 
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_collection_views 029d2ae8b670ab52a0e8b0f7a642c44a46716e6a
+source : http://cgit.drupalcode.org/field_collection_views 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/FieldCollectionViewsFormatter.php        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalield_collection\Plugin\Field\FieldFormatter\FieldCollectionLink  
+         sFormatter not found and could not be autoloaded.                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/FieldCollectionViewsHandlerFieldHostEntityPath.php  
+ ------ --------------------------------------------------------------------------- 
+  58     Call to deprecated method entityManager() of class Drupal.                 
+ ------ --------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

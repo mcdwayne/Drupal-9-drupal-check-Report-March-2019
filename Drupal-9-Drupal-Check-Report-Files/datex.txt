@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/datex b3737f0d48eb69cd76f4e38292bd181d4a28abfc
+source : http://cgit.drupalcode.org/datex 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   datex_bef/datex_bef.module                                               
+ ------ ------------------------------------------------------------------------- 
+  7      Class                                                                    
+         Drupaletter_exposed_filters\Pluginiewsxposed_form\BetterExposedFi  
+         lters not found and could not be autoloaded.                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   datex_bef/src/Plugin/views/exposed_form/DatexBef.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupaletter_exposed_filters\Pluginiewsxposed_form\BetterExposedFi  
+         lters not found and could not be autoloaded.                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/DatexBlock.php                    
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

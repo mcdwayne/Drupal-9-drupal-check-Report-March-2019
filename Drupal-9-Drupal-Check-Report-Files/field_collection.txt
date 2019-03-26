@@ -1,0 +1,144 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_collection 8fbe18537ee9e632282931898cc9712585120a54
+source : https://cgit.drupalcode.org/modal_page 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/FieldCollectionItemController.php    
+ ------ ---------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().   
+  123    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/FieldCollectionItem.php                 
+ ------ --------------------------------------------------- 
+  364    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FieldCollectionForm.php                        
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/FieldCollectionItemForm.php                     
+ ------ ---------------------------------------------------- 
+  87     Call to deprecated function drupal_get_messages().  
+  89     Call to deprecated function drupal_set_message().   
+  93     Call to deprecated function drupal_get_messages().  
+  96     Call to deprecated function drupal_set_message().   
+  107    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldCollectionItemDeleteForm.php         
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/FieldCollectionEmbedWidget.php  
+ ------ ------------------------------------------------------------- 
+  63     Call to deprecated function entity_get_form_display().       
+  182    Call to deprecated function entity_get_form_display().       
+  195    Call to deprecated method strlen() of class                  
+         Drupal\Component\Utility\Unicode.                            
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Tests/FieldCollectionRESTTest.php                                
+ ------ --------------------------------------------------------------------- 
+  14     Class Drupalield_collection\Tests\FieldCollectionRESTTest extends  
+         deprecated class Drupalest\Tests\RESTTestBase.                     
+  33     Call to method setUp() of deprecated class                           
+         Drupalest\Tests\RESTTestBase.                                      
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Tests/Update/Update8001Test.php                                
+ ------ ------------------------------------------------------------------- 
+  12     Class Drupalield_collection\Tests\Update\Update8001Test extends  
+         deprecated class Drupal\system\Tests\Update\UpdatePathTestBase.    
+  29     Call to deprecated function node_load().                           
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/FieldCollectionBasicTestCase.php  
+ ------ ------------------------------------------------------- 
+  48     Call to deprecated method assertEqual() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  50     Call to deprecated method assertEqual() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  67     Call to deprecated method assertEqual() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  69     Call to deprecated method assertEqual() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  71     Call to deprecated method assertEqual() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  73     Call to deprecated method assertEqual() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  75     Call to deprecated method assertEqual() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  87     Call to deprecated method assertIdentical() of class   
+         Drupal\Tests\BrowserTestBase.                          
+  227    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  240    Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  243    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  248    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  250    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  258    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  260    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  264    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FieldCollectionTestTrait.php (in context of class Drupal\Testsield_collection\FunctionalJavascript\FieldCollectionAjaxTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  106    Call to deprecated function entity_get_form_display().                                                                                              
+  110    Call to deprecated function entity_get_display().                                                                                                   
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FieldCollectionTestTrait.php (in context of class Drupal\Testsield_collection\Functional\FieldCollectionBasicTestCase)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+  106    Call to deprecated function entity_get_form_display().                                                                                         
+  110    Call to deprecated function entity_get_display().                                                                                              
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FieldCollectionTestTrait.php (in context of class Drupalield_collection\Tests\FieldCollectionRESTTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  106    Call to deprecated function entity_get_form_display().                                                                         
+  110    Call to deprecated function entity_get_display().                                                                              
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FieldCollectionAjaxTest.php               
+ ------ ------------------------------------------------------------------------- 
+  15     Class                                                                    
+         Drupal\Testsield_collection\FunctionalJavascript\FieldCollectionAjaxT  
+         est extends deprecated class                                             
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  29     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  53     Call to deprecated method assertFieldById() of class                     
+         Drupal\Tests\BrowserTestBase.                                            
+  66     Call to deprecated method assertFieldById() of class                     
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 43 errors                                                         
+
+ </code>

@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/developer_suite be102a823513832e4545519f51bdd2df258b464c
+source : http://cgit.drupalcode.org/developer_suite 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/developer_suite_examples/src/Form/ExampleForm.php  
+ ------ ----------------------------------------------------------- 
+  194    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/developer_suite_examples/src/Plugin/CommandHandler/ExampleCommandHandler.php  
+ ------ -------------------------------------------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().                                     
+  66     Call to deprecated function drupal_set_message().                                     
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Hook/HookPreprocessInterface.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\developer_suite\Hook\HookPreProcessInterface was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Utils.php                                    
+ ------ ------------------------------------------------- 
+  41     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

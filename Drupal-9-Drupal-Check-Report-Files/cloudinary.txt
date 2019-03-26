@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cloudinary 74277c2ff3e074e148562b22c6c7f552f95b4cd5
+source : http://cgit.drupalcode.org/cloudinary 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/cloudinary_sdk/src/Form/CloudinarySdkSettingsForm.php  
+ ------ --------------------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().              
+  44     Call to deprecated function drupal_set_message().              
+  49     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/cloudinary_storage/modules/cloudinary_storage_db/src/CloudinaryStorageDb.php  
+ ------ -------------------------------------------------------------------------------------- 
+  26     Call to deprecated function db_merge().                                               
+  37     Call to deprecated function db_delete().                                              
+  48     Call to deprecated function db_delete().                                              
+  49     Call to deprecated function db_like().                                                
+  59     Call to deprecated function db_select().                                              
+  77     Call to deprecated function db_query().                                               
+ ------ -------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

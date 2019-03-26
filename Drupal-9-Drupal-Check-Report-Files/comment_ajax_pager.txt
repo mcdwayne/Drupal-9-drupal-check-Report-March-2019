@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/comment_ajax_pager 4647aed0e6226c267ae5ba50e7cf243618c93120
+source : http://cgit.drupalcode.org/comment_ajax_pager 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   comment_ajax_pager.module                         
+ ------ -------------------------------------------------- 
+  22     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Page/CommentAjaxPager.php                 
+ ------ ---------------------------------------------- 
+  51     Call to deprecated function drupal_render().  
+  54     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

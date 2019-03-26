@@ -1,0 +1,144 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cms_content_sync c17dad0d03454670dfa6ae7a9664a0111e16c438
+source : http://cgit.drupalcode.org/cms_content_sync 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   cms_content_sync.module                            
+ ------ --------------------------------------------------- 
+  1356   Call to deprecated function drupal_set_message().  
+  1364   Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/cms_content_sync_health/src/Controller/SyncHealth.php  
+ ------ --------------------------------------------------------------- 
+  205    Call to deprecated function drupal_set_message().              
+  208    Call to deprecated function drupal_set_message().              
+  215    Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cms_content_sync_views/src/Plugin/Action/ExportStatusEntity.php  
+ ------ ------------------------------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().                        
+  38     Call to deprecated function drupal_set_message().                        
+  47     Call to deprecated function drupal_set_message().                        
+  55     Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cms_content_sync_views/src/Plugin/Action/ImportStatusEntity.php  
+ ------ ------------------------------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().                        
+  39     Call to deprecated function drupal_set_message().                        
+  60     Call to deprecated function drupal_set_message().                        
+  99     Call to deprecated function drupal_set_message().                        
+  105    Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FlowExport.php                      
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/FlowListBuilder.php             
+ ------ ----------------------------------------------- 
+  63     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FlowPull.php                        
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function drupal_set_message().  
+  113    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/FlowPush.php                        
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function drupal_set_message().  
+  81     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ManualImport.php                    
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/PoolExport.php                      
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/SetFlowStatus.php                   
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+  31     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/Flow.php                                
+ ------ --------------------------------------------------- 
+  632    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DebugForm.php                             
+ ------ --------------------------------------------------- 
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/FlowDeleteForm.php                          
+ ------ ----------------------------------------------------- 
+  94     Call to deprecated function menu_cache_clear_all().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PoolDeleteForm.php                        
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PoolForm.php                              
+ ------ --------------------------------------------------- 
+  237    Call to deprecated function drupal_set_message().  
+  242    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PushChangesConfirm.php                    
+ ------ --------------------------------------------------- 
+  137    Call to deprecated function drupal_set_message().  
+  139    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Form/SettingsForm.php                    
+ ------ --------------------------------------------- 
+  93     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/rest/resource/EntityResource.php  
+ ------ --------------------------------------------- 
+  175    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 37 errors                                                         
+
+ </code>

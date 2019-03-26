@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/retriever 69c12ca3555577c983f42a8376110bf46490fe3a
+source : http://cgit.drupalcode.org/retriever 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Fixtures/ClassWithSuggestedDependencies.php                   
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Testsetriever\Fixtures\ClassWithSuggestedDependencies    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

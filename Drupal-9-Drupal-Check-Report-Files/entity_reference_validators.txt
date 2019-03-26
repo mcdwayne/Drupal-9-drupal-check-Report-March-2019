@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_validators 643f81e66e2da2ae0b7ffb81d41c6b15789d42c9
+source : http://cgit.drupalcode.org/entity_reference_validators 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/CircularEntityReferenceTest.php                     
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class     
+         Drupal\Testsntity_reference_validators\Functional\CircularEntityRefer  
+         enceTest.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/DuplicateEntityReferenceTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  17     Usage of deprecated trait                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class     
+         Drupal\Testsntity_reference_validators\Functional\DuplicateEntityRefe  
+         renceTest.                                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CircularEntityReferenceTest.php                         
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class     
+         Drupal\Testsntity_reference_validators\Kernel\CircularEntityReference  
+         Test.                                                                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/DuplicateEntityReferenceTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  19     Usage of deprecated trait                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class     
+         Drupal\Testsntity_reference_validators\Kernel\DuplicateEntityReferenc  
+         eTest.                                                                   
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupalgap a9c90031cd0f8e248edd08248b61492cd5728e68
+source : http://cgit.drupalcode.org/drupalgap 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/DrupalGapController.php                      
+ ------ ------------------------------------------------------------ 
+  85     Call to deprecated method entityManager() of class Drupal.  
+  92     Call to deprecated method entityManager() of class Drupal.  
+  115    Call to deprecated method entityManager() of class Drupal.  
+  119    Call to deprecated function entity_get_form_display().      
+  181    Call to deprecated method getUsername() of class            
+         Drupal\Core\Session\AccountInterface.                       
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

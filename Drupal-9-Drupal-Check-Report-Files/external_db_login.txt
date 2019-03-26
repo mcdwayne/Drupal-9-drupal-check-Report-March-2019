@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/external_db_login a092fef0cac6854c17e7832ba5e3cd6daf9cb3ec
+source : https://cgit.drupalcode.org/external_db_login 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ExternalDBLoginService.php                     
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  159    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExternalDBLoginConfiguration.php          
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+  185    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

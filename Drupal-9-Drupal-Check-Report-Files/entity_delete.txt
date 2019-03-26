@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_delete 45afd86254d6b61ebea40ab2ba500d3409d10c0f
+source : http://cgit.drupalcode.org/entity_delete 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   src/DeleteEntity.php                                   
+ ------ ------------------------------------------------------- 
+  28     Call to deprecated function entity_delete_multiple().  
+  60     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityDeleteConfirmationForm.php          
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+  127    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function entity_get_bundles().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

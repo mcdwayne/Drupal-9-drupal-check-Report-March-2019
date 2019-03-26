@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dfw fdb04ebe8bbca6554396809a6c9e2e65354ba48d
+source : http://cgit.drupalcode.org/dfw 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   dfw.module                                         
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  239    Call to deprecated function drupal_set_message().  
+  244    Call to deprecated function drupal_set_message().  
+  248    Call to deprecated function drupal_set_message().  
+  257    Call to deprecated function drupal_set_message().  
+  271    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/dfw/DfwAutocomplete.php                                      
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\dfw\DfwAutocomplete was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/dfw/DfwAutocompleteController.php                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\dfw\DfwAutocompleteController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/dfw/DfwBundle.php                                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\dfw\DfwBundle was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/dfw/DfwSubscriber.php                                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\dfw\DfwSubscriber was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   lib/Drupal/dfw/Tests/DfwFormsTest.php                              
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\dfw\Tests\DfwFormsTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

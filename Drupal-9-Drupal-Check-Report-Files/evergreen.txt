@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/evergreen 886ea94072f5bfe7c800ebaca3f3c674b8c05b13
+source : http://cgit.drupalcode.org/evergreen 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Drupaliews\display\DisplayPluginBase not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Drupal\views\di...')
+#1 /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/evergreen/src/Plugin/views/filter/EvergreenEnabled.php(18): spl_autoload_call('Drupal\views\di...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/home/thatonegu...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/thatonegu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\evergree...')
+#5 [internal function]: spl_autoload_call('Drupal\evergree...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php(347): class_exists('Dru in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupalvergreen\PluginiewsiltervergreenEnabled::init(Drupaliews\ViewExecutable $view, Drupaliews\display\DisplayPluginBase $display, ?array &$options = NULL) must be compatible with Drupaliews\Pluginiewsilter\InOperator::init(Drupaliews\ViewExecutable $view, Drupaliews\Pluginiews\display\DisplayPluginBase $display, ?array &$options = NULL) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/evergreen/src/Plugin/views/filter/EvergreenEnabled.php on line 18 
+
+ </code>

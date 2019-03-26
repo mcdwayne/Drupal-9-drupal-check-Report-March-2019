@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_admin_checkout 15ae4e07686fbb2e8e724fd9f17c7c3f4ad65ed3
+source : http://cgit.drupalcode.org/commerce_admin_checkout 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/commerce_admin_payment/src/Plugin/Commerce/PaymentType/PaymentAdminManual.php  
+ ------ --------------------------------------------------------------------------------------- 
+  25     Call to method create() of deprecated class                                            
+         Drupal\Core\Field\BaseFieldDefinition.                                                 
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/commerce_admin_payment/src/PluginForm/AdminManualPaymentAddForm.php  
+ ------ ----------------------------------------------------------------------------- 
+  67     Class Drupal

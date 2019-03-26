@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_text b6eec02e097fe7542b16591eef314315dcf80516
+source : http://cgit.drupalcode.org/entity_reference_text 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/EntityReferenceController.php        
+ ------ ---------------------------------------------------- 
+  13     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/EntityReferenceWithText.php      
+ ------ ------------------------------------------------------------ 
+  85     Call to deprecated method entityManager() of class Drupal.  
+  115    Call to deprecated method entityManager() of class Drupal.  
+  123    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Plugin/Field/FieldFormatter/EntityReferenceWithoutTextTest.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class                                                                            
+         Drupal\Testsntity_reference_text\KernelntityReferenceWithoutTextTes          
+         t was not found while trying to analyse it - autoloading is probably             
+         not configured properly.                                                         
+ ------ --------------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_update ac36a9f8d8a2cc730edf8cc654382715ba849adc
+source : http://cgit.drupalcode.org/config_update 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   config_update_ui/config_update_ui.drush_testing.inc             
+ ------ ---------------------------------------------------------------- 
+         Class DrushLogLevel was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   config_update_ui/src/Commands/ConfigUpdateUiCommands.php  
+ ------ ---------------------------------------------------------- 
+  31     Call to deprecated method logger() of class Drush\Drush.  
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

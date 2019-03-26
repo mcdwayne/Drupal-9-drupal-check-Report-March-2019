@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/conditional_message d07a385f8a1896d4a9aeeb30b4c4c8c0eb86dd7b
+source : http://cgit.drupalcode.org/conditional_message 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConditionalMessageAdminSettingsForm.php   
+ ------ --------------------------------------------------- 
+  244    Call to deprecated function drupal_set_message().  
+  255    Call to deprecated function db_truncate().         
+  295    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  295    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  301    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+  301    Call to deprecated method strlen() of class        
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

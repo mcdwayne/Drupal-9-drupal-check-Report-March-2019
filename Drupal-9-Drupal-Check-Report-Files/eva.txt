@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eva 1d6625fbbf201968804208e819366a1e14860884
+source : http://cgit.drupalcode.org/eva 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   eva.module                                                  
+ ------ ------------------------------------------------------------ 
+  161    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/views/display/Eva.php                 
+ ------ ------------------------------------------------- 
+  152    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  152    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

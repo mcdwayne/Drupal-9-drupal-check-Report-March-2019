@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/community_tasks 993870a7ee780325c6a0dfb5edd0f4b224db90f2
+source : http://cgit.drupalcode.org/community_tasks 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   community_tasks.module                             
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/TaskState.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class views_handler_field_community_tasks_state was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

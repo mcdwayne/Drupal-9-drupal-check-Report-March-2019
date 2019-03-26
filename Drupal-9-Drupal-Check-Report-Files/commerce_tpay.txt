@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_tpay ba7a7e73b078b2265ed8de2c3d120c357b52c63c
+source : http://cgit.drupalcode.org/commerce_tpay 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/TpayRedirect.php  
+ ------ ----------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().    
+  133    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

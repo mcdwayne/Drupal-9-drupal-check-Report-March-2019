@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/db_maintenance 371fe803839c631f327e49548ce6747a5f172a22
+source : http://cgit.drupalcode.org/db_maintenance 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DefaultController.php               
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Form/DbMaintenanceAdminSettings.php         
+ ------ ------------------------------------------------ 
+  80     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Module/Db/DbHandler.php                     
+ ------ ------------------------------------------------ 
+  45     Call to deprecated function db_set_active().    
+  49     Call to deprecated function db_table_exists().  
+  60     Call to deprecated function db_set_active().    
+  91     Call to deprecated function db_set_active().    
+  97     Call to deprecated function db_set_active().    
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Module/Db/DbServer/DbServerHandlerFactory.php  
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function db_driver().           
+  27     Call to deprecated function db_driver().           
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Module/Db/DbServer/MySql/MySqlHandler.php  
+ ------ ----------------------------------------------- 
+  21     Call to deprecated function db_query().        
+  32     Call to deprecated function db_query().        
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Module/Db/DbServer/PgSql/PgSqlHandler.php  
+ ------ ----------------------------------------------- 
+  21     Call to deprecated function db_query().        
+  32     Call to deprecated function db_query().        
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

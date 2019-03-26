@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eid_auth 7ee4ac68c7b71ea25a023ba18a886391b6481521
+source : http://cgit.drupalcode.org/eid_auth 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EidController.php                   
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+  206    Call to deprecated function drupal_set_message().  
+  284    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EidLoginForm.php                          
+ ------ --------------------------------------------------- 
+  232    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

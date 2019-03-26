@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerceuserpoints cae90d194d5e42946a656bd55f5c92abae8c3e1b
+source : http://cgit.drupalcode.org/commerceuserpoints 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   commerce_user_points.module                   
+ ------ ---------------------------------------------- 
+  38     Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/EventSubscriber/OrderCompleteSubscriber.php  
+ ------ ------------------------------------------------- 
+  103    Call to deprecated function entity_create().     
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/UserPointsConfigurationForm.php           
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Commerce/CheckoutPane/CommerceUserPoints.php                 
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal

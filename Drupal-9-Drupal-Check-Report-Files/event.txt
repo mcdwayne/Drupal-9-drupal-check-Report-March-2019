@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/event 7fb711d31418d3d5285b5627927957e12ce0119d
+source : http://cgit.drupalcode.org/event 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/EventController.php                  
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventForm.php                             
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventRevisionDeleteForm.php               
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventRevisionRevertForm.php               
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventTypeDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventTypeForm.php                         
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/behat/features/bootstrap/Drupal/FeatureContext.php                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\FeatureContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/phpunit/BehatTest.php                                         
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\Tests\PHPUnit\BehatTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/phpunit/src/TestBase.php                                     
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\Tests\PHPUnit\TestBase was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

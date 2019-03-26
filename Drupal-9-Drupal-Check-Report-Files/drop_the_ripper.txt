@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drop_the_ripper 5447afb349e7590bdcfe14ce0e5799b1cfba4001
+source : http://cgit.drupalcode.org/drop_the_ripper 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   Commands/DropTheRipperCommands.php                                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drush\Commands\DropTheRipperCommands was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   drop_the_ripper.drush.inc                                   
+ ------ ------------------------------------------------------------ 
+  113    Call to deprecated function db_select().                    
+  117    Call to deprecated function db_or().                        
+  246    Call to deprecated method entityManager() of class Drupal.  
+  280    Call to deprecated function db_select().                    
+  284    Call to deprecated function db_or().                        
+  405    Call to deprecated function db_select().                    
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/dropTheRipperTest.php                                             
+ ------ ------------------------------------------------------------------------ 
+         Class Unish\dropTheRipperTest was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

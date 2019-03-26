@@ -1,0 +1,88 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/devel_contrib 5f7f0d40e29319b449b9c16672b64821d2925fa0
+source : http://cgit.drupalcode.org/devel_contrib 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   devel_contrib.pages.inc                            
+ ------ --------------------------------------------------- 
+  20     Calls to function kprint_r should not exist.       
+  30     Calls to function kprint_r should not exist.       
+  60     Calls to function kprint_r should not exist.       
+  75     Call to deprecated function drupal_render().       
+  86     Calls to function kprint_r should not exist.       
+  100    Calls to function kprint_r should not exist.       
+  103    Calls to function kprint_r should not exist.       
+  138    Calls to function kprint_r should not exist.       
+  167    Calls to function kprint_r should not exist.       
+  178    Calls to function kprint_r should not exist.       
+  187    Calls to function kprint_r should not exist.       
+  198    Calls to function kprint_r should not exist.       
+  202    Calls to function kprint_r should not exist.       
+  214    Calls to function kprint_r should not exist.       
+  224    Calls to function kprint_r should not exist.       
+  238    Calls to function kprint_r should not exist.       
+  251    Calls to function kprint_r should not exist.       
+  261    Calls to function kprint_r should not exist.       
+  264    Calls to function kprint_r should not exist.       
+  274    Calls to function kprint_r should not exist.       
+  285    Calls to function kprint_r should not exist.       
+  299    Calls to function kprint_r should not exist.       
+  303    Calls to function kprint_r should not exist.       
+  307    Calls to function kprint_r should not exist.       
+  312    Calls to function kprint_r should not exist.       
+  323    Calls to function kprint_r should not exist.       
+  326    Calls to function kprint_r should not exist.       
+  329    Calls to function kprint_r should not exist.       
+  332    Calls to function kprint_r should not exist.       
+  335    Call to deprecated function db_select().           
+  343    Calls to function kprint_r should not exist.       
+  346    Calls to function kprint_r should not exist.       
+  360    Calls to function kprint_r should not exist.       
+  371    Calls to function kprint_r should not exist.       
+  381    Calls to function kprint_r should not exist.       
+  384    Calls to function kprint_r should not exist.       
+  387    Calls to function kprint_r should not exist.       
+  406    Calls to function kprint_r should not exist.       
+  417    Calls to function kprint_r should not exist.       
+  427    Calls to function kprint_r should not exist.       
+  430    Calls to function kprint_r should not exist.       
+  440    Calls to function kprint_r should not exist.       
+  450    Calls to function kprint_r should not exist.       
+  454    Calls to function kprint_r should not exist.       
+  465    Calls to function kprint_r should not exist.       
+  468    Calls to function kprint_r should not exist.       
+  472    Calls to function kprint_r should not exist.       
+  485    Calls to function kprint_r should not exist.       
+  496    Calls to function kprint_r should not exist.       
+  512    Calls to function kprint_r should not exist.       
+  522    Calls to function kprint_r should not exist.       
+  538    Call to deprecated function drupal_set_message().  
+  552    Calls to function kprint_r should not exist.       
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   devel_contrib_generate/devel_contrib_generate.module              
+ ------ ------------------------------------------------------------------ 
+         Class DevelContribGeneratorDefault was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   src/Controller/ViewsDataController.php   
+ ------ ----------------------------------------- 
+  26     Calls to function dpm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Plugin/Block/DevelContribLinks.php   
+ ------ ----------------------------------------- 
+  110    Calls to function dsm should not exist.  
+  111    Calls to function dsm should not exist.  
+  112    Calls to function dsm should not exist.  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 58 errors                                                         
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contact_emails 018c8eec1ae1877c2c622aadfc7da22d32bc20af
+source : http://cgit.drupalcode.org/contact_emails 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ContactEmailer.php                             
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactEmailForm.php                      
+ ------ --------------------------------------------------- 
+  299    Call to deprecated function drupal_set_message().  
+  360    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/Update/ContactEmailsTableToEntityUpdateTest.php                
+ ------ ------------------------------------------------------------------------- 
+  13     Class                                                                    
+         Drupal

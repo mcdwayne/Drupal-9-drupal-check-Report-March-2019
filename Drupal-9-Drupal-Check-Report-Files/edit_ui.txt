@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/edit_ui 77c51ebd2477ee69f4cc86eb34aa98823f879428
+source : http://cgit.drupalcode.org/edit_ui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/edit_ui_block/src/Element/EditUiBlockToolbar.php       
+ ------ --------------------------------------------------------------- 
+  187    Fetching deprecated class constant BLOCK_REGION_NONE of class  
+         Drupallock\BlockInterface.                                   
+  204    Fetching deprecated class constant BLOCK_REGION_NONE of class  
+         Drupallock\BlockInterface.                                   
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EditUiBlockController.php           
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated function drupal_set_message().  
+  220    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

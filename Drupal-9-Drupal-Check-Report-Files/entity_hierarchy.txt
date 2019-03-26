@@ -1,0 +1,53 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_hierarchy b284e95df5e6d404a085e1e35ba303268b386da5
+source : http://cgit.drupalcode.org/entity_hierarchy 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   modules/entity_hierarchy_workbench_access/src/Plugin/AccessControlHierarchy/EntityHierarchy.php  
+ ------ ------------------------------------------------------------------------------------------------- 
+         Class Drupal\workbench_access\AccessControlHierarchyBase not found and                           
+         could not be autoloaded.                                                                         
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HierarchyChildrenForm.php                 
+ ------ --------------------------------------------------- 
+  325    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Storage/TreeRebuilder.php                      
+ ------ --------------------------------------------------- 
+  150    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/ForwardRevisionNodeValidationTest.php               
+ ------ ------------------------------------------------------------------------- 
+  20     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class                                                                    
+         Drupal\Testsntity_hierarchy\Functional\ForwardRevisionNodeValidationT  
+         est.                                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/ReorderChildrenFunctionalTest.php                   
+ ------ ------------------------------------------------------------------------- 
+  22     Usage of deprecated trait Drupal\simpletest\BlockCreationTrait in class  
+         Drupal\Testsntity_hierarchy\Functional\ReorderChildrenFunctionalTest.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/ReorderChildrenWithRevisionsFunctionalTest.php      
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\simpletest\BlockCreationTrait in class  
+         Drupal\Testsntity_hierarchy\Functional\ReorderChildrenWithRevisionsFu  
+         nctionalTest.                                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

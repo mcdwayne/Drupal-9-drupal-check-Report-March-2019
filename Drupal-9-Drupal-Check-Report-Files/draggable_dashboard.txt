@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/draggable_dashboard d40f4b7e56067dfad59952a747543c5360daae0b
+source : http://cgit.drupalcode.org/draggable_dashboard 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DashboardDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DashboardFormBase.php                     
+ ------ --------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DashboardManageForm.php                   
+ ------ --------------------------------------------------- 
+  275    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

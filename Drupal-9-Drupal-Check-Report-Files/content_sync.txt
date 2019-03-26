@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_sync 0df94c454ad7905e5d55fd1159732de9dbf7dcee
+source : http://cgit.drupalcode.org/content_sync 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   content_sync.batch.inc                             
+ ------ --------------------------------------------------- 
+  447    Call to deprecated function drupal_set_message().  
+  448    Call to deprecated method url() of class Drupal.   
+  452    Call to deprecated function drupal_set_message().  
+  452    Call to deprecated method url() of class Drupal.   
+  458    Call to deprecated method url() of class Drupal.   
+  459    Call to deprecated function drupal_set_message().  
+  589    Call to deprecated function drupal_set_message().  
+  589    Call to deprecated method url() of class Drupal.   
+  594    Call to deprecated function drupal_set_message().  
+  594    Call to deprecated method url() of class Drupal.   
+  595    Call to deprecated method url() of class Drupal.   
+  600    Call to deprecated method url() of class Drupal.   
+  601    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   content_sync.module                                
+ ------ --------------------------------------------------- 
+  50     Call to deprecated method url() of class Drupal.   
+  52     Call to deprecated method url() of class Drupal.   
+  54     Call to deprecated method url() of class Drupal.   
+  56     Call to deprecated method url() of class Drupal.   
+  58     Call to deprecated method url() of class Drupal.   
+  60     Call to deprecated method url() of class Drupal.   
+  62     Call to deprecated method url() of class Drupal.   
+  131    Call to deprecated function file_uri_scheme().     
+  196    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ContentLogController.php             
+ ------ ---------------------------------------------------- 
+  87     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  262    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  266    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------- 
+  Line   src/Form/ContentExportTrait.php (in context of class Drupal

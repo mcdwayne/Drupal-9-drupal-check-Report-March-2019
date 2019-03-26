@@ -1,0 +1,1795 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cloud 725adac1687664f139ddeb1326ea90390a954174
+source : http://cgit.drupalcode.org/cloud 
+ 
+ <code> 
+Warning: Declaration of Drupalws_cloud\Pluginiewsilter\TextToSelectFilter::valueForm(array &$form, Drupal\Core\Form\FormStateInterface $form_state) should be compatible with Drupaliews\Pluginiewsilter\InOperator::valueForm(&$form, Drupal\Core\Form\FormStateInterface $form_state) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/cloud/modules/cloud_service_providers/aws_cloud/src/Plugin/views/filter/TextToSelectFilter.php on line 21
+
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/cloud_server_template/src/Controller/CloudServerTemplateController.php  
+ ------ -------------------------------------------------------------------------------- 
+  97     Call to deprecated method entityManager() of class                              
+         Drupal\Core\Controller\ControllerBase.                                          
+  98     Call to deprecated method entityManager() of class                              
+         Drupal\Core\Controller\ControllerBase.                                          
+  113    Call to deprecated method entityManager() of class                              
+         Drupal\Core\Controller\ControllerBase.                                          
+  114    Call to deprecated function format_date().                                      
+  132    Call to deprecated method entityManager() of class                              
+         Drupal\Core\Controller\ControllerBase.                                          
+  160    Call to deprecated method l() of class                                          
+         Drupal\Core\Controller\ControllerBase.                                          
+  167    Call to deprecated method link() of class                                       
+         Drupal\CorentityntityInterface.                                             
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/cloud_server_template/src/Form/CloudServerTemplateRevisionDeleteForm.php  
+ ------ ---------------------------------------------------------------------------------- 
+  91     Call to deprecated function format_date().                                        
+  128    Call to deprecated function format_date().                                        
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/cloud_server_template/tests/src/Functional/CloudServerTemplateTest.php  
+ ------ -------------------------------------------------------------------------------- 
+  56     Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  57     Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  58     Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  88     Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  89     Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  90     Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  91     Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  100    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  101    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  102    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  103    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  104    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  105    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  109    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  110    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  111    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  113    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  137    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  138    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  139    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  140    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  149    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  150    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  151    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  155    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  156    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  157    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  159    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  177    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  178    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  179    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  183    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  184    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  185    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  187    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  226    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  227    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  228    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  229    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  240    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  241    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  242    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  253    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  254    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  255    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  265    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  266    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  267    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  274    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  275    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  276    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  277    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  283    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  284    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  285    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  286    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  296    Call to deprecated method assertResponse() of class                             
+         Drupal\Tests\BrowserTestBase.                                                   
+  297    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  298    Call to deprecated method assertNoText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                   
+  299    Call to deprecated method assertText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                   
+  350    Call to deprecated function entity_create().                                    
+  365    Call to deprecated function entity_create().                                    
+  379    Call to deprecated function entity_create().                                    
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/ApiController.php  
+ ------ -------------------------------------------------------------------------------- 
+  283    Call to deprecated function drupal_render().                                    
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/ElasticIpListBuilder.php  
+ ------ --------------------------------------------------------------------------------------- 
+  49     Call to deprecated method l() of class Drupal.                                         
+  50     Call to deprecated method getLabel() of class                                          
+         Drupal\CorentityntityListBuilder.                                                  
+  51     Call to deprecated method urlInfo() of class                                           
+         Drupal\CorentityntityInterface.                                                    
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/ImageListBuilder.php  
+ ------ ----------------------------------------------------------------------------------- 
+  50     Call to deprecated method l() of class Drupal.                                     
+  51     Call to deprecated method getLabel() of class                                      
+         Drupal\CorentityntityListBuilder.                                              
+  52     Call to deprecated method urlInfo() of class                                       
+         Drupal\CorentityntityInterface.                                                
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/InstanceListBuilder.php  
+ ------ -------------------------------------------------------------------------------------- 
+  48     Call to deprecated method l() of class Drupal.                                        
+  49     Call to deprecated method getLabel() of class                                         
+         Drupal\CorentityntityListBuilder.                                                 
+  50     Call to deprecated method urlInfo() of class                                          
+         Drupal\CorentityntityInterface.                                                   
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/KeyPairListBuilder.php  
+ ------ ------------------------------------------------------------------------------------- 
+  46     Call to deprecated method l() of class Drupal.                                       
+  48     Call to deprecated method urlInfo() of class                                         
+         Drupal\CorentityntityInterface.                                                  
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/NetworkInterfaceListBuilder.php  
+ ------ ---------------------------------------------------------------------------------------------- 
+  54     Call to deprecated method l() of class Drupal.                                                
+  55     Call to deprecated method getLabel() of class                                                 
+         Drupal\CorentityntityListBuilder.                                                         
+  56     Call to deprecated method urlInfo() of class                                                  
+         Drupal\CorentityntityInterface.                                                           
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/SecurityGroupListBuilder.php  
+ ------ ------------------------------------------------------------------------------------------- 
+  42     Call to deprecated method l() of class Drupal.                                             
+  44     Call to deprecated method urlInfo() of class                                               
+         Drupal\CorentityntityInterface.                                                        
+ ------ ------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/SnapshotListBuilder.php  
+ ------ -------------------------------------------------------------------------------------- 
+  48     Call to deprecated method l() of class Drupal.                                        
+  49     Call to deprecated method getLabel() of class                                         
+         Drupal\CorentityntityListBuilder.                                                 
+  50     Call to deprecated method urlInfo() of class                                          
+         Drupal\CorentityntityInterface.                                                   
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   modules/cloud_service_providers/aws_cloud/src/Controller/Ec2/VolumeListBuilder.php  
+ ------ ------------------------------------------------------------------------------------ 
+  51     Call to deprecated method l() of class Drupal.                                      
+  52     Call to deprecated method getLabel() of class                                       
+         Drupal\CorentityntityListBuilder.                                               
+  53     Call to deprecated method urlInfo() of class                                        
+         Drupal\CorentityntityInterface.                                                 
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Form/Ec2/InstanceLaunchForm.php  
+ ------ ------------------------------------------------------------------------------- 
+  255    Call to deprecated method urlInfo() of class                                   
+         Drupal\CorentityntityInterface.                                            
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/src/Service/AwsEc2Service.php  
+ ------ ------------------------------------------------------------------------- 
+  627    Call to deprecated method defaultProvider() of class                     
+         AwsndpointndpointProvider.                                           
+  643    Call to deprecated method defaultProvider() of class                     
+         AwsndpointndpointProvider.                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/AwsCloudConfigTest.php  
+ ------ --------------------------------------------------------------------------------------- 
+  86     Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  87     Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  88     Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  102    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  103    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  104    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  110    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  111    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  112    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  113    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+  115    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+  122    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  123    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  124    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  126    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+  146    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  147    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  148    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  150    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+  157    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  158    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  159    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  161    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+  180    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  181    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  182    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  183    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+  190    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  191    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  192    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  194    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  219    Call to deprecated method assertResponse() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                          
+  220    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  221    Call to deprecated method assertNoText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                          
+  223    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+  224    Call to deprecated method assertText() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                          
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/AwsCloudTestCase.php  
+ ------ ----------------------------------------------------------------------------------------- 
+  127    Call to deprecated function entity_create().                                             
+  192    Call to deprecated function drupal_realpath().                                           
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/ElasticIpTest.php  
+ ------ -------------------------------------------------------------------------------------- 
+  57     Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  58     Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  59     Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  76     Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  77     Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  78     Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  79     Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  80     Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  89     Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  90     Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  91     Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  94     Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  98     Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  99     Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  100    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  102    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  121    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  122    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  123    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  124    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  134    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  135    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  136    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  138    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  153    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  154    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  155    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  160    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  161    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  162    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  163    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  164    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  175    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  176    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  177    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  180    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  290    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  291    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  292    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  294    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  302    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  305    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  318    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  319    Call to deprecated method assertLinkByHref() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                         
+  320    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  321    Call to deprecated method assertLinkByHref() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                         
+  322    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  323    Call to deprecated method assertLinkByHref() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                         
+  324    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  327    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  328    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  329    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  333    Call to deprecated method assertNoLink() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  334    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  335    Call to deprecated method assertLinkByHref() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                         
+  336    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  337    Call to deprecated method assertLinkByHref() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                         
+  358    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  359    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  360    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  362    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  370    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  373    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  386    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  390    Call to deprecated method assertLink() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  391    Call to deprecated method assertLinkByHref() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                         
+  401    Call to deprecated method assertResponse() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                         
+  402    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  403    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+  405    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  413    Call to deprecated method assertText() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                         
+  416    Call to deprecated method assertNoText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                         
+ ------ -------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/ImageTest.php  
+ ------ ---------------------------------------------------------------------------------- 
+  57     Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  58     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  59     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  71     Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  72     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  73     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  74     Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  75     Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  83     Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  84     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  85     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  89     Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  90     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  91     Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  94     Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  113    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  114    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  115    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  116    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  117    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  126    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  127    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  128    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  130    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  144    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  145    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  146    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  148    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  169    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  170    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  171    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  176    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  177    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  178    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  179    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  180    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  186    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  187    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  188    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  189    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  190    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  200    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  201    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  202    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  203    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  221    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  222    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  223    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  228    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  229    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  230    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  231    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  232    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  301    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  302    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  303    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  305    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  313    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  316    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  329    Call to deprecated method assertLink() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  330    Call to deprecated method assertLinkByHref() of class                             
+         Drupal\Tests\BrowserTestBase.                                                     
+  331    Call to deprecated method assertLink() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  332    Call to deprecated method assertLinkByHref() of class                             
+         Drupal\Tests\BrowserTestBase.                                                     
+  333    Call to deprecated method assertLink() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  336    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  337    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  338    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  342    Call to deprecated method assertNoLink() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  343    Call to deprecated method assertLink() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  344    Call to deprecated method assertLinkByHref() of class                             
+         Drupal\Tests\BrowserTestBase.                                                     
+  358    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  359    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  360    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  361    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  368    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  372    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  398    Call to deprecated method assertResponse() of class                               
+         Drupal\Tests\BrowserTestBase.                                                     
+  399    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  400    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+  402    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  410    Call to deprecated method assertText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                     
+  413    Call to deprecated method assertNoText() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                     
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/InstanceTest.php  
+ ------ ------------------------------------------------------------------------------------- 
+  102    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  103    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  104    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  114    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  115    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  116    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  120    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  171    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  187    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  188    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  189    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  190    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  197    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  202    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  203    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  204    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  206    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  221    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  222    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  223    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  231    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  232    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  233    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  234    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  235    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  243    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  244    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  245    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  247    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  276    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  277    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  278    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  296    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  300    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  301    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  302    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  303    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  307    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  308    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  309    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  310    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  311    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  348    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  351    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  352    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  353    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  382    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  385    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  386    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  387    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  395    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  398    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  399    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  400    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  402    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  441    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  446    Call to deprecated method assertFieldChecked() of class                              
+         Drupal\Tests\BrowserTestBase.                                                        
+  449    Call to deprecated method assertNoFieldChecked() of class                            
+         Drupal\Tests\BrowserTestBase.                                                        
+  488    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  491    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  492    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  496    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  513    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  521    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  522    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  523    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  527    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  535    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  541    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  551    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  554    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  555    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  559    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  577    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  586    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  596    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  599    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  600    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  604    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  652    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  655    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  656    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  660    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  699    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  751    Call to deprecated function entity_create().                                         
+  762    Call to deprecated function entity_create().                                         
+  981    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  982    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  983    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  985    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  993    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  996    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1009   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1010   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1011   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1012   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1013   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1014   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1015   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1016   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1017   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1018   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1019   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1022   Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  1023   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1024   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1028   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1029   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1030   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1031   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1032   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1033   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1034   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1035   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1036   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1055   Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  1056   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1057   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1059   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1067   Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1070   Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1083   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1084   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1085   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1086   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1087   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1088   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1089   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1090   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1091   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1092   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1096   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1097   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1098   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1099   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1100   Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1101   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1102   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1103   Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1104   Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  1114   Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  1115   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1116   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  1118   Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1126   Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  1129   Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/InstanceTypePriceControllerTest.php  
+ ------ -------------------------------------------------------------------------------------------------------- 
+  41     Call to deprecated method assertResponse() of class                                                     
+         Drupal\Tests\BrowserTestBase.                                                                           
+  42     Call to deprecated method assertText() of class                                                         
+         Drupal\Tests\BrowserTestBase.                                                                           
+  45     Call to deprecated method assertText() of class                                                         
+         Drupal\Tests\BrowserTestBase.                                                                           
+ ------ -------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/KeyPairTest.php  
+ ------ ------------------------------------------------------------------------------------ 
+  62     Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  63     Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  64     Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  77     Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  78     Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  79     Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  80     Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  90     Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  91     Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  92     Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  95     Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  107    Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  108    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  109    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  114    Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  115    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  116    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  117    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  118    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  128    Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  129    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  130    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  132    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  171    Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  172    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  173    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  175    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  183    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  186    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  199    Call to deprecated method assertLink() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  200    Call to deprecated method assertLinkByHref() of class                               
+         Drupal\Tests\BrowserTestBase.                                                       
+  201    Call to deprecated method assertLink() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  202    Call to deprecated method assertLinkByHref() of class                               
+         Drupal\Tests\BrowserTestBase.                                                       
+  203    Call to deprecated method assertLink() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  206    Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  207    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  208    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  212    Call to deprecated method assertNoLink() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  213    Call to deprecated method assertLink() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  214    Call to deprecated method assertLinkByHref() of class                               
+         Drupal\Tests\BrowserTestBase.                                                       
+  230    Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  231    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  232    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  234    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  242    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  245    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  258    Call to deprecated method assertResponse() of class                                 
+         Drupal\Tests\BrowserTestBase.                                                       
+  259    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  260    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+  262    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  270    Call to deprecated method assertText() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                       
+  273    Call to deprecated method assertNoText() of class                                   
+         Drupal\Tests\BrowserTestBase.                                                       
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/NetworkInterfaceTest.php  
+ ------ --------------------------------------------------------------------------------------------- 
+  55     Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  56     Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  57     Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  69     Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  70     Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  71     Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  72     Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  79     Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  86     Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  87     Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  88     Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  90     Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  112    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  113    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  114    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  115    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  124    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  125    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  126    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  128    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  132    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  133    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  134    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  137    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  148    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  149    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  150    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  155    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  156    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  157    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  158    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  159    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  169    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  170    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  171    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  224    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  225    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  226    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  228    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  236    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  239    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  252    Call to deprecated method assertLink() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  253    Call to deprecated method assertLinkByHref() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                                
+  254    Call to deprecated method assertLink() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  255    Call to deprecated method assertLinkByHref() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                                
+  256    Call to deprecated method assertLink() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  259    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  260    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  261    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  265    Call to deprecated method assertNoLink() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  266    Call to deprecated method assertLink() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  267    Call to deprecated method assertLinkByHref() of class                                        
+         Drupal\Tests\BrowserTestBase.                                                                
+  268    Call to deprecated method assertNoLink() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  284    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  285    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  286    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  288    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  296    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  299    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  312    Call to deprecated method assertResponse() of class                                          
+         Drupal\Tests\BrowserTestBase.                                                                
+  313    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  314    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+  316    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  324    Call to deprecated method assertText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                
+  327    Call to deprecated method assertNoText() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/SecurityGroupTest.php  
+ ------ ------------------------------------------------------------------------------------------ 
+  64     Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  65     Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  66     Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  81     Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  82     Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  83     Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  84     Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  85     Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  95     Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  96     Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  97     Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  100    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  125    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  126    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  127    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  128    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  138    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  139    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  140    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  142    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  150    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  151    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  152    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  157    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  158    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  159    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  160    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  161    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  171    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  172    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  173    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  256    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  263    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  273    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  312    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  313    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  314    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  315    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  316    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  374    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  375    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  376    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  377    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  378    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  394    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  404    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  414    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  424    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  434    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  444    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  454    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  464    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  485    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  486    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  487    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  488    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  489    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  505    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  617    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  649    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  653    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  728    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  729    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  730    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  732    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  740    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  743    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  756    Call to deprecated method assertLink() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  757    Call to deprecated method assertLinkByHref() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                             
+  758    Call to deprecated method assertLink() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  759    Call to deprecated method assertLinkByHref() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                             
+  760    Call to deprecated method assertLink() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  763    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  764    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  765    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  769    Call to deprecated method assertNoLink() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  770    Call to deprecated method assertLink() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  771    Call to deprecated method assertLinkByHref() of class                                     
+         Drupal\Tests\BrowserTestBase.                                                             
+  772    Call to deprecated method assertNoLink() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  785    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  786    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  787    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  788    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  795    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  799    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  812    Call to deprecated method assertResponse() of class                                       
+         Drupal\Tests\BrowserTestBase.                                                             
+  813    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  814    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+  816    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  824    Call to deprecated method assertText() of class                                           
+         Drupal\Tests\BrowserTestBase.                                                             
+  827    Call to deprecated method assertNoText() of class                                         
+         Drupal\Tests\BrowserTestBase.                                                             
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/SnapshotTest.php  
+ ------ ------------------------------------------------------------------------------------- 
+  60     Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  61     Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  62     Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  95     Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  96     Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  97     Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  98     Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  103    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  110    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  111    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  112    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  128    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  129    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  130    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  131    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  139    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  140    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  141    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  144    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  157    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  158    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  159    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  164    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  165    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  166    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  167    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  168    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  175    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  176    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  177    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  202    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  203    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  204    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  207    Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  232    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  233    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  234    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  236    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  244    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  247    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  260    Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  261    Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  262    Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  263    Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  264    Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  265    Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  266    Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  269    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  270    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  271    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  275    Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  276    Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  277    Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  278    Call to deprecated method assertLink() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  279    Call to deprecated method assertLinkByHref() of class                                
+         Drupal\Tests\BrowserTestBase.                                                        
+  280    Call to deprecated method assertNoLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  286    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  287    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  306    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  307    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  308    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  310    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  318    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  321    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  334    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  335    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  336    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  338    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  346    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  349    Call to deprecated method assertNoText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                        
+  402    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  406    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  407    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+  417    Call to deprecated method assertResponse() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                        
+  418    Call to deprecated method assertText() of class                                      
+         Drupal\Tests\BrowserTestBase.                                                        
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/VolumeAttachDetachTest.php  
+ ------ ----------------------------------------------------------------------------------------------- 
+  74     Call to deprecated method assertResponse() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                  
+  75     Call to deprecated method assertNoText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                  
+  76     Call to deprecated method assertNoText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                  
+  77     Call to deprecated method assertText() of class                                                
+         Drupal\Tests\BrowserTestBase.                                                                  
+  90     Call to deprecated method assertResponse() of class                                            
+         Drupal\Tests\BrowserTestBase.                                                                  
+  91     Call to deprecated method assertNoText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                  
+  92     Call to deprecated method assertNoText() of class                                              
+         Drupal\Tests\BrowserTestBase.                                                                  
+  93     Call to deprecated method assertText() of class                                                
+         Drupal\Tests\BrowserTestBase.                                                                  
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Functional/Ec2/VolumeTest.php  
+ ------ ----------------------------------------------------------------------------------- 
+  57     Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  58     Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  59     Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  87     Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  88     Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  89     Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  90     Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  91     Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  100    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  101    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  102    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  104    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  112    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  117    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  118    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  119    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  120    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  124    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  128    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  151    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  152    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  153    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  154    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  163    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  164    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  165    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  168    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  181    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  182    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  183    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  188    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  189    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  190    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  191    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  192    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  201    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  202    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  203    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  299    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  300    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  301    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  303    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  311    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  314    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  326    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  327    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  328    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  329    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  330    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  331    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  332    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  335    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  336    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  337    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  340    Call to deprecated method assertNoLink() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  341    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  342    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  343    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  344    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  365    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  366    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  367    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  369    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  377    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  380    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  392    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  393    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  394    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  395    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  396    Call to deprecated method assertLink() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  397    Call to deprecated method assertLinkByHref() of class                              
+         Drupal\Tests\BrowserTestBase.                                                      
+  407    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  408    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  409    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  411    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  419    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  422    Call to deprecated method assertNoText() of class                                  
+         Drupal\Tests\BrowserTestBase.                                                      
+  460    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  464    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  465    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+  476    Call to deprecated method assertResponse() of class                                
+         Drupal\Tests\BrowserTestBase.                                                      
+  477    Call to deprecated method assertText() of class                                    
+         Drupal\Tests\BrowserTestBase.                                                      
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------ 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Unit/Plugin/AwsCloudServerTemplatePluginTest.php  
+ ------ ------------------------------------------------------------------------------------------------------ 
+  58     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+  98     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+  113    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+  161    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+  203    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                               
+ ------ ------------------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   modules/cloud_service_providers/aws_cloud/tests/src/Unit/Service/AwsEc2ServiceTest.php  
+ ------ ---------------------------------------------------------------------------------------- 
+  19     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  20     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  29     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+  31     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                 
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/CloudConfigController.php            
+ ------ ---------------------------------------------------- 
+  87     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  88     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  103    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  104    Call to deprecated function format_date().          
+  122    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  150    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  153    Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/CloudConfigRevisionDeleteForm.php  
+ ------ -------------------------------------------- 
+  91     Call to deprecated function format_date().  
+  125    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 835 errors                                                        
+
+ </code>

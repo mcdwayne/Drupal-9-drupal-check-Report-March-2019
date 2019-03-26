@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/controller_annotations c51600a83a2b133755ba3c81f024a9d3d5d71b60
+source : http://cgit.drupalcode.org/controller_annotations 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/ControllerEventSubscriber.php  
+ ------ --------------------------------------------------- 
+  48     Call to method getClass() of deprecated class      
+         Doctrine\Common\Util\ClassUtils.                   
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/EventSubscriber/RouteEventSubscriber.php         
+ ------ ----------------------------------------------------- 
+  40     Call to deprecated method registerLoader() of class  
+         Doctrine\Common\Annotations\AnnotationRegistry.      
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Unit/Configuration/CacheTest.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests

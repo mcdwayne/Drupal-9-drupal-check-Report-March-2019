@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_planner 0dd531431cb5313b98b5b9cfdd55d13fc345ce79
+source : http://cgit.drupalcode.org/content_planner 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/content_calendar/src/Form/ContentTypeConfigDeleteForm.php  
+ ------ ------------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/content_calendar/src/Form/ContentTypeConfigForm.php  
+ ------ ------------------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().            
+  71     Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/content_kanban/src/Form/KanbanLogForm.php  
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/content_kanban/src/Plugin/DashboardBlock/ContentStateStatistic.php  
+ ------ ---------------------------------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

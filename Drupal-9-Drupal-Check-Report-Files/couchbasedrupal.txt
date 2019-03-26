@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/couchbasedrupal 1f665c78431ccf90c455889d195f81513980b4af
+source : http://cgit.drupalcode.org/couchbasedrupal 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Cache/CouchbaseBackend.php                     
+ ------ --------------------------------------------------- 
+  223    Call to deprecated method validateTags() of class  
+         Drupal\Core\Cache\Cache.                           
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/GeneralTestCase.php                 
+ ------ ---------------------------------------------- 
+  47     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/GetMultipleTests.php                    
+ ------ -------------------------------------------------- 
+  35     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  36     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  44     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   stub/couchbase.php                                                    
+ ------ ---------------------------------------------------------------------- 
+         Class Couchbasexception was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

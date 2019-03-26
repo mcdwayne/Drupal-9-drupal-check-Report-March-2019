@@ -1,0 +1,71 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_entity_revisions 8.x-1.3
+source : http://cgit.drupalcode.org/config_entity_revisions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/views_revisions/src/ViewsRevisionsRequest.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupaliews_revisions\ViewRevisionsRequest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/views_revisions/src/ViewsRevisionsUI.php   
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/views_revisions/views_revisions.module     
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/webform_revisions/src/Entity/WebformRevisions.php       
+ ------ ---------------------------------------------------------------- 
+         Class Drupal\webformntity\Webform not found and could not be  
+         autoloaded.                                                     
+ ------ ---------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/webform_revisions/src/Entity/WebformRevisionsSubmission.php    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webformntity\WebformSubmission not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/webform_revisions/src/WebformRevisionsRequest.php       
+ ------ ---------------------------------------------------------------- 
+         Class Drupal\webform\WebformRequest not found and could not be  
+         autoloaded.                                                     
+ ------ ---------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/webform_revisions/src/WebformRevisionsSubmissionStorage.php    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webform\WebformSubmissionStorage not found and could not  
+         be autoloaded.                                                         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/webform_revisions/webform_revisions.module  
+ ------ ---------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ConfigEntityRevisionsDeleteFormBase.php        
+ ------ --------------------------------------------------- 
+  170    Call to deprecated function drupal_set_message().  
+  198    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Entity/ConfigEntityRevisionsType.php                          
+ ------ ------------------------------------------------------------------ 
+  164    Call to deprecated method isNewRevision() of class                
+         Drupal

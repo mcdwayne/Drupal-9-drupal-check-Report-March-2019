@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cer f6bfadaa2405df95f9ec498f6d442a531243312d
+source : http://cgit.drupalcode.org/cer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CorrespondingReferenceDeleteForm.php      
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CorrespondingReferenceForm.php            
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CorrespondingReferenceSyncForm.php        
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

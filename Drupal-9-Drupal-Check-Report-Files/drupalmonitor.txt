@@ -1,0 +1,51 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupalmonitor 706d31a7ea20ef6e62216dd91a8dd39053cb9a48
+source : http://cgit.drupalcode.org/drupalmonitor 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   drupalmonitor.files.inc                  
+ ------ ----------------------------------------- 
+  13     Call to deprecated function db_query().  
+  21     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   drupalmonitor.load.inc                   
+ ------ ----------------------------------------- 
+  15     Call to deprecated function db_query().  
+  22     Call to deprecated function db_query().  
+  30     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   drupalmonitor.module                      
+ ------ ------------------------------------------ 
+  144    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   drupalmonitor.node.inc                   
+ ------ ----------------------------------------- 
+  11     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   drupalmonitor.status.inc                 
+ ------ ----------------------------------------- 
+  19     Call to deprecated function db_query().  
+  37     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   drupalmonitor.user.inc                   
+ ------ ----------------------------------------- 
+  13     Call to deprecated function db_query().  
+  21     Call to deprecated function db_query().  
+  29     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

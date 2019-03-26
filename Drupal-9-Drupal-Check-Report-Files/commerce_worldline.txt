@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_worldline d1f0a24f13ffe4efced969f3fa7fbcac141045b6
+source : http://cgit.drupalcode.org/commerce_worldline 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/PluginForm/OffsiteRedirect/SIPSPaymentRedirectForm.php  
+ ------ ------------------------------------------------------------ 
+  49     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/ValidateExternalPayment.php                    
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  105    Call to deprecated function drupal_set_message().  
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/PaymentAdminTest.php                   
+ ------ ---------------------------------------------------------------------- 
+  14     Class Drupal\Tests

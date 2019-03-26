@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drush_task 9e3b09e29d448554687dd58a30556449b6d4afee
+source : http://cgit.drupalcode.org/drush_task 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   drush_task.module                                  
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DrushTask.php                                  
+ ------ --------------------------------------------------- 
+  246    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigForm.php                            
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().  
+  131    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/DrushTaskExecute.php                         
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

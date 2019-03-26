@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_revisions 167be1c05fb713e030db9c94365d5ef7f09374b9
+source : http://cgit.drupalcode.org/entity_reference_revisions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/EntityReferenceRevisionsItem.php  
+ ------ ------------------------------------------------------------- 
+  405    Call to deprecated method entityManager() of class Drupal.   
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/diff/Field/EntityReferenceRevisionsFieldDiffBuilder.php  
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\diff\FieldDiffBuilderBase not found and could not be   
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/views/display/EntityReferenceRevisions.php  
+ ------ ------------------------------------------------------- 
+  126    Call to deprecated function db_like().                 
+  132    Call to deprecated function db_or().                   
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/EntityReferenceRevisionsCompositeTest.php  
+ ------ ------------------------------------------------------------ 
+  117    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  124    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  125    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  126    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  133    Call to deprecated function node_load().                    
+  135    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  136    Call to deprecated method assertNotEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                          
+  140    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  147    Call to deprecated function node_load().                    
+  149    Call to deprecated method assertNotEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                          
+  150    Call to deprecated method assertNotEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                          
+  192    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  193    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  194    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  247    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  248    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  249    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  291    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  292    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  293    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  299    Call to deprecated method assertNotEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                          
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EntityReferenceRevisionsFormatterTest.php               
+ ------ ------------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class   
+         Drupal\Testsntity_reference_revisions\KernelntityReferenceRevisions  
+         FormatterTest.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

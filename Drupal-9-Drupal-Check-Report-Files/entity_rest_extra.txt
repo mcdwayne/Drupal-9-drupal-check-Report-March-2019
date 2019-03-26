@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ descrip. : Extra Rest resources to enable access entities configuration
+source   : [git] https://git.drupal.org/project/entity_rest_extra 99fa7b753f9d36ba81164de82bc017309493400e
+source : http://cgit.drupalcode.org/entity_rest_extra 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/rest/resource/EntityBundlesResource.php          
+ ------ ------------------------------------------------------------ 
+  66     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

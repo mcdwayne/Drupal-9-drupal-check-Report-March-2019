@@ -1,0 +1,43 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_shipping 67e0814d2d24b65b9213a23b3d9fc628b0d7578f
+source : http://cgit.drupalcode.org/commerce_shipping 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/EventSubscriber/OrderSubscriber.php              
+ ------ ----------------------------------------------------- 
+  57     Call to deprecated method getToState() of class      
+         Drupal\state_machinevent\WorkflowTransitionEvent.  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PackageTypeForm.php                       
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ShipmentTypeForm.php                      
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/ShippingMethodForm.php                        
+ ------ ------------------------------------------------------- 
+  16     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  33     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Kernel/Formatter/TrackingLinkFormatterTest.php  
+ ------ ---------------------------------------------------------- 
+  55     Call to deprecated function entity_get_display().         
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

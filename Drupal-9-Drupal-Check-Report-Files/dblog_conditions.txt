@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dblog_conditions 0219962457a5bdf98eeae905dfbae1ed707c6238
+source : http://cgit.drupalcode.org/dblog_conditions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Logger/DbLogConditions.php                   
+ ------ ------------------------------------------------- 
+  67     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

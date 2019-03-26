@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feedbacks 1e24c6fa2faabdebed166cf126a9118292e84884
+source : http://cgit.drupalcode.org/feedbacks 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AddFeedback.php                           
+ ------ --------------------------------------------------- 
+  97     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DelFeedback.php                           
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditFeedback.php                          
+ ------ --------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().  
+  133    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

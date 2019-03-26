@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ds 70b646ee5f2a1b83c1b5ef2d4c2cb8d18bb87dbd
+source : http://git.drupal.org/project/ds.git 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   drush/ExampleField.php                                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalxample_field\Plugin\DsFieldxampleField was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   includes/field_ui.inc                                  
+ ------ ------------------------------------------------------- 
+  72     Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/ds_extras/src/Plugin/Block/DsRegionBlock.php   
+ ------ ------------------------------------------------------- 
+  28     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ChangeLayoutForm.php                      
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/views/Entity/Render/RendererBase.php  
+ ------ ------------------------------------------------- 
+  129    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  130    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Functional/DsFieldCacheTest.php                               
+ ------ ------------------------------------------------------------------------ 
+  15     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class  
+         Drupal\Tests\ds\Functional\DsFieldCacheTest.                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/EntitiesTest.php             
+ ------ -------------------------------------------------- 
+  76     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FieldGroupTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal\Testsield_group\Functional\FieldGroupTestTrait not found  
+         and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/TestBase.php                                     
+ ------ ---------------------------------------------------------------------- 
+  21     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\ds\Functional\TestBase.                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/JavascriptTest.php                      
+ ------ ----------------------------------------------------------------------- 
+  13     Class Drupal\Tests\ds\FunctionalJavascript\JavascriptTest extends      
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.  
+  36     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

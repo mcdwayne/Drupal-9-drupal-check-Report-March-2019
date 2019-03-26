@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_inline dac402734fa0c6308f8213c8c7a9621a79bddb52
+source : http://cgit.drupalcode.org/entity_reference_inline 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldType/EntityReferenceInlineItem.php    
+ ------ ------------------------------------------------------------ 
+  45     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/Translation/ContentTranslation/TranslateWithLastElementHavingTheTargetTranslationTest.php  
+ ------ ---------------------------------------------------------------------------------------------------------------- 
+  497    Call to deprecated method entityManager() of class Drupal.                                                      
+ ------ ---------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

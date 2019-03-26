@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/domain_finder 81a7c74b00c8b9e07ad9deb9e0807badca6a4dca
+source : http://cgit.drupalcode.org/domain_finder 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DomainFinderController.php          
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/DomainFinderSearchForm.php              
+ ------ ------------------------------------------------- 
+  85     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  85     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

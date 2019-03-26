@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/convert_nodes 769826b0b1baed596d6c6bbf11e653d9e8b25902
+source : http://cgit.drupalcode.org/convert_nodes 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ConvertNodes.php                               
+ ------ --------------------------------------------------- 
+  313    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConvertNodesForm.php                      
+ ------ --------------------------------------------------- 
+  219    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+  320    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

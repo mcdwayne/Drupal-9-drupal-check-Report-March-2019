@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_multi_payment e4b09dc957ae4d1f11622171135b0a0afd446489
+source : http://cgit.drupalcode.org/commerce_multi_payment 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/CheckoutPane/MultiplePaymentProcess.php  
+ ------ ------------------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().            
+  71     Call to deprecated function drupal_set_message().            
+  141    Call to deprecated function drupal_set_message().            
+  235    Call to deprecated function drupal_set_message().            
+  239    Call to deprecated function drupal_set_message().            
+  325    Call to deprecated function drupal_set_message().            
+  351    Call to deprecated function drupal_set_message().            
+  357    Call to deprecated function drupal_set_message().            
+  394    Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/MultiplePaymentsCheckoutTest.php       
+ ------ ---------------------------------------------------------------------- 
+  20     Class Drupal\Tests

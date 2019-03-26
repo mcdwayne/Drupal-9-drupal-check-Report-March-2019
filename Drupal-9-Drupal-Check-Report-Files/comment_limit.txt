@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/comment_limit e4201200c8b5002a16d25bc469f37e5cbebf8777
+source : http://cgit.drupalcode.org/comment_limit 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Symfony\Component\ValidatorxecutionContextInterface not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Symfony\Compone...')
+#1 /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/comment_limit/src/Plugin/Validation/Constraint/CommentFormConstraintValidator.php(18): spl_autoload_call('Symfony\Compone...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/home/thatonegu...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/thatonegu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\comment_...')
+#5 [internal function]: spl_autoload_call('Drupal\comment_...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/B in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupal

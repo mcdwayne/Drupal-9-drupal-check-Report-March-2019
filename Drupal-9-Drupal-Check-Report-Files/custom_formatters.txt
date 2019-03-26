@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_formatters fb170921ed1b5d4c9f6645caf3b0dd06749a12c7
+source : http://cgit.drupalcode.org/custom_formatters 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomFormattersSettingsForm.php          
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FormatterForm.php                         
+ ------ --------------------------------------------------- 
+  227    Call to deprecated function drupal_set_message().  
+  230    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/CustomFormatters/FormatterType/Twig.php  
+ ------ ---------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/CustomFormattersTestBase.php           
+ ------ ------------------------------------------------- 
+  122    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

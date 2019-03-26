@@ -1,0 +1,86 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/desk_net 8.x-2.1
+source : http://cgit.drupalcode.org/desk_net 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   desk_net.module                                    
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ActionController.php                
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+  44     Call to deprecated function drupal_set_message().  
+  93     Call to deprecated function drupal_set_message().  
+  319    Call to deprecated function drupal_set_message().  
+  321    Call to deprecated function drupal_set_message().  
+  338    Call to deprecated function drupal_set_message().  
+  342    Call to deprecated function drupal_set_message().  
+  347    Call to deprecated function drupal_set_message().  
+  352    Call to deprecated function drupal_set_message().  
+  358    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DrupalCredentialsController.php     
+ ------ --------------------------------------------------- 
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DefaultModuleConfiguration.php                 
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DeleteMethods.php                              
+ ------ --------------------------------------------------- 
+  212    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeskNetCategoryMatching.php               
+ ------ --------------------------------------------------- 
+  134    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeskNetContentTypeMatching.php            
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  113    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeskNetCredentialsForm.php                
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeskNetSlugSyncing.php                    
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeskNetStatusMatching.php                 
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 27 errors                                                         
+
+ </code>

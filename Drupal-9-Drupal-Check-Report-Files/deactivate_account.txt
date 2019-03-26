@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/deactivate_account 4ca08e3dbf08f9d121189277b7ef052e0185a8d6
+source : http://cgit.drupalcode.org/deactivate_account 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   deactivate_account.module                         
+ ------ -------------------------------------------------- 
+  47     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeactivateAccountForm.php                 
+ ------ --------------------------------------------------- 
+  82     Call to deprecated method getUsername() of class   
+         Drupal\Core\Session\AccountInterface.              
+  138    Call to deprecated function drupal_set_message().  
+  225    Call to deprecated function node_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

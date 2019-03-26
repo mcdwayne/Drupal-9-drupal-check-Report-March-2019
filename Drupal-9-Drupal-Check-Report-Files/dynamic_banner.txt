@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dynamic_banner 8a9fc3a548fac0898f44c873a38de639d95885e5
+source : http://cgit.drupalcode.org/dynamic_banner 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/Dynamic_Banner_Block.php          
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function db_select().           
+  61     Call to deprecated function db_select().           
+  95     Call to deprecated function db_select().           
+  141    Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  153    Call to deprecated function db_select().           
+  199    Call to deprecated function file_load_multiple().  
+  217    Call to deprecated function file_load().           
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/application/Controller/CdbController.php    
+ ------ ------------------------------------------------ 
+  57     Call to deprecated method l() of class Drupal.  
+  60     Call to deprecated method l() of class Drupal.  
+  95     Call to deprecated function db_select().        
+  110    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/forms/AddBannerForm.php                        
+ ------ --------------------------------------------------- 
+  347    Call to deprecated function drupal_set_message().  
+  365    Call to deprecated function db_update().           
+  377    Call to deprecated function db_insert().           
+  394    Call to deprecated function db_delete().           
+  395    Call to deprecated function drupal_set_message().  
+  402    Call to deprecated function db_select().           
+  449    Call to deprecated function file_load_multiple().  
+  464    Call to deprecated function drupal_set_message().  
+  469    Call to deprecated function file_load().           
+  482    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/forms/DeleteBannerForm.php                     
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+  48     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function db_delete().           
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

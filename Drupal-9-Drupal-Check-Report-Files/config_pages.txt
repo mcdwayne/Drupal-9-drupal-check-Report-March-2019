@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_pages f42542daf5a4fc593480c44dad23643b55cb3e0c
+source : http://cgit.drupalcode.org/config_pages 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/ConfigPagesListBuilder.php                 
+ ------ ----------------------------------------------- 
+  85     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+  108    Call to deprecated method url() of class       
+         Drupal\CorentityntityInterface.            
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/ConfigPagesTypeListBuilder.php         
+ ------ ------------------------------------------- 
+  72     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Form/ConfigPagesClearConfirmationForm.php  
+ ------ ----------------------------------------------- 
+  36     Call to deprecated method urlInfo() of class   
+         Drupal

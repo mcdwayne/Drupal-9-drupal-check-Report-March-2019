@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/delete_all 68af3cab5b159da3c0c32be665ae46466e3f560a
+source : http://cgit.drupalcode.org/delete_all 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   drush/delete_all.drush.inc                          
+ ------ ---------------------------------------------------- 
+  199    Call to deprecated function node_type_get_types().  
+  291    Call to deprecated function entity_get_bundles().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/delete_all.content.batch.inc              
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/delete_all.entities.batch.inc             
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/delete_all.user.batch.inc                 
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function user_load().           
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentDelete.php                         
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ descrip. : Improves configuration synchronization UI with source selection and single import.
+source   : [git] https://git.drupal.org/project/config_src f3135cf3c6b3341422aa9e7a4f19d74bb3f396ea
+source : http://cgit.drupalcode.org/config_src 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ImportController.php                
+ ------ --------------------------------------------------- 
+  217    Call to deprecated function drupal_set_message().  
+  236    Call to deprecated function drupal_set_message().  
+  270    Call to deprecated function drupal_set_message().  
+  272    Call to deprecated function drupal_set_message().  
+  286    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigSrc.php                             
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+  133    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/daterange_simplify 9af9ea9e599eb6ad407fe592c4a2e4a4a8e53226
+source : http://cgit.drupalcode.org/daterange_simplify 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInit3d564ac7e5067d0ec4b3b19c6f8602dc was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/composer/autoload_static.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Composer\Autoload\ComposerStaticInit3d564ac7e5067d0ec4b3b19c6f8602dc    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/openpsa/ranger/test/RangerTest.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class OpenPsa\Ranger\RangerTest was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_list 8.x-1.1
+source : http://cgit.drupalcode.org/entity_list 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityListDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityListForm.php                        
+ ------ --------------------------------------------------- 
+  219    Call to deprecated function drupal_set_message().  
+  372    Call to deprecated function drupal_set_message().  
+  378    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Plugin/EntityListDisplay/DefaultEntityListDisplay.php  
+ ------ ----------------------------------------------------------- 
+  192    Call to deprecated function drupal_set_message().          
+  224    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

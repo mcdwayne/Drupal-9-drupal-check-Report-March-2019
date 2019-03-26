@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_xattributes 37f7e040cbafc5386cf1e0df0195ea0a624e231e
+source : https://github.com/drugan/commerce_xattributes 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------------------------------- 
+  Line   modules/commerce_cattributes/src/Plugin/Field/FieldWidget/CorrectProductVariationAttributesWidget.php  
+ ------ ------------------------------------------------------------------------------------------------------- 
+  397    Call to deprecated function entity_get_form_display().                                                 
+  404    Call to deprecated function entity_get_form_display().                                                 
+ ------ ------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/XattributesProductVariationTypeForm.php  
+ ------ -------------------------------------------------- 
+  30     Call to deprecated method url() of class          
+         Drupal\CorentityntityInterface.               
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,75 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/oauth_server_sso 8.x-1.0
+source : http://cgit.drupalcode.org/oauth_server_sso 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/handler.php                                                     
+ ------ ------------------------------------------------------------------------- 
+         Class handler was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/oauth_server_ssoController.php     
+ ------ -------------------------------------------------- 
+  131    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/Mapping.php                                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\oauth_server_sso\Form\mOlicensing was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiniorangeConfigOAuthClient.php           
+ ------ --------------------------------------------------- 
+  178    Call to deprecated function drupal_set_message().  
+  208    Call to deprecated function drupal_set_message().  
+  232    Call to deprecated function drupal_set_message().  
+  234    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiniorangeLicensing.php                   
+ ------ --------------------------------------------------- 
+  236    Call to deprecated function drupal_set_message().  
+  238    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/MiniorangeOAuthServerCustomerSetup.php     
+ ------ ---------------------------------------------------- 
+  224    Call to deprecated function drupal_set_message().   
+  227    Call to deprecated function valid_email_address().  
+  228    Call to deprecated function drupal_set_message().   
+  244    Call to deprecated function drupal_set_message().   
+  250    Call to deprecated function drupal_set_message().   
+  263    Call to deprecated function drupal_set_message().   
+  266    Call to deprecated function drupal_set_message().   
+  277    Call to deprecated function drupal_set_message().   
+  291    Call to deprecated function drupal_set_message().   
+  317    Call to deprecated function drupal_set_message().   
+  320    Call to deprecated function drupal_set_message().   
+  324    Call to deprecated function drupal_set_message().   
+  334    Call to deprecated function drupal_set_message().   
+  337    Call to deprecated function valid_email_address().  
+  338    Call to deprecated function drupal_set_message().   
+  344    Call to deprecated function drupal_set_message().   
+  346    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MiniorangeSupport.php                     
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

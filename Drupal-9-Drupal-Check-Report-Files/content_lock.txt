@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_lock 3a3e4c1faee351bdf56e2feb9a98c30da7e8de6b
+source : http://cgit.drupalcode.org/content_lock 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   modules/content_lock_timeout/tests/src/Functional/ContentLockTimeoutTest.php  
+ ------ ------------------------------------------------------------------------------ 
+  246    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  258    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  271    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  279    Call to deprecated method assertText() of class                               
+         Drupal\Tests\BrowserTestBase.                                                 
+  296    Call to deprecated method assertEqual() of class                              
+         Drupal\Tests\BrowserTestBase.                                                 
+ ------ ------------------------------------------------------------------------------ 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

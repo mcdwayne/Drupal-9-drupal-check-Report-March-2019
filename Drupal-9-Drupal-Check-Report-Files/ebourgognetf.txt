@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ebourgognetf 8.x-1.0
+source : http://cgit.drupalcode.org/ebourgognetf 
+ 
+ <code> 
+Notice: Constant EBOU_TF_MODULE_CONFIG_URL already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/ebourgognetf/src/Form/EbourgogneTfConfigForm.php on line 14
+
+Notice: Constant EBOU_TF_MODULE_CONFIG_URL already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/ebourgognetf/src/Form/EbourgogneTfConfigForm.php on line 14
+
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/EbourgogneTfConfigForm.php                                    
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupalbourgognetf\FormbourgogneTfConfigForm.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/CKEditorPlugin/ebourgognetf.php                            
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalbourgognetf\Plugin\CKEditorPluginbourgogneTf was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

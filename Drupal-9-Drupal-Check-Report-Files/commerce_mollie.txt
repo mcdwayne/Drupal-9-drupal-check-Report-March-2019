@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_mollie 3bee0828a8fa97b2de1ac908494f656f9843e1a3
+source : http://cgit.drupalcode.org/commerce_mollie 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/MolliePaymentOffsiteFormTest.php  
+ ------ ------------------------------------------------------- 
+  363    Call to deprecated function entity_load().             
+  365    Call to deprecated function entity_load().             
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

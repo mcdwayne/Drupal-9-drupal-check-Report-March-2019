@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/edstep 17a0bbd10a28fe4043493e74712626c7bf0d2947
+source : http://cgit.drupalcode.org/edstep 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   edstep.module                                 
+ ------ ---------------------------------------------- 
+  90     Call to deprecated function drupal_render().  
+  92     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/EdstepCourseController.php                   
+ ------ ------------------------------------------------------------ 
+  31     Call to deprecated method entityManager() of class          
+         Drupal\Core\Controller\ControllerBase.                      
+  41     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EdstepCourseAddButtonForm.php             
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EdstepCourseDeleteButtonForm.php          
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EdstepCourseEnrollForm.php                
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EdstepCourseForm.php                      
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

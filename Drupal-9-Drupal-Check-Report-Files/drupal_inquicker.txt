@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupal_inquicker 8.x-1.0-beta2
+source : http://cgit.drupalcode.org/drupal_inquicker 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   test/Formatter/ScheduleListFormatterTest.php                            
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\drupal_inquicker\Tests\Source\ScheduleListFormatterTest    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   test/Source/DummySourceTest.php                                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\drupal_inquicker\Tests\Source\DummySourceTest was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

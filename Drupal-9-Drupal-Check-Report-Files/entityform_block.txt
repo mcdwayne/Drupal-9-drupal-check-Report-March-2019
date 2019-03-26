@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entityform_block f619aece59968a43446919f7fa64947a385672f2
+source : http://cgit.drupalcode.org/entityform_block 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Block/EntityEditFormBlock.php                    
+ ------ ------------------------------------------------------------ 
+  35     Call to deprecated method entityManager() of class Drupal.  
+  49     Call to deprecated method entityManager() of class Drupal.  
+  62     Call to deprecated method entityManager() of class Drupal.  
+  99     Call to deprecated method entityManager() of class Drupal.  
+  100    Call to deprecated method entityManager() of class Drupal.  
+  104    Call to deprecated method entityManager() of class Drupal.  
+  112    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

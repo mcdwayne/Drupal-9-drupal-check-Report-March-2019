@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_datatrans 1496975c96469a2144def62665f4f3c79686919c
+source : http://cgit.drupalcode.org/commerce_datatrans 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/Datatrans.php   
+ ------ --------------------------------------------------- 
+  243    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/DatatransAlias.php  
+ ------ ---------------------------------------------------------- 
+  33     Call to method create() of deprecated class               
+         Drupal\Core\Field\BaseFieldDefinition.                    
+  37     Call to method create() of deprecated class               
+         Drupal\Core\Field\BaseFieldDefinition.                    
+  41     Call to method create() of deprecated class               
+         Drupal\Core\Field\BaseFieldDefinition.                    
+  45     Call to method create() of deprecated class               
+         Drupal\Core\Field\BaseFieldDefinition.                    
+ ------ ---------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

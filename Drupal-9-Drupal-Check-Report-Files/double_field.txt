@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/double_field e977dbc8c1d28b89f0b3d3215116f8e3c3eba9a6
+source : http://cgit.drupalcode.org/double_field 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   double_field.module                                
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Feeds/Target/DoubleField.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupaleeds\Plugin\Type\Target\FieldTargetBase not found and  
+         could not be autoloaded.                                             
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

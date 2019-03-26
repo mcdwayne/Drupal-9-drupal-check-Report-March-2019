@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_entity_student 8.x-1.0
+source : http://cgit.drupalcode.org/content_entity_student 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/Controller/StContactListBuilder.php  
+ ------ ------------------------------------------------ 
+  57     Call to deprecated method link() of class       
+         Drupal\CorentityntityInterface.             
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StContactForm.php                         
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

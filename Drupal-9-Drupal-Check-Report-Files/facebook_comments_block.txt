@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/facebook_comments_block f071d4bae5bbd3e739b70606f07040bb7a3d946c
+source : http://cgit.drupalcode.org/facebook_comments_block 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   facebook_comments_block.module                    
+ ------ -------------------------------------------------- 
+  20     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/FacebookCommentsBlock.php         
+ ------ --------------------------------------------------- 
+  285    Call to deprecated function drupal_set_message().  
+  291    Call to deprecated function drupal_set_message().  
+  297    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

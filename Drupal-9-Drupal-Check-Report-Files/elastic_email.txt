@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/elastic_email 39bf6c97e3c471723ee73bab0ade230f5f13c304
+source : http://cgit.drupalcode.org/elastic_email 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------ 
+  Line   lib/ElasticEmailClient.php                                        
+ ------ ------------------------------------------------------------------ 
+         Class ElasticEmailClient\ApiClient was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ElasticEmailController.php          
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/InitSubscriber.php             
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElasticEmailActivityLog.php               
+ ------ --------------------------------------------------- 
+  218    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElasticEmailSendTest.php                  
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+  103    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ElasticEmailSettingsForm.php              
+ ------ --------------------------------------------------- 
+  33     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Mail/ElasticEmailMailSystem.php         
+ ------ --------------------------------------------------- 
+  161    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

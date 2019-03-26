@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_rewrite ed31453a1c1177965d88a30c4a29ade64e51f981
+source : http://cgit.drupalcode.org/config_rewrite 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/ConfigRewriteTest.php                
+ ------ ------------------------------------------------------ 
+  70     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  71     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

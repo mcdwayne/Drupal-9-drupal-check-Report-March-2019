@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_4xx_pages 902dd4c4bc68b38ae94da551239950249705f181
+source : http://cgit.drupalcode.org/beg_custom_403s 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Controller/CustomHttp4xxController.php   
+ ------ --------------------------------------------- 
+  62     Calls to function fnmatch should not exist.  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Custom4xxConfigEntityCloneForm.php        
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Custom4xxConfigEntityDeleteForm.php       
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Custom4xxConfigEntityForm.php             
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Tests/LoadTest.php                                                  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupaleg_custom_403s\Tests\LoadTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

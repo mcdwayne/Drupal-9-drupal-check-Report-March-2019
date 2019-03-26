@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/external_link_preview 09f09b21ac753a0c63b6bbf3d59dedf7d6d4eae9
+source : http://cgit.drupalcode.org/external_link_preview 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ExternalLinkPreview.php  
+ ------ --------------------------------------------------------- 
+  121    Call to deprecated function drupal_render().             
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Preview/GetPreview.php                    
+ ------ ---------------------------------------------- 
+  214    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

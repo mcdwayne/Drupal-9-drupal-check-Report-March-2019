@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cpf 906fbd4fa5ca3eca5fb93d29bc7587b2d6675936
+source : http://cgit.drupalcode.org/cpf 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   cpf.module                                         
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function libraries_get_path().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Plugin/Validation/Constraint/CpfUniqueConstraintValidator.php  
+ ------ ------------------------------------------------------------------- 
+  42     Call to deprecated method strtolower() of class                    
+         Drupal\Component\Utility\Unicode.                                  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

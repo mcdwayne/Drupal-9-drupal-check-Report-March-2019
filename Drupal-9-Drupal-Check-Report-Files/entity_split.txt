@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_split 4e5711948ed8c9dca7e31e60a9567005517ddf7e
+source : http://cgit.drupalcode.org/entity_split 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/EntitySplitType.php                              
+ ------ ------------------------------------------------------------ 
+  113    Call to deprecated method entityManager() of class Drupal.  
+  141    Call to deprecated method entityManager() of class Drupal.  
+  167    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntitySplitForm.php                       
+ ------ --------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/EntitySplitTypeForm.php                       
+ ------ ------------------------------------------------------- 
+  57     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  94     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  116    Call to deprecated function drupal_set_message().      
+  122    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_snapshot f4c1f41c89f7b0b3e04f3cace4d168b4da706c7e
+source : http://cgit.drupalcode.org/config_snapshot 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ConfigSnapshotConfigEntityUnitTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  64     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  70     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

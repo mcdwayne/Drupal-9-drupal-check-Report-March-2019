@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/console_logger 5e75c6327a15c720c505232745e7e85dc485221c
+source : http://cgit.drupalcode.org/console_logger 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/RequestLogger.php                        
+ ------ --------------------------------------------- 
+  158    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  158    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

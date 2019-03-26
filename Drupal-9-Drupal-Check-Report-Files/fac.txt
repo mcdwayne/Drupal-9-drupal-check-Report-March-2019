@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fac 885eb975ef3f558e42986ef16a3f04f5276a11e8
+source : http://cgit.drupalcode.org/fac 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/HashServiceTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  24     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

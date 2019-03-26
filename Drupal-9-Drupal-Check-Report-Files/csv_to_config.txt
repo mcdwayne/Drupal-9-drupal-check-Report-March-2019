@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/csv_to_config cfa61445e52482b5a654d8afc3b9eb3db58587ee
+source : http://cgit.drupalcode.org/csv_to_config 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CSVImportStep1Form.php                    
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CSVImportStep2Form.php                    
+ ------ --------------------------------------------------- 
+  155    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

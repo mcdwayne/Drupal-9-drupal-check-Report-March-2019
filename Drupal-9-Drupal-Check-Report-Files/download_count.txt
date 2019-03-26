@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/download_count 177664e92a31371618c6523bff414c75a1e678e3
+source : http://cgit.drupalcode.org/download_count 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   download_count.module                            
+ ------ ------------------------------------------------- 
+  48     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  50     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/DownloadCountController.php       
+ ------ ------------------------------------------------- 
+  364    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DownloadCountClearForm.php                
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DownloadCountExportForm.php               
+ ------ --------------------------------------------------- 
+  140    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DownloadCountResetForm.php                
+ ------ --------------------------------------------------- 
+  150    Call to deprecated function db_truncate().         
+  152    Call to deprecated function db_truncate().         
+  153    Call to deprecated function drupal_set_message().  
+  156    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function db_delete().           
+  166    Call to deprecated function db_delete().           
+  171    Call to deprecated function drupal_set_message().  
+  174    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

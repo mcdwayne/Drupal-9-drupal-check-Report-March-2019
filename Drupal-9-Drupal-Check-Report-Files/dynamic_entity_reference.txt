@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dynamic_entity_reference fd19cd02bd6a43ae16ab371c547a909d42b8e5af
+source : http://cgit.drupalcode.org/dynamic_entity_reference 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/DynamicEntityReferenceWidget.php  
+ ------ --------------------------------------------------------------- 
+  229    Call to deprecated function entity_get_bundles().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Kernel/DynamicEntityReferenceFormatterTest.php  
+ ------ ---------------------------------------------------------- 
+  181    Call to deprecated function entity_get_display().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Kernel/DynamicEntityReferenceItemTest.php  
+ ------ ----------------------------------------------------- 
+  201    Call to deprecated method pass() of class            
+         Drupal\KernelTests\KernelTestBase.                   
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

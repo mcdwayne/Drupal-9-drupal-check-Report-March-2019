@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_entity_builder 2ba1359f1fd9134728655352401cdf2dd10a5faa
+source : http://cgit.drupalcode.org/content_entity_builder 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   content_entity_builder.module                   
+ ------ ------------------------------------------------ 
+  106    Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/ContentEntityBuilderPermissions.php                               
+ ------ ---------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in    
+         class Drupal

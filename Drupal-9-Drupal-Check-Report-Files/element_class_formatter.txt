@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/element_class_formatter fffe0a250c0b2911759459691a27deb2d2358bc6
+source : http://cgit.drupalcode.org/element_class_formatter 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/ElementClassFormatterTestBase.php  
+ ------ -------------------------------------------------------- 
+  64     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

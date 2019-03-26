@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entityreference_live_preview f5c8c92469b55a148734bf0f8ec2eb67ba2fe108
+source : http://cgit.drupalcode.org/entityreference_live_preview 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   entityreference_live_preview.module                         
+ ------ ------------------------------------------------------------ 
+  43     Call to deprecated method entityManager() of class Drupal.  
+  147    Call to deprecated method entityManager() of class Drupal.  
+  215    Call to deprecated function entity_load().                  
+  221    Call to deprecated function entity_view().                  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

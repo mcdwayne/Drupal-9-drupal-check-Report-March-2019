@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupal_coverage_core 75d4b2eb3ea4f12230f0603440510fb9c643ea08
+source : http://cgit.drupalcode.org/drupal_coverage_core 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   drupal_coverage_core.module               
+ ------ ------------------------------------------ 
+  110    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/DrupalCoverageCoreController.php               
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnalyseForm.php                           
+ ------ --------------------------------------------------- 
+  216    Call to deprecated function drupal_set_message().  
+  220    Call to deprecated function drupal_set_message().  
+  223    Call to deprecated function drupal_set_message().  
+  261    Call to deprecated function drupal_set_message().  
+  269    Call to deprecated function drupal_set_message().  
+  274    Call to deprecated function drupal_set_message().  
+  277    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/AnalysisManagerTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  38     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ModuleManagerTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

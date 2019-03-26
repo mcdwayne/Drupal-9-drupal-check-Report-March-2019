@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drush_typeinfo 8f48421f01407e17064669280043641cd095bac4
+source : http://cgit.drupalcode.org/drush_typeinfo 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   typeinfo.drush.inc                                          
+ ------ ------------------------------------------------------------ 
+  146    Call to deprecated function entity_get_bundles().           
+  154    Call to deprecated method entityManager() of class Drupal.  
+  363    Call to deprecated function entity_get_bundles().           
+  393    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

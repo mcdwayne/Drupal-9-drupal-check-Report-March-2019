@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_printful 447849fd0a6b2b5178be909d7bc0efea8e32d4b3
+source : http://cgit.drupalcode.org/commerce_printful 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   commerce_printful.drush.inc                                 
+ ------ ------------------------------------------------------------ 
+  72     Call to deprecated method entityManager() of class Drupal.  
+  73     Call to deprecated method entityManager() of class Drupal.  
+  108    Call to deprecated method entityManager() of class Drupal.  
+  129    Call to deprecated method entityManager() of class Drupal.  
+  154    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PrintfulConfigForm.php                    
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_pagos_net 8.x-2.0-alpha3
+source : http://cgit.drupalcode.org/commerce_pagos_net 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/PagosNet.php  
+ ------ ---------------------------------------------------- 
+  36     Call to method create() of deprecated class         
+         Drupal\Core\Field\BaseFieldDefinition.              
+  41     Call to method create() of deprecated class         
+         Drupal\Core\Field\BaseFieldDefinition.              
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

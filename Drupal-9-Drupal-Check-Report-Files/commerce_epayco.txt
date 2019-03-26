@@ -1,0 +1,86 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_epayco 207b92f15db8aac1bc70ef7440b77bff8d955ec2
+source : http://cgit.drupalcode.org/commerce_epayco 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CommerceEpaycoApiDataDeleteForm.php       
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CommerceEpaycoApiDataFormBase.php         
+ ------ --------------------------------------------------- 
+  196    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/EPaycoRedirect.php  
+ ------ ------------------------------------------------------- 
+  134    Call to deprecated function drupal_set_message().      
+  141    Call to deprecated function drupal_set_message().      
+  152    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/ChargeSubscription.php                       
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/CreateCardToken.php                          
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/CreateCustomer.php                           
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/CreatePlan.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/CreateSubscription.php                       
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/RemovePlan.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/RemoveSubscription.php                       
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/UpdateCustomer.php                           
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

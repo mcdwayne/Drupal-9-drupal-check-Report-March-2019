@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_braintree c60fa1742833ec31c6a5e0da5e4ddd0c3fba836e
+source : http://cgit.drupalcode.org/commerce_braintree 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/PayPalCredit.php  
+ ------ -------------------------------------------------------- 
+  39     Call to method create() of deprecated class             
+         Drupal\Core\Field\BaseFieldDefinition.                  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ebourgogneannuaires 8.x-1.0
+source : http://cgit.drupalcode.org/ebourgogneannuaires 
+ 
+ <code> 
+Notice: Constant EBOU_ANNU_MODULE_CONFIG_URL already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/ebourgogneannuaires/src/Plugin/Block/EbourgogneAnnuairesBlock.php on line 17
+
+Notice: Constant EBOU_ANNU_MODULE_CONFIG_URL already defined in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/ebourgogneannuaires/src/Plugin/Block/EbourgogneAnnuairesBlock.php on line 17
+
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Form/EbourgogneAnnuairesConfigForm.php                             
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupalbourgogneannuaires\FormbourgogneAnnuairesConfigForm.         
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/Block/EbourgogneAnnuairesBlock.php                          
+ ------ ----------------------------------------------------------------------- 
+         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+         (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
+         must be called with a real container.) thrown while autoloading class  
+         Drupalbourgogneannuaires\Plugin\BlockbourgogneAnnuairesBlock.      
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

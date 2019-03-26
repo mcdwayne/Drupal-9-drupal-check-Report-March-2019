@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_payir b5c39c759ae626be4563fa0b1f73c3ec421d15d6
+source : http://cgit.drupalcode.org/commerce_payir 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/OffsiteRedirect.php  
+ ------ -------------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().       
+  123    Call to deprecated function drupal_set_message().       
+  126    Call to deprecated function drupal_set_message().       
+  132    Call to deprecated function drupal_set_message().       
+  137    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/PluginForm/OffsiteRedirect/PaymentOffsiteForm.php  
+ ------ ------------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().      
+  57     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

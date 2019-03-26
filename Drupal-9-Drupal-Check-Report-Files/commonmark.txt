@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commonmark b5ed636d72b76468cfc0140856f6fdf779380856
+source : http://cgit.drupalcode.org/commonmark 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   commonmark.commonmark.inc                                   
+ ------ ------------------------------------------------------------ 
+  191    Call to deprecated method entityManager() of class Drupal.  
+  260    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  260    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   commonmark.filter.inc                            
+ ------ ------------------------------------------------- 
+  304    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  304    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  380    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  380    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  380    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  380    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  435    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  435    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   commonmark.module                                  
+ ------ --------------------------------------------------- 
+  420    Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   commonmark_attributes/commonmark_attributes.module  
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated function db_select().            
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   commonmark_table/commonmark_table.module  
+ ------ ------------------------------------------ 
+  28     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Inline/AtAutolinker.php                                 
+ ------ ------------------------------------------------------------ 
+  65     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Inline/HashAutolinker.php                               
+ ------ ------------------------------------------------------------ 
+  62     Call to deprecated method entityManager() of class Drupal.  
+  116    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  116    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/comment_deletion 4fdbb91e9d617d07cc07333ae860500ad8c11b12
+source : http://cgit.drupalcode.org/comment_deletion 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   comment_deletion.delete.inc                                 
+ ------ ------------------------------------------------------------ 
+  8      Call to deprecated method entityManager() of class Drupal.  
+  21     Call to deprecated function entity_delete_multiple().       
+  32     Call to deprecated function drupal_set_message().           
+  38     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/BatchControllerform.php             
+ ------ --------------------------------------------------- 
+  21     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/DeleteControllerform.php         
+ ------ ------------------------------------------------ 
+  53     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

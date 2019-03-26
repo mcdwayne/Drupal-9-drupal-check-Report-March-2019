@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_refresh fdaddf09ac02c511c8726ea017da4af9fb3befa2
+source : http://cgit.drupalcode.org/config_refresh 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/ConfigRefreshManager.php                                
+ ------ ------------------------------------------------------------ 
+  42     Call to deprecated method entityManager() of class Drupal.  
+  43     Call to deprecated method entityManager() of class Drupal.  
+  78     Call to deprecated method entityManager() of class Drupal.  
+  85     Call to deprecated method entityManager() of class Drupal.  
+  86     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigRefreshForm.php                     
+ ------ --------------------------------------------------- 
+  139    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

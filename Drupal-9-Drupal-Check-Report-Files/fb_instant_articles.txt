@@ -1,0 +1,88 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fb_instant_articles 98b7a24c4eeafaa7de84947fc5c23bed7c915c95
+source : http://cgit.drupalcode.org/fb_instant_articles 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/fb_instant_articles_api/fb_instant_articles_api.module  
+ ------ ---------------------------------------------------------------- 
+  53     Call to deprecated function drupal_set_message().               
+  56     Call to deprecated function drupal_set_message().               
+  79     Call to deprecated function drupal_set_message().               
+  83     Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ApiController.php                   
+ ------ --------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function drupal_set_message().  
+  86     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ApiSettingsForm.php                       
+ ------ --------------------------------------------------- 
+  373    Call to deprecated function drupal_set_message().  
+  377    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Behat/features/bootstrap/FbInstantArticlesFeatureContext.php  
+ ------ ------------------------------------------------------------------------ 
+         Class FbInstantArticlesFeatureContext was not found while trying to     
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/ViewModeToggleTest.php      
+ ------ ------------------------------------------------- 
+  70     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Plugin/Field/FieldFormatter/FormatterTestBase.php  
+ ------ -------------------------------------------------------------------- 
+  82     Call to deprecated method strtolower() of class                     
+         Drupal\Component\Utility\Unicode.                                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/Plugin/Field/FieldFormatter/SubtitleFormatterTest.php  
+ ------ ------------------------------------------------------------------------ 
+  40     Call to deprecated method strtolower() of class                         
+         Drupal\Component\Utility\Unicode.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ContentEntityNormalizerTestBase.php                       
+ ------ ------------------------------------------------------------------------- 
+  51     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  58     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  70     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/DrupalClientTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  108    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/InstantArticleContentEntityNormalizerTest.php             
+ ------ ------------------------------------------------------------------------- 
+  202    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  208    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  209    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

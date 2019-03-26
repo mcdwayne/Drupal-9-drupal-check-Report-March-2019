@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/facebook_feed 99e83fe4f062fc9e52b9d4631f450f6101575a3d
+source : http://cgit.drupalcode.org/facebook_feed 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

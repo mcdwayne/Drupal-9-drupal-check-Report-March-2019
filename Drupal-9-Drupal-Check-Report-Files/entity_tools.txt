@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_tools 8c0a6708e942543d521d0370387c6ff66a3cc9f9
+source : http://cgit.drupalcode.org/entity_tools 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   entity_tools_example/tests/src/Functional/LoadTest.php  
+ ------ -------------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/EntityTools.php                                
+ ------ --------------------------------------------------- 
+  514    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

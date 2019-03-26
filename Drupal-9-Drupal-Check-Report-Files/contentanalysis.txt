@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contentanalysis e3441bdac14c192ceca46ce112fa206f17c9d57a
+source : http://cgit.drupalcode.org/contentanalysis 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   APIEXAMPLE/contentanalysisexample.module           
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   contentanalysis.module                             
+ ------ --------------------------------------------------- 
+  430    Call to deprecated function drupal_set_message().  
+  558    Call to deprecated function db_merge().            
+  658    Call to deprecated function node_load().           
+  757    Call to deprecated function node_load().           
+  1316   Call to deprecated function drupal_render().       
+  1671   Call to deprecated function db_select().           
+  1700   Call to deprecated function db_update().           
+  1708   Call to deprecated function db_insert().           
+  1725   Call to deprecated function db_select().           
+  1740   Call to deprecated function db_select().           
+  1761   Call to deprecated function db_delete().           
+  1764   Call to deprecated function db_delete().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/seo_friend.inc                            
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function db_query().            
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

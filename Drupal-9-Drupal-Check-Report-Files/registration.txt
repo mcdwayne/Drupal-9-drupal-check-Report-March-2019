@@ -1,0 +1,10 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/registration 09b456a1b34945c0d553a14a7f06bc9f4094ce0b
+source : http://cgit.drupalcode.org/registration 
+ 
+ <code> 
+Warning: Declaration of Drupalegistration\Registration::save() should be compatible with Drupal\migrate\Plugin\migrate\destinationntityContentBase::save(Drupal\Corentity\ContentEntityInterface $entity, array $old_destination_id_values = Array) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/registration/src/Registration.php on line 34
+
+Fatal error: Cannot make non static method Drupal\CorentityntityInterface::getEntityTypeId() static in class Drupal\migrate\Plugin\migrate\destinationntity in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/registration/src/Registration.php on line 34 
+
+ </code>

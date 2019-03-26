@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/devportal b12d04345e5a69cd29527768de32c6eaa77f5484
+source : http://cgit.drupalcode.org/devportal 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/api_reference/tests/src/FunctionalJavascript/ApiRefTestBase.php  
+ ------ ------------------------------------------------------------------------- 
+  13     Class                                                                    
+         Drupal\Tests\devportal_api_reference\FunctionalJavascript\ApiRefTestBas  
+         e extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+  33     Call to method __construct() of deprecated class                         
+         Drupal\Tests\BrowserTestBase.                                            
+  40     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+  68     Call to method createScreenshot() of deprecated class                    
+         Drupal\FunctionalJavascriptTests\WebDriverTestBase.                      
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,615 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/devel 94223642c8d90d0fac84dd4f6b559d5dbe71e22b
+source : http://cgit.drupalcode.org/devel 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   devel.module                                       
+ ------ --------------------------------------------------- 
+  151    Call to deprecated function drupal_set_message().  
+  265    Call to deprecated function drupal_set_message().  
+  268    Calls to function kpr should not exist.            
+  271    Calls to function dpm should not exist.            
+  284    Calls to function dpm should not exist.            
+  398    Calls to function dpm should not exist.            
+  441    Calls to function kpr should not exist.            
+  475    Calls to function dpm should not exist.            
+  491    Calls to function kpr should not exist.            
+  564    Calls to function kpr should not exist.            
+  628    Calls to function dpq should not exist.            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   devel_generate/devel_generate.batch.inc            
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   devel_generate/devel_generate.module          
+ ------ ---------------------------------------------- 
+  123    Call to deprecated function entity_create().  
+  144    Call to deprecated function db_insert().      
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   devel_generate/src/DevelGenerateBase.php                           
+ ------ ------------------------------------------------------------------- 
+  96     Call to deprecated function entity_load_multiple_by_properties().  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   devel_generate/src/Form/DevelGenerateForm.php      
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php  
+ ------ ------------------------------------------------------------------ 
+  528    Call to deprecated function db_query_range().                     
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   devel_generate/src/Plugin/DevelGenerate/MenuDevelGenerate.php  
+ ------ --------------------------------------------------------------- 
+  279    Call to deprecated function db_like().                         
+  308    Call to deprecated method strtolower() of class                
+         Drupal\Component\Utility\Unicode.                              
+  367    Call to deprecated function db_select().                       
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   devel_generate/src/Plugin/DevelGenerate/TermDevelGenerate.php  
+ ------ --------------------------------------------------------------- 
+  163    Call to deprecated function db_query().                        
+  187    Call to deprecated function db_select().                       
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   devel_generate/src/Plugin/DevelGenerate/VocabularyDevelGenerate.php  
+ ------ --------------------------------------------------------------------- 
+  137    Call to deprecated method strtolower() of class                      
+         Drupal\Component\Utility\Unicode.                                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   devel_generate/src/Tests/DevelGenerateTest.php                        
+ ------ ---------------------------------------------------------------------- 
+  21     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\devel_generate\Tests\DevelGenerateTest.                        
+  51     Call to deprecated function entity_create().                          
+  54     Call to deprecated method strtolower() of class                       
+         Drupal\Component\Utility\Unicode.                                     
+  71     Call to deprecated function entity_get_form_display().                
+  77     Call to deprecated function entity_get_display().                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------- 
+  Line   devel_generate/tests/modules/devel_generate_example/src/Plugin/DevelGenerate/ExampleDevelGenerate.php  
+ ------ ------------------------------------------------------------------------------------------------------- 
+  69     Call to deprecated function entity_create().                                                           
+ ------ ------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   devel_generate/tests/src/DevelGenerateManagerTest.php               
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\Tests\devel_generate\DevelGenerateManagerTest was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   kint/kint.module                                   
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   kint/kint/Kint.class.php                                              
+ ------ ---------------------------------------------------------------------- 
+         Class Kint was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   kint/kint/decorators/plain.php                                          
+ ------ ------------------------------------------------------------------------ 
+         Class Kint_Decorators_Plain was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/kint/decorators/rich.php                                          
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Decorators_Rich was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/kint/examples/overview.php                                        
+ ------ ----------------------------------------------------------------------- 
+         Class BaseUser was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/kint/inc/kintObject.class.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class KintObject was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/kint/inc/kintParser.class.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class kintParser was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   kint/kint/inc/kintVariableData.class.php                           
+ ------ ------------------------------------------------------------------- 
+         Class kintVariableData was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/classmethods.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Parsers_ClassMethods was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/classstatics.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Parsers_ClassStatics was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/color.php                                   
+ ------ --------------------------------------------------------------------- 
+         Class Kint_Parsers_Color was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/fspath.php                                   
+ ------ ---------------------------------------------------------------------- 
+         Class Kint_Parsers_FsPath was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/json.php                                   
+ ------ -------------------------------------------------------------------- 
+         Class Kint_Parsers_Json was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/microtime.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Kint_Parsers_Microtime was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/objectiterateable.php                      
+ ------ -------------------------------------------------------------------- 
+         Class Kint_Parsers_objectIterateable was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/splobjectstorage.php                      
+ ------ ------------------------------------------------------------------- 
+         Class Kint_Parsers_SplObjectStorage was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/timestamp.php                                   
+ ------ ------------------------------------------------------------------------- 
+         Class Kint_Parsers_Timestamp was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   kint/kint/parsers/custom/xml.php                                   
+ ------ ------------------------------------------------------------------- 
+         Class Kint_Parsers_Xml was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/kint/parsers/objects/closure.php                                  
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Objects_Closure was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   kint/kint/parsers/objects/smarty.php                                  
+ ------ ---------------------------------------------------------------------- 
+         Class Kint_Objects_Smarty was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/kint/parsers/objects/splfileinfo.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class Kint_Objects_SplFileInfo was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DevelController.php                 
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/RouteInfoController.php             
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  191    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DevelDumperManager.php                         
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/EventSubscriber/ThemeInfoRebuildSubscriber.php  
+ ------ ---------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigEditor.php                          
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+  38     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+  57     Calls to function dpr should not exist.            
+  115    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DevelReinstall.php                        
+ ------ --------------------------------------------------- 
+  147    Call to deprecated function drupal_set_message().  
+  150    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RouterRebuildConfirmForm.php              
+ ------ --------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                                            
+ ------ --------------------------------------------------------------------- 
+  97     Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  110    Call to deprecated method l() of class Drupal\Core\Form\FormBase.    
+  111    Call to deprecated method l() of class Drupal\Core\Form\FormBase.    
+  112    Call to deprecated method l() of class Drupal\Core\Form\FormBase.    
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SystemStateEdit.php                       
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+  74     Calls to function kpr should not exist.            
+  85     Call to deprecated function drupal_set_message().  
+  158    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Devel/Dumper/DoctrineDebug.php                                
+ ------ ------------------------------------------------------------------------- 
+  25     Call to method export() of deprecated class Doctrine\Common\Util\Debug.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/src/Functional/DevelCommandsTest.php                        
+ ------ ------------------------------------------------------------------ 
+  16     Class Drush\TestTraits\DrushTestTrait not found and could not be  
+         autoloaded.                                                       
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/DevelControllerTest.php             
+ ------ --------------------------------------------------------- 
+  30     Call to deprecated function entity_create().             
+  36     Call to deprecated function entity_create().             
+  42     Call to deprecated function entity_create().             
+  48     Call to deprecated function entity_create().             
+  65     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  67     Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  68     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  69     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  70     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  71     Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+  73     Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  74     Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+  76     Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  81     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  84     Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+  86     Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  88     Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  89     Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+  91     Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  96     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  97     Call to deprecated method assertLinkByHref() of class    
+         Drupal\Tests\BrowserTestBase.                            
+  98     Call to deprecated method assertNoLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  99     Call to deprecated method assertNoLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  101    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  103    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  105    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  110    Call to deprecated method assertNoText() of class        
+         Drupal\Tests\BrowserTestBase.                            
+  111    Call to deprecated method assertNoLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  112    Call to deprecated method assertNoLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  113    Call to deprecated method assertNoLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  115    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  117    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+  119    Call to deprecated method assertResponse() of class      
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/DevelDumperTest.php                   
+ ------ ----------------------------------------------------------- 
+  56     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  58     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  61     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  67     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  70     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  72     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  75     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  93     Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  107    Call to deprecated method assertNoFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/DevelErrorHandlerTest.php             
+ ------ ----------------------------------------------------------- 
+  49     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  61     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  80     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  96     Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  121    Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  122    Call to deprecated method assertOptionSelected() of class  
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/DevelMenuLinksTest.php          
+ ------ ----------------------------------------------------- 
+  50     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  52     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  55     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  57     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  60     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  62     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  68     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  70     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  72     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  74     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  87     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  89     Call to deprecated method assertUrl() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  92     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  94     Call to deprecated method assertUrl() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  97     Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  99     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  100    Call to deprecated method assertUrl() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  103    Call to deprecated method assertLink() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  105    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  106    Call to deprecated method assertUrl() of class       
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Functional/DevelModulesReinstallTest.php  
+ ------ ---------------------------------------------------- 
+  57     Call to deprecated method assertText() of class     
+         Drupal\Tests\BrowserTestBase.                       
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/DevelSwitchUserTest.php                             
+ ------ ------------------------------------------------------------------------- 
+  70     Call to deprecated method assertNoText() of class                        
+         Drupal\Tests\BrowserTestBase.                                            
+  74     Call to deprecated method assertResponse() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  79     Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  83     Call to deprecated method assertResponse() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  87     Call to deprecated method assertResponse() of class                      
+         Drupal\Tests\BrowserTestBase.                                            
+  121    Call to deprecated method assertText() of class                          
+         Drupal\Tests\BrowserTestBase.                                            
+  217    Call to deprecated method assert() of class                              
+         Drupal\Tests\BrowserTestBase.                                            
+  228    Call to deprecated method assert() of class                              
+         Drupal\Tests\BrowserTestBase.                                            
+  239    Call to deprecated method assert() of class                              
+         Drupal\Tests\BrowserTestBase.                                            
+  247    Call to deprecated method assert() of class                              
+         Drupal\Tests\BrowserTestBase.                                            
+  255    Call to deprecated method assert() of class                              
+         Drupal\Tests\BrowserTestBase.                                            
+  291    Call to deprecated method pass() of class Drupal\Tests\BrowserTestBase.  
+  310    Call to deprecated method assert() of class                              
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/DevelDumperTestTrait.php (in context of class Drupal\Tests\devel\Kernel\DevelTwigExtensionTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  27     Call to deprecated method assertEqual() of class                                                                  
+         Drupal\KernelTests\KernelTestBase.                                                                                
+  66     Call to deprecated method assertEqual() of class                                                                  
+         Drupal\KernelTests\KernelTestBase.                                                                                
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Kernel/DevelQueryDebugTest.php            
+ ------ ---------------------------------------------------- 
+  124    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Kernel/DevelTwigExtensionTest.php         
+ ------ ---------------------------------------------------- 
+  170    Call to deprecated function drupal_get_messages().  
+  181    Call to deprecated function drupal_get_messages().  
+  188    Call to deprecated function drupal_get_messages().  
+  196    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unish/DevelDrushTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Tests\devel\Unish\DevelDrushTest was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   webprofiler/src/Controller/DashboardController.php  
+ ------ ---------------------------------------------------- 
+  169    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   webprofiler/src/DataCollector/DrupalDataCollector.php  
+ ------ ------------------------------------------------------- 
+  48     Call to deprecated function drupal_get_profile().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   webprofiler/src/DataCollector/PhpConfigDataCollector.php             
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\webprofiler\DataCollector\PhpConfigDataCollector.       
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   webprofiler/src/DataCollector/ThemeDataCollector.php       
+ ------ ----------------------------------------------------------- 
+  67     Call to deprecated method getStyleSheetsRemove() of class  
+         Drupal\Core\Theme\ActiveTheme.                             
+ ------ ----------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   webprofiler/src/Form/ConfigForm.php                
+ ------ --------------------------------------------------- 
+  210    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   webprofiler/tests/src/FunctionalJavascript/WebprofilerTestBase.php       
+ ------ ------------------------------------------------------------------------- 
+  13     Class Drupal\Tests\webprofiler\FunctionalJavascript\WebprofilerTestBase  
+         extends deprecated class                                                 
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   webprofiler/tests/src/Unit/DataCollector/AssetsDataCollectorTest.php     
+ ------ ------------------------------------------------------------------------- 
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   webprofiler/tests/src/Unit/DataCollector/CacheDataCollectorTest.php      
+ ------ ------------------------------------------------------------------------- 
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   webprofiler/tests/src/Unit/DataCollector/DataCollectorBaseTest.php       
+ ------ ------------------------------------------------------------------------- 
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  36     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 178 errors                                                        
+
+ </code>

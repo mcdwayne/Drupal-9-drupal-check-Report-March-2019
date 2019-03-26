@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_inspector 7d6f08812a0b5cdf4fd5cdf99cca6c34fed8c1e6
+source : https://cgit.drupalcode.org/config_inspector 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/ConfigInspectorController.php  
+ ------ ---------------------------------------------- 
+  146    Call to deprecated method l() of class        
+         Drupal\Core\Controller\ControllerBase.        
+  165    Call to deprecated method l() of class        
+         Drupal\Core\Controller\ControllerBase.        
+  166    Call to deprecated method l() of class        
+         Drupal\Core\Controller\ControllerBase.        
+  167    Call to deprecated method l() of class        
+         Drupal\Core\Controller\ControllerBase.        
+  168    Call to deprecated method l() of class        
+         Drupal\Core\Controller\ControllerBase.        
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

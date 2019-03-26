@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_modifier a747353140b1319bc853faba86f2533c2f057e4b
+source : http://cgit.drupalcode.org/entity_modifier 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityModifierForm.php                    
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityModifierTypeDeleteForm.php          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityModifierTypeForm.php                
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

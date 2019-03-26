@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/form_field_type 46057b2409b4163c8ad2e36e0b1f2141bba51c77
+source : http://cgit.drupalcode.org/form_field_type 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/FormfieldDefaultFormatter.php  
+ ------ --------------------------------------------------------------- 
+  43     Call to deprecated method entityManager() of class Drupal.     
+  50     Call to deprecated method entityManager() of class Drupal.     
+  53     Call to deprecated method entityManager() of class Drupal.     
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldWidget/FormfieldDefaultWidget.php     
+ ------ ------------------------------------------------------------ 
+  90     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

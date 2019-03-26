@@ -1,0 +1,109 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/faq_ask a43488b6a6dfd0399e7acbb9da3b94fe91b7ccbf
+source : http://cgit.drupalcode.org/faq_ask 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   faq_ask.module                                              
+ ------ ------------------------------------------------------------ 
+  85     Call to deprecated method entityManager() of class Drupal.  
+  150    Call to deprecated method entityManager() of class Drupal.  
+  174    Call to deprecated function valid_email_address().          
+  213    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  213    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  218    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  218    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  219    Call to deprecated function drupal_set_message().           
+  219    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  219    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  259    Call to deprecated function taxonomy_term_load().           
+  266    Call to deprecated function user_load().                    
+  282    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  282    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  283    Call to deprecated function drupal_set_message().           
+  283    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  283    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  314    Call to deprecated function drupal_set_message().           
+  327    Call to deprecated function node_load().                    
+  341    Call to deprecated function node_load().                    
+  369    Call to deprecated function user_load().                    
+  373    Call to deprecated function drupal_set_message().           
+  377    Call to deprecated function drupal_set_message().           
+  503    Call to deprecated function taxonomy_term_load().           
+  506    Call to deprecated function taxonomy_term_load().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Controller/FaqAskController.php                    
+ ------ ------------------------------------------------------- 
+  50     Call to deprecated function drupal_get_destination().  
+  79     Call to deprecated function node_load().               
+  95     Call to deprecated function node_load().               
+  97     Call to deprecated function drupal_set_message().      
+  106    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/ExpertsForm.php                                    
+ ------ ------------------------------------------------------------ 
+  51     Call to deprecated function drupal_set_message().           
+  56     Call to deprecated method entityManager() of class Drupal.  
+  58     Call to deprecated function drupal_set_message().           
+  63     Call to deprecated function user_load().                    
+  71     Call to deprecated function drupal_set_message().           
+  261    Call to deprecated function drupal_set_message().           
+  285    Call to deprecated function drupal_set_message().           
+  299    Call to deprecated function db_select().                    
+  402    Call to deprecated function db_select().                    
+  415    Call to deprecated function drupal_set_message().           
+  497    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Utility.php                                             
+ ------ ------------------------------------------------------------ 
+  51     Call to deprecated function user_load().                    
+  52     Call to deprecated function drupal_set_message().           
+  72     Call to deprecated function drupal_set_message().           
+  74     Call to deprecated function drupal_get_destination().       
+  117    Call to deprecated function db_or().                        
+  141    Call to deprecated function drupal_render().                
+  171    Call to deprecated function drupal_render().                
+  180    Call to deprecated function drupal_set_message().           
+  198    Call to deprecated function drupal_set_message().           
+  226    Call to deprecated method entityManager() of class Drupal.  
+  247    Call to deprecated function taxonomy_term_load().           
+  267    Call to deprecated function taxonomy_term_load().           
+  287    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  287    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  288    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  288    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  291    Call to deprecated method checkPlain() of class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  291    Call to method checkPlain() of deprecated class             
+         Drupal\Component\Utility\SafeMarkup.                        
+  313    Call to deprecated function node_load().                    
+  317    Call to deprecated function entity_view().                  
+  323    Call to deprecated function drupal_get_destination().       
+  354    Call to deprecated function drupal_render().                
+  394    Call to deprecated function node_load().                    
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 64 errors                                                         
+
+ </code>

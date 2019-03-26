@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_translation_redirect 27e0a6a4ec2de9ad0f75b3c31f22f27ab76c024f
+source : http://cgit.drupalcode.org/content_translation_redirect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/RequestSubscriber.php          
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentTranslationRedirectDeleteForm.php  
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentTranslationRedirectForm.php        
+ ------ --------------------------------------------------- 
+  109    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

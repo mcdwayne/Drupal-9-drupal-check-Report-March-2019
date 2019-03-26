@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_xero 72c12f4749485921fa18c6e1f0b46a24430f746a
+source : http://cgit.drupalcode.org/commerce_xero 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StrategyDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StrategyForm.php                          
+ ------ --------------------------------------------------- 
+  408    Call to deprecated function drupal_set_message().  
+  411    Call to deprecated function drupal_set_message().  
+  418    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/CommerceXero/processor/PostToXero.php  
+ ------ -------------------------------------------------- 
+  91     Call to deprecated method getGUIDName() of class  
+         Drupalro\TypedData\XeroTypeInterface.          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/src/Unit/CommerceXeroDataTypeManagerTest.php                  
+ ------ -------------------------------------------------------------------- 
+  20     Usage of deprecated trait                                           
+         Drupal\Tests

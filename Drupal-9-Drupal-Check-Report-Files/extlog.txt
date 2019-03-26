@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/extlog f13feac9474b2998661faecf2fc08d3dc7b8da5a
+source : http://cgit.drupalcode.org/extlog 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   extlog.module                                     
+ ------ -------------------------------------------------- 
+  190    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Logger/ExternalLog.php                         
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ExternalLogTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+  22     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  23     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/development_environment 45930d1030d3f68592e5de65b10d5cb4bc85af3f
+source : http://cgit.drupalcode.org/development_environment 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   development_environment.module                     
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DevelopmentEnvironmentClearLogForm.php    
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DevelopmentEnvironmentSettingsForm.php    
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

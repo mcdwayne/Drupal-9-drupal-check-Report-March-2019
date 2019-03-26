@@ -1,0 +1,68 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/examplelist 8f12b9120237744c91ac9148792aaabca17b706a
+source : http://cgit.drupalcode.org/examplelist 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/angularjs/src/Controller/Angularlist.php       
+ ------ ------------------------------------------------------- 
+  113    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/ResumeStorage.php          
+ ------ ------------------------------------------ 
+  40     Call to deprecated function db_insert().  
+  47     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/Controller/ResumelistController.php       
+ ------ ---------------------------------------------- 
+  60     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Form/MultiStepForm - Copy.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalesume\Form\MultistepForm was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MultistepFormBase.php                     
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Form/ResumeConfigForm.php                                  
+ ------ --------------------------------------------------------------- 
+  54     Syntax error, unexpected T_VARIABLE, expecting ')' on line 54  
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResumeForm.php                            
+ ------ --------------------------------------------------- 
+  104    Call to deprecated function db_insert().           
+  114    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResumedeleteForm.php                      
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResumeeditForm.php                        
+ ------ --------------------------------------------------- 
+  114    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function db_update().           
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

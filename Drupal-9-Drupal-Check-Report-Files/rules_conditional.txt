@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/rules_conditional 19130c06f84489489dad31c1b6556d0241bd2acc
+source : http://cgit.drupalcode.org/rules_conditional 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   includes/rules_conditional.core.inc                                    
+ ------ ----------------------------------------------------------------------- 
+         Class RulesConditionalContainer was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   includes/rules_conditional.plugin.inc                              
+ ------ ------------------------------------------------------------------- 
+         Class RulesConditional was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   includes/rules_conditional.ui.inc                                        
+ ------ ------------------------------------------------------------------------- 
+         Class RulesConditionalPluginUI was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/rules_conditional_test.inc                                       
+ ------ ----------------------------------------------------------------------- 
+         Class RulesConditionalTestStubContainer was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/rules_conditional_test.module                                
+ ------ ------------------------------------------------------------------- 
+         Class RulesConditionalTestException was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

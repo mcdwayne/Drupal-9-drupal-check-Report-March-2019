@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_configuration 5c32e32aa0d913624255bd08b71db0f73770132b
+source : http://cgit.drupalcode.org/custom_configuration 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigurationSetting.php                  
+ ------ --------------------------------------------------- 
+  193    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteConfiguration.php                   
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  113    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditConfiguration.php                     
+ ------ --------------------------------------------------- 
+  197    Call to deprecated function drupal_set_message().  
+  240    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/CustomConfigurationKernal.php                          
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Drupal\Tests

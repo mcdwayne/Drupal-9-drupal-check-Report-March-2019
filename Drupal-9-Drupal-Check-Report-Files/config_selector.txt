@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_selector 9c2327bfcb19c70d061821202f4f34e61b28dd3f
+source : http://cgit.drupalcode.org/config_selector 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   config_selector.module                            
+ ------ -------------------------------------------------- 
+  22     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ConfigSelector.php                             
+ ------ --------------------------------------------------- 
+  292    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Kernel/ConfigSelectorTest.php             
+ ------ ---------------------------------------------------- 
+  353    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

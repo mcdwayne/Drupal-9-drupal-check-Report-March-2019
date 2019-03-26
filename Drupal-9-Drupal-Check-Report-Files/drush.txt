@@ -1,0 +1,636 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drush f5453fae788d1827267d0621ea4d76e190771f8f
+source : http://cgit.drupalcode.org/drush 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   classes/DrushRole.php                                                   
+ ------ ------------------------------------------------------------------------ 
+         Class DrushRole was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   commands/core/cache.drush.inc                          
+ ------ ------------------------------------------------------- 
+  232    Call to deprecated function drupal_clear_css_cache().  
+  233    Call to deprecated function drupal_clear_js_cache().   
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   commands/core/drupal/batch.inc             
+ ------ ------------------------------------------- 
+  32     Call to deprecated function db_next_id().  
+  44     Call to deprecated function db_insert().   
+  82     Call to deprecated function db_query().    
+  234    Call to deprecated function db_delete().   
+  253    Call to deprecated function db_update().   
+ ------ ------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   commands/core/drupal/batch_6.inc         
+ ------ ----------------------------------------- 
+  28     Call to deprecated function db_query().  
+  33     Call to deprecated function db_query().  
+  56     Call to deprecated function db_query().  
+  183    Call to deprecated function db_query().  
+  195    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   commands/core/drupal/environment_6.inc                 
+ ------ ------------------------------------------------------- 
+  215    Call to deprecated function drupal_clear_css_cache().  
+  219    Call to deprecated function db_query().                
+  235    Call to deprecated function drupal_clear_css_cache().  
+  236    Call to deprecated function db_query().                
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   commands/core/drupal/site_install_6.inc  
+ ------ ----------------------------------------- 
+  134    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   commands/core/drupal/update.inc                    
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  198    Call to deprecated function db_table_exists().     
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   commands/core/drupal/update_6.inc               
+ ------ ------------------------------------------------ 
+  128    Call to deprecated function db_query().         
+  191    Call to deprecated function db_add_field().     
+  192    Call to deprecated function db_add_field().     
+  193    Call to deprecated function db_add_field().     
+  194    Call to deprecated function db_add_field().     
+  196    Call to deprecated function db_add_field().     
+  197    Call to deprecated function db_add_field().     
+  198    Call to deprecated function db_table_exists().  
+  199    Call to deprecated function db_add_field().     
+  201    Call to deprecated function db_table_exists().  
+  202    Call to deprecated function db_add_field().     
+  203    Call to deprecated function db_add_field().     
+  220    Call to deprecated function db_create_table().  
+  245    Call to deprecated function db_create_table().  
+  281    Call to deprecated function db_table_exists().  
+  297    Call to deprecated function db_create_table().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   commands/core/drupal/update_7.inc                  
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function db_table_exists().     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   commands/core/outputformat.drush.inc                                 
+ ------ --------------------------------------------------------------------- 
+         Class drush_outputformat was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   commands/core/outputformat/csv_or_string.inc                          
+ ------ ---------------------------------------------------------------------- 
+         Class drush_outputformat_csv_or_string was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   commands/core/outputformat/json.inc                                     
+ ------ ------------------------------------------------------------------------ 
+         Class drush_outputformat_json was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   commands/core/outputformat/key_value.inc                          
+ ------ ------------------------------------------------------------------ 
+         Class drush_outputformat_key_value was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   commands/core/outputformat/list.inc                                     
+ ------ ------------------------------------------------------------------------ 
+         Class drush_outputformat_list was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   commands/core/outputformat/message.inc                                  
+ ------ ------------------------------------------------------------------------ 
+         Class drush_outputformat_message was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   commands/core/outputformat/php.inc                                       
+ ------ ------------------------------------------------------------------------- 
+         Class drush_outputformat_php was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   commands/core/outputformat/print_r.inc                                  
+ ------ ------------------------------------------------------------------------ 
+         Class drush_outputformat_print_r was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   commands/core/outputformat/string.inc                                  
+ ------ ----------------------------------------------------------------------- 
+         Class drush_outputformat_string was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   commands/core/outputformat/table.inc                                     
+ ------ ------------------------------------------------------------------------- 
+         Class drush_outputformat_table was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   commands/core/outputformat/var_export.inc                          
+ ------ ------------------------------------------------------------------- 
+         Class drush_outputformat_var_export was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   commands/core/outputformat/variables.inc                          
+ ------ ------------------------------------------------------------------ 
+         Class drush_outputformat_variables was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   commands/core/outputformat/yaml.inc                                     
+ ------ ------------------------------------------------------------------------ 
+         Class drush_outputformat_yaml was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   commands/core/test.drush.inc                            
+ ------ -------------------------------------------------------- 
+  161    Call to deprecated function db_insert().                
+  166    Call to deprecated function db_query().                 
+  220    Call to deprecated function simpletest_test_get_all().  
+  237    Call to deprecated function db_query().                 
+  240    Call to deprecated function db_query().                 
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   commands/core/views.d8.drush.inc                     
+ ------ ----------------------------------------------------- 
+  424    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   commands/core/watchdog.drush.inc            
+ ------ -------------------------------------------- 
+  239    Call to deprecated function format_date().  
+  263    Call to deprecated function user_load().    
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   commands/make/make.project.inc                                     
+ ------ ------------------------------------------------------------------- 
+         Class DrushMakeProject was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   commands/pm/info.pm.inc                     
+ ------ -------------------------------------------- 
+  66     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   commands/pm/pm.drush.inc                                                
+ ------ ------------------------------------------------------------------------ 
+         Class drush_version_control was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   commands/pm/updatecode.pm.inc               
+ ------ -------------------------------------------- 
+  45     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   commands/pm/version_control/backup.inc                            
+ ------ ------------------------------------------------------------------ 
+         Class drush_version_control_backup was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   commands/pm/version_control/bzr.inc                                    
+ ------ ----------------------------------------------------------------------- 
+         Class drush_version_control_bzr was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   commands/pm/version_control/svn.inc                                    
+ ------ ----------------------------------------------------------------------- 
+         Class drush_version_control_svn was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   commands/runserver/runserver-drupal.inc                        
+ ------ --------------------------------------------------------------- 
+         Class DrupalServer was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   commands/user/user.drush.inc                  
+ ------ ---------------------------------------------- 
+  269    Call to deprecated function db_query().       
+  272    Call to deprecated function db_query().       
+  296    Call to deprecated function db_query().       
+  299    Call to deprecated function db_query().       
+  331    Call to deprecated function db_query().       
+  334    Call to deprecated function db_query().       
+  339    Call to deprecated function entity_create().  
+  364    Call to deprecated function db_query().       
+  367    Call to deprecated function db_query().       
+  407    Call to deprecated function user_load().      
+  485    Call to deprecated function user_load().      
+  521    Call to deprecated function user_load().      
+  524    Call to deprecated function user_load().      
+  531    Call to deprecated function format_date().    
+  577    Call to deprecated function db_query().       
+  580    Call to deprecated function db_query().       
+  585    Call to deprecated function db_query().       
+  588    Call to deprecated function db_query().       
+  593    Call to deprecated function db_query().       
+  596    Call to deprecated function db_query().       
+  624    Call to deprecated function db_query().       
+  627    Call to deprecated function db_query().       
+  632    Call to deprecated function db_query().       
+  635    Call to deprecated function db_query().       
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/batch.inc                                                  
+ ------ -------------------------------------------------------------------- 
+         Class DrushBatchContext was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/bootstrap.inc                             
+ ------ --------------------------------------------------- 
+  957    Call to deprecated function drupal_get_profile().  
+  964    Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   includes/cache.inc                                                    
+ ------ ---------------------------------------------------------------------- 
+         Class DrushCacheInterface was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   includes/dbtng.inc                             
+ ------ ----------------------------------------------- 
+  83     Call to deprecated function db_select().       
+  112    Call to deprecated function db_query_range().  
+  122    Call to deprecated function db_query().        
+  141    Call to deprecated function db_delete().       
+  145    Call to deprecated function db_truncate().     
+  154    Call to deprecated function db_query().        
+ ------ ----------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   includes/drupal.inc                       
+ ------ ------------------------------------------ 
+  138    Call to deprecated function user_load().  
+  141    Call to deprecated function user_load().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   includes/drush.inc                                  
+ ------ ---------------------------------------------------- 
+  1608   Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   lib/Yaml-2.2.1/Yaml.php                              
+ ------ ----------------------------------------------------- 
+  155    Call to deprecated method setIndentation() of class  
+         Symfony\Component\Yaml\Dumper.                       
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/archiveDumpTest.php                                         
+ ------ ------------------------------------------------------------------ 
+         Class archiveDumpCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/backendTest.php                                         
+ ------ -------------------------------------------------------------- 
+         Class backendCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/batchTest.php                                                     
+ ------ ------------------------------------------------------------------------ 
+         Class batchCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/cacheCommandTest.php                                         
+ ------ ------------------------------------------------------------------- 
+         Class cacheCommandCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/commandSpecificTest.php                                         
+ ------ ---------------------------------------------------------------------- 
+         Class commandSpecificCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/commandTest.php                                         
+ ------ -------------------------------------------------------------- 
+         Class commandCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/commandUnitTest.php                                         
+ ------ ------------------------------------------------------------------ 
+         Class commandUnitCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/completeTest.php                                         
+ ------ --------------------------------------------------------------- 
+         Class completeCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/configTest.php                                                     
+ ------ ------------------------------------------------------------------------- 
+         Class ConfigCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/contextTest.php                                         
+ ------ -------------------------------------------------------------- 
+         Class contextCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/coreTest.php                                                     
+ ------ ----------------------------------------------------------------------- 
+         Class coreCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/drushScriptTest.php                                         
+ ------ ------------------------------------------------------------------ 
+         Class drushScriptCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/drush_testcase.inc                                         
+ ------ ----------------------------------------------------------------- 
+         Class Drush_TestCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/expandWildcardTablesUnitTest.php                             
+ ------ ------------------------------------------------------------------- 
+         Class WildcardUnitCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/fieldTest.php                                                     
+ ------ ------------------------------------------------------------------------ 
+         Class fieldCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/filesystemTest.php                                         
+ ------ ----------------------------------------------------------------- 
+         Class FilesystemCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/generateMakeTest.php                                         
+ ------ ------------------------------------------------------------------- 
+         Class generateMakeCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/imageTest.php                                                     
+ ------ ------------------------------------------------------------------------ 
+         Class ImageCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/makeTest.php                                                 
+ ------ ------------------------------------------------------------------- 
+         Class makeMakefileCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/outputFormatTest.php                                         
+ ------ ------------------------------------------------------------------- 
+         Class outputFormatCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/outputFormatUnitTest.php                                         
+ ------ ----------------------------------------------------------------------- 
+         Class outputFormatUnitCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/pmDownloadTest.php                                         
+ ------ ----------------------------------------------------------------- 
+         Class pmDownloadCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/pmEnDisUnListTest.php                                       
+ ------ ------------------------------------------------------------------ 
+         Class EnDisUnListCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/pmUpdateCodeTest.php                                     
+ ------ --------------------------------------------------------------- 
+         Class pmUpdateCode was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/queueTest.php                                                     
+ ------ ------------------------------------------------------------------------ 
+         Class QueueCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/quickDrupalTest.php                                         
+ ------ ------------------------------------------------------------------ 
+         Class quickDrupalCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/releaseInfoTest.php                                         
+ ------ ------------------------------------------------------------------ 
+         Class releaseInfoCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/roleTest.php                                                     
+ ------ ----------------------------------------------------------------------- 
+         Class roleCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   tests/shellAliasTest.php                                           
+ ------ ------------------------------------------------------------------- 
+         Class shellAliasesCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/siteAliasTest.php                                                 
+ ------ ------------------------------------------------------------------------ 
+         Class saCase was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/siteAliasUnitTest.php                                              
+ ------ ------------------------------------------------------------------------- 
+         Class saUnitCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   tests/siteIntallD6Test.php                                          
+ ------ -------------------------------------------------------------------- 
+         Class siteInstallD6Case was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/siteSetTest.php                                                
+ ------ --------------------------------------------------------------------- 
+         Class siteSetCommandCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   tests/siteSetUnitTest.php                                         
+ ------ ------------------------------------------------------------------ 
+         Class siteSetUnitTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/siteSshTest.php                                         
+ ------ -------------------------------------------------------------- 
+         Class siteSshCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/sqlConnectTest.php                                         
+ ------ ----------------------------------------------------------------- 
+         Class SqlConnectCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/sqlDumpTest.php                                         
+ ------ -------------------------------------------------------------- 
+         Class SqlDumpTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/sqlSyncTest.php                                         
+ ------ -------------------------------------------------------------- 
+         Class sqlSyncTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/tablesUnitTest.php                                         
+ ------ ----------------------------------------------------------------- 
+         Class tablesUnitTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/userTest.php                                                     
+ ------ ----------------------------------------------------------------------- 
+         Class userCase was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/variableTest.php                                         
+ ------ --------------------------------------------------------------- 
+         Class VariableCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/watchdogTest.php                                         
+ ------ --------------------------------------------------------------- 
+         Class WatchdogCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 147 errors                                                        
+
+ </code>

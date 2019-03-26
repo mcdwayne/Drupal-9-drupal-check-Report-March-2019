@@ -1,0 +1,153 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cloudflare 288657c92dfed1217a06d8476190f2a945025c2a
+source : http://cgit.drupalcode.org/cloudflare 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/src/Plugin/Purge/DiagnosticCheck/ApiRateLimitCheck.php  
+ ------ --------------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not          
+         found and could not be autoloaded.                                               
+ ------ --------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/src/Plugin/Purge/DiagnosticCheck/ComposerDependenciesCheck.php  
+ ------ ----------------------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not                  
+         found and could not be autoloaded.                                                       
+ ------ ----------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/src/Plugin/Purge/DiagnosticCheck/CredentialCheck.php  
+ ------ ------------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not        
+         found and could not be autoloaded.                                             
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/src/Plugin/Purge/DiagnosticCheck/DailyTagPurgeLimitCheck.php  
+ ------ --------------------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not                
+         found and could not be autoloaded.                                                     
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/src/Plugin/Purge/Purger/CloudFlarePurger.php  
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\Purger\PurgerBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/tests/src/Unit/ApiRateLimitCheckTest.php        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/tests/src/Unit/CredentialTestCheckTest.php      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/tests/src/Unit/DailyTagPurgeLimitCheckTest.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/cloudflarepurger/tests/src/Unit/DiagnosticCheckTestBase.php      
+ ------ ------------------------------------------------------------------------- 
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  161    Call to deprecated function drupal_set_message().  
+  233    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ZoneSelectionForm.php                     
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/CloudFlareAdminSettingsFormTest.php  
+ ------ ---------------------------------------------------------- 
+  55     Call to deprecated method assertUrl() of class            
+         Drupal\Tests\BrowserTestBase.                             
+  57     Call to deprecated method assertRaw() of class            
+         Drupal\Tests\BrowserTestBase.                             
+  58     Call to deprecated method assertRaw() of class            
+         Drupal\Tests\BrowserTestBase.                             
+  59     Call to deprecated method assertRaw() of class            
+         Drupal\Tests\BrowserTestBase.                             
+  74     Call to deprecated method assertUrl() of class            
+         Drupal\Tests\BrowserTestBase.                             
+  76     Call to deprecated method assertRaw() of class            
+         Drupal\Tests\BrowserTestBase.                             
+  77     Call to deprecated method assertRaw() of class            
+         Drupal\Tests\BrowserTestBase.                             
+  101    Call to deprecated method assertText() of class           
+         Drupal\Tests\BrowserTestBase.                             
+  116    Call to deprecated method assertText() of class           
+         Drupal\Tests\BrowserTestBase.                             
+  130    Call to deprecated method assertText() of class           
+         Drupal\Tests\BrowserTestBase.                             
+ ------ ---------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/src/Functional/CloudFlareAdminSettingsInvalidFormTest.php  
+ ------ ----------------------------------------------------------------- 
+  52     Call to deprecated method assertText() of class                  
+         Drupal\Tests\BrowserTestBase.                                    
+  53     Call to deprecated method assertField() of class                 
+         Drupal\Tests\BrowserTestBase.                                    
+  54     Call to deprecated method assertField() of class                 
+         Drupal\Tests\BrowserTestBase.                                    
+  55     Call to deprecated method assertField() of class                 
+         Drupal\Tests\BrowserTestBase.                                    
+  56     Call to deprecated method assertField() of class                 
+         Drupal\Tests\BrowserTestBase.                                    
+  67     Call to deprecated method assertResponse() of class              
+         Drupal\Tests\BrowserTestBase.                                    
+  94     Call to deprecated method assertUrl() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  109    Call to deprecated method assertText() of class                  
+         Drupal\Tests\BrowserTestBase.                                    
+  124    Call to deprecated method assertText() of class                  
+         Drupal\Tests\BrowserTestBase.                                    
+  139    Call to deprecated method assertText() of class                  
+         Drupal\Tests\BrowserTestBase.                                    
+ ------ ----------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/ComposerDependencyTest.php   
+ ------ -------------------------------------------------- 
+  48     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  57     Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ClientIpRestoreTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  36     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  67     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  80     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  122    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  127    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 39 errors                                                         
+
+ </code>

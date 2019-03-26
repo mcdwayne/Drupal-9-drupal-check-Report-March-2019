@@ -1,0 +1,87 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_usage d6d8337179fd5e4ed8fe97a8ab063170efa9d01b
+source : http://cgit.drupalcode.org/entity_usage 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/BatchUpdateForm.php                       
+ ------ --------------------------------------------------- 
+  205    Call to deprecated function drupal_set_message().  
+  211    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ConfigEntityTrackingTest.php  
+ ------ ------------------------------------------------------------- 
+  77     Call to deprecated function entity_get_form_display().       
+  82     Call to deprecated function entity_get_display().            
+  168    Call to deprecated function entity_get_form_display().       
+  173    Call to deprecated function entity_get_display().            
+ ------ ------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ConfigurationFormTest.php               
+ ------ ----------------------------------------------------------------------- 
+  21     Usage of deprecated trait                                              
+         Drupal\Tests\media\Functional\MediaFunctionalTestCreateMediaTypeTrait  
+         in class                                                               
+         Drupal\Testsntity_usage\FunctionalJavascript\ConfigurationFormTest.  
+  75     Call to deprecated function entity_get_form_display().                 
+  80     Call to deprecated function entity_get_display().                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/DynamicEntityReferenceTest.php  
+ ------ --------------------------------------------------------------- 
+  88     Call to deprecated function entity_get_form_display().         
+  92     Call to deprecated function entity_get_display().              
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/IntegrationTest.php      
+ ------ -------------------------------------------------------- 
+  155    Call to deprecated function entity_get_form_display().  
+  160    Call to deprecated function entity_get_display().       
+  353    Call to deprecated function entity_get_form_display().  
+  357    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ParagraphsTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  18     Class                                                                    
+         Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsTestBaseTrait     
+         not found and could not be autoloaded.                                   
+  21     Usage of deprecated trait                                                
+         Drupal\Tests\media\Functional\MediaFunctionalTestCreateMediaTypeTrait    
+         in class Drupal\Testsntity_usage\FunctionalJavascript\ParagraphsTest.  
+  81     Call to deprecated function entity_get_form_display().                   
+  86     Call to deprecated function entity_get_display().                        
+  111    Call to deprecated function entity_get_form_display().                   
+  116    Call to deprecated function entity_get_display().                        
+  151    Call to deprecated function entity_get_form_display().                   
+  156    Call to deprecated function entity_get_display().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EntityUsageLegacyEntityReferenceKernelTest.php          
+ ------ ------------------------------------------------------------------------- 
+  25     Usage of deprecated trait                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class     
+         Drupal\Testsntity_usage\KernelntityUsageLegacyEntityReferenceKernel  
+         Test.                                                                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   tests/src/Kernel/EntityUsageTest.php                         
+ ------ ------------------------------------------------------------- 
+  617    Call to deprecated method listUsage() of class               
+         Drupalntity_usagentityUsage.                             
+  625    Call to deprecated method listReferencedEntities() of class  
+         Drupalntity_usagentityUsage.                             
+ ------ ------------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_inventory 70a1cf63bfdafa5641684597840614dae069e74e
+source : http://cgit.drupalcode.org/commerce_inventory 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/commerce_inventory_order/src/Guard/OrderGuard.php  
+ ------ ----------------------------------------------------------- 
+  146    Call to deprecated function drupal_set_message().          
+  149    Call to deprecated function drupal_set_message().          
+  153    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/InventoryRemoteIdAutocompleteController.php  
+ ------ ------------------------------------------------------------ 
+  130    Call to deprecated method strtolower() of class             
+         Drupal\Component\Utility\Unicode.                           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/InventoryItemForm.php                     
+ ------ --------------------------------------------------- 
+  169    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/InventoryLocationForm.php                 
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Action/CreateInventoryItem.php          
+ ------ --------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Action/InventoryItemEditMultiple.php    
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/InventoryAdjustmentType/InventoryAdjustmentTypeInterface.php  
+ ------ ---------------------------------------------------------------------------------- 
+  11     Interface                                                                         
+         Drupal

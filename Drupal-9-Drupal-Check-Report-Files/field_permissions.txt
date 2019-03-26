@@ -1,0 +1,149 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_permissions fcca4f104b30c4ca52f4ded3c342ba83cb373691
+source : http://cgit.drupalcode.org/field_permissions 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FieldPermissionsController.php               
+ ------ ------------------------------------------------------------ 
+  98     Call to deprecated method getList() of class                
+         Drupalield_permissions\FieldPermissionsServiceInterface.  
+  148    Call to deprecated method getPermissionsByRole() of class   
+         Drupalield_permissions\FieldPermissionsServiceInterface.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/FieldPermissionType/CustomAccess.php    
+ ------ --------------------------------------------------- 
+  106    Call to deprecated method getList() of class       
+         Drupalield_permissions\FieldPermissionsService.  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/FieldPermissionsCommentTest.php    
+ ------ -------------------------------------------------------- 
+  116    Call to deprecated function entity_get_form_display().  
+  124    Call to deprecated function entity_get_display().       
+  139    Call to deprecated function entity_get_form_display().  
+  145    Call to deprecated function entity_get_display().       
+  192    Call to deprecated method assertEscaped() of class      
+         Drupal\Tests\BrowserTestBase.                           
+  193    Call to deprecated method assertEscaped() of class      
+         Drupal\Tests\BrowserTestBase.                           
+  199    Call to deprecated method assertEscaped() of class      
+         Drupal\Tests\BrowserTestBase.                           
+  200    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  208    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  209    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  229    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  230    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  232    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  233    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  236    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  242    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  263    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  264    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  265    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  266    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  269    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  282    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  292    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  295    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  313    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  316    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  321    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  324    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/FieldPermissionsNodeTest.php    
+ ------ ----------------------------------------------------- 
+  77     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  85     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  91     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  100    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  110    Call to deprecated method assertNoText() of class    
+         Drupal\Tests\BrowserTestBase.                        
+  118    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  119    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  127    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  128    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  129    Call to deprecated method assertNoText() of class    
+         Drupal\Tests\BrowserTestBase.                        
+  139    Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  140    Call to deprecated method assertNoText() of class    
+         Drupal\Tests\BrowserTestBase.                        
+  144    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  154    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  155    Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/FieldPermissionsUserTest.php       
+ ------ -------------------------------------------------------- 
+  23     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  76     Call to deprecated function entity_get_form_display().  
+  80     Call to deprecated function entity_get_form_display().  
+  84     Call to deprecated function entity_get_display().       
+  97     Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  102    Call to deprecated method assertEscaped() of class      
+         Drupal\Tests\BrowserTestBase.                           
+  113    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  125    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+  136    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  147    Call to deprecated method assertResponse() of class     
+         Drupal\Tests\BrowserTestBase.                           
+  148    Call to deprecated method assertNoText() of class       
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Plugin/FieldPermissionType/ManagerTest.php              
+ ------ ------------------------------------------------------------------------- 
+  19     Usage of deprecated trait Drupal\simpletest\UserCreationTrait in class   
+         Drupal\Testsield_permissions\Kernel\Plugin\FieldPermissionType\Manage  
+         rTest.                                                                   
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 58 errors                                                         
+
+ </code>

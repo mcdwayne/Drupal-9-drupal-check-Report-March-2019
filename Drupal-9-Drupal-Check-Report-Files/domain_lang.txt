@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/domain_lang a4d8a04b133892b2790ba4d50984773d086991f6
+source : http://cgit.drupalcode.org/domain_lang 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/DomainLangConfigRedirect.php   
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+  71     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function drupal_set_message().  
+  78     Call to deprecated function drupal_set_message().  
+  84     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+  91     Call to deprecated function drupal_set_message().  
+  92     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Form/DomainLangNegotiationBrowserDeleteForm.php  
+ ------ ----------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainLangNegotiationBrowserForm.php      
+ ------ --------------------------------------------------- 
+  184    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainLangNegotiationConfigureForm.php    
+ ------ --------------------------------------------------- 
+  188    Call to deprecated function drupal_set_message().  
+  255    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+  266    Call to deprecated method strtolower() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainLangNegotiationSelectedForm.php     
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainLangNegotiationSessionForm.php      
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainLangNegotiationUrlForm.php          
+ ------ --------------------------------------------------- 
+  189    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

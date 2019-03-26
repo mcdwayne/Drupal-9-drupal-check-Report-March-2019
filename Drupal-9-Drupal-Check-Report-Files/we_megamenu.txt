@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/we_megamenu 1f2ebf0cc652c62311d987a7026fd1273800e20e
+source : http://cgit.drupalcode.org/we_megamenu 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/WeMegaMenuAdminController.php      
+ ------ -------------------------------------------------- 
+  35     Call to deprecated method url() of class Drupal.  
+  36     Call to deprecated method url() of class Drupal.  
+  37     Call to deprecated method url() of class Drupal.  
+  150    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/WeMegaMenuBuilder.php                                   
+ ------ ------------------------------------------------------------ 
+  185    Call to deprecated method entityManager() of class Drupal.  
+  232    Call to deprecated method entityManager() of class Drupal.  
+  461    Call to deprecated method entityManager() of class Drupal.  
+  701    Call to deprecated method entityManager() of class Drupal.  
+  707    Call to deprecated function drupal_render().                
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   we_megamenu.module                                
+ ------ -------------------------------------------------- 
+  247    Call to deprecated method url() of class Drupal.  
+  253    Call to deprecated method url() of class Drupal.  
+  314    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/convert_bundles 31e60d354383dcb06cc4e0f461ea250c06e687e0
+source : http://cgit.drupalcode.org/convert_bundles 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   convert_bundles.module                             
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ConvertBundles.php                             
+ ------ --------------------------------------------------- 
+  329    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConvertBundlesForm.php                    
+ ------ --------------------------------------------------- 
+  334    Call to deprecated function drupal_set_message().  
+  396    Call to deprecated function drupal_set_message().  
+  504    Call to deprecated function drupal_set_message().  
+  516    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

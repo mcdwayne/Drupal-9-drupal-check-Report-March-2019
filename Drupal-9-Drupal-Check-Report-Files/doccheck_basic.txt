@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/doccheck_basic c3223c7ce0daad7c40152db43acbaf4897ae8395
+source : https://cgit.drupalcode.org/doccheck_basic 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CallbackController.php              
+ ------ --------------------------------------------------- 
+  154    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DoccheckBasicCommon.php                        
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

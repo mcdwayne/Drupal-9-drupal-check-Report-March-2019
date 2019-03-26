@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_pub 714e3758815f606009385c68040205f462bf88a0
+source : http://cgit.drupalcode.org/custom_pub 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   custom_pub.module                                           
+ ------ ------------------------------------------------------------ 
+  16     Call to deprecated method entityManager() of class Drupal.  
+  87     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomPublishingOptionDeleteForm.php      
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomPublishingOptionForm.php            
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/RulesAction/SetCustomPublishingOption.php                
+ ------ -------------------------------------------------------------------- 
+         Class Drupalules\Core\RulesActionBase not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

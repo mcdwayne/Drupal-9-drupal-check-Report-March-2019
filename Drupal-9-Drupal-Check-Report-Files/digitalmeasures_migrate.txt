@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/digitalmeasures_migrate 307d052371b38c821ff76c94286be66736334e35
+source : http://cgit.drupalcode.org/digitalmeasures_migrate 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/College.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\digitalmeasures_migrate\Plugin\migrate\source\DigitalMeasuresApi  
+         not found and could not be autoloaded.                                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/DigitalMeasuresApi.php                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_plus\Plugin\migrate\source\Url not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/Profile.php                               
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\digitalmeasures\Plugin\migrate\source\Profile was not  
+         found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

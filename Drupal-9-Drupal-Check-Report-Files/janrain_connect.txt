@@ -1,0 +1,82 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/janrain_connect 07bde0ac6ffc1d95233f40ad1be1ca727723005a
+source : https://cgit.drupalcode.org/janrain 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/janrain_connect_block/src/Form/JanrainConnectBlockShowForms.php  
+ ------ ------------------------------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().                        
+  108    Call to deprecated function drupal_set_message().                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------- 
+  Line   modules/janrain_connect_social/src/EventSubscriber/JanrainConnecSocialLoginSubscriber.php  
+ ------ ------------------------------------------------------------------------------------------- 
+  225    Call to deprecated function drupal_set_message().                                          
+  289    Call to deprecated function drupal_set_message().                                          
+  297    Call to deprecated function drupal_set_message().                                          
+  317    Call to deprecated function drupal_set_message().                                          
+ ------ ------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   modules/janrain_connect_ui/src/EventSubscriber/JanrainConnectUiSubscriber.php  
+ ------ ------------------------------------------------------------------------------- 
+  230    Call to deprecated function drupal_set_message().                              
+  244    Call to deprecated function drupal_set_message().                              
+  247    Call to deprecated function drupal_set_message().                              
+  437    Call to deprecated function drupal_set_message().                              
+  705    Call to deprecated function drupal_set_message().                              
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/janrain_connect_ui/src/Form/JanrainConnectUiForm.php  
+ ------ -------------------------------------------------------------- 
+  436    Call to deprecated function drupal_get_messages().            
+  665    Call to deprecated function drupal_set_message().             
+  669    Call to deprecated function drupal_set_message().             
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/janrain_connect_ui/src/Form/JanrainConnectUiPages.php  
+ ------ --------------------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().              
+  98     Call to deprecated function drupal_set_message().              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/janrain_connect_ui/src/Form/JanrainConnectUiSyncForm.php  
+ ------ ------------------------------------------------------------------ 
+  115    Call to deprecated function drupal_set_message().                 
+  171    Call to deprecated function drupal_set_message().                 
+  174    Call to deprecated function drupal_set_message().                 
+  268    Call to deprecated function drupal_set_message().                 
+  271    Call to deprecated function drupal_set_message().                 
+  275    Call to deprecated function drupal_set_message().                 
+  315    Call to deprecated function drupal_set_message().                 
+  329    Call to deprecated function drupal_realpath().                    
+  346    Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/janrain_connect_ui/src/Form/JanrainConnectUiUsersForm.php  
+ ------ ------------------------------------------------------------------- 
+  64     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/janrain_connect_ui/src/Service/JanrainConnectUiUsers.php  
+ ------ ------------------------------------------------------------------ 
+  303    Call to deprecated function drupal_set_message().                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Service/JanrainConnectLogin.php                
+ ------ --------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

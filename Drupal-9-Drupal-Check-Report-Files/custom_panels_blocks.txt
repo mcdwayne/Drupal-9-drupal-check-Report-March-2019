@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_panels_blocks 7f43c61a6a816c911eff3dd9144fdaf0148d2dfd
+source : http://cgit.drupalcode.org/custom_panels_blocks 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   custom_panels_blocks.module                       
+ ------ -------------------------------------------------- 
+  21     Call to deprecated method url() of class Drupal.  
+  21     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   src/Controller/CustomPanelsBlocksController.php                   
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\panels\Controller\Panels not found and could not be  
+         autoloaded.                                                       
+ ------ ------------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

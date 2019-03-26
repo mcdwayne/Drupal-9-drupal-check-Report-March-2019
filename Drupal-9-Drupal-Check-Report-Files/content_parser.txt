@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_parser a91588abf4e50b92b604ab00fa79712b51169137
+source : http://cgit.drupalcode.org/content_parser 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   content_parser.module                        
+ ------ --------------------------------------------- 
+  107    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  175    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/FieldLoaderService.php                    
+ ------ ---------------------------------------------- 
+  272    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentParserDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentParserForm.php                     
+ ------ --------------------------------------------------- 
+  505    Call to deprecated function drupal_set_message().  
+  511    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

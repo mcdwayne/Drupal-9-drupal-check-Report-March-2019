@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eck 9395cc9afdfc943f1c7a35f910c8da171a0ac824
+source : http://git.drupal.org/project/eck.git 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/EckEntityBundleListBuilder.php  
+ ------ ----------------------------------------------- 
+  75     Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Entity/EckEntityType.php                 
+ ------ --------------------------------------------- 
+  98     Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Unit/UnitTestBase.php                    
+ ------ --------------------------------------------------- 
+  89     Fetching class constant class of deprecated class  
+         Drupal\CorentityntityManagerInterface.         
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,519 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feeds b9f63d42c2d0107101c1915760311f50a17a9706
+source : http://cgit.drupalcode.org/feeds 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/FeedHandlerBase.php                                      
+ ------ ------------------------------------------------------------- 
+  15     Class Drupaleeds\FeedHandlerBase extends deprecated class  
+         Drupal\CorentityntityHandlerBase.                        
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/FeedTypeAccessControlHandler.php                          
+ ------ -------------------------------------------------------------- 
+  25     Call to deprecated method cacheUntilEntityChanges() of class  
+         Drupal\Core\Access\AccessResult.                              
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Feeds/Processor/EntityProcessorBase.php        
+ ------ --------------------------------------------------- 
+  531    Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FeedsEnclosure.php                             
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_realpath().     
+  118    Call to deprecated function drupal_dirname().      
+  125    Call to deprecated function file_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/FeedsPermissions.php                                                 
+ ------ ------------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in       
+         class Drupaleeds\FeedsPermissions.                                     
+  27     Call to deprecated method url() of class Drupaleeds\FeedsPermissions.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Functional/Controller/ItemListControllerTest.php  
+ ------ ------------------------------------------------------------ 
+  56     Call to deprecated method assertNoText() of class           
+         Drupal\Tests\BrowserTestBase.                               
+  57     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  58     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/Feeds/Fetcher/HttpFetcherTest.php  
+ ------ -------------------------------------------------------- 
+  117    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  149    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  154    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  165    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+  171    Call to deprecated method assertText() of class         
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/FieldValidationTest.php     
+ ------ ------------------------------------------------- 
+  72     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  73     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  74     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  75     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/Form/MappingFormTest.php    
+ ------ ------------------------------------------------- 
+  55     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/Plugin/Action/DeleteFeedTest.php  
+ ------ ------------------------------------------------------- 
+  46     Call to deprecated method assertFieldById() of class   
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/PrivateFileTest.php             
+ ------ ----------------------------------------------------- 
+  57     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  60     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/UpdateNonExistentTest.php   
+ ------ ------------------------------------------------- 
+  66     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  101    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  127    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  138    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  147    Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FeedsJavascriptTestBase.php             
+ ------ ----------------------------------------------------------------------- 
+  17     Class Drupal\Testseeds\FunctionalJavascript\FeedsJavascriptTestBase  
+         extends deprecated class                                               
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                   
+  52     Call to method setUp() of deprecated class                             
+         Drupal\Tests\BrowserTestBase.                                          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   tests/src/Kernel/DependencyTest.php                         
+ ------ ------------------------------------------------------------ 
+  73     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/Entity/FeedTest.php          
+ ------ ---------------------------------------------- 
+  331    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  350    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  366    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  407    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  432    Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/src/Kernel/Feeds/Processor/EntityProcessorBaseTest.php  
+ ------ -------------------------------------------------------------- 
+  61     Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+  97     Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+  116    Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+  367    Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+  384    Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+  400    Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+  428    Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+  429    Call to deprecated method getMock() of class                  
+         Drupal\KernelTests\KernelTestBase.                            
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/Feeds/Target/EntityReferenceTest.php                 
+ ------ ---------------------------------------------------------------------- 
+  19     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Testseeds\Kernel\Feeds\TargetntityReferenceTest.           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   tests/src/Kernel/Feeds/Target/FileTestBase.php     
+ ------ --------------------------------------------------- 
+  71     Fetching class constant class of deprecated class  
+         Drupal\Corentity\Query\QueryFactory.             
+  84     Call to deprecated method getMock() of class       
+         Drupal\KernelTests\KernelTestBase.                 
+  88     Call to deprecated method getMock() of class       
+         Drupal\KernelTests\KernelTestBase.                 
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   tests/src/Kernel/FeedsItemTest.php        
+ ------ ------------------------------------------ 
+  80     Call to deprecated function node_load().  
+  82     Call to deprecated function node_load().  
+  144    Call to deprecated function node_load().  
+  146    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Traits/FeedsMockingTrait.php (in context of class Drupal\Testseeds\Kernel\Feeds\Target\FileTestBase)  
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  27     Call to deprecated method getMock() of class                                                                      
+         Drupal\KernelTests\KernelTestBase.                                                                                
+  45     Call to deprecated method getMock() of class                                                                      
+         Drupal\KernelTests\KernelTestBase.                                                                                
+  85     Call to deprecated method getMock() of class                                                                      
+         Drupal\KernelTests\KernelTestBase.                                                                                
+  109    Call to deprecated method getMock() of class                                                                      
+         Drupal\KernelTests\KernelTestBase.                                                                                
+  124    Call to deprecated method getMock() of class                                                                      
+         Drupal\KernelTests\KernelTestBase.                                                                                
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Traits/FeedsMockingTrait.php (in context of class Drupal\Testseeds\Unit\FeedsUnitTestCase)  
+ ------ -------------------------------------------------------------------------------------------------------- 
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                 
+  45     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                 
+  85     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                 
+  109    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                 
+  124    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.                                 
+ ------ -------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/DeleteFeedsEventTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  18     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/EventBaseTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  17     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/EventDispatcherTraitTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  21     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/FetchEventTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  18     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  19     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/ParseEventTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  19     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  20     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  21     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Event/ProcessEventTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  20     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  21     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EventSubscriber/LazySubscriberTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  94     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  95     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  99     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  104    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  105    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  106    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  126    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  177    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeedAccessControlHandlerTest.php                          
+ ------ ------------------------------------------------------------------------- 
+  40     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  45     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  83     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  99     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  112    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeedClearHandlerTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+  51     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeedExpireHandlerTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  47     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeedHandlerBaseTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  24     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeedImportHandlerTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  46     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  82     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  90     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Fetcher/DirectoryFetcherTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  43     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  51     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  120    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Fetcher/Form/HttpFetcherFormTest.php                
+ ------ ------------------------------------------------------------------------- 
+  24     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Fetcher/HttpFetcherTest.php                         
+ ------ ------------------------------------------------------------------------- 
+  53     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  127    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Fetcher/UploadFetcherTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  47     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  55     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  58     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  65     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  76     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  90     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  101    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/CsvParserTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  51     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/Form/CsvParserFeedFormTest.php               
+ ------ ------------------------------------------------------------------------- 
+  25     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/OpmlParserTest.php                           
+ ------ ------------------------------------------------------------------------- 
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  54     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  59     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/SitemapParserTest.php                        
+ ------ ------------------------------------------------------------------------- 
+  50     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/SyndicationParserTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  82     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  89     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/BooleanTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/DateRangeTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/DateTimeTest.php                             
+ ------ ------------------------------------------------------------------------- 
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/EmailTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  29     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/EntityReferenceTest.php                      
+ ------ ------------------------------------------------------------------------- 
+  65     Fetching class constant class of deprecated class                        
+         Drupal\Corentity\Query\QueryFactory.                                   
+  91     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/FieldTargetWithContainerTestBase.php         
+ ------ ------------------------------------------------------------------------- 
+  21     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  22     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/FileTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  63     Fetching class constant class of deprecated class                        
+         Drupal\Corentity\Query\QueryFactory.                                   
+  90     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/IntegerTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/LinkTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/NumberTest.php                               
+ ------ ------------------------------------------------------------------------- 
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/PathTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/TelephoneTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  31     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/TextTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  69     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Target/TimestampTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeedsUnitTestCase.php                                     
+ ------ ------------------------------------------------------------------------- 
+  56     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/QueueWorker/FeedQueueWorkerBaseTest.php            
+ ------ ------------------------------------------------------------------------- 
+  24     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  27     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/QueueWorker/FeedRefreshTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  52     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  56     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  58     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Result/ParserResultTest.php                               
+ ------ ------------------------------------------------------------------------- 
+  22     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  23     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  24     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  47     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  49     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 157 errors                                                        
+
+ </code>

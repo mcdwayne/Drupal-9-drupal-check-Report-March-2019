@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/enquirycart 174823ae28a1ea27854797631b71876eb2a9f930
+source : http://cgit.drupalcode.org/enquirycart 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EnquirycartController.php           
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EnquiryForm.php                           
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+  126    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EnquirycartButtonForm.php                 
+ ------ --------------------------------------------------- 
+  72     Call to deprecated function drupal_set_message().  
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

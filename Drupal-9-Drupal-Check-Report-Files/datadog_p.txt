@@ -1,0 +1,10 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/datadog_p 74837f1591575b41ff20f91d49df16047064132e
+source : http://cgit.drupalcode.org/datadog_p 
+ 
+ <code> 
+Warning: require(/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/datadog/src/DogStatsd.php): failed to open stream: No such file or directory in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/datadog_p/datadog_p/src/EventSubscriber/datadog_pSubscriber.php on line 3
+
+Fatal error: require(): Failed opening required '/home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/libraries/datadog/src/DogStatsd.php' (include_path='.:/usr/share/php') in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/datadog_p/datadog_p/src/EventSubscriber/datadog_pSubscriber.php on line 3 
+
+ </code>

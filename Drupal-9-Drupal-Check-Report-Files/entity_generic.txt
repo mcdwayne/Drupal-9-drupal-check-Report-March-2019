@@ -1,0 +1,89 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_generic 3616460f1048f6bb6ccb4b744da897b04526163c
+source : http://cgit.drupalcode.org/entity_generic 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/GenericType.php                          
+ ------ ---------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().   
+  98     Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GenericConfigForm.php                     
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+  94     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/GenericForm.php                           
+ ------ --------------------------------------------------- 
+  19     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/GenericTypeForm.php                           
+ ------ ------------------------------------------------------- 
+  127    Call to deprecated function drupal_set_message().      
+  130    Call to deprecated function drupal_set_message().      
+  133    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/filter/IdSelect.php                        
+ ------ ------------------------------------------------------------ 
+  30     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tmp/Access/GenericAccessCheck.php                                    
+ ------ --------------------------------------------------------------------- 
+         Class Drupalntity_generic\Access\GenericAccessCheck was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tmp/Controller/GenericViewController.php                              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntity_generic\Controller\GenericViewController was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tmp/Exception/LockException.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalntity_genericxception\LockException was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tmp/GenericServiceProvider.php                                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalntity_generic\GenericServiceProvider was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tmp/GenericStorage.php                                                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalntity_generic\GenericStorage was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tmp/GenericStorageInterface.php                                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalntity_generic\GenericStorageInterface was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

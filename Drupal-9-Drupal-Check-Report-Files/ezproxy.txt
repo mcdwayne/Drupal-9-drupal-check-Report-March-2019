@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ezproxy c6fd2370a586d04659061917906b4e85e25bc8b0
+source : http://cgit.drupalcode.org/ezproxy 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   ezproxy.module                                     
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated method getUsername() of class   
+         Drupal\userntity\User.                           
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   ezproxyticket.php                                               
+ ------ ---------------------------------------------------------------- 
+         Class EZproxyTicket was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Controller/EZProxyController.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class DrupalZProxy\ControllerZProxyController was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

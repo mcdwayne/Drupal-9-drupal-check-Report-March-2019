@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_type_dependency f9159bbf295f2c4445c8120ed846dea33736a028
+source : http://cgit.drupalcode.org/content_type_dependency 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   content_type_dependency.module                     
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ContentTypeDependencyController.php  
+ ------ ---------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().   
+  115    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentTypeDependencyDeleteConfirm.php    
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentTypeDependencyModify.php           
+ ------ --------------------------------------------------- 
+  181    Call to deprecated function drupal_set_message().  
+  222    Call to deprecated function drupal_set_message().  
+  236    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

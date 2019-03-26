@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_zarinpal e1264aaa0974a22de67b27e29d80d09b49015048
+source : http://cgit.drupalcode.org/commerce_zarinpal 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/OffsiteRedirect.php  
+ ------ -------------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().       
+  127    Call to deprecated function drupal_set_message().       
+  130    Call to deprecated function drupal_set_message().       
+  134    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/PluginForm/OffsiteRedirect/PaymentOffsiteForm.php  
+ ------ ------------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

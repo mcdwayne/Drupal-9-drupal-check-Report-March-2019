@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dynamic_persistent_menu da6f7e4fe77f2aa9a0ba56cb6f335573bca1610e
+source : http://cgit.drupalcode.org/dynamic_persistent_menu 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   dynamic_persistent_menu.admin.inc        
+ ------ ----------------------------------------- 
+  17     Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   dynamic_persistent_menu.module            
+ ------ ------------------------------------------ 
+  18     Call to deprecated function db_query().   
+  209    Call to deprecated function db_query().   
+  217    Call to deprecated function db_delete().  
+  259    Call to deprecated function db_query().   
+  266    Call to deprecated function db_query().   
+  278    Call to deprecated function db_query().   
+  308    Call to deprecated function db_query().   
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

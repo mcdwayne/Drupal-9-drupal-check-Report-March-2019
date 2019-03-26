@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/datatables 35298070a902270b1e8eb45038096766d8725707
+source : http://cgit.drupalcode.org/datatables 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   datatables.module                            
+ ------ --------------------------------------------- 
+  81     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  81     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,105 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_collector 25c15f1c56b337ba9006df98732a214ac2b063b3
+source : http://cgit.drupalcode.org/entity_collector 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/EntityCollectionController.php       
+ ------ ---------------------------------------------------- 
+  54     Call to deprecated function format_date().          
+  75     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  109    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/EntityCollectionSourceFieldManager.php              
+ ------ -------------------------------------------------------- 
+  90     Call to deprecated function entity_get_form_display().  
+  104    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCollectionForm.php                  
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+  147    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCollectionRevisionDeleteForm.php    
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCollectionRevisionRevertForm.php    
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCollectionTypeDeleteForm.php        
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCollectionTypeForm.php              
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ExtraField/Display/AddEntityAction.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalntity_collector\PluginxtraField\DisplayntityCollectionActio  
+         nBase not found and could not be autoloaded.                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/ExtraField/Display/EntityCollectionActionBase.php        
+ ------ -------------------------------------------------------------------- 
+         Class Drupalxtra_field\PluginxtraFieldDisplayFormattedBase not  
+         found and could not be autoloaded.                                  
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ExtraField/Display/EntityCollectionParticipantActionBase.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalxtra_field\PluginxtraFieldDisplayFormattedBase not       
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ExtraField/Display/RemoveEntityAction.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalntity_collector\PluginxtraField\DisplayntityCollectionActio  
+         nBase not found and could not be autoloaded.                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/ExtraField/Display/RemoveParticipantAction.php                
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalntity_collector\PluginxtraField\DisplayntityCollectionParti  
+         cipantActionBase not found and could not be autoloaded.                  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/PanelizerEntity/PanelizerEntityCollection.php               
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\panelizer\Plugin\PanelizerEntityBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

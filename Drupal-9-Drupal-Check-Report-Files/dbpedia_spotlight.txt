@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dbpedia_spotlight 380ee885770690c6a4f8a71dafad04d6a0b84f74
+source : http://cgit.drupalcode.org/dbpedia_spotlight 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   dbpedia_spotlight.batch.inc                        
+ ------ --------------------------------------------------- 
+  7      Call to deprecated function db_select().           
+  16     Call to deprecated function node_load().           
+  47     Call to deprecated function drupal_set_message().  
+  77     Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/DBpediaSpotlightForm.php                   
+ ------ ---------------------------------------------------- 
+  36     Call to deprecated function node_type_get_types().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

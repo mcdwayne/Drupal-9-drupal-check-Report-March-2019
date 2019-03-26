@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contact_storage f9f653d6a77160d6585a7037398eb0e888aca889
+source : http://cgit.drupalcode.org/contact_storage 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   contact_storage.module                            
+ ------ -------------------------------------------------- 
+  33     Call to deprecated method url() of class Drupal.  
+  35     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ContactStorageController.php        
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  33     Call to deprecated method url() of class           
+         Drupal\Core\Controller\ControllerBase.             
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactFormCloneForm.php                  
+ ------ --------------------------------------------------- 
+  135    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactFormDisableForm.php                
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContactFormEnableForm.php                 
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteMultiple.php                        
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/MessageEditForm.php                    
+ ------ ------------------------------------------- 
+  43     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/MessageBulkForm.php                               
+ ------ ------------------------------------------------------------------------- 
+  12     Class Drupal

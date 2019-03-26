@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fastly 7cdefa9cf6075f737ee94401df949776b13efb2d
+source : http://cgit.drupalcode.org/fastly 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   modules/fastlypurger/src/Plugin/Purge/DiagnosticCheck/CredentialCheck.php  
+ ------ --------------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\DiagnosticCheck\DiagnosticCheckBase not    
+         found and could not be autoloaded.                                         
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/fastlypurger/src/Plugin/Purge/Purger/FastlyPurger.php          
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\purge\Plugin\Purge\Purger\PurgerBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/VclHandler.php                                 
+ ------ --------------------------------------------------- 
+  443    Call to deprecated function drupal_set_message().  
+  550    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,400 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/date b76414c466797aaee073336c9ef665d33095a562
+source : http://cgit.drupalcode.org/date 
+ 
+ <code> 
+
+ ------ ----------------------------------------- 
+  Line   date.module                              
+ ------ ----------------------------------------- 
+  26     Calls to function dsm should not exist.  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   date.theme                                             
+ ------ ------------------------------------------------------- 
+  342    Call to deprecated function drupal_render().           
+  345    Call to deprecated function drupal_render().           
+  345    Call to deprecated function drupal_render().           
+  349    Call to deprecated function drupal_render_children().  
+  353    Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   date_api/date_api.module                               
+ ------ ------------------------------------------------------- 
+  307    Call to deprecated function drupal_render_children().  
+  491    Call to deprecated function format_date().             
+  684    Call to deprecated function db_driver().               
+  703    Call to deprecated function db_driver().               
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   date_api/lib/Drupal/date_api/DateGranularity.php                     
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date_api\DateGranularity was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   date_api/lib/Drupal/date_api/DateSqlHandler.php                     
+ ------ -------------------------------------------------------------------- 
+         Class Drupal\date_api\DateSqlHandler was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   date_api/lib/Drupal/date_api/DateiCalParse.php                     
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\date_api\DateiCalParse was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   date_api/lib/Drupal/date_api/Tests/DateAPITest.php                     
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\date_api\Tests\DateAPITest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   date_context/plugins/date_context_date_condition.inc                     
+ ------ ------------------------------------------------------------------------- 
+         Class date_context_date_condition was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   date_field/lib/Drupal/date_field/Plugin/field/formatter/DateFieldDefaultFormatter.php  
+ ------ --------------------------------------------------------------------------------------- 
+         Class                                                                                  
+         Drupal\date_field\Pluginieldormatter\DateFieldDefaultFormatter was                 
+         not found while trying to analyse it - autoloading is probably not                     
+         configured properly.                                                                   
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   date_field/lib/Drupal/date_field/Plugin/field/formatter/DateFieldFormatIntervalFormatter.php  
+ ------ ---------------------------------------------------------------------------------------------- 
+         Class                                                                                         
+         Drupal\date_field\Pluginieldormatter\DateFieldFormatIntervalFormatt                       
+         er was not found while trying to analyse it - autoloading is probably                         
+         not configured properly.                                                                      
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   date_field/lib/Drupal/date_field/Plugin/field/formatter/DateFieldPlainFormatter.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class Drupal\date_field\Pluginieldormatter\DateFieldPlainFormatter               
+         was not found while trying to analyse it - autoloading is probably not               
+         configured properly.                                                                 
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------ 
+  Line   date_field/lib/Drupal/date_field/Plugin/field/widget/DateFieldDatepickerWidget.php  
+ ------ ------------------------------------------------------------------------------------ 
+         Class Drupal\date_field\Pluginield\widget\DateFieldDatepickerWidget               
+         was not found while trying to analyse it - autoloading is probably not              
+         configured properly.                                                                
+ ------ ------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   date_field/lib/Drupal/date_field/Plugin/field/widget/DateFieldListWidget.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class Drupal\date_field\Pluginield\widget\DateFieldListWidget was not       
+         found while trying to analyse it - autoloading is probably not                
+         configured properly.                                                          
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   date_field/lib/Drupal/date_field/Plugin/field/widget/DateFieldWidgetBase.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class Drupal\date_field\Pluginield\widget\DateFieldWidgetBase was not       
+         found while trying to analyse it - autoloading is probably not                
+         configured properly.                                                          
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   date_field/lib/Drupal/date_field/Tests/DateFieldBase.php             
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date\Tests\DateFieldBase was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   date_field/lib/Drupal/date_field/Tests/DateFieldTest.php             
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date\Tests\DateFieldTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   date_field/lib/Drupal/date_field/Tests/DateTimezoneTest.php             
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\date\Tests\DateTimezoneTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   date_field/lib/Drupal/date_field/Tests/DateUITest.php             
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\date\Tests\DateUITest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   date_field/lib/Drupal/date_field/Tests/DateValidationTest.php          
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\date\Tests\DateValidationTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   date_field/lib/Drupal/date_field/Type/DateFieldItem.php                
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\date_field\Type\DateFieldItem was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   date_migrate/date.migrate.inc                                           
+ ------ ------------------------------------------------------------------------ 
+         Class DateMigrateFieldHandler was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   date_migrate/date_migrate_example/date_migrate_example.migrate.inc     
+ ------ ----------------------------------------------------------------------- 
+         Class DateExampleMigration was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   date_migrate/lib/Drupal/date_migrate/DateMigrateExampleUnitTest.php  
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date_migrate\Tests\DateMigrateExampleUnitTest was not   
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   date_repeat/date_repeat.module               
+ ------ --------------------------------------------- 
+  362    Call to deprecated function element_info().  
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   date_repeat/date_repeat_form.inc              
+ ------ ---------------------------------------------- 
+  929    Call to deprecated function drupal_render().  
+  929    Call to deprecated function drupal_render().  
+  942    Call to deprecated function drupal_render().  
+  942    Call to deprecated function drupal_render().  
+  971    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   date_repeat/lib/Drupal/date_repeat/DateRRuleCalc.php                  
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\date_repeat\DateRRuleCalc was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   date_repeat/lib/Drupal/date_repeat/Tests/DateRRuleCalcTest.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\date_repeat\Tests\DateRRuleCalcTest was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   date_repeat/lib/Drupal/date_repeat/Tests/DateRepeatFormTest.php          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\date_repeat\Tests\DateRepeatFormTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   date_repeat_field/date_repeat_field.module    
+ ------ ---------------------------------------------- 
+  163    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   date_tools/date_tools.change_type.inc              
+ ------ --------------------------------------------------- 
+  17     Call to deprecated function drupal_set_message().  
+  35     Call to deprecated function drupal_set_message().  
+  95     Call to deprecated function db_query().            
+  102    Call to deprecated function db_query().            
+  113    Call to deprecated function drupal_set_message().  
+  178    Call to deprecated function db_query().            
+  179    Call to deprecated function db_query().            
+  181    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   date_tools/date_tools.wizard.inc                    
+ ------ ---------------------------------------------------- 
+  129    Call to deprecated function db_query().             
+  130    Call to deprecated function db_query().             
+  132    Call to deprecated function drupal_set_message().   
+  182    Call to deprecated function drupal_set_message().   
+  185    Call to deprecated function node_type_get_types().  
+  273    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   date_tools/lib/Drupal/date_tools/Tests/DateToolsTest.php                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\date_tools\Tests\DateToolsTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   date_views/includes/date_views_argument_handler.inc                      
+ ------ ------------------------------------------------------------------------- 
+         Class date_views_argument_handler was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   date_views/includes/date_views_argument_handler_simple.inc              
+ ------ ------------------------------------------------------------------------ 
+         Class date_views_argument_handler_simple was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   date_views/includes/date_views_filter_handler.inc                      
+ ------ ----------------------------------------------------------------------- 
+         Class date_views_filter_handler was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   date_views/includes/date_views_filter_handler_simple.inc              
+ ------ ---------------------------------------------------------------------- 
+         Class date_views_filter_handler_simple was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   date_views/includes/date_views_plugin_pager.inc                         
+ ------ ------------------------------------------------------------------------ 
+         Class date_views_plugin_pager was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   date_views/theme/theme.inc                    
+ ------ ---------------------------------------------- 
+  209    Call to deprecated function drupal_render().  
+  210    Call to deprecated function drupal_render().  
+  211    Call to deprecated function drupal_render().  
+  212    Call to deprecated function drupal_render().  
+  213    Call to deprecated function drupal_render().  
+  214    Call to deprecated function drupal_render().  
+  215    Call to deprecated function drupal_render().  
+  215    Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Plugin/field/formatter/DateDefaultFormatter.php        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\date\Pluginieldormatter\DateDefaultFormatter was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Plugin/field/formatter/DatePlainFormatter.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date\Pluginieldormatter\DatePlainFormatter was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Plugin/field/formatter/FormatIntervalFormatter.php    
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\date\Pluginieldormatter\FormatIntervalFormatter was  
+         not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   lib/Drupal/date/Plugin/field/widget/DatePopupWidget.php        
+ ------ --------------------------------------------------------------- 
+  39     Syntax error, unexpected T_VARIABLE, expecting '(' on line 39  
+  76     Syntax error, unexpected T_VARIABLE on line 76                 
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   lib/Drupal/date/Plugin/field/widget/DateSelectWidget.php       
+ ------ --------------------------------------------------------------- 
+  37     Syntax error, unexpected T_VARIABLE, expecting '(' on line 37  
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Plugin/field/widget/DateTextWidget.php               
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date\Pluginield\widget\DateTextWidget was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Plugin/field/widget/DateWidgetBase.php               
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date\Pluginield\widget\DateWidgetBase was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Tests/DateFieldBase.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date\Tests\DateFieldBase was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Tests/DateFieldTest.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\date\Tests\DateFieldTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/date/Tests/DateTimezoneTest.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\date\Tests\DateTimezoneTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   lib/Drupal/date/Tests/DateUITest.php                              
+ ------ ------------------------------------------------------------------ 
+         Class Drupal\date\Tests\DateUITest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Tests/DateValidationTest.php                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\date\Tests\DateValidationTest was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/date/Type/DateItem.php                                      
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\date\Type\DateItem was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 82 errors                                                         
+
+ </code>

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contactform_block 61eeeb5fb58bf4ce53ca18b4935cc914abfaef21
+source : http://cgit.drupalcode.org/contactform_block 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Block/ContactBlock.php                           
+ ------ ------------------------------------------------------------ 
+  62     Call to deprecated method entityManager() of class Drupal.  
+  110    Call to deprecated method entityManager() of class Drupal.  
+  113    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

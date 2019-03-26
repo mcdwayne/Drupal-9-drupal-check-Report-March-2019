@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/druminate d9e5e8d80f139da724698bd233a04efa82c11b45
+source : http://cgit.drupalcode.org/druminate 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/druminate_sso/src/Form/LuminateLoginForm.php                 
+ ------ --------------------------------------------------------------------- 
+  278    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/druminate_webforms/druminate_webforms.module  
+ ------ ------------------------------------------------------ 
+  78     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/druminate_webforms/src/Element/DruminateWebformsPayment.php    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\webformlement\WebformCompositeBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/druminate_webforms/src/Plugin/WebformElement/DruminateWebformsPayment.php  
+ ------ ----------------------------------------------------------------------------------- 
+         Class Drupal\webform\Plugin\WebformElement\WebformCompositeBase not                
+         found and could not be autoloaded.                                                 
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   modules/druminate_webforms/src/Plugin/WebformHandler/DruminateDonateWebformHandler.php  
+ ------ ---------------------------------------------------------------------------------------- 
+         Class                                                                                   
+         Drupal\druminate_webforms\Plugin\WebformHandler\DruminateSurveyWebformH                 
+         andler not found and could not be autoloaded.                                           
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   modules/druminate_webforms/src/Plugin/WebformHandler/DruminateSurveyWebformHandler.php  
+ ------ ---------------------------------------------------------------------------------------- 
+         Class Drupal\webform\Plugin\WebformHandlerBase not found and could not                  
+         be autoloaded.                                                                          
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Luminate/DruminateApi.php                      
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

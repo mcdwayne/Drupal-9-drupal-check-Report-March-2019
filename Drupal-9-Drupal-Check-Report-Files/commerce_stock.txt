@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_stock 77f25763d2c89b857d147318eaf31f08851761f2
+source : http://cgit.drupalcode.org/commerce_stock 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/enforcement/commerce_stock_enforcement.module  
+ ------ ------------------------------------------------------- 
+  220    Call to deprecated function drupal_set_message().      
+  327    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/field/src/Plugin/Field/FieldWidget/SimpleStockLevelWidget.php  
+ ------ ----------------------------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().                      
+  266    Call to deprecated function drupal_set_message().                      
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/local_storage/src/Form/PrepareUninstallForm.php  
+ ------ --------------------------------------------------------- 
+  107    Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/local_storage/src/Form/StockLocationForm.php  
+ ------ ------------------------------------------------------ 
+  40     Call to deprecated function drupal_set_message().     
+  46     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/local_storage/src/Form/StockLocationTypeDeleteForm.php  
+ ------ ---------------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/local_storage/src/Form/StockLocationTypeForm.php  
+ ------ ---------------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().         
+  60     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StockConfigForm.php                       
+ ------ --------------------------------------------------- 
+  229    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/StockBrowserTestBase.php                         
+ ------ ---------------------------------------------------------------------- 
+  15     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests

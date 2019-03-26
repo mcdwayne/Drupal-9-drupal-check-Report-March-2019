@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_pado 9de67c9f1e4f76b550bd41cc0f1e697943077f3f
+source : http://cgit.drupalcode.org/commerce_pado 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PadoAddToCartForm.php                     
+ ------ --------------------------------------------------- 
+  159    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Functional/ProductAddonTest.php                             
+ ------ ---------------------------------------------------------------------- 
+  18     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests

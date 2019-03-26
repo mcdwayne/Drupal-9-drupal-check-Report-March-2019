@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contacts aad78da9069f973f8a2256a18c1eb594c115bd82
+source : http://cgit.drupalcode.org/contacts 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/crm_tools/src/Form/OverviewRoles.php                         
+ ------ --------------------------------------------------------------------- 
+  107    Call to deprecated method url() of class Drupal\Core\Form\FormBase.  
+  283    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/group/src/Plugin/Block/ContactOrgRelationshipFormBlock.php  
+ ------ -------------------------------------------------------------------- 
+  265    Call to deprecated function drupal_set_message().                   
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/group/src/Plugin/FlexiformFormEntity/ContactsOrgMembership.php   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupallexiform\FormEntity\FlexiformFormEntityBase not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Element/ContactTabContent.php                  
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/EventSubscriber/AccessDeniedSubscriber.php                      
+ ------ -------------------------------------------------------------------- 
+  27     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class Drupal

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commercepayu 862261fb084088b6a69d21d64219edc34a4b09a1
+source : http://cgit.drupalcode.org/commercepayu 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/PayuCheckout.php  
+ ------ ----------------------------------------------------- 
+  43     Calls to function dpm should not exist.              
+  87     Call to deprecated function drupal_set_message().    
+  102    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

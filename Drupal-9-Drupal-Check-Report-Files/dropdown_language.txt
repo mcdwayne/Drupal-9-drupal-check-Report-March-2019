@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dropdown_language 6750497b7e85e9f3e94a44a377d944257e69624a
+source : http://cgit.drupalcode.org/dropdown_language 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/DropdownLanguage.php            
+ ------ ------------------------------------------------- 
+  173    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

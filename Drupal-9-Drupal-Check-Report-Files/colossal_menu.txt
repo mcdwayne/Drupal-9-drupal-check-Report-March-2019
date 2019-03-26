@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/colossal_menu b8b77dc84ce471feaba50d661b8bb9c58553a8e8
+source : http://cgit.drupalcode.org/colossal_menu 
+ 
+ <code> 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/LinkController.php       
+ ------ ---------------------------------------- 
+  74     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LinkForm.php                              
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LinkTypeDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LinkTypeForm.php                          
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+  69     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuDeleteForm.php                        
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MenuForm.php                              
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  112    Call to deprecated function drupal_set_message().  
+  116    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/rest/resource/MenuTreeResource.php                          
+ ------ ----------------------------------------------------------------------- 
+         Class Drupalest_menu_tree\Pluginestesource\MenuTreeResource not  
+         found and could not be autoloaded.                                     
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

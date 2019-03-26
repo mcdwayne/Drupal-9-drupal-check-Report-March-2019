@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_default_image 8.x-1.0
+source : http://cgit.drupalcode.org/config_default_image 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ConfigDefaultImageFormatter.php  
+ ------ ----------------------------------------------------------------- 
+  186    Call to deprecated function file_uri_scheme().                   
+  189    Call to deprecated function drupal_dirname().                    
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

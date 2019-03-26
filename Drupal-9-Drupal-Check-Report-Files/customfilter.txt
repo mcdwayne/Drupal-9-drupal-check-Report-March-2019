@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/customfilter 29df5be3a075b0f65071482e23aa5d37f030ff5b
+source : http://cgit.drupalcode.org/customfilter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/CustomFilterListBuilder.php                 
+ ------ ------------------------------------------------ 
+  31     Call to deprecated method getLabel() of class   
+         Drupal\CorentityntityListBuilder.           
+  31     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Entity/CustomFilter.php                          
+ ------ ----------------------------------------------------- 
+  169    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomFilterDeleteForm.php                
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/CustomFilterForm.php                          
+ ------ ------------------------------------------------------- 
+  88     Call to deprecated function drupal_set_message().      
+  93     Call to deprecated function drupal_set_message().      
+  107    Call to deprecated function drupal_get_destination().  
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomFilterRulesDeleteForm.php           
+ ------ --------------------------------------------------- 
+  91     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/RulesAddEditForm.php               
+ ------ -------------------------------------------- 
+  178    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Form/RulesForm.php                           
+ ------ ------------------------------------------------- 
+  130    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  130    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  218    Call to deprecated function entity_load().       
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drush_entity 4666062642f5c3e84afcb58606354da411d2632c
+source : http://cgit.drupalcode.org/drush_entity 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   entity.drush.inc                                            
+ ------ ------------------------------------------------------------ 
+  451    Call to deprecated function db_query().                     
+  477    Call to deprecated function entity_load_multiple().         
+  812    Call to deprecated function entity_load().                  
+  816    Call to deprecated function entity_load_multiple().         
+  1033   Call to deprecated function node_load().                    
+  1034   Call to deprecated function db_query().                     
+  1035   Call to deprecated function db_query().                     
+  1068   Call to deprecated method entityManager() of class Drupal.  
+  1161   Call to deprecated function db_escape_table().              
+  1162   Call to deprecated function db_query().                     
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   tests/entityTest.php                                             
+ ------ ----------------------------------------------------------------- 
+         Class EntityTestCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

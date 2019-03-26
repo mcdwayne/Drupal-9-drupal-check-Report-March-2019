@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/embed fcc97638807dd981207175d027d0f2ea7a8bbc41
+source : http://cgit.drupalcode.org/embed 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/EmbedButton.php                          
+ ------ ---------------------------------------------------- 
+  118    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  141    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EmbedButtonForm.php                       
+ ------ --------------------------------------------------- 
+  105    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function drupal_set_message().  
+  202    Call to deprecated function drupal_set_message().  
+  203    Call to deprecated method link() of class          
+         Drupal\CorentityntityInterface.                
+  207    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/embed_test/src/Plugin/EmbedType/Aircraft.php  
+ ------ ---------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

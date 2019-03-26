@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drush_entity_tools f8fd129a1596cba8b469bf07f61a9318ac9d50da
+source : http://cgit.drupalcode.org/drush_entity_tools 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   taxonomyinfo.drush.inc                             
+ ------ --------------------------------------------------- 
+  69     Call to deprecated function taxonomy_term_load().  
+  80     Call to deprecated function entity_get_bundles().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   typeinfo.drush.inc                                          
+ ------ ------------------------------------------------------------ 
+  146    Call to deprecated function entity_get_bundles().           
+  154    Call to deprecated method entityManager() of class Drupal.  
+  363    Call to deprecated function entity_get_bundles().           
+  393    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

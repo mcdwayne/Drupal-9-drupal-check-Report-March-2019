@@ -1,0 +1,280 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/sqlsrv 752551c4436988c92878cddea5b1ebac582226f0
+source : http://cgit.drupalcode.org/sqlsrv 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Connection.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Connection was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/DatabaseTransactionCannotCommitAfterRollbackException.php  
+ ------ ----------------------------------------------------------------------------------------------------- 
+         Class                                                                                                
+         Drupal\Driver\Database\sqlsrv\DatabaseTransactionCannotCommitAfterRollb                              
+         ackException was not found while trying to analyse it - autoloading is                               
+         probably not configured properly.                                                                    
+ ------ ----------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Delete.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Delete was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Insert.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Insert was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Install/Tasks.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Install\Tasks was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Merge.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Merge was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Schema.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Schema was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Select.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Select was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Statement.php                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Statement was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/StatementBase.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\StatementBase was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Transaction.php                
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Transaction was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/TransactionSettings.php      
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\TransactionSettings was not found  
+         while trying to analyse it - autoloading is probably not configured    
+         properly.                                                              
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Truncate.php                   
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Truncate was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Update.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Update was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   drivers/lib/Drupal/Driver/Database/sqlsrv/Upsert.php                   
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Driver\Database\sqlsrv\Upsert was not found while trying  
+         to analyse it - autoloading is probably not configured properly.       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Tests/SchemaTest.php                             
+ ------ ----------------------------------------------------- 
+  42     Call to deprecated function db_create_table().       
+  43     Call to deprecated function db_table_exists().       
+  45     Call to deprecated function db_add_primary_key().    
+  46     Call to deprecated method pass() of class            
+         Drupal\KernelTests\KernelTestBase.                   
+  49     Call to deprecated function db_insert().             
+  52     Call to deprecated function db_insert().             
+  58     Call to deprecated function db_drop_primary_key().   
+  59     Call to deprecated method pass() of class            
+         Drupal\KernelTests\KernelTestBase.                   
+  61     Call to deprecated function db_insert().             
+  62     Call to deprecated method pass() of class            
+         Drupal\KernelTests\KernelTestBase.                   
+  65     Call to deprecated function db_add_primary_key().    
+  85     Call to deprecated function db_create_table().       
+  88     Call to deprecated function db_change_field().       
+  109    Call to deprecated function db_create_table().       
+  112    Call to deprecated function db_insert().             
+  123    Call to deprecated function db_insert().             
+  132    Call to deprecated function db_change_field().       
+  140    Call to deprecated function db_change_field().       
+  157    Call to deprecated function db_insert().             
+  166    Call to deprecated function db_insert().             
+  174    Call to deprecated function db_delete().             
+  185    Call to deprecated function db_insert().             
+  194    Call to deprecated function db_insert().             
+  202    Call to deprecated function db_delete().             
+  219    Call to deprecated function db_create_table().       
+  222    Call to deprecated function db_add_field().          
+  232    Call to deprecated function db_index_exists().       
+  235    Call to deprecated function db_drop_index().         
+  236    Call to deprecated function db_index_exists().       
+  238    Call to deprecated function db_change_field().       
+  248    Call to deprecated function db_index_exists().       
+  268    Call to deprecated function db_query().              
+  269    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  292    Call to deprecated function db_create_table().       
+  297    Call to deprecated function db_insert().             
+  316    Call to deprecated function db_change_field().       
+  327    Call to deprecated function db_change_field().       
+  336    Call to deprecated function db_change_field().       
+  346    Call to deprecated function db_change_field().       
+  377    Call to deprecated function db_create_table().       
+  396    Call to deprecated function db_insert().             
+  407    Call to deprecated function db_update().             
+  446    Call to deprecated function db_create_table().       
+  449    Call to deprecated function db_insert().             
+  454    Call to deprecated function db_transaction().        
+  456    Call to deprecated function db_query().              
+  458    Call to deprecated function db_query().              
+  459    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  463    Call to deprecated function db_query().              
+  469    Call to deprecated function db_query().              
+  470    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  474    Call to deprecated function db_query().              
+  485    Call to deprecated function db_query().              
+  486    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  545    Call to deprecated function db_create_table().       
+  547    Call to deprecated function db_query().              
+  548    Call to deprecated function db_query().              
+  549    Call to deprecated function db_query().              
+  551    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  555    Call to deprecated function db_change_field().       
+  561    Call to deprecated function db_query().              
+  562    Call to deprecated function db_query().              
+  563    Call to deprecated function db_query().              
+  565    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  569    Call to deprecated function db_field_set_default().  
+  578    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+  580    Call to deprecated function db_query().              
+  581    Call to deprecated function db_query().              
+  582    Call to deprecated function db_query().              
+  584    Call to deprecated method assertEqual() of class     
+         Drupal\KernelTests\KernelTestBase.                   
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Tests/SelectQueryTest.php                      
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function db_create_table().     
+  57     Call to deprecated function db_insert().           
+  58     Call to deprecated function db_insert().           
+  59     Call to deprecated function db_insert().           
+  60     Call to deprecated function db_insert().           
+  61     Call to deprecated function db_insert().           
+  62     Call to deprecated function db_insert().           
+  84     Call to deprecated function db_select().           
+  110    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  113    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  125    Call to deprecated function db_select().           
+  133    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  137    Call to deprecated function db_select().           
+  147    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  158    Call to deprecated function db_select().           
+  170    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  180    Call to deprecated function db_select().           
+  191    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  208    Call to deprecated function db_query().            
+  217    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  226    Call to deprecated function db_select().           
+  229    Call to deprecated function db_query_temporary().  
+  232    Call to deprecated function db_table_exists().     
+  234    Call to deprecated function db_select().           
+  242    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  246    Call to deprecated function db_drop_table().       
+  249    Call to deprecated function db_table_exists().     
+  283    Call to deprecated function db_like().             
+  284    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  286    Call to deprecated function db_insert().           
+  292    Call to deprecated function db_select().           
+  294    Call to deprecated function db_like().             
+  296    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  298    Call to deprecated function db_insert().           
+  304    Call to deprecated function db_select().           
+  306    Call to deprecated function db_like().             
+  308    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  311    Call to deprecated function db_select().           
+  315    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  318    Call to deprecated function db_select().           
+  322    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  325    Call to deprecated function db_select().           
+  326    Call to deprecated function db_like().             
+  329    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  332    Call to deprecated function db_select().           
+  336    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  339    Call to deprecated function db_select().           
+  340    Call to deprecated function db_like().             
+  343    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  346    Call to deprecated function db_query().            
+  349    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+  352    Call to deprecated function db_query().            
+  353    Call to deprecated function db_like().             
+  355    Call to deprecated method assertEqual() of class   
+         Drupal\KernelTests\KernelTestBase.                 
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 139 errors                                                        
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cg_payment 9343e64eb14895e21903ae37367baf6ac0eb4a70
+source : http://cgit.drupalcode.org/cg_payment 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TransactionForm.php                       
+ ------ --------------------------------------------------- 
+  26     Call to deprecated function drupal_set_message().  
+  30     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/TransactionListBuilder.php             
+ ------ ------------------------------------------- 
+  90     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

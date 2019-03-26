@@ -1,0 +1,118 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/demo e34165d37cdd7ef86a1e5a22624a3590ca508a86
+source : http://cgit.drupalcode.org/demo 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   demo.module                                                      
+ ------ ----------------------------------------------------------------- 
+  18     Call to deprecated function file_stream_wrapper_valid_scheme().  
+  22     Call to deprecated function drupal_set_message().                
+  91     Call to deprecated function format_date().                       
+  103    Call to deprecated method l() of class Drupal.                   
+  103    Call to deprecated method l() of class Drupal.                   
+  146    Call to deprecated function format_date().                       
+  147    Call to deprecated function db_query().                          
+  207    Call to deprecated function db_query().                          
+  216    Call to deprecated function db_query().                          
+  324    Call to deprecated function db_query().                          
+  414    Call to deprecated function db_driver().                         
+  446    Call to deprecated function db_query().                          
+  578    Call to deprecated function drupal_chmod().                      
+  579    Call to deprecated function drupal_chmod().                      
+  594    Call to deprecated function drupal_set_message().                
+  708    Call to deprecated function drupal_set_message().                
+  733    Call to deprecated function db_query().                          
+  741    Call to deprecated function db_query().                          
+  762    Call to deprecated function drupal_set_message().                
+  784    Call to deprecated function drupal_set_message().                
+  801    Call to deprecated function drupal_set_message().                
+  841    Call to deprecated method checkPlain() of class                  
+         Drupal\Component\Utility\SafeMarkup.                             
+  841    Call to method checkPlain() of deprecated class                  
+         Drupal\Component\Utility\SafeMarkup.                             
+  882    Call to deprecated function drupal_set_message().                
+  903    Call to deprecated function file_uri_scheme().                   
+  958    Call to deprecated function format_date().                       
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Controller/ConfigDownloadController.php                      
+ ------ ----------------------------------------------------------------- 
+  121    Call to deprecated function file_stream_wrapper_valid_scheme().  
+  134    Call to deprecated function drupal_set_message().                
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Form/ChangeSyncForm.php                                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\demo\Form\ChangeSync was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigDeleteConfirm.php                   
+ ------ --------------------------------------------------- 
+  31     Call to deprecated function drupal_set_message().  
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DemoAdminSettings.php                     
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+  51     Call to deprecated method l() of class Drupal.     
+  51     Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DemoConfigManageForm.php                  
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DemoConfigResetConfirm.php                
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DemoDeleteConfirm.php                     
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().  
+  53     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DemoDumpForm.php                          
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/DemoManageForm.php                 
+ ------ -------------------------------------------- 
+  43     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DemoResetConfirm.php                      
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/deleteConfig.php                                          
+ ------ ------------------------------------------------------------------- 
+         Class Drupal\demo\Form\DeleteConfig was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 45 errors                                                         
+
+ </code>

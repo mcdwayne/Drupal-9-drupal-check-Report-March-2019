@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_product_kit 97b3fac1a9d110ecc6bd47068f800f5ff062910a
+source : http://cgit.drupalcode.org/commerce_product_kit 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   commerce_product_kit.module                        
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   templates/commerce-product-kit.tpl.php        
+ ------ ---------------------------------------------- 
+  12     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

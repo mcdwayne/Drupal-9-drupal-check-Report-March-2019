@@ -1,0 +1,45 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_price_rule 5b98c0b6fd7f185effb5ea6b5a262e3ba525d499
+source : http://cgit.drupalcode.org/commerce_price_rule 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/PriceRule.php                            
+ ------ ---------------------------------------------------- 
+  323    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/PriceListDeleteForm.php                       
+ ------ ------------------------------------------------------- 
+  33     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PriceListForm.php                         
+ ------ --------------------------------------------------- 
+  18     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/PriceListItemForm.php                         
+ ------ ------------------------------------------------------- 
+  107    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  120    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/PriceRuleForm.php                             
+ ------ ------------------------------------------------------- 
+  19     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  94     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

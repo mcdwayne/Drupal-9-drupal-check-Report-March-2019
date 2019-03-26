@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/customfieldtoken 50022e93902572098bf8e217c89ca3ea751499e4
+source : http://cgit.drupalcode.org/customfieldtoken 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   customfieldtoken.tokens.inc               
+ ------ ------------------------------------------ 
+  18     Call to deprecated function db_select().  
+  46     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/TokenListing.php                 
+ ------ ------------------------------------------------ 
+  30     Call to deprecated function db_select().        
+  67     Call to deprecated method l() of class Drupal.  
+  68     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CreateToken.php                           
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function db_select().           
+  138    Call to deprecated function db_insert().           
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DeleteToken.php                           
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function db_delete().           
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EditToken.php                             
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function db_select().           
+  151    Call to deprecated function db_update().           
+  161    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

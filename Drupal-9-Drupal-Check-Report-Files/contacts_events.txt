@@ -1,0 +1,71 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contacts_events c4013928e47b2e97efcfc6f6bd1d155aa5f25e2f
+source : http://cgit.drupalcode.org/contacts_events 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/EventSubscriber/BookingConfirmedSubscriber.php   
+ ------ ----------------------------------------------------- 
+  149    Call to deprecated method getFromState() of class    
+         Drupal\state_machinevent\WorkflowTransitionEvent.  
+  149    Call to deprecated method getToState() of class      
+         Drupal\state_machinevent\WorkflowTransitionEvent.  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventClassDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  48     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventClassForm.php                        
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+  118    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventForm.php                             
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventTypeDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EventTypeForm.php                         
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TicketForm.php                            
+ ------ --------------------------------------------------- 
+  154    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TicketTypeDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TicketTypeForm.php                        
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

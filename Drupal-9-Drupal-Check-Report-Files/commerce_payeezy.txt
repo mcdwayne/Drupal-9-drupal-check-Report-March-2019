@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_payeezy e907185f71d4f1ce77ee79458d469447b198d7c4
+source : http://cgit.drupalcode.org/commerce_payeezy 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Plugin/Commerce/PaymentGateway/HostedGateway.php  
+ ------ ------------------------------------------------------ 
+  141    Call to deprecated function drupal_set_message().     
+  147    Call to deprecated function drupal_set_message().     
+  151    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/PayeezyOnsiteGateway.php  
+ ------ ------------------------------------------------------------- 
+  184    Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

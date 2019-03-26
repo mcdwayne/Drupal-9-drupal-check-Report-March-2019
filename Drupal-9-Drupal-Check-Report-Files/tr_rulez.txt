@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/tr_rulez 8828108b585dd9af87e8b568d16e73c203392ac1
+source : http://cgit.drupalcode.org/tr_rulez 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   rules_scheduler/src/Plugin/views/filter/ComponentInOperator.php  
+ ------ ----------------------------------------------------------------- 
+  22     Call to deprecated function db_select().                         
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/RulesComponentListBuilder.php   
+ ------ ----------------------------------------------- 
+  100    Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   src/Controller/RulesReactionListBuilder.php    
+ ------ ----------------------------------------------- 
+  107    Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

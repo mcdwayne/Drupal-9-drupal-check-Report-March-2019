@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_header_image 1eb8d3a3bb2286d0cba25dea8d5972c80525b68f
+source : http://cgit.drupalcode.org/custom_header_image 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   custom_header_image.module                         
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HeaderImageDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/HeaderImageForm.php                       
+ ------ --------------------------------------------------- 
+  116    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/HeaderImageBlock.php            
+ ------ ------------------------------------------------- 
+  171    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  180    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

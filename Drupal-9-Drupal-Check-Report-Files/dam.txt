@@ -1,0 +1,58 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dam 8.x-1.0-alpha3
+source : http://cgit.drupalcode.org/dam 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   dam.module                                                              
+ ------ ------------------------------------------------------------------------ 
+  161    Class Drupalntity_reference_revisionsntityNeedsSaveTrait not found  
+         and could not be autoloaded.                                            
+  215    Call to deprecated function entity_load_multiple_by_properties().       
+  218    Call to deprecated function file_uri_scheme().                          
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Controller/DamController.php                                    
+ ------ -------------------------------------------------------------------- 
+  22     Class Drupal\dam\FileDirectoryInterface not found and could not be  
+         autoloaded.                                                         
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Entity/FTPAccount.php                   
+ ------ -------------------------------------------- 
+  311    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Entity/FTPAccountType.php                                            
+ ------ ------------------------------------------------------------------------- 
+  44     Class Drupal\damntity\FTPAccountTypeInterface not found and could not  
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Entity/FileDirectory.php                         
+ ------ ----------------------------------------------------- 
+  409    Call to deprecated function entity_load().           
+  464    Call to deprecated function entity_load().           
+  503    Call to deprecated function entity_load().           
+  510    Call to deprecated function entity_load_multiple().  
+  549    Call to deprecated function entity_load_multiple().  
+  637    Call to deprecated function drupal_set_message().    
+  643    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/DamLabelSettings.php                          
+ ------ ------------------------------------------------------- 
+  247    Call to deprecated function entity_delete_multiple().  
+  258    Call to deprecated function entity_delete_multiple().  
+  289    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

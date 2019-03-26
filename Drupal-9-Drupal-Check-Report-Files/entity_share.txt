@@ -1,0 +1,85 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_share b6b1dfb871ce298e5380ff69f6b84ca7619964f4
+source : http://cgit.drupalcode.org/entity_share 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/entity_share_client/src/Form/RemoteDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/entity_share_client/src/Form/RemoteForm.php  
+ ------ ----------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().    
+  98     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/entity_share_client/src/JsonapiBatchHelper.php  
+ ------ -------------------------------------------------------- 
+  69     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/entity_share_client/src/Service/JsonapiHelper.php  
+ ------ ----------------------------------------------------------- 
+  298    Call to deprecated function drupal_set_message().          
+  302    Call to deprecated function drupal_set_message().          
+  639    Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/entity_share_server/src/Form/ChannelDeleteForm.php  
+ ------ ------------------------------------------------------------ 
+  41     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/entity_share_server/src/Form/ChannelForm.php  
+ ------ ------------------------------------------------------ 
+  159    Call to deprecated function drupal_set_message().     
+  165    Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/entity_share_server/src/Form/FilterDeleteForm.php  
+ ------ ----------------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/entity_share_server/src/Form/FilterEditForm.php  
+ ------ --------------------------------------------------------- 
+  28     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/entity_share_server/src/Form/GroupDeleteForm.php  
+ ------ ---------------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/entity_share_server/src/Form/GroupEditForm.php  
+ ------ -------------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/entity_share_server/src/Form/SortDeleteForm.php  
+ ------ --------------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/entity_share_server/src/Form/SortEditForm.php  
+ ------ ------------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

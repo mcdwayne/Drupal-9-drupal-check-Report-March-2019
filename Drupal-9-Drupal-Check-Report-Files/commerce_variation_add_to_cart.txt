@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_variation_add_to_cart b5cba0f4845c5fcfcf0a6f081d6e7b9c746efbf7
+source : http://cgit.drupalcode.org/commerce_variation_add_to_cart 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/VariationAddToCart.php              
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/VariationAddToCartFormatter.php  
+ ------ ----------------------------------------------------------------- 
+  138    Call to deprecated method isActive() of class                    
+         Drupal

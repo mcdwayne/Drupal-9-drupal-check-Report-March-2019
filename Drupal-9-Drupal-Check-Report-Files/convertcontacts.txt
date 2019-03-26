@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/convertcontacts 8f271dd34dc1239f7c30474eb5a4d97965d224b7
+source : http://cgit.drupalcode.org/convertcontacts 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   convertcontacts.module                           
+ ------ ------------------------------------------------- 
+  90     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  93     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  126    Call to deprecated function drupal_rmdir().      
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

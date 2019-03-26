@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/context_node_template b7c4ea071ec14d8630ed71709dc8c3c0cae37bf0
+source : http://cgit.drupalcode.org/context_node_template 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   context_node_template.module                 
+ ------ --------------------------------------------- 
+  36     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  37     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  50     Call to deprecated function db_query().      
+  65     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  66     Call to deprecated function db_query().      
+  86     Call to deprecated function db_query().      
+  118    Call to deprecated function db_query().      
+  123    Call to deprecated function db_insert().     
+  131    Call to deprecated function db_update().     
+  137    Call to deprecated function db_delete().     
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContextNodeTemplateSettingForm.php        
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function db_query().            
+  64     Call to deprecated function db_update().           
+  69     Call to deprecated function db_insert().           
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Plugin/Condition/ContextNodeTemplateCondition.php  
+ ------ ------------------------------------------------------- 
+  101    Call to deprecated function db_query().                
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

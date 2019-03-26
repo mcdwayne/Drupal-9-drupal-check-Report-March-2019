@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cloudmersiveantivirus d523b3dfdeb8c60ad16bd520401c4e3c338f084a
+source : http://cgit.drupalcode.org/cloudmersiveantivirus 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/CloudmersiveAntivirusConfigForm.php                       
+ ------ ------------------------------------------------------------------- 
+  160    Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Scanner/Executable.php                      
+ ------ ------------------------------------------------ 
+  36     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

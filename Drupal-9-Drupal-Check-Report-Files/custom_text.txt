@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_text 1dfd1d1ea97390788563b7e0ae7c1277d58b971c
+source : http://cgit.drupalcode.org/custom_text 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   custom_text.module                             
+ ------ ----------------------------------------------- 
+  39     Call to deprecated function db_transaction().  
+  53     Call to deprecated function db_select().       
+  77     Call to deprecated function db_select().       
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomTextAdminForm.php                   
+ ------ --------------------------------------------------- 
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

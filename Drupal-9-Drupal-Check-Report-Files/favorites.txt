@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/favorites 42eef88e8bacdbf03292cfd898cc78a05930b27b
+source : http://cgit.drupalcode.org/favorites 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/MyFavController.php              
+ ------ ------------------------------------------------ 
+  62     Call to deprecated method l() of class Drupal.  
+  62     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/FavoriteStorage.php                   
+ ------ ------------------------------------------ 
+  16     Call to deprecated function db_delete().  
+  25     Call to deprecated function db_query().   
+  33     Call to deprecated function db_query().   
+  40     Call to deprecated function db_delete().  
+  48     Call to deprecated function db_delete().  
+  59     Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/Block/FavBlock.php                   
+ ------ ------------------------------------------------ 
+  54     Call to deprecated method l() of class Drupal.  
+  55     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

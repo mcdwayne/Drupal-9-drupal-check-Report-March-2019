@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/slack_notify b8b521eece37b840b4dd9ab710c28f23228b0fd3
+source : http://cgit.drupalcode.org/slack_notify 
+ 
+ <code>  ------ ------------------------------------------------------------------------ 
+  Line   src/Form/SlackNotifySettingsForm.php                                    
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\slacklognotification\Form\SlackNotifySettingsForm was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Logger/SlackLogger.php                                           
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\slacklognotification\Logger\SlackLogger was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

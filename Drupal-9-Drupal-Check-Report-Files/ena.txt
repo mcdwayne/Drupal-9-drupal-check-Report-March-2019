@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ena 70f0d8c713925435f4c1acd6c47b260c88c8a070
+source : http://cgit.drupalcode.org/ena 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EntityNoteAuditController.php       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  38     Call to deprecated method url() of class Drupal.   
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/EntityNoteAuditData.php                       
+ ------ -------------------------------------------------- 
+  40     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

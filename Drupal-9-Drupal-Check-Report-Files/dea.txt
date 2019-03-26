@@ -1,0 +1,122 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dea 26c3fa63694cdee2ec3789b23f6d0fa91e2b2629
+source : http://cgit.drupalcode.org/dea 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/dea_magic/src/Plugin/dea/ChildTermGrantDiscovery.php  
+ ------ -------------------------------------------------------------- 
+  69     Call to deprecated method entityManager() of class Drupal.    
+ ------ -------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/dea_magic/src/Plugin/dea/ChildTermSolutionDiscovery.php  
+ ------ ----------------------------------------------------------------- 
+  62     Call to deprecated method entityManager() of class Drupal.       
+  86     Call to deprecated method entityManager() of class Drupal.       
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/dea_magic/src/Plugin/dea/ParentTermGrantDiscovery.php  
+ ------ --------------------------------------------------------------- 
+  57     Call to deprecated method entityManager() of class Drupal.     
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/dea_magic/src/Plugin/dea/ParentTermRequirementDiscovery.php  
+ ------ --------------------------------------------------------------------- 
+  49     Call to deprecated method entityManager() of class Drupal.           
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/dea_magic/src/Plugin/dea/ParentTermSolutionDiscovery.php  
+ ------ ------------------------------------------------------------------ 
+  61     Call to deprecated method entityManager() of class Drupal.        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   modules/dea_request/dea_request.module        
+ ------ ---------------------------------------------- 
+  16     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  23     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+  33     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/dea_request/src/Entity/AccessRequest.php            
+ ------ ------------------------------------------------------------ 
+  86     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   modules/dea_request/src/Entity/AccessRequestListBuilder.php  
+ ------ ------------------------------------------------------------- 
+  44     Call to deprecated method link() of class                    
+         Drupal\CorentityntityInterface.                          
+  48     Call to deprecated method l() of class Drupal.               
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   modules/dea_request/src/Form/AcceptForm.php            
+ ------ ------------------------------------------------------- 
+  26     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  87     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/dea_request/src/Form/DenyForm.php          
+ ------ --------------------------------------------------- 
+  47     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/dea_request/src/Form/RequestForm.php                
+ ------ ------------------------------------------------------------ 
+  22     Call to deprecated method entityManager() of class Drupal.  
+  23     Call to deprecated method entityManager() of class Drupal.  
+  87     Call to deprecated function drupal_set_message().           
+  99     Call to deprecated function drupal_set_message().           
+  103    Call to deprecated function drupal_set_message().           
+  127    Call to deprecated method entityManager() of class Drupal.  
+  131    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/dea_request/src/Routing/RequestableFileRouteEnhancer.php  
+ ------ ------------------------------------------------------------------ 
+  8      Class Drupal\dea_request\Routing\RequestableFileRouteEnhancer     
+         implements deprecated interface                                   
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.              
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   modules/dea_request/src/Routing/RequestableRouteEnhancer.php          
+ ------ ---------------------------------------------------------------------- 
+  5      Class Drupal\dea_request\Routing\RequestableRouteEnhancer implements  
+         deprecated interface                                                  
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   modules/dea_translations/dea_translations.module  
+ ------ -------------------------------------------------- 
+  26     Call to deprecated method urlInfo() of class      
+         Drupal\CorentityntityInterface.               
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/KernelTests/TaxonomyAccessTest.php                         
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests\dea\KernelTests\TaxonomyAccessTest was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

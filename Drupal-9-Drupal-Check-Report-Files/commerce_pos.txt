@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_pos d08258595dac44e98ec1394a8bb56a78f53c9c0a
+source : http://cgit.drupalcode.org/commerce_pos 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/receipt/src/Controller/PrintController.php            
+ ------ -------------------------------------------------------------- 
+  270    Call to deprecated method cacheUntilEntityChanges() of class  
+         Drupal\Core\Access\AccessResult.                              
+ ------ -------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   modules/reports/commerce_pos_reports.module       
+ ------ -------------------------------------------------- 
+  212    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/POS.php                              
+ ------ ---------------------------------------------------- 
+  127    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/POSForm.php                              
+ ------ -------------------------------------------------- 
+  605    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/CashierLoginTest.php  
+ ------ ----------------------------------------------------- 
+  115    Call to deprecated method getUsername() of class     
+         Drupal\userntity\User.                             
+  131    Call to deprecated method getUsername() of class     
+         Drupal\userntity\User.                             
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

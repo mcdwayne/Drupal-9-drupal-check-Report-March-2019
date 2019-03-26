@@ -1,0 +1,112 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dcat 467e4f69600343801af9e09ccb536763b11c1455
+source : http://cgit.drupalcode.org/dcat 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   dcat_import/dcat_import.drush.inc                
+ ------ ------------------------------------------------- 
+  77     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   dcat_import/src/DcatImportUiLogMigrateMessage.php  
+ ------ --------------------------------------------------- 
+  23     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   dcat_import/src/Form/DcatSourceDeleteForm.php      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   dcat_import/src/Form/DcatSourceForm.php            
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   dcat_landingpage/src/Plugin/Field/FieldFormatter/LandingpageFormatter.php  
+ ------ --------------------------------------------------------------------------- 
+         Class                                                                      
+         Drupalixed_text_link_formatter\Plugin\Field\FieldFormatter\FixedTextL    
+         ink not found and could not be autoloaded.                                 
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DcatAgentForm.php                         
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DcatDatasetForm.php                       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DcatDistributionForm.php                  
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DcatVcardForm.php                         
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DcatVcardTypeDeleteForm.php               
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DcatVcardTypeForm.php                     
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/DsField/DcatAgent/DcatAgentTitle.php                  
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\Title not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/DsField/DcatDataset/DcatDatasetTitle.php              
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\Title not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/DsField/DcatDistribution/DcatDistributionTitle.php    
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\Title not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/DsField/DcatVcard/DcatVcardTitle.php                  
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\ds\Plugin\DsField\Title not found and could not be  
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

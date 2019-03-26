@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/demandbase 09b7663915fec4abc79d0682523ea3438143b3df
+source : http://cgit.drupalcode.org/demandbase 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/demandbase_api/src/Form/DemandbaseApiTestForm.php  
+ ------ ----------------------------------------------------------- 
+  90     Call to deprecated method l() of class Drupal.             
+  91     Call to deprecated function drupal_set_message().          
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   modules/demandbase_api/src/Plugin/KeyType/DemandbaseKeyType.php  
+ ------ ----------------------------------------------------------------- 
+         Class Drupal\key\Plugin\KeyTypeBase not found and could not be   
+         autoloaded.                                                      
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

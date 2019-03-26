@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_counter 9f799569c5a8fb4225a721b22cee0cf2166e008b
+source : https://cgit.drupalcode.org/entity_counter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EntityCounterController.php         
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Controller/EntityCounterTransactionController.php  
+ ------ ------------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/CounterTransaction.php                  
+ ------ --------------------------------------------------- 
+  439    Call to deprecated function drupal_set_message().  
+  448    Call to deprecated function drupal_set_message().  
+  455    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CounterTransactionForm.php                
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCounterForm.php                     
+ ------ --------------------------------------------------- 
+  136    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCounterSourceDeleteForm.php         
+ ------ --------------------------------------------------- 
+  148    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCounterSourceFormBase.php           
+ ------ --------------------------------------------------- 
+  180    Call to deprecated function drupal_set_message().  
+  228    Call to deprecated function drupal_set_message().  
+  232    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityCounterSourcesForm.php              
+ ------ --------------------------------------------------- 
+  250    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

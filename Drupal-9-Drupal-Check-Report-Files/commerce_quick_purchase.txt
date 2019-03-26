@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_quick_purchase d57e35091a5594880e0ea197396ba70ab682a761
+source : https://github.com/drugan/commerce_quick_purchase 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/QuickPurchaseAddToCartForm.php                 
+ ------ -------------------------------------------------------- 
+  176    Access to deprecated property $entityManager of class   
+         Drupal\CorentityntityForm.                          
+  197    Call to deprecated function entity_get_form_display().  
+  199    Call to deprecated function entity_get_form_display().  
+  237    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tests/src/Functional/QuickPurchaseAddToCartBlockTest.php  
+ ------ ---------------------------------------------------------- 
+  65     Call to deprecated method setActive() of class            
+         Drupal

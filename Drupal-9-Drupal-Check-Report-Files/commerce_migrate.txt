@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_migrate b88f7773fba90b2293ac0212e284f2ca68807e76
+source : http://cgit.drupalcode.org/commerce_migrate
+drupal/migrate_source_csv 2.x-dev 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   commerce_migrate.module                           
+ ------ -------------------------------------------------- 
+  21     Call to deprecated method url() of class Drupal.  
+  22     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/commerce/tests/src/Kernel/Migrate/commerce1/ViewModesTest.php    
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests

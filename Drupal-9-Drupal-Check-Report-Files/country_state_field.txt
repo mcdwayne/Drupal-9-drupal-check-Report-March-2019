@@ -1,0 +1,57 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/country_state_field 03a856aaa0c109d80c6f0da6488a9d31d4e74af9
+source : http://cgit.drupalcode.org/country_state_field 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Controller/AutoCompleteController.php            
+ ------ ----------------------------------------------------- 
+  25     Call to deprecated method strtolower() of class      
+         Drupal\Component\Utility\Unicode.                    
+  45     Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CityForm.php                              
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CountryForm.php                           
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/StateForm.php                             
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/ContryStateFormatter.php  
+ ------ ---------------------------------------------------------- 
+  59     Call to deprecated function entity_load().                
+  60     Call to deprecated function entity_load().                
+  61     Call to deprecated function entity_load().                
+ ------ ---------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/CountryStateWidget.php  
+ ------ ----------------------------------------------------- 
+  101    Call to deprecated function entity_load().           
+  105    Call to deprecated function entity_load_multiple().  
+  128    Call to deprecated function entity_load().           
+  132    Call to deprecated function entity_load_multiple().  
+  168    Call to deprecated function entity_load().           
+  172    Call to deprecated function entity_load_multiple().  
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

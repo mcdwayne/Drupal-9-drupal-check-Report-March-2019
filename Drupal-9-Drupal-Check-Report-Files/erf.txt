@@ -1,0 +1,62 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/erf d4ef2e6d0eeaab276973ba614482ca49474c258a
+source : http://cgit.drupalcode.org/erf 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/erf_commerce/erf_commerce.module                
+ ------ -------------------------------------------------------- 
+  104    Call to deprecated function entity_get_form_display().  
+  206    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityRegistrationForm.php                
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParticipantForm.php                       
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParticipantTypeDeleteForm.php             
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ParticipantTypeForm.php                   
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RegistrationForm.php                      
+ ------ --------------------------------------------------- 
+  37     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RegistrationTypeDeleteForm.php            
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RegistrationTypeForm.php                  
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 13 errors                                                         
+
+ </code>

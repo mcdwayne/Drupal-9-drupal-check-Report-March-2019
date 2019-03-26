@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fpa 1bcf349420dfe433fba2c54034a4333e2266807c
+source : http://cgit.drupalcode.org/fpa 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   fpa.form_alter.inc                                 
+ ------ --------------------------------------------------- 
+  29     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   fpa.module                                         
+ ------ --------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   fpa.theme.inc                                          
+ ------ ------------------------------------------------------- 
+  43     Call to deprecated function drupal_render().           
+  60     Call to deprecated function drupal_render().           
+  158    Call to deprecated function drupal_render().           
+  195    Call to deprecated function drupal_render().           
+  204    Call to deprecated function drupal_render().           
+  234    Call to deprecated function drupal_render().           
+  300    Call to deprecated function drupal_render_children().  
+  311    Call to deprecated function drupal_render().           
+  332    Call to deprecated function drupal_render_children().  
+  556    Call to deprecated function drupal_render().           
+  609    Call to deprecated function drupal_render().           
+  769    Call to deprecated function drupal_render().           
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/FPAFormBuilder.php                       
+ ------ --------------------------------------------- 
+  704    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  705    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+  724    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

@@ -1,0 +1,140 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupal_yext 8.x-1.0-beta6
+source : http://cgit.drupalcode.org/drupal_yext 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/YextContent/YextEntityFactory.php              
+ ------ --------------------------------------------------- 
+  151    Call to deprecated function node_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   src/traits/CommonUtilities.php (in context of class Drupal\drupal_yext\Form\YextSettingsForm)  
+ ------ ----------------------------------------------------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().                                              
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------- 
+  Line   src/traits/CommonUtilities.php (in context of class Drupal\drupal_yext\YextContent\NodeMigrationOnSave)  
+ ------ --------------------------------------------------------------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().                                                        
+ ------ --------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   src/traits/CommonUtilities.php (in context of class Drupal\drupal_yext\YextContent\YextEntity)  
+ ------ ------------------------------------------------------------------------------------------------ 
+  138    Call to deprecated function drupal_set_message().                                               
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------- 
+  Line   src/traits/CommonUtilities.php (in context of class Drupal\drupal_yext\YextContent\YextEntityFactory)  
+ ------ ------------------------------------------------------------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().                                                      
+ ------ ------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------ 
+  Line   src/traits/CommonUtilities.php (in context of class Drupal\drupal_yext\YextContent\YextSourceRecord)  
+ ------ ------------------------------------------------------------------------------------------------------ 
+  138    Call to deprecated function drupal_set_message().                                                     
+ ------ ------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   src/traits/CommonUtilities.php (in context of class Drupal\drupal_yext\Yext\FieldMapper)  
+ ------ ------------------------------------------------------------------------------------------ 
+  138    Call to deprecated function drupal_set_message().                                         
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   src/traits/CommonUtilities.php (in context of class Drupal\drupal_yext\Yext\Yext)  
+ ------ ----------------------------------------------------------------------------------- 
+  138    Call to deprecated function drupal_set_message().                                  
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   test/Form/YextSettingsFormTest.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\YextSettingsFormTest was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   test/Yext/YextTest.php                                                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\YextTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   test/YextContent/NodeMigrateDestinationInterfaceTest.php                
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\drupal_yext\Tests\NodeMigrateDestinationInterfaceTest was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   test/YextContent/NodeMigrateSourceInterfaceTest.php                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\NodeMigrateSourceInterfaceTest was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   test/YextContent/NodeMigratorTest.php                                 
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\NodeMigrationOnSaveTest was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   test/YextContent/YextEntityFactoryTest.php                           
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\YextEntityFactoryTest was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   test/YextContent/YextEntityTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\YextEntityTest was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   test/YextContent/YextSourceRecordTest.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\YextSourceRecordTest was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   test/YextContent/YextTargetNodeTest.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\YextTargetNodeTest was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   test/traits/CommonUtilitiesTest.php                                   
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\DummyClassUsesCommonUtilities was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   test/traits/SingletonTest.php                                         
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\drupal_yext\Tests\DummyClassUsesSingleton was not found  
+         while trying to analyse it - autoloading is probably not configured   
+         properly.                                                             
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/country 491e6d655d04596fc23e74fb99a03a2b3c05ef0c
+source : http://cgit.drupalcode.org/country 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   country.module                                    
+ ------ -------------------------------------------------- 
+  19     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Controller/CountryAutocompleteController.php  
+ ------ -------------------------------------------------- 
+  45     Call to deprecated method strtolower() of class   
+         Drupal\Component\Utility\Unicode.                 
+  45     Call to deprecated method strtolower() of class   
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

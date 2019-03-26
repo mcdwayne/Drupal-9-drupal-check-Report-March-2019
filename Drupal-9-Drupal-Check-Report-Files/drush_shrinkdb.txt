@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drush_shrinkdb 745dde41fd813b966569353cf0ffaa90e47c3566
+source : http://cgit.drupalcode.org/drush_shrinkdb 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/EntityTypeSchema8.php                                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drush\ShrinkDBntityTypeSchema8 was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/EntityTypeSchemaBase.php                                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drush\ShrinkDBntityTypeSchemaBase was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/EntityTypeSchemaInterface.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drush\ShrinkDBntityTypeSchemaInterface was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Query/EntityType8.php                                             
+ ------ ---------------------------------------------------------------------- 
+         Class Drush\ShrinkDB\QueryntityType8 was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Query/EntityTypeBase.php                                             
+ ------ ------------------------------------------------------------------------- 
+         Class Drush\ShrinkDB\QueryntityTypeBase was not found while trying to  
+         analyse it - autoloading is probably not configured properly.            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

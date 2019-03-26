@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/error_log 4cd21974031b7b7034133051e48b04b9309fa29a
+source : http://cgit.drupalcode.org/error_log 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/ErrorLogTest.php                 
+ ------ ------------------------------------------------------ 
+  29     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  30     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

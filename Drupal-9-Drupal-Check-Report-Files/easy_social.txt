@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/easy_social 31d9599cd9fda55d421cff0103ab79520031f6f7
+source : http://cgit.drupalcode.org/easy_social 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   contrib/easy_social_example/easy_social_example.module  
+ ------ -------------------------------------------------------- 
+  59     Call to deprecated method l() of class Drupal.          
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   contrib/easy_social_example/src/Form/SettingsForm.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalasy_social_example\SettingsForm was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   easy_social.module                                          
+ ------ ------------------------------------------------------------ 
+  439    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

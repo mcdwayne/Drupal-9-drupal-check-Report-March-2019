@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_callback 760b9c63fd0b75cce06d9e48a1cd2e865f615b7c
+source : http://cgit.drupalcode.org/content_callback 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/ContentCallbackFieldTest.php                  
+ ------ -------------------------------------------------------- 
+  57     Call to deprecated function entity_create().            
+  62     Call to deprecated function entity_create().            
+  69     Call to deprecated function entity_get_form_display().  
+  75     Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/modules/content_callback_test/lib/Drupal/content_callback_test/Plugin/ContentCallback/ContentCallbackTest.php  
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+         Class                                                                                                                
+         Drupal

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_ignore 2b1740411fd1eb8bb139711be5e10535c40ddbbf
+source : http://cgit.drupalcode.org/config_ignore 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/ConfigFilter/IgnoreFilter.php     
+ ------ --------------------------------------------- 
+  93     Calls to function fnmatch should not exist.  
+  122    Calls to function fnmatch should not exist.  
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/ConfigIgnoreTest.php         
+ ------ -------------------------------------------------- 
+  69     Call to deprecated method assertEqual() of class  
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

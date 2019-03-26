@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dblog_quick_filter 800f4ecf10adaefff3cba3c5411ff2174a102434
+source : http://cgit.drupalcode.org/dblog_quick_filter 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   Tests/Controller/DefaultControllerTest.php                           
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\dblog_quick_filter\Tests\DefaultControllerTest was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/DefaultController.php                
+ ------ ---------------------------------------------------- 
+  48     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  110    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  183    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  187    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  238    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

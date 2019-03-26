@@ -1,0 +1,722 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/collect 8f077135e997a006723c693e5cde61c63730588f
+source : http://cgit.drupalcode.org/collect 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   client/collect_client.module                      
+ ------ -------------------------------------------------- 
+  20     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   client/contact/src/Plugin/collect_client/ContactItemHandler.php  
+ ------ ----------------------------------------------------------------- 
+  71     Call to deprecated method entityManager() of class Drupal.       
+  83     Call to deprecated method url() of class Drupal.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   client/contact/tests/src/Kernel/ContactItemHandlerTest.php  
+ ------ ------------------------------------------------------------ 
+  111    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+  112    Call to deprecated method assertEqual() of class            
+         Drupal\KernelTests\KernelTestBase.                          
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   client/src/Controller/CaptureEntityController.php  
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function entity_load().         
+  59     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   client/src/Form/CaptureEntityForm.php                              
+ ------ ------------------------------------------------------------------- 
+  192    Call to deprecated function entity_load().                         
+  194    Call to deprecated function drupal_set_message().                  
+  200    Call to deprecated function entity_load_multiple_by_properties().  
+  203    Call to deprecated function entity_load_multiple().                
+  220    Call to deprecated function drupal_set_message().                  
+  223    Call to deprecated function drupal_set_message().                  
+  229    Call to deprecated function drupal_set_message().                  
+  232    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   client/src/Plugin/collect_client/EntityItemHandler.php      
+ ------ ------------------------------------------------------------ 
+  45     Call to deprecated method url() of class                    
+         Drupal\CorentityntityInterface.                         
+  78     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   client/src/Tests/CollectClientWebTest.php         
+ ------ -------------------------------------------------- 
+  78     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  198    Call to deprecated method checkPlain() of class   
+         Drupal\Component\Utility\SafeMarkup.              
+  198    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  198    Call to method checkPlain() of deprecated class   
+         Drupal\Component\Utility\SafeMarkup.              
+  211    Call to deprecated method checkPlain() of class   
+         Drupal\Component\Utility\SafeMarkup.              
+  211    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+  211    Call to method checkPlain() of deprecated class   
+         Drupal\Component\Utility\SafeMarkup.              
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   client/tests/src/Unit/Plugin/QueueWorker/QueueWorkerTest.php             
+ ------ ------------------------------------------------------------------------- 
+  72     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  73     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  74     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  75     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  79     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  80     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  110    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  111    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  112    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  140    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  177    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  220    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   collect.module                                    
+ ------ -------------------------------------------------- 
+  22     Call to deprecated method url() of class Drupal.  
+  41     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   common/collect_common.module                     
+ ------ ------------------------------------------------- 
+  59     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  59     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   common/src/Form/CollectSettingsFormBase.php        
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+  276    Call to deprecated method l() of class Drupal.     
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   common/src/Normalizer/FieldDefinitionNormalizer.php  
+ ------ ----------------------------------------------------- 
+  78     Call to deprecated method setQueryable() of class    
+         Drupal\Core\Field\BaseFieldDefinition.               
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   crm/src/Plugin/collect/Processor/ContactMatcher.php  
+ ------ ----------------------------------------------------- 
+  301    Call to deprecated method checkPlain() of class      
+         Drupal\Component\Utility\SafeMarkup.                 
+  301    Call to method checkPlain() of deprecated class      
+         Drupal\Component\Utility\SafeMarkup.                 
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   crm/tests/src/Kernel/ActivityCreatorTest.php                
+ ------ ------------------------------------------------------------ 
+  98     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   crm/tests/src/Kernel/MailContactMatcherTest.php                       
+ ------ ---------------------------------------------------------------------- 
+  18     Class Drupal\Tests\inmail\Kernel\InmailTestHelperTrait not found and  
+         could not be autoloaded.                                              
+  97     Call to deprecated method entityManager() of class Drupal.            
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/CaptureEntity.php                     
+ ------ ------------------------------------------ 
+  118    Call to deprecated method url() of class  
+         Drupal\CorentityntityInterface.       
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   src/ContainerListBuilder.php                  
+ ------ ---------------------------------------------- 
+  23     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/CollectContainerController.php       
+ ------ ---------------------------------------------------- 
+  76     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  97     Call to deprecated method format() of class         
+         Drupal\Component\Utility\SafeMarkup.                
+  97     Call to method format() of deprecated class         
+         Drupal\Component\Utility\SafeMarkup.                
+  143    Call to deprecated function entity_load().          
+  145    Call to deprecated function drupal_set_message().   
+  148    Call to deprecated method url() of class            
+         Drupal\CorentityntityInterface.                 
+  150    Call to deprecated method urlInfo() of class        
+         Drupal\CorentityntityInterface.                 
+  197    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  197    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  201    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  201    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+  212    Call to deprecated method checkPlain() of class     
+         Drupal\Component\Utility\SafeMarkup.                
+  212    Call to method checkPlain() of deprecated class     
+         Drupal\Component\Utility\SafeMarkup.                
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CreateEntityController.php          
+ ------ --------------------------------------------------- 
+  83     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  88     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  95     Call to deprecated function entity_create().       
+  128    Call to deprecated function drupal_set_message().  
+  138    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+  146    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  159    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  164    Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  165    Call to deprecated function drupal_set_message().  
+  166    Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  170    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CreateMissingFieldsController.php   
+ ------ --------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  107    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ModelController.php                 
+ ------ --------------------------------------------------- 
+  84     Call to deprecated function drupal_set_message().  
+  85     Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+  100    Call to deprecated function drupal_set_message().  
+  101    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+  118    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/Container.php                                    
+ ------ ------------------------------------------------------------ 
+  263    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/Relation.php                             
+ ------ ---------------------------------------------------- 
+  148    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  166    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+  173    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/CaptureEntityForm.php                                     
+ ------ ------------------------------------------------------------------- 
+  188    Call to deprecated method entityManager() of class Drupal.         
+  191    Call to deprecated function entity_load().                         
+  193    Call to deprecated function drupal_set_message().                  
+  199    Call to deprecated function entity_load_multiple_by_properties().  
+  202    Call to deprecated function entity_load_multiple().                
+  219    Call to deprecated function drupal_set_message().                  
+  222    Call to deprecated function drupal_set_message().                  
+  228    Call to deprecated function drupal_set_message().                  
+  231    Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FetchUrlForm.php                          
+ ------ --------------------------------------------------- 
+  135    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  142    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ModelForm.php                             
+ ------ --------------------------------------------------- 
+  246    Call to deprecated method urlInfo() of class       
+         Drupal\Core\Configntity\ConfigEntityBase.        
+  278    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  283    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  295    Call to deprecated method format() of class        
+         Drupal\Component\Utility\SafeMarkup.               
+  295    Call to method format() of deprecated class        
+         Drupal\Component\Utility\SafeMarkup.               
+  381    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ModelPropertyForm.php                     
+ ------ --------------------------------------------------- 
+  196    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  204    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  251    Call to deprecated function drupal_set_message().  
+  252    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ProcessingForm.php                        
+ ------ --------------------------------------------------- 
+  259    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/RelationForm.php                          
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+  43     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/RelationTypeForm.php                          
+ ------ ------------------------------------------------------- 
+  75     Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  121    Call to deprecated function drupal_set_message().      
+  122    Call to deprecated method urlInfo() of class           
+         Drupal\CorentityntityInterface.                    
+ ------ ------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Model/ModelListBuilder.php                
+ ------ ---------------------------------------------- 
+  91     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   src/Model/ModelPluginBase.php              
+ ------ ------------------------------------------- 
+  92     Call to deprecated method link() of class  
+         Drupal\CorentityntityInterface.        
+ ------ ------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/DataType/CollectData.php          
+ ------ --------------------------------------------- 
+  67     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  67     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/CollectDataFormatter.php  
+ ------ ---------------------------------------------------------- 
+  143    Call to deprecated method checkPlain() of class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  143    Call to method checkPlain() of deprecated class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  185    Call to deprecated method checkPlain() of class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  185    Call to method checkPlain() of deprecated class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  198    Call to deprecated method l() of class Drupal.            
+  200    Call to deprecated method checkPlain() of class           
+         Drupal\Component\Utility\SafeMarkup.                      
+  200    Call to method checkPlain() of deprecated class           
+         Drupal\Component\Utility\SafeMarkup.                      
+ ------ ---------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/CollectSchemaUriFormatter.php  
+ ------ --------------------------------------------------------------- 
+  76     Call to deprecated method url() of class                       
+         Drupal\CorentityntityInterface.                            
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/CollectUriLinkFormatter.php  
+ ------ ------------------------------------------------------------- 
+  39     Call to deprecated method checkPlain() of class              
+         Drupal\Component\Utility\SafeMarkup.                         
+  39     Call to method checkPlain() of deprecated class              
+         Drupal\Component\Utility\SafeMarkup.                         
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/CollectUriTailFormatter.php  
+ ------ ------------------------------------------------------------- 
+  36     Call to deprecated method format() of class                  
+         Drupal\Component\Utility\SafeMarkup.                         
+  36     Call to method format() of deprecated class                  
+         Drupal\Component\Utility\SafeMarkup.                         
+ ------ ------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Plugin/collect/Model/FetchUrl.php             
+ ------ -------------------------------------------------- 
+  83     Call to deprecated method url() of class Drupal.  
+  105    Call to deprecated method strlen() of class       
+         Drupal\Component\Utility\Unicode.                 
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/collect/Model/FieldDefinition.php                
+ ------ ------------------------------------------------------------ 
+  204    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/search_api/datasource/CollectDatasource.php                 
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\search_api\Datasource\DatasourcePluginBase not found and  
+         could not be autoloaded.                                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Processor/ProcessorBase.php                  
+ ------ ------------------------------------------------- 
+  233    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  233    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Query/DelegatingQueryEvaluator.php       
+ ------ --------------------------------------------- 
+  89     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  89     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/CollectWebTest.php                                             
+ ------ ------------------------------------------------------------------------- 
+  148    Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  315    Call to deprecated method entityManager() of class Drupal.               
+  322    Call to deprecated method entityManager() of class Drupal.               
+  328    Call to deprecated method url() of class Drupal.                         
+  335    Call to deprecated method entityManager() of class Drupal.               
+  342    Call to deprecated method entityManager() of class Drupal.               
+  359    Call to deprecated method url() of class Drupal.                         
+  372    Call to deprecated method entityManager() of class Drupal.               
+  393    Call to deprecated method url() of class Drupal.                         
+  406    Call to deprecated method url() of class Drupal.                         
+  425    Call to deprecated method entityManager() of class Drupal.               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Tests/EntityWebTest.php                                          
+ ------ --------------------------------------------------------------------- 
+  93     Call to deprecated method url() of class Drupal\Corentityntity.  
+  190    Call to deprecated method getUsername() of class                     
+         Drupal\Core\Session\AccountInterface.                                
+  431    Call to deprecated method getUsername() of class                     
+         Drupal\Core\Session\AccountInterface.                                
+  439    Call to deprecated method getUsername() of class                     
+         Drupal\Core\Session\AccountInterface.                                
+  457    Call to deprecated method checkPlain() of class                      
+         Drupal\Component\Utility\SafeMarkup.                                 
+  457    Call to deprecated method getUsername() of class                     
+         Drupal\Core\Session\AccountInterface.                                
+  457    Call to method checkPlain() of deprecated class                      
+         Drupal\Component\Utility\SafeMarkup.                                 
+  629    Call to deprecated method entityManager() of class Drupal.           
+  655    Call to deprecated method url() of class Drupal.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/RelationWebTest.php                     
+ ------ -------------------------------------------------- 
+  106    Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/TypedData/CollectDataDefinition.php                     
+ ------ ------------------------------------------------------------ 
+  82     Call to deprecated method entityManager() of class Drupal.  
+  96     Call to deprecated method format() of class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+  96     Call to method format() of deprecated class                 
+         Drupal\Component\Utility\SafeMarkup.                        
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/TypedData/TypedDataProvider.php          
+ ------ --------------------------------------------- 
+  125    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  125    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Kernel/CollectJsonModelTest.php                            
+ ------ --------------------------------------------------------------------- 
+  71     Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  79     Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  80     Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  85     Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  86     Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  86     Call to deprecated method url() of class Drupal\Corentityntity.  
+  105    Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  110    Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  111    Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  139    Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  140    Call to deprecated method assertNotEqual() of class                  
+         Drupal\KernelTests\KernelTestBase.                                   
+  141    Call to deprecated method assertNotEqual() of class                  
+         Drupal\KernelTests\KernelTestBase.                                   
+  216    Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+  219    Call to deprecated method assertEqual() of class                     
+         Drupal\KernelTests\KernelTestBase.                                   
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/ContainerTest.php                
+ ------ -------------------------------------------------- 
+  52     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  58     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  63     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  64     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  65     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  66     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  102    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  103    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  122    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/DependencyInjectionTest.php      
+ ------ -------------------------------------------------- 
+  40     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  50     Call to deprecated method format() of class       
+         Drupal\Component\Utility\SafeMarkup.              
+  50     Call to deprecated method pass() of class         
+         Drupal\KernelTests\KernelTestBase.                
+  50     Call to method format() of deprecated class       
+         Drupal\Component\Utility\SafeMarkup.              
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/FetchUrlModelTest.php            
+ ------ -------------------------------------------------- 
+  59     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  60     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  61     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  62     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/FieldDefinitionModelTest.php     
+ ------ -------------------------------------------------- 
+  89     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  90     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  91     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/JsonModelTest.php                
+ ------ -------------------------------------------------- 
+  69     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  71     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  73     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  75     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Kernel/ModelTest.php                           
+ ------ --------------------------------------------------------- 
+  68     Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  69     Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  70     Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  89     Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  90     Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  91     Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  153    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  156    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  157    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  160    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  161    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  164    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  167    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  168    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  173    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  176    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  190    Call to deprecated method pass() of class                
+         Drupal\KernelTests\KernelTestBase.                       
+  233    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  234    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  239    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  240    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  248    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  331    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  336    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  344    Call to deprecated method assertEqual() of class         
+         Drupal\KernelTests\KernelTestBase.                       
+  358    Call to deprecated method assertNotIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                       
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/ProcessingTest.php               
+ ------ -------------------------------------------------- 
+  81     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/RelationTest.php                 
+ ------ -------------------------------------------------- 
+  41     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  54     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  55     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  56     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  57     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  68     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  69     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  70     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  88     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  89     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  90     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/TypedDataProviderTest.php            
+ ------ ------------------------------------------------------ 
+  58     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  59     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  88     Call to deprecated method assertEqual() of class      
+         Drupal\KernelTests\KernelTestBase.                    
+  97     Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+  107    Call to deprecated method pass() of class             
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/rest/resource/CollectResourceTest.php              
+ ------ ------------------------------------------------------------------------- 
+  82     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  83     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  84     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  85     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  86     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  87     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  117    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 258 errors                                                        
+
+ </code>

@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/content_export_yaml 8.x-1.8
+source : http://cgit.drupalcode.org/content_export_yaml 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/vbo_content_export_yaml/src/Plugin/Action/VBExportAction.php     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupaliews_bulk_operations\Action\ViewsBulkOperationsActionBase  
+         not found and could not be autoloaded.                                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/ContentExport.php                              
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+  63     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentExportSettingForm.php              
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

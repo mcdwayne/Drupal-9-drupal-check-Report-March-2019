@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/encrypt 0b8b87a9bbc1d83870a8f1b7eeb27ed8316c3880
+source : http://cgit.drupalcode.org/encrypt 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EncryptionProfileDeleteForm.php           
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EncryptionProfileForm.php                 
+ ------ --------------------------------------------------- 
+  361    Call to deprecated function drupal_set_message().  
+  366    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

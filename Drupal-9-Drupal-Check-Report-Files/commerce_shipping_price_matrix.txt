@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_shipping_price_matrix 33ff5aaf5921374ed8dc5a8babf7cff52ef758a2
+source : http://cgit.drupalcode.org/commerce_shipping_price_matrix 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/Commerce/ShippingMethod/PriceMatrix.php          
+ ------ ------------------------------------------------------------ 
+  124    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Plugin/Commerce/ShippingMethod/PriceMatrixTest.php        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\Tests

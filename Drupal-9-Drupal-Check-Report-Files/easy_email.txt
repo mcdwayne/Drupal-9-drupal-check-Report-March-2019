@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/easy_email d021b87a63133474d38a57f6aa904069dfb08445
+source : http://cgit.drupalcode.org/easy_email 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   modules/easy_email_override/src/Form/EmailOverrideForm.php  
+ ------ ------------------------------------------------------------ 
+  96     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/EasyEmailController.php              
+ ------ ---------------------------------------------------- 
+  149    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  150    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  165    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  166    Call to deprecated function format_date().          
+  184    Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  212    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  215    Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/EasyEmailRevisionDeleteForm.php    
+ ------ -------------------------------------------- 
+  76     Call to deprecated function format_date().  
+  110    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

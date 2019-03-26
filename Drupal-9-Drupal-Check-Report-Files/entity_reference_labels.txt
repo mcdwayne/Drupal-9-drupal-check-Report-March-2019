@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_labels 8.x-1.1
+source : http://cgit.drupalcode.org/entity_reference_labels 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/EntityReferenceSelection/PhpDescriptiveSelection.php  
+ ------ ----------------------------------------------------------------- 
+  40     Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+  44     Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+  94     Call to deprecated method strtolower() of class                  
+         Drupal\Component\Utility\Unicode.                                
+  118    Call to deprecated method strlen() of class                      
+         Drupal\Component\Utility\Unicode.                                
+  118    Call to deprecated method substr() of class                      
+         Drupal\Component\Utility\Unicode.                                
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

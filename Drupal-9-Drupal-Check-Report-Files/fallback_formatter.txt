@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fallback_formatter b20e5f8d07488662ccf8c781186a1ab5d136a93d
+source : http://cgit.drupalcode.org/fallback_formatter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Tests/FallbackFormatterTestCase.php                                  
+ ------ ------------------------------------------------------------------------- 
+  18     Class Drupalallback_formatter\Tests\FallbackFormatterTestCase extends  
+         deprecated class Drupal\simpletest\KernelTestBase.                       
+  45     Call to method setUp() of deprecated class                               
+         Drupal\simpletest\KernelTestBase.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entitybase 7b82ab0015b559b38d75e3d6f3892766e95c3746
+source : http://cgit.drupalcode.org/entitybase 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/EntityBaseType.php                       
+ ------ ---------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().   
+  140    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityBaseForm.php                        
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/EntityBaseTypeForm.php                        
+ ------ ------------------------------------------------------- 
+  145    Call to deprecated function drupal_set_message().      
+  148    Call to deprecated function drupal_set_message().      
+  151    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/duplicatemail 8404435560db18b8ccf0e5697b992c7c65bff020
+source : http://cgit.drupalcode.org/duplicatemail 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   duplicatemail.module                               
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function db_query().            
+  34     Call to deprecated function db_select().           
+  40     Call to deprecated function user_load_multiple().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/duplicatemail/Controller/DuplicateMailController.php        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\duplicatemail\Controller\DuplicateMailController was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/duplicatemail/Plugin/Block/DuplicateEmailBlock.php        
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\duplicatemail\Pluginlock\DuplicateEmailBlock was not  
+         found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                 
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

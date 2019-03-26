@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_payment_onsite 2974de6a07ff409701f96b2ac4c0045f6db53607
+source : http://cgit.drupalcode.org/commerce_payment_onsite 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/CreditCardEncrypted.php  
+ ------ --------------------------------------------------------------- 
+  65     Call to method create() of deprecated class                    
+         Drupal\Core\Field\BaseFieldDefinition.                         
+  71     Call to method create() of deprecated class                    
+         Drupal\Core\Field\BaseFieldDefinition.                         
+  76     Call to method create() of deprecated class                    
+         Drupal\Core\Field\BaseFieldDefinition.                         
+  80     Call to method create() of deprecated class                    
+         Drupal\Core\Field\BaseFieldDefinition.                         
+  84     Call to method create() of deprecated class                    
+         Drupal\Core\Field\BaseFieldDefinition.                         
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

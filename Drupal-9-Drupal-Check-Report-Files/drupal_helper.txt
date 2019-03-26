@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupal_helper 6be3b32279cec2e4171e65471752fd81eb359879
+source : http://cgit.drupalcode.org/drupal_helper 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/DrupalCommonHelper.php                         
+ ------ --------------------------------------------------- 
+  495    Call to deprecated function drupal_set_message().  
+  502    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/TwigExtension/DrupalHelperTwigExtension.php            
+ ------ ----------------------------------------------------------- 
+  46     Instantiation of deprecated class Twig_Function_Function.  
+  47     Instantiation of deprecated class Twig_Function_Function.  
+  48     Instantiation of deprecated class Twig_Function_Function.  
+  49     Instantiation of deprecated class Twig_Function_Function.  
+  50     Instantiation of deprecated class Twig_Function_Function.  
+  51     Instantiation of deprecated class Twig_Function_Function.  
+  52     Instantiation of deprecated class Twig_Function_Function.  
+  53     Instantiation of deprecated class Twig_Function_Function.  
+  54     Instantiation of deprecated class Twig_Function_Function.  
+  55     Instantiation of deprecated class Twig_Function_Function.  
+  56     Instantiation of deprecated class Twig_Function_Function.  
+  57     Instantiation of deprecated class Twig_Function_Function.  
+  58     Instantiation of deprecated class Twig_Function_Function.  
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

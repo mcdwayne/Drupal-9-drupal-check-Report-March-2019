@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/domain_path_redirect ea9427b70cf65425aa4a4a6e2037775b31d0f8c2
+source : http://cgit.drupalcode.org/domain_path_redirect 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainPathRedirectDeleteForm.php          
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DomainPathRedirectForm.php                
+ ------ --------------------------------------------------- 
+  117    Call to deprecated function drupal_set_message().  
+  217    Call to deprecated method url() of class           
+         Drupal\CorentityntityInterface.                
+  250    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/empty_page 8.x-2.0
+source : http://cgit.drupalcode.org/empty_page 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/EmptyPageController.php          
+ ------ ------------------------------------------------ 
+  33     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CallbackDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CallbackForm.php                          
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

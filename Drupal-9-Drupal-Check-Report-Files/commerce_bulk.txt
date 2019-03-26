@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_bulk 45658196cea713224760419d15fdf10861ee3c1b
+source : https://github.com/drugan/commerce_bulk 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/commerce_generate/commerce_generate.module  
+ ------ ---------------------------------------------------- 
+  45     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/commerce_generate/src/Plugin/DevelGenerate/GenerateProducts.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\devel_generate\DevelGenerateBase not found and could not    
+         be autoloaded.                                                           
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/BulkVariationsCreator.php                           
+ ------ -------------------------------------------------------- 
+  40     Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

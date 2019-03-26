@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/client_config_care 8.x-1.2
+source : http://cgit.drupalcode.org/client_config_care 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ConfigBlockerEntityController.php    
+ ------ ---------------------------------------------------- 
+  23     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigBlockerEntityForm.php               
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/ConfigBlockerEntityRevisionDeleteForm.php  
+ ------ ---------------------------------------------------- 
+  76     Call to deprecated function format_date().          
+  110    Call to deprecated function drupal_set_message().   
+  110    Call to deprecated function format_date().          
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/ConfigBlockerEntityRevisionRevertForm.php  
+ ------ ---------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Plugin/ConfigFilter/IgnoreFilter.php     
+ ------ --------------------------------------------- 
+  112    Calls to function fnmatch should not exist.  
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Behat/context/DrupalIndependentContext.php                    
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal

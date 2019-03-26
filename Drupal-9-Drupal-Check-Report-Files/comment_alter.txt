@@ -1,0 +1,40 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/comment_alter 6abddd08139440ea2b5a76bdb0a86c488d9db558
+source : http://cgit.drupalcode.org/comment_alter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   comment_alter.module                                        
+ ------ ------------------------------------------------------------ 
+  95     Call to deprecated method entityManager() of class Drupal.  
+  159    Call to deprecated function entity_get_form_display().      
+  311    Call to deprecated function entity_get_form_display().      
+  346    Call to deprecated function entity_get_form_display().      
+  378    Call to deprecated function db_insert().                    
+  587    Call to deprecated method entityManager() of class Drupal.  
+  595    Call to deprecated method entityManager() of class Drupal.  
+  607    Call to deprecated function entity_get_bundles().           
+  625    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Functional/CommentAlterImageTest.php  
+ ------ ------------------------------------------------ 
+  82     Call to deprecated function drupal_realpath().  
+  105    Call to deprecated function drupal_realpath().  
+  110    Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   tests/src/Functional/CommentAlterTestBase.php           
+ ------ -------------------------------------------------------- 
+  109    Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  133    Call to deprecated function entity_get_form_display().  
+  170    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

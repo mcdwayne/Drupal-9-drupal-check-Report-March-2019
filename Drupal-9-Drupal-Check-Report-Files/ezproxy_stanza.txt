@@ -1,0 +1,46 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ezproxy_stanza 5811aebdce8c0b15c73076954457f80794cd5f8a
+source : http://cgit.drupalcode.org/ezproxy_stanza 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   ezproxy_stanza.module                               
+ ------ ---------------------------------------------------- 
+  175    Call to deprecated function file_uri_scheme().      
+  231    Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EZProxyStanzaConfigEditForm.php           
+ ------ --------------------------------------------------- 
+  119    Call to deprecated function drupal_set_message().  
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EZProxyStanzaConfigForm.php               
+ ------ --------------------------------------------------- 
+  204    Call to deprecated function drupal_set_message().  
+  222    Call to deprecated function drupal_set_message().  
+  260    Call to deprecated function drupal_set_message().  
+  264    Call to deprecated function drupal_set_message().  
+  280    Call to deprecated function drupal_set_message().  
+  283    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EZProxyStanzaSettingsForm.php             
+ ------ --------------------------------------------------- 
+  130    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Git/PrivateRepo.php                            
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 12 errors                                                         
+
+ </code>

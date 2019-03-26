@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/snippets a8f204e894ab45a74965035681a06b4f7c26328e
+source : http://cgit.drupalcode.org/snippets 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/snippets/Form/SnippetsSettingsForm.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\snippets\Form\SnippetsSettingsForm was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------ 
+  Line   lib/Drupal/snippets/Plugin/Field/FieldFormatter/SnippetsDefaultFormatter.php  
+ ------ ------------------------------------------------------------------------------ 
+         Class                                                                         
+         Drupal\snippets\Plugin\Field\FieldFormatter\SnippetsDefaultFormatter          
+         was not found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                          
+ ------ ------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/snippets/Plugin/Field/FieldType/SnippetsItem.php              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\snippets\Plugin\Field\FieldType\SnippetsItem was not found  
+         while trying to analyse it - autoloading is probably not configured      
+         properly.                                                                
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/snippets/Plugin/Field/FieldWidget/SnippetsDefaultWidget.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\snippets\Plugin\Field\FieldWidget\SnippetsDefaultWidget    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

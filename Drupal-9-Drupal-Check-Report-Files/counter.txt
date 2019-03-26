@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/counter 9241b72c2cabc93a4be5b4e04fe767fb72f7044b
+source : http://cgit.drupalcode.org/counter 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Block/CounterBlock.php                
+ ------ ------------------------------------------------- 
+  56     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  56     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  59     Call to deprecated function db_driver().         
+  73     Call to deprecated function db_query().          
+  111    Call to deprecated function db_query().          
+  128    Call to deprecated function db_query().          
+  133    Call to deprecated function db_query().          
+  137    Call to deprecated function db_query().          
+  156    Call to deprecated function db_query().          
+  159    Call to deprecated function db_query().          
+  170    Call to deprecated function db_query().          
+  173    Call to deprecated function db_query().          
+  184    Call to deprecated function db_query().          
+  187    Call to deprecated function db_query().          
+  198    Call to deprecated function db_query().          
+  201    Call to deprecated function db_query().          
+  212    Call to deprecated function db_query().          
+  215    Call to deprecated function db_query().          
+  226    Call to deprecated function db_query().          
+  229    Call to deprecated function db_query().          
+  259    Call to deprecated function db_query().          
+  276    Call to deprecated function db_query().          
+  284    Call to deprecated function db_query().          
+  292    Call to deprecated function db_query().          
+  300    Call to deprecated function db_query().          
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

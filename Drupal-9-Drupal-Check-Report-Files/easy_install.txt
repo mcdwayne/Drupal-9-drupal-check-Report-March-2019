@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/easy_install ed1c289da12a2a244d0cfe03560dc84495efc9b4
+source : http://cgit.drupalcode.org/easy_install 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   easy_install.module                                
+ ------ --------------------------------------------------- 
+  160    Call to deprecated function drupal_set_message().  
+  164    Call to deprecated function drupal_set_message().  
+  186    Call to deprecated method url() of class Drupal.   
+  188    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/PurgeConfigurationsConfirmForm.php        
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  250    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

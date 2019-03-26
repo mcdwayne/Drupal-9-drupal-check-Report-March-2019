@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cpanel 8.x-1.0
+source : http://cgit.drupalcode.org/cpanel 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   cpanel.module                                      
+ ------ --------------------------------------------------- 
+  389    Call to deprecated function db_query().            
+  392    Call to deprecated function db_query().            
+  441    Call to deprecated function drupal_set_message().  
+  453    Call to deprecated function drupal_set_message().  
+  553    Call to deprecated function drupal_set_message().  
+  574    Call to deprecated function drupal_set_message().  
+  600    Call to deprecated function drupal_set_message().  
+  620    Call to deprecated function drupal_set_message().  
+  634    Call to deprecated function db_query().            
+  637    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contentimport 2fb7e433580955ee088f1757b8ab2a71a44226ec
+source : http://cgit.drupalcode.org/contentimport 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/ContentImport.php                                  
+ ------ ------------------------------------------------------------ 
+  127    Call to deprecated method entityManager() of class Drupal.  
+  190    Call to deprecated function db_query().                     
+  300    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

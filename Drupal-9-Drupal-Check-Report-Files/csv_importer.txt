@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/csv_importer 416d3c5722387313fc0a8b2d22d5eb802a2d9568
+source : http://cgit.drupalcode.org/csv_importer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ImporterForm.php                          
+ ------ --------------------------------------------------- 
+  343    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/ImporterBase.php                        
+ ------ --------------------------------------------------- 
+  214    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ImporterTest.php                      
+ ------ --------------------------------------------------------------------- 
+         Class Drupal

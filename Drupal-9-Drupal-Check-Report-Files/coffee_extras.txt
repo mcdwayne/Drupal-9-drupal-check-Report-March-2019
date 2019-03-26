@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/coffee_extras 8.x-1.3
+source : http://cgit.drupalcode.org/coffee_extras 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   coffee_extras.module                             
+ ------ ------------------------------------------------- 
+  54     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  67     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  81     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  94     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  107    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  135    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  156    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

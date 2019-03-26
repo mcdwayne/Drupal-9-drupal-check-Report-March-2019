@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_split_manager f28ebea1f1fb0fa88136809d9975a7df6fbd0c64
+source : http://cgit.drupalcode.org/config_split_manager 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   config_split_manager.module                        
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  49     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigSplitManager.php                    
+ ------ --------------------------------------------------- 
+  241    Call to deprecated function drupal_set_message().  
+  249    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

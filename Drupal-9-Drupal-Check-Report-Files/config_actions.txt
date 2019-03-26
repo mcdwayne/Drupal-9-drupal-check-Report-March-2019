@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_actions ca4d25df2ed58ec23fda63ca0823b3cb0fecb659
+source : http://cgit.drupalcode.org/config_actions 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/ConfigActionsModuleTest.php      
+ ------ -------------------------------------------------- 
+  64     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  65     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  69     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  70     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  71     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  81     Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ConfigActionsPluginBaseTest.php                           
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 7 errors                                                          
+
+ </code>

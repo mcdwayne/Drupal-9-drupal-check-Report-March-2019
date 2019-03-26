@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/daterange_compact 545aca6c20d17fd11ba60f2c6abe03ee096deac8
+source : http://cgit.drupalcode.org/daterange_compact 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DateRangeFormatForm.php                   
+ ------ --------------------------------------------------- 
+  210    Call to deprecated function drupal_set_message().  
+  216    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Tests/DateRangeCompactFormatterTest.php      
+ ------ ------------------------------------------------- 
+  84     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  85     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

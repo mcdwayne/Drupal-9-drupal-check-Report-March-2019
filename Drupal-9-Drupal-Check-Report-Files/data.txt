@@ -1,0 +1,105 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/data 4e41e80905199c0bc1df1b109c8682692ff918e6
+source : http://cgit.drupalcode.org/data 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   data.module                                     
+ ------ ------------------------------------------------ 
+  227    Call to deprecated function db_escape_table().  
+  391    Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   data_search/data_search.admin.inc                      
+ ------ ------------------------------------------------------- 
+  15     Call to deprecated function drupal_set_message().      
+  70     Call to deprecated function drupal_render().           
+  77     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   data_search/data_search.module                  
+ ------ ------------------------------------------------ 
+  88     Call to deprecated function db_query_range().   
+  92     Call to deprecated function db_query().         
+  101    Call to deprecated function db_query().         
+  117    Call to deprecated function db_update().        
+  135    Call to deprecated function db_query().         
+  137    Call to deprecated function db_query().         
+  156    Call to deprecated function db_escape_table().  
+  160    Call to deprecated function db_query().         
+  162    Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   includes/DataHandler.inc                                      
+ ------ -------------------------------------------------------------- 
+         Class DataHandler was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TableConfigDeleteForm.php                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TableConfigForm.php                       
+ ------ --------------------------------------------------- 
+  128    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  140    Call to deprecated function drupal_set_message().  
+  144    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/views/field/DataViewsField.php                               
+ ------ ------------------------------------------------------------------------ 
+  15     Class Drupal\data\Pluginiewsield\DataViewsField extends deprecated  
+         class Drupaliews\Pluginiewsield\Field.                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Table.php                                       
+ ------ ---------------------------------------------------- 
+  47     Call to deprecated function db_escape_table().      
+  68     Call to deprecated function db_table_exists().      
+  72     Call to deprecated function db_create_table().      
+  75     Call to deprecated function drupal_set_message().   
+  186    Call to deprecated function db_delete().            
+  263    Call to deprecated function db_add_field().         
+  294    Call to deprecated function db_add_index().         
+  312    Call to deprecated function db_drop_index().        
+  333    Call to deprecated function db_add_unique_key().    
+  353    Call to deprecated function db_drop_unique_key().   
+  401    Call to deprecated function db_add_primary_key().   
+  418    Call to deprecated function db_drop_primary_key().  
+  465    Call to deprecated function db_change_field().      
+  483    Call to deprecated function db_drop_field().        
+  505    Call to deprecated function db_table_exists().      
+  506    Call to deprecated function db_drop_table().        
+  511    Call to deprecated function db_delete().            
+  531    Call to deprecated function db_delete().            
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   tests/data.test.inc                                            
+ ------ --------------------------------------------------------------- 
+         Class DataTestCase was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   views/views_handler_field_data_markup.inc                            
+ ------ --------------------------------------------------------------------- 
+         Class views_handler_field_data_markup was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 41 errors                                                         
+
+ </code>

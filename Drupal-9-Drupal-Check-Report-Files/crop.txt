@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/crop 59902c8cb4ed6ad5903da46194257de1fdbf542b
+source : http://cgit.drupalcode.org/crop 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/CropTypeListBuilder.php                  
+ ------ --------------------------------------------- 
+  105    Call to deprecated method link() of class    
+         Drupal\Core\Configntity\ConfigEntityBase.  
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CropTypeDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CropTypeForm.php                          
+ ------ --------------------------------------------------- 
+  174    Call to deprecated function drupal_set_message().  
+  177    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

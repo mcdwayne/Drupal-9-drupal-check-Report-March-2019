@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/ert 1b25b75e261b6b3a0cea35dae0c8438128d97725
+source : http://cgit.drupalcode.org/ert 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ReadTimeManager.php                            
+ ------ --------------------------------------------------- 
+  120    Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Routing/RouteEnhancer.php                                           
+ ------ ------------------------------------------------------------------------ 
+  18     Class Drupalrt\Routing\RouteEnhancer implements deprecated interface  
+         Drupal\Core\Routingnhancer\RouteEnhancerInterface.                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

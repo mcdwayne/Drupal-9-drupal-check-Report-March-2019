@@ -1,0 +1,151 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feeds_ex 4eb59bd49c34a175a6473c441ff53ecd5a1a28b0
+source : http://cgit.drupalcode.org/feeds_ex 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   feeds_ex.pages.inc                               
+ ------ ------------------------------------------------- 
+  31     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  43     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  43     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  51     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  51     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   feeds_ex.theme.inc                                     
+ ------ ------------------------------------------------------- 
+  22     Call to deprecated function drupal_render().           
+  32     Call to deprecated function drupal_render().           
+  41     Call to deprecated function drupal_render().           
+  53     Call to deprecated function drupal_render_children().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/DefaultController.php             
+ ------ ------------------------------------------------- 
+  34     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  46     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  46     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  54     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  54     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Feeds/Parser/JmesPathParser.php              
+ ------ ------------------------------------------------- 
+  152    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  152    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Feeds/Parser/ParserBase.php                  
+ ------ ------------------------------------------------- 
+  402    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  402    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Feeds/Parser/QueryPathXmlParser.php          
+ ------ ------------------------------------------------- 
+  123    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  123    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Feeds/Parser/XmlParser.php                   
+ ------ ------------------------------------------------- 
+  196    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  196    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  245    Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  245    Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/Feeds/Parser/ContextTestTrait.php (in context of class Drupal\Testseeds_ex\Functional\Feeds\Parser\HtmlParserTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------- 
+  55     Call to deprecated method assertText() of class                                                                                            
+         Drupal\Tests\BrowserTestBase.                                                                                                              
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/Feeds/Parser/ContextTestTrait.php (in context of class Drupal\Testseeds_ex\Functional\Feeds\Parser\JsonPathParserTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+  55     Call to deprecated method assertText() of class                                                                                                
+         Drupal\Tests\BrowserTestBase.                                                                                                                  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/Feeds/Parser/ContextTestTrait.php (in context of class Drupal\Testseeds_ex\Functional\Feeds\Parser\QueryPathHtmlParserTest)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  55     Call to deprecated method assertText() of class                                                                                                     
+         Drupal\Tests\BrowserTestBase.                                                                                                                       
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/Feeds/Parser/ContextTestTrait.php (in context of class Drupal\Testseeds_ex\Functional\Feeds\Parser\QueryPathXmlParserTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+  55     Call to deprecated method assertText() of class                                                                                                    
+         Drupal\Tests\BrowserTestBase.                                                                                                                      
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Functional/Feeds/Parser/ContextTestTrait.php (in context of class Drupal\Testseeds_ex\Functional\Feeds\Parser\XmlParserTest)  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------ 
+  55     Call to deprecated method assertText() of class                                                                                           
+         Drupal\Tests\BrowserTestBase.                                                                                                             
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/JmesPathLinesParserTest.php                  
+ ------ ------------------------------------------------------------------------- 
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/JmesPathParserTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  31     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Feeds/Parser/ParserTestBase.php                           
+ ------ ------------------------------------------------------------------------- 
+  48     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  52     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   tests/src/Unit/File/LineIteratorTest.php     
+ ------ --------------------------------------------- 
+  32     Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  32     Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 35 errors                                                         
+
+ </code>

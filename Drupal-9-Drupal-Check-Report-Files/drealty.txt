@@ -1,0 +1,297 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drealty 3da9fb9bbed3d377369762a5b1fc12ec63614d5b
+source : http://cgit.drupalcode.org/drealty 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------- 
+  Line   drealty.daemon.php                                              
+ ------ ---------------------------------------------------------------- 
+         Class drealtyDaemon was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   drealty.module                                         
+ ------ ------------------------------------------------------- 
+  225    Call to deprecated function drupal_set_message().      
+  227    Call to deprecated function drupal_set_message().      
+  239    Call to deprecated function entity_load().             
+  244    Call to deprecated function db_query_range().          
+  250    Call to deprecated function db_query_range().          
+  278    Call to deprecated function db_or().                   
+  283    Call to deprecated function db_and().                  
+  288    Call to deprecated function db_select().               
+  535    Call to deprecated function entity_load().             
+  650    Call to deprecated function db_delete().               
+  699    Call to deprecated function db_select().               
+  749    Call to deprecated function db_select().               
+  874    Call to deprecated function db_select().               
+  1089   Call to deprecated function drupal_render().           
+  1090   Call to deprecated function drupal_render().           
+  1091   Call to deprecated function drupal_render().           
+  1159   Call to deprecated function drupal_set_message().      
+  1168   Call to deprecated function drupal_set_message().      
+  1187   Call to deprecated function drupal_set_message().      
+  1193   Call to deprecated function drupal_get_destination().  
+  1198   Call to deprecated function drupal_set_message().      
+  1258   Call to deprecated function db_select().               
+  1310   Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   drealty.tokens.inc                          
+ ------ -------------------------------------------- 
+  36     Call to deprecated function format_date().  
+  66     Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   drush/drealty.drush.inc                     
+ ------ -------------------------------------------- 
+  101    Call to deprecated function entity_load().  
+  149    Call to deprecated function db_select().    
+  165    Call to deprecated function entity_load().  
+  191    Call to deprecated function db_update().    
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   includes/drealty.connection.admin.inc                              
+ ------ ------------------------------------------------------------------- 
+         Class DrealtyConnectionUIController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   includes/drealty.connection.inc                                     
+ ------ -------------------------------------------------------------------- 
+         Class drealtyConnection was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   includes/drealty.listing.admin.inc                                      
+ ------ ------------------------------------------------------------------------ 
+         Class DrealtyListingUIController was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   includes/drealty.listing.inc                                     
+ ------ ----------------------------------------------------------------- 
+         Class DrealtyListing was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   includes/drealty.metadata.inc                                     
+ ------ ------------------------------------------------------------------ 
+         Class drealtyMetaData was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------- 
+  Line   modules/drealty_agent/drealty_agent.module  
+ ------ -------------------------------------------- 
+  145    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   modules/drealty_agent/includes/drealty.agent.admin.inc                   
+ ------ ------------------------------------------------------------------------- 
+         Class DrealtyAgentUIController was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   modules/drealty_agent/includes/drealty.agent.inc               
+ ------ --------------------------------------------------------------- 
+         Class DrealtyAgent was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   modules/drealty_fieldmap/drealty_fieldmap.module  
+ ------ -------------------------------------------------- 
+  143    Call to deprecated function db_query().           
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/drealty_fieldmap/includes/drealty_fieldmap.admin.inc  
+ ------ -------------------------------------------------------------- 
+  92     Call to deprecated function drupal_set_message().             
+  119    Call to deprecated function entity_load().                    
+  132    Call to deprecated function db_select().                      
+  145    Call to deprecated function db_select().                      
+  527    Call to deprecated function db_select().                      
+  556    Call to deprecated function taxonomy_vocabulary_load().       
+  577    Call to deprecated function drupal_set_message().             
+  610    Call to deprecated function drupal_set_message().             
+  651    Call to deprecated function drupal_render().                  
+  655    Call to deprecated function drupal_render().                  
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/drealty_import/class/drealty_import.import.inc          
+ ------ ---------------------------------------------------------------- 
+         Class DrealtyImport was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/drealty_import/drealty_import.module       
+ ------ --------------------------------------------------- 
+  186    Call to deprecated function format_date().         
+  228    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/drealty_import/includes/agent.batch.inc    
+ ------ --------------------------------------------------- 
+  12     Call to deprecated function entity_load().         
+  50     Call to deprecated function entity_load().         
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/drealty_import/includes/flush.batch.inc    
+ ------ --------------------------------------------------- 
+  86     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/drealty_import/includes/full.batch.inc     
+ ------ --------------------------------------------------- 
+  12     Call to deprecated function entity_load().         
+  50     Call to deprecated function entity_load().         
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/drealty_import/includes/office.batch.inc   
+ ------ --------------------------------------------------- 
+  12     Call to deprecated function entity_load().         
+  50     Call to deprecated function entity_load().         
+  117    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/drealty_import/includes/openhouse.batch.inc  
+ ------ ----------------------------------------------------- 
+  12     Call to deprecated function entity_load().           
+  50     Call to deprecated function entity_load().           
+  117    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/drealty_import/includes/process.batch.inc  
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+  98     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   modules/drealty_lead/drealty_lead.module    
+ ------ -------------------------------------------- 
+  166    Call to deprecated function entity_load().  
+ ------ -------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/drealty_lead/includes/drealty_lead.lead.admin.inc               
+ ------ ------------------------------------------------------------------------ 
+         Class DrealtyLeadUIController was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   modules/drealty_lead/includes/drealty_lead.lead.inc           
+ ------ -------------------------------------------------------------- 
+         Class DrealtyLead was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   modules/drealty_office/drealty_office.module  
+ ------ ---------------------------------------------- 
+  160    Call to deprecated function entity_load().    
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   modules/drealty_office/includes/drealty.office.admin.inc               
+ ------ ----------------------------------------------------------------------- 
+         Class DrealtyOfficeUIController was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   modules/drealty_office/includes/drealty.office.inc              
+ ------ ---------------------------------------------------------------- 
+         Class DrealtyOffice was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/drealty_openhouse/drealty_openhouse.module  
+ ------ ---------------------------------------------------- 
+  145    Call to deprecated function entity_load().          
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   modules/drealty_openhouse/includes/drealty.openhouse.admin.inc    
+ ------ ------------------------------------------------------------------ 
+         Class DrealtyOpenHouseUIController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/drealty_openhouse/includes/drealty.openhouse.inc           
+ ------ ------------------------------------------------------------------- 
+         Class DrealtyOpenHouse was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   modules/drealty_reconciler/class/drealty_reconciler.reconciler.inc  
+ ------ -------------------------------------------------------------------- 
+         Class DrealtyReconciler was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/drealty_reconciler/drealty_reconciler.module  
+ ------ ------------------------------------------------------ 
+  30     Call to deprecated function db_or().                  
+  33     Call to deprecated function db_select().              
+  56     Call to deprecated function db_select().              
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/drealty_xmlsitemap/drealty_xmlsitemap.module  
+ ------ ------------------------------------------------------ 
+  29     Call to deprecated function db_query_range().         
+  41     Call to deprecated function entity_load().            
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   plugins/geocoder_handler/drealty.google.inc        
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+  104    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function taxonomy_term_load().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   plugins/geocoder_handler/drealty.yahoo.inc         
+ ------ --------------------------------------------------- 
+  43     Call to deprecated function taxonomy_term_load().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   plugins/tasks/drealty_listing.inc                  
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 87 errors                                                         
+
+ </code>

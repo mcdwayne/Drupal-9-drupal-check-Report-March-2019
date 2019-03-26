@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/epay 3c971c285309588e2f7bbbc5fd7b7d1fa428af16
+source : http://cgit.drupalcode.org/epay 
+ 
+ <code> 
+
+ ------ -------------------------------------------- 
+  Line   epay.admin.inc                              
+ ------ -------------------------------------------- 
+  18     Call to deprecated function db_query().     
+  29     Call to deprecated function db_query().     
+  33     Call to deprecated function db_query().     
+  35     Call to deprecated function db_query().     
+  294    Call to deprecated function db_query().     
+  299    Call to deprecated function user_load().    
+  312    Call to deprecated function format_date().  
+  330    Call to deprecated function db_query().     
+  335    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   epay.module                              
+ ------ ----------------------------------------- 
+  240    Call to deprecated function db_query().  
+  243    Call to deprecated function db_query().  
+  259    Call to deprecated function db_query().  
+  276    Call to deprecated function db_query().  
+  304    Call to deprecated function db_query().  
+  328    Call to deprecated function db_query().  
+  361    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/epay_commerce/epay_commerce.module         
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function user_load().           
+  55     Call to deprecated function db_select().           
+  94     Call to deprecated function drupal_set_message().  
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 20 errors                                                         
+
+ </code>

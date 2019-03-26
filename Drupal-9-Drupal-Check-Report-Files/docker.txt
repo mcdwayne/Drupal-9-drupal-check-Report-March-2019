@@ -1,0 +1,179 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/docker ab42a550bd16d9d1826deedb688f7dacf32e1ab3
+source : http://cgit.drupalcode.org/docker 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   docker.module                                        
+ ------ ----------------------------------------------------- 
+  156    Call to deprecated function entity_load().           
+  163    Call to deprecated function entity_load_multiple().  
+  170    Call to deprecated function entity_view().           
+  177    Call to deprecated function entity_view().           
+  231    Call to deprecated function entity_load().           
+  238    Call to deprecated function entity_load_multiple().  
+  245    Call to deprecated function entity_view().           
+  252    Call to deprecated function entity_view().           
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Controller/DockerController.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Controller\DockerController was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Controller/DockerHostController.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Controller\DockerHostController was not found while  
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/docker/DockerApi.php                                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\docker\DockerApi was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerApiInterface.php                              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\docker\DockerApiInterface was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerBuildAccessController.php                        
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerBuildAccessController was not found while      
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerBuildAddFormController.php                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerBuildAddFormController was not found while     
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerBuildFormController.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerBuildFormController was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerBuildListController.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerBuildListController was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerContainerConfig.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerContainerConfig\dockerContainerConfig was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerHostAccessController.php                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerHostAccessController was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerHostFormController.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerHostFormController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/DockerHostListController.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\DockerHostListController was not found while trying  
+         to analyse it - autoloading is probably not configured properly.         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Entity/DockerBuild.php                              
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\dockerntity\DockerBuild was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Entity/DockerHost.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\dockerntity\DockerHost was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Form/DockerBuildDeleteForm.php                         
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Form\DockerBuildDeleteForm was not found while       
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Form/DockerHostDeleteForm.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Form\DockerHostDeleteForm was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Plugin/Menu/LocalAction/DockerBuildAddLocalAction.php  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Plugin\Menu\LocalAction\DockerBuildAddLocalAction    
+         was not found while trying to analyse it - autoloading is probably not   
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   lib/Drupal/docker/Plugin/Menu/LocalAction/DockerHostAddLocalAction.php  
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\docker\Plugin\Menu\LocalAction\DockerHostAddLocalAction    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Plugin/views/field/DockerHost.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Pluginiewsield\DockerHost was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Plugin/views/wizard/DockerApp.php                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Pluginiews\wizard\DockerApp was not found while    
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   lib/Drupal/docker/Plugin/views/wizard/DockerHost.php                     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\docker\Pluginiews\wizard\DockerHost was not found while   
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/Drupal/docker/Tests/DockerHostApiTest.php                        
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\docker\Tests\DockerApiTest was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 30 errors                                                         
+
+ </code>

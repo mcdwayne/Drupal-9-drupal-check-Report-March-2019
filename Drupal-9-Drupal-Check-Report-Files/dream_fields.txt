@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dream_fields 36dd6bc0482827939336172b19f67d59fd46fa71
+source : http://cgit.drupalcode.org/dream_fields 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigureField.php                        
+ ------ --------------------------------------------------- 
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/DreamField/DreamFieldList.php                    
+ ------ ------------------------------------------------------------ 
+  69     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/DreamField/DreamFieldReference.php               
+ ------ ------------------------------------------------------------ 
+  31     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/AccessTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\dream_fields\Functional\AccessTest.                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/UiTest.php                                          
+ ------ ------------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\dream_fields\Functional\UiTest.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/MachineNameGeneratorTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  22     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  30     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PluginManagerTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  66     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_purchase_order a63a4d8ba1d7d5fbfbb277241f6c6206db25c986
+source : http://cgit.drupalcode.org/commerce_purchase_order 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/PurchaseOrder.php  
+ ------ --------------------------------------------------------- 
+  41     Call to method create() of deprecated class              
+         Drupal\Core\Field\BaseFieldDefinition.                   
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_abandoned_carts cee06fcf6ce5a039c86524128e89504dce4e2223
+source : http://cgit.drupalcode.org/commerce_abandoned_carts 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   commerce_abandoned_carts.module           
+ ------ ------------------------------------------ 
+  63     Call to deprecated function db_select().  
+  129    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/Form/AdminFormTest.php          
+ ------ ----------------------------------------------------- 
+  26     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  36     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

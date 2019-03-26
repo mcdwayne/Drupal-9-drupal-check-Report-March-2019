@@ -1,0 +1,54 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/email_verify 25dbf776ee4db868438ee6cc5025482bc9833d0a
+source : http://cgit.drupalcode.org/email_verify 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   email_verify.check.inc                             
+ ------ --------------------------------------------------- 
+  20     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function db_query().            
+  67     Call to deprecated function db_query().            
+  217    Call to deprecated function db_query().            
+  247    Call to deprecated function db_query().            
+  267    Call to deprecated function db_query().            
+  310    Call to deprecated function db_query().            
+  368    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   email_verify.module                          
+ ------ --------------------------------------------- 
+  67     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/EmailVerifyBatch.php                                    
+ ------ ------------------------------------------------------------ 
+  47     Call to deprecated method entityManager() of class Drupal.  
+  71     Call to deprecated function drupal_set_message().           
+  88     Call to deprecated function drupal_set_message().           
+  91     Call to deprecated function drupal_set_message().           
+  94     Call to deprecated function drupal_set_message().           
+  102    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------- 
+  Line   src/EmailVerifyManager.php                   
+ ------ --------------------------------------------- 
+  79     Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/EmailVerifyWidget.php  
+ ------ ---------------------------------------------------- 
+  52     Call to deprecated method substr() of class         
+         Drupal\Component\Utility\Unicode.                   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/css_background 2ea87c499f0ed2f153450a24622afd50a3a35119
+source : http://cgit.drupalcode.org/css_background 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/CssBackgroundEntityController.php    
+ ------ ---------------------------------------------------- 
+  30     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  31     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  46     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  49     Call to deprecated function format_date().          
+  68     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  100    Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/CssBackgroundEntityListBuilder.php                               
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal

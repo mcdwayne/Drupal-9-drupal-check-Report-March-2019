@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cmlstarter_demo 2988d607cf4b2a9502022663b68e24d86377bb5b
+source : http://cgit.drupalcode.org/cmlstarter_demo 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/Plugin/migrate/source/Menu.php              
+ ------ ------------------------------------------------ 
+  26     Call to deprecated function db_table_exists().  
+  37     Call to deprecated function db_table_exists().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/migrate/source/StoreProduct.php                  
+ ------ ------------------------------------------------------------ 
+  79     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Utility/MigrationsSourceBase.php                        
+ ------ ------------------------------------------------------------ 
+  32     Calls to function dsm should not exist.                     
+  33     Calls to function dsm should not exist.                     
+  34     Calls to function dsm should not exist.                     
+  216    Call to deprecated method entityManager() of class Drupal.  
+  261    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

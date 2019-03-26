@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/display_fields 5248acdf6ac3526edf7b6b428a858cffd665b0fb
+source : http://cgit.drupalcode.org/display_fields 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   display_fields.module                         
+ ------ ---------------------------------------------- 
+  91     Call to deprecated function entity_load().    
+  99     Call to deprecated function entity_create().  
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   includes/display_fields.field_ui.inc            
+ ------ ------------------------------------------------ 
+  309    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   src/DisplayFields.php                                  
+ ------ ------------------------------------------------------- 
+  94     Call to deprecated function entity_load().             
+  102    Call to deprecated function entity_create().           
+  124    Call to deprecated function entity_delete_multiple().  
+  125    Call to deprecated function entity_delete_multiple().  
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Element/EntityFieldSelect.php                           
+ ------ ------------------------------------------------------------ 
+  278    Call to deprecated method entityManager() of class Drupal.  
+  281    Call to deprecated method entityManager() of class Drupal.  
+  285    Call to deprecated method entityManager() of class Drupal.  
+  305    Call to deprecated method entityManager() of class Drupal.  
+  310    Call to deprecated method entityManager() of class Drupal.  
+  403    Call to deprecated method entityManager() of class Drupal.  
+  414    Call to deprecated method entityManager() of class Drupal.  
+  423    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/DisplayFieldsField/FieldEmbedView.php     
+ ------ ----------------------------------------------------- 
+  80     Call to deprecated function entity_load_multiple().  
+  108    Call to deprecated function entity_load().           
+  412    Call to deprecated function entity_load().           
+  486    Call to deprecated function entity_load().           
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/DisplayFieldsField/FieldReference.php            
+ ------ ------------------------------------------------------------ 
+  77     Call to deprecated method entityManager() of class Drupal.  
+  137    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

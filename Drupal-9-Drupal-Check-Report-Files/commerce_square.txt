@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_square 667d0183781e5722753e56d1239429ef3cfab5be
+source : http://cgit.drupalcode.org/commerce_square 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SquareSettings.php                        
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  62     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/Square.php                  
+ ------ --------------------------------------------------------------- 
+  104    Call to deprecated function drupal_set_message().              
+  142    Call to deprecated function drupal_set_message().              
+  289    Call to deprecated method getApiClient() of class              
+         Drupal

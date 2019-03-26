@@ -1,0 +1,39 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dtuber 935daa732a7e474fdc2cb384ef41a637211c1ddd
+source : http://cgit.drupalcode.org/dtuber 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/DTuberController.php                 
+ ------ ---------------------------------------------------- 
+  50     Call to deprecated function drupal_set_message().   
+  66     Call to deprecated function drupal_set_message().   
+  70     Call to deprecated function drupal_get_messages().  
+  71     Call to deprecated function drupal_set_message().   
+  77     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TestUploadForm.php                        
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/DtuberField.php         
+ ------ --------------------------------------------------- 
+  113    Call to deprecated function drupal_set_message().  
+  121    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/DtuberFieldDefaultWidget.php      
+ ------ --------------------------------------------------------------- 
+         Class Drupal\Core\FIeld\WidgetBase not found and could not be  
+         autoloaded.                                                    
+ ------ --------------------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

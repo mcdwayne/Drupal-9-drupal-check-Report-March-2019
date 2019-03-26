@@ -1,0 +1,47 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_legal 0a56de9da02903381ba2836e74f7e85944b3d22f
+source : http://cgit.drupalcode.org/entity_legal 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EntityLegalController.php           
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Entity/EntityLegalDocument.php                      
+ ------ -------------------------------------------------------- 
+  296    Call to deprecated function entity_get_form_display().  
+  303    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityLegalDocumentForm.php               
+ ------ --------------------------------------------------- 
+  103    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/EntityLegal/Message.php                 
+ ------ --------------------------------------------------- 
+  36     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/EntityLegal/Redirect.php                
+ ------ --------------------------------------------------- 
+  39     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/Tests/EntityLegalMethodsTest.php          
+ ------ ---------------------------------------------- 
+  30     Call to deprecated function format_string().  
+  56     Call to deprecated function format_string().  
+ ------ ---------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

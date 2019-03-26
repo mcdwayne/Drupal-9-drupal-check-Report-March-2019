@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/clientside_validation 2124abb5d2bbbca825fb32d70a1ef78da5b0b1f0
+source : https://cgit.drupalcode.org/clientside_validation 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/CvValidatorBase.php                          
+ ------ ------------------------------------------------- 
+  46     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  51     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ClientsideValidationTest.php              
+ ------ ------------------------------------------------------------------------- 
+  12     Class                                                                    
+         Drupal\Tests

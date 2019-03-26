@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/disable_messages 2b024d0a95f6451f333a9ef3db87e4c1cff0abda
+source : http://cgit.drupalcode.org/disable_messages 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   disable_messages.module                      
+ ------ --------------------------------------------- 
+  172    Calls to function fnmatch should not exist.  
+ ------ --------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   src/Form/DisableMessagesSettingsForm.php                           
+ ------ ------------------------------------------------------------------- 
+  65     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+  83     Call to deprecated method l() of class Drupal\Core\Form\FormBase.  
+ ------ ------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

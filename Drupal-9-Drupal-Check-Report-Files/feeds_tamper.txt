@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/feeds_tamper 17a01118e9025127000d3b5798fb23738341742d
+source : http://cgit.drupalcode.org/feeds_tamper 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TamperAddForm.php                         
+ ------ --------------------------------------------------- 
+  65     Call to deprecated function drupal_set_message().  
+  109    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TamperDeleteForm.php                      
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TamperEditForm.php                        
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TamperListForm.php                        
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  266    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/FeedTypeTamperMetaTest.php   
+ ------ ---------------------------------------------- 
+  32     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  41     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Adapter/TamperableFeedItemAdapterTest.php                 
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EventSubscriber/FeedsSubscriberTest.php                   
+ ------ ------------------------------------------------------------------------- 
+  53     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  57     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  60     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  80     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  93     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  206    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  251    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  293    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  299    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  306    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeedTypeTamperMetaTest.php                                
+ ------ ------------------------------------------------------------------------- 
+  32     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  38     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  41     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  44     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

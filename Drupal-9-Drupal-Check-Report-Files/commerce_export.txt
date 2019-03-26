@@ -1,0 +1,78 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_export 4b2945ea95aedb1eb1f3b314f3cbc0c9ec18c59f
+source : http://cgit.drupalcode.org/commerce_export 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SourceFiles.php                           
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/Attribute.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/Image.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/Product.php                                    
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/ProductCta.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/ProductTab.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/ProductVariation.php                           
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/ProductVideo.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/source/TaxonomyTerm.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\migrate_source_csv\Plugin\migrate\source\CSV not found and  
+         could not be autoloaded.                                                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/Migrate/TestBase.php            
+ ------ ------------------------------------------------- 
+  191    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

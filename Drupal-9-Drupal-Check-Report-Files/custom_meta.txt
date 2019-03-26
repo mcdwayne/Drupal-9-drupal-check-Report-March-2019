@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_meta 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/custom_meta 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   custom_meta.module                               
+ ------ ------------------------------------------------- 
+  70     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  70     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+  71     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  71     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/CustomMetaController.php   
+ ------ ------------------------------------------ 
+  93     Call to deprecated method url() of class  
+         Drupal\Core\Controller\ControllerBase.    
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomMetaFormBase.php                    
+ ------ --------------------------------------------------- 
+  146    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

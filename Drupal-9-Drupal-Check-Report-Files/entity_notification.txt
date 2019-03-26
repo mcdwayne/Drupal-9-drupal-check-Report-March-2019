@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_notification 4a539863ed29e31c8bb68689ade0b21a52883f35
+source : http://cgit.drupalcode.org/entity_notification 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  61     Call to deprecated method isSubclassOf() of class  
+         Drupal\CorentityntityTypeInterface.            
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   tests/Kernel/IntegrationTest.php                                       
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\Testsntity_notification\Kernel\IntegrationTest was not  
+         found while trying to analyse it - autoloading is probably not         
+         configured properly.                                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/Unit/EntitySubscriberTest.php                                   
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\Testsntity_notification\UnitntitySubscriberTest was  
+         not found while trying to analyse it - autoloading is probably not    
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

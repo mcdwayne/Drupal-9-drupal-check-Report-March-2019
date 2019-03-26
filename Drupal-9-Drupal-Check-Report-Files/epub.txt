@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/epub 34ae13a4a8909a8d25233c87c9daf3cdc9fcd343
+source : http://cgit.drupalcode.org/epub 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   drush/epub.drush.inc                      
+ ------ ------------------------------------------ 
+  36     Call to deprecated function db_select().  
+  50     Call to deprecated function file_load().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   epub.field.inc                                  
+ ------ ------------------------------------------------ 
+  69     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   epub.module                                     
+ ------ ------------------------------------------------ 
+  72     Call to deprecated function drupal_realpath().  
+  75     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EpubJs.php                           
+ ------ --------------------------------------------------------------------- 
+         Class Drupalpub\Plugin\Field\FieldFormatterpubjs was not found   
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

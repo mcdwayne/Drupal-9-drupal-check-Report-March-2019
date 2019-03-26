@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/courier 00e500ed4c24429b2e5f39c511e916601718ee9c
+source : https://github.com/dpi/courier 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   courier.module                                              
+ ------ ------------------------------------------------------------ 
+  73     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   courier_message_composer/src/Form/MessageForm.php       
+ ------ -------------------------------------------------------- 
+  142    Call to deprecated function entity_get_form_display().  
+  219    Call to deprecated function drupal_set_message().       
+  222    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   courier_system/src/Form/Settings.php               
+ ------ --------------------------------------------------- 
+  278    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/TemplateCollection.php                           
+ ------ ------------------------------------------------------------ 
+  127    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CourierMaintenanceForm.php                
+ ------ --------------------------------------------------- 
+  96     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EmailDeleteForm.php                       
+ ------ --------------------------------------------------- 
+  28     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EmailForm.php                             
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Settings.php                              
+ ------ --------------------------------------------------- 
+  221    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/TemplateEditForm.php                           
+ ------ -------------------------------------------------------- 
+  105    Call to deprecated function entity_get_form_display().  
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Tests/CourierTest.php                                        
+ ------ ----------------------------------------------------------------- 
+  22     Class Drupal

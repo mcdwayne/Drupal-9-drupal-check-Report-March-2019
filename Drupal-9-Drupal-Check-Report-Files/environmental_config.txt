@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/environmental_config 8.x-1.0-beta1
+source : http://cgit.drupalcode.org/environmental_config 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   environmental_config.module                        
+ ------ --------------------------------------------------- 
+  46     Call to deprecated function drupal_set_message().  
+  59     Call to deprecated function drupal_set_message().  
+  108    Call to deprecated function drupal_set_message().  
+  125    Call to deprecated function drupal_set_message().  
+  131    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/EnvironmentDetector.php                        
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,92 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/data_import 17a75dae1e3bfceaf98b50b54a910a8ae330b15d
+source : http://cgit.drupalcode.org/data_import 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   data_import.module                              
+ ------ ------------------------------------------------ 
+  64     Call to deprecated method l() of class Drupal.  
+  65     Call to deprecated method l() of class Drupal.  
+  66     Call to deprecated method l() of class Drupal.  
+  67     Call to deprecated method l() of class Drupal.  
+  78     Call to deprecated function drupal_render().    
+  116    Call to deprecated function db_query().         
+  136    Call to deprecated function db_merge().         
+  149    Call to deprecated function db_delete().        
+  152    Call to deprecated function db_delete().        
+  170    Call to deprecated function db_select().        
+  199    Call to deprecated function db_insert().        
+  205    Call to deprecated function db_update().        
+  212    Call to deprecated function db_delete().        
+  232    Call to deprecated function db_select().        
+  256    Call to deprecated function db_select().        
+  279    Call to deprecated function db_insert().        
+  349    Call to deprecated function db_or().            
+  349    Call to deprecated function db_select().        
+  392    Call to deprecated function db_update().        
+  402    Call to deprecated function db_insert().        
+  770    Call to deprecated function db_query().         
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   inc/data_import.batch.inc                          
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   inc/data_import.getFile.inc                        
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_realpath().     
+  31     Call to deprecated function drupal_set_message().  
+  32     Call to deprecated method url() of class Drupal.   
+  39     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_realpath().     
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Controller/DataImportBatchController.php    
+ ------ ------------------------------------------------ 
+  57     Call to deprecated function db_next_id().       
+  72     Call to deprecated function drupal_realpath().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/dataImportMainForm.php                    
+ ------ --------------------------------------------------- 
+  29     Call to deprecated method l() of class Drupal.     
+  81     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/importerDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  87     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/importerLogForm.php                
+ ------ -------------------------------------------- 
+  88     Call to deprecated function db_select().    
+  110    Call to deprecated function format_date().  
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/importerMappingForm.php                    
+ ------ ---------------------------------------------------- 
+  59     Call to deprecated function node_type_get_types().  
+  357    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/importerSettingsForm.php                  
+ ------ --------------------------------------------------- 
+  434    Call to deprecated function file_load().           
+  482    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 38 errors                                                         
+
+ </code>

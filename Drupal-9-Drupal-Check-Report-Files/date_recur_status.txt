@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/date_recur_status 8.x-1.0-alpha1
+source : http://cgit.drupalcode.org/date_recur_status 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OccurrenceEditForm.php                    
+ ------ --------------------------------------------------- 
+  157    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   src/Plugin/DateRecurOccurrenceHandler/DateRecurStatusOccurrenceHandler.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class                                                                       
+         Drupal\date_recur\Plugin\DateRecurOccurrenceHandler\DefaultDateRecurOcc     
+         urrenceHandler not found and could not be autoloaded.                       
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/DateRecurStatusFormatter.php             
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupal\date_recur\Plugin\Field\FieldFormatter\DateRecurDefaultFormatter  
+         not found and could not be autoloaded.                                   
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/email_confirmer f7e3d2b289f5dae55d71a1a832ed9dcada8d92f1
+source : http://cgit.drupalcode.org/email_confirmer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   email_confirmer_user/email_confirmer_user.module   
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated method substr() of class        
+         Drupal\Component\Utility\Unicode.                  
+  91     Call to deprecated function drupal_set_message().  
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EmailConfirmerController.php        
+ ------ --------------------------------------------------- 
+  24     Call to deprecated function drupal_set_message().  
+  27     Call to deprecated function drupal_set_message().  
+  31     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Entity/EmailConfirmation.php             
+ ------ --------------------------------------------- 
+  263    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EmailConfirmerResponseForm.php            
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+  137    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

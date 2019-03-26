@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_robokassa d8e59038cfde7a55b551d029fb601f59261b9284
+source : http://cgit.drupalcode.org/commerce_robokassa 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/RobokassaPayment.php  
+ ------ --------------------------------------------------------- 
+  256    Call to deprecated function drupal_set_message().        
+  350    Call to deprecated method strtoupper() of class          
+         Drupal\Component\Utility\Unicode.                        
+  350    Call to deprecated method strtoupper() of class          
+         Drupal\Component\Utility\Unicode.                        
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

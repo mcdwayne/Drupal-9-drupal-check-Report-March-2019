@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/condition_query deba7a7eb1673921890e7d83ed7af5017136f4b8
+source : http://cgit.drupalcode.org/condition_query 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Condition/RequestParam.php            
+ ------ ------------------------------------------------- 
+  117    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

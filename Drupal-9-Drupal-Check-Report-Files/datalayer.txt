@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/datalayer a9a0f05247376fa2f9a22fe8f89ae014dc76e7ba
+source : http://cgit.drupalcode.org/datalayer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DatalayerSettingsForm.php                 
+ ------ --------------------------------------------------- 
+  178    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/DataLayerKernelTest.php          
+ ------ -------------------------------------------------- 
+  103    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  118    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  130    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  142    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  165    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  174    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  183    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  193    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

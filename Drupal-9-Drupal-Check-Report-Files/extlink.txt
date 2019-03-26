@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/extlink a0fdb5b77360dcf286f4eb22fa13ba15e35e6dc1
+source : http://cgit.drupalcode.org/extlink 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ExtlinkAdminTest.php  
+ ------ ----------------------------------------------------- 
+  18     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  22     Call to deprecated method assertNoText() of class    
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/ExtlinkTestBase.php                       
+ ------ ------------------------------------------------------------------------- 
+  14     Class Drupal\Testsxtlink\FunctionalJavascriptxtlinkTestBase extends  
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.    
+  69     Call to method setUp() of deprecated class                               
+         Drupal\Tests\BrowserTestBase.                                            
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

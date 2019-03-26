@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_view 2165383a37dc4c122c3a951ee353d0c92c4e1019
+source : http://cgit.drupalcode.org/config_view 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/views/query/ConfigViewQuery.php                  
+ ------ ------------------------------------------------------------ 
+  197    Call to deprecated function drupal_set_message().           
+  716    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Functional/Form/SettingsFormTest.php                       
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Tests

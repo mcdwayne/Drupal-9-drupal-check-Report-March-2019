@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_overlay ba327457eb4e5a0f7e946cc02428ade88cae3214
+source : http://cgit.drupalcode.org/entity_overlay 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EntityReferenceOverlayFormatter.php  
+ ------ --------------------------------------------------------------------- 
+  244    Call to deprecated method entityManager() of class Drupal.           
+ ------ --------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/LoadTest.php                    
+ ------ ----------------------------------------------------- 
+  43     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

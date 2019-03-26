@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/date_pager b5bcfe42cf642faabebce761e543facf0a09ed95
+source : http://cgit.drupalcode.org/date_pager 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/PagerDate.php                            
+ ------ --------------------------------------------- 
+  155    Call to deprecated method format() of class  
+         Drupal\Component\Utility\SafeMarkup.         
+  155    Call to method format() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.         
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

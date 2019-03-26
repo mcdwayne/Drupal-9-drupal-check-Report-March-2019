@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/enterprise_search 8abda07e6cc27f5bafcd1ce0c89a79db14fc7816
+source : http://cgit.drupalcode.org/enterprise_search 
+ 
+ <code> 
+Warning: Declaration of Drupalnterprise_search\Plugin\search_apiackendnterpriseSearchApiPlugin::getAutocompleteSuggestions(Drupal\search_api\Query\QueryInterface $query, Drupal\search_api_autocomplete\SearchInterface $search, $incomplete_key, $user_input) should be compatible with Drupal\search_api_solr\Plugin\search_apiackend\SearchApiSolrBackend::getAutocompleteSuggestions(Drupal\search_api\Query\QueryInterface $query, $search, $incomplete_key, $user_input) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/enterprise_search/src/Plugin/search_api/backend/EnterpriseSearchApiPlugin.php on line 37
+
+
+ ------ -------------------------------------------------- 
+  Line   modules/a12_best_bets/src/Form/SettingsForm.php   
+ ------ -------------------------------------------------- 
+  66     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/a12_connect/a12_connect.module             
+ ------ --------------------------------------------------- 
+  49     Call to deprecated function drupal_set_message().  
+  61     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/a12_connect/src/Form/SettingsForm.php      
+ ------ --------------------------------------------------- 
+  68     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

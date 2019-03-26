@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eqsf 7062ffd4bbee083a48948a9a8d4fab37b8d676cb
+source : http://cgit.drupalcode.org/eqsf 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/EqsfAction.php                        
+ ------ ------------------------------------------ 
+  39     Call to deprecated function db_insert().  
+  56     Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/EqsfCron.php                                            
+ ------ ------------------------------------------------------------ 
+  115    Call to deprecated method entityManager() of class Drupal.  
+  135    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   src/EqsfSchema.php                        
+ ------ ------------------------------------------ 
+  18     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/EqsfKernelTest.php                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Testsqsf\KernelqsfKernelTest was not found while        
+         trying to analyse it - autoloading is probably not configured properly.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

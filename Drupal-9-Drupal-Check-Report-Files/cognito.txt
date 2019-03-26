@@ -1,0 +1,109 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cognito 043be62e575fa430ca3bd81b97a201c80060f3ac
+source : http://cgit.drupalcode.org/cognito 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/ConfirmationController.php          
+ ------ --------------------------------------------------- 
+  95     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Email/AdminRegisterForm.php               
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Email/NewPasswordForm.php                 
+ ------ --------------------------------------------------- 
+  133    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Email/PassResetForm.php                   
+ ------ --------------------------------------------------- 
+  171    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Email/ProfileForm.php                     
+ ------ --------------------------------------------------- 
+  93     Call to deprecated function drupal_set_message().  
+  120    Call to deprecated function drupal_set_message().  
+  129    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Email/RegisterForm.php                    
+ ------ --------------------------------------------------- 
+  191    Call to deprecated function drupal_set_message().  
+  205    Call to deprecated function drupal_set_message().  
+  213    Call to deprecated function drupal_set_message().  
+  217    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Functional/EmailFlowUserEditTest.php    
+ ------ -------------------------------------------------- 
+  88     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/Email/LoginFormTest.php          
+ ------ -------------------------------------------------- 
+  42     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  44     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  59     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  70     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  72     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  83     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  95     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  97     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  98     Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  123    Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  125    Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  147    Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+  150    Call to deprecated method getMock() of class      
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   tests/src/Kernel/Email/NewPasswordFormTest.php  
+ ------ ------------------------------------------------ 
+  38     Call to deprecated method getMock() of class    
+         Drupal\KernelTests\KernelTestBase.              
+  63     Call to deprecated method getMock() of class    
+         Drupal\KernelTests\KernelTestBase.              
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------- 
+  Line   tests/src/Kernel/Email/RegisterFormTest.php   
+ ------ ---------------------------------------------- 
+  26     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  44     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+  50     Call to deprecated method getMock() of class  
+         Drupal\KernelTests\KernelTestBase.            
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  Line   tests/src/Traits/RegisterFormHelper.php (in context of class Drupal\Tests

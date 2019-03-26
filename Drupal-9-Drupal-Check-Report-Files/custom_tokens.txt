@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/custom_tokens 0814a536e29d36e33ffd3b2d9ce63b78000344f6
+source : http://cgit.drupalcode.org/custom_tokens 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/TokenEntityForm.php                       
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/TokenUiTest.php                                     
+ ------ ------------------------------------------------------------------------- 
+  11     Class Drupal\local_testing\LocalTestingTrait not found and could not be  
+         autoloaded.                                                              
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

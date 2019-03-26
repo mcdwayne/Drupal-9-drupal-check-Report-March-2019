@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/discourse_sso fc1ea4f2aa3e5f8403e5a26f7a644406d9cf0221
+source : http://cgit.drupalcode.org/discourse_sso 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   discourse_sync/src/Role.php                        
+ ------ --------------------------------------------------- 
+  257    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/DiscourseSsoController.php                   
+ ------ ------------------------------------------------------------ 
+  58     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Form/DiscourseSsoAdminForm.php                          
+ ------ ------------------------------------------------------------ 
+  95     Call to deprecated function drupal_set_message().           
+  101    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

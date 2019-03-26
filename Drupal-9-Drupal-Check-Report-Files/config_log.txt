@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_log a82654378dad8c3ccf467c705385a0d0598a6971
+source : http://cgit.drupalcode.org/config_log 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   config_log.drush.inc                              
+ ------ -------------------------------------------------- 
+  42     Call to deprecated function db_query().           
+  47     Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/EventSubscriber/ConfigLogDatabaseSubscriber.php  
+ ------ ----------------------------------------------------- 
+  70     Call to deprecated method setIndentation() of class  
+         Symfony\Component\Yaml\Dumper.                       
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/EventSubscriber/ConfigLogSubscriberBase.php  
+ ------ ------------------------------------------------- 
+  54     Calls to function fnmatch should not exist.      
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

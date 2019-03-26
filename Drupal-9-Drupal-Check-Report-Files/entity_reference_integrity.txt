@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_integrity 0333f35a2481459a2cf60185426b650106b56ff1
+source : http://cgit.drupalcode.org/entity_reference_integrity 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   modules/entity_reference_integrity_enforce/tests/Functional/EnforcedIntegrityTest.php  
+ ------ --------------------------------------------------------------------------------------- 
+         Class                                                                                  
+         Drupal\Testsntity_reference_integrity_enforce\FunctionalnforcedInte                
+         grityTest was not found while trying to analyse it - autoloading is                    
+         probably not configured properly.                                                      
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/entity_reference_integrity_enforce/tests/Kernel/EntityPredeleteHookTest.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class                                                                                
+         Drupal\Testsntity_reference_integrity_enforce\KernelntityPredeleteH              
+         ookTest was not found while trying to analyse it - autoloading is                    
+         probably not configured properly.                                                    
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/DependencyFieldMapGeneratorTest.php                       
+ ------ ------------------------------------------------------------------------- 
+  28     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  34     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  51     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  52     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

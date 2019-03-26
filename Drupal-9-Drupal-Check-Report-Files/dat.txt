@@ -1,0 +1,155 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dat c0277aa1254b1996e73d8772064d05464f7b43d5
+source : http://cgit.drupalcode.org/dat 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   adminer/adminer.php                                                      
+ ------ ------------------------------------------------------------------------- 
+         Class Min_PDO was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   adminer/editor.php                                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Min_PDO was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   adminer/plugins/designs.php                                      
+ ------ ----------------------------------------------------------------- 
+         Class AdminerDesigns was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   adminer/plugins/dump-bz2.php                                     
+ ------ ----------------------------------------------------------------- 
+         Class AdminerDumpBz2 was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   adminer/plugins/dump-json.php                                     
+ ------ ------------------------------------------------------------------ 
+         Class AdminerDumpJson was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   adminer/plugins/dump-xml.php                                     
+ ------ ----------------------------------------------------------------- 
+         Class AdminerDumpXml was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   adminer/plugins/dump-zip.php                                     
+ ------ ----------------------------------------------------------------- 
+         Class AdminerDumpZip was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   adminer/plugins/edit-calendar.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class AdminerEditCalendar was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   adminer/plugins/edit-foreign.php                                     
+ ------ --------------------------------------------------------------------- 
+         Class AdminerEditForeign was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   adminer/plugins/edit-textarea.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class AdminerEditTextarea was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   adminer/plugins/enum-option.php                                     
+ ------ -------------------------------------------------------------------- 
+         Class AdminerEnumOption was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   adminer/plugins/enum-types.php                                     
+ ------ ------------------------------------------------------------------- 
+         Class AdminerEnumTypes was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   adminer/plugins/foreign-system.php                                     
+ ------ ----------------------------------------------------------------------- 
+         Class AdminerForeignSystem was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   adminer/plugins/frames.php                                      
+ ------ ---------------------------------------------------------------- 
+         Class AdminerFrames was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   adminer/plugins/json-column.php                                     
+ ------ -------------------------------------------------------------------- 
+         Class AdminerJsonColumn was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   adminer/plugins/plugin.php                                      
+ ------ ---------------------------------------------------------------- 
+         Class AdminerPlugin was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   adminer/plugins/slugify.php                                      
+ ------ ----------------------------------------------------------------- 
+         Class AdminerSlugify was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   adminer/plugins/table-structure.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class AdminerTableStructure was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   adminer/plugins/version-noverify.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class AdminerVersionNoverify was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DatabaseConnectionDeleteForm.php          
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DatabaseConnectionForm.php                
+ ------ --------------------------------------------------- 
+  126    Call to deprecated function drupal_set_message().  
+  132    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                         
+
+ </code>

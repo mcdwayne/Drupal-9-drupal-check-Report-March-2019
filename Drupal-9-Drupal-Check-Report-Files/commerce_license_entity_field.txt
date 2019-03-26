@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_license_entity_field 42c2f7d864367b2aa1d41e4cbd386cad0e43d98d
+source : http://cgit.drupalcode.org/commerce_license_entity_field 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   commerce_license_entity_field.module               
+ ------ --------------------------------------------------- 
+  74     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/Plugin/Commerce/LicenseType/EntityField.php  
+ ------ ------------------------------------------------- 
+  389    Call to method create() of deprecated class      
+         Drupal\Core\Field\BaseFieldDefinition.           
+  420    Call to method create() of deprecated class      
+         Drupal\Core\Field\BaseFieldDefinition.           
+  427    Call to method create() of deprecated class      
+         Drupal\Core\Field\BaseFieldDefinition.           
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

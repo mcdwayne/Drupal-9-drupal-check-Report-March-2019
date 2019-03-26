@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_defaults dc2040288b98ba3467ad7d23b1043b1c1f58642b
+source : http://cgit.drupalcode.org/field_defaults 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   field_defaults.module                              
+ ------ --------------------------------------------------- 
+  193    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  71     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

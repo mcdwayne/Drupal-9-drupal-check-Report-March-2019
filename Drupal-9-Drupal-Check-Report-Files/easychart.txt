@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/easychart e29b6491bcb73e010447af8a1cb6a49ddcce0788
+source : http://git.drupal.org/project/easychart.git 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OptionsForm.php                           
+ ------ --------------------------------------------------- 
+  98     Call to deprecated function drupal_set_message().  
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResetOptionsConfirmForm.php               
+ ------ --------------------------------------------------- 
+  42     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResetPresetsConfirmForm.php               
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResetTemplatesConfirmForm.php             
+ ------ --------------------------------------------------- 
+  44     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/entity_embed/EntityEmbedDisplay/Easychart.php                 
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalntity_embedntityEmbedDisplayntityEmbedDisplayBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

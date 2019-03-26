@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_distro cc4fd65060761f0ebf679109bf4b46999cb6bc83
+source : https://cgit.drupalcode.org/config_distro 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   modules/config_distro_ignore/src/Plugin/ConfigFilter/DistroIgnoreFilter.php  
+ ------ ----------------------------------------------------------------------------- 
+  138    Calls to function fnmatch should not exist.                                  
+  158    Calls to function fnmatch should not exist.                                  
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/ConfigDistroImportForm.php               
+ ------ -------------------------------------------------- 
+  92     Call to deprecated method finishBatch() of class  
+         Drupal

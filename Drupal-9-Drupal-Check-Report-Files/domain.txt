@@ -1,0 +1,799 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/domain ca196d58268a644203cbb0cc4bf4be8cd48f9465
+source : http://cgit.drupalcode.org/domain 
+ 
+ <code> 
+Warning: Declaration of Drupal\domain\Tests\DomainTestBase::drupalUserIsLoggedIn(Drupal\user\UserInterface $account) should be compatible with Drupal\simpletest\WebTestBase::drupalUserIsLoggedIn($account) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/domain/domain/src/Tests/DomainTestBase.php on line 20
+
+
+ ------ ----------------------------------------- 
+  Line   domain/domain.drush.inc                  
+ ------ ----------------------------------------- 
+  301    Call to deprecated function db_query().  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   domain/src/Commands/DomainCommands.php                      
+ ------ ------------------------------------------------------------ 
+  238    Call to deprecated method entityManager() of class Drupal.  
+  1181   Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------- 
+  Line   domain/src/DomainListBuilder.php               
+ ------ ----------------------------------------------- 
+  234    Call to deprecated method getLabel() of class  
+         Drupal\CorentityntityListBuilder.          
+ ------ ----------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   domain/tests/src/Functional/Condition/DomainConditionTest.php  
+ ------ --------------------------------------------------------------- 
+  78     Call to deprecated method assertEqual() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+  82     Call to deprecated method assertEqual() of class               
+         Drupal\Tests\BrowserTestBase.                                  
+ ------ --------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainActionsTest.php    
+ ------ ----------------------------------------------------- 
+  26     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  41     Call to deprecated method assertText() of class      
+         Drupal\Tests\BrowserTestBase.                        
+  46     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  49     Call to deprecated method assertNoRaw() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  53     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  57     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  71     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+  75     Call to deprecated method assertNoRaw() of class     
+         Drupal\Tests\BrowserTestBase.                        
+  79     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  90     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainAdminElementTest.php  
+ ------ -------------------------------------------------------- 
+  71     Call to deprecated method assert() of class             
+         Drupal\Tests\BrowserTestBase.                           
+  82     Call to deprecated method assert() of class             
+         Drupal\Tests\BrowserTestBase.                           
+  112    Call to deprecated method assert() of class             
+         Drupal\Tests\BrowserTestBase.                           
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainCSSTest.php     
+ ------ -------------------------------------------------- 
+  48     Call to deprecated method assertNoRaw() of class  
+         Drupal\Tests\BrowserTestBase.                     
+  61     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+  74     Call to deprecated method assertRaw() of class    
+         Drupal\Tests\BrowserTestBase.                     
+ ------ -------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainCheckResponseTest.php  
+ ------ --------------------------------------------------------- 
+  26     Call to deprecated method assertNoRaw() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  43     Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  52     Call to deprecated method assertNoRaw() of class         
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainEntityReferenceTest.php  
+ ------ ----------------------------------------------------------- 
+  33     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  36     Call to deprecated method assertNoText() of class          
+         Drupal\Tests\BrowserTestBase.                              
+  40     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  43     Call to deprecated method assertNoText() of class          
+         Drupal\Tests\BrowserTestBase.                              
+  52     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  58     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  82     Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  85     Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+  91     Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  106    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainFormsTest.php  
+ ------ ------------------------------------------------- 
+  29     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+  32     Call to deprecated method assertText() of class  
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainGetResponseTest.php  
+ ------ ------------------------------------------------------- 
+  28     Call to deprecated method assert() of class            
+         Drupal\Tests\BrowserTestBase.                          
+  39     Call to deprecated method assert() of class            
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainInactiveTest.php   
+ ------ ----------------------------------------------------- 
+  52     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  56     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  86     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  95     Call to deprecated method assertRaw() of class       
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainListBuilderTest.php  
+ ------ ------------------------------------------------------- 
+  77     Call to deprecated method assert() of class            
+         Drupal\Tests\BrowserTestBase.                          
+  143    Call to deprecated method assert() of class            
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   domain/tests/src/Functional/DomainListWeightTest.php  
+ ------ ------------------------------------------------------ 
+  37     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  41     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  68     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  71     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  76     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  99     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  102    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  106    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainNavBlockTest.php  
+ ------ ---------------------------------------------------- 
+  54     Call to deprecated method assertNoRaw() of class    
+         Drupal\Tests\BrowserTestBase.                       
+  78     Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+  93     Call to deprecated method assertRaw() of class      
+         Drupal\Tests\BrowserTestBase.                       
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   domain/tests/src/Functional/DomainNegotiatorTest.php  
+ ------ ------------------------------------------------------ 
+  41     Call to deprecated method assertRaw() of class        
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   domain/tests/src/Functional/DomainReferencesTest.php  
+ ------ ------------------------------------------------------ 
+  93     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  96     Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  108    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  111    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  148    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  151    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  166    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  168    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  214    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+  216    Call to deprecated method assert() of class           
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainTestBase.php    
+ ------ -------------------------------------------------- 
+  198    Call to deprecated function db_query().           
+  220    Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainTokenTest.php  
+ ------ ------------------------------------------------- 
+  41     Call to deprecated method assertRaw() of class   
+         Drupal\Tests\BrowserTestBase.                    
+  42     Call to deprecated method assertRaw() of class   
+         Drupal\Tests\BrowserTestBase.                    
+  44     Call to deprecated method assertRaw() of class   
+         Drupal\Tests\BrowserTestBase.                    
+  55     Call to deprecated method assertRaw() of class   
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainValidatorTest.php  
+ ------ ----------------------------------------------------- 
+  74     Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   domain/tests/src/Functional/DomainViewsAccessTest.php  
+ ------ ------------------------------------------------------- 
+  51     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  52     Call to deprecated method assertRaw() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  53     Call to deprecated method assertRaw() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  53     Call to deprecated method getUsername() of class       
+         Drupal\userntity\User.                               
+  56     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  57     Call to deprecated method assertNoRaw() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  58     Call to deprecated method assertNoRaw() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  58     Call to deprecated method getUsername() of class       
+         Drupal\userntity\User.                               
+  63     Call to deprecated method assertRaw() of class         
+         Drupal\Tests\BrowserTestBase.                          
+  63     Call to deprecated method getUsername() of class       
+         Drupal\userntity\User.                               
+  66     Call to deprecated method assertNoRaw() of class       
+         Drupal\Tests\BrowserTestBase.                          
+  66     Call to deprecated method getUsername() of class       
+         Drupal\userntity\User.                               
+ ------ ------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   domain_access/src/Plugin/views/field/DomainAccessField.php               
+ ------ ------------------------------------------------------------------------- 
+  13     Class Drupal\domain_access\Pluginiewsield\DomainAccessField extends  
+         deprecated class Drupaliews\Pluginiewsield\Field.                  
+  19     Call to method getItems() of deprecated class                            
+         Drupaliews\PluginiewsieldntityField.                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessAllAffiliatesTest.php  
+ ------ ---------------------------------------------------------------------- 
+  36     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  39     Call to deprecated method assertText() of class                       
+         Drupal\Tests\BrowserTestBase.                                         
+  43     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  46     Call to deprecated method assertText() of class                       
+         Drupal\Tests\BrowserTestBase.                                         
+  69     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  72     Call to deprecated method assertText() of class                       
+         Drupal\Tests\BrowserTestBase.                                         
+  78     Call to deprecated method assertRaw() of class                        
+         Drupal\Tests\BrowserTestBase.                                         
+  94     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessDefaultValueTest.php  
+ ------ --------------------------------------------------------------------- 
+  42     Call to deprecated method assertResponse() of class                  
+         Drupal\Tests\BrowserTestBase.                                        
+  45     Call to deprecated method assertText() of class                      
+         Drupal\Tests\BrowserTestBase.                                        
+  46     Call to deprecated method assertRaw() of class                       
+         Drupal\Tests\BrowserTestBase.                                        
+  48     Call to deprecated method assertText() of class                      
+         Drupal\Tests\BrowserTestBase.                                        
+  49     Call to deprecated method assertNoRaw() of class                     
+         Drupal\Tests\BrowserTestBase.                                        
+  80     Call to deprecated method assertResponse() of class                  
+         Drupal\Tests\BrowserTestBase.                                        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessElementTest.php  
+ ------ ---------------------------------------------------------------- 
+  95     Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  97     Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  110    Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  112    Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  146    Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  148    Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessEntityFieldTest.php  
+ ------ -------------------------------------------------------------------- 
+  46     Call to deprecated function entity_create().                        
+  73     Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  76     Call to deprecated method assertText() of class                     
+         Drupal\Tests\BrowserTestBase.                                       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   domain_access/tests/src/Functional/DomainAccessEntityReferenceTest.php  
+ ------ ------------------------------------------------------------------------ 
+  35     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  38     Call to deprecated method assertText() of class                         
+         Drupal\Tests\BrowserTestBase.                                           
+  42     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  45     Call to deprecated method assertText() of class                         
+         Drupal\Tests\BrowserTestBase.                                           
+  67     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  70     Call to deprecated method assertText() of class                         
+         Drupal\Tests\BrowserTestBase.                                           
+  76     Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  91     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessFieldTest.php  
+ ------ -------------------------------------------------------------- 
+  50     Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  55     Call to deprecated method assertText() of class               
+         Drupal\Tests\BrowserTestBase.                                 
+  57     Call to deprecated method assertText() of class               
+         Drupal\Tests\BrowserTestBase.                                 
+  67     Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  72     Call to deprecated method assertRaw() of class                
+         Drupal\Tests\BrowserTestBase.                                 
+  75     Call to deprecated method assertNoRaw() of class              
+         Drupal\Tests\BrowserTestBase.                                 
+  78     Call to deprecated method assertNoText() of class             
+         Drupal\Tests\BrowserTestBase.                                 
+  86     Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  90     Call to deprecated method assertNoText() of class             
+         Drupal\Tests\BrowserTestBase.                                 
+  92     Call to deprecated method assertNoText() of class             
+         Drupal\Tests\BrowserTestBase.                                 
+  113    Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  117    Call to deprecated method assertText() of class               
+         Drupal\Tests\BrowserTestBase.                                 
+  128    Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  133    Call to deprecated method assertRaw() of class                
+         Drupal\Tests\BrowserTestBase.                                 
+  136    Call to deprecated method assertNoRaw() of class              
+         Drupal\Tests\BrowserTestBase.                                 
+  146    Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  150    Call to deprecated method assertNoText() of class             
+         Drupal\Tests\BrowserTestBase.                                 
+  168    Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  173    Call to deprecated method assertText() of class               
+         Drupal\Tests\BrowserTestBase.                                 
+  175    Call to deprecated method assertText() of class               
+         Drupal\Tests\BrowserTestBase.                                 
+  186    Call to deprecated method assertNoText() of class             
+         Drupal\Tests\BrowserTestBase.                                 
+  189    Call to deprecated method assertNoText() of class             
+         Drupal\Tests\BrowserTestBase.                                 
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessGrantsTest.php  
+ ------ --------------------------------------------------------------- 
+  64     Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  65     Call to deprecated method assertRaw() of class                 
+         Drupal\Tests\BrowserTestBase.                                  
+  68     Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  83     Call to deprecated method assertResponse() of class            
+         Drupal\Tests\BrowserTestBase.                                  
+  84     Call to deprecated method assertRaw() of class                 
+         Drupal\Tests\BrowserTestBase.                                  
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessLanguageSaveTest.php  
+ ------ --------------------------------------------------------------------- 
+  68     Call to deprecated method assert() of class                          
+         Drupal\Tests\BrowserTestBase.                                        
+  70     Call to deprecated method assert() of class                          
+         Drupal\Tests\BrowserTestBase.                                        
+  84     Call to deprecated method assert() of class                          
+         Drupal\Tests\BrowserTestBase.                                        
+  86     Call to deprecated method assert() of class                          
+         Drupal\Tests\BrowserTestBase.                                        
+ ------ --------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessPermissionsTest.php  
+ ------ -------------------------------------------------------------------- 
+  225    Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  228    Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  234    Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  237    Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  269    Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  272    Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  277    Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+  296    Call to deprecated method assertEqual() of class                    
+         Drupal\Tests\BrowserTestBase.                                       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessRecordsTest.php  
+ ------ ---------------------------------------------------------------- 
+  48     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  49     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  50     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  51     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  52     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  53     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  67     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  68     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  69     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  70     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  71     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  72     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  73     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  74     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  75     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  76     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+  77     Call to deprecated method assertEqual() of class                
+         Drupal\Tests\BrowserTestBase.                                   
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   domain_access/tests/src/Functional/DomainAccessSaveTest.php  
+ ------ ------------------------------------------------------------- 
+  53     Call to deprecated method assert() of class                  
+         Drupal\Tests\BrowserTestBase.                                
+  55     Call to deprecated method assert() of class                  
+         Drupal\Tests\BrowserTestBase.                                
+  71     Call to deprecated method assert() of class                  
+         Drupal\Tests\BrowserTestBase.                                
+  73     Call to deprecated method assert() of class                  
+         Drupal\Tests\BrowserTestBase.                                
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   domain_alias/src/Tests/DomainAliasTestBase.php                          
+ ------ ------------------------------------------------------------------------ 
+  15     Class Drupal\domain_alias\Tests\DomainAliasTestBase extends deprecated  
+         class Drupal\domain\Tests\DomainTestBase.                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   domain_alias/tests/src/Functional/DomainAliasActionsTest.php  
+ ------ -------------------------------------------------------------- 
+  43     Call to deprecated method assert() of class                   
+         Drupal\Tests\BrowserTestBase.                                 
+  44     Call to deprecated method assert() of class                   
+         Drupal\Tests\BrowserTestBase.                                 
+  59     Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  73     Call to deprecated method assertText() of class               
+         Drupal\Tests\BrowserTestBase.                                 
+  78     Call to deprecated method assertRaw() of class                
+         Drupal\Tests\BrowserTestBase.                                 
+  81     Call to deprecated method assertNoRaw() of class              
+         Drupal\Tests\BrowserTestBase.                                 
+  85     Call to deprecated method assertRaw() of class                
+         Drupal\Tests\BrowserTestBase.                                 
+  89     Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  103    Call to deprecated method assertRaw() of class                
+         Drupal\Tests\BrowserTestBase.                                 
+  107    Call to deprecated method assertNoRaw() of class              
+         Drupal\Tests\BrowserTestBase.                                 
+  111    Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+  122    Call to deprecated method assertResponse() of class           
+         Drupal\Tests\BrowserTestBase.                                 
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   domain_alias/tests/src/Functional/DomainAliasEnvironmentTest.php  
+ ------ ------------------------------------------------------------------ 
+  52     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+  55     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+  57     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+  62     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+  65     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+  70     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+  72     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   domain_alias/tests/src/Functional/DomainAliasListBuilderTest.php  
+ ------ ------------------------------------------------------------------ 
+  68     Call to deprecated method assert() of class                       
+         Drupal\Tests\BrowserTestBase.                                     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   domain_alias/tests/src/Functional/DomainAliasListHostnameTest.php  
+ ------ ------------------------------------------------------------------- 
+  38     Call to deprecated method assert() of class                        
+         Drupal\Tests\BrowserTestBase.                                      
+  39     Call to deprecated method assert() of class                        
+         Drupal\Tests\BrowserTestBase.                                      
+  51     Call to deprecated method assert() of class                        
+         Drupal\Tests\BrowserTestBase.                                      
+  54     Call to deprecated method assert() of class                        
+         Drupal\Tests\BrowserTestBase.                                      
+  56     Call to deprecated method assert() of class                        
+         Drupal\Tests\BrowserTestBase.                                      
+  77     Call to deprecated method assert() of class                        
+         Drupal\Tests\BrowserTestBase.                                      
+  78     Call to deprecated method assert() of class                        
+         Drupal\Tests\BrowserTestBase.                                      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   domain_alias/tests/src/Functional/DomainAliasNegotiatorTest.php  
+ ------ ----------------------------------------------------------------- 
+  51     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  52     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  68     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  69     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  70     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  93     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  94     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+  95     Call to deprecated method assertRaw() of class                   
+         Drupal\Tests\BrowserTestBase.                                    
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   domain_alias/tests/src/Functional/DomainAliasWildcardTest.php  
+ ------ --------------------------------------------------------------- 
+  52     Call to deprecated method assert() of class                    
+         Drupal\Tests\BrowserTestBase.                                  
+  55     Call to deprecated method assert() of class                    
+         Drupal\Tests\BrowserTestBase.                                  
+  57     Call to deprecated method assert() of class                    
+         Drupal\Tests\BrowserTestBase.                                  
+  62     Call to deprecated method assert() of class                    
+         Drupal\Tests\BrowserTestBase.                                  
+  64     Call to deprecated method assert() of class                    
+         Drupal\Tests\BrowserTestBase.                                  
+ ------ --------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   domain_config/src/Tests/DomainConfigTestBase.php               
+ ------ --------------------------------------------------------------- 
+  14     Class Drupal\domain_config\Tests\DomainConfigTestBase extends  
+         deprecated class Drupal\domain\Tests\DomainTestBase.           
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   domain_config/tests/src/Functional/DomainConfigHookTest.php  
+ ------ ------------------------------------------------------------- 
+  33     Call to deprecated method getUsername() of class             
+         Drupal\userntity\User.                                     
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   domain_config/tests/src/Functional/DomainConfigOverriderTest.php  
+ ------ ------------------------------------------------------------------ 
+  39     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  42     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  70     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  74     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   domain_content/tests/src/Functional/DomainContentActionsTest.php  
+ ------ ------------------------------------------------------------------ 
+  41     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  42     Call to deprecated method assertNoRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                     
+  53     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  54     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  65     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  66     Call to deprecated method assertNoRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                     
+  69     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  79     Call to deprecated method assertRaw() of class                    
+         Drupal\Tests\BrowserTestBase.                                     
+  80     Call to deprecated method assertNoRaw() of class                  
+         Drupal\Tests\BrowserTestBase.                                     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------- 
+  Line   domain_content/tests/src/Functional/DomainContentCountTest.php  
+ ------ ---------------------------------------------------------------- 
+  39     Call to deprecated method assertResponse() of class             
+         Drupal\Tests\BrowserTestBase.                                   
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   domain_content/tests/src/Functional/DomainContentPermissionsTest.php  
+ ------ ---------------------------------------------------------------------- 
+  39     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  48     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  53     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  71     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  73     Call to deprecated method assertNoRaw() of class                      
+         Drupal\Tests\BrowserTestBase.                                         
+  80     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  85     Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  106    Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  108    Call to deprecated method assertNoRaw() of class                      
+         Drupal\Tests\BrowserTestBase.                                         
+  120    Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  125    Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  147    Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  149    Call to deprecated method assertNoRaw() of class                      
+         Drupal\Tests\BrowserTestBase.                                         
+  161    Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  167    Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+  170    Call to deprecated method assertResponse() of class                   
+         Drupal\Tests\BrowserTestBase.                                         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   domain_content/tests/src/Functional/DomainContentTestBase.php  
+ ------ --------------------------------------------------------------- 
+  108    Call to deprecated method assert() of class                    
+         Drupal\Tests\BrowserTestBase.                                  
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   domain_source/tests/src/Functional/DomainSourceElementTest.php  
+ ------ ---------------------------------------------------------------- 
+  99     Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  114    Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  125    Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+  141    Call to deprecated method assert() of class                     
+         Drupal\Tests\BrowserTestBase.                                   
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   domain_source/tests/src/Functional/DomainSourceEntityReferenceTest.php  
+ ------ ------------------------------------------------------------------------ 
+  42     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  45     Call to deprecated method assertText() of class                         
+         Drupal\Tests\BrowserTestBase.                                           
+  49     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  52     Call to deprecated method assertText() of class                         
+         Drupal\Tests\BrowserTestBase.                                           
+  73     Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  76     Call to deprecated method assertText() of class                         
+         Drupal\Tests\BrowserTestBase.                                           
+  82     Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  92     Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  100    Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  115    Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+  151    Call to deprecated method assertRaw() of class                          
+         Drupal\Tests\BrowserTestBase.                                           
+  156    Call to deprecated method entityManager() of class Drupal.              
+  163    Call to deprecated method assertResponse() of class                     
+         Drupal\Tests\BrowserTestBase.                                           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------- 
+  Line   domain_source/tests/src/Functional/DomainSourceTrustedHostTest.php  
+ ------ -------------------------------------------------------------------- 
+  70     Call to deprecated method assertRaw() of class                      
+         Drupal\Tests\BrowserTestBase.                                       
+  81     Call to deprecated method assertResponse() of class                 
+         Drupal\Tests\BrowserTestBase.                                       
+ ------ -------------------------------------------------------------------- 
+
+ [ERROR] Found 272 errors                                                        
+
+ </code>

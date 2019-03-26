@@ -1,0 +1,116 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/date_time_day b5f86cf2a3c1f783a3237f4ec87af1f6fa2cbb55
+source : http://cgit.drupalcode.org/date_time_day 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   date_time_day.module                              
+ ------ -------------------------------------------------- 
+  16     Call to deprecated method url() of class Drupal.  
+  20     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/DateTimeDayDefaultFormatter.php  
+ ------ ----------------------------------------------------------------- 
+  151    Call to deprecated function datetime_date_default_time().        
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/DateTimeDayFieldTest.php            
+ ------ --------------------------------------------------------- 
+  78     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  79     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  80     Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  81     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  82     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  83     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  84     Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  101    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  102    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  103    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  104    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  107    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  108    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  109    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  117    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  118    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  119    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  144    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  145    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  146    Call to deprecated method assertFieldByName() of class   
+         Drupal\Tests\BrowserTestBase.                            
+  147    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  148    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  149    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  150    Call to deprecated method assertFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                            
+  167    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  168    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  169    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  170    Call to deprecated method assertRaw() of class           
+         Drupal\Tests\BrowserTestBase.                            
+  173    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  174    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  175    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  183    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  184    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  185    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  197    Call to deprecated method strtolower() of class          
+         Drupal\Component\Utility\Unicode.                        
+  214    Call to deprecated function entity_get_form_display().   
+  229    Call to deprecated method assertEqual() of class         
+         Drupal\Tests\BrowserTestBase.                            
+  230    Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/DateTimeDayItemTest.php         
+ ------ ------------------------------------------------- 
+  50     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Kernel/SeparatorsTranslationTest.php   
+ ------ ------------------------------------------------- 
+  62     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 43 errors                                                         
+
+ </code>

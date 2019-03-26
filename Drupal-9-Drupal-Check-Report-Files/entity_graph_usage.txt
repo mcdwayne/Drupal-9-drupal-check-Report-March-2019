@@ -1,0 +1,19 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_graph_usage 682d5d7b9907faa7e4ae33c675320ebb2ffdaa22
+source : http://cgit.drupalcode.org/entity_graph_usage 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/EntityGraphUsageTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  13     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Testsntity_graph_usage\FunctionalntityGraphUsageTest.   
+  14     Usage of deprecated trait                                                
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class     
+         Drupal\Testsntity_graph_usage\FunctionalntityGraphUsageTest.         
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

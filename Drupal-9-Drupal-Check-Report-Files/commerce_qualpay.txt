@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_qualpay 35e338b12041f005a59db5b96813bf521dcfaf35
+source : http://cgit.drupalcode.org/commerce_qualpay 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/ErrorHelper.php                                
+ ------ --------------------------------------------------- 
+  32     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/Qualpay.php      
+ ------ ---------------------------------------------------- 
+  370    Call to deprecated function drupal_get_messages().  
+  371    Call to deprecated function drupal_set_message().   
+  474    Call to deprecated function drupal_set_message().   
+  480    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

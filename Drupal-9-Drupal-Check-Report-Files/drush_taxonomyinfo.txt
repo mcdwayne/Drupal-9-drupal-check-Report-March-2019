@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drush_taxonomyinfo ea3d3f031b27817568f0a1298904f65360c57243
+source : http://cgit.drupalcode.org/drush_taxonomyinfo 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   taxonomyinfo.drush.inc                             
+ ------ --------------------------------------------------- 
+  80     Call to deprecated function taxonomy_term_load().  
+  91     Call to deprecated function entity_get_bundles().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

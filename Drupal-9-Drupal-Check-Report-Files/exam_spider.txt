@@ -1,0 +1,74 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/exam_spider 20ab0d69bc63bdf4c9b511a53810e4af0d879b1f
+source : http://cgit.drupalcode.org/exam_spider 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   exam_spider.module                                
+ ------ -------------------------------------------------- 
+  26     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ExamSpider.php                       
+ ------ ---------------------------------------------------- 
+  58     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  245    Call to deprecated function drupal_set_message().   
+  248    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExamSpiderExamContinue.php                
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function db_select().           
+  95     Call to deprecated function db_select().           
+  201    Call to deprecated function db_insert().           
+  212    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExamSpiderExamForm.php                    
+ ------ --------------------------------------------------- 
+  164    Call to deprecated function db_update().           
+  168    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated function db_insert().           
+  174    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExamSpiderQuestionDelete.php              
+ ------ --------------------------------------------------- 
+  108    Call to deprecated function db_delete().           
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExamSpiderQuestionForm.php                
+ ------ --------------------------------------------------- 
+  169    Call to deprecated function db_update().           
+  173    Call to deprecated function drupal_set_message().  
+  176    Call to deprecated function db_insert().           
+  179    Call to deprecated function drupal_set_message().  
+  203    Call to deprecated function db_select().           
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ExamSpiderResultsDelete.php               
+ ------ --------------------------------------------------- 
+  77     Call to deprecated function db_delete().           
+  80     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Form/ExamSpiderResultsForm.php                
+ ------ -------------------------------------------------- 
+  156    Call to deprecated function db_select().          
+  182    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 23 errors                                                         
+
+ </code>

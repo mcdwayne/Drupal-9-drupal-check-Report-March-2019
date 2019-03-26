@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_jump_menu dc53816d5799a85f57665c6c28e097e761aade53
+source : http://cgit.drupalcode.org/entity_jump_menu 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityJumpMenuForm.php                    
+ ------ --------------------------------------------------- 
+  79     Call to deprecated function entity_load().         
+  85     Call to deprecated function drupal_set_message().  
+  96     Call to deprecated function entity_load().         
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

@@ -1,0 +1,73 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eform 5eef02288c634544396342433c7f07995240a068
+source : http://cgit.drupalcode.org/eform 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/EFormSubmissionController.php                
+ ------ ------------------------------------------------------------ 
+  122    Call to deprecated method l() of class                      
+         Drupal\Core\Controller\ControllerBase.                      
+  171    Call to deprecated method entityManager() of class Drupal.  
+  216    Call to deprecated method entityManager() of class          
+         Drupal\Core\Controller\ControllerBase.                      
+  282    Call to deprecated function entity_delete_multiple().       
+ ------ ------------------------------------------------------------ 
+
+ ------ ---------------------------------------- 
+  Line   src/Controller/EFormTypeController.php  
+ ------ ---------------------------------------- 
+  45     Call to deprecated method l() of class  
+         Drupal\Core\Controller\ControllerBase.  
+ ------ ---------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/EFormPermissions.php                                            
+ ------ -------------------------------------------------------------------- 
+  15     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in  
+         class DrupalformFormPermissions.                                
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/EFormTypeListBuilder.php                    
+ ------ ------------------------------------------------ 
+  86     Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Entity/EFormSubmission.php                     
+ ------ --------------------------------------------------- 
+  232    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+  238    Call to deprecated method setQueryable() of class  
+         Drupal\Core\Field\BaseFieldDefinition.             
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   src/Entity/EFormType.php                        
+ ------ ------------------------------------------------ 
+  352    Call to deprecated method l() of class Drupal.  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------- 
+  Line   src/Form/EFormTypeForm.php                             
+ ------ ------------------------------------------------------- 
+  259    Access to deprecated property $entityManager of class  
+         Drupal\CorentityntityForm.                         
+  312    Call to deprecated function drupal_set_message().      
+  315    Call to deprecated function drupal_set_message().      
+  320    Call to deprecated method urlInfo() of class           
+         Drupal\Core\Configntity\ConfigEntityBase.            
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/views/field/EFormSubmissionBulkForm.php                     
+ ------ ----------------------------------------------------------------------- 
+  12     Class Drupalform\PluginiewsieldFormSubmissionBulkForm extends  
+         deprecated class Drupal\system\Pluginiewsield\BulkForm.            
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

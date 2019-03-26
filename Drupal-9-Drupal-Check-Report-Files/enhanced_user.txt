@@ -1,0 +1,31 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/enhanced_user e42c9d9529852b9ce53aaecf93f722510eab3045
+source : http://cgit.drupalcode.org/enhanced_user 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SexDeleteForm.php                         
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SexForm.php                               
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/UserCreator.php                          
+ ------ --------------------------------------------- 
+  130    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+  141    Call to deprecated method substr() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

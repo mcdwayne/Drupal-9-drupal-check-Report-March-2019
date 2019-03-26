@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_reference_formatter 36330c2fbbc0341e3a58c9ed9ccfef293935bf58
+source : http://cgit.drupalcode.org/entity_reference_formatter 
+ 
+ <code> 
+
+ ------ ---------------------------------------------- 
+  Line   entity_reference_formatter.module             
+ ------ ---------------------------------------------- 
+  34     Call to deprecated function drupal_render().  
+  35     Call to deprecated function drupal_render().  
+  56     Call to deprecated function drupal_render().  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EntityReferenceFormatter.php  
+ ------ -------------------------------------------------------------- 
+  144    Call to deprecated method format() of class                   
+         Drupal\Component\Utility\SafeMarkup.                          
+  144    Call to method format() of deprecated class                   
+         Drupal\Component\Utility\SafeMarkup.                          
+  164    Call to deprecated function drupal_render().                  
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

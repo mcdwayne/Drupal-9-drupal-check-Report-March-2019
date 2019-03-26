@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_klarna_payments 737252b4bf8ad3a20802b954e9cb2563f01317fc
+source : http://cgit.drupalcode.org/commerce_klarna_payments 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   src/EventSubscriber/OrderTransitionSubscriber.php    
+ ------ ----------------------------------------------------- 
+  103    Call to deprecated method getToState() of class      
+         Drupal\state_machinevent\WorkflowTransitionEvent.  
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

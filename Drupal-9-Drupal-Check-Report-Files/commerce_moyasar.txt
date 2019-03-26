@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_moyasar 10fe9fdba4602e69579248ef71830df3b803dd46
+source : http://cgit.drupalcode.org/commerce_moyasar 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/Moyasar.php     
+ ------ --------------------------------------------------- 
+  166    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/Sadad.php       
+ ------ --------------------------------------------------- 
+  115    Call to deprecated function drupal_set_message().  
+  120    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentMethodType/SadadPaymentMethod.php  
+ ------ -------------------------------------------------------------- 
+  36     Call to method create() of deprecated class                   
+         Drupal\Core\Field\BaseFieldDefinition.                        
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

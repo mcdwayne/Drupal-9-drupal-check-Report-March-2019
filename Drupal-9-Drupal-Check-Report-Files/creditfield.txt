@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/creditfield fe44ac2823e5c9a21aa3d74d7bf905bddb6d0be7
+source : http://cgit.drupalcode.org/creditfield 
+ 
+ <code> 
+
+ ------ --------------------------------------------- 
+  Line   src/Element/CardExpiration.php               
+ ------ --------------------------------------------- 
+  93     Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   src/Element/CardNumber.php                   
+ ------ --------------------------------------------- 
+  106    Call to deprecated method strlen() of class  
+         Drupal\Component\Utility\Unicode.            
+ ------ --------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

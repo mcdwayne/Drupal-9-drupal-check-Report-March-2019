@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_braintree_marketplace 2f7d8d23a345697829743fdeb659e5f658fbe960
+source : http://cgit.drupalcode.org/commerce_braintree_marketplace 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentType/SubMerchantPayment.php  
+ ------ -------------------------------------------------------- 
+  23     Call to method create() of deprecated class             
+         Drupal\Core\Field\BaseFieldDefinition.                  
+  29     Call to method create() of deprecated class             
+         Drupal\Core\Field\BaseFieldDefinition.                  
+  33     Call to method create() of deprecated class             
+         Drupal\Core\Field\BaseFieldDefinition.                  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

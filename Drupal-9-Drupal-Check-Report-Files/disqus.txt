@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/disqus fe7cbd68bdf036cc2850ac8a06e736b1022f3383
+source : http://cgit.drupalcode.org/disqus 
+ 
+ <code> 
+Warning: Uncaught PHPStan\Broker\ClassAutoloadingException: Class Drupal\migratentity\MigrationInterface not found and could not be autoloaded. in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php:342
+Stack trace:
+#0 [internal function]: PHPStan\Broker\Broker->PHPStan\Broker\{closure}('Drupal\migrate\...')
+#1 /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/disqus/src/Plugin/migrate/destination/DisqusComment.php(19): spl_autoload_call('Drupal\migrate\...')
+#2 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(444): include('/home/thatonegu...')
+#3 phar:///usr/local/bin/drupal-check/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/thatonegu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Drupal\disqus\P...')
+#5 [internal function]: spl_autoload_call('Drupal\disqus\P...')
+#6 phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php(347): class_exists in phar:///usr/local/bin/drupal-check/vendor/phpstan/phpstan/src/Broker/Broker.php on line 342
+
+Fatal error: Declaration of Drupal\disqus\Plugin\migrate\destination\DisqusComment::fields(?Drupal\migratentity\MigrationInterface $migration = NULL) must be compatible with Drupal\migrate\Plugin\MigrateDestinationInterface::fields(?Drupal\migrate\Plugin\MigrationInterface $migration = NULL) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/disqus/src/Plugin/migrate/destination/DisqusComment.php on line 19 
+
+ </code>

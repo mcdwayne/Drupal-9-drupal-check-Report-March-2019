@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/existing_values_autocomplete_widget 242a6a3a690f281c6960b3ab296a528da6f331fb
+source : http://cgit.drupalcode.org/existing_values_autocomplete_widget 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/Controller/AutocompleteController.php        
+ ------ ------------------------------------------------- 
+  26     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

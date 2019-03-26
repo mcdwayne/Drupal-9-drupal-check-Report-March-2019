@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_pagseguro 7cc76d878b86bc314a9165f775394e84cd79797f
+source : http://cgit.drupalcode.org/commerce_pagseguro 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/Pagseguro.php   
+ ------ --------------------------------------------------- 
+  330    Call to deprecated function drupal_set_message().  
+  356    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/PagseguroPaymentHandler.php  
+ ------ ---------------------------------------------------------------- 
+  214    Call to deprecated function drupal_set_message().               
+  231    Call to deprecated function drupal_set_message().               
+  326    Call to deprecated function drupal_set_message().               
+  345    Call to deprecated function drupal_set_message().               
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentType/PagseguroCreditCard.php  
+ ------ --------------------------------------------------------- 
+  29     Calls to function dsm should not exist.                  
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/PluginForm/PaymentOperationForm.php                                  
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal

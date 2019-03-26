@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dialect 926dc927516e4dd20e6c45e2dec88317bf421dcc
+source : http://cgit.drupalcode.org/dialect 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/DialectManager.php                           
+ ------ ------------------------------------------------- 
+  257    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  261    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/EventSubscriber/RedirectLanguage.php           
+ ------ --------------------------------------------------- 
+  56     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SharedBlockConfigForm.php                 
+ ------ --------------------------------------------------- 
+  207    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Block/DialectBlock.php                  
+ ------ --------------------------------------------------- 
+  178    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

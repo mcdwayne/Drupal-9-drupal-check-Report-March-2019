@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/concurrent_users_notification 69f07c209d3b06b063c6659ecd85ab02f3565b68
+source : http://cgit.drupalcode.org/concurrent_users_notification 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   concurrent_users_notification.module             
+ ------ ------------------------------------------------- 
+  38     Call to deprecated method checkPlain() of class  
+         Drupal\Component\Utility\SafeMarkup.             
+  38     Call to method checkPlain() of deprecated class  
+         Drupal\Component\Utility\SafeMarkup.             
+ ------ ------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   src/Form/ClearHistoryForm.php               
+ ------ -------------------------------------------- 
+  93     Call to deprecated function db_truncate().  
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Form/ConUsersNotiConfigForm.php                 
+ ------ ---------------------------------------------------- 
+  37     Call to deprecated method url() of class Drupal.    
+  38     Call to deprecated method url() of class Drupal.    
+  111    Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

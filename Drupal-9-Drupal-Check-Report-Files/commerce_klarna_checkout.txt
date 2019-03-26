@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_klarna_checkout cbc0349754a751abaca203564ef393864b17afdb
+source : http://cgit.drupalcode.org/commerce_klarna_checkout 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/KlarnaManager.php                            
+ ------ ------------------------------------------------- 
+  233    Call to deprecated method strtoupper() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,20 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/contact_cc 5cdff383039b5727c1c18b73702204d3782603b7
+source : http://cgit.drupalcode.org/contact_cc 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   contact_cc.module                                   
+ ------ ---------------------------------------------------- 
+  130    Call to deprecated function valid_email_address().  
+  146    Call to deprecated function db_query().             
+  150    Call to deprecated function db_update().            
+  157    Call to deprecated function db_insert().            
+  170    Call to deprecated function db_query().             
+  182    Call to deprecated function db_delete().            
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

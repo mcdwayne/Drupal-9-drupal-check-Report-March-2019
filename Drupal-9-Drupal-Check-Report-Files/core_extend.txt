@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/core_extend f1835a185a55b71324107f1b8abdeb13c97ec327
+source : http://cgit.drupalcode.org/core_extend 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ContentEntityStatusForm.php               
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityEditMultipleForm.php                
+ ------ --------------------------------------------------- 
+  358    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/views/field/ActionButton.php            
+ ------ --------------------------------------------------- 
+  407    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

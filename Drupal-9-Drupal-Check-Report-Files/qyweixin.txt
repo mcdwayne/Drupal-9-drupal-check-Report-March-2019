@@ -1,0 +1,28 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/qyweixin 53b50571365db396c61d1b92229ccc7ae9327444
+source : http://cgit.drupalcode.org/qyweixin 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   src/CorpBase.php                                
+ ------ ------------------------------------------------ 
+  899    Call to deprecated function drupal_realpath().  
+  901    Call to deprecated function drupal_basename().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   src/Plugin/Mail/QyWeixinMail.php         
+ ------ ----------------------------------------- 
+  74     Syntax error, unexpected EOF on line 74  
+ ------ ----------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

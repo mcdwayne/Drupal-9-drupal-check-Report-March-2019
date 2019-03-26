@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/coordinate_field 9c78191902968a065529a7732185ef591b9143d1
+source : http://cgit.drupalcode.org/coordinate_field 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Tests/CoordinateFieldTest.php                       
+ ------ -------------------------------------------------------- 
+  53     Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  70     Call to deprecated function entity_get_form_display().  
+  76     Call to deprecated function entity_get_display().       
+  104    Call to deprecated method strtolower() of class         
+         Drupal\Component\Utility\Unicode.                       
+  121    Call to deprecated function entity_get_form_display().  
+  127    Call to deprecated function entity_get_display().       
+  171    Call to deprecated function entity_load().              
+  172    Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

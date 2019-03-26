@@ -1,0 +1,17 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_wishlist 8a1acd13b032a98e1abe4149df77ad4c09fd67f2
+source : http://cgit.drupalcode.org/entity_wishlist 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   src/Controller/EntityWishlistReadLaterController.php  
+ ------ ------------------------------------------------------ 
+  61     Call to deprecated function drupal_set_message().     
+  64     Call to deprecated function db_insert().              
+  72     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

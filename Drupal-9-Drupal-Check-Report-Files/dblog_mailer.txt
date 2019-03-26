@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dblog_mailer f8ec6e62425ec8e62ca03e784a549fa783c4432a
+source : http://cgit.drupalcode.org/dblog_mailer 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   src/DbLogMailer.php                              
+ ------ ------------------------------------------------- 
+  107    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/migrate_drupal_d5 99a7cdbc1a7fe44e469a84c8ebfd49c1fc9f1d9a
+source : http://cgit.drupalcode.org/migrate_drupal_d5 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/builder/d5/Node.php                                
+ ------ ---------------------------------------------------------------------- 
+         Class Drupal\migrate_drupal\Plugin\migrateuilder\d6\CckBuilder not  
+         found and could not be autoloaded.                                    
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Plugin/migrate/builder/d5/TermNode.php                             
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\migrate\Plugin\migrateuilder\BuilderBase not found and  
+         could not be autoloaded.                                               
+ ------ ----------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

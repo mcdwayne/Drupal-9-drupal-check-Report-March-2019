@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dhis2 b54c42cc6848dbee7b0c13e666641aaf6882d22f
+source : http://cgit.drupalcode.org/dhis2 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/DhisController.php                  
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/DataElementListBuilder.php                                       
+ ------ --------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\dhis\DataElementListBuilder.                            
+  39     Call to deprecated method l() of class                               
+         Drupal\dhis\DataElementListBuilder.                                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DataElementForm.php                       
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/MetadataExtractForm.php                   
+ ------ --------------------------------------------------- 
+  125    Call to deprecated function drupal_set_message().  
+  134    Call to deprecated function drupal_set_message().  
+  142    Call to deprecated function drupal_set_message().  
+  154    Call to deprecated function drupal_set_message().  
+  163    Call to deprecated function drupal_set_message().  
+  170    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/OrganisationUnitForm.php                  
+ ------ --------------------------------------------------- 
+  40     Call to deprecated function drupal_set_message().  
+  46     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/OrganisationUnitListBuilder.php                                  
+ ------ --------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\dhis\OrganisationUnitListBuilder.                       
+  39     Call to deprecated method l() of class                               
+         Drupal\dhis\OrganisationUnitListBuilder.                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Services/DhisService.php                       
+ ------ --------------------------------------------------- 
+  75     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 16 errors                                                         
+
+ </code>

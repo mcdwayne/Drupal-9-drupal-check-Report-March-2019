@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_devel d0cad4cb36517c2f1a023d6be9c9c0f4c8fa3477
+source : http://cgit.drupalcode.org/config_devel 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   drush/config_devel.drush.inc                       
+ ------ --------------------------------------------------- 
+  253    Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/ConfigDevelSubscriberEntityTest.php  
+ ------ ------------------------------------------------------ 
+  26     Call to deprecated function entity_load().            
+  27     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  28     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  29     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/ConfigDevelSubscriberRawTest.php     
+ ------ ------------------------------------------------------ 
+  21     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  22     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   tests/src/Kernel/ConfigDevelSubscriberTestBase.php  
+ ------ ---------------------------------------------------- 
+  32     Call to deprecated function drupal_mkdir().         
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ConfigDevelTestBase.php                                   
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  35     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  37     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

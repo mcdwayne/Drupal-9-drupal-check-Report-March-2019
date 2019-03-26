@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/debugme 23568d1b39559ba8043f696d58e0530b6cb4024e
+source : http://cgit.drupalcode.org/debugme 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   debugme.module                                   
+ ------ ------------------------------------------------- 
+  94     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  98     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

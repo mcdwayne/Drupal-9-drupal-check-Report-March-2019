@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/colors 502da61b1bbb8472c39741cc9ad3dc7d45fd623b
+source : http://cgit.drupalcode.org/colors 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/colors/type/UserScheme.php                       
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Plugin/colors/type/VocabularyScheme.php                 
+ ------ ------------------------------------------------------------ 
+  50     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

@@ -1,0 +1,167 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/developer_console d341701dca71223c821843fe002aa97ad3c2963d
+source : http://cgit.drupalcode.org/developer_console 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   developer_console.module                           
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   kint/Kint.class.php                                                   
+ ------ ---------------------------------------------------------------------- 
+         Class Kint was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   kint/decorators/plain.php                                               
+ ------ ------------------------------------------------------------------------ 
+         Class Kint_Decorators_Plain was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/decorators/rich.php                                               
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Decorators_Rich was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/examples/overview.php                                             
+ ------ ----------------------------------------------------------------------- 
+         Class BaseUser was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/inc/kintObject.class.php                                            
+ ------ ------------------------------------------------------------------------- 
+         Class KintObject was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/inc/kintParser.class.php                                            
+ ------ ------------------------------------------------------------------------- 
+         Class kintParser was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   kint/inc/kintVariableData.class.php                                
+ ------ ------------------------------------------------------------------- 
+         Class kintVariableData was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/parsers/custom/classmethods.php                                   
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Parsers_ClassMethods was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/parsers/custom/classstatics.php                                   
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Parsers_ClassStatics was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   kint/parsers/custom/color.php                                        
+ ------ --------------------------------------------------------------------- 
+         Class Kint_Parsers_Color was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   kint/parsers/custom/fspath.php                                        
+ ------ ---------------------------------------------------------------------- 
+         Class Kint_Parsers_FsPath was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   kint/parsers/custom/json.php                                        
+ ------ -------------------------------------------------------------------- 
+         Class Kint_Parsers_Json was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/parsers/custom/microtime.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Kint_Parsers_Microtime was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   kint/parsers/custom/objectiterateable.php                           
+ ------ -------------------------------------------------------------------- 
+         Class Kint_Parsers_objectIterateable was not found while trying to  
+         analyse it - autoloading is probably not configured properly.       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   kint/parsers/custom/splobjectstorage.php                           
+ ------ ------------------------------------------------------------------- 
+         Class Kint_Parsers_SplObjectStorage was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/parsers/custom/timestamp.php                                        
+ ------ ------------------------------------------------------------------------- 
+         Class Kint_Parsers_Timestamp was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   kint/parsers/custom/xml.php                                        
+ ------ ------------------------------------------------------------------- 
+         Class Kint_Parsers_Xml was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   kint/parsers/objects/closure.php                                       
+ ------ ----------------------------------------------------------------------- 
+         Class Kint_Objects_Closure was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   kint/parsers/objects/smarty.php                                       
+ ------ ---------------------------------------------------------------------- 
+         Class Kint_Objects_Smarty was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   kint/parsers/objects/splfileinfo.php                                     
+ ------ ------------------------------------------------------------------------- 
+         Class Kint_Objects_SplFileInfo was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/DeveloperConsoleForm.php         
+ ------ ------------------------------------------ 
+  84     Call to deprecated function db_select().  
+  200    Call to deprecated function db_select().  
+  208    Call to deprecated function db_select().  
+  216    Call to deprecated function db_delete().  
+  221    Call to deprecated function db_select().  
+  231    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 28 errors                                                         
+
+ </code>

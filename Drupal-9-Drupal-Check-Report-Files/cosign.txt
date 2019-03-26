@@ -1,0 +1,60 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cosign 384e65449507af8f2f32ed06d18eb4df3af27f4a
+source : http://cgit.drupalcode.org/cosign 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Authentication/Provider/Cosign.php             
+ ------ --------------------------------------------------- 
+  101    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/CosignController.php                
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/CosignFunctions/CosignSharedFunctions.php      
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function user_load().           
+  56     Call to deprecated function user_load().           
+  60     Call to deprecated function user_load().           
+  70     Call to deprecated function user_load().           
+  93     Call to deprecated function user_load().           
+  104    Call to deprecated function drupal_set_message().  
+  107    Call to deprecated function drupal_set_message().  
+  200    Call to deprecated function entity_create().       
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/Tests/CosignSimpleTest.php                    
+ ------ -------------------------------------------------- 
+  173    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  183    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  205    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  208    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  213    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  217    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  222    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  236    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  237    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+  261    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 21 errors                                                         
+
+ </code>

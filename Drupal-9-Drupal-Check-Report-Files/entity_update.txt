@@ -1,0 +1,52 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_update 8.x-1.2-rc7
+source : http://git.drupal.org/project/entity_update.git 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   entity_update.module                                        
+ ------ ------------------------------------------------------------ 
+  123    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   modules/entity_update_tests/src/Form/EntityUpdateTestSettings.php  
+ ------ ------------------------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().                  
+  81     Call to deprecated function drupal_set_message().                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/EntityUpdate.php                                                    
+ ------ ------------------------------------------------------------------------ 
+  325    Call to deprecated method getLastInstalledFieldStorageDefinitions() of  
+         class Drupal\CorentityntityManagerInterface.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/EntityUpdatePrint.php                          
+ ------ --------------------------------------------------- 
+  27     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityUpdateExec.php                      
+ ------ --------------------------------------------------- 
+  219    Call to deprecated function drupal_set_message().  
+  222    Call to deprecated function drupal_set_message().  
+  223    Call to deprecated function drupal_set_message().  
+  242    Call to deprecated function drupal_set_message().  
+  245    Call to deprecated function drupal_set_message().  
+  246    Call to deprecated function drupal_set_message().  
+  258    Call to deprecated function drupal_set_message().  
+  261    Call to deprecated function drupal_set_message().  
+  262    Call to deprecated function drupal_set_message().  
+  274    Call to deprecated function drupal_set_message().  
+  277    Call to deprecated function drupal_set_message().  
+  278    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

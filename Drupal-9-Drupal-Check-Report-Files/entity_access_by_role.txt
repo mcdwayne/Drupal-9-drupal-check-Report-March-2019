@@ -1,0 +1,16 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_access_by_role e7fab920f3572483a5a3bfeddb1e66b48e17e8cb
+source : http://cgit.drupalcode.org/entity_access_by_role 
+ 
+ <code> 
+
+ ------ ----------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/RoleAccessItem.php  
+ ------ ----------------------------------------------- 
+  73     Call to deprecated method strlen() of class    
+         Drupal\Component\Utility\Unicode.              
+ ------ ----------------------------------------------- 
+
+ [ERROR] Found 1 error                                                           
+
+ </code>

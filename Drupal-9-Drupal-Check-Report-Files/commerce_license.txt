@@ -1,0 +1,61 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_license 76df13d9d18245b02a32a2995d37c45be794a356
+source : http://cgit.drupalcode.org/commerce_license 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Entity/License.php                                                   
+ ------ ------------------------------------------------------------------------- 
+  251    Call to deprecated method calculateDate() of class                       
+         Drupalecurring_period\Plugin\RecurringPeriod\RecurringPeriodInterface  
+         .                                                                        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/EventSubscriber/LicenseMultiplesCartEventSubscriber.php  
+ ------ ------------------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().            
+  104    Call to deprecated function drupal_set_message().            
+ ------ ------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/EventSubscriber/LicenseOrderSyncSubscriber.php   
+ ------ ----------------------------------------------------- 
+  81     Call to deprecated method getFromState() of class    
+         Drupal\state_machinevent\WorkflowTransitionEvent.  
+  82     Call to deprecated method getToState() of class      
+         Drupal\state_machinevent\WorkflowTransitionEvent.  
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LicenseCheckoutForm.php                   
+ ------ --------------------------------------------------- 
+  60     Call to deprecated function drupal_set_message().  
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/LicenseForm.php                           
+ ------ --------------------------------------------------- 
+  25     Call to deprecated function drupal_set_message().  
+  32     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/LicenseAvailabilityCheckerExistingRights.php   
+ ------ --------------------------------------------------- 
+  122    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/LicenseOrderProcessorMultiples.php             
+ ------ --------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/LicenseType/LicenseTypeInterface.php                 
+ ------ ------------------------------------------------------------------------- 
+  38     Interface                                                                
+         Drupal

@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fieldclone 8a62fa80555f6717751d25565a91f7264775ddb4
+source : http://cgit.drupalcode.org/fieldclone 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/FieldCloner.php                                         
+ ------ ------------------------------------------------------------ 
+  39     Call to deprecated function drupal_set_message().           
+  58     Call to deprecated function drupal_set_message().           
+  133    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Information.php                           
+ ------ --------------------------------------------------- 
+  102    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

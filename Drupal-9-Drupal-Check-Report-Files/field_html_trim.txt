@@ -1,0 +1,44 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_html_trim f9e864a1519b06f42f6faed074f2f31266f04862
+source : http://cgit.drupalcode.org/field_html_trim 
+ 
+ <code> 
+
+ ------ ------------------------------------------------- 
+  Line   field_html_trim.module                           
+ ------ ------------------------------------------------- 
+  175    Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  182    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  185    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  202    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  210    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  217    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  230    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  233    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  233    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  238    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  244    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  246    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  263    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+  265    Call to deprecated method strlen() of class      
+         Drupal\Component\Utility\Unicode.                
+  266    Call to deprecated method substr() of class      
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

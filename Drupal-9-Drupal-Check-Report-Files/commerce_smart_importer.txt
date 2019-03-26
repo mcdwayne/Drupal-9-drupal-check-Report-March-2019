@@ -1,0 +1,49 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_smart_importer 3ca6e4092759f9aaa551424f356d20a26016f2d9
+source : http://cgit.drupalcode.org/commerce_smart_importer 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CSVExportForm.php                         
+ ------ --------------------------------------------------- 
+  452    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CSVImportForm.php                         
+ ------ --------------------------------------------------- 
+  182    Call to deprecated function drupal_set_message().  
+  253    Call to deprecated function drupal_set_message().  
+  258    Call to deprecated function drupal_set_message().  
+  265    Call to deprecated function drupal_set_message().  
+  270    Call to deprecated function drupal_set_message().  
+  276    Call to deprecated function drupal_set_message().  
+  460    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CSVIntroductionForm.php                   
+ ------ --------------------------------------------------- 
+  89     Call to deprecated function drupal_set_message().  
+  156    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CSVUpdateForm.php                         
+ ------ --------------------------------------------------- 
+  262    Call to deprecated function drupal_set_message().  
+  266    Call to deprecated function drupal_set_message().  
+  519    Call to deprecated function drupal_set_message().  
+  550    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SmartImporterConfigurationForm.php        
+ ------ --------------------------------------------------- 
+  220    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 15 errors                                                         
+
+ </code>

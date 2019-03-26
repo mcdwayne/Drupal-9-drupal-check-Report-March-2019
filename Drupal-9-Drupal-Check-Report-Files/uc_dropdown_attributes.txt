@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/uc_dropdown_attributes 7074f09ba2ace09f35aba1cc0c29013ced483980
+source : http://cgit.drupalcode.org/uc_dropdown_attributes 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   uc_dropdown_attributes.module             
+ ------ ------------------------------------------ 
+  1271   Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   uc_dropdown_test/src/Controller/TestController.php  
+ ------ ---------------------------------------------------- 
+  585    Call to deprecated function entity_create().        
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

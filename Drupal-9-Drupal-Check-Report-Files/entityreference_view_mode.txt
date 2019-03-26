@@ -1,0 +1,37 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entityreference_view_mode 31c69d592ad0eba5be6536292a7756be431fe97a
+source : http://cgit.drupalcode.org/entityreference_view_mode 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EntityReferenceViewModeFieldFormatter.php  
+ ------ --------------------------------------------------------------------------- 
+  29     Call to deprecated function entity_load().                                 
+  30     Call to deprecated function entity_view().                                 
+ ------ --------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldType/EntityReferenceViewModeFieldType.php  
+ ------ ----------------------------------------------------------------- 
+  43     Call to deprecated function entity_get_bundles().                
+  53     Call to deprecated method entityManager() of class Drupal.       
+  68     Call to deprecated function entity_load_multiple().              
+ ------ ----------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/EntityReferenceViewModeFieldWidget.php  
+ ------ --------------------------------------------------------------------- 
+  44     Call to deprecated method entityManager() of class Drupal.           
+  83     Call to deprecated function entity_load_multiple().                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/EntityReferenceViewModeFieldWidgetTrait.php (in context of class Drupalntityreference_view_mode\Plugin\Field\FieldWidgetntityReferenceViewModeFieldWidget)  
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  56     Call to deprecated function entity_load().                                                                                                                                                   
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

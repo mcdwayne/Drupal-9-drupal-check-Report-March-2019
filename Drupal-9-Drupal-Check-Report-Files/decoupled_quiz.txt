@@ -1,0 +1,230 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/decoupled_quiz f7deee0e8575544ec1df21a52a718d646708543b
+source : http://cgit.drupalcode.org/decoupled_quiz 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/AnswerController.php                 
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/QuestionController.php               
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/QuizController.php                   
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Controller/ResultController.php                 
+ ------ ---------------------------------------------------- 
+  28     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  29     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  44     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  45     Call to deprecated function format_date().          
+  63     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+  91     Call to deprecated method l() of class              
+         Drupal\Core\Controller\ControllerBase.              
+  94     Call to deprecated method link() of class           
+         Drupal\CorentityntityInterface.                 
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnswerForm.php                            
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnswerRevisionDeleteForm.php              
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnswerRevisionRevertForm.php              
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnswerTypeDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/AnswerTypeForm.php                        
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuestionForm.php                          
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuestionRevisionDeleteForm.php            
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuestionRevisionRevertForm.php            
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuestionTypeDeleteForm.php                
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuestionTypeForm.php                      
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuizFlowForm.php                          
+ ------ --------------------------------------------------- 
+  185    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuizForm.php                              
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuizRevisionDeleteForm.php                
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuizRevisionRevertForm.php                
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuizTypeDeleteForm.php                    
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/QuizTypeForm.php                          
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResultForm.php                            
+ ------ --------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResultRevisionDeleteForm.php              
+ ------ --------------------------------------------------- 
+  76     Call to deprecated function format_date().         
+  110    Call to deprecated function drupal_set_message().  
+  110    Call to deprecated function format_date().         
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResultRevisionRevertForm.php              
+ ------ --------------------------------------------------- 
+  123    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResultTypeDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ResultTypeForm.php                        
+ ------ --------------------------------------------------- 
+  52     Call to deprecated function drupal_set_message().  
+  58     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   src/QuizHelper.php                                  
+ ------ ---------------------------------------------------- 
+  69     Call to deprecated method entityManager() of class  
+         Drupal\Core\Controller\ControllerBase.              
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 66 errors                                                         
+
+ </code>

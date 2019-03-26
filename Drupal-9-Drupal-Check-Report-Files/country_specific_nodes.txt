@@ -1,0 +1,35 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/country_specific_nodes 0c11d3b862c630ee3707a61598c27afa859cd4c5
+source : http://cgit.drupalcode.org/country_specific_nodes 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   country_specific_nodes.module             
+ ------ ------------------------------------------ 
+  124    Call to deprecated function node_load().  
+ ------ ------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   src/EventSubscriber/CountrySpecificNodesSubscriber.php  
+ ------ -------------------------------------------------------- 
+  32     Call to deprecated function ip2country_get_country().   
+ ------ -------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   src/Form/CsnAttachFieldController.php                   
+ ------ -------------------------------------------------------- 
+  160    Call to deprecated function entity_get_form_display().  
+  210    Call to deprecated function entity_get_form_display().  
+  234    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CsnDefaultCountry.php                     
+ ------ --------------------------------------------------- 
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

@@ -1,0 +1,59 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_sync 9deee7aeb0bddca5d016e2c31f0c6104c632a331
+source : https://cgit.drupalcode.org/config_sync 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   config_sync.module                                
+ ------ -------------------------------------------------- 
+  23     Call to deprecated method url() of class Drupal.  
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Functional/ImportTest.php                   
+ ------ ------------------------------------------------------ 
+  68     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  76     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  85     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+  90     Call to deprecated method assertIdentical() of class  
+         Drupal\Tests\BrowserTestBase.                         
+ ------ ------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   tests/src/Kernel/UpdateModeTest.php               
+ ------ -------------------------------------------------- 
+  178    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  200    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  201    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  202    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  213    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  234    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  235    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  236    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  247    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  273    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  274    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  275    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+  291    Call to deprecated method assertEqual() of class  
+         Drupal\KernelTests\KernelTestBase.                
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 18 errors                                                         
+
+ </code>

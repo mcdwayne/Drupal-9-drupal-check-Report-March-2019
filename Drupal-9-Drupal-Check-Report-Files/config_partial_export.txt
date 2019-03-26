@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_partial_export 8869dce3dbb3c13ebb989581c142117fd415737f
+source : http://cgit.drupalcode.org/config_partial_export 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   config_partial_export.module                    
+ ------ ------------------------------------------------ 
+  12     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/ConfigPartialExportForm.php               
+ ------ --------------------------------------------------- 
+  90     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

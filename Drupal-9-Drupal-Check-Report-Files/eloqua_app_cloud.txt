@@ -1,0 +1,64 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/eloqua_app_cloud a64db68a2dea3f3d3eb145c227d9b9f315aeeb51
+source : http://cgit.drupalcode.org/eloqua_app_cloud 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/EloquaAppCloudServiceListBuilder.php                             
+ ------ --------------------------------------------------------------------- 
+  17     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupalloqua_app_cloudloquaAppCloudServiceListBuilder.      
+  34     Call to deprecated method l() of class                               
+         Drupalloqua_app_cloudloquaAppCloudServiceListBuilder.            
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Exceptions/EloquaAppCloudApiException.php                           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalloqua_app_cloudxceptionloquaAppCloudApiException was  
+         not found while trying to analyse it - autoloading is probably not      
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Exceptions/EloquaAppCloudException.php                               
+ ------ ------------------------------------------------------------------------- 
+         Class Drupalloqua_app_cloudxceptionloquaAppCloudException was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Exceptions/EloquaAppCloudQueueException.php                         
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalloqua_app_cloudxceptionloquaAppCloudQueueException    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EloquaAppCloudServiceForm.php             
+ ------ --------------------------------------------------- 
+  35     Call to deprecated function drupal_set_message().  
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EloquaAppCloudServiceTypeDeleteForm.php   
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EloquaAppCloudServiceTypeForm.php         
+ ------ --------------------------------------------------- 
+  54     Call to deprecated function drupal_set_message().  
+  60     Call to deprecated function drupal_set_message().  
+  64     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

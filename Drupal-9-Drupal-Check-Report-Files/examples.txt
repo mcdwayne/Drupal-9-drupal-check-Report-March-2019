@@ -1,0 +1,245 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/examples 0be75808520a7c921ad7c87ac1cc87d716f5dc51
+source : http://cgit.drupalcode.org/examples 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   ajax_example/tests/src/FunctionalJavascript/AutotextfieldsTest.php       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\Testsjax_example\FunctionalJavascript\AutofieldsTest was  
+         not found while trying to analyse it - autoloading is probably not       
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   batch_example/tests/src/Functional/BatchExampleWebTest.php  
+ ------ ------------------------------------------------------------ 
+  32     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+  37     Call to deprecated method assertText() of class             
+         Drupal\Tests\BrowserTestBase.                               
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------- 
+  Line   block_example/tests/src/Functional/BlockExampleMenuTest.php  
+ ------ ------------------------------------------------------------- 
+  38     Call to deprecated method assertLinkByHref() of class        
+         Drupal\Tests\BrowserTestBase.                                
+  41     Call to deprecated method assertResponse() of class          
+         Drupal\Tests\BrowserTestBase.                                
+  47     Call to deprecated method assertResponse() of class          
+         Drupal\Tests\BrowserTestBase.                                
+ ------ ------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   cache_example/src/Form/CacheExampleForm.php  
+ ------ --------------------------------------------- 
+  260    Call to deprecated function format_date().   
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   config_entity_example/src/Form/RobotFormBase.php  
+ ------ -------------------------------------------------- 
+  203    Call to deprecated method urlInfo() of class      
+         Drupal\CorentityntityInterface.               
+ ------ -------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   config_entity_example/tests/src/Functional/ConfigEntityExampleTest.php  
+ ------ ------------------------------------------------------------------------ 
+  151    Call to deprecated method assertLinkByHref() of class                   
+         Drupal\Tests\BrowserTestBase.                                           
+  152    Call to deprecated method assertLinkByHref() of class                   
+         Drupal\Tests\BrowserTestBase.                                           
+  153    Call to deprecated method assertLinkByHref() of class                   
+         Drupal\Tests\BrowserTestBase.                                           
+  161    Call to deprecated method assertLinkByHref() of class                   
+         Drupal\Tests\BrowserTestBase.                                           
+  171    Call to deprecated method assertEqual() of class                        
+         Drupal\Tests\BrowserTestBase.                                           
+  199    Call to deprecated method assertEqual() of class                        
+         Drupal\Tests\BrowserTestBase.                                           
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   content_entity_example/src/Entity/Controller/ContactListBuilder.php  
+ ------ --------------------------------------------------------------------- 
+  91     Call to deprecated method link() of class                            
+         Drupal\CorentityntityInterface.                                  
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   dbtng_example/tests/src/Kernel/DbtngExampleRepositoryTest.php           
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Tests\dbtng_example\Functional\DbtngExampleRepositoryTest  
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------- 
+  Line   email_example/email_example.module                
+ ------ -------------------------------------------------- 
+  58     Call to deprecated method getUsername() of class  
+         Drupal\Core\Session\AccountInterface.             
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   email_example/src/Form/EmailExampleGetFormPage.php  
+ ------ ---------------------------------------------------- 
+  93     Call to deprecated function valid_email_address().  
+ ------ ---------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   field_example/tests/src/Functional/FieldExampleBrowserTestBase.php  
+ ------ -------------------------------------------------------------------- 
+  78     Call to deprecated method assertText() of class                     
+         Drupal\Tests\BrowserTestBase.                                       
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   field_permission_example/tests/src/Kernel/FieldNoteItemTest.php  
+ ------ ----------------------------------------------------------------- 
+  147    Call to deprecated method assertEqual() of class                 
+         Drupal\KernelTests\KernelTestBase.                               
+  148    Call to deprecated method assertEqual() of class                 
+         Drupal\KernelTests\KernelTestBase.                               
+  153    Call to deprecated method assertEqual() of class                 
+         Drupal\KernelTests\KernelTestBase.                               
+  163    Call to deprecated method assertEqual() of class                 
+         Drupal\KernelTests\KernelTestBase.                               
+  249    Call to deprecated function entity_create().                     
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   file_example/file_example.module                
+ ------ ------------------------------------------------ 
+  82     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   file_example/src/Form/FileExampleReadWriteForm.php  
+ ------ ---------------------------------------------------- 
+  774    Calls to function dsm should not exist.             
+ ------ ---------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   form_api_example/tests/src/Functional/FapiExampleTest.php  
+ ------ ----------------------------------------------------------- 
+  281    Call to deprecated method assertResponse() of class        
+         Drupal\Tests\BrowserTestBase.                              
+  296    Call to deprecated method assertFieldsByValue() of class   
+         Drupal\Tests\BrowserTestBase.                              
+  308    Call to deprecated method assertFieldsByValue() of class   
+         Drupal\Tests\BrowserTestBase.                              
+  309    Call to deprecated method assertFieldsByValue() of class   
+         Drupal\Tests\BrowserTestBase.                              
+  315    Call to deprecated method assertFieldsByValue() of class   
+         Drupal\Tests\BrowserTestBase.                              
+  316    Call to deprecated method assertFieldsByValue() of class   
+         Drupal\Tests\BrowserTestBase.                              
+  321    Call to deprecated method assertText() of class            
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   node_type_example/tests/src/Functional/NodeTypeExampleTest.php  
+ ------ ---------------------------------------------------------------- 
+  147    Call to deprecated method assertText() of class                 
+         Drupal\Tests\BrowserTestBase.                                   
+  148    Call to deprecated method assertText() of class                 
+         Drupal\Tests\BrowserTestBase.                                   
+  153    Call to deprecated method assertText() of class                 
+         Drupal\Tests\BrowserTestBase.                                   
+  154    Call to deprecated method assertText() of class                 
+         Drupal\Tests\BrowserTestBase.                                   
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   phpunit_example/tests/src/Unit/DisplayManagerTest.php                    
+ ------ ------------------------------------------------------------------------- 
+  33     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   plugin_type_example/tests/src/Functional/PluginTypeExampleTest.php  
+ ------ -------------------------------------------------------------------- 
+  63     Call to deprecated method assertEqual() of class                    
+         Drupal\Tests\BrowserTestBase.                                       
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   queue_example/tests/src/Functional/QueueExampleTest.php  
+ ------ --------------------------------------------------------- 
+  38     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  44     Call to deprecated method assertPattern() of class       
+         Drupal\Tests\BrowserTestBase.                            
+  48     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+  62     Call to deprecated method assertPattern() of class       
+         Drupal\Tests\BrowserTestBase.                            
+  67     Call to deprecated method assertText() of class          
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   stream_wrapper_example/src/StreamWrapper/SessionStreamWrapper.php        
+ ------ ------------------------------------------------------------------------- 
+  80     Usage of deprecated trait Drupal\Core\Routing\UrlGeneratorTrait in       
+         class Drupal\stream_wrapper_example\StreamWrapper\SessionStreamWrapper.  
+  203    Call to deprecated method url() of class                                 
+         Drupal\stream_wrapper_example\StreamWrapper\SessionStreamWrapper.        
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tabledrag_example/src/Form/TableDragExampleNestedForm.php  
+ ------ ----------------------------------------------------------- 
+  95     Call to deprecated function drupal_render().               
+  184    Call to deprecated function db_update().                   
+  210    Call to deprecated function db_select().                   
+  255    Call to deprecated function db_select().                   
+ ------ ----------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   tabledrag_example/src/Form/TableDragExampleResetForm.php  
+ ------ ---------------------------------------------------------- 
+  83     Call to deprecated function db_update().                  
+ ------ ---------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   tabledrag_example/src/Form/TableDragExampleRootLeafForm.php  
+ ------ ------------------------------------------------------------- 
+  130    Call to deprecated function drupal_render().                 
+  218    Call to deprecated function db_update().                     
+  244    Call to deprecated function db_select().                     
+  288    Call to deprecated function db_select().                     
+ ------ ------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tabledrag_example/src/Form/TableDragExampleSimpleForm.php  
+ ------ ----------------------------------------------------------- 
+  68     Call to deprecated function db_select().                   
+  144    Call to deprecated function db_update().                   
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   testing_example/src/Tests/SimpleTestExampleTest.php  
+ ------ ----------------------------------------------------- 
+  103    Call to deprecated method getUsername() of class     
+         Drupal\Core\Session\AccountInterface.                
+  104    Call to deprecated function format_date().           
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   testing_example/tests/src/Functional/TestingExampleMenuTest.php  
+ ------ ----------------------------------------------------------------- 
+  43     Call to deprecated method assertLinkByHref() of class            
+         Drupal\Tests\BrowserTestBase.                                    
+  46     Call to deprecated method assertResponse() of class              
+         Drupal\Tests\BrowserTestBase.                                    
+ ------ ----------------------------------------------------------------- 
+
+ [ERROR] Found 61 errors                                                         
+
+ </code>

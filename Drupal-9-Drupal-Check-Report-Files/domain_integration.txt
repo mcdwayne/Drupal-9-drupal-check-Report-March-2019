@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/domain_integration 064bd68db9b564a203478a19109b1c33362c8001
+source : http://cgit.drupalcode.org/domain_integration 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------- 
+  Line   modules/domain_integration_rules/domain_integration_rules.rules.inc  
+ ------ --------------------------------------------------------------------- 
+  187    Call to deprecated function drupal_set_message().                    
+  223    Call to deprecated function drupal_set_message().                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  Line   modules/domain_integration_search_api/contrib/domain_integration_search_api_facetapi/domain_integration_search_api_facetapi.module  
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+  67     Call to deprecated function drupal_set_message().                                                                                   
+  70     Call to deprecated function drupal_set_message().                                                                                   
+ ------ ------------------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   modules/domain_integration_search_api/contrib/domain_integration_search_api_facetapi/includes/facetapi_filter_exclude_domains.inc  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+         Class FacetapiFilterExcludeDomains was not found while trying to                                                                   
+         analyse it - autoloading is probably not configured properly.                                                                      
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   modules/domain_integration_search_api/domain_integration_search_api.module  
+ ------ ---------------------------------------------------------------------------- 
+  142    Call to deprecated function drupal_set_message().                           
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/domain_integration_search_api/includes/callback_node_domain_access.inc  
+ ------ -------------------------------------------------------------------------------- 
+         Class SearchApiAlterNodeDomainAccess was not found while trying to              
+         analyse it - autoloading is probably not configured properly.                   
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   modules/domain_integration_search_api/includes/callback_user_domain_access.inc  
+ ------ -------------------------------------------------------------------------------- 
+         Class SearchApiAlterUserDomainAccess was not found while trying to              
+         analyse it - autoloading is probably not configured properly.                   
+ ------ -------------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

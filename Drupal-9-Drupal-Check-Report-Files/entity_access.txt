@@ -1,0 +1,21 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_access 9cfbbbce25f60171799d7522047a944cc5740be3
+source : http://cgit.drupalcode.org/entity_access 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/modules/entity_access_test/src/Entity/Form/TestForm.php (in context of class Drupalntity_access_testntity\Form\NodeTestForm)  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().                                                                                       
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/modules/entity_access_test/src/Entity/Form/TestForm.php (in context of class Drupalntity_access_testntity\Form\NodeTypeTestForm)  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  59     Call to deprecated function drupal_set_message().                                                                                           
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

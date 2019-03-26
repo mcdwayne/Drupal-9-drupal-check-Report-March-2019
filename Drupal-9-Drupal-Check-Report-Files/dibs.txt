@@ -1,0 +1,55 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dibs 692c924620390a419b6e5f5160cb0def56079a58
+source : http://cgit.drupalcode.org/dibs 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   dibs.frontend.inc                         
+ ------ ------------------------------------------ 
+  49     Call to deprecated function db_update().  
+  168    Call to deprecated function db_update().  
+  174    Call to deprecated function db_insert().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   dibs.module                                        
+ ------ --------------------------------------------------- 
+  50     Call to deprecated function db_transaction().      
+  52     Call to deprecated function db_query().            
+  73     Call to deprecated function db_update().           
+  102    Call to deprecated function db_query().            
+  110    Call to deprecated function db_query().            
+  125    Call to deprecated function db_select().           
+  161    Call to deprecated function drupal_set_message().  
+  165    Call to deprecated function drupal_set_message().  
+  171    Call to deprecated function drupal_set_message().  
+  181    Call to deprecated function db_delete().           
+  377    Call to deprecated function db_query().            
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   src/DibsTransactionListBuilder.php                                   
+ ------ --------------------------------------------------------------------- 
+  16     Usage of deprecated trait Drupal\Core\Routing\LinkGeneratorTrait in  
+         class Drupal\dibs\DibsTransactionListBuilder.                        
+  35     Call to deprecated method l() of class                               
+         Drupal\dibs\DibsTransactionListBuilder.                              
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Entity/DibsTransaction.php                              
+ ------ ------------------------------------------------------------ 
+  69     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/DibsTransactionForm.php                   
+ ------ --------------------------------------------------- 
+  34     Call to deprecated function drupal_set_message().  
+  40     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 19 errors                                                         
+
+ </code>

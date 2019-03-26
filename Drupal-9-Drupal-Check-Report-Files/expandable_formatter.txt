@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/expandable_formatter 734e75ff179a10391e9aa0365258d7de229fc366
+source : http://cgit.drupalcode.org/expandable_formatter 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FormatterTest.php                      
+ ------ ---------------------------------------------------------------------- 
+  17     Class                                                                 
+         Drupal\Testsxpandable_formatter\FunctionalJavascript\FormatterTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+  45     Call to method setUp() of deprecated class                            
+         Drupal\Tests\BrowserTestBase.                                         
+  91     Call to deprecated method url() of class Drupal\Corentityntity.   
+  100    Call to deprecated method url() of class Drupal\Corentityntity.   
+  107    Call to deprecated method url() of class Drupal\Corentityntity.   
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

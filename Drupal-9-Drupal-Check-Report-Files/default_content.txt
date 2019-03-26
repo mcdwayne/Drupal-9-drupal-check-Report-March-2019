@@ -1,0 +1,42 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/default_content 13f97c93eeaf4da9f84cc3fdcc0c91d32284132c
+source : http://cgit.drupalcode.org/default_content 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Functional/DefaultContentTest.php                              
+ ------ ------------------------------------------------------------------------- 
+  18     Usage of deprecated trait Drupal\simpletest\ContentTypeCreationTrait in  
+         class Drupal\Tests\default_content\Functional\DefaultContentTest.        
+  19     Usage of deprecated trait Drupal\simpletest\NodeCreationTrait in class   
+         Drupal\Tests\default_content\Functional\DefaultContentTest.              
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/Kernel/ExporterIntegrationTest.php                          
+ ------ ---------------------------------------------------------------------- 
+  21     Usage of deprecated trait                                             
+         Drupalield\TestsntityReferencentityReferenceTestTrait in class  
+         Drupal\Tests\default_content\KernelxporterIntegrationTest.          
+  71     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  72     Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  124    Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  127    Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  128    Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  131    Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  132    Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+  185    Call to deprecated method assertEqual() of class                      
+         Drupal\KernelTests\KernelTestBase.                                    
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

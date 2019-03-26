@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_pager f302a082777a62c02814e3fd192747858d58a862
+source : http://cgit.drupalcode.org/field_pager 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/EntityReferenceRevisionsPager.php        
+ ------ ------------------------------------------------------------------------- 
+         Class                                                                    
+         Drupalntity_reference_revisions\Plugin\Field\FieldFormatterntityRef  
+         erenceRevisionsEntityFormatter not found and could not be autoloaded.    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Plugin/Field/FieldFormatter/FieldImagePager.php                     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\image\Plugin\Field\FieldFormatter\FieldImagePager was not  
+         found while trying to analyse it - autoloading is probably not          
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

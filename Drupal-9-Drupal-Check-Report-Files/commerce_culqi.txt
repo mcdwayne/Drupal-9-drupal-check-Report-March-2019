@@ -1,0 +1,696 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_culqi 964ccbc6bdce32eb9c37c814f9f6aaa82c6c8987
+source : http://cgit.drupalcode.org/commerce_culqi 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   commerce_culqi.inc                                 
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_render().       
+  43     Call to deprecated function drupal_render().       
+  230    Call to deprecated function db_insert().           
+  343    Call to deprecated function drupal_set_message().  
+  346    Call to deprecated function drupal_set_message().  
+  377    Call to deprecated function drupal_set_message().  
+  382    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   commerce_culqi.module                                              
+ ------ ------------------------------------------------------------------- 
+         Class CommerceCulqiEntityController was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   lib/culqi.php                                                  
+ ------ --------------------------------------------------------------- 
+         Class UrlAESCipher was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/composer/autoload_real.php                                     
+ ------ ---------------------------------------------------------------------- 
+         Class ComposerAutoloaderInitaa62c8e72081c3741ec1b3ba66c43a55 was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/composer/autoload_static.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class                                                                   
+         Composer\Autoload\ComposerStaticInitaa62c8e72081c3741ec1b3ba66c43a55    
+         was not found while trying to analyse it - autoloading is probably not  
+         configured properly.                                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Cards.php                    
+ ------ -------------------------------------------------------------- 
+         Class Culqi\Cards was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Charges.php                    
+ ------ ---------------------------------------------------------------- 
+         Class Culqi\Charges was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Client.php                    
+ ------ --------------------------------------------------------------- 
+         Class Culqi\Client was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Culqi.php                    
+ ------ -------------------------------------------------------------- 
+         Class Culqi\Culqi was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Customers.php                    
+ ------ ------------------------------------------------------------------ 
+         Class Culqi\Customers was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Error/Errors.php                       
+ ------ ------------------------------------------------------------------------ 
+         Class Culqirror\CulqiException was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Events.php                    
+ ------ --------------------------------------------------------------- 
+         Class Culqivents was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Iins.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class Culqi\Iins was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Plans.php                    
+ ------ -------------------------------------------------------------- 
+         Class Culqi\Plans was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Refunds.php                    
+ ------ ---------------------------------------------------------------- 
+         Class Culqi\Refunds was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Resource.php                    
+ ------ ----------------------------------------------------------------- 
+         Class Culqi\Resource was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Subscriptions.php                    
+ ------ ---------------------------------------------------------------------- 
+         Class Culqi\Subscriptions was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Tokens.php                    
+ ------ --------------------------------------------------------------- 
+         Class Culqi\Tokens was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/culqi/culqi-php/lib/Culqi/Transfers.php                    
+ ------ ------------------------------------------------------------------ 
+         Class Culqi\Transfers was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/tests/CaptureTest.php                  
+ ------ -------------------------------------------------------------- 
+         Class CaptureTest was not found while trying to analyse it -  
+         autoloading is probably not configured properly.              
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/tests/DeleteTest.php                              
+ ------ ------------------------------------------------------------------------- 
+         Class DeleteTest was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                     
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/tests/ListTest.php                              
+ ------ ----------------------------------------------------------------------- 
+         Class ListTest was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/culqi/culqi-php/tests/Test.php                                 
+ ------ ---------------------------------------------------------------------- 
+         Class Test was not found while trying to analyse it - autoloading is  
+         probably not configured properly.                                     
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/culqi/culqi-php/tests/TestPatch.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class TestPatch was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                    
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests.php                            
+ ------ ----------------------------------------------------------------------- 
+         Class Requests was not found while trying to analyse it - autoloading  
+         is probably not configured properly.                                   
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Auth.php                
+ ------ ---------------------------------------------------------------- 
+         Class Requests_Auth was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Auth/Basic.php                
+ ------ ---------------------------------------------------------------------- 
+         Class Requests_Auth_Basic was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/library/Requests/Cookie.php                
+ ------ ------------------------------------------------------------------ 
+         Class Requests_Cookie was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Cookie/Jar.php                
+ ------ ---------------------------------------------------------------------- 
+         Class Requests_Cookie_Jar was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception.php                
+ ------ --------------------------------------------------------------------- 
+         Class Requests_Exception was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Requests_Exception_HTTP was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/304.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_304 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/305.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_305 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/306.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_306 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/400.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_400 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/401.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_401 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/402.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_402 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/403.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_403 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/404.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_404 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/405.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_405 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/406.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_406 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/407.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_407 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/408.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_408 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/409.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_409 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/410.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_410 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/411.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_411 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/412.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_412 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/413.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_413 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/414.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_414 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/415.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_415 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/416.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_416 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/417.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_417 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/418.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_418 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/428.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_428 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/429.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_429 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/431.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_431 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/500.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_500 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/501.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_501 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/502.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_502 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/503.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_503 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/504.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_504 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/505.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_505 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/511.php           
+ ------ ------------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_511 was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/HTTP/Unknown.php   
+ ------ --------------------------------------------------------------------- 
+         Class Requests_Exception_HTTP_Unknown was not found while trying to  
+         analyse it - autoloading is probably not configured properly.        
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/library/Requests/Exception/Transport.php   
+ ------ ------------------------------------------------------------------ 
+         Class Requests_Exception_Transport was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Exception/Transport/cURL.php   
+ ------ ----------------------------------------------------------------------- 
+         Class Requests_Exception_Transport_cURL was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/library/Requests/Hooker.php                
+ ------ ------------------------------------------------------------------ 
+         Class Requests_Hooker was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                  
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Hooks.php                
+ ------ ----------------------------------------------------------------- 
+         Class Requests_Hooks was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/IDNAEncoder.php                
+ ------ ----------------------------------------------------------------------- 
+         Class Requests_IDNAEncoder was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/IPv6.php                
+ ------ ---------------------------------------------------------------- 
+         Class Requests_IPv6 was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/IRI.php                
+ ------ --------------------------------------------------------------- 
+         Class Requests_IRI was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Proxy.php                
+ ------ ----------------------------------------------------------------- 
+         Class Requests_Proxy was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Proxy/HTTP.php                
+ ------ ---------------------------------------------------------------------- 
+         Class Requests_Proxy_HTTP was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                      
+ ------ ---------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Response.php                
+ ------ -------------------------------------------------------------------- 
+         Class Requests_Response was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                    
+ ------ -------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Response/Headers.php           
+ ------ ----------------------------------------------------------------------- 
+         Class Requests_Response_Headers was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/SSL.php                
+ ------ --------------------------------------------------------------- 
+         Class Requests_SSL was not found while trying to analyse it -  
+         autoloading is probably not configured properly.               
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Session.php                
+ ------ ------------------------------------------------------------------- 
+         Class Requests_Session was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Transport.php                
+ ------ --------------------------------------------------------------------- 
+         Class Requests_Transport was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                     
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/library/Requests/Transport/cURL.php              
+ ------ ------------------------------------------------------------------------ 
+         Class Requests_Transport_cURL was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/library/Requests/Transport/fsockopen.php   
+ ------ ------------------------------------------------------------------ 
+         Class Requests_Transport_fsockopen was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Utility/CaseInsensitiveDictionary.php  
+ ------ ------------------------------------------------------------------------------- 
+         Class Requests_Utility_CaseInsensitiveDictionary was not found while           
+         trying to analyse it - autoloading is probably not configured properly.        
+ ------ ------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/library/Requests/Utility/FilteredIterator.php   
+ ------ ----------------------------------------------------------------------- 
+         Class Requests_Utility_FilteredIterator was not found while trying to  
+         analyse it - autoloading is probably not configured properly.          
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/tests/Auth/Basic.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class RequestsTest_Auth_Basic was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/tests/ChunkedEncoding.php                  
+ ------ ------------------------------------------------------------------ 
+         Class RequestsTest_ChunkedDecoding was not found while trying to  
+         analyse it - autoloading is probably not configured properly.     
+ ------ ------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/Cookies.php                               
+ ------ ----------------------------------------------------------------------- 
+         Class RequestsTest_Cookies was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/Encoding.php                                
+ ------ ------------------------------------------------------------------------- 
+         Class RequestsTests_Encoding was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                         
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/IDNAEncoder.php                             
+ ------ ------------------------------------------------------------------------- 
+         Class RequestsTest_IDNAEncoder was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                       
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/IRI.php                               
+ ------ ------------------------------------------------------------------- 
+         Class RequestsTest_IRI was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/tests/Proxy/HTTP.php                             
+ ------ ------------------------------------------------------------------------ 
+         Class RequestsTest_Proxy_HTTP was not found while trying to analyse it  
+         - autoloading is probably not configured properly.                      
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   vendor/rmccue/requests/tests/Requests.php                               
+ ------ ------------------------------------------------------------------------ 
+         Class RequestsTest_Requests was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/Response/Headers.php                  
+ ------ ------------------------------------------------------------------- 
+         Class RequestsTest_Response_Headers was not found while trying to  
+         analyse it - autoloading is probably not configured properly.      
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/SSL.php                               
+ ------ ------------------------------------------------------------------- 
+         Class RequestsTest_SSL was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/Session.php                               
+ ------ ----------------------------------------------------------------------- 
+         Class RequestsTest_Session was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                       
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/Transport/Base.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class RequestsTest_Transport_Base was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/Transport/cURL.php                          
+ ------ ------------------------------------------------------------------------- 
+         Class RequestsTest_Transport_cURL was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/Transport/fsockopen.php                  
+ ------ ---------------------------------------------------------------------- 
+         Class RequestsTest_Transport_fsockopen was not found while trying to  
+         analyse it - autoloading is probably not configured properly.         
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   vendor/rmccue/requests/tests/bootstrap.php                      
+ ------ ---------------------------------------------------------------- 
+         Class MockTransport was not found while trying to analyse it -  
+         autoloading is probably not configured properly.                
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 103 errors                                                        
+
+ </code>

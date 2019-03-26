@@ -1,0 +1,32 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fancy_login 948ce177a819d949ee7debb048a38ca8f9cca3a6
+source : http://cgit.drupalcode.org/fancy_login 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   fancy_login.module                                  
+ ------ ---------------------------------------------------- 
+  26     Call to deprecated function drupal_get_messages().  
+  32     Call to deprecated function drupal_set_message().   
+  37     Call to deprecated function drupal_set_message().   
+  60     Call to deprecated function drupal_get_messages().  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/Form/FancyLoginPasswordForm.php                                     
+ ------ ------------------------------------------------------------------------ 
+         Class Drupalancy_login\Form\UserPasswordForm not found and could not  
+         be autoloaded.                                                          
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/TestBase/FancyLoginJavascriptTestBase.php                           
+ ------ ------------------------------------------------------------------------ 
+  12     Class Drupalancy_login\TestBase\FancyLoginJavascriptTestBase extends  
+         deprecated class Drupal\FunctionalJavascriptTests\JavascriptTestBase.   
+ ------ ------------------------------------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

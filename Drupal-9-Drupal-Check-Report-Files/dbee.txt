@@ -1,0 +1,22 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/dbee af09d7ce2cafd66a0dca931b6ca9e0eeb9a86c2e
+source : http://cgit.drupalcode.org/dbee 
+ 
+ <code> 
+
+ ------ -------------------------------------- 
+  Line   dbee.module                           
+ ------ -------------------------------------- 
+  705    Call to deprecated function db_or().  
+ ------ -------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   tests/src/Functional/DbeeAdminPeopleTest.php             
+ ------ --------------------------------------------------------- 
+  78     Call to deprecated method assertNoUniqueText() of class  
+         Drupal\Tests\BrowserTestBase.                            
+ ------ --------------------------------------------------------- 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

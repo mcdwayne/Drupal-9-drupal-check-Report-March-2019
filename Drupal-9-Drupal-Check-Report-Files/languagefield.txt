@@ -1,0 +1,27 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/languagefield a0dba73eb0fedcbec602f05b3b8a91e804256bcb
+source : http://cgit.drupalcode.org/languagefield 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/CustomLanguageListBuilder.php                  
+ ------ --------------------------------------------------- 
+  66     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomLanguageDeleteForm.php              
+ ------ --------------------------------------------------- 
+  41     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CustomLanguageForm.php                    
+ ------ --------------------------------------------------- 
+  78     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

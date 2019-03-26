@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/bookkeeping b5f6119959b1c3cd856a617a901e7719046c3a29
+source : http://cgit.drupalcode.org/bookkeeping 
+ 
+ <code> 
+
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Kernel/TransactionTrait.php (in context of class Drupal\Testsookkeeping\Kernel\CommerceTransactionTest)  
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  61     Call to deprecated method assertEqual() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                   
+  65     Call to deprecated method assertEqual() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                   
+  74     Call to deprecated method assertEqual() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                   
+  78     Call to deprecated method assertEqual() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                   
+  82     Call to deprecated method assertEqual() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                   
+  86     Call to deprecated method assertEqual() of class                                                                     
+         Drupal\KernelTests\KernelTestBase.                                                                                   
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

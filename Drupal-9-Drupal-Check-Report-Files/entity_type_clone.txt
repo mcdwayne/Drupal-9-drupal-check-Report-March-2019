@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_type_clone 8.x-1.3
+source : http://cgit.drupalcode.org/entity_type_clone 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EntityTypeCloneController.php       
+ ------ --------------------------------------------------- 
+  63     Call to deprecated function entity_get_display().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/UUIDController.php                           
+ ------ ------------------------------------------------------------ 
+  21     Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CloneEntityType.php                       
+ ------ --------------------------------------------------- 
+  94     Call to deprecated function entity_get_bundles().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CloneEntityTypeData.php                   
+ ------ --------------------------------------------------- 
+  143    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

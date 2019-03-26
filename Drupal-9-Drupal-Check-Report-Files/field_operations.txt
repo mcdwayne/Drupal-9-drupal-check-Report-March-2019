@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_operations 9252a393d2894110407366a5cf447ab7ab611f42
+source : http://cgit.drupalcode.org/field_operations 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/Controller/FieldOperations.php                          
+ ------ ------------------------------------------------------------ 
+  84     Call to deprecated method entityManager() of class Drupal.  
+  118    Call to deprecated method l() of class Drupal.              
+  119    Call to deprecated method l() of class Drupal.              
+  120    Call to deprecated method l() of class Drupal.              
+ ------ ------------------------------------------------------------ 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

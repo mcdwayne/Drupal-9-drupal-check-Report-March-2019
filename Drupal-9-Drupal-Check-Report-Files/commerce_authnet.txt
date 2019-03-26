@@ -1,0 +1,50 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_authnet 919397e332c9eb9dccc3b6a386ed3951a0b98563
+source : http://cgit.drupalcode.org/commerce_authnet 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Controller/CcaValidation.php                                    
+ ------ -------------------------------------------------------------------- 
+  57     Call to deprecated method getClaims() of class Lcobucci\JWT\Token.  
+  59     Call to deprecated method verify() of class Lcobucci\JWT\Token.     
+ ------ -------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/AcceptJs.php                     
+ ------ -------------------------------------------------------------------- 
+  498    Call to deprecated method verify() of class Lcobucci\JWT\Token.     
+  501    Call to deprecated method getClaims() of class Lcobucci\JWT\Token.  
+ ------ -------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/OnsiteBase.php  
+ ------ --------------------------------------------------- 
+  188    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/VisaCheckout.php  
+ ------ ----------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   src/PluginForm/AcceptJs/PaymentMethodAddForm.php                        
+ ------ ------------------------------------------------------------------------ 
+  242    Call to deprecated method set() of class Lcobucci\JWT\Builder.          
+  242    Call to deprecated method set() of class Lcobucci\JWT\Builder.          
+  242    Call to deprecated method set() of class Lcobucci\JWT\Builder.          
+  242    Call to deprecated method setExpiration() of class                      
+         Lcobucci\JWT\Builder.                                                   
+  242    Call to deprecated method setId() of class Lcobucci\JWT\Builder.        
+  242    Call to deprecated method setIssuedAt() of class Lcobucci\JWT\Builder.  
+  242    Call to deprecated method setIssuer() of class Lcobucci\JWT\Builder.    
+  242    Call to deprecated method sign() of class Lcobucci\JWT\Builder.         
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/CheckoutTest.php                       
+ ------ ---------------------------------------------------------------------- 
+  16     Class Drupal\Tests

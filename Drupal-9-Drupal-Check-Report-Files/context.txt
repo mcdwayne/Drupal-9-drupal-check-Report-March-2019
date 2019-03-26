@@ -1,0 +1,78 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/context ea6051a4919177397ca6685381e9b35ac3bd547b
+source : https://github.com/oddhill/context 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   modules/context_ui/src/ContextListBuilder.php      
+ ------ --------------------------------------------------- 
+  162    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  166    Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  260    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   modules/context_ui/src/Controller/ContextUIController.php  
+ ------ ----------------------------------------------------------- 
+  323    Call to deprecated method urlInfo() of class               
+         Drupal\CorentityntityInterface.                        
+  389    Call to deprecated method urlInfo() of class               
+         Drupal\CorentityntityInterface.                        
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/context_ui/src/Form/ConditionDeleteForm.php  
+ ------ ----------------------------------------------------- 
+  75     Call to deprecated method urlInfo() of class         
+         Drupal\Core\Configntity\ConfigEntityBase.          
+  118    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/context_ui/src/Form/ContextAddForm.php     
+ ------ --------------------------------------------------- 
+  16     Call to deprecated function drupal_set_message().  
+  21     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/context_ui/src/Form/ContextDeleteForm.php  
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/context_ui/src/Form/ContextDisableForm.php  
+ ------ ---------------------------------------------------- 
+  82     Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/context_ui/src/Form/ContextEditForm.php    
+ ------ --------------------------------------------------- 
+  62     Call to deprecated function drupal_set_message().  
+  67     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   modules/context_ui/src/Form/ReactionDeleteForm.php  
+ ------ ---------------------------------------------------- 
+  72     Call to deprecated method urlInfo() of class        
+         Drupal\CorentityntityInterface.                 
+  120    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Reaction/Blocks/Form/BlockDeleteForm.php       
+ ------ --------------------------------------------------- 
+  87     Call to deprecated method urlInfo() of class       
+         Drupal\CorentityntityInterface.                
+  128    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 17 errors                                                         
+
+ </code>

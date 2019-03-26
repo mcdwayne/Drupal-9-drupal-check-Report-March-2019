@@ -1,0 +1,94 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_ui ea87e4eb20aae097cbf3f328dedba0bd80c78242
+source : http://cgit.drupalcode.org/entity_ui 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityTabDeleteForm.php                   
+ ------ --------------------------------------------------- 
+  99     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/EntityTabForm.php                         
+ ------ --------------------------------------------------- 
+  432    Call to deprecated function drupal_set_message().  
+  438    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/EntityTabContent/OwnerAssign.php        
+ ------ --------------------------------------------------- 
+  141    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   tests/src/Functional/AdminUITest.php                   
+ ------ ------------------------------------------------------- 
+  48     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  55     Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  59     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  62     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  63     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  64     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  66     Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  67     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  88     Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  101    Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  108    Call to deprecated method assertResponse() of class    
+         Drupal\Tests\BrowserTestBase.                          
+  112    Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  115    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  116    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  118    Call to deprecated method assertText() of class        
+         Drupal\Tests\BrowserTestBase.                          
+  119    Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+  140    Call to deprecated method assertLinkByHref() of class  
+         Drupal\Tests\BrowserTestBase.                          
+ ------ ------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/OwnerAssignTabTest.php          
+ ------ ----------------------------------------------------- 
+  92     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  95     Call to deprecated method getUsername() of class     
+         Drupal\userntity\User.                             
+  101    Call to deprecated method assertEqual() of class     
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   tests/src/Kernel/ActionDerivativesTest.php                              
+ ------ ------------------------------------------------------------------------ 
+         Class Drupal\Testsield_ui\Kernel\ActionDerivativesTest was not found  
+         while trying to analyse it - autoloading is probably not configured     
+         properly.                                                               
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   tests/src/Kernel/AdminUIHandlerTest.php                              
+ ------ --------------------------------------------------------------------- 
+         Class Drupal\Testsield_ui\Kernel\AdminUIHandlerTest was not found  
+         while trying to analyse it - autoloading is probably not configured  
+         properly.                                                            
+ ------ --------------------------------------------------------------------- 
+
+ [ERROR] Found 26 errors                                                         
+
+ </code>

@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_collection_access 585e5a926202329190c416a4c4b4b4440564cefa
+source : http://cgit.drupalcode.org/field_collection_access 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   field_collection_access.module                              
+ ------ ------------------------------------------------------------ 
+  24     Call to deprecated method url() of class Drupal.            
+  26     Call to deprecated function drupal_set_message().           
+  66     Call to deprecated method entityManager() of class Drupal.  
+  118    Call to deprecated function drupal_set_message().           
+  122    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------ 
+  Line   src/FieldCollectionItemAccessStorage.php                    
+ ------ ------------------------------------------------------------ 
+  242    Call to deprecated method entityManager() of class Drupal.  
+  267    Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/sapi_ref/AccessProvider/FieldCollectionAccessProvider.php     
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\sapi_ref\AccessProvider\AccessProvider not found and could  
+         not be autoloaded.                                                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
+
+ </code>

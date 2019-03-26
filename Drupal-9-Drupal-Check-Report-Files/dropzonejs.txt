@@ -1,0 +1,56 @@
+drupal-check results on commit hash: 
+ descrip. : Drupal integration for DropzoneJS - An open source library that provides drag’n’drop file uploads with image previews.
+source   : [git] https://git.drupal.org/project/dropzonejs ca301264579a33d16c1a2c04dd150112e5577462
+source : https://www.drupal.org/project/dropzonejs 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   modules/eb_widget/src/Plugin/EntityBrowser/Widget/DropzoneJsEbWidget.php  
+ ------ -------------------------------------------------------------------------- 
+         Class Drupalntity_browser\WidgetBase not found and could not be         
+         autoloaded.                                                               
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------- 
+  Line   modules/eb_widget/src/Plugin/EntityBrowser/Widget/InlineEntityFormMediaWidget.php  
+ ------ ----------------------------------------------------------------------------------- 
+         Class                                                                              
+         Drupal\dropzonejs_eb_widget\PluginntityBrowser\Widget\MediaEntityDrop            
+         zoneJsEbWidget not found and could not be autoloaded.                              
+ ------ ----------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   modules/eb_widget/src/Plugin/EntityBrowser/Widget/MediaEntityDropzoneJsEbWidget.php  
+ ------ ------------------------------------------------------------------------------------- 
+         Class                                                                                
+         Drupal\dropzonejs_eb_widget\PluginntityBrowser\Widget\DropzoneJsEbWid              
+         get not found and could not be autoloaded.                                           
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/DropzoneJsUploadSave.php                       
+ ------ --------------------------------------------------- 
+  132    Call to deprecated function drupal_set_message().  
+  147    Call to deprecated function drupal_set_message().  
+  153    Call to deprecated function drupal_set_message().  
+  160    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Element/DropzoneJs.php                         
+ ------ --------------------------------------------------- 
+  110    Call to deprecated function drupal_set_message().  
+  197    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   src/UploadHandler.php                            
+ ------ ------------------------------------------------- 
+  99     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+ ------ ------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

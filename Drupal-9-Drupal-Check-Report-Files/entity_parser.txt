@@ -1,0 +1,36 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_parser 8.x-2.7
+source : http://cgit.drupalcode.org/entity_parser 
+ 
+ <code> 
+
+ ------ -------------------------------------------------- 
+  Line   src/AbstractEntityParser.php                      
+ ------ -------------------------------------------------- 
+  410    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   src/EntityParser.php                              
+ ------ -------------------------------------------------- 
+  321    Call to deprecated method getUsername() of class  
+         Drupal\userntity\User.                          
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/TwigExtension/DefaultTwigExtension.php                 
+ ------ ----------------------------------------------------------- 
+  48     Instantiation of deprecated class Twig_Function_Function.  
+  49     Instantiation of deprecated class Twig_Function_Function.  
+  50     Instantiation of deprecated class Twig_Function_Function.  
+  51     Instantiation of deprecated class Twig_Function_Function.  
+  52     Instantiation of deprecated class Twig_Function_Function.  
+  53     Instantiation of deprecated class Twig_Function_Function.  
+  54     Instantiation of deprecated class Twig_Function_Function.  
+  55     Instantiation of deprecated class Twig_Function_Function.  
+ ------ ----------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

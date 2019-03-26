@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entityconnect 63d10792f40d206ca27329eccdc27276970af79d
+source : http://cgit.drupalcode.org/entityconnect 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   Tests/Controller/EntityconnectControllerTest.php                      
+ ------ ---------------------------------------------------------------------- 
+         Class Drupalntityconnect\TestsntityconnectControllerTest was not  
+         found while trying to analyse it - autoloading is probably not        
+         configured properly.                                                  
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/EntityconnectController.php         
+ ------ --------------------------------------------------- 
+  359    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Element/EntityconnectSubmit.php                
+ ------ --------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

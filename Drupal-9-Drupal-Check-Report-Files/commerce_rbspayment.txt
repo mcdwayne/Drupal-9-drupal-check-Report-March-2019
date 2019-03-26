@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_rbspayment 8.x-2.0-rc2
+source : http://cgit.drupalcode.org/commerce_rbspayment 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Commerce/PaymentGateway/RbsPayment.php  
+ ------ --------------------------------------------------- 
+  100    Call to deprecated function drupal_set_message().  
+  106    Call to deprecated function drupal_set_message().  
+  215    Call to deprecated function drupal_set_message().  
+  236    Call to deprecated method strtoupper() of class    
+         Drupal\Component\Utility\Unicode.                  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   src/PluginForm/OffsiteRedirect/PaymentOffsiteForm.php  
+ ------ ------------------------------------------------------- 
+  55     Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

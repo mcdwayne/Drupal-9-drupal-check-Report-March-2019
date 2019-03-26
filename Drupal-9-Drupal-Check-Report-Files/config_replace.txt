@@ -1,0 +1,18 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/config_replace 8.x-1.2
+source : http://cgit.drupalcode.org/config_replace 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   tests/src/Kernel/ConfigReplacerTest.php               
+ ------ ------------------------------------------------------ 
+  70     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+  71     Call to deprecated method assertIdentical() of class  
+         Drupal\KernelTests\KernelTestBase.                    
+ ------ ------------------------------------------------------ 
+
+ [ERROR] Found 2 errors                                                          
+
+ </code>

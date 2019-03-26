@@ -1,0 +1,187 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/pm 8ffbc03bc7182c8beeabf96687f16e6879d0ca7f
+source : http://cgit.drupalcode.org/pm 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   includes/pm.install.inc                            
+ ------ --------------------------------------------------- 
+  21     Call to deprecated function drupal_set_message().  
+  37     Call to deprecated function drupal_set_message().  
+  45     Call to deprecated function db_delete().           
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   includes/pm.permission.inc                          
+ ------ ---------------------------------------------------- 
+  24     Call to deprecated function node_type_get_types().  
+  154    Call to deprecated function db_select().            
+  181    Call to deprecated function node_type_get_types().  
+  667    Call to deprecated function user_load().            
+  687    Call to deprecated function drupal_set_message().   
+  770    Call to deprecated function user_load().            
+  801    Call to deprecated function node_load_multiple().   
+  826    Call to deprecated function drupal_set_message().   
+  829    Call to deprecated function drupal_set_message().   
+ ------ ---------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   includes/pm.permission.migrate.inc                 
+ ------ --------------------------------------------------- 
+  210    Call to deprecated function drupal_set_message().  
+  214    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   includes/views/pm_handler_area_addcontent.inc                           
+ ------ ------------------------------------------------------------------------ 
+         Class pm_handler_area_addcontent was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   includes/views/pm_handler_field_operation.inc                           
+ ------ ------------------------------------------------------------------------ 
+         Class pm_handler_field_operation was not found while trying to analyse  
+         it - autoloading is probably not configured properly.                   
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   pmexpense/includes/pmexpense.migrate.inc        
+ ------ ------------------------------------------------ 
+  24     Call to deprecated function db_drop_table().    
+  43     Call to deprecated function db_table_exists().  
+  71     Call to deprecated function db_select().        
+  99     Call to deprecated function node_load().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   pmnote/includes/pmnote.migrate.inc              
+ ------ ------------------------------------------------ 
+  23     Call to deprecated function db_drop_table().    
+  42     Call to deprecated function db_table_exists().  
+  70     Call to deprecated function db_select().        
+  98     Call to deprecated function node_load().        
+  119    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   pmorganization/includes/pmorganization.migrate.inc  
+ ------ ---------------------------------------------------- 
+  25     Call to deprecated function db_drop_table().        
+  43     Call to deprecated function db_table_exists().      
+  71     Call to deprecated function db_select().            
+  98     Call to deprecated function node_load().            
+  165    Call to deprecated function db_select().            
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   pmorganization/pmorganization.module      
+ ------ ------------------------------------------ 
+  160    Call to deprecated function db_insert().  
+  193    Call to deprecated function db_delete().  
+  205    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   pmperson/includes/pmperson.migrate.inc              
+ ------ ---------------------------------------------------- 
+  66     Call to deprecated function db_select().            
+  108    Call to deprecated function db_table_exists().      
+  121    Call to deprecated function db_query().             
+  127    Call to deprecated function db_query().             
+  143    Call to deprecated function drupal_set_message().   
+  206    Call to deprecated function db_select().            
+  229    Call to deprecated function db_table_exists().      
+  230    Call to deprecated function db_select().            
+  286    Call to deprecated function db_table_exists().      
+  287    Call to deprecated function db_select().            
+  344    Call to deprecated function drupal_render().        
+  345    Call to deprecated function drupal_render().        
+  381    Call to deprecated function db_select().            
+  397    Call to deprecated function db_update().            
+  422    Call to deprecated function db_update().            
+  433    Call to deprecated function db_select().            
+  438    Call to deprecated function node_load().            
+  449    Call to deprecated function node_load().            
+  507    Call to deprecated function db_query().             
+  538    Call to deprecated function db_select().            
+  565    Call to deprecated function user_load().            
+  596    Call to deprecated function db_query().             
+  603    Call to deprecated function db_query().             
+  631    Call to deprecated function db_query().             
+  643    Call to deprecated function db_query().             
+  644    Call to deprecated function user_load().            
+  692    Call to deprecated function valid_email_address().  
+  704    Call to deprecated function valid_email_address().  
+  723    Call to deprecated function user_load().            
+  730    Call to deprecated function db_update().            
+  760    Call to deprecated function db_delete().            
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   pmproject/includes/pmproject.migrate.inc        
+ ------ ------------------------------------------------ 
+  24     Call to deprecated function db_drop_table().    
+  44     Call to deprecated function db_table_exists().  
+  70     Call to deprecated function db_select().        
+  97     Call to deprecated function node_load().        
+  168    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   pmproject/pmproject.module                
+ ------ ------------------------------------------ 
+  158    Call to deprecated function node_load().  
+  171    Call to deprecated function node_load().  
+  181    Call to deprecated function node_load().  
+  262    Call to deprecated function db_insert().  
+  295    Call to deprecated function db_delete().  
+  307    Call to deprecated function db_delete().  
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   pmtask/includes/pmtask.migrate.inc              
+ ------ ------------------------------------------------ 
+  24     Call to deprecated function db_drop_table().    
+  44     Call to deprecated function db_table_exists().  
+  70     Call to deprecated function db_select().        
+  97     Call to deprecated function node_load().        
+  172    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   pmteam/includes/pmteam.migrate.inc              
+ ------ ------------------------------------------------ 
+  26     Call to deprecated function db_drop_table().    
+  41     Call to deprecated function db_table_exists().  
+  69     Call to deprecated function db_select().        
+  92     Call to deprecated function db_select().        
+  128    Call to deprecated function node_load().        
+  155    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   pmticket/includes/pmticket.migrate.inc          
+ ------ ------------------------------------------------ 
+  24     Call to deprecated function db_drop_table().    
+  44     Call to deprecated function db_table_exists().  
+  71     Call to deprecated function db_select().        
+  98     Call to deprecated function node_load().        
+  166    Call to deprecated function db_select().        
+ ------ ------------------------------------------------ 
+
+ ------ ---------------------------------------------------- 
+  Line   pmtimetracking/includes/pmtimetracking.migrate.inc  
+ ------ ---------------------------------------------------- 
+  23     Call to deprecated function db_drop_table().        
+  42     Call to deprecated function db_table_exists().      
+  70     Call to deprecated function db_select().            
+  98     Call to deprecated function node_load().            
+  139    Call to deprecated function db_select().            
+ ------ ---------------------------------------------------- 
+
+ [ERROR] Found 96 errors                                                         
+
+ </code>

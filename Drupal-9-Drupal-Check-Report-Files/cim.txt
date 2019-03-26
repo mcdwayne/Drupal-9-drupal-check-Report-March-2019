@@ -1,0 +1,34 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cim 1ef4319efddfd4b2bceff88fa36348e952bf2407
+source : http://cgit.drupalcode.org/cim 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------- 
+  Line   cim.admin.inc                                          
+ ------ ------------------------------------------------------- 
+  36     Call to deprecated function format_date().             
+  102    Call to deprecated function drupal_set_message().      
+  156    Call to deprecated function drupal_set_message().      
+  218    Call to deprecated function drupal_set_message().      
+  257    Call to deprecated function format_date().             
+  325    Call to deprecated function drupal_get_destination().  
+  331    Call to deprecated function user_format_name().        
+  366    Call to deprecated function drupal_set_message().      
+  460    Call to deprecated function drupal_set_message().      
+  471    Call to deprecated function drupal_set_message().      
+  474    Call to deprecated function drupal_set_message().      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   cim.admin.upstream.inc                             
+ ------ --------------------------------------------------- 
+  197    Call to deprecated function drupal_set_message().  
+  199    Call to deprecated function drupal_set_message().  
+  217    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   lib/Drupal/cim/Changeset.php                                           
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal

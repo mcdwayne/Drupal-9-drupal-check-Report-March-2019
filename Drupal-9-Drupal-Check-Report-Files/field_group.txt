@@ -1,0 +1,125 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_group 2e8c7106be5799c752a7903b1d2bc8ea06502b19
+source : http://cgit.drupalcode.org/field_group 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   includes/field_ui.inc                              
+ ------ --------------------------------------------------- 
+  329    Call to deprecated function drupal_set_message().  
+  607    Call to deprecated function drupal_set_message().  
+  633    Call to deprecated function drupal_set_message().  
+  642    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldGroupAddForm.php                     
+ ------ --------------------------------------------------- 
+  273    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/FieldGroupDeleteForm.php                  
+ ------ --------------------------------------------------- 
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/Functional/EntityDisplayTest.php                 
+ ------ ----------------------------------------------------------- 
+  127    Call to deprecated method assertNoFieldByXPath() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  155    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  156    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  159    Call to deprecated method assertNoRaw() of class           
+         Drupal\Tests\BrowserTestBase.                              
+  168    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  176    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  177    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  203    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  204    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  262    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  263    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  264    Call to deprecated method assertRaw() of class             
+         Drupal\Tests\BrowserTestBase.                              
+  267    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  268    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  271    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  280    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  336    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  337    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  338    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  339    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  340    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  343    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+  344    Call to deprecated method assertFieldByXPath() of class    
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FieldGroupTestTrait.php (in context of class Drupal\Testsield_group\FunctionalJavascript\FieldGroupUiTest)  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  38     Call to deprecated method strtolower() of class                                                                                    
+         Drupal\Component\Utility\Unicode.                                                                                                  
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FieldGroupTestTrait.php (in context of class Drupal\Testsield_group\FunctionalntityDisplayTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  38     Call to deprecated method strtolower() of class                                                                           
+         Drupal\Component\Utility\Unicode.                                                                                         
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  Line   tests/src/Functional/FieldGroupTestTrait.php (in context of class Drupal\Testsield_group\Functional\ManageDisplayTest)  
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+  38     Call to deprecated method strtolower() of class                                                                           
+         Drupal\Component\Utility\Unicode.                                                                                         
+ ------ -------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   tests/src/Functional/ManageDisplayTest.php       
+ ------ ------------------------------------------------- 
+  61     Call to deprecated method strtolower() of class  
+         Drupal\Component\Utility\Unicode.                
+  128    Call to deprecated method assertRaw() of class   
+         Drupal\Tests\BrowserTestBase.                    
+  152    Call to deprecated method assertRaw() of class   
+         Drupal\Tests\BrowserTestBase.                    
+ ------ ------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/FieldGroupUiTest.php                   
+ ------ ---------------------------------------------------------------------- 
+  16     Class Drupal\Testsield_group\FunctionalJavascript\FieldGroupUiTest  
+         extends deprecated class                                              
+         Drupal\FunctionalJavascriptTests\JavascriptTestBase.                  
+  38     Call to method setUp() of deprecated class                            
+         Drupal\Tests\BrowserTestBase.                                         
+  52     Call to deprecated method strtolower() of class                       
+         Drupal\Component\Utility\Unicode.                                     
+ ------ ---------------------------------------------------------------------- 
+
+ [ERROR] Found 38 errors                                                         
+
+ </code>

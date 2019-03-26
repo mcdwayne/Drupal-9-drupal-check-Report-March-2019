@@ -1,0 +1,25 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_google_tag_manager 78de7b42c2382eebeb740bcf42aa247b5bea37aa
+source : http://cgit.drupalcode.org/commerce_google_tag_manager 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/EventsControllerTest.php        
+ ------ ----------------------------------------------------- 
+  75     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+  80     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/ProductDetailViewsTest.php      
+ ------ ----------------------------------------------------- 
+  65     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

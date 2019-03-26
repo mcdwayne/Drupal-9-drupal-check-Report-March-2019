@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/corporatelogin 8.x-8.9
+source : http://cgit.drupalcode.org/corporatelogin 
+ 
+ <code> 
+
+ ------ ------------------------------------------ 
+  Line   src/Controller/ManageCAController.php     
+ ------ ------------------------------------------ 
+  16     Call to deprecated function db_select().  
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CorporateLoginAdminForm.php               
+ ------ --------------------------------------------------- 
+  59     Call to deprecated function db_select().           
+  76     Call to deprecated function db_insert().           
+  82     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   src/Form/CorporateLoginForm.php           
+ ------ ------------------------------------------ 
+  52     Call to deprecated function db_select().  
+  54     Call to deprecated function db_like().    
+ ------ ------------------------------------------ 
+
+ [ERROR] Found 6 errors                                                          
+
+ </code>

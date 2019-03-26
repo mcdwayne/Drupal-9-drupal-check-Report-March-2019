@@ -1,0 +1,30 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/external_entities 873119b511996b1032213c498172f5004a104481
+source : http://cgit.drupalcode.org/external_entities 
+ 
+ <code> 
+
+ ------ ---------------------------------------------------- 
+  Line   src/Entity/ExternalEntityType.php                   
+ ------ ---------------------------------------------------- 
+  326    Call to deprecated method entityManager() of class  
+         Drupal\Corentityntity.                          
+ ------ ---------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   src/ExternalEntityListBuilder.php             
+ ------ ---------------------------------------------- 
+  41     Call to deprecated method urlInfo() of class  
+         Drupal\CorentityntityInterface.           
+ ------ ---------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/pathauto/AliasType/ExternalEntityAliasTypeBase.php            
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\pathauto\Plugin\pathauto\AliasTypentityAliasTypeBase not  
+         found and could not be autoloaded.                                       
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

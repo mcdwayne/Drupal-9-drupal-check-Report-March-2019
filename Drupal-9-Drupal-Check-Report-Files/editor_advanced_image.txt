@@ -1,0 +1,69 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/editor_advanced_image c17ffaa6afa29cf7b79be59dac47a0ffaab39448
+source : http://cgit.drupalcode.org/editor_advanced_image 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/UiAdminTest.php             
+ ------ ----------------------------------------------------------- 
+  81     Call to deprecated method assertElementPresent() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  84     Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+  102    Call to deprecated method assertElementPresent() of class  
+         Drupal\Tests\BrowserTestBase.                              
+  122    Call to deprecated method assertFieldByName() of class     
+         Drupal\Tests\BrowserTestBase.                              
+ ------ ----------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   tests/src/FunctionalJavascript/UiDialogTest.php               
+ ------ -------------------------------------------------------------- 
+  138    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  144    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  160    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  161    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  162    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  180    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  181    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  182    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  195    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  196    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  197    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  210    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  211    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  212    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  225    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  226    Call to deprecated method assertElementNotPresent() of class  
+         Drupal\Tests\BrowserTestBase.                                 
+  227    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  240    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  241    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  242    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+  280    Call to deprecated method assertElementPresent() of class     
+         Drupal\Tests\BrowserTestBase.                                 
+ ------ -------------------------------------------------------------- 
+
+ [ERROR] Found 25 errors                                                         
+
+ </code>

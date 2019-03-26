@@ -1,0 +1,23 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/drupaneo 4d78b7762bea0e1e4dc9d26231c10e85c4864857
+source : http://cgit.drupalcode.org/drupaneo 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/standalone/src/Entity/ProductListBuilder.php  
+ ------ ------------------------------------------------------ 
+  57     Call to deprecated function format_date().            
+ ------ ------------------------------------------------------ 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SynchronizationForm.php                   
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_set_message().  
+  80     Call to deprecated function drupal_set_message().  
+  83     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
+
+ </code>

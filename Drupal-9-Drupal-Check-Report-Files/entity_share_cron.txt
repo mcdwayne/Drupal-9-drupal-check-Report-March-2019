@@ -1,0 +1,33 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/entity_share_cron 5e5fc1a216ff67a9beab11ecb6e73abca602dc87
+source : http://cgit.drupalcode.org/entity_share_cron 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/SettingsForm.php                          
+ ------ --------------------------------------------------- 
+  111    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/EntityShareCronServiceTest.php                            
+ ------ ------------------------------------------------------------------------- 
+  213    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  254    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  276    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  286    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  291    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  297    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  304    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  315    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  325    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  329    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  334    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  340    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  349    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 14 errors                                                         
+
+ </code>

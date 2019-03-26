@@ -1,0 +1,26 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/draggable_blocks 24559b9845be93532d084565bfdecae210bd5a1e
+source : http://cgit.drupalcode.org/draggable_blocks 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   draggable_blocks.module                                     
+ ------ ------------------------------------------------------------ 
+  95     Call to deprecated method entityManager() of class Drupal.  
+  99     Call to deprecated function drupal_render().                
+  103    Call to deprecated method entityManager() of class Drupal.  
+  140    Call to deprecated method entityManager() of class Drupal.  
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Draggable/Draggable.php                                       
+ ------ ------------------------------------------------------------------------- 
+         Class Drupal\draggable_blocks\Plugin\Draggable\DraggableDefault was not  
+         found while trying to analyse it - autoloading is probably not           
+         configured properly.                                                     
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

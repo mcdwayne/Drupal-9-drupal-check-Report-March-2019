@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/currency_taxonomy cc7d34177b2351ad83f270fb0ae00bbe1e783429
+source : http://cgit.drupalcode.org/currency_taxonomy 
+ 
+ <code> 
+
+ ------ -------------------------------------------------------- 
+  Line   currency_taxonomy.module                                
+ ------ -------------------------------------------------------- 
+  950    Call to deprecated function entity_create().            
+  966    Call to deprecated function entity_create().            
+  977    Call to deprecated function entity_create().            
+  982    Call to deprecated function entity_create().            
+  991    Call to deprecated function entity_get_form_display().  
+  996    Call to deprecated function entity_get_display().       
+  1001   Call to deprecated function entity_create().            
+  1006   Call to deprecated function entity_create().            
+  1015   Call to deprecated function entity_get_form_display().  
+  1020   Call to deprecated function entity_get_display().       
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 10 errors                                                         
+
+ </code>

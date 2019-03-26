@@ -1,0 +1,38 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/cleverreach 439e20e3657c7be8657bc458348bf665d68ee056
+source : http://cgit.drupalcode.org/cleverreach 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   cleverreach.module                                 
+ ------ --------------------------------------------------- 
+  61     Call to deprecated function drupal_set_message().  
+  65     Call to deprecated function drupal_set_message().  
+  70     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CleverreachAddBlockForm.php               
+ ------ --------------------------------------------------- 
+  239    Call to deprecated function drupal_set_message().  
+  240    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CleverreachBlockForm.php                  
+ ------ --------------------------------------------------- 
+  172    Call to deprecated function drupal_set_message().  
+  175    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/CleverreachEditBlockForm.php              
+ ------ --------------------------------------------------- 
+  296    Call to deprecated function drupal_set_message().  
+  297    Call to deprecated method url() of class Drupal.   
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 9 errors                                                          
+
+ </code>

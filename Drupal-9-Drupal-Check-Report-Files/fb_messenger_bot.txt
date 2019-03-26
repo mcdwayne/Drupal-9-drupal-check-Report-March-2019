@@ -1,0 +1,29 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/fb_messenger_bot 5d1fc03bfea125e8fe0bcbaf3f47f8a73a8d2070
+source : http://cgit.drupalcode.org/fb_messenger_bot 
+ 
+ <code> 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Message/ButtonBase.php                                 
+ ------ ----------------------------------------------------------- 
+  47     Instantiation of deprecated class                          
+         Doctrine\Common\Proxyxception\InvalidArgumentException.  
+ ------ ----------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   src/Message/ButtonMessage.php                              
+ ------ ----------------------------------------------------------- 
+  43     Instantiation of deprecated class                          
+         Doctrine\Common\Proxyxception\InvalidArgumentException.  
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/Message/FacebookGenericMessageTest.php                    
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
+
+ </code>

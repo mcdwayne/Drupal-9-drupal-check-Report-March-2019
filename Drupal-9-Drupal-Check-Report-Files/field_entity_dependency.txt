@@ -1,0 +1,41 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/field_entity_dependency cb6372e0b0203f96a0f3d3ba82c3ff7110ca3a97
+source : http://cgit.drupalcode.org/field_entity_dependency 
+ 
+ <code> 
+
+ ------ ------------------------------------------------------------ 
+  Line   field_entity_dependency.module                              
+ ------ ------------------------------------------------------------ 
+  21     Call to deprecated method entityManager() of class Drupal.  
+  42     Call to deprecated method entityManager() of class Drupal.  
+  99     Call to deprecated function drupal_set_message().           
+ ------ ------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldFormatter/DependencyDefaultFormatter.php           
+ ------ ------------------------------------------------------------------------- 
+  60     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+  60     Call to deprecated method urlInfo() of class Drupal\Corentityntity.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   src/Plugin/Field/FieldWidget/DependencyDefaultWidget.php  
+ ------ ---------------------------------------------------------- 
+  415    Call to deprecated function drupal_set_message().         
+  420    Call to deprecated function drupal_set_message().         
+  459    Call to deprecated function drupal_set_message().         
+  479    Call to deprecated function drupal_set_message().         
+  508    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   tests/src/Functional/FieldDependenceTest.php         
+ ------ ----------------------------------------------------- 
+  44     Call to deprecated method assertResponse() of class  
+         Drupal\Tests\BrowserTestBase.                        
+ ------ ----------------------------------------------------- 
+
+ [ERROR] Found 11 errors                                                         
+
+ </code>

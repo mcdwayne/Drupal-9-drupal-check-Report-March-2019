@@ -1,0 +1,24 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/commerce_amazon_lpa 62047a9a853a4a6aedaf6350c792ac5c8d97df98
+source : http://cgit.drupalcode.org/commerce_amazon_lpa 
+ 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Controller/LoginWithAmazon.php                 
+ ------ --------------------------------------------------- 
+  30     Call to deprecated function drupal_set_message().  
+  57     Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/Plugin/Commerce/CheckoutFlow/AmazonPay.php     
+ ------ --------------------------------------------------- 
+  228    Call to deprecated function drupal_set_message().  
+  237    Call to deprecated function drupal_set_message().  
+  281    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 5 errors                                                          
+
+ </code>

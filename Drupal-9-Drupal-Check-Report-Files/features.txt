@@ -1,0 +1,146 @@
+drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/features da215a63fc650c6e6abba1c0f1ba529a79d7e1cf
+source : http://cgit.drupalcode.org/features 
+ 
+ <code> 
+
+ ------ ------------------------------------------------ 
+  Line   features.module                                 
+ ------ ------------------------------------------------ 
+  29     Call to deprecated function file_uri_scheme().  
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------------ 
+  Line   modules/features_ui/src/Form/AssignmentAlterForm.php  
+ ------ ------------------------------------------------------ 
+  73     Call to deprecated function drupal_set_message().     
+ ------ ------------------------------------------------------ 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/features_ui/src/Form/AssignmentBaseForm.php  
+ ------ ----------------------------------------------------- 
+  58     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ ---------------------------------------------------------- 
+  Line   modules/features_ui/src/Form/AssignmentConfigureForm.php  
+ ------ ---------------------------------------------------------- 
+  332    Call to deprecated method strtolower() of class           
+         Drupal\Component\Utility\Unicode.                         
+  343    Call to deprecated method strtolower() of class           
+         Drupal\Component\Utility\Unicode.                         
+  430    Call to deprecated function drupal_set_message().         
+ ------ ---------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/features_ui/src/Form/AssignmentCoreForm.php  
+ ------ ----------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/features_ui/src/Form/AssignmentExcludeForm.php  
+ ------ -------------------------------------------------------- 
+  63     Call to deprecated function drupal_get_profile().       
+  128    Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   modules/features_ui/src/Form/AssignmentOptionalForm.php  
+ ------ --------------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().        
+ ------ --------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   modules/features_ui/src/Form/AssignmentProfileForm.php  
+ ------ -------------------------------------------------------- 
+  85     Call to deprecated function drupal_set_message().       
+ ------ -------------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/features_ui/src/Form/AssignmentSiteForm.php  
+ ------ ----------------------------------------------------- 
+  51     Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/features_ui/src/Form/FeaturesDiffForm.php  
+ ------ --------------------------------------------------- 
+  106    Call to deprecated function drupal_set_message().  
+  181    Call to deprecated function drupal_set_message().  
+  195    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   modules/features_ui/src/Form/FeaturesEditForm.php  
+ ------ --------------------------------------------------- 
+  972    Call to deprecated function drupal_set_message().  
+  974    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ ----------------------------------------------------- 
+  Line   modules/features_ui/src/Form/FeaturesExportForm.php  
+ ------ ----------------------------------------------------- 
+  151    Call to deprecated function drupal_set_message().    
+  293    Call to deprecated method l() of class Drupal.       
+  544    Call to deprecated function drupal_set_message().    
+ ------ ----------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FeaturesGenerator.php                          
+ ------ --------------------------------------------------- 
+  165    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FeaturesInstallStorage.php                     
+ ------ --------------------------------------------------- 
+  73     Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   src/FeaturesManager.php                            
+ ------ --------------------------------------------------- 
+  819    Call to deprecated function drupal_get_profile().  
+ ------ --------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   src/Plugin/FeaturesAssignment/FeaturesAssignmentBaseType.php  
+ ------ -------------------------------------------------------------- 
+  40     Call to deprecated method strtolower() of class               
+         Drupal\Component\Utility\Unicode.                             
+ ------ -------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   src/Plugin/FeaturesAssignment/FeaturesAssignmentExclude.php  
+ ------ ------------------------------------------------------------- 
+  69     Call to deprecated function drupal_get_profile().            
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/ConfigurationItemTest.php                                 
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/FeaturesManagerTest.php                                   
+ ------ ------------------------------------------------------------------------- 
+  92     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  99     Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  103    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  104    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  105    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  106    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+  125    Call to deprecated method getMock() of class Drupal\Tests\UnitTestCase.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   tests/src/Unit/PackageTest.php                                           
+ ------ ------------------------------------------------------------------------- 
+         Class PHPUnit_Framework_TestCase not found and could not be autoloaded.  
+ ------ ------------------------------------------------------------------------- 
+
+ [ERROR] Found 34 errors                                                         
+
+ </code>
