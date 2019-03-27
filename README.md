@@ -2,8 +2,6 @@
 
 A report of the state of all [Module Project Index listed sites](https://www.drupal.org/project/project_module/index?project-status=full&drupal_core=7234) utilizing the tool [drupal-check](https://github.com/mglaman/drupal-check) a "static analysis tool that will check for correctness (e.g. using a class that doesn't exist), deprecation errors, and more." The purpose is to expose our readiness for Drupal 9 a full 15 months ahead of the arrival of Drupal 9, which is scheduled for June 2, 2019.
 
-Worksheet I worked off of: 
-https://docs.google.com/spreadsheets/d/1-W0k4vhdmw7ugzRdSa9orEc43_D5l6PPvUcrB8bw_-0/edit#gid=1026773715
 
 ## How do I use this repo?
 
@@ -62,6 +60,9 @@ If you don't see a ticket concerning the modules you rely on, raise an issue.
 #### What we did at MidCamp 2019
 
 We opened [tickets after running the report on the most popular 300 modules by number of installs](https://www.drupal.org/project/issues/search?issue_tags=Drupal%209%20compatibility)
+
+[Worksheet I worked from](https://docs.google.com/spreadsheets/d/1-W0k4vhdmw7ugzRdSa9orEc43_D5l6PPvUcrB8bw_-0/edit#gid=1026773715) 
+
 
 ### Why are we documenting 'No Errors'?
 
