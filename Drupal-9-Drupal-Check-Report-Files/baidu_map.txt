@@ -11,6 +11,13 @@ source : http://cgit.drupalcode.org/baidu_map
          analyse it - autoloading is probably not configured properly.            
  ------ ------------------------------------------------------------------------- 
 
+ ------ ----------------------------------------------------------------------- 
+  Line   baidu_map_geofield/src/Element/GeofieldBaiduMap.php                    
+ ------ ----------------------------------------------------------------------- 
+         Class Drupal\geofieldlement\GeofieldElementBase not found and could  
+         not be autoloaded.                                                     
+ ------ ----------------------------------------------------------------------- 
+
  ------ ------------------------------------------------------------------------ 
   Line   baidu_map_geofield/src/LeafletTileLayer/LeafletTileLayerPluginBase.php  
  ------ ------------------------------------------------------------------------ 
@@ -29,6 +36,15 @@ source : http://cgit.drupalcode.org/baidu_map
          not configured properly.                                                     
  ------ ----------------------------------------------------------------------------- 
 
+ ------ --------------------------------------------------------------------------- 
+  Line   baidu_map_geofield/src/LeafletTileLayer/LeafletTileLayerPluginManager.php  
+ ------ --------------------------------------------------------------------------- 
+         Class                                                                      
+         Drupalaidu_map_geofield\leafletTileLayer\LeafletTileLayerPluginManage    
+         r was not found while trying to analyse it - autoloading is probably       
+         not configured properly.                                                   
+ ------ --------------------------------------------------------------------------- 
+
  ------ ----------------------------------------------------------------------- 
   Line   baidu_map_geofield/src/Plugin/Annotation/LeafletTileLayerPlugin.php    
  ------ ----------------------------------------------------------------------- 
@@ -37,6 +53,20 @@ source : http://cgit.drupalcode.org/baidu_map
          configured properly.                                                   
  ------ ----------------------------------------------------------------------- 
 
- [ERROR] Found 4 errors                                                          
+ ------ ---------------------------------------------------------------------------------- 
+  Line   baidu_map_geofield/src/Plugin/Field/FieldFormatter/GeofieldBaiduMapFormatter.php  
+ ------ ---------------------------------------------------------------------------------- 
+         Class Drupal\geofield\Plugin\Field\FieldType\GeofieldItem not found and           
+         could not be autoloaded.                                                          
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   baidu_map_geofield/src/Plugin/Field/FieldWidget/GeofieldBaiduMapWidget.php  
+ ------ ---------------------------------------------------------------------------- 
+         Class Drupal\geofield\Plugin\Field\FieldWidget\GeofieldLatLonWidget not     
+         found and could not be autoloaded.                                          
+ ------ ---------------------------------------------------------------------------- 
+
+ [ERROR] Found 8 errors                                                          
 
  </code>

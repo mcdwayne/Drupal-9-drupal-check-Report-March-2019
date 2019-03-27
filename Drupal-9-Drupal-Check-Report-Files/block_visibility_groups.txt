@@ -4,8 +4,6 @@ source : http://cgit.drupalcode.org/block_visibility_groups
  
  <code> 
 
-
-
  ------ ---------------------------------------------------------------------- 
   Line   block_visibility_groups_admin/Tests/Controller/GroupListerTest.php    
  ------ ---------------------------------------------------------------------- 
@@ -18,58 +16,58 @@ source : http://cgit.drupalcode.org/block_visibility_groups
   Line   block_visibility_groups_admin/src/Controller/GroupLister.php  
  ------ -------------------------------------------------------------- 
   63     Call to deprecated method urlInfo() of class                  
-         Drupal\Core\Config\Entity\ConfigEntityBase.                   
+         Drupal\Core\Configntity\ConfigEntityBase.                   
  ------ -------------------------------------------------------------- 
 
  ------ ---------------------------------------------- 
   Line   src/BlockVisibilityGroupedListBuilder.php     
  ------ ---------------------------------------------- 
   426    Call to deprecated method urlInfo() of class  
-         Drupal\Core\Config\Entity\ConfigEntityBase.   
+         Drupal\Core\Configntity\ConfigEntityBase.   
  ------ ---------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------------------- 
   Line   src/ConditionRedirectTrait.php (in context of class Drupallock_visibility_groups\Form\ConditionDeleteForm)  
  ------ -------------------------------------------------------------------------------------------------------------- 
   22     Call to deprecated method urlInfo() of class                                                                  
-         Drupal\Core\Config\Entity\ConfigEntityBase.                                                                   
+         Drupal\Core\Configntity\ConfigEntityBase.                                                                   
  ------ -------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
   Line   src/ConditionRedirectTrait.php (in context of class Drupallock_visibility_groups\Form\ConditionFormBase)  
  ------ ------------------------------------------------------------------------------------------------------------ 
   22     Call to deprecated method urlInfo() of class                                                                
-         Drupal\Core\Config\Entity\ConfigEntityBase.                                                                 
+         Drupal\Core\Configntity\ConfigEntityBase.                                                                 
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ---------------------------------------------------- 
   Line   src/Controller/BlockVisibilityGroupListBuilder.php  
  ------ ---------------------------------------------------- 
   29     Call to deprecated method getLabel() of class       
-         Drupal\Core\Entity\EntityListBuilder.               
+         Drupal\CorentityntityListBuilder.               
  ------ ---------------------------------------------------- 
 
  ------ ------------------------------------------------------- 
   Line   src/Form/BlockVisibilityGroupDeleteForm.php            
  ------ ------------------------------------------------------- 
   118    Access to deprecated property $entityManager of class  
-         Drupal\Core\Entity\EntityForm.                         
+         Drupal\CorentityntityForm.                         
   131    Access to deprecated property $entityManager of class  
-         Drupal\Core\Entity\EntityForm.                         
+         Drupal\CorentityntityForm.                         
  ------ ------------------------------------------------------- 
 
  ------ ---------------------------------------------- 
   Line   src/Form/BlockVisibilityGroupForm.php         
  ------ ---------------------------------------------- 
   85     Call to deprecated method urlInfo() of class  
-         Drupal\Core\Entity\EntityInterface.           
+         Drupal\CorentityntityInterface.           
  ------ ---------------------------------------------- 
 
  ------ ---------------------------------------------- 
   Line   src/Form/ConditionDeleteForm.php              
  ------ ---------------------------------------------- 
   49     Call to deprecated method urlInfo() of class  
-         Drupal\Core\Config\Entity\ConfigEntityBase.   
+         Drupal\Core\Configntity\ConfigEntityBase.   
  ------ ---------------------------------------------- 
 
  [ERROR] Found 10 errors                                                         

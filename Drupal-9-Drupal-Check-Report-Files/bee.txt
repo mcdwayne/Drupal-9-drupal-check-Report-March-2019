@@ -4,8 +4,6 @@ source : http://cgit.drupalcode.org/bee
  
  <code> 
 
-
-
  ------ ------------------------------------------------------------ 
   Line   bee.module                                                  
  ------ ------------------------------------------------------------ 
@@ -32,7 +30,7 @@ source : http://cgit.drupalcode.org/bee
  ------ ----------------------------------------------------------------------- 
   Line   modules/bee_webform/src/Element/WebformBeeReservationForm.php          
  ------ ----------------------------------------------------------------------- 
-         Class Drupal\webform\Element\WebformCompositeBase not found and could  
+         Class Drupal\webformlement\WebformCompositeBase not found and could  
          not be autoloaded.                                                     
  ------ ----------------------------------------------------------------------- 
 
@@ -63,6 +61,7 @@ source : http://cgit.drupalcode.org/bee
   307    Call to deprecated function drupal_set_message().  
  ------ --------------------------------------------------- 
 
- [ERROR] Found 18 errors                                                         
-
- </code>
+ ------ ----------------------------------------------------------------------- 
+  Line   src/Resolvers/SalepriceResolver.php                                    
+ ------ ----------------------------------------------------------------------- 
+  16     Class Drupal

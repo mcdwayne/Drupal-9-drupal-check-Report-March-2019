@@ -4,83 +4,6 @@ source : http://cgit.drupalcode.org/aladhan
  
  <code> 
 
- ------ ---------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/Calendar.php                 
- ------ ---------------------------------------------------------------------- 
-         Class AlAdhanApi\Calendar was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                      
- ------ ---------------------------------------------------------------------- 
-
- ------ ----------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/CalendarByCity.php            
- ------ ----------------------------------------------------------------------- 
-         Class AlAdhanApi\CalendarByCity was not found while trying to analyse  
-         it - autoloading is probably not configured properly.                  
- ------ ----------------------------------------------------------------------- 
-
- ------ -------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/Client.php                 
- ------ -------------------------------------------------------------------- 
-         Class AlAdhanApi\Client was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                    
- ------ -------------------------------------------------------------------- 
-
- ------ ----------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/Endpoints.php                 
- ------ ----------------------------------------------------------------------- 
-         Class AlAdhanApi\Endpoints was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                       
- ------ ----------------------------------------------------------------------- 
-
- ------ ------------------------------------------------------------------------ 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/LatitudeAdjustmentMethods.php  
- ------ ------------------------------------------------------------------------ 
-         Class AlAdhanApi\LatitudeAdjustmentMethods was not found while trying   
-         to analyse it - autoloading is probably not configured properly.        
- ------ ------------------------------------------------------------------------ 
-
- ------ ---------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/Location.php                 
- ------ ---------------------------------------------------------------------- 
-         Class AlAdhanApi\Location was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                      
- ------ ---------------------------------------------------------------------- 
-
- ------ --------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/Methods.php                 
- ------ --------------------------------------------------------------------- 
-         Class AlAdhanApi\Methods was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                     
- ------ --------------------------------------------------------------------- 
-
- ------ --------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/Schools.php                 
- ------ --------------------------------------------------------------------- 
-         Class AlAdhanApi\Schools was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                     
- ------ --------------------------------------------------------------------- 
-
- ------ ------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/Times.php                 
- ------ ------------------------------------------------------------------- 
-         Class AlAdhanApi\Times was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                   
- ------ ------------------------------------------------------------------- 
-
- ------ ----------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/TimesByAddress.php            
- ------ ----------------------------------------------------------------------- 
-         Class AlAdhanApi\TimesByAddress was not found while trying to analyse  
-         it - autoloading is probably not configured properly.                  
- ------ ----------------------------------------------------------------------- 
-
- ------ ------------------------------------------------------------------------- 
-  Line   vendor/aladhan/api-client/src/AlAdhanApi/TimesByCity.php                 
- ------ ------------------------------------------------------------------------- 
-         Class AlAdhanApi\TimesByCity was not found while trying to analyse it -  
-         autoloading is probably not configured properly.                         
- ------ ------------------------------------------------------------------------- 
-
  ------ --------------------------------------------------------------- 
   Line   vendor/aladhan/api-client/tests/CalendarTest.php               
  ------ --------------------------------------------------------------- 
@@ -102,35 +25,6 @@ source : http://cgit.drupalcode.org/aladhan
          is probably not configured properly.                                    
  ------ ------------------------------------------------------------------------ 
 
- ------ ---------------------------------------------------------------------- 
-  Line   vendor/composer/autoload_real.php                                     
- ------ ---------------------------------------------------------------------- 
-         Class ComposerAutoloaderInitafef8d45ff1755564b4c07d531c2367c was not  
-         found while trying to analyse it - autoloading is probably not        
-         configured properly.                                                  
- ------ ---------------------------------------------------------------------- 
-
- ------ ------------------------------------------------------------------------ 
-  Line   vendor/composer/autoload_static.php                                     
- ------ ------------------------------------------------------------------------ 
-         Class                                                                   
-         Composer\Autoload\ComposerStaticInitafef8d45ff1755564b4c07d531c2367c    
-         was not found while trying to analyse it - autoloading is probably not  
-         configured properly.                                                    
- ------ ------------------------------------------------------------------------ 
-
- ------ ------------------------------------------------------------------- 
-  Line   vendor/guzzlehttp/guzzle/src/Client.php                            
- ------ ------------------------------------------------------------------- 
-  145    Call to deprecated method resolve() of class GuzzleHttp\Psr7\Uri.  
- ------ ------------------------------------------------------------------- 
-
- ------ ------------------------------------------------------------------- 
-  Line   vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php                
- ------ ------------------------------------------------------------------- 
-  211    Call to deprecated method resolve() of class GuzzleHttp\Psr7\Uri.  
- ------ ------------------------------------------------------------------- 
-
  ------ --------------------------------------------------------------------- 
   Line   vendor/guzzlehttp/promises/tests/AggregateExceptionTest.php          
  ------ --------------------------------------------------------------------- 
@@ -142,7 +36,7 @@ source : http://cgit.drupalcode.org/aladhan
  ------ ------------------------------------------------------------------------- 
   Line   vendor/guzzlehttp/promises/tests/EachPromiseTest.php                     
  ------ ------------------------------------------------------------------------- 
-         Class GuzzleHttp\Promise\Tests\EachPromiseTest was not found while       
+         Class GuzzleHttp\Promise\TestsachPromiseTest was not found while       
          trying to analyse it - autoloading is probably not configured properly.  
  ------ ------------------------------------------------------------------------- 
 
@@ -201,17 +95,6 @@ source : http://cgit.drupalcode.org/aladhan
          Class GuzzleHttp\Promise\Tests\FunctionsTest was not found while trying  
          to analyse it - autoloading is probably not configured properly.         
  ------ ------------------------------------------------------------------------- 
-
- ------ -------------------------------------------------------- 
-  Line   vendor/guzzlehttp/psr7/src/Uri.php                      
- ------ -------------------------------------------------------- 
-  134    Call to deprecated method removeDotSegments() of class  
-         GuzzleHttp\Psr7\Uri.                                    
-  139    Call to deprecated method removeDotSegments() of class  
-         GuzzleHttp\Psr7\Uri.                                    
-  161    Call to deprecated method removeDotSegments() of class  
-         GuzzleHttp\Psr7\Uri.                                    
- ------ -------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------- 
   Line   vendor/guzzlehttp/psr7/tests/AppendStreamTest.php                        
@@ -360,6 +243,6 @@ source : http://cgit.drupalcode.org/aladhan
          analyse it - autoloading is probably not configured properly.          
  ------ ----------------------------------------------------------------------- 
 
- [ERROR] Found 52 errors                                                         
+ [ERROR] Found 34 errors                                                         
 
  </code>

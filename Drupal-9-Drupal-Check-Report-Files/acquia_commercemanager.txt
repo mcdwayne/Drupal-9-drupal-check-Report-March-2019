@@ -1,6 +1,8 @@
 drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/acquia_commercemanager 5c179278708a2e6038845f0cb1fca96d13b22b23
+source : https://github.com/acquia/commerce-manager 
  
- 
- <code> web/modules/contrib/acquia_commercemanager does not exist 
+ <code> 
+Fatal error: Declaration of Drupalcm_sku\Plugin\AcquiaCommerce\SKUType\Variant::processImport(Drupalcm_skuntity\SKU $configuredSkuEntity, array $product) must be compatible with Drupalcm_sku\AcquiaCommerce\SKUPluginBase::processImport(Drupalcm_skuntity\SKUInterface $sku, array $product) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/acquia_commercemanager/modules/acm_sku/src/Plugin/AcquiaCommerce/SKUType/Variant.php on line 556 
 
  </code>

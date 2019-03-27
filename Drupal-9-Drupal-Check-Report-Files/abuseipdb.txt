@@ -1,6 +1,17 @@
 drupal-check results on commit hash: 
+ source   : [git] https://git.drupal.org/project/abuseipdb 588518408c3ab97d00427116c0928b47633925ad
+source : http://cgit.drupalcode.org/abuseipdb 
  
- 
- <code> web/modules/contrib/abuseipdb does not exist 
+ <code> 
+
+ ------ --------------------------------------------------- 
+  Line   src/Form/Report.php                                
+ ------ --------------------------------------------------- 
+  112    Call to deprecated function drupal_set_message().  
+  114    Call to deprecated function drupal_set_message().  
+  119    Call to deprecated function drupal_set_message().  
+ ------ --------------------------------------------------- 
+
+ [ERROR] Found 3 errors                                                          
 
  </code>

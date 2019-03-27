@@ -3,13 +3,13 @@ drupal-check results on commit hash:
 source : http://cgit.drupalcode.org/aws 
  
  <code> 
-Warning: Declaration of Drupalws\Controller\ServiceListController::listing() should be compatible with Drupal\Core\Entity\Controller\EntityListController::listing($entity_type) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/aws/src/Controller/ServiceListController.php on line 14
+Warning: Declaration of Drupalws\Controller\ServiceListController::listing() should be compatible with Drupal\Corentity\ControllerntityListController::listing($entity_type) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/aws/src/Controller/ServiceListController.php on line 100
 
 
  ------ ----------------------------------------------------------------------- 
   Line   modules/ec2/src/Plugin/AWS/Service/EC2.php                             
  ------ ----------------------------------------------------------------------- 
-  20     Class Drupal\ec2\Plugin\AWS\Service\BaseClientInterface not found and  
+  20     Class Drupalc2\Plugin\AWS\Service\BaseClientInterface not found and  
          could not be autoloaded.                                               
  ------ ----------------------------------------------------------------------- 
 
@@ -45,7 +45,7 @@ Warning: Declaration of Drupalws\Controller\ServiceListController::listing() sh
   Line   src/Form/ProfileForm.php                      
  ------ ---------------------------------------------- 
   112    Call to deprecated method urlInfo() of class  
-         Drupal\Core\Entity\EntityInterface.           
+         Drupal\CorentityntityInterface.           
  ------ ---------------------------------------------- 
 
  ------ ----------------------------------------------------------------------- 

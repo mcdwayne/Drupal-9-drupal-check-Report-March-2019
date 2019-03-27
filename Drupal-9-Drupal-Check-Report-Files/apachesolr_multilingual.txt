@@ -3,7 +3,7 @@ drupal-check results on commit hash:
 source : http://cgit.drupalcode.org/apachesolr_multilingual 
  
  <code> 
-Warning: Declaration of Drupalpachesolr_multilingual\Plugin\search_apiackend\SearchApiSolrMultilingualBackend::preQuery(Solarium\QueryType\Select\Query\Query $solarium_query, Drupal\search_api\Query\QueryInterface $query) should be compatible with Drupal\search_api_solr\Plugin\search_apiackend\SearchApiSolrBackend::preQuery(Solarium\Core\Query\QueryInterface $solarium_query, Drupal\search_api\Query\QueryInterface $query) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/apachesolr_multilingual/src/Plugin/search_api/backend/SearchApiSolrMultilingualBackend.php on line 40
+Warning: Declaration of Drupalpachesolr_multilingual\Plugin\search_apiackend\SearchApiSolrMultilingualBackend::preQuery(Solarium\QueryType\Select\Query\Query $solarium_query, Drupal\search_api\Query\QueryInterface $query) should be compatible with Drupal\search_api_solr\Plugin\search_apiackend\SearchApiSolrBackend::preQuery(Solarium\Core\Query\QueryInterface $solarium_query, Drupal\search_api\Query\QueryInterface $query) in /home/thatoneguyinsf/Drupal-9-Drupal-Check-Report-Files/midcamp2019-drupal/web/modules/contrib/apachesolr_multilingual/src/Plugin/search_api/backend/SearchApiSolrMultilingualBackend.php on line 40
 
 
  ------ ---------------------------------------------------------------------- 
@@ -18,14 +18,14 @@ Warning: Declaration of Drupalpachesolr_multilingual\Plugin\search_apiackend\S
   Line   src/Controller/SolrFieldTypeListBuilder.php    
  ------ ----------------------------------------------- 
   30     Call to deprecated method getLabel() of class  
-         Drupal\Core\Entity\EntityListBuilder.          
+         Drupal\CorentityntityListBuilder.          
  ------ ----------------------------------------------- 
 
  ------ --------------------------------------------------- 
   Line   src/Form/SolrFieldTypeDeleteForm.php               
  ------ --------------------------------------------------- 
   29     Call to deprecated method urlInfo() of class       
-         Drupal\Core\Entity\EntityInterface.                
+         Drupal\CorentityntityInterface.                
   45     Call to deprecated function drupal_set_message().  
  ------ --------------------------------------------------- 
 
@@ -35,7 +35,7 @@ Warning: Declaration of Drupalpachesolr_multilingual\Plugin\search_apiackend\S
   89     Call to deprecated function drupal_set_message().  
   94     Call to deprecated function drupal_set_message().  
   98     Call to deprecated method urlInfo() of class       
-         Drupal\Core\Entity\EntityInterface.                
+         Drupal\CorentityntityInterface.                
  ------ --------------------------------------------------- 
 
  [ERROR] Found 7 errors                                                          

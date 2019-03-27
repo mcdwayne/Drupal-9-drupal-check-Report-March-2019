@@ -27,10 +27,19 @@ source : http://cgit.drupalcode.org/advanced_user_registration_and_management
  ------ ----------------------------------------------------------------------- 
   Line   sociallogin/src/Controller/SocialLoginController.php                   
  ------ ----------------------------------------------------------------------- 
-         Drupal\Core\DependencyInjection\ContainerNotInitializedException       
+  25     Drupal\Core\DependencyInjection\ContainerNotInitializedException       
          (\Drupal::$container is not initialized yet. \Drupal::setContainer()   
          must be called with a real container.) thrown while autoloading class  
          Drupal\sociallogin\Controller\SocialLoginController.                   
+  53     Call to deprecated function drupal_set_message().                      
+  58     Call to deprecated function drupal_set_message().                      
+  83     Call to deprecated function drupal_set_message().                      
+  93     Call to deprecated function drupal_set_message().                      
+  104    Call to deprecated function drupal_set_message().                      
+  182    Call to deprecated function drupal_set_message().                      
+  185    Call to deprecated function drupal_set_message().                      
+  201    Call to deprecated function db_query().                                
+  216    Call to deprecated function db_delete().                               
  ------ ----------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------ 
@@ -61,7 +70,7 @@ source : http://cgit.drupalcode.org/advanced_user_registration_and_management
   371    Call to method checkPlain() of deprecated class             
          Drupal\Component\Utility\SafeMarkup.                        
   421    Call to deprecated method getUsername() of class            
-         Drupal\user\Entity\User.                                    
+         Drupal\userntity\User.                                    
   453    Call to deprecated function drupal_set_message().           
   488    Call to deprecated function drupal_set_message().           
   493    Call to deprecated function drupal_set_message().           
@@ -121,6 +130,6 @@ source : http://cgit.drupalcode.org/advanced_user_registration_and_management
   712    Call to deprecated function drupal_set_message().      
  ------ ------------------------------------------------------- 
 
- [ERROR] Found 49 errors                                                         
+ [ERROR] Found 58 errors                                                         
 
  </code>
