@@ -43,9 +43,14 @@ grep -li 'does not exist' *.txt | wc -l
 grep -li 'does not exist' *.txt >> ../FilesContainingKeywordReports/DoesNotExistsList.txt
 
 
+echo 'files containing "deprecated"' 
+grep -li 'deprecated' *.txt | wc -l
+grep -li 'deprecated' *.txt >> ../FilesContainingKeywordReports/containsDeprecatedList.txt
+
 echo 'files containing "drupal_set_message"' 
 grep -li 'drupal_set_message' *.txt | wc -l
 grep -li 'drupal_set_message' *.txt >> ../FilesContainingKeywordReports/drupal_set_messageList.txt
+
 
 
 echo 'files containing "entity_get_display"'

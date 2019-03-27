@@ -21,11 +21,13 @@ total files present = 6868
 [files containing "assertNoText" = 25](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/assertNoTextList.txt)
 
 
+[files containing "deprecated" = 2942](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/cotainsDeprecatedList.txt)
+
+[files containing "of deprecated class" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/OfDeprecatedClassList.txt)
+
 [files containing "deprecated method" = 1563](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DeprecatedMethodList.txt)
 
 [files containing "does not exist" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DoesNotExistsList.txt)
-
-[files containing "of deprecated class" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/OfDeprecatedClassList.txt)
 
 [files containing "drupal_set_message" = 1692](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/drupal_set_messageList.txt)
 
