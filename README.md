@@ -1,6 +1,6 @@
 # Drupal 9 `drupal-check` Module Project Index Report
 
-A report of the state of all [Module Project Index listed sites](https://www.drupal.org/project/project_module/index?project-status=full&drupal_core=7234) utilizing the tool [drupal-check](https://github.com/mglaman/drupal-check) a "static analysis tool that will check for correctness (e.g. using a class that doesn't exist), deprecation errors, and more." The purpose is to expose our readiness for Drupal 9 a full 15 months ahead of the arrival of Drupal 9, which is scheduled for June 2, 2019.
+A report of the state of all [Module Project Index modules](https://www.drupal.org/project/project_module/index?project-status=full&drupal_core=7234) utilizing the tool [drupal-check](https://github.com/mglaman/drupal-check) a "static analysis tool that will check for correctness (e.g. using a class that doesn't exist), deprecation errors, and more." The purpose is to expose our readiness for Drupal 9 a full 15 months ahead of the arrival of Drupal 9, which is scheduled for June 2, 2019.
 
 
 ## How do I use this repo?
