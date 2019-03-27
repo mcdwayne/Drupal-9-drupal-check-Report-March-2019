@@ -1,25 +1,19 @@
 #!/bin/bash
 
 ## Author: mcdwayne
-## Created to support this project doc:
-## https://docs.google.com/document/d/1UnVzmQhCv9_IT0-u-tjvWPDR-QQAU31ij2iKkio8U3U/edit#
 ## 
-
-## First, you gotta download the CSV of all the modules here
-## https://docs.google.com/spreadsheets/d/1-W0k4vhdmw7ugzRdSa9orEc43_D5l6PPvUcrB8bw_-0/edit
-## make sure it is named: modulelistmachinenames.csv
-## ## NOTE: was generted from this: https://www.drupal.org/project/project_module/index?project-status=full&drupal_core=7234
-## TAKE NOTE OF WHERE TO START! There is a PROGRESS tab as well, check it out.  
+## https://github.com/mglaman/drupal-check
+## All URLs pulled from https://www.drupal.org/project/project_module/index?project-status=full&drupal_core=7234
+## Assumes you put them into a CSV named modulelistmachinemanes.csv that looks like 
+## col1, col2
+## module_name, drupal/module_name
+## ctools, drupal/ctools
 ##
-## move the file into your project folder per the project doc above
-##
-## then you run this: 
-## Takes me about 2 ro 2.5 minutes per file generated.  
 
-## Let's parce the csv
+## Let's parse the csv
 INPUT=modulelistmachinenames.csv
 
-##Safe way to deal with Internal File Seperator or IFS resets
+##Safe way to deal with Internal File Separator or IFS resets
 OLDIFS=$IFS
 IFS=,
 
