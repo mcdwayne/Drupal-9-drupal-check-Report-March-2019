@@ -14,38 +14,60 @@ Reports from my initial report [using this script based on `grep`](https://githu
 
 total files present = 6868
 
-files containing "assertEqual" = 83
+[files containing "assertEqual" = 83](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/assertEqualList.txt)
 
-files containing "assertFieldByXPath" = 10
+[files containing "assertFieldByXPath" = 10](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/assertFieldByXPathList.txt)
 
-files containing "assertIdentical" = 23
+[files containing "assertIdentical" = 23](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/assertIdenticalList.txt)
 
-files containing "assertNoText" = 25
-
-files containing "deprecated method" = 1563
-
-files containing "does not exist" = 271
-
-files containing "of deprecated class" = 272
-
-files containing "drupal_set_message" = 1690
-
-files containing "entity_get_form_display" = 107
-
-files containing "entity_get_display" = 93
-
-files containing "entity_view" = 22
-
-files containing "Fatal error" = 182
-
-files containing "no error" = 2998
-
-files containing "not found" = 803
-
-files containing "not found and could not be autoloaded" = 92
-
-files containing "Usage of deprecated trait" = 186
+[files containing "assertNoText" = 25](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/assertNoTextList.txt)
 
 
-## For Drupal
+[files containing "deprecated method" = 1563](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DeprecatedMethodList.txt)
+
+[files containing "does not exist" = 271](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DoesNotExistsList.txt)
+
+[files containing "of deprecated class" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/OfDeprecatedClassList.txt)
+
+[files containing "drupal_set_message" = 1690](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/drupal_set_messageList.txt)
+
+[files containing "entity_get_form_display" = 107](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/entity_get_form_displayList.txt)
+
+[files containing "entity_get_display" = 93]()
+
+[files containing "entity_view" = 22](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/EntityGetDisplayList.txt)
+
+[files containing "Fatal error" = 182](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/FatalErrorList.txt)
+
+[files containing "no error" = 2998](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NoErrorList.txt)
+
+[files containing "not found" = 803](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundList.txt)
+
+[files containing "not found and could not be autoloaded" = 92](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundAndCouldNotBeAutoloaded.txt)
+
+[files containing "Usage of deprecated trait" = 186](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/UsageOfDeprecatedTraitList.txt)
+
+## What can I do?
+
+Read this:
+
+### Contributor or Module Maintainer?
+[Read this guide and plan a course of action](https://github.com/mglaman/drupal-check/wiki/Drupal-9-Readiness)
+
+### Drupal user?  
+
+Track progress of your favorite modules on [Drupal.org ticketing](https://www.drupal.org/project/issues/search?issue_tags=Drupal%209%20compatibility)
+If you don't see a ticket concerning the modules you rely on, raise an issue.  
+
+#### What we did at MidCamp 2019
+
+We opened [tickets after running the report on the most popular 300 modules by number of installs](https://www.drupal.org/project/issues/search?issue_tags=Drupal%209%20compatibility)
+
+### Why are we documenting 'No Errors'?
+
+Ultimately, seeing if a module is Drupal 9 compatible rely on [an API call, so adding this `drupalci.yml`](https://gist.github.com/josephdpurcell/1c78367cedc15a075e4231a5a685ced9) to the module now means it will be ready!  
+
+## Why did I do this?
+
+#For Drupal
 
