@@ -21,7 +21,7 @@ total files present = 6868
 [files containing "assertNoText" = 25](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/assertNoTextList.txt)
 
 
-[files containing "deprecated" = 2942](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/cotainsDeprecatedList.txt)
+[files containing "deprecated" = 2942](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/containsDeprecatedList.txt)
 
 [files containing "of deprecated class" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/OfDeprecatedClassList.txt)
 
