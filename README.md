@@ -25,25 +25,25 @@ total files present = 6868
 
 [files containing "deprecated method" = 1563](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DeprecatedMethodList.txt)
 
-[files containing "does not exist" = 271](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DoesNotExistsList.txt)
+[files containing "does not exist" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DoesNotExistsList.txt)
 
 [files containing "of deprecated class" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/OfDeprecatedClassList.txt)
 
-[files containing "drupal_set_message" = 1690](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/drupal_set_messageList.txt)
+[files containing "drupal_set_message" = 1692](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/drupal_set_messageList.txt)
+
+[files containing "entity_get_display" = 93](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/entity_get_form_displayList.txt)
 
 [files containing "entity_get_form_display" = 107](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/entity_get_form_displayList.txt)
 
-[files containing "entity_get_display" = 93]()
-
 [files containing "entity_view" = 22](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/EntityGetDisplayList.txt)
 
-[files containing "Fatal error" = 182](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/FatalErrorList.txt)
+[files containing "Fatal error" = 178](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/FatalErrorList.txt)
 
 [files containing "no error" = 2998](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NoErrorList.txt)
 
-[files containing "not found" = 803](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundList.txt)
+[files containing "not found" = 804](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundList.txt)
 
-[files containing "not found and could not be autoloaded" = 92](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundAndCouldNotBeAutoloaded.txt)
+[files containing "not found and could not be autoloaded" = 93](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundAndCouldNotBeAutoloaded.txt)
 
 [files containing "Usage of deprecated trait" = 186](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/UsageOfDeprecatedTraitList.txt)
 
