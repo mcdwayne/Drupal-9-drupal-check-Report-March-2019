@@ -1,9 +1,7 @@
 # Drupal 9 `drupal-check` Module Project Index Report
 
-A report of the state of all [Module Project Index listed sites](https://www.drupal.org/project/project_module/index?project-status=full&drupal_core=7234) utilizing the tool [drupal-check](https://github.com/mglaman/drupal-check) a "static analysis tool that will check for correctness (e.g. using a class that doesn't exist), deprecation errors, and more." The purpose is to expose our readiness for Drupal 9 a full 15 months ahead of the arrival of Drupal 9, which is scheduled for June 2, 2019.
+A report of the state of all [Module Project Index modules](https://www.drupal.org/project/project_module/index?project-status=full&drupal_core=7234) utilizing the tool [drupal-check](https://github.com/mglaman/drupal-check) a "static analysis tool that will check for correctness (e.g. using a class that doesn't exist), deprecation errors, and more." The purpose is to expose our readiness for Drupal 9 a full 15 months ahead of the arrival of Drupal 9, which is scheduled for June 2, 2019.
 
-Worksheet I worked off of: 
-https://docs.google.com/spreadsheets/d/1-W0k4vhdmw7ugzRdSa9orEc43_D5l6PPvUcrB8bw_-0/edit#gid=1026773715
 
 ## How do I use this repo?
 
@@ -23,27 +21,29 @@ total files present = 6868
 [files containing "assertNoText" = 25](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/assertNoTextList.txt)
 
 
-[files containing "deprecated method" = 1563](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DeprecatedMethodList.txt)
-
-[files containing "does not exist" = 271](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DoesNotExistsList.txt)
+[files containing "deprecated" = 2942](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/containsDeprecatedList.txt)
 
 [files containing "of deprecated class" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/OfDeprecatedClassList.txt)
 
-[files containing "drupal_set_message" = 1690](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/drupal_set_messageList.txt)
+[files containing "deprecated method" = 1563](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DeprecatedMethodList.txt)
+
+[files containing "does not exist" = 272](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/DoesNotExistsList.txt)
+
+[files containing "drupal_set_message" = 1692](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/drupal_set_messageList.txt)
+
+[files containing "entity_get_display" = 93](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/entity_get_form_displayList.txt)
 
 [files containing "entity_get_form_display" = 107](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/entity_get_form_displayList.txt)
 
-[files containing "entity_get_display" = 93]()
-
 [files containing "entity_view" = 22](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/EntityGetDisplayList.txt)
 
-[files containing "Fatal error" = 182](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/FatalErrorList.txt)
+[files containing "Fatal error" = 178](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/FatalErrorList.txt)
 
 [files containing "no error" = 2998](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NoErrorList.txt)
 
-[files containing "not found" = 803](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundList.txt)
+[files containing "not found" = 804](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundList.txt)
 
-[files containing "not found and could not be autoloaded" = 92](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundAndCouldNotBeAutoloaded.txt)
+[files containing "not found and could not be autoloaded" = 93](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/NotFoundAndCouldNotBeAutoloaded.txt)
 
 [files containing "Usage of deprecated trait" = 186](https://github.com/mcdwayne/Drupal-9-drupal-check-Report/blob/master/FilesContainingKeywordReports/UsageOfDeprecatedTraitList.txt)
 
@@ -62,6 +62,9 @@ If you don't see a ticket concerning the modules you rely on, raise an issue.
 #### What we did at MidCamp 2019
 
 We opened [tickets after running the report on the most popular 300 modules by number of installs](https://www.drupal.org/project/issues/search?issue_tags=Drupal%209%20compatibility)
+
+[Worksheet I worked from](https://docs.google.com/spreadsheets/d/1-W0k4vhdmw7ugzRdSa9orEc43_D5l6PPvUcrB8bw_-0/edit#gid=1026773715) 
+
 
 ### Why are we documenting 'No Errors'?
 
