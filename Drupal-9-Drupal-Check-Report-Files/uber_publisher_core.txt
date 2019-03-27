@@ -3,6 +3,23 @@ drupal-check results on commit hash:
 source : http://cgit.drupalcode.org/uber_publisher_core 
  
  <code> 
-Fatal error: Declaration of Drupal\uber_publisher_fbia\Plugin\Field\FieldFormatter\ERImageFormatter::viewInstantArticle(Drupal\Core\Field\FieldItemListInterface $items, Facebook\InstantArticles\Elements\InstantArticle $article, $region, $langcode = NULL) must be compatible with Drupalb_instant_articles\Plugin\Field\InstantArticleFormatterInterface::viewInstantArticle(Drupal\Core\Field\FieldItemListInterface $items, Facebook\InstantArticles\Elements\InstantArticle $article, $region, Symfony\Component\Serializer\Normalizer\NormalizerInterface $normalizer, $langcode = NULL) in /Users/dwaynemcdaniel/Documents/d9-contrib/midcamp2019-drupal/web/modules/contrib/uber_publisher_core/modules/uber_publisher_fbia/src/Plugin/Field/FieldFormatter/ERImageFormatter.php on line 35 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   modules/uber_publisher_amp/src/Plugin/Block/UberPublisherAMPHeader.php  
+ ------ ------------------------------------------------------------------------ 
+  43     Call to deprecated function drupal_render().                            
+  45     Call to deprecated function drupal_render().                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   modules/uber_publisher_fbia/src/Plugin/Field/FieldFormatter/ERImageFormatter.php  
+ ------ ---------------------------------------------------------------------------------- 
+  35     Class                                                                             
+         Drupalb_instant_articles\Plugin\Field\InstantArticleFormatterInterfac           
+         e not found and could not be autoloaded.                                          
+  187    Call to deprecated function file_load().                                          
+ ------ ---------------------------------------------------------------------------------- 
+
+ [ERROR] Found 4 errors                                                          
 
  </code>
